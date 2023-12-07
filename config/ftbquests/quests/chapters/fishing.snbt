@@ -1,0 +1,100 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "fishing"
+	group: "33A91E268D63CB12"
+	id: "55CAED01F1EBA921"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"To begin your &acrabby journey&r, you will need a &bCrab Trap&r. Place it in the water and &afill it with bait&r to lure in creatures."
+				""
+				"You can use &bregular Fish&r as bait to obtain &bKelp and Nautilus Shells&r, but if you want to catch &eCrabs&r, &bClams&r, &bShrimp&r, or &bClawsters&r, you'll need &b&lChum&r&r."
+			]
+			id: "0A415DB19D448EE0"
+			rewards: [
+				{
+					count: 5
+					id: "48A2B6549D8A3DFC"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7FD6AB916B17739E"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			subtitle: "it's a trap!"
+			tasks: [
+				{
+					id: "468300ABAC2A9262"
+					item: "crabbersdelight:crab_trap"
+					type: "item"
+				}
+				{
+					id: "71A30F003C396099"
+					item: {
+						Count: 1b
+						id: "crabbersdelight:bucket_of_crab_chum"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Beginner Crabbing"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			id: "4D9D45E60E1A72D6"
+			tasks: [
+				{
+					id: "57DE78AA06B54A54"
+					item: "crabbersdelight:crab_barrel"
+					type: "item"
+				}
+				{
+					id: "4C01BD9D9A69A2D5"
+					item: "crabbersdelight:clam_barrel"
+					type: "item"
+				}
+				{
+					id: "1BDD207E10E71211"
+					item: "crabbersdelight:clawster_barrel"
+					type: "item"
+				}
+				{
+					id: "61A1E0D616663D22"
+					item: "crabbersdelight:shrimp_barrel"
+					type: "item"
+				}
+				{
+					id: "659B842FFA839AE3"
+					item: "crabbersdelight:salmon_barrel"
+					type: "item"
+				}
+				{
+					id: "45096CB3984C5934"
+					item: "crabbersdelight:pufferfish_barrel"
+					type: "item"
+				}
+				{
+					id: "63CCB7E99906368E"
+					item: "crabbersdelight:tropical_fish_barrel"
+					type: "item"
+				}
+			]
+			title: "Compact Your Marine Life"
+			x: -4.5d
+			y: -8.5d
+		}
+	]
+	title: "Fishing"
+}

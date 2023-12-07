@@ -1,0 +1,11 @@
+{
+  "parent": "kubejs:block/carved_jungle",
+  "textures": {
+    "up": "kubejs:block/carved_jungle_4_top",
+    "down": "kubejs:block/carved_jungle_4_top",
+    "north": "kubejs:block/carved_jungle_4a",
+    "south": "kubejs:block/carved_jungle_4c",
+    "west":  "kubejs:block/carved_jungle_4b",
+    "east":  "kubejs:block/carved_jungle_4d"
+  }
+}

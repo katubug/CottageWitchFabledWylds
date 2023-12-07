@@ -1,0 +1,11 @@
+{
+  "parent": "kubejs:block/carved_warped",
+  "textures": {
+    "up": "kubejs:block/carved_warped_7_top",
+    "down": "kubejs:block/carved_warped_7_top",
+    "north": "kubejs:block/carved_warped_7_side_bcd",
+    "south": "kubejs:block/carved_warped_7_side_a",
+    "west":  "kubejs:block/carved_warped_7_side_bcd",
+    "east":  "kubejs:block/carved_warped_7_side_bcd"
+  }
+}

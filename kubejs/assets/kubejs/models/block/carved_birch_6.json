@@ -1,0 +1,11 @@
+{
+  "parent": "kubejs:block/carved_birch",
+  "textures": {
+    "up": "kubejs:block/carved_birch_6_top",
+    "down": "kubejs:block/carved_birch_6_bottom",
+    "north": "kubejs:block/carved_birch_6_sidea",
+    "south": "kubejs:block/carved_birch_6_sidec",
+    "west":  "kubejs:block/carved_birch_6_sideb",
+    "east":  "kubejs:block/carved_birch_6_sided"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "kubejs:block/carved_acacia",
+  "textures": {
+    "up": "kubejs:block/carved_acacia_1_top",
+    "down": "kubejs:block/carved_acacia_1_top",
+    "north": "kubejs:block/carved_acacia_1",
+    "south": "kubejs:block/carved_acacia_1",
+    "west":  "kubejs:block/carved_acacia_1",
+    "east":  "kubejs:block/carved_acacia_1"
+  }
+}

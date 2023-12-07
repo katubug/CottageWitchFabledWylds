@@ -1,0 +1,11 @@
+{
+  "parent": "kubejs:block/carved_oak",
+  "textures": {
+    "up": "kubejs:block/carved_oak_6_top",
+    "down": "kubejs:block/carved_oak_6_top",
+    "north": "kubejs:block/carved_oak_6_side",
+    "south": "kubejs:block/carved_oak_6_side",
+    "west":  "kubejs:block/carved_oak_6_side",
+    "east":  "kubejs:block/carved_oak_6_side"
+  }
+}

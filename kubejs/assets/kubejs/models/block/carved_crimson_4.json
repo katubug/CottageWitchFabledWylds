@@ -1,0 +1,61 @@
+{
+  "loader": "forge:composite",
+  "parent": "block/block",
+  "textures": {
+    "particle": "block/stripped_crimson_stem_top"
+  },
+  "children": {
+    "cutout": {
+      "render_type": "minecraft:cutout",
+      "textures": {
+        "up": "kubejs:block/crimson_bg/carved_crimson_4_top",
+        "down": "kubejs:block/crimson_bg/carved_crimson_4_top",
+        "north": "kubejs:block/crimson_bg/carved_crimson_4_side_c",
+        "south": "kubejs:block/crimson_bg/carved_crimson_4_side_a",
+        "west":  "kubejs:block/crimson_bg/carved_crimson_4_side_d",
+        "east":  "kubejs:block/crimson_bg/carved_crimson_4_side_b"
+      },
+      "elements": [
+        {
+          "name": "base",
+          "from": [0, 0, 0],
+          "to": [16, 16, 16],
+          "faces": {
+            "north": {"texture": "#north"},
+            "east": {"texture": "#east"},
+            "south": {"texture": "#south"},
+            "west": {"texture": "#west"},
+            "up": {"texture": "#up"},
+            "down": {"texture": "#down"}
+          }
+        }
+      ]
+    },
+    "translucent": {
+      "render_type": "minecraft:translucent",
+      "textures": {
+        "up": "kubejs:block/carved_crimson_4_side_a_top_o",
+        "down": "kubejs:block/carved_crimson_4_side_a_top_o",
+        "north": "kubejs:block/carved_crimson_4_side_c_o",
+        "south": "kubejs:block/carved_crimson_4_side_a_top_o",
+        "west":  "kubejs:block/carved_crimson_4_side_d_o",
+        "east":  "kubejs:block/carved_crimson_4_side_b_o"
+      },
+      "elements": [
+        {
+          "name": "overlay",
+          "from": [0, 0, 0],
+          "to": [16, 16, 16],
+          "faces": {
+            "north": {"texture": "#north"},
+            "east": {"texture": "#east"},
+            "south": {"texture": "#south"},
+            "west": {"texture": "#west"},
+            "up": {"texture": "#up"},
+            "down": {"texture": "#down"}
+          }
+        }
+      ]
+    }
+  }
+}

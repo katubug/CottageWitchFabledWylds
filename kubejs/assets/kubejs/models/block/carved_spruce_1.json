@@ -1,0 +1,11 @@
+{
+  "parent": "kubejs:block/carved_spruce",
+  "textures": {
+    "up": "kubejs:block/carved_spruce_1_top",
+    "down": "kubejs:block/carved_spruce_1_top",
+    "north": "kubejs:block/carved_spruce_1c",
+    "south": "kubejs:block/carved_spruce_1a",
+    "west":  "kubejs:block/carved_spruce_1d",
+    "east":  "kubejs:block/carved_spruce_1b"
+  }
+}

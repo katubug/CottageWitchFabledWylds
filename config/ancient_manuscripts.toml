@@ -1,0 +1,54 @@
+
+#Crafting Options
+[crafting_options]
+	#Glue uses [default: 20]
+	#Range: 1 ~ 100
+	magicBookGlueDurability = 20
+	#Maximum book enchantments [default: 5]
+	#Range: 1 ~ 10
+	maximumBookEnchantments = 5
+	#Allow enchanted books in recipe [default: true]
+	ancientManuscriptsEnchantedBookInRecipeEnabled = true
+	#Crafting time in seconds [default: 15]
+	#Range: 1 ~ 100
+	craftingTimeInSeconds = 15
+
+#Enchantment Options
+[enchantment_options]
+	#Include curse enchantments [default: false]
+	ancientManuscriptsIncludeCurseEnchanments = false
+	#Top tier enchantments only [default: false]
+	ancientManuscriptsTopTierEnchanmentsOnly = false
+	#Vanilla enchantments only [default: false]
+	ancientManuscriptsVanillaEnchanmentsOnly = false
+	#Allow treasure enchantments [default: true]
+	ancientManuscriptsAllowTreasureEnchanments = true
+
+#Trade Options
+[trade_options]
+
+	#Wandering Trader Trades
+	[trade_options.wandering_trader_trades]
+		#Wandering Trader max trades [default: 2]
+		#Range: 1 ~ 20
+		wanderingTraderMaxTradeCount = 2
+		#Wandering Trader trade cost [default: 30]
+		#Range: 1 ~ 50
+		wanderingTraderTradeCost = 30
+		#Wandering Trader trades enabled [default: true]
+		wanderingTraderTradesEnabled = true
+
+	#Villager Trades
+	[trade_options.villager_trades]
+		#Villager trade cost [default: 20]
+		#Range: 1 ~ 50
+		villagerTradeCost = 20
+		#Villager max trades [default: 2]
+		#Range: 1 ~ 20
+		villagerMaxTradeCount = 2
+		#Villager trade level [default: 3]
+		#Range: 1 ~ 5
+		villagerTradeLevel = 3
+		#Villager trades enabled [default: true]
+		villagerTradesEnabled = true
+

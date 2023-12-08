@@ -7,22 +7,6 @@
 	id: "5BB72972F910183F"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "59B1855ECF0E6434"
-		rewards: [{
-			id: "74B36C9F8E7AA753"
-			item: "crabbersdelight:pearl"
-			type: "item"
-		}]
-		subtitle: "i am perfectly clam"
-		tasks: [{
-			id: "5D8ED422781CE65F"
-			item: "crabbersdelight:clam"
-			type: "item"
-		}]
-		title: "Obtain a Clam"
-		x: -6.0d
-		y: -6.0d
-	}]
+	quests: [ ]
 	title: "Cooking"
 }

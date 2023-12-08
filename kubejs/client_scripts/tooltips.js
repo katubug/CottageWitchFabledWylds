@@ -70,6 +70,17 @@ ItemEvents.tooltip(e => {
         'ends_delight:dragon_leg',
         'ends_delight:raw_dragon_meat',
         'ends_delight:raw_dragon_meat_cuts',
+        'fruitsdelight:pear', 
+        'fruitsdelight:hawberry', 
+        'fruitsdelight:lychee', 
+        'fruitsdelight:mango', 
+        'fruitsdelight:persimmon', 
+        'fruitsdelight:peach', 
+        'fruitsdelight:orange', 
+        'fruitsdelight:blueberry', 
+        'fruitsdelight:lemon', 
+        'fruitsdelight:hamimelon_slice', 
+        'fruitsdelight:pineapple',
 
     ],
     'Raw Food/Ingredients')

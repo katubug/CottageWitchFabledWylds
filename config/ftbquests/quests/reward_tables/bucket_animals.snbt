@@ -1,0 +1,15 @@
+{
+	id: "092C7396A90FB8C2"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "minecraft:cod_bucket" }
+		{ item: "minecraft:salmon_bucket" }
+		{ item: "minecraft:tropical_fish_bucket" }
+		{ item: "minecraft:pufferfish_bucket" }
+		{ item: "minecraft:axolotl_bucket" }
+		{ item: "minecraft:tadpole_bucket" }
+		{ item: "crabbersdelight:crab_bucket" }
+	]
+	title: "Bucket Animals"
+}

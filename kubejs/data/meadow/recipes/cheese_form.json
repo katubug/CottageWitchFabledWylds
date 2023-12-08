@@ -1,0 +1,21 @@
+{
+    "replace": true,
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " _ ",
+        "B_B",
+        "___"
+    ],
+    "key": {
+        "_": {
+            "tag": "minecraft:wooden_slab"
+        },
+        "B": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "meadow:cheese_form",
+        "count": 1
+    }
+}

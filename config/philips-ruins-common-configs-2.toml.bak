@@ -1,0 +1,16 @@
+
+["Philip's Ruins"]
+	#Tell the game if to use configs for the ruins.
+	#By default is disable, you need to enable it. Make sure you restart the game after editing..
+	#Please note that if you use this config file it will override the default spawn weights.
+	#Settings apply for most structures. 
+	"Enable Configs" = false
+	#The structure spawn Separation. The larger the value less of the structure will spawn. Max is 100
+	"Structure Separation" = 10
+	#Controls the density.
+	#The larger the value the more structures will spawn.
+	#(Must be less than separation)
+	"Structure Density" = 9
+	#Seed for spawn structures
+	"Spawn Seed" = 1
+

@@ -1,0 +1,8 @@
+{
+  "configVersion": -1,
+  "maxNbOfEffects": 3,
+  "brewingTime": 140,
+  "normalPotionIngredient": "minecraft:nether_wart",
+  "splashPotionIngredient": "minecraft:gunpowder",
+  "lingeringPotionIngredient": "minecraft:dragon_breath"
+}

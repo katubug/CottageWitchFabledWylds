@@ -51,6 +51,12 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "delightful": {
+    "crop_progress": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -58,5 +64,11 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "gravestone": {
+    "grave": true
   }
 }

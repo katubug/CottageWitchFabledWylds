@@ -1,0 +1,88 @@
+copper_nugget_loot = true
+
+["Enabled Copper Overrides"]
+
+	["Enabled Copper Overrides".repeater]
+		enabled = true
+		appearance = true
+		recipe = true
+		weathering = true
+		sound = true
+
+	["Enabled Copper Overrides".comparator]
+		enabled = true
+		appearance = true
+		recipe = true
+		weathering = true
+		sound = true
+
+	["Enabled Copper Overrides".piston]
+		enabled = true
+		appearance = true
+		recipe = true
+		weathering = true
+		sound = true
+
+	["Enabled Copper Overrides".sticky_piston]
+		enabled = true
+		appearance = true
+		recipe = true
+		weathering = true
+		sound = true
+
+	["Enabled Copper Overrides".dispenser]
+		enabled = true
+		appearance = true
+		recipe = true
+		weathering = true
+		sound = true
+
+	["Enabled Copper Overrides".dropper]
+		enabled = true
+		appearance = true
+		recipe = true
+		weathering = true
+		sound = true
+
+	["Enabled Copper Overrides".observer]
+		enabled = true
+		appearance = true
+		recipe = true
+		weathering = true
+		sound = true
+
+	["Enabled Copper Overrides".lever]
+		enabled = true
+		appearance = true
+		recipe = true
+		weathering = true
+		sound = true
+
+	["Enabled Copper Overrides".powered_rail]
+		enabled = true
+		appearance = true
+		recipe = true
+		weathering = true
+		sound = true
+
+	["Enabled Copper Overrides".relayer]
+		enabled = true
+		appearance = true
+		recipe = true
+		weathering = true
+		sound = true
+
+	["Enabled Copper Overrides".crank]
+		enabled = true
+		appearance = true
+		recipe = true
+		weathering = true
+		sound = true
+
+	["Enabled Copper Overrides".cog_block]
+		enabled = true
+		appearance = true
+		recipe = true
+		weathering = true
+		sound = true
+

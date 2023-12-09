@@ -1,0 +1,11 @@
+{
+    /*
+     * Amount of xp level needed to obtain 1 slot
+     * Type: Integer
+     */
+    "level_per_slot": 3,
+    // Determine if slot reward items are generated in chests
+    "generate_item_reward": false,
+    // Determine if slot reward items are preserved when you die
+    "preserve_rewards_on_death": true
+}

@@ -1,0 +1,25 @@
+{
+  "replace":true,
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "p": {
+      "item": "minecraft:flower_pot"
+    },
+    "@": {
+      "tag": "forge:flowers"
+    }
+  },
+  "pattern": [
+    "p@",
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "verdantvibes:gardening_table"
+  },
+  "show_notification": true
+}

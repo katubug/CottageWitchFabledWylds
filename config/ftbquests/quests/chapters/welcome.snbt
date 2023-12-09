@@ -1,0 +1,85 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "6B4E114EC6CDE8EE"
+	id: "525A3F37A27EBC86"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "374F3C20A776C490"
+		rewards: [{
+			id: "2D1CF8D41AB8448B"
+			item: {
+				Count: 1b
+				id: "eccentrictome:tome"
+				tag: {
+					"eccentrictome:mods": {
+						aether: {
+							0: {
+								Count: 1b
+								id: "aether:book_of_lore"
+							}
+						}
+						eidolon: {
+							0: {
+								Count: 1b
+								id: "eidolon:codex"
+							}
+						}
+						ftbquests: {
+							0: {
+								Count: 1b
+								id: "ftbquests:book"
+							}
+						}
+						irons_spellbooks: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "irons_spellbooks:iss_guide_book"
+								}
+							}
+						}
+						lexicon: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "lexicon:lexicon"
+								}
+							}
+						}
+						untamedwilds: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "untamedwilds:encyclopedia_of_life"
+								}
+							}
+						}
+						unusualprehistory: {
+							0: {
+								Count: 1b
+								id: "unusualprehistory:encyclopedia"
+							}
+						}
+					}
+				}
+			}
+			type: "item"
+		}]
+		tasks: [{
+			dimension: "minecraft:overworld"
+			icon: "minecraft:grass_block"
+			id: "3ABA2861FDA8CCD6"
+			type: "dimension"
+		}]
+		title: "Begin Your World"
+		x: -2.5d
+		y: -3.0d
+	}]
+	title: "Welcome"
+}

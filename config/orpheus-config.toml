@@ -1,0 +1,5 @@
+
+["Configs for Orpheus Mod"]
+	#If you input "keep" it will give you the KeepInventory effect. If you input "protect" it will grant you immunity to arrows. If you input the word "both", you will have both effects.
+	"Orpheus Lyre Power" = "keep"
+

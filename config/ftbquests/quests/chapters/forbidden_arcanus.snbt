@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forbidden_arcanus"
+	group: ""
+	id: "28D81A0777D8ADD7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "54BE861A17D87684"
+		tasks: [{
+			id: "69C1C9E97A3E304E"
+			item: "forbidden_arcanus:arcane_crystal"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -3.0d
+	}]
+	title: "Forbidden Arcanus"
+}

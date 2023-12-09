@@ -1,0 +1,7 @@
+#Whether tooltips are shown
+showTooltips = true
+#Whether stat trackers are shown
+showStatTrackers = true
+#Whether a jeweled item can be crafted by draging and droping a tool onto a ring in an inventory
+allowDropCrafting = false
+

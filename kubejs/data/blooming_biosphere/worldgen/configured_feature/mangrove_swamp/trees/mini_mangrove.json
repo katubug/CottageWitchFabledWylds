@@ -1,0 +1,168 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "force_dirt": false,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 0,
+      "upper_size": 2
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:mangrove_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:mangrove_leaves",
+        "Properties": {
+          "distance": "7",
+          "persistent": "false",
+          "waterlogged": "false"
+        }
+      }
+    },
+    "root_placer": {
+      "type": "minecraft:mangrove_root_placer",
+      "root_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:mangrove_roots",
+          "Properties": {
+            "waterlogged": "false"
+          }
+        }
+      },
+      "trunk_offset_y": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 3
+        }
+      },
+      "above_root_placement": {
+        "above_root_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:moss_carpet"
+          }
+        },
+        "above_root_placement_chance": 0.75
+      },
+      "mangrove_root_placement": {
+        "max_root_width": 6,
+        "max_root_length": 8,
+        "random_skew_chance": 0.23,
+        "can_grow_through": "#minecraft:mangrove_roots_can_grow_through",
+        "muddy_roots_in": [
+          "minecraft:mud",
+          "minecraft:muddy_mangrove_roots"
+        ],
+        "muddy_roots_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:muddy_mangrove_roots",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:cherry_trunk_placer",
+      "base_height": 5,
+      "height_rand_a": 3,
+      "height_rand_b": 0,
+      "branch_count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 1,
+            "data": 1
+          },
+          {
+            "weight": 1,
+            "data": 2
+          }
+        ]
+      },
+      "branch_horizontal_length": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 3
+        }
+      },
+      "branch_start_offset_from_top": {
+        "min_inclusive": -3,
+        "max_inclusive": -2
+      },
+      "branch_end_offset_from_top": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -1,
+          "max_inclusive": 0
+        }
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:cherry_foliage_placer",
+      "radius": 4,
+      "offset": 0,
+      "height": 4,
+      "wide_bottom_layer_hole_chance": 1,
+      "corner_hole_chance": 1,
+      "hanging_leaves_chance": 0.23,
+      "hanging_leaves_extension_chance": 0.087
+    },
+    "decorators": [
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.14,
+        "exclusion_radius_xz": 1,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 2,
+        "block_provider": {
+          "type": "minecraft:randomized_int_state_provider",
+          "property": "age",
+          "values": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": 0,
+              "max_inclusive": 4
+            }
+          },
+          "source": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:mangrove_propagule",
+              "Properties": {
+                "age": "0",
+                "hanging": "true",
+                "stage": "0",
+                "waterlogged": "false"
+              }
+            }
+          }
+        },
+        "directions": [
+          "down"
+        ]
+      }
+    ]
+  }
+}

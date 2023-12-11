@@ -18,16 +18,16 @@ ShouldGenerateInChests = true
 
 #Enable/disable symbols and location of the advancement that will unlock that symbol. (Empty = always unlocked)
 [Symbols]
-	SkullEnabled = true
-	SkullUnlockAdvancement = "chalk:adventure/get_skeleton_skull"
+	CheckEnabled = true
+	CheckUnlockAdvancement = ""
 	CrossEnabled = true
 	CrossUnlockAdvancement = ""
-	HeartEnabled = true
-	HeartUnlockAdvancement = "minecraft:husbandry/tame_an_animal"
 	PickaxeEnabled = true
 	PickaxeUnlockAdvancement = "minecraft:story/iron_tools"
 	HouseEnabled = true
 	HouseUnlockAdvancement = "chalk:adventure/sleep_three_times_in_one_place"
-	CheckEnabled = true
-	CheckUnlockAdvancement = ""
+	SkullEnabled = true
+	SkullUnlockAdvancement = "chalk:adventure/get_skeleton_skull"
+	HeartEnabled = true
+	HeartUnlockAdvancement = "minecraft:husbandry/tame_an_animal"
 

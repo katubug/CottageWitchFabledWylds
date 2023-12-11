@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:coarse_dirt"
+        }
+      },
+      "rules": []
+    },
+    "target": {
+      "type": "minecraft:all_of",
+      "predicates": [
+        {
+          "type": "minecraft:solid"
+        },
+        {
+          "type": "minecraft:matching_blocks",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "blocks": [
+            "minecraft:grass_block",
+            "minecraft:sandstone"
+          ]
+        },
+        {
+          "type": "minecraft:true"
+        }
+      ]
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 8
+      }
+    },
+    "half_height": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "feature": "blooming_biosphere:chaparral/coarse_dirt_patch",
+  "placement": [
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 5
+        }
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 5,
+            "data": 3
+          },
+          {
+            "weight": 3,
+            "data": 2
+          }
+        ]
+      }
+    }
+  ]
+}

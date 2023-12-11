@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "minecraft:weighted_state_provider",
+              "entries": [
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:small_dripleaf",
+                    "Properties": {
+                      "facing": "east",
+                      "half": "lower",
+                      "waterlogged": "false"
+                    }
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:small_dripleaf",
+                    "Properties": {
+                      "facing": "west",
+                      "half": "lower",
+                      "waterlogged": "false"
+                    }
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:small_dripleaf",
+                    "Properties": {
+                      "facing": "north",
+                      "half": "lower",
+                      "waterlogged": "false"
+                    }
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:small_dripleaf",
+                    "Properties": {
+                      "facing": "south",
+                      "half": "lower",
+                      "waterlogged": "false"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

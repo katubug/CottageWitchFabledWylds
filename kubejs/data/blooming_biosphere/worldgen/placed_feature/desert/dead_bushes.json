@@ -1,0 +1,35 @@
+{
+  "feature": "minecraft:patch_dead_bush",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 18,
+            "data": 2
+          },
+          {
+            "weight": 25,
+            "data": 4
+          },
+          {
+            "weight": 3,
+            "data": 24
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

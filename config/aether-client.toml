@@ -5,9 +5,9 @@
 	#Disables the Aether's custom skybox in case you have a shader that is incompatible with custom skyboxes
 	"Disables Aether custom skybox" = false
 	#Removes warm-tinting of the lightmap in the Aether, giving the lighting a colder feel
-	"Makes lightmap colder" = true
+	"Makes lightmap colder" = false
 	#Enables a green-tinted sunrise and sunset in the Aether, similar to the original mod
-	"Enables green sunrise/sunset" = true
+	"Enables green sunrise/sunset" = false
 
 [Gui]
 	#Adds a button to the top right of the main menu screen to toggle between the Aether and vanilla menu

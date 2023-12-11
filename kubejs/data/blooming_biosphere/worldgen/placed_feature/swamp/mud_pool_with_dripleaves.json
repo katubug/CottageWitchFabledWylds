@@ -1,0 +1,25 @@
+{
+  "feature": "blooming_biosphere:swamp/mud_pool_with_dripleaves",
+  "placement": [
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 2
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": [
+          "minecraft:dirt",
+          "minecraft:grass_block",
+          "minecraft:mud"
+        ]
+      }
+    }
+  ]
+}

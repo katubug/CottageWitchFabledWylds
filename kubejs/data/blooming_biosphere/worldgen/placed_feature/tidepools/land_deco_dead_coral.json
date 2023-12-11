@@ -1,0 +1,13 @@
+{
+  "feature": "blooming_biosphere:tidepools/land_deco_dead_coral",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 2
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    }
+  ]
+}

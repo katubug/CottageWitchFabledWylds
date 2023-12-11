@@ -1,0 +1,29 @@
+{
+  "feature": "blooming_biosphere:birch_forest/huge_brown_mushroom_small",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:oak_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:noise_threshold_count",
+      "noise_level": 55,
+      "below_noise": 2,
+      "above_noise": -4
+    },
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": 3,
+      "noise_factor": 9,
+      "noise_offset": -0.22
+    }
+  ]
+}

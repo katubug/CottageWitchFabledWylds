@@ -50,6 +50,12 @@ JEIEvents.hideItems(event => {
         'candlelight:lettuce',
         'candlelight:tomato_crate', 
         'candlelight:lettuce_crate',
+        'nameless_trinkets:missing_page', 
+        'nameless_trinkets:what_magnet', 
+        'nameless_trinkets:explosion_proof_jacket', 
+        'nameless_trinkets:ghast_eye', 
+        'nameless_trinkets:electric_paddle', 
+        'nameless_trinkets:sleeping_pills',
 
     ];
     

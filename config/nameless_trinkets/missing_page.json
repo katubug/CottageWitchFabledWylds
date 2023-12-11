@@ -3,6 +3,6 @@
     "activationPercentage": 25,
     "radiusInBlocks": 25.0,
     "percentageOfDamage": 20.0,
-    "isEnable": true
+    "isEnable": false
   }
 }

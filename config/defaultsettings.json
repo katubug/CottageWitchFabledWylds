@@ -2,7 +2,11 @@
   "version": "4.0.5",
   "prevVersion": "none",
   "generatedBy": "b59f5994-6629-4582-a038-08453e07912c",
-  "hashes": {},
+  "hashes": {
+    "Default/servers.dat": "5115E10569B469014E2C973381D27BFF",
+    "Default/keys.txt": "6A4BB10EDB1EFA522FA836B11B77443F",
+    "Default/options.txt": "F7B8C1EBE4114C5E9FD65812207DEF0A"
+  },
   "mainProfile": "Default",
   "initially_created": "10.12.2023 18:50:28"
 }

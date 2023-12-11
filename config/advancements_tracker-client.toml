@@ -12,7 +12,7 @@
 	#Enable/Disable the advancements tracker widget.
 	widgetEnabled = true
 	#Shows the widget automatically. If this is set to false the widget will be only visible after pressing the defined hot-keys.
-	widgetVisible = true
+	widgetVisible = false
 	#Defines the base position of the widget, default is MIDDLE_RIGHT
 	#Allowed Values: BOTTOM_LEFT, BOTTOM_RIGHT, MIDDLE_LEFT, MIDDLE_RIGHT, TOP_LEFT, TOP_RIGHT
 	widgetPosition = "MIDDLE_RIGHT"

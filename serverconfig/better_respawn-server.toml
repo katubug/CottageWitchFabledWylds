@@ -1,0 +1,10 @@
+#The maximum distance to spawn the player away from its death location
+#Range: 16 ~ 8192
+max_respawn_distance = 256
+#The minimum distance to spawn the player away from its death location
+#Range: 0 ~ 4096
+min_respawn_distance = 128
+#If the player is in this range of its bed/respawn anchor it will respawn there
+#Range: > 0
+respawn_block_range = 256
+

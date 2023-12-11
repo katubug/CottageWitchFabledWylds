@@ -1,0 +1,19 @@
+{
+    /*
+     * Amount of ingredients that can be retrieved in the uncrafter
+     * Type: Integer
+     */
+    "extract_amount": 1,
+    /*
+     * Amount of ingredients that can be retrieved in the advanced uncrafter
+     * Type: Integer
+     */
+    "advanced_extract_amount": 3,
+    /*
+     * Amount of enchantment that can be retrieved in the advanced uncrafter
+     * Type: Integer
+     */
+    "enchantment_extract_amount": 3,
+    // Determine if the enchantments keep their level or are reduced to their first level
+    "minimum_level_for_enchantments": false
+}

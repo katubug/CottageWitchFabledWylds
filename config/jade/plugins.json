@@ -51,6 +51,14 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "tombstone": {
+    "graves": true
+  },
+  "easy_villagers": {
+    "villager": true,
+    "converter": true,
+    "breeder": true
+  },
   "delightful": {
     "crop_progress": true
   },
@@ -67,8 +75,5 @@
   },
   "waystones": {
     "waystone": true
-  },
-  "gravestone": {
-    "grave": true
   }
 }

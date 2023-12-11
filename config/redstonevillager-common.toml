@@ -1,0 +1,173 @@
+
+#More Villager
+[Villagers]
+
+	[Villagers."Redstone Villager Trades"]
+		#Determines how much Redstone Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Redstone Cost" = 2
+		#Determines how much Redstone Torch Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Redstone Torch Cost" = 3
+		#Determines how much Tripwire Hooks Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Tripwire Hook Cost" = 2
+		#Determines how much Levers Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Lever Cost" = 1
+		#Determines how much Heavy Weighted Pressure Plates Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Heavy Weighted Pressure Plate Cost" = 3
+		#Determines how much Light Weighted Pressure Plate Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Light Weighted Pressure Plate Cost" = 3
+		#Determines how much Note Blocks Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Note Block Cost" = 5
+		#Determines how much Target Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Target Cost" = 5
+		#Determines how much Lightning Rod Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Lightning Rod Cost" = 5
+		#Determines how much Lectern Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Lectern Cost" = 5
+		#Determines how much Dropper Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Dropper Cost" = 8
+		#Determines how much Slime Block Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Slime Block Cost" = 8
+		#Determines how much Honey Block Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Honey Block Cost" = 8
+		#Determines how much Daylight Detector Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Daylight Detector Cost" = 8
+		#Determines how much Redstone Lamp Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Redstone Lamp Cost" = 8
+		#Determines how much Trapped Chest Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Trapped Chest Cost" = 7
+		#Determines how much Repeater Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Repeater Cost" = 10
+		#Determines how much Comparator Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Comparator Cost" = 10
+		#Determines how much Hopper Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Hopper Cost" = 12
+		#Determines how much Piston Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Piston Cost" = 12
+		#Determines how much Sculk Sensor Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Sculk Sensor Cost" = 25
+		#Determines how much Dispenser Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Dispenser Cost" = 12
+		#Determines how much Observer Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Observer Cost" = 12
+		#Determines how much Sticky Piston Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Sticky Piston Cost" = 12
+		#Determines how much TNT Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"TNT Cost" = 12
+		#Determines how much Redstone Block Costs when trading with the Redstone Villager
+		#Range: 1 ~ 64
+		"Redstone Block Cost" = 10
+
+		[Villagers."Redstone Villager Trades"."Nether Villager Trades"]
+			#Determines how much Warped Fungus Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Warped Fungus Cost" = 1
+			#Determines how much Crimson Fungus Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Crimson Fungus Cost" = 1
+			#Determines how much Weeping Vines Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Weeping Vines Cost" = 1
+			#Determines how much Twisted Vines Cost when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Twisted Vines Cost" = 1
+			#Determines how much Warped Roots Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Warped Roots Cost" = 1
+			#Determines how much Nether Sprouts Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Nether Sprouts Cost" = 1
+			#Determines how much Crimson Roots Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Crimson Roots Cost" = 1
+			#Determines how much Netherrack Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Netherrack Cost" = 2
+			#Determines how much Soul Sand Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Soul Sand Cost" = 2
+			#Determines how much Soul Soil Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Soul Soil Cost" = 2
+			#Determines how much Warped Stem Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Warped Stem Cost" = 3
+			#Determines how much Crimson Stem Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Crimson Stem Cost" = 3
+			#Determines how much Basalt Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Basalt Cost" = 3
+			#Determines how much Nether Wart Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Nether Wart Cost" = 3
+			#Determines how much Gilded Blackstone Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Gilded Blackstone Cost" = 5
+			#Determines how much Warped Nylium Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Warped Nylium Cost" = 5
+			#Determines how much Crimson Nylium Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Crimson Nylium Cost" = 5
+			#Determines how much Nether Wart Block Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Nether Wart Block Cost" = 4
+			#Determines how much Warped Wart Block Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Warped Wart Block Cost" = 4
+			#Determines how much Blackstone Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Blackstone Cost" = 4
+			#Determines how much Magma Block Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Magma Block Cost" = 6
+			#Determines how much Crying Obsidian Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Crying Obsidian Cost" = 8
+			#Determines how much Nether Bricks Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Nether Bricks Cost" = 5
+			#Determines how much Red Nether Bricks Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Red Nether Bricks Cost" = 5
+			#Determines how much Quartz Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Quartz Cost" = 6
+			#Determines how much Blaze Rod Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Blaze Rod Cost" = 5
+			#Determines how much Lodestone Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Lodestone Rod Cost" = 38
+			#Determines how much Pigstep Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Pigstep Cost" = 16
+			#Determines how much Respawn Anchor Costs when trading with the Redstone Villager
+			#Range: 1 ~ 64
+			"Respawn Anchor Cost" = 22
+

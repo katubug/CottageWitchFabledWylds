@@ -1,0 +1,3 @@
+#Extra tags to be removed when a dog is respawned.
+respawn_removal_tags = []
+

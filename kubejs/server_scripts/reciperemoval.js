@@ -26,6 +26,12 @@ ServerEvents.recipes(event => {
         {output: 'aquaculture:jungle_fish_mount'},
         {output: 'aquaculture:acacia_fish_mount'},
         {output: 'aquaculture:dark_oak_fish_mount'},
+        {output: 'nameless_trinkets:missing_page'}, 
+        {output: 'nameless_trinkets:what_magnet'}, 
+        {output: 'nameless_trinkets:explosion_proof_jacket'}, 
+        {output: 'nameless_trinkets:ghast_eye'}, 
+        {output: 'nameless_trinkets:electric_paddle'}, 
+        {output: 'nameless_trinkets:sleeping_pills'},
     ];
     
       for (const remove of toRemove) {

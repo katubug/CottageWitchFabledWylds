@@ -4,6 +4,6 @@
     "regenerationTime": 200,
     "regenerationExtraTime": 60,
     "regenerationLevel": 0,
-    "isEnable": true
+    "isEnable": false
   }
 }

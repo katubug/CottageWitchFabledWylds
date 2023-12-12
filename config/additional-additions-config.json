@@ -7,7 +7,7 @@
   },
   "WateringCan": true,
   "RoseGold": true,
-  "Ropes": true,
+  "Ropes": false,
   "EnchantmentPrecision": true,
   "EnchantmentSpeed": true,
   "Wrench": true,
@@ -20,11 +20,11 @@
   "TridentShard": true,
   "GlowStick": true,
   "GildedNetherite": {
-    "enabled": true,
+    "enabled": false,
     "fireResistancePerPiece": 2.5
   },
   "DepthMeter": {
-    "enabled": true,
+    "enabled": false,
     "displayElevationAlways": false
   },
   "MysteriousBundle": true,
@@ -33,7 +33,7 @@
   "NoteBlockAmethystSounds": true,
   "ShipwreckSpyglassLoot": true,
   "PocketJukebox": true,
-  "ChickenNugget": true,
+  "ChickenNugget": false,
   "PoweredRailsCopperRecipe": true,
   "GlowBerryEatGlow": {
     "enabled": true,

@@ -1,0 +1,43 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wip"
+	group: ""
+	id: "53679186C1550084"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The &bUncrafter&r is a magical salvager which can &areturn one ingredient&r from a crafted item. For example, if you put in a &bDiamond Helmet&r, you could &aretrieve one &bDiamond&r from it."
+				""
+				"This works &aeven if the item has taken damage&r, so it could be a helpful way to salvage old gear!"
+			]
+			id: "257C8B9C7DBEEC23"
+			shape: "hexagon"
+			tasks: [{
+				id: "68A4AE97D731DA88"
+				item: "uncrafter:uncrafter"
+				type: "item"
+			}]
+			title: "Obtain an Uncrafter"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["257C8B9C7DBEEC23"]
+			description: ["The &bAdvanced Uncrafter&r is very similar to the basic version, except it can return &a3 of the ingredients&r of a crafted item, instead of just one."]
+			id: "02841E684EA6A93B"
+			shape: "hexagon"
+			tasks: [{
+				id: "20E696D509AC71A8"
+				item: "uncrafter:advanced_uncrafter"
+				type: "item"
+			}]
+			title: "Obtain an Advanced Uncrafter"
+			x: -1.5d
+			y: -6.5d
+		}
+	]
+	title: "WIP"
+}

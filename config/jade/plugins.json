@@ -62,6 +62,12 @@
   "delightful": {
     "crop_progress": true
   },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
+  },
   "supplementaries": {
     "hat_stand": true
   },

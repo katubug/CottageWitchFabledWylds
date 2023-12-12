@@ -2,5 +2,6 @@
 	chapter_groups: [
 		{ id: "6B4E114EC6CDE8EE", title: "Basics" }
 		{ id: "33A91E268D63CB12", title: "Agriculture" }
+		{ id: "181D7A6A92948264", title: "Magic \\& The Arcane" }
 	]
 }

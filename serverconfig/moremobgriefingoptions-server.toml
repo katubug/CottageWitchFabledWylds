@@ -1420,9 +1420,6 @@
 	#doggytalents:dog_beam mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"doggytalents:dog_beam" = "DEFAULT"
-	#sophisticatedbackpacks:everlasting_backpack_item mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"sophisticatedbackpacks:everlasting_backpack_item" = "DEFAULT"
 	#relics:shadow_glaive mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"relics:shadow_glaive" = "DEFAULT"
@@ -1465,9 +1462,6 @@
 	#cozy_home:seat_low mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"cozy_home:seat_low" = "DEFAULT"
-	#starmetal:star_metal mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"starmetal:star_metal" = "DEFAULT"
 	#tiab:time_accelerator_entity_type mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"tiab:time_accelerator_entity_type" = "DEFAULT"
@@ -2020,4 +2014,88 @@
 	#tombstone:spectral_bite mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"tombstone:spectral_bite" = "DEFAULT"
+	#reliquary:aphrodite_potion mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:aphrodite_potion" = "DEFAULT"
+	#reliquary:fertile_potion mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:fertile_potion" = "DEFAULT"
+	#reliquary:thrown_potion mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:thrown_potion" = "DEFAULT"
+	#reliquary:blaze_shot mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:blaze_shot" = "DEFAULT"
+	#reliquary:buster_shot mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:buster_shot" = "DEFAULT"
+	#reliquary:concussive_shot mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:concussive_shot" = "DEFAULT"
+	#reliquary:ender_shot mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:ender_shot" = "DEFAULT"
+	#reliquary:exorcism_shot mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:exorcism_shot" = "DEFAULT"
+	#reliquary:neutral_shot mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:neutral_shot" = "DEFAULT"
+	#reliquary:sand_shot mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:sand_shot" = "DEFAULT"
+	#reliquary:seeker_shot mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:seeker_shot" = "DEFAULT"
+	#reliquary:storm_shot mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:storm_shot" = "DEFAULT"
+	#reliquary:ender_staff_projectile mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:ender_staff_projectile" = "DEFAULT"
+	#reliquary:glowing_water mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:glowing_water" = "DEFAULT"
+	#reliquary:holy_hand_grenade mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:holy_hand_grenade" = "DEFAULT"
+	#reliquary:kraken_slime mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:kraken_slime" = "DEFAULT"
+	#reliquary:lyssa_hook mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:lyssa_hook" = "DEFAULT"
+	#reliquary:tipped_arrow mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:tipped_arrow" = "DEFAULT"
+	#reliquary:special_snowball mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"reliquary:special_snowball" = "DEFAULT"
+	#create:contraption mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"create:contraption" = "DEFAULT"
+	#create:stationary_contraption mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"create:stationary_contraption" = "DEFAULT"
+	#create:gantry_contraption mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"create:gantry_contraption" = "DEFAULT"
+	#create:carriage_contraption mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"create:carriage_contraption" = "DEFAULT"
+	#create:super_glue mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"create:super_glue" = "DEFAULT"
+	#create:crafting_blueprint mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"create:crafting_blueprint" = "DEFAULT"
+	#create:potato_projectile mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"create:potato_projectile" = "DEFAULT"
+	#create:seat mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"create:seat" = "DEFAULT"
+	#sophisticatedbackpacks:everlasting_backpack_item mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"sophisticatedbackpacks:everlasting_backpack_item" = "DEFAULT"
 

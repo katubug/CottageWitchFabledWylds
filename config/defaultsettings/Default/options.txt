@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/aether_tips","file/SuperSimple3DdripstoneV1.3.zip","file/EnderEyes_1.20.1_v3.zip","file/BabyAnimalsRemastered_1.20.1_v1.zip","file/[1.4] Enhanced Boss Bars.zip","file/updated_aquaculture-1.0.zip","bushy_leaves","better_leaves","green_stove"]
+incompatibleResourcePacks:["file/updated_aquaculture-1.0.zip"]
 lastServer:
 lang:en_us
 soundDevice:""

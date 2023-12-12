@@ -53,6 +53,10 @@
   "easy_villagers:villager": null,
   "easy_villagers:converter": null,
   "easy_villagers:breeder": null,
+  "reliquary:mortar": null,
+  "reliquary:altar": null,
+  "reliquary:cauldron": null,
+  "reliquary:pedestal": null,
   "supplementaries:present": null,
   "supplementaries:safe": null,
   "supplementaries:hat_stand": null,
@@ -105,5 +109,9 @@
   "jade:block_face": null,
   "easy_villagers:villager": null,
   "easy_villagers:converter": null,
-  "easy_villagers:breeder": null
+  "easy_villagers:breeder": null,
+  "reliquary:mortar": null,
+  "reliquary:altar": null,
+  "reliquary:cauldron": null,
+  "reliquary:pedestal": null
 }

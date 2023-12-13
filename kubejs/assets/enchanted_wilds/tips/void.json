@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Afraid of the void? Don't be! If you fall into the void, you'll simply be teleported up to world height so you can control your descent toward land."
+    }
+  }

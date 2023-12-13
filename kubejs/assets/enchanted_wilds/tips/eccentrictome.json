@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "The Eccentric Tome holds many different guidebooks. Right click it to view selectable books. Left click it in the air to reset it from a selected book. Crouch and throw the Tome when a book is selected to remove that book from it. Craft the Tome with a book to hold that book inside it."
+    }
+  }

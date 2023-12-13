@@ -34,6 +34,30 @@ ServerEvents.recipes(event => {
         }
     )
 */
+    // Soul Receptacle
+    event.shaped(
+        Item.of('tombstone:soul_receptacle'),
+        [
+            ' A ',
+            'BCB',
+            ' D '
+        ],
+        {
+            A: 'minecraft:chain',
+            B: 'minecraft:iron_ingot',
+            C: '#forge:souls',
+            D: 'minecraft:soul_soil'
+        }
+    )
+
+    //Recipe Replacements
+    //Strawberries
+    event.replaceInput(
+        { input: 'mysticsbiomes:strawberry' }, // Arg 1: the filter
+        'mysticsbiomes:strawberry',            // Arg 2: the item to replace
+        'bakery:strawberry'         // Arg 3: the item to replace it with
+        // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
+      )
 
   })
 

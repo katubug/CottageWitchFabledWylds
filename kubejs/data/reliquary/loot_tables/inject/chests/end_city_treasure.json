@@ -1,0 +1,39 @@
+{
+  "replace": true,
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "reliquary:nebulous_heart",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquary:ender_staff",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 64
+        }
+      ],
+      "name": "main",
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "reliquary:inject/chests/end_city_treasure"
+}

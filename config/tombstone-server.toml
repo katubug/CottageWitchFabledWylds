@@ -3,7 +3,7 @@
 [player_death]
 	#Experience loss on death (%) [-1..100|default:100|disabled:-1]
 	#Range: -1 ~ 100
-	xp_loss = 50
+	xp_loss = 100
 	#The time in minutes before a grave is unlocked to anyone [-1..MAX|default:-1|disabled:-1]
 	#Range: > -1
 	decay_time = -1
@@ -15,7 +15,7 @@
 	ghostly_shape_duration = 120
 	#The chance that a player receives an already enchanted Grave's Key on death [-1..100|default:0|disabled:-1]
 	#Range: -1 ~ 100
-	chance_enchanted_grave_key = 0
+	chance_enchanted_grave_key = 50
 	#Defines the progression scale to be able to upgrade perks to higher level (based on the level in Knowledge of Death) [1..5|default:2]
 	#Range: 1 ~ 5
 	perk_progression_scale = 2

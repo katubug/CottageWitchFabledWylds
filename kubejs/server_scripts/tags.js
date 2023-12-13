@@ -38,4 +38,19 @@ ServerEvents.tags('item', event => {
         'regions_unexplored:white_magnolia_flowers',
     )
 
+    event.add(
+        'forge:souls',
+        'forbidden_arcanus:enchanted_soul', 
+        'forbidden_arcanus:corrupt_soul', 
+        'forbidden_arcanus:soul',
+        'nameless_trinkets:miners_soul',
+        'endrem:undead_soul'
+    )
+
+    event.add(
+        'noflyzone:disallowed_flying_devices',
+        'nameless_trinkets:ethereal_wings', 
+        'relics:blazing_flask'
+    )
+
 })

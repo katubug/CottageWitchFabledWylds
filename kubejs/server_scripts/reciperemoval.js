@@ -53,6 +53,9 @@ ServerEvents.recipes(event => {
         {output: 'reliquary:bullets/blaze_bullet'}, 
         {output: 'reliquary:bullets/exorcism_bullet'},
         {output: 'nameless_trinkets:four_leaf_clover'},
+        {output: 'reliquary:rending_gale'},
+        {output: 'mysticsbiomes:strawberry_jam'},
+        {output: 'mysticsbiomes:glass_jar'},
     ];
     
       for (const remove of toRemove) {

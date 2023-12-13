@@ -86,6 +86,10 @@ JEIEvents.hideItems(event => {
         'structure_gel:orange_gel', 
         'structure_gel:cyan_gel',
         'nameless_trinkets:four_leaf_clover',
+        'reliquary:rending_gale',
+        'mysticsbiomes:strawberry',
+        'mysticsbiomes:strawberry_jam',
+        'mysticsbiomes:glass_jar',
 
     ];
     

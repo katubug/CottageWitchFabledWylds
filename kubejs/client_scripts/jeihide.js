@@ -90,6 +90,9 @@ JEIEvents.hideItems(event => {
         'mysticsbiomes:strawberry',
         'mysticsbiomes:strawberry_jam',
         'mysticsbiomes:glass_jar',
+        'bakery:dough',
+        'candlelight:dough',
+        'create:dough',
 
     ];
     

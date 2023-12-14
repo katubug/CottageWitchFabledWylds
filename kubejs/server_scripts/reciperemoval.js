@@ -3,10 +3,6 @@ ServerEvents.recipes(event => {
     // All Recipe Removal
     let toRemove = [
         //Removed Recipes
-        {output: 'ends_delight:purpur_knife'},
-        {output: 'ends_delight:end_stone_knife'},
-        {output: 'ends_delight:dragon_egg_shell_knife'},
-        {output: 'farmersdelight:golden_knife'},
         {output: 'aquaculture:neptunium_helmet'},
         {output: 'aquaculture:neptunium_leggings'},
         {output: 'aquaculture:neptunium_chestplate'},
@@ -56,6 +52,15 @@ ServerEvents.recipes(event => {
         {output: 'reliquary:rending_gale'},
         {output: 'mysticsbiomes:strawberry_jam'},
         {output: 'mysticsbiomes:glass_jar'},
+        {output: 'bakery:dough'},
+        {output: 'candlelight:dough'},
+        {output: 'create:dough'},
+        //Replaced Recipes
+        {output: 'mighty_mail:post_box'},
+        {output: 'farmersdelight:wheat_dough'},
+        {output: 'delightful:cheeseburger'},
+        {output: 'delightful:deluxe_cheeseburger'},
+        {output: 'untameddelight:baked_trevally_with_cheese'},
     ];
     
       for (const remove of toRemove) {

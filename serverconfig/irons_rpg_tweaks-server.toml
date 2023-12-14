@@ -4,7 +4,7 @@
 	damageModuleEnabled = false
 	#Some entities or damage sources rely on damage ticks to time their attacks. In these cases, we want to let them initiate i-frames.
 	#entityBlacklist default: ["minecraft:slime","minecraft:ender_dragon","minecraft:magma_cube","irons_spellbooks:wall_of_fire","irons_spellbooks:void_tentacle"]
-	entityBlacklist = ["minecraft:slime", "minecraft:ender_dragon", "minecraft:magma_cube", "irons_spellbooks:wall_of_fire"]
+	entityBlacklist = ["minecraft:slime", "minecraft:ender_dragon", "minecraft:magma_cube"]
 	#damagesourceBlacklist default: ["lava","inFire","cactus","inWall","hotFloor","lightningBolt","sweetBerryBush","outOfWorld","drown"]
 	damagesourceBlacklist = ["lava", "inFire", "cactus", "inWall", "hotFloor", "lightningBolt", "sweetBerryBush", "outOfWorld", "drown"]
 	#Invulnerability Tick (I-Frame) count. Default: 0 (Vanilla's is 20, one second)

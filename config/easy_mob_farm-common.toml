@@ -15,7 +15,7 @@
 	#The following mobs are allowed to be captured with any mob catcher and all mob farms. (Use empty list to disable!)
 	generalAllowedMobs = []
 	#The following mobs are not allowed to be captured with any mob catcher and all mob farms. (Use empty list to allow all mobs!)
-	generalDeniedMobs = ["minecraft:ender_dragon", "minecraft:warden", "minecraft:wither"]
+	generalDeniedMobs = ["minecraft:warden", "minecraft:wither", "minecraft:ender_dragon"]
 
 ["Experience Dropping"]
 	#Defines the change of dropping experience without a weapon. (lower number = higher change)
@@ -453,7 +453,7 @@
 		#Range: 0 ~ 100
 		enderLassoMobCatchingLuck = 4
 		#The following mobs can be catched with the ender lasso. (Use empty list to allow all mobs!)
-		enderLassoAllowedMobs = ["minecraft:creeper", "minecraft:spider", "minecraft:slime", "minecraft:witch", "minecraft:enderman", "minecraft:cave_spider", "minecraft:zombie", "minecraft:pillager", "minecraft:husk", "minecraft:skeleton", "minecraft:zombie_villager"]
+		enderLassoAllowedMobs = ["minecraft:cave_spider", "minecraft:zombie", "minecraft:pillager", "minecraft:husk", "minecraft:skeleton", "minecraft:zombie_villager", "minecraft:creeper", "minecraft:spider", "minecraft:slime", "minecraft:witch", "minecraft:enderman"]
 		#The following mobs are not catchable with the ender lasso. (Use empty list to allow all mobs!)
 		enderLassoDeniedMobs = []
 
@@ -471,7 +471,7 @@
 		#Range: 0 ~ 100
 		fishingNetSmallMobCatchingLuck = 3
 		#The following mobs can be catched with the fishing net small. (Use empty list to allow all mobs!)
-		fishingNetSmallAllowedMobs = ["alexsmobs:catfish", "alexsmobs:blobfish", "alexsmobs:lobster", "minecraft:squid", "minecraft:glow_squid", "minecraft:cod", "minecraft:salmon", "minecraft:drowned"]
+		fishingNetSmallAllowedMobs = ["alexsmobs:lobster", "minecraft:squid", "minecraft:glow_squid", "alexsmobs:catfish", "alexsmobs:blobfish", "minecraft:cod", "minecraft:salmon", "minecraft:drowned"]
 		#The following mobs are not catchable with the fishing net small. (Use empty list to allow all mobs!)
 		fishingNetSmallDeniedMobs = []
 
@@ -480,7 +480,7 @@
 		#Range: 0 ~ 100
 		goldenLassoMobCatchingLuck = 8
 		#The following mobs can be catched with the golden lasso. (Use empty list to allow all mobs!)
-		goldenLassoAllowedMobs = ["minecraft:parrot", "minecraft:bat", "minecraft:cat", "minecraft:horse", "minecraft:cow", "minecraft:lama", "minecraft:chicken", "minecraft:pig", "minecraft:rabbit", "minecraft:sheep", "minecraft:panda", "minecraft:donkey"]
+		goldenLassoAllowedMobs = ["minecraft:cow", "minecraft:lama", "minecraft:chicken", "minecraft:pig", "minecraft:rabbit", "minecraft:sheep", "minecraft:panda", "minecraft:donkey", "minecraft:parrot", "minecraft:bat", "minecraft:cat", "minecraft:horse"]
 		#The following mobs are not catchable with the golden lasso. (Use empty list to allow all mobs!)
 		goldenLassoDeniedMobs = []
 

@@ -1,0 +1,18 @@
+{
+    "replace": true,
+    "type": "bakery:stove",
+    "ingredients": [
+      {
+        "item": "farmersdelight:wheat_dough"
+      },
+      {
+        "item": "bakery:yeast"
+      },
+      {
+        "tag": "forge:salt"
+      }
+    ],
+    "item": "bakery:crusty_bread",
+    "count": 4,
+    "experience": 0.35
+  }

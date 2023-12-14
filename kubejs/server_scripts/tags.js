@@ -53,4 +53,28 @@ ServerEvents.tags('item', event => {
         'relics:blazing_flask'
     )
 
+    event.add(
+        'forge:mailboxes',
+        'mighty_mail:oak_mail_box', 
+        'mighty_mail:spruce_mail_box', 
+        'mighty_mail:birch_mail_box', 
+        'mighty_mail:jungle_mail_box', 
+        'mighty_mail:acacia_mail_box', 
+        'mighty_mail:dark_oak_mail_box', 
+        'mighty_mail:mangrove_mail_box', 
+        'mighty_mail:cherry_mail_box', 
+        'mighty_mail:crimson_mail_box', 
+        'mighty_mail:warped_mail_box'
+    )
+
+    event.add(
+        'forge:typewriters',
+        'candlelight:typewriter_iron', 
+        'candlelight:typewriter_copper'
+    )
+
+
+    // Tag Removal
+    event.removeAllTagsFrom('bakery:dough', 'candlelight:dough', 'create:dough')
+
 })

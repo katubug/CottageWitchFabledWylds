@@ -4,7 +4,7 @@
   "generateCopperGolemAreaStructure": true,
   "copperGolemAreaStructureWeight": 1,
   "generateCopperGolemInAncientCity": true,
-  "copperGolemAncientCityCenterWeight": 3,
+  "copperGolemAncientCityCenterWeight": 10,
   "enableGlare": true,
   "enableGlareSpawn": true,
   "enableGlareGriefing": true,

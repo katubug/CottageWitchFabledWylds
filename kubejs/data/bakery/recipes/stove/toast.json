@@ -1,0 +1,18 @@
+{
+    "replace": true,
+    "type": "bakery:stove",
+    "ingredients": [
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "minecraft:bread"
+      },
+      {
+        "item": "candlelight:butter"
+      }
+    ],
+    "item": "bakery:toast",
+    "count": 3,
+    "experience": 0.35
+  }

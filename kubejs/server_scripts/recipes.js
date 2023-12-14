@@ -59,5 +59,118 @@ ServerEvents.recipes(event => {
         // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
       )
 
+
+    // Cheaper Post Box
+    event.shaped(
+        Item.of('mighty_mail:post_box'),
+        [
+            'ABA',
+            'BCB',
+            ' D '
+        ],
+        {
+            A: 'minecraft:blue_dye',
+            B: 'minecraft:iron_ingot',
+            C: '#forge:chests',
+            D: 'minecraft:smooth_stone'
+        }
+    )
+
+    //Slime Balls
+    event.shapeless(
+        Item.of('minecraft:slime_ball'), 
+        [ 
+            {tag: 'forge:dyes/lime'},
+            'farmersdelight:wheat_dough'
+        ]
+      )
+
+
+    //Dough
+    event.shapeless(
+        Item.of('farmersdelight:wheat_dough', 3), 
+        [ 
+            'create:wheat_flour',
+            'create:wheat_flour',
+            'minecraft:water_bucket',
+            'bakery:yeast'
+        ]
+      )
+
+    //Recipes Use Cheese ======================================================
+    //Cheeseburger from Scratch
+    event.shapeless(
+        Item.of('delightful:cheeseburger'), 
+        [ 
+            'minecraft:bread',
+            '#candlelight:cooked_beef',
+            '#forge:crops/cabbage',
+            '#forge:cheese',
+            'farmersdelight:tomato',
+            'farmersdelight:onion'
+        ]
+      )
+
+    //Cheeseburger from burger
+    event.shapeless(
+        Item.of('delightful:cheeseburger'), 
+        [ 
+            'farmersdelight:hamburger',
+            '#forge:cheese',
+        ]
+        )
+
+    //Deluxe Cheeseburger from Cheeseburger
+    event.shapeless(
+        Item.of('delightful:deluxe_cheeseburger'), 
+        [ 
+            'delightful:cheeseburger',
+            '#forge:cheese',
+            '#candlelight:cooked_beef',
+            '#forge:cooked_bacon'
+        ]
+        )
+
+    //Deluxe Cheeseburger from Scratch
+    event.shapeless(
+        Item.of('delightful:deluxe_cheeseburger'), 
+        [ 
+            'minecraft:bread',
+            '#candlelight:cooked_beef',
+            '#candlelight:cooked_beef',
+            '#forge:crops/cabbage',
+            '#forge:cheese',
+            '#forge:cheese',
+            'farmersdelight:tomato',
+            'farmersdelight:onion',
+            '#forge:cooked_bacon'
+        ]
+        )
+
+    // Trevally with Cheese
+    event.shaped(
+        Item.of('untameddelight:baked_trevally_with_cheese'),
+        [
+            'ABC',
+            'DED'
+        ],
+        {
+            A: 'untameddelight:cooked_trevally',
+            B: 'farmersdelight:onion',
+            C: '#forge:eggs',
+            D: '#forge:cheese',
+            E: 'minecraft:bowl'
+        }
+    )
+    //==================================================================
+
+    //Dough conversion
+    event.shapeless(
+        Item.of('farmersdelight:wheat_dough'),
+        [
+            'bakery:dough'
+        ]
+    )
+
   })
 

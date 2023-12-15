@@ -1,0 +1,24 @@
+{
+	id: "45E5DFB80FA259A8"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 8, item: "minecraft:emerald" }
+		{ item: "minecraft:diamond", weight: 4.0f }
+		{ count: 2, item: "minecraft:phantom_membrane" }
+		{ item: "minecraft:nautilus_shell" }
+		{ item: "minecraft:heart_of_the_sea" }
+		{
+			item: {
+				Count: 1b
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 5, item: "minecraft:echo_shard" }
+		{ item: "moblassos:golden_lasso" }
+	]
+	title: "T2 Choice"
+}

@@ -1,7 +1,7 @@
 {
 	id: "7143AED67E11AF0C"
 	loot_size: 1
-	order_index: 1
+	order_index: 2
 	rewards: [
 		{ item: "aquaculture:atlantic_cod_bucket" }
 		{ item: "aquaculture:blackfish_bucket" }

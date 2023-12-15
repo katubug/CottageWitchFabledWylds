@@ -1,0 +1,24 @@
+{
+  "type": "eidolon:ritual_brazier_summoning",
+  "focusItems": [
+    {
+      "item": "crabbersdelight:bucket_of_shrimp_chum"
+    }
+  ],
+  "output": {
+    "entity": "unusualfishmod:prawn"
+  },
+  "pedestalItems": [
+    {
+      "item": "eidolon:soul_shard"
+    },
+    {
+      "item": "crabbersdelight:shrimp"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:charcoal"
+    }
+  ]
+}

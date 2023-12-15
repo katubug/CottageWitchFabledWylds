@@ -1,0 +1,27 @@
+{
+	id: "232BC82EEB69EF30"
+	loot_size: 3
+	order_index: 25
+	rewards: [
+		{ item: "meadow:water_buffalo_spawn_egg" }
+		{ item: "meadow:umbra_cow_spawn_egg" }
+		{ item: "meadow:sunset_cow_spawn_egg" }
+		{ item: "meadow:rocky_sheep_spawn_egg" }
+		{ item: "meadow:pinto_cow_spawn_egg" }
+		{ item: "meadow:patched_sheep_spawn_egg" }
+		{ item: "meadow:meadow_chicken_spawn_egg" }
+		{ item: "meadow:long_nosed_sheep_spawn_egg" }
+		{ item: "meadow:inky_sheep_spawn_egg" }
+		{ item: "meadow:horned_sheep_spawn_egg" }
+		{ item: "meadow:warped_cow_spawn_egg" }
+		{ item: "meadow:albino_cow_spawn_egg" }
+		{ item: "meadow:cookie_cow_spawn_egg" }
+		{ item: "meadow:cream_cow_spawn_egg" }
+		{ item: "meadow:dairy_cow_spawn_egg" }
+		{ item: "meadow:dark_cow_spawn_egg" }
+		{ item: "meadow:flecked_sheep_spawn_egg" }
+		{ item: "meadow:fuzzy_sheep_spawn_egg" }
+		{ item: "meadow:highland_cattle_spawn_egg" }
+	]
+	title: "Special Livestock"
+}

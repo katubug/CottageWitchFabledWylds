@@ -11,7 +11,7 @@
 #Soul Enchanter
 [soulEnchanter]
 	#How often the Soul Enchanter can apply enchantments on an item (a value below 0 means unlimited)
-	soulEnchanterMaximumUses = -1
+	soulEnchanterMaximumUses = 5
 	#How many enchantments the item is allowed to have to be applicable for soul enchanting (a value below 0 means unlimited)
 	soulEnchanterMaximumEnchantments = -1
 

@@ -10,6 +10,67 @@
 		{ item: "minecraft:axolotl_bucket" }
 		{ item: "minecraft:tadpole_bucket" }
 		{ item: "crabbersdelight:crab_bucket" }
+		{ item: "unusualfishmod:sea_spider_bucket" }
+		{ item: "unusualfishmod:clownthorn_shark_bucket" }
+		{ item: "unusualfishmod:sneepsnorp_bucket" }
+		{ item: "unusualfishmod:blackcap_snail_bucket" }
+		{ item: "unusualfishmod:brick_snail_bucket" }
+		{ item: "unusualfishmod:deep_crawler_bucket" }
+		{ item: "unusualfishmod:wizard_jelly_bucket" }
+		{ item: "unusualfishmod:porcupine_lobsta_bucket" }
+		{ item: "unusualfishmod:freshwater_mantis_bucket" }
+		{ item: "unusualfishmod:bark_angelfish_bucket" }
+		{ item: "unusualfishmod:lobed_skipper_bucket" }
+		{ item: "unusualfishmod:beaked_herring_bucket" }
+		{ item: "unusualfishmod:picklefish_bucket" }
+		{ item: "unusualfishmod:blind_sailfin_bucket" }
+		{ item: "unusualfishmod:demon_herring_bucket" }
+		{ item: "unusualfishmod:amber_goby_bucket" }
+		{ item: "unusualfishmod:hatchet_fish_bucket" }
+		{ item: "unusualfishmod:copperflame_bucket" }
+		{ item: "unusualfishmod:squoddle_bucket" }
+		{ item: "unusualfishmod:sea_mosquito_bucket" }
+		{ item: "unusualfishmod:forkfish_bucket" }
+		{ item: "unusualfishmod:spoon_shark_bucket" }
+		{ item: "unusualfishmod:coral_skrimp_bucket" }
+		{ item: "unusualfishmod:circus_fish_bucket" }
+		{ item: "unusualfishmod:eyelash_fish_bucket" }
+		{ item: "unusualfishmod:snowflake_tail_fish_bucket" }
+		{ item: "unusualfishmod:crimsonshell_squid_bucket" }
+		{ item: "unusualfishmod:aero_mono_bucket" }
+		{ item: "unusualfishmod:rhino_tetra_bucket" }
+		{ item: "unusualfishmod:duality_damselfish_bucket" }
+		{ item: "unusualfishmod:drooping_gourami_bucket" }
+		{ item: "unusualfishmod:mossthorn_bucket" }
+		{ item: "unusualfishmod:sailor_barb_bucket" }
+		{ item: "unusualfishmod:triple_twirl_pleco_bucket" }
+		{ item: "unusualfishmod:spindlefish_bucket" }
+		{ item: "unusualfishmod:ripper_bucket" }
+		{ item: "unusualfishmod:volt_angler_bucket" }
+		{ item: "unusualfishmod:blizzardfin_bucket" }
+		{ item: "unusualfishmod:muddytop_snail_bucket" }
+		{ item: "unusualfishmod:shockcat_bucket" }
+		{ item: "unusualfishmod:pinkfin_idol_bucket" }
+		{ item: "unusualfishmod:tiger_puffer_bucket" }
+		{ item: "unusualfishmod:stout_bichir_bucket" }
+		{ item: "unusualfishmod:tribble_bucket" }
+		{ item: "unusualfishmod:trumpet_squid_bucket" }
+		{ item: "spawn:angler_fish_bucket" }
+		{ item: "spawn:tuna_egg_bucket" }
+		{ item: "spawn:seahorse_bucket" }
+		{ item: "earthmobsmod:tropical_slime_bucket" }
+		{ item: "species:deepfish_bucket" }
+		{ item: "netherdepthsupgrade:searing_cod_bucket" }
+		{ item: "netherdepthsupgrade:obsidianfish_bucket" }
+		{ item: "netherdepthsupgrade:lava_pufferfish_bucket" }
+		{ item: "netherdepthsupgrade:eyeball_fish_bucket" }
+		{ item: "netherdepthsupgrade:fortress_grouper_bucket" }
+		{ item: "netherdepthsupgrade:soulsucker_bucket" }
+		{ item: "netherdepthsupgrade:glowdine_bucket" }
+		{ item: "netherdepthsupgrade:magmacubefish_bucket" }
+		{ item: "netherdepthsupgrade:blazefish_bucket" }
+		{ item: "netherdepthsupgrade:wither_bonefish_bucket" }
+		{ item: "netherdepthsupgrade:bonefish_bucket" }
 	]
 	title: "Bucket Animals"
 }

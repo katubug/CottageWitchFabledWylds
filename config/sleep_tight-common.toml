@@ -13,7 +13,7 @@
 	#Range: 0 ~ 1000000
 	sleep_interval = 24000
 	#Makes night bag less unique by allowing you to place them normally on the ground
-	boring_night_bags = false
+	boring_night_bags = true
 	#Immediately attempt sleeping after laying down on a bed
 	sleep_immediately = false
 
@@ -33,7 +33,7 @@
 [bedbugs]
 	#Base spawn chance every time you wake up, increases with difficulty
 	#Range: 0.0 ~ 1.0
-	spawn_chance = 0.11
+	spawn_chance = 0.0
 	#max radius at which they can spawn
 	#Range: 1 ~ 64
 	max_spawn_radius = 24
@@ -42,10 +42,10 @@
 	min_spawn_radius = 12
 	#Max light level that a bedbug can spawn at
 	#Range: 0 ~ 15
-	max_allowed_light_level = 15
+	max_allowed_light_level = 0
 	#The game will perform x attempts to spawn a bedbug around each player when they wake up. This already takes into account the chance config.High values will decrease failed attempts
 	#Range: 0 ~ 1000
-	tries = 20
+	tries = 0
 	#Prevents bedbugs when using dream essence
 	prevented_by_dream_essence = false
 	#Only spawns bedbugs when sleeping in your home bed
@@ -54,13 +54,13 @@
 [sleep_cooldown]
 	#Time before you can sleep/rest again after you've slept in a hammock
 	#Range: 0 ~ 1000000
-	hammock = 6000
+	hammock = 0
 	#Time before you can sleep/rest again after you've successfully slept in a bed
 	#Range: 0 ~ 1000000
-	night_bag = 6000
+	night_bag = 0
 	#Time before you can sleep/rest again after you've successfully slept in a bed
 	#Range: 0 ~ 1000000
-	bed = 6000
+	bed = 0
 
 [sleep_benefits]
 	#Which type of beds will apply benefits on wake up
@@ -74,7 +74,7 @@
 	effect_clearing = "MAX"
 	#
 	#Allowed Values: ALL, BENEFICIAL, HARMFUL
-	effect_clearing_types = "ALL"
+	effect_clearing_types = "HARMFUL"
 
 	#Effects to apply when player wakes up. You can add more entries, this is a list
 	[[sleep_benefits.effects_on_wake_up]]
@@ -84,15 +84,15 @@
 		effect = "sleep_tight:invigorated"
 
 [sleep_penalties]
-	apply_to_beds = true
-	apply_to_hammock = true
-	apply_to_night_bags = true
+	apply_to_beds = false
+	apply_to_hammock = false
+	apply_to_night_bags = false
 	#Method to calculate hunger loss. Can be based off time slept, difficulty or constant
 	#Allowed Values: CONSTANT, TIME_BASED, DIFFICULTY_BASED, TIME_DIFFICULTY_BASED
 	consumed_hunger_mode = "TIME_DIFFICULTY_BASED"
 	#Base hunger decrement value. Depends on other config. Set to 0 to disable
 	#Range: 0.0 ~ 20.0
-	base_value = 5.0
+	base_value = 0
 
 [sleep_requirements]
 	apply_to_beds = true
@@ -107,7 +107,7 @@
 [home_bed]
 	#Amount of nights needed to mark a bed as home bed
 	#Range: 1 ~ 50
-	required_nights = 8
+	required_nights = 3
 	#Percentage of xp added per tier of the effect. Setting to 1 doubles the effect
 	#Range: 0.0 ~ 1.0
 	invigorated_effect_xp = 0.1
@@ -116,7 +116,7 @@
 	max_level_cap = 100
 
 [nightmares]
-	apply_to_beds = true
+	apply_to_beds = false
 	apply_to_hammock = false
 	apply_to_night_bags = false
 	#Amount of consecutive nights slept after which nightmares could start to happen

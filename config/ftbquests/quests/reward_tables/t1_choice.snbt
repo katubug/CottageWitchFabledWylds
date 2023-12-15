@@ -1,0 +1,19 @@
+{
+	id: "1CB56D532B985F2C"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 2, item: "minecraft:experience_bottle" }
+		{ count: 3, item: "minecraft:gunpowder" }
+		{ count: 3, item: "minecraft:prismarine_shard" }
+		{ count: 4, item: "minecraft:raw_iron" }
+		{ count: 4, item: "minecraft:raw_copper" }
+		{ count: 4, item: "minecraft:raw_gold" }
+		{ count: 5, item: "minecraft:feather" }
+		{ count: 8, item: "minecraft:ink_sac" }
+		{ count: 10, item: "minecraft:string" }
+		{ count: 4, item: "sophisticatedstorage:upgrade_base" }
+		{ count: 5, item: "minecraft:firework_rocket" }
+	]
+	title: "T1 Choice"
+}

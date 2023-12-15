@@ -1,0 +1,10 @@
+{
+	id: "7ABC597422B6E711"
+	loot_size: 2
+	order_index: 20
+	rewards: [
+		{ item: "minecraft:sculk_catalyst", weight: 0.5f }
+		{ item: "minecraft:sculk_shrieker", weight: 0.5f }
+	]
+	title: "Fancy Sculk"
+}

@@ -1,0 +1,31 @@
+{
+	id: "0E5322C3053EB983"
+	loot_size: 4
+	order_index: 15
+	rewards: [
+		{ item: "create:electron_tube" }
+		{ count: 3, item: "create:brass_ingot", weight: 5.0f }
+		{ count: 5, item: "create:rose_quartz", weight: 15.0f }
+		{
+			item: {
+				Count: 1b
+				id: "create:sand_paper"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{ count: 5, item: "create:cogwheel", weight: 20.0f }
+		{ count: 3, item: "create:large_cogwheel", weight: 20.0f }
+		{ item: "create:gearbox", weight: 10.0f }
+		{ item: "create:builders_tea", weight: 5.0f }
+		{ item: "create:blaze_cake_base" }
+		{ count: 10, item: "create:cinder_flour", weight: 10.0f }
+		{ count: 6, item: "create:andesite_casing", weight: 15.0f }
+		{ count: 3, item: "create:brass_casing", weight: 15.0f }
+		{ count: 3, item: "create:copper_casing", weight: 10.0f }
+		{ count: 10, item: "create:raw_zinc", weight: 5.0f }
+	]
+	title: "Create"
+}

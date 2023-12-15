@@ -148,6 +148,7 @@ ServerEvents.recipes(event => {
         )
 
     // Trevally with Cheese
+    /*
     event.shaped(
         Item.of('untameddelight:baked_trevally_with_cheese'),
         [
@@ -162,6 +163,7 @@ ServerEvents.recipes(event => {
             E: 'minecraft:bowl'
         }
     )
+    */
     //==================================================================
 
     //Dough conversion

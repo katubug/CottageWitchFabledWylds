@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
         {output: 'farmersdelight:wheat_dough'},
         {output: 'delightful:cheeseburger'},
         {output: 'delightful:deluxe_cheeseburger'},
-        {output: 'untameddelight:baked_trevally_with_cheese'},
+        //{output: 'untameddelight:baked_trevally_with_cheese'},
     ];
     
       for (const remove of toRemove) {

@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "wip"
 	group: ""
@@ -37,6 +38,159 @@
 			title: "Obtain an Advanced Uncrafter"
 			x: -1.5d
 			y: -6.5d
+		}
+		{
+			description: [
+				"This we know for sure: &athe world is full of magic&r. Different types appeal to different witches, and not everyone will follow the same path. However, the first step is always the same - &aresearch&r."
+				""
+				"Obtain this book, the &bArs Ecclesia&r, from your &bEccentric Tome&r, and let's begin."
+				""
+				"Please turn the page."
+				"{@pagebreak}"
+				"The mod &lEidolon&r (AY-doh-lawn) gives two paths to follow: the &alight path of the sun goddess&r, and the &adark path of the moon goddess&r. Both paths will give unique benefits!"
+				""
+				"To begin your journey to please the &eSun Goddess&r, &6give your &bArs Ecclesia&6 to a &eCleric&r. To worship the &eMoon Goddess&r instead, &6give it to a &eWitch&r."
+				""
+				"You can also &6choose to do both&r - after all, we witches all have both light and dark within us."
+			]
+			id: "35618FF7350BEA17"
+			rewards: [
+				{
+					count: 2
+					id: "773B55C0FD103CA9"
+					item: "eidolon:lead_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5F810241D3B19192"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "712279A7E901DF4D"
+				item: "eidolon:codex"
+				type: "item"
+			}]
+			title: "A Grimoire of Sorts"
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			description: ["In order to complete &aRituals&r, you'll need a &bBrazier&r to light, and two &aItem Receptacles&r - let's begin with the &bStone Hands&r."]
+			id: "1BAFE094DBFDA666"
+			tasks: [
+				{
+					id: "3A009140F2EDAADE"
+					item: "eidolon:brazier"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "01910939785178FF"
+					item: { Count: 2b, id: "eidolon:stone_hand" }
+					type: "item"
+				}
+			]
+			title: "The Ritual Basis"
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			description: [
+				"Every good witch needs &aan Altar&r. You can combine &bAltar&r blocks to make a larger one, which can fit more upgrades."
+				""
+				"Oh, yes, there are &aupgrades&r! You"
+			]
+			id: "6614EDDD9228A438"
+			rewards: [{
+				id: "2B4CBEA95BCF0110"
+				item: "minecraft:skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "05589C9F97548AAA"
+				item: { Count: 6b, id: "eidolon:wooden_altar" }
+				type: "item"
+			}]
+			title: "A Multiblock Altar"
+			x: -3.0d
+			y: -13.5d
+		}
+		{
+			id: "362F1DD4147A2D2A"
+			tasks: [{
+				id: "1F775E3A4A4BA79C"
+				item: "eidolon:straw_effigy"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			description: [
+				"In order to &apray to your goddess&r, which you can do once per day or night, you should &6Chant your chosen sign three times&r. You do this by accessing your &bArs Ecclesia&r and &6Clicking&r the sign, or signs, that you want. Over time, you will learn &amore Chants&r, and &amore spells&r you can perform with them."
+				""
+				"{image:enchanted_wilds:textures/questimages/prayers.png width:275 height:175 align:1}"
+				""
+				"As you pray, your goddess will give you &amana&r, which appears above your altar like this:"
+				""
+				""
+				"{image:enchanted_wilds:textures/questimages/manabar.png width:250 height:50 align:1}"
+			]
+			id: "2E95BFDEACD38578"
+			rewards: [{
+				count: 3
+				id: "768284848C1251B3"
+				item: "eidolon:tallow"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E63F2862BC1D8C5"
+				title: "Thoughts & Prayers"
+				type: "checkmark"
+			}]
+			title: "Thoughts \\& Prayers"
+			x: -3.0d
+			y: -15.0d
+		}
+		{
+			description: [
+				"The &bSoul Enchanter&r is a device by which you can &achoose and upgrade Enchantments&r for your gear. This process costs &aexperience and &bSoul Shards&r."
+				""
+				"In the image below you can see a &bSword&r being imbued with the &aLifesteal&r enchantment. In the second half of the image, the sword has been &aplaced back into the &bEnchanter&r and you can see the &aLifesteal enchantment is offered at level 2&r."
+				""
+				"{image:enchanted_wilds:textures/questimages/soulenchanter.png width:300 height:130 align:1}"
+				""
+				"&dEach item can only be enchanted in this way 5 times&r, so choose wisely! You can &areroll enchantments&r on a given item by &aenchanting another item&r."
+			]
+			id: "3C9030840D8880FC"
+			rewards: [{
+				count: 5
+				id: "4EE82DCDC676DE68"
+				item: "eidolon:soul_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "797EB43804A39041"
+				item: "eidolon:soul_enchanter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -12.5d
+		}
+		{
+			description: ["The &bCrucible&r is an essential part of your mystic path. It allows you to &atransmute common items into arcane ones&r, among other things."]
+			id: "6C5F3C1E50DE0082"
+			tasks: [{
+				id: "00A53EEAF8D68E6A"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -15.0d
 		}
 	]
 	title: "WIP"

@@ -1,0 +1,148 @@
+{
+	id: "0FD7EA5F255F8D85"
+	loot_size: 2
+	order_index: 24
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:death"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:wheel_of_fortune"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_world"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_tower"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_sun"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_star"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_fool"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_hanged_man"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_hermit"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_hierophant"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_high_priestess"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_lovers"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_magician"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_moon"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_emperor"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_devil"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_chariot"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:temperance"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:strength"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:judgement"
+				tag: { }
+			}
+		}
+	]
+	title: "Tarot No Justice"
+}

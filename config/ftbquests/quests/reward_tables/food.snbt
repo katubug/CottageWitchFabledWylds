@@ -1,0 +1,13 @@
+{
+	id: "705B95C0FA754FCA"
+	loot_size: 6
+	order_index: 21
+	rewards: [
+		{ item: "vinery:cherry" }
+		{ item: "farmersdelight:pie_crust" }
+		{ item: "minecraft:sweet_berries" }
+		{ item: "minecraft:mushroom_stew" }
+		{ count: 5, item: "meadow:alpine_salt" }
+	]
+	title: "Food"
+}

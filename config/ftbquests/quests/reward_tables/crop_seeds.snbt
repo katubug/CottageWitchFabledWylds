@@ -1,0 +1,36 @@
+{
+	id: "5A75A7BF51091F2A"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{ count: 6, item: "minecraft:wheat_seeds" }
+		{ count: 3, item: "minecraft:pumpkin_seeds" }
+		{ count: 3, item: "minecraft:melon_seeds" }
+		{ count: 6, item: "minecraft:beetroot_seeds" }
+		{ count: 6, item: "minecraft:red_mushroom" }
+		{ count: 6, item: "minecraft:brown_mushroom" }
+		{ count: 6, item: "minecraft:carrot" }
+		{ count: 6, item: "minecraft:potato" }
+		{ count: 6, item: "minecraft:sweet_berries" }
+		{ count: 6, item: "minecraft:glow_berries" }
+		{ count: 6, item: "farmersdelight:cabbage_seeds" }
+		{ count: 6, item: "farmersdelight:tomato_seeds" }
+		{ count: 6, item: "supplementaries:flax_seeds" }
+		{ count: 3, item: "vinery:red_grape_seeds" }
+		{ count: 3, item: "vinery:white_grape_seeds" }
+		{ count: 3, item: "vinery:savanna_grape_seeds_red" }
+		{ count: 3, item: "vinery:savanna_grape_seeds_white" }
+		{ count: 3, item: "vinery:taiga_grape_seeds_red" }
+		{ count: 3, item: "vinery:taiga_grape_seeds_white" }
+		{ count: 3, item: "vinery:jungle_grape_seeds_red" }
+		{ count: 3, item: "vinery:jungle_grape_seeds_white" }
+		{ count: 3, item: "delightful:salmonberry_pips" }
+		{ item: "bakery:strawberry_seeds" }
+		{ item: "bakery:oat_seeds" }
+		{ item: "nethervinery:crimson_grape_seeds" }
+		{ item: "nethervinery:warped_grape_seeds" }
+		{ item: "fruitsdelight:hamimelon_seeds" }
+		{ item: "fruitsdelight:lemon_seeds" }
+	]
+	title: "Crop Seeds"
+}

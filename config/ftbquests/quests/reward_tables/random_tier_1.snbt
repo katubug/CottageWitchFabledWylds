@@ -1,0 +1,21 @@
+{
+	id: "60565C961FA658E1"
+	loot_size: 10
+	order_index: 4
+	rewards: [
+		{ count: 5, item: "minecraft:iron_ingot", weight: 10.0f }
+		{ count: 3, item: "minecraft:prismarine_shard", only_one: true, weight: 5.0f }
+		{ item: "farmersdelight:organic_compost", weight: 10.0f }
+		{ item: "waystones:warp_scroll", weight: 18.0f }
+		{ item: "delightful:cheeseburger", weight: 15.0f }
+		{ item: "minecraft:quartz", weight: 15.0f }
+		{ item: "minecraft:amethyst_shard", weight: 8.0f }
+		{ item: "minecraft:nautilus_shell", weight: 5.0f }
+		{ count: 4, item: "create:rose_quartz", weight: 10.0f }
+		{ count: 5, item: "minecraft:firework_rocket", weight: 7.0f }
+		{ count: 4, item: "sophisticatedstorage:upgrade_base", weight: 15.0f }
+		{ count: 2, item: "sophisticatedstorage:basic_tier_upgrade", weight: 10.0f }
+		{ item: "sophisticatedstorage:basic_to_iron_tier_upgrade", weight: 5.0f }
+	]
+	title: "Random Tier 1"
+}

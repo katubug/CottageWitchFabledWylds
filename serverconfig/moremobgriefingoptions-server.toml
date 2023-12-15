@@ -475,117 +475,6 @@
 	#luggage:ender_luggage mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"luggage:ender_luggage" = "DEFAULT"
-	#untamedwilds:tarantula mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:tarantula" = "DEFAULT"
-	#untamedwilds:king_crab mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:king_crab" = "DEFAULT"
-	#untamedwilds:butterfly mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:butterfly" = "DEFAULT"
-	#untamedwilds:snake mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:snake" = "DEFAULT"
-	#untamedwilds:softshell_turtle mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:softshell_turtle" = "DEFAULT"
-	#untamedwilds:tortoise mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:tortoise" = "DEFAULT"
-	#untamedwilds:large_snake mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:large_snake" = "DEFAULT"
-	#untamedwilds:monitor mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:monitor" = "DEFAULT"
-	#untamedwilds:giant_clam mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:giant_clam" = "DEFAULT"
-	#untamedwilds:bear mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:bear" = "DEFAULT"
-	#untamedwilds:big_cat mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:big_cat" = "DEFAULT"
-	#untamedwilds:hippo mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:hippo" = "DEFAULT"
-	#untamedwilds:aardvark mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:aardvark" = "DEFAULT"
-	#untamedwilds:rhino mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:rhino" = "DEFAULT"
-	#untamedwilds:hyena mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:hyena" = "DEFAULT"
-	#untamedwilds:boar mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:boar" = "DEFAULT"
-	#untamedwilds:bison mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:bison" = "DEFAULT"
-	#untamedwilds:camel mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:camel" = "DEFAULT"
-	#untamedwilds:manatee mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:manatee" = "DEFAULT"
-	#untamedwilds:baleen_whale mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:baleen_whale" = "DEFAULT"
-	#untamedwilds:opossum mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:opossum" = "DEFAULT"
-	#untamedwilds:wildebeest mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:wildebeest" = "DEFAULT"
-	#untamedwilds:sunfish mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:sunfish" = "DEFAULT"
-	#untamedwilds:trevally mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:trevally" = "DEFAULT"
-	#untamedwilds:arowana mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:arowana" = "DEFAULT"
-	#untamedwilds:shark mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:shark" = "DEFAULT"
-	#untamedwilds:football_fish mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:football_fish" = "DEFAULT"
-	#untamedwilds:whale_shark mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:whale_shark" = "DEFAULT"
-	#untamedwilds:triggerfish mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:triggerfish" = "DEFAULT"
-	#untamedwilds:catfish mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:catfish" = "DEFAULT"
-	#untamedwilds:spadefish mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:spadefish" = "DEFAULT"
-	#untamedwilds:sawfish mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:sawfish" = "DEFAULT"
-	#untamedwilds:giant_salamander mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:giant_salamander" = "DEFAULT"
-	#untamedwilds:newt mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:newt" = "DEFAULT"
-	#untamedwilds:terror_bird mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:terror_bird" = "DEFAULT"
-	#untamedwilds:spitter mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:spitter" = "DEFAULT"
-	#untamedwilds:spit mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"untamedwilds:spit" = "DEFAULT"
 	#farmingforblockheads:merchant mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"farmingforblockheads:merchant" = "DEFAULT"
@@ -1414,12 +1303,6 @@
 	#aether:hammer_projectile mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"aether:hammer_projectile" = "DEFAULT"
-	#doggytalents:dog mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"doggytalents:dog" = "DEFAULT"
-	#doggytalents:dog_beam mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"doggytalents:dog_beam" = "DEFAULT"
 	#relics:shadow_glaive mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"relics:shadow_glaive" = "DEFAULT"
@@ -1915,4 +1798,25 @@
 	#sophisticatedbackpacks:everlasting_backpack_item mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"sophisticatedbackpacks:everlasting_backpack_item" = "DEFAULT"
+	#domesticationinnovation:chain_lightning mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"domesticationinnovation:chain_lightning" = "DEFAULT"
+	#domesticationinnovation:recall_ball mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"domesticationinnovation:recall_ball" = "DEFAULT"
+	#domesticationinnovation:feather mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"domesticationinnovation:feather" = "DEFAULT"
+	#domesticationinnovation:giant_bubble mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"domesticationinnovation:giant_bubble" = "DEFAULT"
+	#domesticationinnovation:following_jukebox mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"domesticationinnovation:following_jukebox" = "DEFAULT"
+	#domesticationinnovation:highlighted_block mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"domesticationinnovation:highlighted_block" = "DEFAULT"
+	#domesticationinnovation:psychic_wall mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"domesticationinnovation:psychic_wall" = "DEFAULT"
 

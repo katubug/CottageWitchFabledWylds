@@ -5,13 +5,6 @@
 	rewards: [
 		{ count: 15, item: "luphieclutteredmod:luphie_mushroom_bookshelf" }
 		{ count: 15, item: "luphieclutteredmod:luphie_jack_o_lantern_bookshelf" }
-		{ count: 15, item: "twilightforest:canopy_bookshelf" }
-		{ count: 15, item: "quark:azalea_bookshelf" }
-		{ count: 15, item: "quark:ancient_bookshelf" }
-		{ count: 15, item: "quark:spruce_bookshelf" }
-		{ count: 15, item: "quark:birch_bookshelf" }
-		{ count: 15, item: "quark:jungle_bookshelf" }
-		{ count: 15, item: "quark:acacia_bookshelf" }
 		{ count: 15, item: "minecraft:bookshelf" }
 		{ count: 15, item: "luphieclutteredmod:luphie_pink_bookshelf" }
 		{ count: 15, item: "luphieclutteredmod:luphie_flowering_pink_bookshelf" }
@@ -19,12 +12,6 @@
 		{ count: 15, item: "luphieclutteredmod:luphie_flowering_yellow_bookshelf" }
 		{ count: 15, item: "luphieclutteredmod:luphie_green_bookshelf" }
 		{ count: 15, item: "luphieclutteredmod:luphie_glow_bookshelf" }
-		{ count: 15, item: "quark:dark_oak_bookshelf" }
-		{ count: 15, item: "quark:crimson_bookshelf" }
-		{ count: 15, item: "quark:warped_bookshelf" }
-		{ count: 15, item: "quark:blossom_bookshelf" }
-		{ count: 15, item: "quark:mangrove_bookshelf" }
-		{ count: 15, item: "quark:bamboo_bookshelf" }
 	]
 	title: "Bookshelves"
 }

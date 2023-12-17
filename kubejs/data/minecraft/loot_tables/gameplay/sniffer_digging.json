@@ -1,0 +1,68 @@
+{
+  "replace": false,
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:torchflower_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:pitcher_pod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "unusualprehistory:ginkgo_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "unusualprehistory:horsetail"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "unusualprehistory:leefructus"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "unusualprehistory:foxii_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "unusualprehistory:dryo_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "unusualprehistory:archaeos"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "unusualprehistory:bennett"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "unusualprehistory:raiguenrayun"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "unusualprehistory:sarracenia"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/sniffer_digging"
+}

@@ -76,6 +76,20 @@ ServerEvents.recipes(event => {
         }
     )
 
+    // Cheaper Mermaid Pearl
+    event.shaped(
+        Item.of('luphieclutteredmod:luphie_mermaid_pearl'),
+        [
+            ' A ',
+            'BCB'
+        ],
+        {
+            A: 'crabbersdelight:pearl',
+            B: 'minecraft:gold_nugget',
+            C: 'minecraft:gold_ingot'
+        }
+    )
+
     //Slime Balls
     event.shapeless(
         Item.of('minecraft:slime_ball'), 

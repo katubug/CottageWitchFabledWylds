@@ -1,0 +1,1981 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "wildlife"
+	group: "5FB460EFA0A2567E"
+	icon: "minecraft:rabbit_hide"
+	id: "4DB925317B421272"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgtameable.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgneutral.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgwyldhunts.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgpetslivestock.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgmonsters.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgmythicmounts.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.0d
+			y: 4.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The &eSnuffle&r is a passive creature with a permanent blep. It can be found in snowy biomes, and &atamed with potatoes&r."]
+			id: "33F3FB13A3EAEF94"
+			rewards: [
+				{
+					id: "4B95E1660ED6D5E6"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "17B298443F339A99"
+					item: "minecraft:potato"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "So warm and snuffly"
+			tasks: [{
+				icon: "snuffles:snuffle_fluff"
+				id: "1B7ACAD09345E758"
+				observe_type: 5
+				timer: 0L
+				to_observe: "snuffles:snuffle"
+				type: "observation"
+			}]
+			title: "Meet a Snuffle!"
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"While some &eElephants&r are large and occasionally aggressive, there are variants which are &asmall and friendly&r. These &eElephants&r can be &6tamed with &bPeanuts&r, and will &ahelp you water your gardens&r!"
+				"{image:cottagewitch:textures/elephant.png width:150 height:150 align:1}"
+			]
+			id: "2E69432952BEB130"
+			rewards: [{
+				count: 10
+				id: "5637F9ABF0306708"
+				item: "sprout:peanut"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "the smol one"
+			tasks: [{
+				icon: "sprout:peanut"
+				id: "5F44B153C821B44E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "sprout:elephant"
+				type: "observation"
+			}]
+			title: "Meet the Elephant"
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"This delightful item not only &aplays a lovely tune&r when you &6hold right click while holding it&r, but it also &asummons all non-sitting pets nearby&r to your location."
+				"You can optionally bind your flute to a specific pet by &6shift right clicking&r on the animal with the flute."
+			]
+			id: "20BAF307F1556BC5"
+			rewards: [
+				{
+					count: 10
+					id: "2C6E2768C2989D2B"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "66B484F644D229FD"
+					item: "minecraft:cod"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "This is literally so adorable"
+			tasks: [{
+				id: "784E27A136920288"
+				item: {
+					Count: 1b
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Gain this advancement by taming and befriending an animal!"
+				"Using the reward from this quest, you can right click to place an entity in your inventory so you can easily move them large distances. Simply &6right click the Mob Cage on the animal, and then right click it on a block&r to place the animal down again."
+				"You can also &6shift right click&r to place it&r! It's totally normal to put your best friends in cages."
+			]
+			id: "52BC8196E858B238"
+			rewards: [
+				{
+					id: "15995D321F1A2FA3"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1737828357
+									-1690416618
+									-1970765744
+									1600769351
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTNjMWRmOTEwZmUwYTU4YTgzODNmMTBiMjc0ZWNkMzk5NTg3NDE0MDYyNDNmY2U2MTMyYjdmMjI3N2E0YThlNCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Companion Cube\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4932557C828D26FE"
+					item: "plushies:cow"
+					type: "item"
+				}
+				{
+					id: "65E313A1D617E96C"
+					item: "supplementaries:cage"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32818194460DA541"
+					table_id: 2534339319169675056L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "IDK, my BFF Cow?"
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				id: "650E23F990D62E75"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			description: ["Find two animals and breed them in order to get this advancement and begin these quests!"]
+			id: "3C87581273ACB6A0"
+			rewards: [
+				{
+					id: "6D4990F08A4D5483"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+				{
+					id: "0AEB98268C0B3561"
+					item: "plushies:parrot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CA33382BFD28B72"
+					table_id: 2534339319169675056L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Animal husbandry is different than the name sounds"
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				id: "24EAA163CD45072E"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			description: ["The &bCommand Drum&r is an item which allows you to command multiple tamed creatures at one time."]
+			id: "1661059D340835FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "592BB1DBA9CED058"
+					table_id: 223398162038636868L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24209FAB82F2AEA3"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "09F430BB3D8CD3C1"
+				item: "domesticationinnovation:drum"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			description: ["The &bPet Bed&r allows your pets to &arespawn&r in the morning, should anything unpleasant happen to them. Simply have your pet &6set their spawn point&r by pushing them onto the &bPet Bed&r."]
+			id: "6B0E280BDBD4ACF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B08F0B25F6A4FBF"
+				table_id: 7049021818423122779L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "226678EE9D1503C6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:petbeds"
+					}
+				}
+				title: "Any Pet Bed"
+				type: "item"
+			}]
+			title: "Get your Pet a Bed"
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			description: ["&bCollars&r can be used to name your pets, but they can also be &aenchanted&r to give your pet special abilities."]
+			id: "09827E9E92823643"
+			rewards: [{
+				id: "6802714240042850"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "domesticationinnovation:herding"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "50B6AC73D9257351"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			description: ["The &bDeed of Ownership&r is an item used in &amultiplayer&r. You can &6right click it on an animal&r and then give the &bDeed&r to a friend. When they use it, the pet will now be linked to them, &aas if they had tamed it themself&r."]
+			id: "1C37EDEA99A890EF"
+			rewards: [{
+				id: "7D8FC845A86B5AF0"
+				item: "moblassos:golden_lasso"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "47B6BA7F65A9904A"
+				item: "domesticationinnovation:deed_of_ownership"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"The &bWayward Lantern&r will allow any lost pets to &afind their way home&r. Place it near your base, and if you should lose your pet while exploring, watch for them there."
+				"If you &alose your pet in another dimension&r, you will need to &6place a Lantern in that dimension&r to get them back."
+				"In &dMultiplayer&r, your pets will respawn at the &aclosest Lantern&r, so be careful in other people's areas."
+			]
+			id: "5DB08A394A7B8122"
+			rewards: [{
+				id: "378CD636A77C1440"
+				item: "minecraft:name_tag"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4FEF850143E6C25D"
+				item: "domesticationinnovation:wayward_lantern"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "61F03A15727266F2"
+			invisible: true
+			tasks: [{
+				id: "17716842171DA01E"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["Find an &eIceologer&r during a raid or in his secluded home. And then murder him. Because frankly, he deserves it."]
+			id: "23D702F268464D8E"
+			rewards: [{
+				count: 5
+				id: "4FD84074975C4353"
+				item: "twilightforest:ice_bomb"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "friendsandfoes:adventure/kill_iceologer"
+				criterion: ""
+				id: "016BADEBDA25900E"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			icon: "minecraft:skeleton_skull"
+			id: "13DCE1539EEE07B8"
+			rewards: [
+				{
+					count: 20
+					id: "6CB1348126BAA2EA"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "29E7968B7BD4F920"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "2B8B87F20448CF1A"
+					item: "minecraft:skeleton_spawn_egg"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "2B089937DE3D191B"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["Although they may not all be hostile, it would still be pretty cool if you killed one of every type of &eCreeper&r. It's like a world tour, but with murder!"]
+			icon: "handcrafted:creeper_trophy"
+			id: "5F03012DC9E38D8D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "402204927BD6B243"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D9F58F6BCEF3611"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+				{
+					id: "23C411FB6E5B7932"
+					item: "handcrafted:creeper_trophy"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Kill one of each Creeper type"
+			tasks: [
+				{
+					entity: "creeperoverhaul:badlands_creeper"
+					id: "5475EAB66D01AA3E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:badlands_creeper"
+					id: "148B4231D30E2A9C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:bamboo_creeper"
+					id: "2F57370380F6849F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:beach_creeper"
+					id: "498342403CB4E17A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:cave_creeper"
+					id: "247406896BFA2CBF"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:dark_oak_creeper"
+					id: "4FCFFF2423D597EA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:desert_creeper"
+					id: "27CFF5A89E252A25"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:dripstone_creeper"
+					id: "6BE030760A82D760"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:hills_creeper"
+					id: "3E4A28D5B5A84819"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:jungle_creeper"
+					id: "31AD3B6DD0B0D2E1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:mushroom_creeper"
+					id: "6688C85A7EA1707D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:savannah_creeper"
+					id: "77736E3FD3B0C165"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:snowy_creeper"
+					id: "158183796F59B405"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:spruce_creeper"
+					id: "3E78F3F494221E8B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:swamp_creeper"
+					id: "2673798B82CD0866"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:creeper"
+					id: "50BCCA198B6D6B98"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Creeper Collector"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			icon: "minecraft:creeper_head"
+			id: "7E36FAC9107093C2"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "064F74E6565B4859"
+					item: "minecraft:creeper_head"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "24D4F5F119DC1A39"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "4765ECB455E0F3A3"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E36FAC9107093C2"]
+			dependency_requirement: "all_started"
+			description: ["If you can manage to slay 500 &eCreepers&r, then you shall have earned this &bCreeper Spawn Egg&r."]
+			icon: {
+				Count: 1b
+				id: "twilightforest:creeper_skull_candle"
+				tag: {
+					BlockEntityTag: {
+						CandleAmount: 1
+						CandleColor: 0
+					}
+				}
+			}
+			id: "2A61057B25357F37"
+			rewards: [
+				{
+					id: "1330C0871BA69A9A"
+					item: "minecraft:creeper_spawn_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F85A96668CE761D"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "7472B97EC9584AF7"
+				type: "kill"
+				value: 500L
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			icon: "minecraft:zombie_head"
+			id: "05C2A9D00C440EAC"
+			rewards: [
+				{
+					count: 5
+					id: "6E063F9F8ACEC220"
+					item: "minecraft:zombie_head"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DF4D16D3FBA0AAD"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					id: "46F7C59C3BD0BCBA"
+					item: "minecraft:zombie_spawn_egg"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "23C2CC9FC18828AB"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["Defeat the &eIllusioner&r - if you can find him - and obtain his riches!"]
+			id: "61E2531671CC8118"
+			rewards: [{
+				id: "4C326A6B45BB6BF4"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "friendsandfoes:adventure/kill_illusioner"
+				criterion: ""
+				id: "1BBF8996270374EB"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["Defeat a horde of &eEndermen&r, take their SKIN and WEAR IT - oh, was that too much? Sorry. I got excited."]
+			icon: "supplementaries:enderman_head"
+			id: "3EBAD94D079ACDD8"
+			rewards: [
+				{
+					id: "5CF1D8687CF1180D"
+					item: "minecraft:enderman_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "2340B768458086C7"
+					item: "plushies:enderman"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "1C574797484F95E7"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			dependency_requirement: "one_started"
+			description: ["If you manage to defeat 500 &eWither Skeletons&r, then you deserve this reward: a &bWither Skeleton Spawn Egg&r, and a &bSpawner&r to put it in."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "twilightforest:wither_skeleton_skull_candle"
+				tag: {
+					BlockEntityTag: {
+						CandleAmount: 1
+						CandleColor: 0
+					}
+				}
+			}
+			id: "26E8A9DFDC4C1635"
+			rewards: [
+				{
+					id: "059E3E20350E1BC0"
+					item: "minecraft:spawner"
+					type: "item"
+				}
+				{
+					id: "6588523AD85BBFF1"
+					item: "minecraft:wither_skeleton_spawn_egg"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "04B537DE779D8CE4"
+				type: "kill"
+				value: 500L
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "12CC2182B839D954"
+			optional: true
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "58BF5A5E17BB8A83"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "3506C0BD5CA7D0C5"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "0A6E74616F39F811"
+				type: "kill"
+				value: 15L
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			icon: "handcrafted:pillager_trophy"
+			id: "53D63982971E2F60"
+			rewards: [
+				{
+					count: 20
+					id: "6AD16E5C15BCE1BC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7DFBD293FDD356EA"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "5DA4D69DEC4C8437"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			icon: {
+				Count: 1b
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "714C8AC1434688EF"
+			rewards: [
+				{
+					count: 3
+					id: "71D83A4349AE8785"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+				{
+					id: "36D89FBD81444CE5"
+					item: "minecraft:drowned_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "7A6F0CBC359755FC"
+					item: "upgrade_aquatic:thrasher_tooth"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "34FD1291BA7CEDB0"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["Kill all three &eIllager Magicians&r. Please."]
+			id: "077E56B6A68AB3AC"
+			rewards: [
+				{
+					id: "743B5E809927506A"
+					item: "ars_nouveau:wixie_charm"
+					type: "item"
+				}
+				{
+					id: "660DA5C0B4FF6006"
+					item: "ars_nouveau:whirlisprig_charm"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "friendsandfoes:adventure/the_magicians"
+				criterion: ""
+				id: "39A1B59A1F5CD337"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Prove your mettle by killing...wait, just one &ezombie&r and one &eskeleton&r? That seems pretty easy..."
+				"Maybe the next quests will be more difficult."
+			]
+			id: "43B3A6804B59565E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1330C08C04945E39"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "or wand, or... whatever"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "407518B5BB4A56A4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "0A45057771B77CE0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "First Swings of a Sword"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			description: ["This quest is repeatable."]
+			id: "3057155A3A2B5F47"
+			rewards: [
+				{
+					id: "57AEF83E18326ED4"
+					item: {
+						Count: 1b
+						id: "endrem:guardian_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "26C21B65560BD25A"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:guardian"
+				icon: "minecraft:prismarine_shard"
+				id: "35A42B6209CA1D8C"
+				type: "kill"
+				value: 30L
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			description: ["He's just a good boi. Don't let him stay out in the sun too long."]
+			id: "6CD4F0A4650CBA2F"
+			rewards: [
+				{
+					id: "3A5546869704A4FE"
+					item: "minecraft:powder_snow_bucket"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "41813A712049D48B"
+					item: "minecraft:snow_block"
+					type: "item"
+				}
+				{
+					id: "025034A031F1EE27"
+					item: "plushies:snow_golem"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "that's no golem!"
+			tasks: [{
+				icon: "minecraft:snowball"
+				id: "7DDD21C495EF730D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:snow_golem"
+				type: "observation"
+			}]
+			title: "Meet the Snow Golem"
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			id: "22628C8DC1BB807F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DAF095C74889CDE"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "582FB1CD7EEA24F4"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_eye"
+				id: "593E0D6FD65220E2"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"It's time to play &aGoat in a Boat&r! The rules are simple:"
+				"1. Get a &eGoat&r."
+				"2. Get a &bBoat&r."
+				"3. Get that &eGoat&r in that &bBoat&r."
+				"4. Get your &abutt&r in that &bBoat&r."
+				"You win!"
+			]
+			id: "114EFE7EF75B22F3"
+			rewards: [{
+				id: "24BE315499AA4A97"
+				item: "plushies:goat"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "captainsparklez intensifies"
+			tasks: [{
+				advancement: "minecraft:husbandry/ride_a_boat_with_a_goat"
+				criterion: ""
+				id: "5A01D74D65A58962"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Axolotls are cute lil guys, but they're also &astrong&r and &avicious&r. If you tame one, it will &afight alongside you&r should you decide to take on an underwater threat."
+				"They'll also sometimes &agive you Regeneration&r, and once they do so, you'll know that you are &dbest friends 5ever&r."
+			]
+			id: "232A8F9F6388C377"
+			rewards: [{
+				id: "3D06E592368CB47A"
+				item: "plushies:axolotl"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/kill_axolotl_target"
+				criterion: ""
+				id: "66A0BD4051C658F5"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&eTadpoles&r, otherwise known as \"the forbidden boba,\" are cute lil wiggly fellas who are particularly susceptible to &eAxolotls&r."
+				"They're also susceptible to &bBuckets&r, and if you should capture one in such a way, then you've completed this quest."
+			]
+			id: "2FC0EAD96E3C41D4"
+			rewards: [{
+				id: "44BE0CD5ECFD83B2"
+				item: "plushies:frog"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/tadpole_in_a_bucket"
+				criterion: ""
+				id: "7A90C9C915A28458"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"The &eSlabfish&r is a rectangular entity which can be &atamed&r with &bTropical Fish&r."
+				"Once tamed, you can &6right click&r to &agive them a sweater&r by equipping them with &bWool&r. They can also help you carry items if you &agive them a &bChest&r."
+				"You can also &adye the chest backpack&r by placing a dye in that slot."
+				"&eSlabfish&r will toggle sitting or standing if you &6shift right click&r them."
+				"However, they will &donly follow you when you're holding &bTropical Fish&r."
+			]
+			id: "7A028A2ABDD3D304"
+			rewards: [{
+				id: "4DF7256C6FF7781B"
+				item: "environmental:slabfish_effigy"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "it's a slab. it's a fish. it's a slabfish."
+			tasks: [{
+				icon: "environmental:slabfish_effigy"
+				id: "7EADDF251FAAE962"
+				observe_type: 5
+				timer: 0L
+				to_observe: "environmental:slabfish"
+				type: "observation"
+			}]
+			title: "Meet the Slabfish"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Looking for a challenge? Why not craft yourself a &bGate Pearl&r? &dYou can craft any one you'd like for this quest&r."
+				"A &bGate Pearl&r allows you to summon a &eGateway&r by using it on a block.There will need to be &asufficient space&r available, and &aanother Gateway cannot already be open&r."
+				"An open Gateway will &dfail in a burst of lightning&r if it &acannot spawn a mob&r, any active &amob gets too far away&r, or the &awave timer&r elapses. Rewards will spawn from the Gateway as they are obtained."
+				"These &eGateway&r provide a challenge for powerful players, and are a great source of &bMob Drops&r."
+			]
+			id: "538D45E5FE8591D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C76B55071F1CB88"
+				table_id: 4747620395501175375L
+				type: "choice"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6870A2403C99B582"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:zombie_gate_small"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gateways to Eternity"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"&eGoats&r are ornery things. If you should happen across one, &abeware of their headbutts&r! "
+				"However, if you can get it to &acharge into a hard block&r such as &bStone&r, it will drop a &bHorn&r."
+			]
+			id: "3556685D896ADA7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1711429F0EE0C533"
+				table_id: 1510389528595555205L
+				type: "random"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:goat_horn"
+					tag: {
+						instrument: "minecraft:ponder_goat_horn"
+					}
+				}
+				id: "5BB9CB6527E6EF77"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:goat"
+				type: "observation"
+			}]
+			title: "Meet the Goat"
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["Although &eWraiths&r are not hostile, they sure are spooky. Put 50 of them &aout of their misery&r to earn this ingredient in crafting the &bUndead Eye&r."]
+			id: "2A930C9591A317A3"
+			rewards: [{
+				id: "5DC83818918FD852"
+				item: "endrem:undead_soul"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "quark:wraith"
+				icon: "quark:soul_bead"
+				id: "67167BE721C1C831"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			description: ["This quest is repeatable."]
+			id: "376F0C3219E696C9"
+			rewards: [{
+				count: 4
+				id: "06F77BA8B0FA6B73"
+				item: "minecraft:sponge"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:guardian"
+				icon: "minecraft:sponge"
+				id: "65777A88B18EE777"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&eSnails&r are some of the most delightful creatures."
+				"They're quite fond of terracotta, so you can easily &ascoop them up&r in a &bFlower Pot&r! Catch one of each to be rewarded with more of the same!"
+			]
+			id: "55CAFBB909F98ED8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BEB488E750283FD"
+					table_id: 7605316060591977074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "361AB2E20ED1793D"
+					table_id: 8096229411196850122L
+					type: "random"
+				}
+			]
+			subtitle: "it's far too perilous"
+			tasks: [
+				{
+					id: "56D54ABE011FE588"
+					item: "finsandtails:flatback_leaf_snail_pot"
+					type: "item"
+				}
+				{
+					id: "5E956C8B3E380B66"
+					item: "finsandtails:river_pebble_snail_pot"
+					type: "item"
+				}
+				{
+					id: "59A385070126BB28"
+					item: "finsandtails:siderol_whiskered_snail_pot"
+					type: "item"
+				}
+			]
+			title: "The Search for the Holy Snail"
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Ooh look, a nice &ajuicy loot chest&r! Wonder what's inside?"
+				"&lGOTCHA&r, it's a &eMimic&r! Mimics are creatures which resemble chests, but will turn hostile should you try to open them."
+				"Once defeated, &athey drop &bArtifacts&r."
+			]
+			id: "7FB79E375B154A0E"
+			rewards: [{
+				count: 10
+				id: "1B9AF3CC1116662F"
+				item: "nethersdelight:mimicarnation"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: "artifacts:mimic_spawn_egg"
+				id: "3E845198C4BE9909"
+				observe_type: 5
+				timer: 0L
+				to_observe: "artifacts:mimic"
+				type: "observation"
+			}]
+			title: "Fall Prey to the Mimic"
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&eYaks&r are cowlike beasts with long fur. They can be &asheared for their wool&r, which is used in a number of recipes. They can also &abe milked&r!"
+				"They are bred with &aWheat&r."
+				"Once &asheared&r, they will go after the player, unless the player is wearing &bYak Pants&r."
+			]
+			id: "382FEE92206B1F49"
+			rewards: [{
+				count: 5
+				id: "5BCE90C27F72D1F9"
+				item: "environmental:yak_hair"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: "environmental:yak_hair"
+				id: "0AD39E253DAC2DDE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "environmental:yak"
+				type: "observation"
+			}]
+			title: "Meet the Yak"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&eStonelings&r are very timid creatures! They can be found &cin caves underground&r, and will often be carrying &asomething shiny they found&r."
+				"Most times, they will &aimmediately flee&r the player and poof into their home dimension. However, if they are killed, they can drop the very valuable &bHeart of Diamond&r, used to make a &bPickarang&r."
+				"To obtain this, you'll need to &6sneak up on the &eStoneling&r, or &atempt it with a &bGlowshroom&r."
+			]
+			id: "1D8DD63F836302C8"
+			rewards: [{
+				id: "4A85FD0801EB0478"
+				item: "quark:glow_shroom"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: "quark:diamond_heart"
+				id: "0C8FFD1E7B985EA1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:stoneling"
+				type: "observation"
+			}]
+			title: "Meet the Stoneling"
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"The &eRootling&r is a forest-dwelling sentient plant which comes in multiple colors. It is closely related to the Mandrake."
+				"They can be &asheared to get petals&r, but they dislike this and will &aflee from you&r! Should you managed to shear some, the &bPetals&r can be used to make &bDyes&r."
+				"They love &arain and flowers&r, and can be found enjoying both. They're also social and will &agreet one another&r with a little belly bump!"
+				"When they die, they drop &bRootling Seeds&r which can be used to grow more &eRootlings&r. They also drop &bBulbus root&r, which are edible once cooked."
+				"They will follow you if you &ahold bonemeal&r."
+			]
+			id: "017910D0153E593E"
+			rewards: [{
+				id: "46BEBDF07CACC1D9"
+				item: "biomemakeover:rootling_seeds"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: "biomemakeover:magenta_petals"
+				id: "253832B30BFEED93"
+				observe_type: 5
+				timer: 0L
+				to_observe: "biomemakeover:rootling"
+				type: "observation"
+			}]
+			title: "Meet the Rootling"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The &bFwin&r is occasionally dropped from &eSwamp Muckers&r. These fish do not swim, but rather &apropel themselves around&r with their fwins."
+				"You can use these items to &acraft some boots&r which increase speed underwater, and &acan be Enchanted&r to allow players to leap from the water while swimming!"
+			]
+			id: "0856883C8F0C0214"
+			rewards: [{
+				id: "72F315A632F4BE0F"
+				item: "finsandtails:fwin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "45EC62F075FD23A5"
+				item: "finsandtails:fwin"
+				type: "item"
+			}]
+			title: "Swamp Muckers' Fwins"
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"It is the duty of every witch to improve the world around them. One such method is &adestroying evil creatures&r such as the &eWilden&r."
+				"The &eWilden&r are an ancient race of Shapeshifters who &abroke the treaty with nature&r and became forever trapped in their animal states. They now exist &aonly to kill&r. Defeat them and absorb their knowledge and power."
+			]
+			id: "7EF23B68E32568DE"
+			rewards: [{
+				id: "4A10122B4878EE34"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 10L
+					id: "3A9BB346C47CCBDD"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2B6EEF46BC2C7530"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "03133B1C35B17F08"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+			]
+			title: "Wilden Trophies"
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&eFerrets&r are adorable obligate carnivores which can be &atamed with raw rabbit&r!"
+				"Be aware that they will &ahunt &eChickens and Rabbits&r even once tamed, so be sure to keep your livestock separated from them!"
+				"Tamed &eFerrets&r can also &adig for loot&r once every 5 minutes when &afed raw chicken&r."
+			]
+			id: "17D05EDC67E36F43"
+			rewards: [{
+				count: 5
+				id: "5A0F7BCCA4EFD7D8"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "cottagewitch:textures/customicons/ferret.png"
+					}
+				}
+				id: "07EDB27B6B4B4337"
+				observe_type: 5
+				timer: 0L
+				to_observe: "crittersandcompanions:ferret"
+				type: "observation"
+			}]
+			title: "Meet the Ferret"
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"&eOwls&r are some of the more traditional witch familiars, so you'll be pleased to note that &athey can be tamed&r!"
+				"Feed them &bgame meat&r such as &brabbit&r or &bchicken&r. They can also be bred with the same items. They will &afollow you once tamed&r even if you're flying through the air!"
+			]
+			id: "697E566F9FF782F0"
+			rewards: [
+				{
+					count: 5
+					id: "478853E191F41ABC"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DAF274364D46AF7"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+			]
+			shape: "heart"
+			subtitle: "owl be happy to see you"
+			tasks: [{
+				icon: "biomemakeover:owl_spawn_egg"
+				id: "03EBA7A36A380D74"
+				observe_type: 5
+				timer: 0L
+				to_observe: "biomemakeover:owl"
+				type: "observation"
+			}]
+			title: "Meet the Owl"
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Above the canopy of the &cDark Forest&r, you can find giant hostile &eMoths&r, which cluster around &bMoth Blossoms&r and &alights&r. These pests seem to serve to prevent people from traversing the canopy."
+				"Use their &bScales&r to create a &bPotion of the Nocturnal&r, an exceptionally long-lasting brew which prevents &ePhantoms&r from spawning."
+			]
+			id: "5E86B948F3FA0264"
+			rewards: [{
+				count: 3
+				id: "6E248284527A632A"
+				item: "biomemakeover:moth_scales"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "biomemakeover:moth"
+				icon: "biomemakeover:moth_scales"
+				id: "60D39B0FAEEC2C7C"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Moths in the Canopy"
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&eKoi&r are delightful creatures which live in shallow fresh water. There are regular &eKoi&r and &eLucky Koi&r. Both will provide you with beneficial effects."
+				""
+				"Regular Koi &agive a Serenity effect&r which &aprevents hostile spawns&r in the nearby area. These fish can be found in &cBlossom Woods&r and &cBlossom Valleys&r biomes."
+				""
+				"Lucky Koi, you may be shocked to find, will grant a &aLuck effect&r if they are near you while fishing! These fish can be found in &cRivers&r."
+			]
+			id: "4F4775AF5B5B93E9"
+			rewards: [{
+				id: "38D49950C6F09766"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "goblintraders:luck"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "514789673C21BDD6"
+					item: "crittersandcompanions:koi_fish_bucket"
+					type: "item"
+				}
+				{
+					id: "0E453F3092616CDB"
+					item: "environmental:koi_bucket"
+					type: "item"
+				}
+			]
+			title: "Types of Koi"
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Why not travel a while by Pig? It may not be fast, or efficient, or even particularly fun."
+				""
+				"No, that's it, that's the whole sentence."
+			]
+			id: "7E2641B15D6AF49E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6660D36094752F9E"
+				table_id: 7049021818423122779L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "16CAC410F6BBE772"
+					stat: "minecraft:pig_one_cm"
+					type: "stat"
+					value: 10000
+				}
+				{
+					id: "4F6C803E22B3FF71"
+					item: {
+						Count: 1b
+						id: "minecraft:carrot_on_a_stick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Traveling Piggyback"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"The &eRed Bull Crab&r, unlike it's friendlier cousin the &eWhite Bull Crab&r, is somewhat vicious, even to others of its own kind."
+				""
+				"If you kill one, you may receive a &bRed Bull Crab Claw&r, which can either &abe cooked&r, or &acrafted into a &bRed Claw Gauntlet&r."
+				""
+				"The Gauntlet can be enchanted with &aunique effects&r."
+			]
+			id: "068330DDB109AAD2"
+			rewards: [{
+				id: "604366D6E4B3DD6F"
+				item: "finsandtails:red_bull_crab_claw"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "it gives you claaaaws"
+			tasks: [{
+				entity: "finsandtails:red_bull_crab"
+				icon: "finsandtails:red_bull_crab_claw"
+				id: "4B46CE4E3E2AA1E3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay a Red Bull Crab"
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&ePenglils&r are fun-loving little guys who are distant relatives of the &ePenguin&r. They love water and can be tamed with &bHigh-Finned Blue&r."
+				""
+				"I wonder what would happen if you named one \"Lord?\""
+			]
+			id: "30B298083652D459"
+			rewards: [{
+				count: 5
+				id: "52786D29ABFE43EB"
+				item: "finsandtails:high_finned_blue"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: "finsandtails:penglil_bucket"
+				id: "643E09E7E6546836"
+				observe_type: 5
+				timer: 0L
+				to_observe: "finsandtails:penglil"
+				type: "observation"
+			}]
+			title: "Meet the Penglil"
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			description: ["This elusive big cat can be found in &cGroves&r and &cSnowy Taigas&r. &aTame this mount&r with &bmutton&r or &bsalmon&r for a lifelong friend!"]
+			id: "13577236741AE721"
+			rewards: [{
+				count: 4
+				id: "3991B2F12DC4D1B8"
+				item: "minecraft:mutton"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "not to be confused with acacia"
+			tasks: [{
+				icon: "mythicmounts:acencia_spawn_egg"
+				id: "51FF6AE74B71CAA9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:acencia"
+				type: "observation"
+			}]
+			title: "Meet the Acencia"
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			description: ["Craft a &bSummoning Staff&r to bind to your mount (&6right click them with the staff&r). This will allow you to command them to sit, follow, or wander... and summon them to your side from anywhere! Be warned though: &aonly one mount can be bound to a staff&r."]
+			id: "599C6FA65E8BBB7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0457E7AA69326A2B"
+				table_id: 7049021818423122779L
+				type: "loot"
+			}]
+			subtitle: "better than carbuncle"
+			tasks: [{
+				id: "5B97A0C680666042"
+				item: "mythicmounts:summoning_staff"
+				type: "item"
+			}]
+			title: "Craft a Summoning Staff"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			description: ["Archelon is ancient turtle from a prehistoric age, found in &cdeep lukewarm ocean&r habitats. &aTame one&r with &bcod&r or &bsalmon&r. What this mount lacks in land speed it more than makes up for in the water!"]
+			id: "4D28224233A3C51A"
+			rewards: [{
+				count: 4
+				id: "3F5F6FE3B7C40424"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "turtle power"
+			tasks: [{
+				icon: "mythicmounts:archelon_spawn_egg"
+				id: "0271C48B33B24393"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:archelon"
+				type: "observation"
+			}]
+			title: "Meet the Archelon"
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			description: ["Found only in &cmushroom fields&r, they can &6be tamed&r with &bsugar&r, &bmushrooms&r, and all Vanilla &bflowers&r."]
+			id: "017C5A75178F3542"
+			rewards: [{
+				count: 4
+				id: "7DDB6C0794158F83"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "it's a cool elytra"
+			tasks: [{
+				icon: "mythicmounts:colelytra_spawn_egg"
+				id: "478B79078B3B4992"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:colelytra"
+				type: "observation"
+			}]
+			title: "Meet the Colelytra"
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			description: ["This vibrant and quick creature can be found in &cjungles&r. &6Approach with caution and offer&r &bsweet berries&r or &bmelon slices&r to win them over."]
+			id: "377AA8A86975BA71"
+			rewards: [{
+				count: 4
+				id: "66F13F4CCF3E2C6F"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "a mount cid would be proud of"
+			tasks: [{
+				icon: "mythicmounts:courierbird_spawn_egg"
+				id: "572374EDC3AB2D24"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:courierbird"
+				type: "observation"
+			}]
+			title: "Meet the Courier Bird"
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			description: ["They aren't man's best friend... yet. &6Try offering one&r a &bbone&r. Find them in any type of &ctaiga biome&r."]
+			id: "056C04C3CC47A759"
+			rewards: [{
+				count: 4
+				id: "38380BA70A49C240"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "good boy"
+			tasks: [{
+				icon: "mythicmounts:direwolf_spawn_egg"
+				id: "51918B0AC00BF9D9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:direwolf"
+				type: "observation"
+			}]
+			title: "Meet the Dire Wolf"
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			description: ["Though rare, these beasts can sometimes be found in &cdeep caves&r. To befriend them, &6offer up your valuables&r... &bgold&r, &bdiamond&r, or &bemerald&r will do. But be careful... they can be quite &adangerous&r."]
+			id: "034B48F75EFD00FE"
+			rewards: [{
+				count: 4
+				id: "2CF29E2C5317447C"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "imagine, dragons!"
+			tasks: [{
+				icon: "mythicmounts:dragon_spawn_egg"
+				id: "63B895ED4ED1217F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:dragon"
+				type: "observation"
+			}]
+			title: "Meet the Dragon"
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			description: ["These docile, gluttonous lizards love relaxing in &cmountain caves&r and slurpin' down &bpumpkins or anything that looks like one. &6Tame one&r with &bpumpkins&r, &bmelons&r, or &bhay blocks&r to have a lounge lizard friend of your very own."]
+			id: "2FE64806CEF6A7C7"
+			rewards: [{
+				count: 4
+				id: "32FC1EBB1BA25838"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "save 15% or more"
+			tasks: [{
+				icon: "mythicmounts:geckotoalizard_spawn_egg"
+				id: "6BA12A9150EA463D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:geckotoalizard"
+				type: "observation"
+			}]
+			title: "Meet the Geckotoa"
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			description: ["Fragile, beautiful, and capable of carrying a rider in flight. These moths haunt the &cdark forest&r regions. &6Give them&r &bsugar&r or Vanilla &bflowers&r to earn their trust."]
+			id: "7F0B29308048864C"
+			rewards: [{
+				count: 4
+				id: "7DF303DDF03B250C"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "it's a moth, man"
+			tasks: [{
+				icon: "mythicmounts:moth_spawn_egg"
+				id: "68B618C5297637A2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:moth"
+				type: "observation"
+			}]
+			title: "Meet the Giant Moth"
+			x: -10.5d
+			y: 7.5d
+		}
+		{
+			description: ["These uncommon bird... mammal... things... are sometimes seen flying over &cmountaintops&r, feeding on &brabbit&r and &bmutton&r. They are a loyal partner when &6tamed&r, and will &adefend their owner&r. "]
+			id: "7EB5B6A65733A02A"
+			rewards: [{
+				count: 4
+				id: "21D715069E8084F8"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "it's a hy-bird"
+			tasks: [{
+				icon: "mythicmounts:griffon_spawn_egg"
+				id: "466A61047F38CDB7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:griffon"
+				type: "observation"
+			}]
+			title: "Meet the Griffin"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			description: ["Look for these bats in the &cfungal forests of the nether&r. As omnivores, they'll eat all kinds of things, from &bmushrooms&r to &beggs&r to &bspider eyes&r... &amake sure you've come with treats&r, as they are &dhostile to players&r!"]
+			id: "278C2901783A7CFC"
+			rewards: [{
+				count: 4
+				id: "676B265791616802"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "my logic is erratic"
+			tasks: [{
+				icon: "mythicmounts:netherbat_spawn_egg"
+				id: "4790537A62A534A7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:netherbat"
+				type: "observation"
+			}]
+			title: "Meet the Nether Bat"
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			description: ["For an easy jaunt through the nether, find yourself a Nightmare! Located in &cSoul Sand Valleys&r and &cBasalt Deltas&r, this mount can &aliterally walk on lava&r. Befriend one with &bbones&r or &bcoal&r."]
+			id: "4D81435583AB5226"
+			rewards: [{
+				count: 4
+				id: "2194DC92E45A83F5"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "the steed of your dreams"
+			tasks: [{
+				icon: "mythicmounts:nightmare_spawn_egg"
+				id: "70A4A901659D1EFA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:nightmare"
+				type: "observation"
+			}]
+			title: "Meet the Nightmare"
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			description: ["These friendly &ccoral reef&r dwellers are capable swimmers, and come in a wide variety of colors and patterns. Tame one with &bkelp&r for an aquatic mount!"]
+			id: "6CD4B9F1448F96FD"
+			rewards: [{
+				count: 4
+				id: "77BDB963B85BB6C0"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "i herd u liek mudkip"
+			tasks: [{
+				icon: "mythicmounts:nudibranch_spawn_egg"
+				id: "6FE7C165CD7C6002"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:nudibranch"
+				type: "observation"
+			}]
+			title: "Meet the Nudibranch"
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			description: ["This reptilian mount hunts &erabbits&r and &echickens&r in their native enviroment of the &cdesert&r and &cbadlands&r. Though &dhostile to players&r, offering some of their &bfavourite meat&r will make them a loyal friend."]
+			id: "2E65802308E35A24"
+			rewards: [{
+				count: 4
+				id: "56337B8718928FD0"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "clever girl"
+			tasks: [{
+				icon: "mythicmounts:ridinglizard_spawn_egg"
+				id: "2B2400BAD61D9185"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:ridinglizard"
+				type: "observation"
+			}]
+			title: "Meet the Riding Lizard"
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			description: ["An incredibly rare sight, the &eŻar-ptak&r can sometimes be seen flying near &cinhabited villages&r. They are said to have expensive tastes. &6Try offering them&r &bgolden apples&r for friendship."]
+			id: "181309B1780B002C"
+			rewards: [{
+				count: 4
+				id: "4883DA1AD3FD6E96"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "a harbinger of luck"
+			tasks: [{
+				icon: "mythicmounts:firebird_spawn_egg"
+				id: "093B942E1C31B7EA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:firebird"
+				type: "observation"
+			}]
+			title: "Meet the Żar-ptak"
+			x: -9.0d
+			y: 3.5d
+		}
+	]
+	title: "Wildlife"
+}

@@ -1,0 +1,2990 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "miscellaneous"
+	group: "346046A71D537172"
+	icon: "minecraft:bookshelf"
+	id: "0F5FCDF7AD60349B"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgcommerce.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgautomation.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 11.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgmiscteal.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You can send letters and packages to your friends! You can &asend and receive mail&r using a &bSnailbox&r. Placing it down claims it, and you can even give it a name by &6right clicking on it&r and entering text in the name field."
+				""
+				"For more information, &6please click to the next page&r."
+				""
+				"{@pagebreak}"
+				""
+				"To &asend mail&r, you'll need a &bStamp&r and an &bOpen Envelope&r. These envelopes can be reused, so they're good for the environment. &6Place the Envelope in the upper right of the &bSnailbox&r. Then click &6\"Open Envelope&r.\""
+				""
+				"{image:cottagewitch:textures/snailmail1.png width:210 height:275 align:1}"
+				""
+				"{@pagebreak}"
+				""
+				"In here, you can put your mail! You can send &bphotos, items, and more&r! To include a message, use a &bBook and Quill&r. &aDon't forget to add a Stamp&r! Enter the name of the recipient, your name if desired, and then &6Hit Esc to go back to the previous window&r!"
+				""
+				"{image:cottagewitch:textures/snailmail2.png width:250 height:200 align:1}"
+				""
+				"{@pagebreak}"
+				""
+				"Once you've hit &dEsc&r, you can &aselect the Snailbox to send to&r, and ta-da! You're done!"
+				""
+				"{image:cottagewitch:textures/snailmail3.png width:250 height:80 align:1}"
+				""
+				"{image:cottagewitch:textures/snailmail4.png width:250 height:150 align:1}"
+			]
+			id: "476D80268DFAFC7A"
+			min_width: 300
+			rewards: [
+				{
+					count: 4
+					id: "0599A3D734B1522D"
+					item: "snailmail:stamp"
+					type: "item"
+				}
+				{
+					id: "792EE14262BC256A"
+					item: "snailmail:snail_box"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BD1D64752FC1F78"
+					table_id: 2068679807827730220L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "A way to communicate in multiplayer"
+			tasks: [{
+				id: "47B16BD50607E0B8"
+				item: "snailmail:stamp"
+				type: "item"
+			}]
+			title: "Snail Mail"
+			x: -3.25d
+			y: 4.5d
+		}
+		{
+			description: [
+				"The &bSandcastle&r can be placed over &bTurtle Eggs&r in order to protect them from Zombies."
+				""
+				"However, there is &da bug currently&r which prevents eggs in a &bSand Castle&r from hatching."
+			]
+			id: "012D4FE416DC8BE7"
+			rewards: [
+				{
+					count: 6
+					id: "6FA462CBA8F1F1A0"
+					item: "minecraft:seagrass"
+					type: "item"
+				}
+				{
+					id: "67DB8C7385EA982C"
+					item: "plushies:turtle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "011BA0D1215C61A4"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Do you wanna build a...uh...sandcastle?"
+			tasks: [{
+				id: "33B1F2EE602D5EAB"
+				item: "ecologics:sandcastle"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			description: ["The &bIron Grate&r works to keep animals inside, as they are afraid to walk over it, although you can lead them across by attaching a &bLead&r to them. &aItems will fall through it&r."]
+			id: "0D7B3090032B6F0E"
+			rewards: [{
+				count: 10
+				id: "33366B032997DB84"
+				item: "quark:grate"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Well isn't that just grate"
+			tasks: [{
+				count: 4L
+				id: "7B8D8FBF31255D24"
+				item: "quark:grate"
+				type: "item"
+			}]
+			title: "Obtain some Iron Grates"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			description: ["Found as loot in chests, the &bAncient Tomes&r are books of long-lost knowledge which will allow you to &aadd a level to the specified enchantment&r by combining the Tome with the &bEnchanted Book&r at an &bAnvil&r."]
+			id: "3765768BE87D28DE"
+			rewards: [{
+				id: "003A388D44155E77"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			subtitle: "I tome you so"
+			tasks: [{
+				id: "74CD55EBA3A75ABB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tomes"
+					}
+				}
+				title: "Any Ancient Tome"
+				type: "item"
+			}]
+			title: "Obtain an Ancient Tome"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"You can obtain a &bCloud in a Bottle&r by ascending to &acloud height&r and &6right clicking the air with a glass bottle&r."
+				"You can release the Cloud by right-clicking the bottle in the air. It will shortly disappear. However, if the cloud is &6replaced with another block&r, it returns to the bottle. This allows you to &aplace blocks in midair&r."
+			]
+			id: "24B3EE21C9B6292B"
+			rewards: [{
+				id: "6AEF085BA270D1C5"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "Lots of things can go in bottles."
+			tasks: [{
+				id: "60F3F63E08A8D71B"
+				item: "quark:bottled_cloud"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"The &bCinder Furnace&r is a unique item which &aonly functions on the back of a &eCindershell Tortoise&r, which live in the Nether Wastes."
+				""
+				"You can befriend and breed them with &bFungus&r - but beware, they have a LOT of young at once."
+				""
+				"If you place this &bFurnace&r on top of a &eCindershell&r, it will use the beast's volcanic heat to &asmelt items without fuel&r!"
+			]
+			id: "7B40E7022A67BC86"
+			rewards: [{
+				id: "29CA99C54CEF6EDB"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "Cindershelly, cindershelly, oh we love our cindershelly"
+			tasks: [{
+				id: "67131CB5294C5493"
+				item: "cnb:cinder_furnace"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Did you know that you can &aspeed up the tick speed of a block&r? This can be used on things like &bCompost&r to make them progress faster."
+				""
+				"Craft the &bTime in a Bottle&r and hold it in your inventory to accumulate time. Then, you can &6shift right click&r on certain blocks to apply that time to them."
+			]
+			id: "00BDE15DD24045A6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BD6346A90078E9B"
+					table_id: 1739670786502713488L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03E7C7EA0D3FA6C2"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2B71420D0C290C59"
+				item: {
+					Count: 1b
+					id: "tiab:time_in_a_bottle"
+					tag: {
+						storedTime: 3520
+					}
+				}
+				type: "item"
+			}]
+			title: "Capture Time in a Bottle"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			description: ["The &bCage&r is similar to the &bCapture Cell&r, in that you can &6right click it on a small mob&r to pick it up and transport it. You can &6right click a block to release&r the mob, or you can &6shift right click&r to place the &bCage&r down and display your new friend in their enclosure!"]
+			id: "2AD60B373912C5A4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A6CFBB3D1DD0E2C"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					id: "7BB2F04536C0D59E"
+					item: "supplementaries:cage"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Despite all my rage, I am still just a...oh you know"
+			tasks: [{
+				id: "69932938B19DB961"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Did you know you can grind the enchantment off of the &bEnchanted Golden Apple&r?"
+				""
+				"That would be utterly ridiculous to do, and yet..."
+			]
+			id: "7DD918D36463CF71"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33D0F4658286711D"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					id: "0C1984AA729F6517"
+					item: "plushies:white_fox"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "supplementaries:story/unenchanter"
+				criterion: ""
+				id: "0F62B197A427BB30"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"The &bWrench&r is an item which can &arotate blocks&r. Just &6right click the block&r with the &bWrench&r, and it will adjust the position based on where you click it."
+				""
+				"Does not work on objects which have the same texture on all sides (such as planks)."
+			]
+			id: "1547891EBE53934F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "686A7979CF354907"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7AFEDB990D121E9E"
+				item: {
+					Count: 1b
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			description: ["The &bBedroll&r is an item which will allow you to &apass the night without setting spawn&r. Simply carry it with you and &6right click it on the ground&r to place it."]
+			id: "34E82F6EBE6762A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "326FAD6DC787DFAD"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Sleep under the stars!"
+			tasks: [{
+				id: "0531D8B2000AAB12"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "upgrade_aquatic:bedrolls"
+					}
+				}
+				title: "Any Bedroll"
+				type: "item"
+			}]
+			title: "Roughing It"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"Have you ever fallen in love with the color palette of one biome, but your base is somewhere else entirely? Well, worry not! With &bBiome Jars&r, you can &6pick up the biome and transport it!&r"
+				""
+				"Right click the &bBiome Jar&r on the ground of the biome you want to take. Wait just long enough to go - \"Is this worki -\""
+				""
+				"&l&dBANG!&r Yes, it's working! Once it completes its capture, you can &6right click it&r to pick it back up."
+				""
+				"Then, take your jar and &6right click it&r on the area you want to transfer the new biome to."
+			]
+			id: "642A47408175527E"
+			rewards: [{
+				id: "4D09F6B82F4DBEC7"
+				item: "biomesinjars:empty_biome_jar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1AFEF35775412EB5"
+				item: "biomesinjars:empty_biome_jar"
+				type: "item"
+			}]
+			title: "Take Your Biomes With You"
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: [
+				"Villagers who have &abeen zombified and then cured&r will offer &asignificant discounts&r."
+				""
+				"Should you find a &eZombie Villager&r, &6hit them with a Splash Potion of Weakness&r, and then &6give them a golden apple&r. After a time, they will be cured!"
+			]
+			id: "16797E1EF5450E7E"
+			rewards: [{
+				id: "32B8F134BDB6C421"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "extreme couponing"
+			tasks: [{
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+				id: "7F78311C1F39DDCC"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&bEmeralds&r! These are the bread and butter of the &eVillagers&r which live in your world. You will need these to obtain rare items such as the new &bEnd Portal Eyes&r."
+				"To find a &alist of all villager professions and their job blocks&r, hover over an &bEmerald&r and &6press \"u\"&r, then &6choose the top tab with a villager face&r."
+				"{image:cottagewitch:textures/villagers.png width:200 height:200 align:1}"
+			]
+			id: "70C4F17973F6492E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56FC01153B740D4A"
+					table_id: 3965165831041023950L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "193851DBE5D9BA6B"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "58A355655550BE5E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "The Basis of an Economy"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: ["The first time you trade with a villager, their &aprofession and possible trades will become locked&r. This is a good way to ensure that the &aLibrarian&r who sells &bMending&r doesn't suddenly run away to join the circus."]
+			id: "3705ABBD8EE1A369"
+			rewards: [{
+				count: 4
+				id: "5F9B1BB381A8AF4E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "morevillagers:first_trade"
+				criterion: ""
+				id: "1AE5841864AEE2A1"
+				type: "advancement"
+			}]
+			title: "Trade with a Villager"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: ["Goblin Traders are friendly fellows who are always happy to do business with humans! They're not the smartest, though, so they tend to offer deals that are quite good."]
+			id: "160EE610C4B660D8"
+			rewards: [
+				{
+					id: "6401C8FA6FD927CB"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					id: "085B97D1A7BA8CA9"
+					item: "plushies:llama"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "Eager but not too bright"
+			tasks: [{
+				icon: "goblintraders:goblin_trader_spawn_egg"
+				id: "13D291470FC0A9F4"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goblintraders:goblin_trader"
+				type: "observation"
+			}]
+			title: "Meet the Goblin Trader"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			description: ["As its name suggests, the &bRedstone Randomizer&r determines randomly whether to output the provided signal to the &aleft or to the right&r."]
+			id: "18D9BBE334549285"
+			rewards: [
+				{
+					id: "64ED604693BAC54A"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "27787B4FDAD4F84C"
+					item: "minecraft:lever"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "601665ACAFEC8462"
+					table_id: 3965165831041023950L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "355E971D34CF6BC3"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Flip a coin. Or a lever."
+			tasks: [{
+				id: "75EF1DAD98E4D222"
+				item: "quark:redstone_randomizer"
+				type: "item"
+			}]
+			title: "Obtain the Redstone Randomizer"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			description: ["The &bCog Block&r performs the same way that &bplaced Redstone&r does. However, it doesn't wash away in water, and can be placed vertically both up and down to send a signal."]
+			id: "781003E78C236E0D"
+			rewards: [
+				{
+					count: 14
+					id: "14DB1AEE4A513217"
+					item: "supplementaries:cog_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32D22BEA8DC9AD62"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A17133D15FF264B"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "You know the joke I wanna make."
+			tasks: [{
+				id: "03A7ABED5015F645"
+				item: "supplementaries:cog_block"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Depending on weather, this decorative block will output a redstone signal."
+				""
+				"When it is &araining&r, it will output a signal of 1. When it is &athundering&r, it will output a signal of 2."
+			]
+			id: "6DBD018A4FB32DD8"
+			rewards: [
+				{
+					command: "/weather thunder"
+					id: "5B03626476475840"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41CD92015AD0CB9B"
+					table_id: 3965165831041023950L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B0C02AF2799DAEB"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Make it rain"
+			tasks: [{
+				id: "6BFD2D33AD5AA3DA"
+				item: "supplementaries:wind_vane"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"&bBellows&r are blocks that can &aspeed up furnaces&r, &aprevent fires from extinguishing&r, and even &apush entities&r."
+				""
+				"The rate at which the Bellows pump is determined by the strength of the &aRedstone signal&r it is receiving."
+			]
+			id: "50E64308D7D56C48"
+			rewards: [
+				{
+					id: "75FE7DDAC7EE2B76"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "3AE665402813BA3B"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AF788C41142FA0A"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F73DB493D99D5CE"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Holler and bellow"
+			tasks: [{
+				id: "274DAEA1048998F7"
+				item: "supplementaries:bellows"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Perhaps this is too obvious to explain, but the &bTurntable&r is a block that, when provided with a Redstone signal, will rotate the block it is touching."
+				""
+				"When placed sideways, it can turn an &bHourglass&r to reset it."
+			]
+			id: "6C7EB11A659D7914"
+			rewards: [
+				{
+					id: "29D5CBCFAC40247B"
+					item: "minecraft:armor_stand"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EA7771EAF0FFD29"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4546B9ACFEDF91A1"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "How the turn tables!"
+			tasks: [{
+				id: "46A8B4EA03512795"
+				item: "supplementaries:turn_table"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			description: ["The &bRedstone Illuminator&r is a light source which is on by default. It grows dimmer depending on how much &aRedstone signal&r it receives. One can use a &bCrank&r instead of a &bLever&r for more fine-tuned control."]
+			id: "1371F9B501187A91"
+			rewards: [
+				{
+					id: "0FF3EDC8632BBD2A"
+					item: "supplementaries:crank"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1989152A446D9F94"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F61C8A456DA1809"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Beware the power of the Illuminate-y"
+			tasks: [{
+				id: "7696927D53015E8F"
+				item: "supplementaries:redstone_illuminator"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"The &bFaucet&r is an item which will &awithdraw, and drop, items from the sides of blocks&r (inventories, beehives, or jars). This is opposed to Hoppers, which can only withdraw from the bottom."
+				""
+				"They also function like &bDripstone&r, slowly dripping liquids into a cauldron beneath them."
+			]
+			id: "5A0A46815A9FE05D"
+			rewards: [
+				{
+					id: "25E6A85160A3B1D8"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3088ADDA4C6ABEA9"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Just hope it's not too leaky"
+			tasks: [{
+				id: "5F118DB99C9B4861"
+				item: "supplementaries:faucet"
+				type: "item"
+			}]
+			title: "Obtain a Faucet"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			description: ["The &bEnder Watcher&r transmits a Redstone signal when &aa player is looking at it&r. The signal intensity is determined by how far the player is."]
+			id: "416C9C912FDB1ADC"
+			rewards: [
+				{
+					count: 4
+					id: "1AB780552E0B7B4B"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BE5BD0AD488B260"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					id: "6E2135354FEF676F"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									797961014
+									-232764807
+									-1952866225
+									341423790
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU2MWMwZDU0ZmFjY2I2YTE5MzdmNTZiYmYzZDU5YTViN2QxMjZlYzM4NTBiMDQ5N2ViZTc3ZjFmNTY3YTlmNSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Fancy Cube\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3546809490B8ED0B"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "642A27CACAE4C885"
+				item: "quark:ender_watcher"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"The &bIron Rod&r is not just a decoration, it is also functional. When it is placed on a &bSticky Piston&r, it will &abreak the block&r the Piston pushes it into."
+				""
+				"This only works on blocks which can be pushed, so blocks like &bObsidian&r will not be affected."
+			]
+			id: "593CA14F58A43AEB"
+			rewards: [
+				{
+					id: "5D5DF2A399B6DB65"
+					item: "quark:iron_rod"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1E1B10BB37B9187C"
+					item: "minecraft:sticky_piston"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "780A04365934D2E1"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1802013EAD2A66D1"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "That's my Grindr screenname"
+			tasks: [{
+				id: "7BA7E1B4A0BEB6D1"
+				item: "quark:iron_rod"
+				type: "item"
+			}]
+			title: "Obtain an Iron Rod"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			description: ["The &bObsidian Pressure Plate&r can &aonly be activated by players&r, making it very useful for base entrances and such."]
+			id: "129EB9D48551AA2E"
+			rewards: [
+				{
+					count: 3
+					id: "2280B33DED08333F"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					id: "1998BF7315195551"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D8595034E6705E7"
+					table_id: 3965165831041023950L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06CAAA927BA83E02"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "It can sense your sentience"
+			tasks: [{
+				id: "38E9461ED962DF18"
+				item: "quark:obsidian_pressure_plate"
+				type: "item"
+			}]
+			title: "A Player-Only Pressure Plate"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			description: ["This unique End-enchanted item will only &afall when provided with a Redstone signal&r. If it is provided a redstone signal and &acannot fall, it will float up instead&r."]
+			id: "3C38D37B0E1FD22C"
+			rewards: [
+				{
+					id: "7FBE361C175F1C1F"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					count: 10
+					id: "23CC8413374A4380"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "377B5D112F5594EC"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C1FE5DC55266402"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "This sand doesn't care about your RULES"
+			tasks: [{
+				count: 5L
+				id: "3C19581008C8851B"
+				item: "quark:gravisand"
+				type: "item"
+			}]
+			title: "Sand Which Disobeys Gravity"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			description: ["These special buttons function similarly to other &bButtons&r, except that the &bIron Button&r gives a &amuch longer signal&r than usual, and the &bGold Button&r a &amuch shorter signal&r than usual."]
+			id: "03A72717715E8A5D"
+			rewards: [
+				{
+					id: "4FD8395B1851BF1C"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5494B393A733C493"
+					table_id: 3965165831041023950L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2ACDE9B99BE0B8EA"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can't stop the signal"
+			tasks: [
+				{
+					id: "4F9668A0016EC26A"
+					item: "quark:iron_button"
+					type: "item"
+				}
+				{
+					id: "43768C0EFCAC5742"
+					item: "quark:gold_button"
+					type: "item"
+				}
+			]
+			title: "Obtain Iron and Gold Buttons"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The &bChute&r is a block which draws items from above it and &adrops them&r perfectly in the center of the block below it."
+				"It can be disabled with a Redstone signal, or by placing a block directly below it."
+			]
+			id: "2E4C149DAE459F03"
+			rewards: [
+				{
+					id: "015BE885EFACED24"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "2AE340E126CFCBF8"
+					item: "quark:chute"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F6AC6587B1D20A4"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					id: "2A676A7E9E19C257"
+					item: "create:chute"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Please, don't chute!"
+			tasks: [{
+				id: "46353D8C4E64C59C"
+				item: "quark:chute"
+				type: "item"
+			}]
+			title: "Obtain a Chute"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "2BE44A5A7C52C52D"
+			invisible: true
+			tasks: [{
+				id: "0FEED3BDD00222CD"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: [
+				"You no longer need to break a villager's job block to cycle through their trades. Simply &aask nicely&r (by &6pressing the Cycle Trades button&r)."
+				""
+				"{image:cottagewitch:textures/tradecycle.png width:200 height:150 align:1}"
+			]
+			id: "08F9BA2E3066C5FB"
+			rewards: [{
+				id: "681C157623F6DA33"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6436F337BFCACE09"
+				title: "Cycle some Trades"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			description: ["Playing a fun game is its own reward, but here's an extra bonus for spending so much time with us! "]
+			id: "1DB7D51E15454923"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C0FB88D68341C28"
+				table_id: 5525848455660196930L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				days: 999
+				id: "2BA9C25DFAEBBEE4"
+				type: "questsadditions:days"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"Although not all mermaids are witches, there are some &anotable examples of some which are&r. You, too, can keep a creepy garden under the sea with the help of the &bSea Necklace&r, which will equip you with a &atail all your own!&r It will also &agrant you swim speed bonuses&r and the &aability to breathe&r underwater indefinitely."
+				"To craft it, you'll need a &bSea Crystal&r, which you can craft with a little luck at treasure-hunting!"
+			]
+			id: "3E72CBC6D658F80E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CAC99596EA711E2"
+					table_id: 1279979498352596350L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26096232AA71A2BA"
+					table_id: 7737096167250795605L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "03E158B19D645A2D"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Sea Witch"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: [
+				"If you're playing with others, you can use Bartering Stations from the &lShoppy&r mod to &asell items to one another&r!"
+				""
+				"To &aset an item to sell&r, &6right click it&r (in the amount you plan to sell it) on the top of the station. For example, you want to sell Leather in stacks of 16. You would right click 16 Leather on the top of the station to set the item."
+				""
+				"To &aadd more inventory&r (multiple stacks of the same item), &6right click&r that item onto the top of the station. For the above example, you would click the top of the station with 1-64 Leather to deposit it into the block."
+				""
+				"To &aset the price&r, &6right click&r the item you'd like to receive (in the amount you want to receive) &don the bottom&r of the station. For the above example, if you wanted to sell 16 Leather for 1 Gold Nugget, you would click a single Gold Nugget on the bottom of the station."
+				""
+				"If you changed your mind, you could &achange the price&r again by right clicking it with 1 Gold Nugget, and it would add 1 for each click. Or, you could right click it with 5 Gold Nuggets to directly set the price to 5."
+				""
+				"To &areset the station&r, &6shift right click with empty hands&r on the &dtop&r of the station."
+				""
+				"To &awithdraw profits&r, &6shift left click with empty hands&r. If you &6left click&r without shift, you can see &awhat you're selling&r and &ahow many have sold/are still in stock&r."
+				""
+				"{image:cottagewitch:textures/shoppy.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "5C5768D4346FD3FE"
+			rewards: [{
+				id: "7C592B360B7E447C"
+				item: "shoppy:bartering_station"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DFF4A58C1D8EE8D"
+				item: "shoppy:bartering_station"
+				type: "item"
+			}]
+			title: "Multiplayer Bartering"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E72CBC6D658F80E"]
+			description: [
+				"Now that you've gotten your first &bSea Crystal&r, you can craft it into a &bSea Necklace&r. This can be worn in your &achest slot&r or &aas a curio&r."
+				""
+				"Equipping the necklace will &aturn you into a mermaid while in water&r. This will allow you to &aswim quickly&r and &abreathe underwater&r."
+				""
+				"You can also upgrade your appearance by crafting the &bNecklace&r with &bupgrade items&r."
+				""
+				"You can dye your tail by &6crafting the &bNecklace&r with different dyes, just like leather armor."
+				""
+				"To &dremove dyes or upgrades&r, you need to &6hold the necklace&r in your hand and &6right click&r."
+			]
+			id: "32235F4557C97245"
+			rewards: [
+				{
+					id: "0F690C1236A49A15"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+				{
+					id: "461207DF6A2508FE"
+					item: "minecraft:sea_lantern"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23BFAEDC1538A8A9"
+					table_id: 7737096167250795605L
+					type: "choice"
+				}
+			]
+			subtitle: "see? crystal!"
+			tasks: [{
+				id: "05B780BD03A97741"
+				item: "mermod:sea_crystal"
+				type: "item"
+			}]
+			title: "Obtain a Sea Crystal"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["32235F4557C97245"]
+			description: ["This &bGlowing Pearl&r will make your mermaid top and tail shimmer as if &aenchanted&r!"]
+			id: "446D2A3C8B066099"
+			rewards: [
+				{
+					id: "4CF4355BEF3A17A7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3243A0BCFBBE9088"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1AC3BC2BA93D897A"
+				item: "mermod:glowing_pearl_modifier"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["32235F4557C97245"]
+			description: ["Use this item to look like you're in h2o: Just Add Water!"]
+			id: "2ABFB8A3E57C7F1A"
+			rewards: [
+				{
+					id: "21B44FA4EEDD6CA4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "091048E071EEA686"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E0F18FDDDB3CAF0"
+				item: "mermod:moon_rock_modifier"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["32235F4557C97245"]
+			description: ["Once you've dyed your tail, you can &aadd a gradient&r by &6crafting this item with &bdye&r and then &6crafting it with your necklace&r."]
+			id: "082F39C7CD7A47D9"
+			rewards: [
+				{
+					id: "795FD36AE1F0BEEC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C225D04F4170902"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "608D1D285D7168E6"
+				item: "mermod:tail_gradient_modifier"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["32235F4557C97245"]
+			description: ["Want to be the Little Mermaid? This upgrade will &agive you Ariel's appearance&r."]
+			id: "3C874A7A82622DA3"
+			rewards: [
+				{
+					id: "2E27FE9F048B7753"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07B566F63959453C"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "39623CFEA41CA5EA"
+				item: "mermod:ursula_shell_modifier"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["32235F4557C97245"]
+			description: ["Craft your necklace with this accessory to &aadd a bra to your mermaid look&r!"]
+			id: "7F994A9008E7F84D"
+			rewards: [
+				{
+					id: "3E4A0B59D9F7119E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7062C9F173E6EBA9"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F0676809027358D"
+				item: "mermod:mermaid_bra_modifier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"Those who experiment with altering their states may find themselves in quite the situation, not entirely knowing how they arrived at this conclusion."
+				""
+				"This achievement involves getting &aevery vanilla effect&r at once, as well as the modded effects, such as (this list may be incomplete):"
+				""
+				"Panic, Serenity (both Environmental), Health Boost, Resilience (both Quark)."
+			]
+			id: "3B84722A9CD28821"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33B0D43C0A77E807"
+					table_id: 8891211325592123080L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B3C07A23A62C2D8"
+					table_id: 7265408724434505998L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:nether/all_effects"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:leaping"
+					}
+				}
+				id: "3A8AB0F1F2EAB075"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"The &bMagnum Torches&r are a set-it-and-forget-it method of preventing mob spawns."
+				""
+				"The &bDiamond Magnum Torch&r prevents &ehostile mobs&r from spawning."
+				""
+				"The &bEmerald Magnum Torch&r prevents &eneutral and passive mobs&r from spawning."
+				""
+				"The &bAmethyst Magnum Torch&r prevents &lALL&r mob spawns."
+			]
+			id: "592DF5A6484F1988"
+			rewards: [{
+				id: "29F8DE93007B6851"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			subtitle: "an alternative to sage"
+			tasks: [{
+				id: "03BCF6954B5954F4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:magnum_torches"
+					}
+				}
+				title: "Any Magnum Torch"
+				type: "item"
+			}]
+			title: "Preventing Mob Spawning"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			description: ["Winning a &aRaid&r can be a satisfying challenge. Even better, win a bunch of raids, and you'll get rewarded!"]
+			id: "5B185B1B72278050"
+			rewards: [
+				{
+					id: "20AC21AA37AC578D"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "108FCFEFF3CFD90B"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19BF21C8EB91FC15"
+					table_id: 1510389528595555205L
+					type: "choice"
+				}
+			]
+			subtitle: "please can someone go healer"
+			tasks: [{
+				id: "5826833749DA8FAE"
+				stat: "minecraft:raid_win"
+				type: "stat"
+				value: 10
+			}]
+			title: "Raid Master"
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			description: ["Hmm, some &bMagic Beans&r. They seem legit - wonder what they do?"]
+			id: "6855271C74721F52"
+			rewards: [{
+				id: "0135D146C676F9EE"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7AB04813FADD661F"
+				item: "neapolitan:magic_beans"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: [
+				"Wanna buy some shrooms? You're in luck! The &eMushroom Trader&r is a unique villager who will trade you &ainteresting mushrooms and blocks&r in exchange for &bEmeralds&r."
+				""
+				"{image:cottagewitch:textures/mushroomtrader.png width:100 height:150 align:1}"
+				""
+				"But despite his grisly appearance, you &acannot Shear him&r, as that would be quite rude."
+			]
+			id: "7264C3A1D00DF2D4"
+			rewards: [
+				{
+					id: "31C90F4B56471882"
+					item: "biomemakeover:glowshroom_stew"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "106D05E1953195AC"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				icon: "minecraft:red_mushroom"
+				id: "72C16E75AC8D71FD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "biomemakeover:mushroom_trader"
+				type: "observation"
+			}]
+			title: "Meet the Mushroom Trader"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"You can obtain a &bElder Eye&r from &eElder Guardians&r. Don't confuse it with the &bGuardian Eye&r, which is used to get to &cThe End&r!"
+				""
+				"The &bElder Eye&r is a &aplaceable item&r which will give off a &astrong redstone signal&r when an entity is nearby."
+			]
+			id: "2B185A8ECBD7AD8F"
+			rewards: [{
+				id: "76AF237790552D43"
+				item: "upgrade_aquatic:elder_eye"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4223E607CF42AD78"
+				item: "upgrade_aquatic:elder_eye"
+				type: "item"
+			}]
+			title: "Eyes of an Elder"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: ["Ooh dang, you just got &arejected by a &bNitwit&r. Feelsbadman."]
+			id: "4F7C97B20944FDB5"
+			rewards: [
+				{
+					id: "339DAF2F0074CD0D"
+					item: "finsandtails:spindly_emerald"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "230848B75E85B7EF"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			tasks: [{
+				checkItem: false
+				entity: "minecraft:villager"
+				icon: "minecraft:barrier"
+				id: "2DEEF63C17E2447C"
+				nbt: {
+					VillagerData: {
+						level: 1
+						profession: "minecraft:none"
+					}
+				}
+				title: "Get Turned Down by a Nitwit"
+				type: "questsadditions:interaction"
+				value: 1L
+			}]
+			title: "Denied."
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"There have long been superstitions about whether &aphotography holds magical sway&r in our world. Some say photographs steal souls - others say they grant a form of immortality."
+				""
+				"Whatever you believe the power of the picture truly is, it cannot be denied that it &ais at least somewhat magical&r. The ability to capture light from a moment in time and look back on it long since it has passed? That's a small miracle without a doubt."
+				""
+				"You, too, can &acapture photos with a camera&r! &6Right click&r while holding the &bCamera&r to enter the photo mode. While in photo mode, &6scroll in and out to zoom&r. To take a photo, &6right click again&r. &dThis consumes paper&r and provides you with photos! &dThere is also a cooldown before you can take another picture&r."
+				""
+				"Continued on next page."
+				""
+				"{@pagebreak}"
+				""
+				"The &bPhotos&r can either be hung in an &bImage Frame&r, or added to an &bAlbum&r."
+				""
+				"To open the Album, &6shift click&r and place photos inside. &6Right click holding the Album&r to view the photos, and &6scroll to change photos&r. You can also &aplace them in &bLecterns&r!"
+			]
+			id: "153DBE782905BF62"
+			rewards: [{
+				count: 10
+				id: "5B7A726DA7F78989"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "03128A3B738BB1B8"
+					item: {
+						Count: 1b
+						id: "camera:camera"
+						tag: {
+							active: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "507468F7A2387394"
+					item: "camera:album"
+					type: "item"
+				}
+			]
+			title: "Photography Witchcraft"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"Are you an artist? Of course you are. Everyone has the ability to paint, to put pigment onto parchment. The simple act of creation is one of the most meditative pasttimes there is."
+				""
+				"To begin, you'll need an &bEasel&r, and a &bPalette&r. You'll also need &bCanvases&r to paint on."
+				""
+				"Make sure you &aload your Palette with dye first!&r You can do this by &6crafting Dyes together with the Palette&r."
+				""
+				"{image:cottagewitch:textures/palette.png width:100 height:100 align:1}"
+				""
+				"Read more on the next page."
+				"{@pagebreak}"
+				"Once you have pigments on your &bPalette&r, you can &6mix them together&r on the &aright side of your Palette&r."
+				""
+				"Use the &aWater&r on your Palette to erase a mixed color. Use the &ablending options&r on the right of the &bCanvas&r to blend your colors together. Change your &abrush size&r there, too!"
+				""
+				"{image:cottagewitch:textures/joyofpainting.png width:100 height:80 align:1 fit:true}"
+				""
+				"You can toggle tooltips using the button in the &atop right&r (not pictured)."
+				"{@pagebreak}"
+				"At any time, you can &6shift left click&r the &bEasel&r to take your painting down. You can &6hang the painting by right clicking it&r on a wall. You can remove it and edit it &aas long as you haven't signed it yet&r."
+				""
+				"{image:cottagewitch:textures/joyofpaintingsign.png width:100 height:90 align:1 fit:true}"
+				""
+				"Once you've signed it, it can no longer be edited, but it will be named what you titled it, and will show your name as the artist! Nice work!"
+				""
+				"{image:cottagewitch:textures/joyofpaintingdone.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "076F2A55BD9D0BCA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2CBBD375651C6F55"
+					table_id: 987967038148964353L
+					type: "loot"
+				}
+				{
+					id: "327EEBE907B5E132"
+					item: {
+						Count: 1b
+						id: "xercapaint:item_canvas"
+						tag: {
+							author: "Katubug"
+							generation: 1
+							name: "e5e2b89d-3884-4190-8b69-97863eb95bc6_1687209904"
+							pixels: [I;
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-12930086
+								-5907223
+								-5907223
+								-5907223
+								-5907223
+								-5907223
+								-12142633
+								-12142633
+								-12930086
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-12142633
+								-5907223
+								-393218
+								-2231048
+								-2953226
+								-2953226
+								-4594190
+								-6891806
+								-5907223
+								-12142633
+								-12930086
+								-393218
+								-393218
+								-393218
+								-393218
+								-12930086
+								-5907223
+								-2953226
+								-4594190
+								-4594190
+								-4594190
+								-2953226
+								-2953226
+								-2953226
+								-4594190
+								-5907223
+								-5907223
+								-12142633
+								-393218
+								-393218
+								-393218
+								-12930086
+								-5907223
+								-2231048
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-2953226
+								-4594190
+								-2953226
+								-4594190
+								-5907223
+								-12017472
+								-393218
+								-393218
+								-12930086
+								-5907223
+								-2953226
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-12017472
+								-393218
+								-393218
+								-12930086
+								-5907223
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-5907223
+								-12017472
+								-393218
+								-393218
+								-12142633
+								-5907223
+								-393218
+								-12930086
+								-4594190
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-4594190
+								-393218
+								-12930086
+								-5907223
+								-12741189
+								-393218
+								-393218
+								-11552043
+								-5907223
+								-12930086
+								-12930086
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-12930086
+								-12930086
+								-6891806
+								-12741189
+								-393218
+								-393218
+								-12142633
+								-9648944
+								-4594190
+								-4594190
+								-4594190
+								-5907223
+								-6891806
+								-6891806
+								-5907223
+								-5907223
+								-5907223
+								-5907223
+								-5907223
+								-12741189
+								-393218
+								-393218
+								-12741189
+								-8146998
+								-5907223
+								-6891806
+								-8139303
+								-9648944
+								-9648944
+								-9648944
+								-9648944
+								-9648944
+								-9648944
+								-8538933
+								-8146998
+								-13728075
+								-393218
+								-393218
+								-393218
+								-13728075
+								-7624248
+								-8146998
+								-8538933
+								-8538933
+								-8538933
+								-8538933
+								-8865588
+								-8538933
+								-8146998
+								-7624248
+								-12741189
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+							]
+							title: "Gloop"
+							v: 86
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1995D8E0DF2FFB97"
+					item: {
+						Count: 1b
+						id: "xercapaint:item_canvas_large"
+						tag: {
+							author: "Katubug"
+							generation: 1
+							name: "e5e2b89d-3884-4190-8b69-97863eb95bc6_1687460288"
+							pixels: [I;
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-9845278
+								-6694676
+								-6694676
+								-6694676
+								-13586998
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-9845278
+								-9845278
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-9845278
+								-7548184
+								-9845278
+								-9845278
+								-12930086
+								-9845278
+								-9845278
+								-10305322
+								-7548184
+								-5776147
+								-4463376
+								-4463376
+								-2034439
+								-2034439
+								-1640454
+								-5185040
+								-6694676
+								-10305322
+								-9845278
+								-9845278
+								-9845278
+								-12930086
+								-12930086
+								-12930086
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-9845278
+								-5776147
+								-5776147
+								-7548184
+								-7548184
+								-5776147
+								-7548184
+								-4463376
+								-4660501
+								-1246726
+								-1837319
+								-1049605
+								-1049605
+								-1049605
+								-2821898
+								-5185040
+								-9845278
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-75715
+								-75715
+								-204436
+								-204436
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-2821898
+								-918532
+								-1837319
+								-2821898
+								-9845278
+								-9845278
+								-4660501
+								-3478797
+								-1509126
+								-3609611
+								-5185040
+								-5185040
+								-5185040
+								-6694676
+								-13586998
+								-12930086
+								-12930086
+								-12930086
+								-75715
+								-204436
+								-204436
+								-204436
+								-75715
+								-204436
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-2821898
+								-2821898
+								-9845278
+								-9845278
+								-9845278
+								-9845278
+								-4463376
+								-5776147
+								-7023132
+								-6694676
+								-6694676
+								-13586998
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-75715
+								-75715
+								-204436
+								-75715
+								-204436
+								-204436
+								-204436
+								-204436
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-12930086
+								-12930086
+								-12930086
+								-9845278
+								-9845278
+								-9845278
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-75715
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-204436
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-12930086
+								-12930086
+								-12930086
+								-9845278
+								-12930086
+								-12995879
+								-12930086
+								-12995879
+								-12930086
+								-12930086
+								-12930086
+								-75715
+								-75715
+								-204436
+								-75715
+								-204436
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-13061928
+								-13061672
+								-13061928
+								-13061672
+								-12930086
+								-12930086
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-12930086
+								-12995879
+								-12995879
+								-12930086
+								-11289635
+								-11749157
+								-11749157
+								-12077350
+								-12077350
+								-75715
+								-75715
+								-75715
+								-1131724
+								-1131724
+								-1131724
+								-1131724
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-1131724
+								-1131724
+								-1131724
+								-75715
+								-75715
+								-75715
+								-75715
+								-10698785
+								-9845278
+								-12930086
+								-9845278
+								-11289635
+								-11749157
+								-11289635
+								-9845278
+								-268400
+								-75715
+								-1131724
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-1131724
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-1131724
+								-75715
+								-75715
+								-75715
+								-10698785
+								-10698785
+								-9845278
+								-9845278
+								-10698785
+								-11289635
+								-10698785
+								-9845278
+								-204436
+								-75715
+								-14869215
+								-12829635
+								-393218
+								-12829635
+								-14869215
+								-14869215
+								-75715
+								-75715
+								-75715
+								-267363
+								-75715
+								-75715
+								-75715
+								-14869215
+								-12829635
+								-393218
+								-12829635
+								-14869215
+								-14869215
+								-75715
+								-75715
+								-75715
+								-10698785
+								-9845278
+								-10698785
+								-10698785
+								-10698785
+								-11289635
+								-11289635
+								-9845278
+								-75715
+								-75715
+								-14869215
+								-12829635
+								-12829635
+								-12829635
+								-14869215
+								-14869215
+								-75715
+								-75715
+								-267363
+								-425955
+								-267363
+								-75715
+								-75715
+								-14869215
+								-12829635
+								-12829635
+								-12829635
+								-14869215
+								-14869215
+								-75715
+								-75715
+								-75715
+								-9845278
+								-10698785
+								-10698785
+								-10698785
+								-10698785
+								-11289635
+								-10698785
+								-9845278
+								-204436
+								-75715
+								-14869215
+								-14869215
+								-12829635
+								-14869215
+								-14869215
+								-14869215
+								-75715
+								-75715
+								-4036834
+								-425955
+								-4036834
+								-75715
+								-75715
+								-14869215
+								-14869215
+								-12829635
+								-14869215
+								-14869215
+								-14869215
+								-75715
+								-75715
+								-283603
+								-9845278
+								-10698785
+								-9845278
+								-9845278
+								-12208421
+								-10698785
+								-10698785
+								-9845278
+								-75715
+								-75715
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-75715
+								-75715
+								-1131724
+								-4036834
+								-1131724
+								-75715
+								-75715
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-1131724
+								-75715
+								-75715
+								-283603
+								-10698785
+								-10698785
+								-8335641
+								-6694676
+								-8335641
+								-8335641
+								-6694676
+								-204436
+								-204436
+								-1131724
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-1131724
+								-75715
+								-75715
+								-75715
+								-1131724
+								-75715
+								-75715
+								-75715
+								-1131724
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-1131724
+								-75715
+								-75715
+								-75715
+								-283603
+								-8335641
+								-9517341
+								-8335641
+								-9517341
+								-6694676
+								-6694676
+								-283603
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-1131724
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-1131724
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-8335641
+								-8335641
+								-6694676
+								-6694676
+								-6694676
+								-283603
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-283603
+								-75715
+								-75715
+								-283603
+								-6694676
+								-6694676
+								-8335641
+								-6694676
+								-283603
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-349140
+								-75715
+								-75715
+								-75715
+								-268400
+								-75715
+								-268400
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-209608
+								-75715
+								-75715
+								-283603
+								-8335641
+								-6694676
+								-6694676
+								-6694676
+								-283603
+								-75715
+								-75715
+								-75715
+								-75715
+								-349140
+								-1131724
+								-75715
+								-75715
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-283603
+								-75715
+								-283603
+								-8335641
+								-6694676
+								-6694676
+								-6694676
+								-1131724
+								-283603
+								-283603
+								-283603
+								-283603
+								-1131724
+								-75715
+								-75715
+								-141252
+								-75715
+								-75715
+								-204436
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-283603
+								-6694676
+								-6694676
+								-9461478
+								-9461478
+								-9461478
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-9461478
+								-9461478
+								-10056168
+								-8932580
+								-9461478
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-8932580
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-75715
+								-204436
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-9461478
+								-10056168
+								-9461478
+								-10056168
+								-9461478
+								-209608
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-9461478
+								-9461478
+								-8932580
+								-9461478
+								-10056168
+								-283603
+								-209608
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-283603
+								-283603
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-8932580
+								-9461478
+								-9461478
+								-9461478
+								-10056168
+								-10585066
+								-283603
+								-75715
+								-268400
+								-204436
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-209608
+								-283603
+								-283603
+								-283603
+								-283603
+								-1131724
+								-1131724
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-1131724
+								-10056168
+								-9461478
+								-9461478
+								-10056168
+								-10056168
+								-10585066
+								-283603
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-209608
+								-283603
+								-10585066
+								-10585066
+								-1131724
+								-1131724
+								-1131724
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-1131724
+								-10585066
+								-10056168
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-10585066
+								-10585066
+								-209608
+								-283603
+								-209608
+								-209608
+								-283603
+								-209608
+								-283603
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-1131724
+								-1131724
+								-75715
+								-75715
+								-1131724
+								-75715
+								-1131724
+								-10585066
+								-10585066
+								-10585066
+								-10056168
+								-9461478
+								-9461478
+								-10056168
+								-9461478
+								-10056168
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10056168
+								-10056168
+								-10056168
+								-10056168
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10056168
+								-10056168
+								-8932580
+								-10056168
+								-9461478
+								-9461478
+								-8932580
+								-9461478
+								-10056168
+								-10056168
+								-10056168
+								-9791719
+								-10056168
+								-10056168
+								-10056168
+								-10320617
+								-9791719
+								-9461478
+								-9461478
+								-9461478
+								-10056168
+								-10056168
+								-10056168
+								-10056168
+								-9923816
+								-10056168
+								-10056168
+								-10056168
+								-10056168
+								-9791719
+								-10056168
+								-10056168
+								-8932580
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-10056168
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-8932580
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-10056168
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+							]
+							title: "chickem"
+							v: 348
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6459F163C1BE0CA0"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+				{
+					id: "69DB41702759EF2A"
+					item: "xercapaint:item_palette"
+					type: "item"
+				}
+			]
+			title: "The Joy of Painting"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["70C4F17973F6492E"]
+			description: [
+				"In multiplayer, &bCoins&r are an important currency. They are obtainable in several ways - "
+				""
+				""
+				"- Rarely they can be fished up while it is raining."
+				"- They have a low chance to be dropped by &eSkeletons&r and &eZombie Villagers&r."
+				"- They can be looted in &cWoodland Mansions&r dungeon chests."
+				""
+				"However, in singleplayer they are...less useful. In that case, you may use this quest to exchange your found currency for something more practical."
+				""
+				"This quest is repeatable."
+			]
+			id: "2063FF7B9C55E56F"
+			rewards: [{
+				id: "3569569879089E03"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: true
+				id: "7D95252A3CCFF662"
+				item: "kubejs:solar_coin"
+				type: "item"
+			}]
+			title: "Money Changing"
+			x: 4.5d
+			y: -2.0d
+		}
+	]
+	title: "Miscellaneous"
+}

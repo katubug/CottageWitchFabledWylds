@@ -11,7 +11,7 @@
   },
   "excludeTreasure": {
     "desc:": "Should applying treasure enchants be excluded, default:false",
-    "excludeTreasure": false
+    "excludeTreasure": true
   },
   "onlynotechanted": {
     "desc:": "Should curses only be applied on enchanting unenchanted items, recommended to increase base chance when enabling, default:false",

@@ -1,0 +1,87 @@
+{
+	id: "3486E7F0D0B0F0E5"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "reliquary:mob_charm_fragment"
+				tag: {
+					entity: "eidolon:wraith"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "reliquary:mob_charm_fragment"
+				tag: {
+					entity: "minecraft:warden"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "reliquary:mob_charm_fragment"
+				tag: {
+					entity: "minecraft:silverfish"
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "reliquary:mob_charm_fragment"
+				tag: {
+					entity: "minecraft:shulker"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "reliquary:mob_charm_fragment"
+				tag: {
+					entity: "minecraft:piglin_brute"
+				}
+			}
+			weight: 12.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "reliquary:mob_charm_fragment"
+				tag: {
+					entity: "minecraft:ravager"
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "reliquary:mob_charm_fragment"
+				tag: {
+					entity: "unusualfishmod:prawn"
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "reliquary:mob_charm_fragment"
+				tag: {
+					entity: "minecraft:vex"
+				}
+			}
+			weight: 5.0f
+		}
+	]
+	title: "Charm Fragments"
+}

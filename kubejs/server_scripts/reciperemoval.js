@@ -55,12 +55,17 @@ ServerEvents.recipes(event => {
         {output: 'bakery:dough'},
         {output: 'candlelight:dough'},
         {output: 'create:dough'},
+        {output: 'farmingforblockheads:feeding_trough'},
+        {output: 'reliquary:midas_touchstone'}, 
+        {output: 'reliquary:pyromancer_staff'}, 
+        {output: 'reliquary:rod_of_lyssa'},
         //Replaced Recipes
         {output: 'mighty_mail:post_box'},
         {output: 'farmersdelight:wheat_dough'},
         {output: 'delightful:cheeseburger'},
         {output: 'delightful:deluxe_cheeseburger'},
         //{output: 'untameddelight:baked_trevally_with_cheese'},
+        {output: 'luphieclutteredmod:luphie_mermaid_pearl'},
     ];
     
       for (const remove of toRemove) {

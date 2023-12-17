@@ -8,8 +8,8 @@
 		{ item: "minecraft:name_tag", weight: 45.0f }
 		{ item: "minecraft:phantom_membrane", weight: 30.0f }
 		{ item: "minecraft:ender_pearl", weight: 20.0f }
-		{ count: 3, item: "minecraft:diamond", weight: 20.0f }
-		{ count: 5, item: "minecraft:emerald", weight: 15.0f }
+		{ count: 3, item: "minecraft:diamond", weight: 5.0f }
+		{ count: 5, item: "minecraft:emerald", weight: 5.0f }
 		{ item: "minecraft:scute", weight: 30.0f }
 		{ item: "minecraft:golden_apple", weight: 10.0f }
 		{ item: "create:blaze_cake", weight: 30.0f }
@@ -21,14 +21,21 @@
 					Damage: 0
 				}
 			}
-			weight: 20.0f
+			weight: 5.0f
 		}
 		{ item: "nethersdelight:nether_skewer", weight: 10.0f }
-		{ count: 2, item: "glassential:glass_ethereal", weight: 4.0f }
+		{ count: 2, item: "glassential:glass_ethereal", weight: 6.0f }
 		{ item: "moblassos:golden_lasso", weight: 10.0f }
 		{ item: "minecraft:conduit", weight: 5.0f }
 		{ item: "sophisticatedstorage:basic_to_gold_tier_upgrade", weight: 20.0f }
 		{ item: "sophisticatedstorage:basic_to_diamond_tier_upgrade", weight: 20.0f }
+		{ count: 3, item: "eidolon:tattered_cloth", weight: 5.0f }
+		{ item: "tombstone:soul_receptacle", weight: 5.0f }
+		{ count: 3, item: "forbidden_arcanus:arcane_crystal", weight: 20.0f }
+		{ count: 3, item: "forbidden_arcanus:rune", weight: 10.0f }
+		{ count: 5, item: "forbidden_arcanus:soul", weight: 20.0f }
+		{ item: "ancient_manuscripts:ancient_manuscript", weight: 13.0f }
+		{ count: 2, item: "forbidden_arcanus:xpetrified_orb", weight: 10.0f }
 	]
 	title: "Random Tier 2"
 }

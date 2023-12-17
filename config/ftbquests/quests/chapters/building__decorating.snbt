@@ -1,0 +1,857 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "building__decorating"
+	group: "1E0017DE6773EF00"
+	icon: "minecraft:oak_planks"
+	id: "3E1D90FE6819501F"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgbuilding.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgdecorating.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -5.0d
+			y: 0.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You can craft a &bDisplay Case&r to, well, display an item!"
+				"After placing the Display Case down, &6right click on it&r to store an item, and &6right click with empty hand&r to remove the item."
+			]
+			id: "39C476A7C4682009"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C890C89C09D16DB"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "I got a bad case of display-sia"
+			tasks: [{
+				id: "09758110C43355FD"
+				item: "ars_nouveau:item_detector"
+				type: "item"
+			}]
+			title: "Obtain a Display Case"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The mod &lFantasy's Furniture&r adds beautiful and intricate furniture for you to decorate with."
+				"The crafting system is a little different from usual, however. Each recipe costs only 1 each of &bClay, Cobbled Stone, and Planks&r, and must be created in a &bFurniture Station&b, which can be &acrafted in a Smithing Table&a using a &bCrafting Table&r and &bLeather&r."
+			]
+			id: "7D4BC2C21F70DF65"
+			rewards: [
+				{
+					count: 10
+					id: "734E37DD4F74EC31"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1CBAE4470B33AB73"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "588C29E10CC7D2FB"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Ideas above your station"
+			tasks: [{
+				id: "0EBD3CF1F9CB7FCD"
+				item: "fantasyfurniture:furniture_station"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &bBuilding Gadget&r is a useful tool for building larger structures quickly. It &aplaces multiple blocks at once&a from your inventory. &6Shift right click a block in world&r to set that as your building block."
+				"The &bExchanging Gadget&r is a tool which will &areplace blocks in the world with a specific block from your inventory&r. As with the BG, &6shift right click the replacer block&r and then you can &6right click with the gadget&r."
+			]
+			id: "1AFE0FBF887D22FD"
+			rewards: [{
+				id: "2D8DA9461014B308"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "The Building Gadget and Exchanging Gadget"
+			tasks: [
+				{
+					id: "4060C5FB1511ED4E"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_building"
+						tag: {
+							energy: 500000.0d
+							state: {
+								data: { }
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "518D12073E1E0981"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_exchanging"
+						tag: {
+							energy: 500000.0d
+							state: {
+								data: { }
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gadgets, Part 1"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AFE0FBF887D22FD"]
+			description: [
+				"The &bCopy Paste Gadget&r is a robust and therefore complicated tool. It allows you to use &aSchematics found online&r to build automatically, and also allows you to - as you could guess - &acopy and paste structures you've built&r."
+				"In order to use it, you'll need &bPaper&r, and the &bTemplate Manager&r."
+				"I cannot put all the information in this quest description. &oMore information can be found on YouTube, at 8:12 into the \"Mod Spotlight Building Gadgets v2\" video by Direwolf20&r."
+			]
+			id: "1184EA40A20DEB5D"
+			rewards: [
+				{
+					id: "31D2BCCAA5AF5BA4"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					id: "2BF661D75FC4715C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Copypasta but for buildings"
+			tasks: [
+				{
+					id: "329EA864CDCD816B"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_copy_paste"
+						tag: {
+							energy: 500000.0d
+							mode: 0b
+							template_id: [I;
+								-1971559654
+								1481982377
+								-1575195989
+								1840957655
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1136D19390575603"
+					item: "buildinggadgets:template_manager"
+					type: "item"
+				}
+			]
+			title: "Gadgets, Part 2"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1184EA40A20DEB5D"]
+			description: ["The &bDestruction Gadget&r is a dangerous tool which will &acompletely delete blocks&r. It is mostly used to clear a large area for building."]
+			id: "7CB901D8FE793DF6"
+			rewards: [{
+				id: "47CF7C0058F220DE"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "Delete! Delete! Delete!"
+			tasks: [{
+				id: "6E1F006DF7BBCF80"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_destruction"
+					tag: {
+						energy: 1000000.0d
+						fuzzy: 1b
+						overlay: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1184EA40A20DEB5D"]
+			description: [
+				"&bConstruction Paste&r allows you to build with blocks you technically don't have."
+				"When you are pasting in a structure, if you are missing blocks from the build, but have &bPaste&r, it will &atake on the appearance of that block&r. When broken, it will drop &bConstruction Paste&r, however."
+				"The &bPaste Containers&r allow you to hold significantly more paste than you would be able to, otherwise."
+			]
+			id: "255D49A0CC045204"
+			rewards: [
+				{
+					id: "1B8EA75AD1A0ECED"
+					item: "buildinggadgets:construction_paste_container_t1"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "675238AF9ECEB04A"
+					item: "buildinggadgets:construction_paste"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Don't eat the paste"
+			tasks: [{
+				id: "243D764629FA7983"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:construction_paste_container_t1"
+					tag: {
+						amount: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"These &bGlass Item Frames&r display items on a surface just like the normal kind, but they will &abecome invisible&r once they have an item inside them."
+				"&6Place a Banner inside&r to display its pattern on that block."
+			]
+			id: "72409602FE85C718"
+			rewards: [
+				{
+					id: "315B56E523117519"
+					item: "quark:glass_item_frame"
+					type: "item"
+				}
+				{
+					id: "07F04F937F02C951"
+					item: "quark:glowing_glass_item_frame"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "I've been framed!"
+			tasks: [
+				{
+					id: "639DF06AF0A0073D"
+					item: "quark:glass_item_frame"
+					type: "item"
+				}
+				{
+					id: "7BC1EC6C4A952ADA"
+					item: "quark:glowing_glass_item_frame"
+					type: "item"
+				}
+			]
+			title: "Obtain a Glass Item Frame"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			description: ["The &bTrowel&r will place a random block from your hotbar when you &6right click with it&r. Perfect for easily &arandomizing your build's palette&r."]
+			id: "0D02D4FAE63BABE6"
+			rewards: [{
+				id: "52E5AED76FE087F4"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "The builder's dream"
+			tasks: [{
+				id: "65E88FE1A733B2AB"
+				item: "quark:trowel"
+				type: "item"
+			}]
+			title: "Obtain a Trowel"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Lanterns can now be placed on walls! That's it, that's the tweet."]
+			id: "567E7D29BF4EAEFA"
+			rewards: [
+				{
+					id: "1D88CB845EB3BADE"
+					item: "supplementaries:brass_lantern"
+					type: "item"
+				}
+				{
+					id: "7472D3C00F7BF112"
+					item: "chipped:wrought_iron_lantern"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "I love lantern"
+			tasks: [{
+				id: "312129CECD99EE4F"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			title: "Obtain a Lantern"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Who doesn't love the joyful bright colors and enchanting scent of &bFresh Flowers&r?"
+				""
+				"There are many different ways for you to &adisplay these plants in your base&r. Why not try each option and decide which you like best?"
+			]
+			id: "4F9A1B244734638F"
+			rewards: [
+				{
+					id: "37DD6C1B9BAF08AB"
+					item: "minecraft:cornflower"
+					type: "item"
+				}
+				{
+					id: "2EE5C5DCDD914C95"
+					item: "minecraft:blue_orchid"
+					type: "item"
+				}
+				{
+					id: "57B54422C1204BA0"
+					item: "minecraft:sunflower"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40DF8276726B01E1"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A081EDAEC5ED6D3"
+					table_id: 6990203354287577879L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "there's a lot of em"
+			tasks: [
+				{
+					id: "4B3D31B09C746903"
+					item: "supplementaries:flower_box"
+					type: "item"
+				}
+				{
+					id: "6F74146BBA8D9DB5"
+					item: "another_furniture:oak_planter_box"
+					type: "item"
+				}
+				{
+					id: "1C2DF644222DD253"
+					item: "sprout:flower_box"
+					type: "item"
+				}
+				{
+					id: "496CE65CDFD2E0ED"
+					item: "villagersplus:oak_horticulturist_table"
+					type: "item"
+				}
+			]
+			title: "Flower Display Options"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			description: ["The Globe is a decorative item which is unique per world. When interacted with, or provided with Redstone signal, it will spin."]
+			id: "3E509A27A92746F4"
+			rewards: [
+				{
+					id: "4B4F32018B536A56"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					id: "2ACFC13D9A34245B"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Time to get a globe-up (that was bad, i'm sorry)"
+			tasks: [{
+				id: "480C6E3F2F44680E"
+				item: "supplementaries:globe"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			description: ["Similar to the &bDisplay Case&r, the &bPedestal&r is a way to decoratively display a single item. However, when stacked, it becomes a pillar."]
+			id: "063AD4FD6E8FB943"
+			rewards: [{
+				count: 5
+				id: "326F7B47D23186AC"
+				item: "supplementaries:pedestal"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Don't put people on these"
+			tasks: [{
+				id: "73A92B9FA9D46C9C"
+				item: "supplementaries:pedestal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"The &bHanging Sign&r is a versatile decoration block which can hang beneath or off the side of a block."
+				"You can add text to it by &aright clicking with an empty hand&r, or you can use it as an item frame by &aright clicking it with an item&r."
+			]
+			id: "7E936E10896FA3D5"
+			rewards: [{
+				id: "232541D9C3D4F184"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "It opened up my eyes"
+			tasks: [{
+				id: "6CDC566DF6303032"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "supplementaries:hanging_signs"
+					}
+				}
+				title: "Any #supplementaries:hanging_signs"
+				type: "item"
+			}]
+			title: "Obtain a Hanging Sign"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Up to two &bSign Posts&r can be placed on any fence block, in order to form directional signs!"
+				"&6Shift and right click&r the placed Sign in order to reverse the direction."
+				"If you &6right click them with a compass&r, they will point in the direction the compass points to. Useful for spawn points and Lodestones!"
+			]
+			id: "0E28D4A9544EAF0E"
+			rewards: [{
+				id: "5355BCF70B7F29BE"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "Show the way"
+			tasks: [{
+				id: "644B3E0D6B13C8D4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "supplementaries:sign_posts"
+					}
+				}
+				title: "Any #supplementaries:sign_posts"
+				type: "item"
+			}]
+			title: "Obtain a Sign Post"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The &bBlackboard&r will allow you to draw a 16x16 black and white image. Perfect for creative signage!"
+				"It will &aretain it's image when broken&r, but can be crafted with a &bWater Bucket&r to clear it."
+			]
+			id: "1E53C205AD76513E"
+			rewards: [
+				{
+					count: 5
+					id: "1602701476E60AAC"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3AB73DA5D315181A"
+					item: "minecraft:glow_ink_sac"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Finally, your schoolhouse will be complete"
+			tasks: [{
+				id: "3F88887F48083E3E"
+				item: "supplementaries:blackboard"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D82FBD000D41F84"]
+			description: ["Sick of boring old flat beds? Make a &afancy one&r! To craft a &bBed&r, you'll need planks, wool, and &ba Cushion&r!"]
+			id: "226368447EC1C9A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19196EF8205FDBDC"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+				{
+					count: 6
+					id: "2BE073EA184CEA40"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "08B5B6F8E5C51649"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:fancy_beds"
+					}
+				}
+				title: "Any #handcrafted:fancy_beds"
+				type: "item"
+			}]
+			title: "Customize Your Bed"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["226368447EC1C9A9"]
+			description: ["Your bed might be a little bare-bones as is. Why not make a &bsheet&r and &bCushion&r to go on top? These can be &adyed any color you like&r."]
+			id: "15781BD4547097E9"
+			rewards: [{
+				id: "47EEDE998B2D4F94"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "70062585A7E762AE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:cushions"
+						}
+					}
+					title: "Any #handcrafted:cushions"
+					type: "item"
+				}
+				{
+					id: "1F4D43CDA2388E85"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:sheets"
+						}
+					}
+					title: "Any #handcrafted:sheets"
+					type: "item"
+				}
+			]
+			title: "Make Your Bed"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32DCF4F0C230C940"]
+			description: [
+				"Love that \"hunting lodge\" look? Want to show off your best hunts? Want to let everyone know you really, really hate &eGoats&r?"
+				"Well, why not &adecorate your house with these attractive trophies&r."
+				"(only some animals were hurting in the making of this quest)"
+			]
+			id: "30C8AAFCE9EB2BA6"
+			rewards: [
+				{
+					id: "7AF7A77B8BA198C8"
+					item: "handcrafted:goat_trophy"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "284B6B3ACEE6CE5B"
+					table_id: 223398162038636868L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "get them cheevos"
+			tasks: [{
+				id: "63B16A64CB3AE4F8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:trophies"
+					}
+				}
+				title: "Any #handcrafted:trophies"
+				type: "item"
+			}]
+			title: "Trophy Unlocked"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"To begin with the furniture in &lHandcrafted&r, you'll likely need some &bWooden Boards&r. These can be easily obtained by &6throwing planks on a &bSawmill&r."
+				"You can &6right click the &bHammer&r on Handcrafted blocks to &achange their appearance&r."
+			]
+			id: "7D82FBD000D41F84"
+			rewards: [{
+				id: "00EB12702C71E2E5"
+				item: "handcrafted:hammer"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4B25C89C016B4716"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:boards"
+					}
+				}
+				title: "Any #handcrafted:boards"
+				type: "item"
+			}]
+			title: "Handcraft your Home"
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15781BD4547097E9"]
+			description: [
+				"But beds aren't the only things that can &abenefit from &bSheets&r and &bCushions&r!"
+				"For example, &6right click a &bSheet&r on a &bTable&r to give it a &atablecloth&r."
+				"And you can &aapply a &bCushion&r to a &bChair&r as well! Why not see what other items you can customize..."
+			]
+			id: "32DCF4F0C230C940"
+			rewards: [
+				{
+					count: 10
+					id: "54AA8997ECDD7961"
+					item: "minecraft:crimson_stem"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "069D6C11A0D4C3B6"
+					item: "minecraft:warped_stem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C4700C1B44DA255"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:tables"
+						}
+					}
+					title: "Any #handcrafted:tables"
+					type: "item"
+				}
+				{
+					id: "37260AF156A4F444"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:chairs"
+						}
+					}
+					title: "Any #handcrafted:chairs"
+					type: "item"
+				}
+			]
+			title: "Versatile Decorations"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			hide: true
+			id: "3B14FB98F6CA73AA"
+			invisible: true
+			tasks: [{
+				id: "6DAECCC0C5171527"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AFE0FBF887D22FD"]
+			description: ["The &bCharging Station&r will &aburn fuel in order to charge your Building Gadgets&r."]
+			id: "6D3D3329A2772A3F"
+			rewards: [{
+				count: 25
+				id: "4D5B508BB59CE983"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EE45AA279FC7F22"
+				item: {
+					Count: 1b
+					id: "charginggadgets:charging_station"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"What soothes the soul more than houseplants?"
+				"Plant &a50 lovely green (or pink or blue) friends&r in basic &bFlower Pots&r."
+			]
+			id: "5A1DD637C09F0D13"
+			rewards: [
+				{
+					id: "6C4BF4D734DD6872"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+				{
+					id: "27278A2A82B3986E"
+					item: "minecraft:lilac"
+					type: "item"
+				}
+				{
+					id: "1AE844EDFE9EF08B"
+					item: "environmental:cartwheel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:flower_pot"
+				id: "26A2431C7A0CBE9B"
+				stat: "minecraft:pot_flower"
+				type: "stat"
+				value: 50
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &lChipped&r mod offers over 500 new block variants to decorate with. These can be obtained from &avarious stations&r that the mod adds. On the following pages of this quest, you will find each station along with a &alist of what blocks they accept&r. You can also look up the recipes in &lJEI&r."
+				""
+				"{@pagebreak}"
+				""
+				"The &bAlchemy Bench&r works with the following blocks:"
+				""
+				"{image:cottagewitch:textures/alchemybench.png width:100 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"The &bBotanist Workbench&r works with the following blocks:"
+				""
+				"{image:cottagewitch:textures/botanistworkbench.png width:100 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"The &bGlassblower&r works with the following blocks:"
+				""
+				"{image:cottagewitch:textures/glassblower.png width:100 height:100 align:1 fit:true}"
+				""
+				"{@pagebreak}"
+				"The &bLoom Table&r works with the following blocks:"
+				""
+				""
+				"{image:cottagewitch:textures/loomtable.png width:100 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"The &bMason Table&r works with the following blocks:"
+				""
+				"{image:cottagewitch:textures/masontable.png width:100 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"The &bTinkering Table&r works with the following blocks:"
+				""
+				"{image:cottagewitch:textures/tinkeringtable.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "1399EE01027F8D7B"
+			rewards: [{
+				id: "7B2CB068ED64A116"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "144258294987402E"
+				title: "Chipped Benches"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 2.25d
+		}
+	]
+	title: "Building \\& Decorating"
+}

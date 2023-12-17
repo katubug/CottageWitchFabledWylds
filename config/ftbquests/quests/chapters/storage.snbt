@@ -1,0 +1,896 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "storage"
+	group: "1E0017DE6773EF00"
+	icon: "minecraft:chest"
+	id: "20C131FAFAF3F980"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgstoragenetwork.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgitemstransport.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgmiscpurple.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -4.5d
+			y: 4.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Oh I know, it's such a bother... your storage is just &olousy&r with &bGolden Apples&r - well worry no more, you can &acompress them&r into crates. These &bGolden Apple Crates&r can even be used to power a &bBeacon&r!"]
+			id: "58C6D8E0422110BC"
+			rewards: [
+				{
+					id: "377889882D9DFF5F"
+					item: "overweight_farming:overweight_golden_apple_block"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "34FDE83E40FA45F1"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Some have crateness thrust upon them"
+			tasks: [{
+				count: 5L
+				id: "36726B34E435877E"
+				item: "quark:golden_apple_crate"
+				type: "item"
+			}]
+			title: "Obtain a Golden Apple Crate"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"There are a number of &ajar types&r in this modpack. This one holds liquids! Up to three buckets worth."
+				"It can hold everything from &bWater&r to &bSoups&r to even &bExperience&r."
+				"They can also function as &afish tanks&r or &acookie jars&r."
+				"Right click the jar with an empty hand to eat or drink its contents. Don't worry, you won't eat the lava."
+				"You can &aplace the jar by crouching and right clicking&r it. If you &asimply right click&r, you will instead capture small mobs such as &eSmall Slimes&r or &eBees&r."
+			]
+			id: "62D95F91881F228C"
+			rewards: [{
+				id: "48464721C342CFBF"
+				item: "supplementaries:jar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "463FB873FA5E8629"
+				item: "supplementaries:jar"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"The &bBasket&r can be used as a chest, but also as a hopper! It has the &astorage capacity of a chest&r, and when dropped or thrown items land on top of it, they will &aautomatically go into its inventory&r."
+				"For example, you could &6place one upside-down&r above a &bStove&r in order to collect the finished products! Or put one at the end of a &bConveyer Belt&r."
+				"{image:cottagewitch:textures/basket.png width:100 height:100 align:1}"
+			]
+			id: "5E3D0655F0A08890"
+			rewards: [
+				{
+					id: "2421BCEC9EF7B9BE"
+					item: "farmersdelight:basket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "204DB26B0498DCB3"
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "I wonder if you could play ball with it."
+			tasks: [{
+				id: "31A89834BA4A5521"
+				item: "farmersdelight:basket"
+				type: "item"
+			}]
+			title: "Obtain a Basket"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"An &bEnder Chest&r is like cloud storage for your items. This inventory is accessible through any &bEnder Chest&r, anywhere in the world."
+				"It's not a bad idea to fill it with emergency items. You can &again more storage space&r by &6filling it with Shulker Boxes&r."
+			]
+			id: "0B1646339D14D055"
+			rewards: [{
+				id: "3767778C22F62A3A"
+				item: "minecraft:white_shulker_box"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "56E9DAF2277FF804"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B1646339D14D055"]
+			description: [
+				"As you could guess, the &bRing of Enderchest&r allows you to access your Ender Inventory without needing an &bEnder Chest&r."
+				"It &acannot be worn as a Curio&r but instead must be &6held and right clicked&r in order to be used."
+			]
+			id: "1EEB4AA9131B98DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F7ABEE64C5D9E9F"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2741D617D6F0700F"
+				item: "ring_of_enderchest:ring_of_enderchest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"The &bItem Pipe&r is a way for you to easily transfer items from one inventory to another."
+				"It can &aconnect to an individual chest, barrel, or a whole network&r via a &bInventory Connector&r."
+				"You can use a &bWrench&r (either from &lPipez&r or &lCreate&r - the one from &lSupplementaries&r doesn't work) to &achange its mode&r."
+				"&6Shift right click the wrench&r onto one side of the &bPipe&r to connect/disconnect it, and also to &aset to Extract mode&r."
+				"{image:cottagewitch:textures/depositextract.png width:300 height:150 align:1}"
+				"Once in &aExtract Mode&r, you can &6right click on the pipe&r to access its menu."
+				"&dDo not use Time in a Bottle on Pipez&r. In certain (admittedly uncommon) cases, it can cause severe lag or a complete crash."
+			]
+			id: "0A76B3D9CF688878"
+			min_width: 300
+			rewards: [
+				{
+					count: 10
+					id: "10E7DC7C7F53B457"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "63D4D09CF18BAD6B"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Organize your Storage Network"
+			tasks: [{
+				id: "7153E46F9B5C723A"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A76B3D9CF688878"]
+			description: ["The &bBasic Pipe Upgrade&r allows you to set a &aRedstone Mode&r for the Pipe. You can set it to &aonly be active&r when receiving a signal, or to &astop when it receives a signal&r. By default, it will &aignore Redstone input&r."]
+			id: "327660E1DFE7C9A0"
+			rewards: [{
+				id: "2D980A1EB5CBDC3E"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1196EDFF583F21D3"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["327660E1DFE7C9A0"]
+			description: ["The &bImproved Upgrade&r gives you &aRedstone Mode&r control, and also allows you to change the &aDistribution mode&r, such as whether to deliver to the &afirst inventory&r, &aRound Robin&r, or &acompletely random&r."]
+			id: "125AC0EEF7096532"
+			rewards: [{
+				id: "69DBCB99857B5AA6"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35E4C52DC0192E00"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["125AC0EEF7096532"]
+			description: [
+				"{image:cottagewitch:textures/pipezscreen.png width:200 height:200 align:1}"
+				"The &bAdvanced Upgrade&r gives you access to the previous two modes, as well as &aFiltering&r. You can &awhitelist or blacklist&r selected items from being extracted by the pipes."
+			]
+			id: "5E0E4D3BFE9A205F"
+			rewards: [{
+				id: "7A488241F19C3AB4"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "085ADE6062A763B8"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5E0E4D3BFE9A205F"]
+			description: [
+				"The &bUltimate Upgrade&r gives you all the previous benefits, while also transporting &aone stack at a time&r, making it the fastest option."
+				"It is also significantly more expensive."
+			]
+			id: "2B73F9B609ABE980"
+			rewards: [{
+				id: "235AA9488102A61C"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7038BA77EA75696E"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"There are many ways to carry items with you while you adventure, but not all of them are quite as terrifying as a &bLuggage&r. It has little concern for others, and loves to &agobble up dropped items&r. And yet, it's strangely endearing."
+				"You can &6access its inventory with right click&r, and &6pick it up with shift right click&r. It &aretains its inventory&r when picked up, and it cannot die."
+				"The &eLuggage&r can &awear a collar&r, which will grant it the enchanted abilities. However, &dplacing the Luggage in your inventory will delete the collar&r, so be sure to remove it before picking it back up."
+			]
+			id: "0AC47FF8FD45B289"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F14E912D0E1ACBF"
+				table_id: 2068679807827730220L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "om nom nom nom"
+			tasks: [{
+				id: "37E8405F8CFB4AB9"
+				item: {
+					Count: 1b
+					id: "luggage:luggage"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Not Exactly a Pet"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AC47FF8FD45B289"]
+			description: ["The &eLuggage&r, when &astruck by lightning&r, will have its inventory increased."]
+			id: "27A6A7ADD9B0A8AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4ABC1FE4801E166B"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			tasks: [{
+				id: "04E87935B4CF8F27"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
+			title: "Upgrade your Lugage"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			id: "1836D76FCA8240F3"
+			invisible: true
+			tasks: [{
+				id: "3A3487FA6C3ED784"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A76B3D9CF688878"]
+			description: [
+				"The &bFilter Destination Tool&r is a multi-use tool which will allow you to &aset the destination&r of a &bfiltered item type&r."
+				"You can assign it an inventory by &6right clicking it &lon the face of the block the &bPipe&6 connects to&r. It will not work if you do not select the correct face of the inventory."
+			]
+			id: "329CC0CC1B48C600"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "337B73B6EAD72E39"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "149EDF51A1614C54"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4200E7C6D9AC5F1F"
+				item: "pipez:filter_destination_tool"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Basic chests and barrels are fine for a while, but the canny witch knows that &athe rules of space and time&r are meant to be bent a little. With a little magic, you can easily make your storage bigger - &aand smarter&r!"
+				""
+				"Let's begin with a simple &bBarrel&r. Place it in the world as usual, and then &6right click it with the &bBasic Tier Upgrade&r."
+				""
+				"Now, once you enter the inventory, you'll see some new additions."
+				"{image:cottagewitch:textures/sophstorage.png width:100 height:80 align:1 fit:true}"
+				""
+				"The slot to the left &aaccepts upgrades&r which allow your storage to perform certain functions."
+				"The &acog wheel&r on the right gives you access to your &astorage settings&r."
+			]
+			id: "3571AAEB58389A64"
+			rewards: [{
+				id: "4B6190142D21C6E5"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Let's get sophisticated"
+			tasks: [
+				{
+					id: "3CCA572F26940DE6"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "0081C1FFE60C75E9"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			title: "Upgrading Your Storage"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0AC47FF8FD45B289"]
+			description: [
+				"&eEnder Luggages&r are a tight knit group - unlike regular &eLuggages&r, every &eEnder Luggage&r you own will share the same storage space!"
+				""
+				"it's just like an &bEnder Chest&r - with feet!"
+			]
+			id: "69ACDC95A5F78C82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D4E6B43A75CA479"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "A safer way to store"
+			tasks: [{
+				id: "350477CCA398E4F3"
+				item: "luggage:ender_luggage"
+				type: "item"
+			}]
+			title: "Not Quite A Chest"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3571AAEB58389A64"]
+			description: [
+				"Within your storage settings, you have the ability to change the way your storage behaves."
+				""
+				"{image:cottagewitch:textures/sophsettings.png width:100 height:70 align:1 fit:true}"
+				""
+				"Select the &aBarrel icon&r to choose whether your settings apply to &aPlayer&r - ie, &oall&r your storages  - or &aStorage&r - ie, this container only."
+				""
+				"Select the &aA/Z icon&r you can select (with &6left click&r) or deselect (with &6right click&r) slots to be auto-sorted."
+				""
+				"Select the &aBrain icon&r to &6choose slots to be locked to the item currently in them&r."
+				""
+				"Select the &aSword icon&r to choose a slot whose &aitem will be displayed&r on the front of your storage."
+				""
+				""
+				"{image:cottagewitch:textures/sophbarreldisplayy.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "52D20498843EECD3"
+			rewards: [{
+				id: "4766BD2C9A6B6B0D"
+				type: "xp"
+				xp: 900
+			}]
+			tasks: [{
+				id: "20197D584CDFF2FB"
+				title: "Customize Your Storage"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3571AAEB58389A64"]
+			description: [
+				"There are two ways you can upgrade your storage, &alevel by level&r, or &abasic on upwards&r."
+				""
+				"Assuming you used the reward from the last quest, you'll now have an &bIron Barrel&r. You can upgrade this to &aGold tier&r with an &bIron to Gold Upgrade&r. This is taking it up &alevel by level&r."
+				""
+				"To upgrade from &aBasic upwards&r, you'll need the &bBasic to Gold&r (or other level) Upgrade. This will, as you could guess, take a &bBasic Storage&r and bring it directly to &aGold tier&r."
+				""
+				"With each tier of upgrades, &ayour storage improves&r. At Gold tier it has &amore slots and an additional upgrade slot&r on the left."
+				"{image:cottagewitch:textures/sophgold.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "73B26E8BA35A9C25"
+			rewards: [{
+				id: "2A1D974FD10388D9"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			subtitle: "mo storage, mo problems"
+			tasks: [
+				{
+					id: "37B300AF5E3DAD7A"
+					item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "40557863C8F6DAB7"
+					item: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+					type: "item"
+				}
+			]
+			title: "More Storage, More Upgrades"
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["29B3AC124374A99F"]
+			description: [
+				"The &bStorage Controller&r is a block which acts as a hub, connecting all touching storages to itself. &dAll touching storages are added to the network automatically&r. You can link &adistant storages&r using a &bStorage Link&r. Keep in mind that &bStorage Controllers&r connect only to Sophisticated's containers, so you will need to use the &bBasic&r (or higher) upgrades on them."
+				""
+				"The easiest way to connect multiple inventory blocks is with a &bStorage Controller&r, from &lSophisticated Storage&r. To connect it, take a &bDominion Wand&r and &6shift click the Storage Controller&r. You should see a bit of text pop up which says \"Position set.\""
+				""
+				"Then, &6right click&r the wand onto the &bStorage Lectern&r. It will then tell you &ahow many Bookwyrms and inventories&r are connected."
+				"{image:cottagewitch:textures/storagelectern.png width:100 height:80 align:1 fit:true}"
+			]
+			id: "6BE48C9DD8CA7959"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29A02089A857FE48"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			size: 1.5d
+			subtitle: "good things come in hubs"
+			tasks: [{
+				id: "5CAB304451710315"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:inventory_controllers"
+					}
+				}
+				title: "Any Inventory Controller"
+				type: "item"
+			}]
+			title: "The Network Hub"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3571AAEB58389A64"]
+			description: [
+				"The &bVoid Upgrade&r is an item which will &aremove unwanted items from your storage&r. It will, quite simply, delete them, ensuring that your storage is both well-organized and your server un-crashed. &dIt is especially important to use this upgrade for farms&r!"
+				""
+				"You can configure it to &adelete only overflow items&r or, if you prefer, &adelete all items of specific type&r."
+				""
+				"{image:cottagewitch:textures/voidoverflow.png width:100 height:30 align:1 fit:true}"
+				""
+				"The &bAdvanced Void Upgrade&r is capable of sorting by NBT and Damage levels."
+			]
+			id: "775A1B6549572BEB"
+			rewards: [{
+				id: "6E1CAA9D134DDC34"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:void_upgrade"
+					tag: {
+						shouldVoidOverflow: 0b
+						shouldWorkInGUI: 0b
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "a very important upgrade"
+			tasks: [{
+				id: "17B41092A4227E3F"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:void_upgrade"
+					tag: {
+						filters: {
+							Items: [ ]
+							Size: 9
+						}
+						isAllowList: 1b
+						shouldVoidOverflow: 1b
+						shouldWorkInGUI: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3571AAEB58389A64"]
+			description: ["These upgrades will help you &aprocess items in your storage&r, by smelting, blasting, or smoking. The &aautomatic versions&r will do so without the player needing to manually input the items."]
+			id: "151CAB60A18AA07C"
+			rewards: [{
+				id: "53C614387BB75D54"
+				item: "sophisticatedstorage:auto_smoking_upgrade"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "482E2FA219FCFEBD"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:inventory_upgrades"
+					}
+				}
+				title: "Any Processing Upgrade"
+				type: "item"
+			}]
+			title: "Process Your Inventory"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["73B26E8BA35A9C25"]
+			description: [
+				"Your Sophisticated &bBarrels&r and &bChests are capable of &aholding more than a stack per slot&r, if you use the &bStack Upgrades&r on them. The higher the tier, the more stacks each slot can hold."
+				""
+				"You can also &ause more than one Stack Upgrade&r, and they will add &amultiplicatively&r!"
+				""
+				"So if you use a &bTier 1&r and a &bTier 2&r, you will hold 2 stacks by 4 stacks, meaning 8 stacks, or &d512 items per slot&r."
+			]
+			id: "694D0C4F0DCF078C"
+			rewards: [{
+				id: "3AD1BDD88DD4D731"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A44E7B075704DDF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:stack_upgrades"
+					}
+				}
+				title: "Any Stack Upgrades"
+				type: "item"
+			}]
+			title: "Stack Higher"
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6BE48C9DD8CA7959"]
+			description: [
+				"To &aremotely link Sophisticated Storages&r which are not touching the main network, you need to &6place a &bStorage Link&6 on them&r, and then &6right click the &bStorage Tool&r on the &bLink&r and the &bStorage Controller&r."
+				"{image:cottagewitch:textures/storagelinking.png width:100 height:80 align:1 fit:true}"
+			]
+			id: "04E69B80121E8192"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B08911D6E5AF72C"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3FBDA3D604C0CF21"
+					item: {
+						Count: 1b
+						id: "sophisticatedstorage:storage_tool"
+						tag: {
+							controllerPos: 378506886991939L
+							mode: "LINK"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "002890C9374FFA2D"
+					item: "sophisticatedstorage:storage_link"
+					type: "item"
+				}
+			]
+			title: "Connected at a Distance"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3571AAEB58389A64"]
+			description: [
+				"&bPacking Tape&r is an incredibly helpful item which can be used to &apackage up a storage block&r for transport. Although &dit can only be used on Sophisticated Storage&r."
+				""
+				"You need to &6right click the &bTape&r onto the desired item. Then you can &6break the block&r and it will retain its inventory."
+			]
+			id: "0A60EB3B10E89FE2"
+			rewards: [{
+				id: "5E9F53A618EA2966"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "350D291765AE698A"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3571AAEB58389A64"]
+			description: [
+				"The &bFilter Upgrade&r is meant to be used in conjunction with &bPipez&r or other item transport system."
+				""
+				"It will &ahelp control what items get placed&r in the storage you use it on."
+			]
+			id: "2F0321A50945B2B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36F34DF3FD2DF11E"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A14D9F5DCD3F53E"
+				item: "sophisticatedstorage:filter_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3571AAEB58389A64"]
+			description: ["The &bCrafting&r and &bStonecutter&r upgrades provide those &acrafting interfaces&r in the storage you place them in."]
+			id: "4ADE26321BA3720D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BA068F94B402815"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7A3AF09E3F523977"
+					item: "sophisticatedstorage:stonecutter_upgrade"
+					type: "item"
+				}
+				{
+					id: "3F47D67FD7F5ED43"
+					item: "sophisticatedstorage:crafting_upgrade"
+					type: "item"
+				}
+			]
+			title: "Crafting Upgrades"
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"The &bStorage Lectern&r is an item which, when combined with a &eBookwyrm&r, can allow you to &aaccess multiple inventories in your network&r as one. It will allow you to see, deposit, and withdraw from your network, as well as craft using all the items in your inventory network."
+				""
+				"You can use a &bDominion Wand&r to connect disparate inventories to the &bLectern&r, by &6shift right clicking&r the inventory, then &6right clicking&r the Lectern. However, there is a more efficient way of connecting storages, which the next quest will go into."
+				""
+				"&dSome limitations to note&r are that each &eBookwyrm&r can only connect to a maximum of 8 inventories (you can bypass this with the information in the following quest). Additionally, the &bLectern&r can only connect to inventories within a &a30 block radius&r of itself."
+				""
+				"When in the Lectern interface, turn on \"&dSynced Search&r\" to search in JEI without extra steps (it will also search your inventory). &6Right click&r to clear text."
+				""
+				"This quest has multiple pages. Please see the other pages for more information."
+				"{@pagebreak}"
+				"Multiple &bStorage Lecterns&r can be linked together to allow access from a wider area. To link them, &6right-click&r (note: &dnot &oshift&r &dright click&r) the secondary &bStorage Lectern&r first (one that isn't connected to inventory blocks), then &6right-click the main lectern&r, just as if you were connecting other inventories to it."
+				""
+				"This allows you to link inventories outside of range without using something like &bPipez&r to connect them, which can be helpful for gardens or remote farms."
+			]
+			id: "29B3AC124374A99F"
+			rewards: [{
+				id: "5A9F173D6AAC6C52"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "networking is important"
+			tasks: [{
+				id: "592A922EC62DB55A"
+				item: "ars_nouveau:storage_lectern"
+				type: "item"
+			}]
+			title: "An Inventory Network"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["29B3AC124374A99F"]
+			description: [
+				"One of the benefits of using the &bStorage Lectern&r is that it can be &aaccessed remotely from anywhere in the same dimension&r! You will need a &abit of magic&r, in the form of an &bEnchanter's Eye&r and a &bScrying Crystal&r."
+				""
+				"You'll want to &6place the &bScrying Crystal&r facing the &bStorage Lectern&r. &dIt's best to put it beneath&r the Lectern, pointing up, as this way nothing will impede your spell from hitting the Lectern!"
+				""
+				"The &bEnchanter's Eye&r needs to be programmed with \"&aProjectile > Interact&r\" - the reward for this quest is pre-programmed for you! It just needs to be linked by &6right clicking the Eye onto the &bScrying Crystal&r."
+				""
+				"Then, just &6hold the Eye and right click&r to access your inventory network!"
+			]
+			id: "5FDE9069A51CD838"
+			rewards: [{
+				id: "5ACF9ABDDADC9E12"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:enchanters_eye"
+					tag: {
+						"ars_nouveau:caster": {
+							current_slot: 0
+							flavor: ""
+							hidden_recipe: ""
+							is_hidden: 0b
+							spell_count: 1
+							spells: {
+								spell0: {
+									name: "Interact"
+									recipe: {
+										part0: "ars_nouveau:glyph_projectile"
+										part1: "ars_nouveau:glyph_interact"
+										size: 2
+									}
+									sound: {
+										pitch: 1.0f
+										soundTag: {
+											id: "ars_nouveau:fire_family"
+										}
+										volume: 1.0f
+									}
+									spellColor: {
+										b: 180
+										g: 25
+										r: 255
+										type: "ars_nouveau:constant"
+									}
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "736F2680810BBF2B"
+				item: "ars_nouveau:scryers_crystal"
+				type: "item"
+			}]
+			title: "Remote Storage Access"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6BE48C9DD8CA7959"]
+			description: [
+				"By default, the Storage Lectern &dprioritizes putting items into the inventories which were connected first&r."
+				""
+				"This can cause issues in cases where you want an item to go to one specific inventory. The way to filter what items are allows in an inventory is by using &bItem Frames&r in combination with an Allow, Deny, or Mimic scroll."
+				""
+				"By placing an Item Frame on the connected inventory and placing a filtered scroll, &aonly items that matches the scroll conditions&r will be put into that inventory."
+				""
+				"- &bAllow scroll&r only &aallows&r the items on the scroll to be put in."
+				"- &bDeny scroll&r only &adisallows&r the items on the scroll to be put in."
+				"- &bMimic scroll&r only allows the &aitems that already exist in the inventory&r to be put in."
+				""
+				"To program a scroll, &6place it on a &bScribe's Table&r and &6shift right click&r items onto it. The items will not be consumed. Once you pick your scroll back up, you should see the items listed in the tooltip, like so:"
+				""
+				"{image:cottagewitch:textures/allowscroll.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "73152BFA6AF1A114"
+			rewards: [{
+				count: 5
+				id: "3A43E4A8CE0E47DC"
+				item: "ars_nouveau:blank_parchment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AE5761E1D87D49C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:filter_scrolls"
+					}
+				}
+				title: "Any Filter Scroll"
+				type: "item"
+			}]
+			title: "Filtering Your Inventory"
+			x: 2.5d
+			y: -3.0d
+		}
+	]
+	title: "Storage"
+}

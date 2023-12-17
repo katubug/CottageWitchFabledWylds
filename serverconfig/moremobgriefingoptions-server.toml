@@ -466,9 +466,6 @@
 	#luphieclutteredmod:mushroom_bed_seat_entity mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"luphieclutteredmod:mushroom_bed_seat_entity" = "DEFAULT"
-	#orpheus:viper mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"orpheus:viper" = "DEFAULT"
 	#luggage:luggage mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"luggage:luggage" = "DEFAULT"
@@ -745,9 +742,6 @@
 	#unusualprehistory:raiguenrayun mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"unusualprehistory:raiguenrayun" = "DEFAULT"
-	#venturer:ancient_arrow mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"venturer:ancient_arrow" = "DEFAULT"
 	#earthmobsmod:cluck_shroom mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"earthmobsmod:cluck_shroom" = "DEFAULT"
@@ -1819,4 +1813,154 @@
 	#domesticationinnovation:psychic_wall mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"domesticationinnovation:psychic_wall" = "DEFAULT"
+	#fairylights:fastener mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"fairylights:fastener" = "DEFAULT"
+	#butterflies:butterfly_scroll mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:butterfly_scroll" = "DEFAULT"
+	#butterflies:morpho mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:morpho" = "DEFAULT"
+	#butterflies:forester mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:forester" = "DEFAULT"
+	#butterflies:common mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:common" = "DEFAULT"
+	#butterflies:emperor mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:emperor" = "DEFAULT"
+	#butterflies:hairstreak mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:hairstreak" = "DEFAULT"
+	#butterflies:rainbow mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:rainbow" = "DEFAULT"
+	#butterflies:heath mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:heath" = "DEFAULT"
+	#butterflies:glasswing mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:glasswing" = "DEFAULT"
+	#butterflies:chalkhill mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:chalkhill" = "DEFAULT"
+	#butterflies:swallowtail mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:swallowtail" = "DEFAULT"
+	#butterflies:monarch mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:monarch" = "DEFAULT"
+	#butterflies:cabbage mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:cabbage" = "DEFAULT"
+	#butterflies:admiral mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:admiral" = "DEFAULT"
+	#butterflies:longwing mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:longwing" = "DEFAULT"
+	#butterflies:clipper mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:clipper" = "DEFAULT"
+	#butterflies:buckeye mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:buckeye" = "DEFAULT"
+	#butterflies:morpho_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:morpho_caterpillar" = "DEFAULT"
+	#butterflies:forester_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:forester_caterpillar" = "DEFAULT"
+	#butterflies:common_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:common_caterpillar" = "DEFAULT"
+	#butterflies:emperor_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:emperor_caterpillar" = "DEFAULT"
+	#butterflies:hairstreak_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:hairstreak_caterpillar" = "DEFAULT"
+	#butterflies:rainbow_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:rainbow_caterpillar" = "DEFAULT"
+	#butterflies:heath_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:heath_caterpillar" = "DEFAULT"
+	#butterflies:glasswing_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:glasswing_caterpillar" = "DEFAULT"
+	#butterflies:chalkhill_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:chalkhill_caterpillar" = "DEFAULT"
+	#butterflies:swallowtail_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:swallowtail_caterpillar" = "DEFAULT"
+	#butterflies:monarch_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:monarch_caterpillar" = "DEFAULT"
+	#butterflies:cabbage_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:cabbage_caterpillar" = "DEFAULT"
+	#butterflies:admiral_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:admiral_caterpillar" = "DEFAULT"
+	#butterflies:longwing_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:longwing_caterpillar" = "DEFAULT"
+	#butterflies:clipper_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:clipper_caterpillar" = "DEFAULT"
+	#butterflies:buckeye_caterpillar mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:buckeye_caterpillar" = "DEFAULT"
+	#butterflies:morpho_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:morpho_chrysalis" = "DEFAULT"
+	#butterflies:forester_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:forester_chrysalis" = "DEFAULT"
+	#butterflies:common_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:common_chrysalis" = "DEFAULT"
+	#butterflies:emperor_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:emperor_chrysalis" = "DEFAULT"
+	#butterflies:hairstreak_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:hairstreak_chrysalis" = "DEFAULT"
+	#butterflies:rainbow_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:rainbow_chrysalis" = "DEFAULT"
+	#butterflies:heath_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:heath_chrysalis" = "DEFAULT"
+	#butterflies:glasswing_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:glasswing_chrysalis" = "DEFAULT"
+	#butterflies:chalkhill_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:chalkhill_chrysalis" = "DEFAULT"
+	#butterflies:swallowtail_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:swallowtail_chrysalis" = "DEFAULT"
+	#butterflies:monarch_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:monarch_chrysalis" = "DEFAULT"
+	#butterflies:cabbage_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:cabbage_chrysalis" = "DEFAULT"
+	#butterflies:admiral_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:admiral_chrysalis" = "DEFAULT"
+	#butterflies:longwing_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:longwing_chrysalis" = "DEFAULT"
+	#butterflies:clipper_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:clipper_chrysalis" = "DEFAULT"
+	#butterflies:buckeye_chrysalis mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"butterflies:buckeye_chrysalis" = "DEFAULT"
 

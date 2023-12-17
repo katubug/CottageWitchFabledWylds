@@ -93,6 +93,11 @@ JEIEvents.hideItems(event => {
         'bakery:dough',
         'candlelight:dough',
         'create:dough',
+        'farmingforblockheads:feeding_trough',
+        'sleep_tight:bedbug_eggs',
+        'reliquary:midas_touchstone', 
+        'reliquary:pyromancer_staff', 
+        'reliquary:rod_of_lyssa',
 
     ];
     

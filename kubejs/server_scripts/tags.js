@@ -73,8 +73,37 @@ ServerEvents.tags('item', event => {
         'candlelight:typewriter_copper'
     )
 
+    event.add(
+        'forge:binding_tables',
+        'ancient_manuscripts:spruce_binding_table', 
+        'ancient_manuscripts:dark_oak_binding_table', 
+        'ancient_manuscripts:oak_binding_table', 
+        'ancient_manuscripts:mangrove_binding_table', 
+        'ancient_manuscripts:warped_binding_table', 
+        'ancient_manuscripts:crimson_binding_table', 
+        'ancient_manuscripts:bamboo_binding_table', 
+        'ancient_manuscripts:cherry_binding_table', 
+        'ancient_manuscripts:birch_binding_table', 
+        'ancient_manuscripts:acacia_binding_table', 
+        'ancient_manuscripts:jungle_binding_table', 
+    )
+
+    event.add(
+        'forge:grapes',
+        'vinery:taiga_grapes_white',
+        'vinery:taiga_grapes_red',
+        'vinery:savanna_grapes_white',
+        'vinery:red_grape',
+        'vinery:jungle_grapes_white',
+        'vinery:savanna_grapes_red',
+        'vinery:jungle_grapes_red', 
+        'vinery:white_grape'
+    )
+
 
     // Tag Removal
-    event.removeAllTagsFrom('bakery:dough', 'candlelight:dough', 'create:dough')
+    event.removeAllTagsFrom('bakery:dough',
+    'candlelight:dough',
+    'create:dough')
 
 })

@@ -6,7 +6,7 @@
 		{ count: 5, item: "minecraft:iron_ingot", weight: 10.0f }
 		{ count: 3, item: "minecraft:prismarine_shard", only_one: true, weight: 5.0f }
 		{ item: "farmersdelight:organic_compost", weight: 10.0f }
-		{ item: "waystones:warp_scroll", weight: 18.0f }
+		{ item: "waystones:warp_scroll", weight: 13.0f }
 		{ item: "delightful:cheeseburger", weight: 15.0f }
 		{ item: "minecraft:quartz", weight: 15.0f }
 		{ item: "minecraft:amethyst_shard", weight: 8.0f }
@@ -16,6 +16,17 @@
 		{ count: 4, item: "sophisticatedstorage:upgrade_base", weight: 15.0f }
 		{ count: 2, item: "sophisticatedstorage:basic_tier_upgrade", weight: 10.0f }
 		{ item: "sophisticatedstorage:basic_to_iron_tier_upgrade", weight: 5.0f }
+		{ item: "forbidden_arcanus:purifying_soap", weight: 5.0f }
+		{ count: 2, item: "tombstone:grave_dust", weight: 13.0f }
+		{ item: "candlelight:note_paper_writeable" }
+		{ count: 2, item: "species:birt_egg" }
+		{ item: "irons_rpg_tweaks:identification_scroll", weight: 5.0f }
+		{ count: 4, item: "forbidden_arcanus:arcane_crystal_dust", weight: 10.0f }
+		{ count: 3, item: "eidolon:lead_ingot", weight: 12.0f }
+		{ count: 5, item: "farmersdelight:ham", weight: 10.0f }
+		{ count: 3, item: "bakery:yeast", weight: 5.0f }
+		{ count: 5, item: "meadow:alpine_salt", weight: 10.0f }
+		{ count: 3, item: "candlelight:butter", weight: 10.0f }
 	]
 	title: "Random Tier 1"
 }

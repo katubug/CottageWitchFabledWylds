@@ -1,0 +1,1151 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "farmers_delight"
+	group: "1E0017DE6773EF00"
+	icon: "farmersdelight:cooking_pot"
+	id: "1E6C7DB3D27545CE"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "cottagewitch:textures/bgfarming.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You've obtained some &bseeds&r, congratulations! The first step of becoming a successful farmer is to have something to plant."
+				"As a reward, try this &bRich Soil&r. It can be crafted from &bOrganic Compost&r, and is great for planting crops on!"
+				"It will &aperiodically grant a growth boost&r to crops (when it's provided with water) and it &acannot be trampled&r. It &acan also be used to grow &bMushroom Colonies&r in complete darkness."
+			]
+			id: "4930ECD60EA9ED8D"
+			rewards: [
+				{
+					count: 4
+					id: "2CB2953E77DF6618"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5631EAEE8EC7A5F0"
+					table_id: 6518300475828805418L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "A Bit Seedy..."
+			tasks: [{
+				id: "536499531C4C43D5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:seeds"
+					}
+				}
+				title: "Any #forge:seeds"
+				type: "item"
+			}]
+			title: "Obtain some seeds"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4930ECD60EA9ED8D"]
+			description: ["Mushroom colonies can be &agrown in complete darkness&r using &bRich Soil&r. If you &6harvest one with shears&r, you will get the whole colony. &6Harvest it with your hand&r and you will get up to 5 mushrooms. Hooray for mush!"]
+			id: "435BD760D0F2E010"
+			rewards: [
+				{
+					id: "236914FF02083F47"
+					item: "farmersdelight:brown_mushroom_colony"
+					type: "item"
+				}
+				{
+					id: "13B21F12709E46BD"
+					item: "farmersdelight:red_mushroom_colony"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "So happy together"
+			tasks: [{
+				id: "315D13677114638B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:mushcolony"
+					}
+				}
+				title: "Any Mushroom Colony"
+				type: "item"
+			}]
+			title: "Obtain a Mushroom Colony"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4930ECD60EA9ED8D"]
+			description: [
+				"&bPies&r from this mod can be eaten one of two ways. You can place them down like a &bcake&r and eat them slice-by-slice, or you can place them on a &bCutting Board&r and use that to cut them into &bportable slices&r."
+				""
+				"When eaten, they grant you a short speed boost!"
+			]
+			id: "57B830324890E32C"
+			rewards: [
+				{
+					count: 3
+					id: "213B8B8FCA9F63AD"
+					item: "farmersdelight:milk_bottle"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "00DD6C79ABA69814"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4B4379A14669A7EC"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "0AECAF9A2986BEF2"
+					table_id: 7917666410282180869L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Tastes so good, makes a grown man cry"
+			tasks: [{
+				id: "2DD8FA7DB6BE126D"
+				item: "farmersdelight:pie_crust"
+				type: "item"
+			}]
+			title: "Make a Pie"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4930ECD60EA9ED8D"]
+			description: ["&bStraw&r can be used to make &bRope&r, which is very useful. It can also be used to make &bCanvas&r, &bCompost&r, and building materials such as &bDaub&r."]
+			id: "3AE0F1C1159FBDDE"
+			rewards: [{
+				id: "66F2801F9DFA05AC"
+				item: "farmersdelight:straw_bale"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Just don't draw the short one"
+			tasks: [{
+				id: "55C6E492715281CF"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			title: "Obtain Straw"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE0F1C1159FBDDE"]
+			description: ["&bCanvas&r is a versatile material which can create &bMats&r, &bSigns&r, and more!"]
+			id: "548376041885F6D1"
+			rewards: [{
+				id: "4B7C75DB02E57058"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "A blank canvas is a powerful thing"
+			tasks: [{
+				id: "7B4B34EE649076A3"
+				item: "farmersdelight:canvas"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3AE0F1C1159FBDDE"]
+			description: ["&bRope&r can be used to make tools such as the &bSafety Net&r, which &anegates falling damage when landed on&r. It can also be crafted into &bRope Arrows&r, which will unroll a length of rope to the ground beneath where the arrow lands, allowing you to climb up it."]
+			id: "141887F26E89BAE8"
+			rewards: [{
+				id: "6858B53EC13EE0A2"
+				item: {
+					Count: 1b
+					id: "supplementaries:rope_arrow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Always practice rope safety"
+			tasks: [{
+				id: "45328BF090DF76BC"
+				item: "farmersdelight:rope"
+				type: "item"
+			}]
+			title: "Obtain Rope"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CA80140F624D0AE"]
+			description: ["Crops can be easily compacted into Bags or Crates in order to &asave on storage space&r. &6Place 9 of each material in a Crafting Grid&r to obtain a Crate or Bag of it!"]
+			id: "0545DF70043D964A"
+			rewards: [
+				{
+					id: "0A8B138A045BB03E"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B783F459C7A48B5"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60E05DAC17F84051"
+					table_id: 1510389528595555205L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Crops but compact"
+			tasks: [
+				{
+					id: "0B3D4A89F7573E0A"
+					item: "farmersdelight:rice_bag"
+					type: "item"
+				}
+				{
+					id: "0D4B4D9B040FC426"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+				{
+					id: "264A58E9818E845A"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					id: "3B1250578AA7B5FA"
+					item: "farmersdelight:cabbage_crate"
+					type: "item"
+				}
+				{
+					id: "3B35640DCCB3391D"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+				{
+					id: "3B0EA9557B457B15"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					id: "00992514D9743E5A"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+				{
+					id: "2C5CCAFE25DA5291"
+					item: "collectorsreap:lime_crate"
+					type: "item"
+				}
+				{
+					id: "09A34C53F2F63CED"
+					item: "collectorsreap:pomegranate_crate"
+					type: "item"
+				}
+				{
+					id: "0C2A58FE05ABEE4C"
+					item: "culturaldelights:avocado_crate"
+					type: "item"
+				}
+				{
+					id: "1A0F4D927B8F0A64"
+					item: "culturaldelights:cucumber_crate"
+					type: "item"
+				}
+				{
+					id: "65F750C0E2B8159A"
+					item: "culturaldelights:pickle_crate"
+					type: "item"
+				}
+				{
+					id: "5EA6B5537664B758"
+					item: "culturaldelights:corn_cob_crate"
+					type: "item"
+				}
+				{
+					id: "542AC82A97801360"
+					item: "culturaldelights:eggplant_crate"
+					type: "item"
+				}
+			]
+			title: "Compact Your Crops"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4930ECD60EA9ED8D"]
+			description: ["Farmer's Delight adds 4 new crops: &bTomato&r, &bRice&r, &bCabbage&r, and &bOnion&r. Wild versions of these can be found while exploring, and then you can plant them in your garden at home!"]
+			id: "2CA80140F624D0AE"
+			rewards: [
+				{
+					id: "69ACEF4AC35DF65C"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E1001E2D420EF81"
+					table_id: 6518300475828805418L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "More, give me more"
+			tasks: [
+				{
+					id: "7E1608CE39644619"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					id: "66FBA732EB969822"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					id: "61BC6271FA074A75"
+					item: "farmersdelight:rice_panicle"
+					type: "item"
+				}
+				{
+					id: "6423E31169FF965C"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+			]
+			title: "Obtain the New Crops"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4930ECD60EA9ED8D"]
+			description: [
+				"With this mod, crops have a small chance of spawning &agiant crops&r, similar to Stardew Valley. This is most likely to &a happen to fully grown crops exposed to Moonlight&r."
+				""
+				"Break them with a &bHoe&r to get significantly more regular crops than usual. Break them with an &bAxe&r or your hand to obtain the Crop Block itself. You can then &aCook&r them, &aPeel&r them, or place them on a &bCutting Board&r to gather the crops from them."
+				""
+				"And you even have a chance of Overweight Crops when using &bPlanters&r!"
+				""
+				"&bRich Farmland&r has an increased chance of spawning Overweight Crops."
+			]
+			id: "780D09CCF1A8D814"
+			rewards: [
+				{
+					id: "4529CCBE869330B5"
+					item: "overweight_farming:overweight_baked_potato_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0862AAB995B4CC60"
+					table_id: 6518300475828805418L
+					type: "random"
+				}
+			]
+			subtitle: "Everyone loves a chubby carrot"
+			tasks: [{
+				id: "6A35F0139B9BEB50"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:overweightcrops"
+					}
+				}
+				title: "Any Overweight Crop"
+				type: "item"
+			}]
+			title: "Overweight Crops"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["780D09CCF1A8D814"]
+			description: [
+				"The &bStraw Hat&r can be bartered from &aFarmer Villagers&r. It will give you a bonus to plant growth and an extra chance at &aOverweight Crops&r!"
+				""
+				"It also gives a chance of breeding twins or triplets! ...of the animals. Not you. Probably."
+			]
+			id: "41ACB7D51D1AC9A9"
+			rewards: [
+				{
+					id: "205924214DEAFFAD"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00E055531ADCA57E"
+					table_id: 6518300475828805418L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "It's called fashion, sweaty, look it up"
+			tasks: [{
+				id: "7355E2367EA1596C"
+				item: {
+					Count: 1b
+					id: "overweight_farming:straw_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["780D09CCF1A8D814"]
+			description: [
+				"Peel your &bOverweight Crops&r to obtain different appearances, and gain &bVegetable Peels&r, which can be made into &bCompost&r or fed to &ePigs&r!"
+				"Peeled &bMelons&r can have their seeds removed with an &bAxe&r, and then juiced by &6right clicking them with a bottle&r."
+			]
+			id: "4B733744EBC620FC"
+			rewards: [{
+				count: 8
+				id: "47F29C10D0A45984"
+				item: "overweight_farming:vegetable_peels"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3EF80E1AD4F90608"
+				item: "overweight_farming:peeled_overweight_carrot_block"
+				type: "item"
+			}]
+			title: "Peel A Carrot"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4930ECD60EA9ED8D"]
+			description: ["The &bPlanter&r is useful both as a decorative block, and as a utility. It can grow crops without the need for water, and without the danger of being trampled."]
+			id: "3D221ECD9106F792"
+			rewards: [
+				{
+					id: "62C1DF9B5627710E"
+					item: "minecraft:lily_of_the_valley"
+					type: "item"
+				}
+				{
+					id: "0BC000C96B54EA2B"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					id: "592AD857D4ED8118"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-530006157
+									1378044281
+									-1862026456
+									306851943
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk2NDIyNDk3YTgzZWRlMzk3NGU5N2IzNWE3ODE0NzJiYmIzNzJmN2MzMjQ0YzkyMmU3MTc0M2U2YWYzOWJjYSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Flower Basket\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Mmm, so planty"
+			tasks: [{
+				id: "1A82E50D8BBEB46D"
+				item: "supplementaries:planter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4930ECD60EA9ED8D"]
+			description: [
+				"They say not to waste your diamonds on a hoe. But you've taken this a step further."
+				""
+				"To honor your commitment, please take this reward."
+			]
+			id: "2186A6F69ADBE795"
+			rewards: [
+				{
+					id: "2504FA7EFE4F83CE"
+					item: "hexerei:gold_rings"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "679B96B27A170259"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "084D4358FE8322BB"
+					table_id: 6518300475828805418L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/obtain_netherite_hoe"
+				criterion: ""
+				id: "689FF833D614619E"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["780D09CCF1A8D814"]
+			description: ["Gather &6one of each kind of &bOverweight Crop&r, which can be used as decoration, or &6cut on a &bCutting Board&r."]
+			id: "34C84EC0EC5B8A2E"
+			rewards: [
+				{
+					id: "6E3A73DDE4D0EA58"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "3DCD2B47A882540B"
+					item: {
+						Count: 1b
+						id: "farmersdelight:golden_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0053D306544A5F22"
+					item: "overweight_farming:overweight_beetroot_block"
+					type: "item"
+				}
+				{
+					id: "6E3DA1FE29488061"
+					item: "overweight_farming:overweight_carrot_block"
+					type: "item"
+				}
+				{
+					id: "1209DA4D38631457"
+					item: "overweight_farming:overweight_cocoa_block"
+					type: "item"
+				}
+				{
+					id: "662C49A7B61B4CE5"
+					item: "overweight_farming:overweight_potato_block"
+					type: "item"
+				}
+				{
+					id: "70AF154777CEAC93"
+					item: "overweight_farming:overweight_nether_wart_block"
+					type: "item"
+				}
+				{
+					id: "7E72F87F49999386"
+					item: "overweight_farming:overweight_poisonous_potato_block"
+					type: "item"
+				}
+				{
+					id: "3CA78D5A08C1F702"
+					item: "overweight_farming:overweight_apple_block"
+					type: "item"
+				}
+				{
+					id: "13847E25D5437927"
+					item: "overweight_farming:overweight_golden_apple_block"
+					type: "item"
+				}
+				{
+					id: "11B9307049059D0E"
+					item: "overweight_farming:overweight_onion_block"
+					type: "item"
+				}
+				{
+					id: "404FFDF985D47549"
+					item: "overweight_farming:overweight_cabbage_block"
+					type: "item"
+				}
+			]
+			title: "Collect Chubby Crops"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4930ECD60EA9ED8D"]
+			description: [
+				"Have you &aautomated your farm&r? Then you probably know the pain of excessive crop ownership. &6Submit your crops to this quest&r to earn rewards."
+				""
+				"[Repeatable Quest]"
+			]
+			id: "6630D27FC9E3F285"
+			rewards: [
+				{
+					id: "4695B14C75D256F2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "509497F8FDAC8759"
+					table_id: 7049021818423122779L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EFC02323DC65CA5"
+					table_id: 1739670786502713488L
+					type: "loot"
+				}
+				{
+					count: 10
+					id: "25673EACEF5A376C"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "421CB73C1AE799A5"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "55035A2527029547"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "01215F6EE4B457A4"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "13803B6E5CB2DF76"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "5CE060E19611C1DE"
+					item: "farmersdelight:cabbage_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "241C1EBB473D9D1B"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "52AD3CA306639035"
+					item: "quark:apple_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "335176CD3CC595F9"
+					item: "culturaldelights:avocado_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "095EF4EE475C4250"
+					item: "culturaldelights:cucumber_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "6D6FE18F9E75CBC3"
+					item: "culturaldelights:corn_cob_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "30F3D5F7FA50469A"
+					item: "culturaldelights:eggplant_crate"
+					type: "item"
+				}
+			]
+			title: "Ship Your Crops"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2CA80140F624D0AE"]
+			description: ["Similar to &bCrates&r, many crops can be compacted into &bSacks&r. These can be used decoratively, or &aused to free up storage space&r!"]
+			id: "2973338AB622C5D6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "380BDD48693BCD8F"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64720E736EC3511D"
+					table_id: 6518300475828805418L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "1B1F3AA7E0786E0D"
+					item: "delightful:salmonberry_sack"
+					type: "item"
+				}
+				{
+					id: "4ACD20B0FA4352AE"
+					item: "delightful:acorn_sack"
+					type: "item"
+				}
+				{
+					id: "591F577CDB915FCB"
+					item: "farmersrespite:green_tea_leaves_sack"
+					type: "item"
+				}
+				{
+					id: "58946F323CDABEBC"
+					item: "farmersrespite:yellow_tea_leaves_sack"
+					type: "item"
+				}
+				{
+					id: "10E1654908FAE623"
+					item: "farmersrespite:black_tea_leaves_sack"
+					type: "item"
+				}
+				{
+					id: "301E69DAB8861731"
+					item: "quark:cocoa_beans_sack"
+					type: "item"
+				}
+				{
+					id: "0E7043FAB4B5E3FC"
+					item: "quark:nether_wart_sack"
+					type: "item"
+				}
+				{
+					id: "0571F824465F5029"
+					item: "quark:berry_sack"
+					type: "item"
+				}
+				{
+					id: "35AE1CBDD601223B"
+					item: "quark:glowberry_sack"
+					type: "item"
+				}
+				{
+					id: "2FB7FAE58ACE779B"
+					item: "farmersrespite:coffee_beans_sack"
+					type: "item"
+				}
+			]
+			title: "Sack Up"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4930ECD60EA9ED8D"]
+			description: [
+				"There's a way to &agrow crops more quickly!&r. If you &6craft some compost&r and then &6place it near a water source&r, it will slowly turn into &bRich Soil&r. This process can be &asped up using &bTime in a Bottle&r."
+				""
+				"Once tilled, &bRich Soil&r will &agrant extra growth&r ticks to your plants. It also &acannot be trampled&r, and &adoes not require water&r."
+				""
+				"You'll also want it if you're planning on growing any &bMushroom Colonies&r."
+			]
+			id: "02F91E51E86F71F6"
+			rewards: [
+				{
+					count: 5
+					id: "01F30CBF19893E1D"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "108F30F089CFBB86"
+					table_id: 6518300475828805418L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "727B56ABB96944F2"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+				{
+					id: "2E1CD7C0732CD9F2"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["02F91E51E86F71F6"]
+			description: [
+				"Much like its browner brother, &bRich Soul Soil&r is formed of &bSoil Compost&r that has been &aleft adjacent to Lava&r."
+				"You can use it to grow &bNether Crops&r more quickly!"
+			]
+			id: "60445E736AE3B5B4"
+			rewards: [
+				{
+					count: 5
+					id: "4DBD2CF2969F8A46"
+					item: "nethersdelight:soul_compost"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "531F31FD79A7344A"
+					table_id: 6518300475828805418L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "04C5336A8E4F2D84"
+					item: "nethersdelight:rich_soul_soil"
+					type: "item"
+				}
+				{
+					id: "4BFE6D9C74C69930"
+					item: "nethersdelight:soul_compost"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			id: "7814F0DBA486B635"
+			invisible: true
+			tasks: [{
+				id: "396A910D8629D953"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"You know what's the spice of life? Variety. And you know who loves spice? You guessed it - &ebees&r."
+				"Oh, that's not what you guessed?"
+				""
+				"Well, nevermind that. Collect one of each type of &bBeehive&r, and see how much your &eBees&r will appreciate it."
+			]
+			id: "1FF3A036CE58CCC9"
+			rewards: [{
+				id: "3CA3A10AD6506A17"
+				item: "plushies:bee"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "friendsandfoes:husbandry/beehive"
+				criterion: ""
+				id: "28E5384ECA31D155"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0545DF70043D964A"]
+			id: "77E1FEDE586A487C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "655EEA38807AA427"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1C7625FF703A08C5"
+					item: "neapolitan:vanilla_pod_block"
+					type: "item"
+				}
+				{
+					id: "16E544095CA59090"
+					item: "neapolitan:dried_vanilla_pod_block"
+					type: "item"
+				}
+				{
+					id: "728789276F787B8E"
+					item: "neapolitan:banana_bundle"
+					type: "item"
+				}
+				{
+					id: "56FFC49DC13E368C"
+					item: "neapolitan:strawberry_basket"
+					type: "item"
+				}
+				{
+					id: "4DCE2C44EE55C438"
+					item: "neapolitan:banana_crate"
+					type: "item"
+				}
+				{
+					id: "2C15E9E0BB8B4BB5"
+					item: "neapolitan:mint_basket"
+					type: "item"
+				}
+				{
+					id: "39385FB83E50595A"
+					item: "neapolitan:adzuki_crate"
+					type: "item"
+				}
+				{
+					id: "5D8C94C6DA24F06C"
+					item: "neapolitan:roasted_adzuki_crate"
+					type: "item"
+				}
+				{
+					id: "2448DF8EF88B5AFD"
+					item: "collectorsreap:lime_crate"
+					type: "item"
+				}
+				{
+					id: "1F5E1C48DDEC8B63"
+					item: "collectorsreap:pomegranate_crate"
+					type: "item"
+				}
+			]
+			title: "Compact Your Crops 2"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0545DF70043D964A"]
+			id: "008A62D8E70B51F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "306D28898C8818B6"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "00D79767E3148101"
+					item: "quark:golden_apple_crate"
+					type: "item"
+				}
+				{
+					id: "54A081FFA1C847D7"
+					item: "quark:golden_carrot_crate"
+					type: "item"
+				}
+			]
+			title: "Compact Your (Golden) Crops"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0545DF70043D964A"]
+			id: "22F72EB92786EEF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54BDFDE2D0F0A249"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "44120CB9F7F88C84"
+					item: "environmental:duck_egg_crate"
+					type: "item"
+				}
+				{
+					id: "55FB0A951F321653"
+					item: "incubation:turtle_egg_crate"
+					type: "item"
+				}
+				{
+					id: "4610BF6CBB1013F6"
+					item: "incubation:chicken_egg_crate"
+					type: "item"
+				}
+			]
+			title: "Compact Your Eggs (Gently)"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0545DF70043D964A"]
+			id: "6DF3D43144E93441"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B7B6392FD1B6E8D"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5502140B599DD57B"
+					table_id: 8096229411196850122L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2B013BA1F90E7A39"
+					item: "vinery:red_grape_crate"
+					type: "item"
+				}
+				{
+					id: "50EA8453703AE091"
+					item: "vinery:white_grape_crate"
+					type: "item"
+				}
+				{
+					id: "35D815CD7FF0DD34"
+					item: "vinery:cherry_crate"
+					type: "item"
+				}
+			]
+			title: "Compact Your Crops: Wine Edition"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"42F4A9D340D6D4B3"
+				"008A62D8E70B51F9"
+				"77E1FEDE586A487C"
+				"2973338AB622C5D6"
+				"22F72EB92786EEF7"
+				"6DF3D43144E93441"
+			]
+			description: ["Congratulations, you have compacted all of the crops! For your hard work, here is a reward."]
+			id: "148F84D7DB06E5D1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7452EA340BE5C392"
+					table_id: 7265408724434505998L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21F0645F04708BFF"
+					table_id: 5525848455660196930L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "2E7A316EBC2BA46A"
+				title: "Compact All The Crops!"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0545DF70043D964A"]
+			id: "42F4A9D340D6D4B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3183BD2CE76319BB"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "72D2C48BC312799F"
+					item: "neapolitan:white_strawberry_basket"
+					type: "item"
+				}
+				{
+					id: "6120DFBC463438F5"
+					item: "culturaldelights:white_eggplant_crate"
+					type: "item"
+				}
+			]
+			title: "Compact Your Crops: Shiny Edition"
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+	title: "Farming \\& Gardening"
+}

@@ -68,7 +68,11 @@
     "file/3d-sweet-berry-bush-1-16.zip",
     "file/3d-blast-furnace-e1920.zip",
     "bushy_leaves",
-    "better_leaves"
+    "better_leaves",
+    "file/mushroom-slimes.zip",
+    "file/fortune-cat-totem.zip",
+    "file/dr-zhark-horse-armor-revamped.zip",
+    "file/Enchanting Table.zip"
     ],
   "default_overrides": {
     "force_compatible": true

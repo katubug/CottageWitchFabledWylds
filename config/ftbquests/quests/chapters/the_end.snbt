@@ -1,0 +1,638 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "5FB460EFA0A2567E"
+	icon: "minecraft:ender_eye"
+	id: "5CD8650A590340E5"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "cottagewitch:textures/bgtheend.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Normally, to get to &dThe End&r requires regular old &bEnder Eyes&r, for both seeking and filling the portal frames. However, magic has warped this world, making it more difficult to face the final dimension."
+				"There are, instead, 16 other eyes (of which you need 12), which can be found in various ways. &6See the following quests&r for more information on them."
+			]
+			id: "19ED6330FD3E968C"
+			rewards: [
+				{
+					id: "7B03ECB960F43CA2"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "66F840ADEF6868F0"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "I've got my eye on the End"
+			tasks: [{
+				id: "0328F21C5C6D8DB7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:eyes"
+					}
+				}
+				title: "Any End Eye"
+				type: "item"
+			}]
+			title: "Obtain an End Eye"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["The first of these new items is called &bThe Old Eye&r, which once belonged to one of the now-extinct Great Sandworms. This sallow eye can be looted from &dDesert Temple&r chests."]
+			id: "1689A10C4DBBE5B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E71893970FB14C4"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0AB9F107629AD0F7"
+				item: {
+					Count: 1b
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["The &bNether Eye&r once belonged to a demon, who lost it in a might battle between the Aether and Nether. It can be found in chests inside - you guessed it - &dNether Fortresses&r."]
+			id: "2C24C18C174AD842"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59D5819F6A1DF3BA"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F5C79ECEC9F9E1D"
+				item: {
+					Count: 1b
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["The &bCold Eye&r once belonged to an Iceologer, and can be found hidden in &dan igloo's hidden basement&r."]
+			id: "468D0B739D93E018"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "317B59CE91F954A0"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D5D03F3351D90DA"
+				item: {
+					Count: 1b
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["A &bRogue Eye&r can be found in a &dJungle Temple&r, and is rumored to have given our ancestors Redstone."]
+			id: "59B0992CDA1B5797"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57E86B80B8DABCFB"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58361D1901173A62"
+				item: {
+					Count: 1b
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["The &bBlack Eye&r, which once gave sight to the mighty Black Pearl, is now hidden beneath the surface in some &dBuried Treasure&r."]
+			id: "3278B2F717A8F374"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11D711C47166B750"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1FBCA3F2D130D48F"
+				item: {
+					Count: 1b
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["Starting a &aRaid&r might be the easiest way of obtaining the &bMagical Eye&r, which are used by &eEvokers&r for their powerful properties."]
+			id: "2DCD3962DBC7E1F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44335C7AD6A4DF74"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F5AB50C27E984E7"
+				item: {
+					Count: 1b
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["Forged in the time before history began by ancient Blacksmiths, the &bLost Eye&r is said to be found in &dMineshafts&r, deep beneath the crust of the earth."]
+			id: "393FED910B541631"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "798DF96B9837235D"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6EB8191E6422D6E8"
+				item: {
+					Count: 1b
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["Rumors swirl about the &bCorrupted Eye&r, of its ability to bring infinite fortune to its owner. However, the greedy king who last owned it faded into obscurity, so perhaps those rumors are just that. Legend has it that it's kept in a &dPillager Tower&r somewhere."]
+			id: "513067CD571D369E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16866C8BC1B49A76"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21DFE47B30E241A4"
+				item: {
+					Count: 1b
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["You can perhaps guess where the &bGuardian Eye&r can be located. Beneath the surface of the choppy sea, in the belly of an &eElder Guardian&r."]
+			id: "0ED4E7CE946E5F48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6546FCC5018CB0A3"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "277FB00BFBEBAC58"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["To obtain the &bWitch Eye&r, you must first &dslay an evil witch&r and get the &bWitch’s Pupil&r, then craft it together with an &bEnder Eye&r."]
+			id: "13555E89D6122D88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46A71C1A85887BEC"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "64CC7ACA72208D69"
+				item: {
+					Count: 1b
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["The &bCursed Eye&r is found within the &dTreasure Bastion&r’s chests. It is a powerful, destructive artifact which the Piglins will defend with their lives."]
+			id: "2356716DE94666CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45EF02BC028B69D6"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "168060C4F3E854E7"
+				item: {
+					Count: 1b
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["The &bEvil Eye&r is a symbol of protection, staring down the foes of its owner. It can be purchase from a &dMaster Cleric&r."]
+			id: "605D30BFA0C1C6A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3353D01BC8E3691E"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CC3D5714841ADDB"
+				item: {
+					Count: 1b
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["This eye is said to be favored by Chosen Undead. The &bUndead Eye&r can be crafted using an &bUndead Soul&r, acquired from killing a &eSkeleton Horse&r, or a large number of &eWraiths&r."]
+			id: "3AADAC34ECDEF891"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10C486355C05FB0A"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1698112600C02176"
+				item: {
+					Count: 1b
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["The &bExotic Eye&r is associated with Atlantis - the legends say that folks used it to find the sunken city, but they never returned to confirm the tale. &6Craft it with aquatic items&r."]
+			id: "537CCA9E121868CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58624D9FAD24CB4C"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "34B655A1388E1E57"
+				item: {
+					Count: 1b
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09ED0DFEB72DFD71"]
+			description: [
+				"You did it! You beat the game. Congrats, you can all go home now."
+				"...."
+				"...."
+				"...oh, you're staying. Well, hooray! Maybe check out the other quests, since you're here!"
+			]
+			id: "2499CAE3934539A8"
+			rewards: [
+				{
+					id: "413E37523059C4FA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "25C3E0834F07B31B"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1537323324
+									-1924446866
+									-1821788879
+									931981548
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2NhYTViZjFiZWRlOWEyN2EwZDBiOTg1Zjc3ZThiOTczMGQ1ZGIzZWRhOTUyZGZlM2YxYTMxYjg3ZDVlZmVjOCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Galactic Fancy Cube\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "156465FDCAE26D4A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2499CAE3934539A8"]
+			description: ["You killed the Dragon twice? Well, my goodness."]
+			id: "73EAABCF703B9DC9"
+			rewards: [{
+				id: "531F56AEE724EECA"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Well that's just excessive"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "67B253CC90918C33"
+				type: "kill"
+				value: 2L
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: [
+				"You've found your way to &dThe End&r, congratulations. With luck, your journey will continue."
+				"Remember that if you need to explore out over the void, you can do so on your &bBroom&r, or by taming a &eSpace Whale&r."
+			]
+			icon: "minecraft:end_stone"
+			id: "09ED0DFEB72DFD71"
+			rewards: [
+				{
+					id: "76EADCCD9FC6E5A3"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					id: "7AABD5828ADFB215"
+					table_id: 223398162038636868L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "5C10C3DAA763509E"
+					item: "ends_delight:chorus_flower_tea"
+					type: "item"
+				}
+			]
+			subtitle: "Haha, get it? \"The End\"?"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "4B187CE8DA0DF7C5"
+				type: "dimension"
+			}]
+			title: "The Beginning of the End"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "43C892891BB4B5BF"
+			invisible: true
+			tasks: [{
+				id: "3E8070012B9B91FA"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09ED0DFEB72DFD71"]
+			description: ["Swimming in &bEggs&r? That sounds unpleasant. You can &atrade in a &bDragon Egg&r to receive a &bDragon Head&r."]
+			id: "26E52D95C9C75019"
+			rewards: [{
+				id: "06C611660703EF32"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "you egghead"
+			tasks: [{
+				consume_items: true
+				id: "5E03B62FE26BC617"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "Getting Ahead in the End"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09ED0DFEB72DFD71"]
+			description: ["The &cCrystal Peaks&r are corrupted by Nether, with massive veins of &bBlackstone&r snaking through the landmasses, and &bGlowstone&r and &bAmethyst&r crystals growing up into the sky."]
+			id: "0229E0EEF5052211"
+			rewards: [{
+				id: "0265CA8B54E6D447"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "nullscape:crystal_peaks"
+				icon: "minecraft:end_crystal"
+				id: "236D295BC242AF37"
+				type: "biome"
+			}]
+			title: "The Crystal Peaks"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09ED0DFEB72DFD71"]
+			description: [
+				"The &cShadowlands&r are a wasteland of former life. No one is sure what precisely happened, but this once-thriving oceanic biome has been drained, both of water, and of life."
+				"Tragically, the &eEnd Whales&r that once frolicked amongst the coral still remain, howling at what they have lost."
+			]
+			id: "574F372EC49CF5C9"
+			rewards: [{
+				count: 5
+				id: "4F8BA1E7FAF0F3C4"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "nullscape:shadowlands"
+				icon: "supplementaries:enderman_head"
+				id: "3C5BB8E203CB9467"
+				type: "biome"
+			}]
+			title: "The Shadowlands"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09ED0DFEB72DFD71"]
+			description: ["The &cVoid Barrens&r are, as you could have guessed, relatively barren. With &bBasalt&r forming amidst the endstone and forming jagged plains, there is &avery little here to welcome you&r."]
+			id: "6757822C696D79AD"
+			rewards: [{
+				count: 64
+				id: "6A2B60782E431A61"
+				item: "minecraft:basalt"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "nullscape:void_barrens"
+				icon: "minecraft:end_stone"
+				id: "5AA6D877190A6DC1"
+				type: "biome"
+			}]
+			title: "The Void Barrens"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09ED0DFEB72DFD71"]
+			description: ["You discovered an &cEnd City&r! These structures, once occupied by the &aEnder Elite&r, are now home to vicious &eShulkers&r, who want nothing more than to &aensure you never touch solid ground again&r."]
+			id: "47639E492B01312E"
+			rewards: [{
+				count: 10
+				id: "547EB81D9B0E9862"
+				item: "ends_delight:chorus_flower_tea"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				id: "754AB385A44018C4"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+	]
+	title: "The End"
+}

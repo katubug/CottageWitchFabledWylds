@@ -1,0 +1,634 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "346046A71D537172"
+	icon: "minecraft:grass_block"
+	id: "1226CF9B32B2E083"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "cottagewitch:textures/questsbanner.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.5d
+			hover: [ ]
+			image: "cottagewitch:textures/questkey.png"
+			rotation: 0.0d
+			width: 11.5d
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgdeath.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgfreebies.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			click: "https://www.akliz.net/cottagewitch"
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "cottagewitch:textures/aklizbanner.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "cottagewitch:textures/tutorials.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 5.0d
+			y: 8.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Congratulations on entering the Overworld for the first time! It's good to have you here. You can &6use these quests as a sort of guide&r to help you through mods you might not be familiar with!"
+				""
+				"This quest grants you an &bAkashic Tome&r, which contains guidebooks to mods in the pack."
+				""
+				"It also gives you a &bSack&r, which is like a very poor &bShulker Box&r - but hey, it's better than nothing!"
+				""
+				"&lIf you ever lose your Akashic Tome&r, you can easily &6craft a new one&r with a &bBook&r and a &bStick&r."
+				""
+				"Your most useful tool is &lJEI&r, a mod that appears on the right of your inventory screen. It will let you view all the items in the modpack, and their recipes. &6Please explore this to see what is on offer&r!"
+			]
+			icon: "minecraft:grass_block"
+			id: "6C6635F6D9644BB7"
+			rewards: [
+				{
+					id: "3FC5AF6E67ED19A5"
+					item: "supplementaries:sack"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/say Hi, @p! Thanks for playing! Please check out your quests with the - key, or by opening your Quest Book!"
+					id: "4B2B69209045245C"
+					team_reward: false
+					type: "command"
+				}
+				{
+					id: "3DCE8086519F0DBB"
+					item: {
+						Count: 1b
+						id: "akashictome:tome"
+						tag: {
+							"akashictome:data": {
+								ars_nouveau: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+								camera: {
+									Count: 1b
+									id: "camera:album"
+								}
+								create_central_kitchen: {
+									Count: 1b
+									ForgeCaps: {
+										Parent: { }
+									}
+									id: "create_central_kitchen:cooking_guide"
+								}
+								create_central_kitchen_0: {
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											NeedWater: 0b
+										}
+									}
+									id: "create_central_kitchen:brewing_guide"
+									tag: {
+										"akashictome:definedMod": "create_central_kitchen_0"
+									}
+								}
+								dimdungeons: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "dimdungeons:guide_book"
+									}
+								}
+								ftbquests: {
+									Count: 1b
+									id: "ftbquests:book"
+								}
+								hexerei: {
+									Count: 1b
+									id: "hexerei:book_of_shadows"
+									tag: {
+										bookmarks: { }
+										chapter: 0
+										opened: 0b
+										page: 0
+									}
+								}
+								lexicon: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "lexicon:lexicon"
+									}
+								}
+								malum: {
+									Count: 1b
+									id: "malum:encyclopedia_arcana"
+								}
+								mythicmounts: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "mythicmounts:mythical_mounts"
+									}
+								}
+								twilightdelight: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "twilightdelight:twilight_guide"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Welcome in!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "732E6FD9F7F8662E"
+				type: "dimension"
+			}]
+			title: "Begin your World"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"So, you died. It happens to us all, eventually! Don't worry, all your items are safe in a &agrave&r marking your last resting place."
+				""
+				"You can use your &bGrave Finder&r to locate your last death, as well as the &aminimap marker&r that's automatically placed there. Then, &6right click on your grave&r to recover all your items and gear."
+				""
+				"Your &aexperience&r, however, drops near your grave, so make sure to collect it!"
+			]
+			id: "47643C0C8D4BCBD9"
+			rewards: [
+				{
+					id: "78AFDC62398091E8"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29BB4C4A6EF50D42"
+					item: {
+						Count: 1b
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Handbook for the recently deceased"
+			tasks: [{
+				id: "412E4F0BC4FEF92B"
+				item: "enigmaticgraves:grave_finder"
+				type: "item"
+			}]
+			title: "Baby's First Death"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Let's face it, sometimes you want to live somewhere cute right away. And in survival, you rarely have the resources to do so."
+				""
+				"So, if you'd like a &aprefabricated starter house&r, then &6tick off this quest&r and &6redeem the reward&r. If not, you can safely ignore this! Both methods are perfectly valid. :)"
+			]
+			id: "21AD64E594528F4D"
+			rewards: [{
+				id: "799218BAE959D719"
+				item: "prefab:item_house"
+				type: "item"
+			}]
+			subtitle: "Cute house starter pack"
+			tasks: [{
+				id: "76B325FD29C28A89"
+				title: "Build Me a House"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Would you like a Mushroom Hat? Cool! Click the box above."
+				"Be careful, because if you place it on the ground &dit will turn into a pumpkin&r. And it doesn't even need to be midnight."
+			]
+			id: "3DFB7EF14F053582"
+			rewards: [{
+				command: "/give @p minecraft:carved_pumpkin{CustomModelData:1}"
+				icon: {
+					Count: 1b
+					id: "minecraft:carved_pumpkin"
+					tag: {
+						CustomModelData: 1
+					}
+				}
+				id: "34D0D294831901C4"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5D42AEB901AE8033"
+				title: "I want a mushroom hat!!"
+				type: "checkmark"
+			}]
+			title: "Mushroom Hat"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["Congratulations on cheating death! Sorry about your totem, though."]
+			id: "76D5DB6E94816C80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A03B2AB64A80391"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:adventure/totem_of_undying"
+				criterion: ""
+				id: "7E4BBEB34174442D"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["50 deaths, and you're just getting started! Congrats...I guess? Anyway, here &6take this Totem&r, it seems like you need it."]
+			id: "3FAE926346F1E576"
+			rewards: [{
+				id: "7338219FAAA9587F"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			subtitle: "YOU DIED"
+			tasks: [{
+				id: "08BCF1C0F17EF916"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 50
+			}]
+			title: "Die 50 Times"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["Wow, you went a long while without dying! Nice work, buddy. Keep it up!"]
+			id: "2508051D98B7CB06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "528C9AFE009AD0F3"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7F4314516CA5C0D4"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 999999
+			}]
+			title: "Survival Skills"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Need to get somewhere in a hurry? Why not try &aslinging&r? The &bSlime Sling&r, when &6pointed at the ground and drawn&r, will shoot the player in the opposite direction upon release. You can achieve &aquite a bit of air time&r this way! And the &bSlime Boots&r make it so you...you know...&adon't die from fall damage&r. A winning combination!"]
+			id: "7232C9D413054886"
+			rewards: [
+				{
+					id: "59138A1AE98F4A94"
+					item: "usefulslime:slime_boots"
+					type: "item"
+				}
+				{
+					id: "146D300604AF13CC"
+					item: "usefulslime:slime_sling"
+					type: "item"
+				}
+			]
+			subtitle: "slimy transport"
+			tasks: [{
+				id: "474CE1AAC07815BD"
+				title: "The Only Way to \"Fly\""
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "457F26BFBE27EC1C"
+			invisible: true
+			tasks: [{
+				id: "3F3AF572E66CD0B4"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"If you want your base to stay active even when you're not there, you want &achunk forceloading&r."
+				""
+				"&6Press the '&r key (apostrophe) to access the &bOpen Parties and Claims&r menu. This will allow you to claim and/or forceload &athe chunk you're in&r. You can also do this from your &dMap&r."
+				""
+				"{image:cottagewitch:textures/openparties.png width:150 height:180 align:1}"
+				""
+				"Forceloading a chunk will &aensure that your base stays loaded when you're away&r. This is very hard on performance though, so do this &dsparingly&r!"
+				""
+				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Party as an Ally&r."
+			]
+			id: "26D8EAD9D892805E"
+			min_width: 350
+			rewards: [{
+				id: "5DF31CEACA7283A2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "When you're away, your base will play"
+			tasks: [{
+				id: "4FA4B92C6339251C"
+				title: "Claim and Load Chunks"
+				type: "checkmark"
+			}]
+			title: "Chunk Loading"
+			x: 3.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["26D8EAD9D892805E"]
+			description: [
+				"&lOpen Parties and Claims&r allows you to add other players to your party, which can &aallow access to your claimed chunks&r."
+				""
+				"You can create a party by typing &d/openpac-parties create&r. You can &achange all party settings&r in the main apostrophe menu. There are a ton of options to control griefing, protection, and access."
+				""
+				"You can add a player as an &aAlly&r if you don't want to be on the same team. Type &d/openpac-parties ally add [username]&r."
+				""
+				"{image:cottagewitch:textures/allyadd.png width:200 height:50 align:1}"
+				""
+				"There are TWO Parties mods in this modpack, due to reasons beyond the packmaker's control. :( I apologize for the confusion."
+				""
+				"&lFTB Teams&r parties allow you to &ashare quest progress&r but do not affect claims."
+				""
+				"&lOpen Parties&r parties allow you to &agrant acces to share claims&r, but do not affect quest progress."
+			]
+			id: "20F9C02AF5CBE665"
+			rewards: [
+				{
+					id: "193F56FAD5A4D08C"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "3101E5B37D3A9BB3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "5D2FC3F7E82A27A3"
+				title: "Adding Allies"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"This modpack adds a lot of new sounds. So to help you filter the ones you don't like, it also incl.udes &aSuper Sound Muffler&r."
+				"&6Press F6 to open the menu&r. From here, you can click &aRecent&r to see what you've recently heard. You can play the sound to confirm it's the one you don't like, and then &6mute it!&r"
+			]
+			id: "171D4EACF7B9F4D5"
+			shape: "gear"
+			subtitle: "Selective hearing. Literally."
+			tasks: [{
+				id: "4B25469609B1A60C"
+				title: "Extreme Sound Muffler"
+				type: "checkmark"
+			}]
+			title: "Extreme Sound Muffler"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"This modpack has a number of building and decoration mods which are all worth looking into. &dMost of them do not have associated quests&r."
+				""
+				"So how are you supposed to know they're there? Why, &lJEI&r of course. &6Opening your inventory&r will show you a wall of items to your right. You can search through these items at the bottom right. Type &d@&r and the name of a mod to search for only items from that mod."
+				""
+				"For example, you can &asearch \"@another\"&r to view everything from Another Furniture. &6Left click the item&r to view its crafting recipe. &6Right click it&r to view what recipes it's used in."
+				""
+				"This will let you view how to make anything in the game!"
+			]
+			id: "226D1B09B2958EFC"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Take a little look-see"
+			tasks: [{
+				id: "70ED8357EEA2ACA4"
+				title: "Get to know the mods"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: 10.5d
+		}
+		{
+			description: [
+				"You might be wondering where all the quests are, when your screen looks like this:"
+				""
+				"{image:cottagewitch:textures/questmenu.png width:100 height:70 align:1 fit:true}"
+				""
+				"See that &aarrow on the left bar&r? &6Hovering over that&r will show you all the categories."
+				""
+				"{image:cottagewitch:textures/questmenu2.png width:100 height:70 align:1 fit:true}"
+				""
+				"Be sure to &6click the Pin in the upper right&r to keep this sidebar open permanently!"
+			]
+			id: "51383D499E0DF0DA"
+			min_width: 350
+			rewards: [{
+				id: "087C803B19537A4C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "11A03582B84195D4"
+				title: "Pin the Quest Categories"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["51383D499E0DF0DA"]
+			description: [
+				"Did you know you can &apin quests&r so they &ashow on your main screen&r? You can!"
+				""
+				"Just &dbe warned that this overlaps your pinned Notes&r."
+				""
+				"Also, perhaps I should mention that you can &apin notes&r to your screen as well! &6Press N to access your Notes menu&r."
+			]
+			id: "1E43FCEBA416DCFF"
+			rewards: [{
+				id: "5D9376B26A3CE85B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "65C18F6415665884"
+				title: "Pin a Quest or Note"
+				type: "checkmark"
+			}]
+			title: "Pinning Other Things"
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			description: [
+				"To read a book in your &bAkashic Tome&r, &6right click&r while holding the book and &6select the book you want&r."
+				""
+				"To &areturn the Akashic Tome&r to its regular form, &6hold it and left click in the air&r."
+				""
+				"To &aremove a book from the tome&r, you need to &6crouch and throw&r the item (default keybind is Q)."
+				""
+				"To &aadd a book&r, you should &6craft the book with the &bTome&r."
+			]
+			id: "5B1C86C4A7C3351F"
+			rewards: [{
+				id: "39EB96715BA2FC9F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0D6469F8CB52A79E"
+				title: "Akashic Controls"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"&bWaystones&r allow you to quickly traverse your world along a network of invisible &aleylines&r. You can find more information about &athe different kinds of Waystones&r in the &dGlobetrotting&r quest category. But here's some basic info:"
+				""
+				"- It costs xp to travel to Waystones using a &bWarp Stone&r or &bWarp Scroll&r."
+				""
+				"- Traveling &afrom one Waystone to another&r costs no exp."
+				""
+				"- You can use a &abutton in your inventory&r to travel to the nearest &bWaystone&r."
+			]
+			id: "7AD175287E3F0B68"
+			rewards: [{
+				id: "647BD7A181C2E88D"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				icon: "waystones:sandy_waystone"
+				id: "0897C669F0BCBDB8"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 1
+			}]
+			title: "Waystones 101"
+			x: 6.75d
+			y: 10.5d
+		}
+		{
+			description: [
+				"Have you found that your &lSophisticated Storage&r or &lChipped&r textures seem messed up?"
+				""
+				"This is a known bug which is currently unfixed by the mod developers. It occurs most often when &aresourcepacks are changed with the game running&r. It can be fixed by &6restarting Minecraft&r."
+			]
+			id: "32E10222527B1BB1"
+			shape: "gear"
+			tasks: [{
+				id: "2F817755D430EEC8"
+				title: "Screwy Textures?"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+	]
+	subtitle: ["a very good place to start"]
+	title: "Beginnings"
+}

@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "wildlife"
-	group: "5FB460EFA0A2567E"
+	group: ""
 	icon: "minecraft:rabbit_hide"
 	id: "4DB925317B421272"
 	images: [
@@ -80,7 +80,7 @@
 			y: 4.5d
 		}
 	]
-	order_index: 2
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
@@ -1124,7 +1124,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1C76B55071F1CB88"
-				table_id: 4747620395501175375L
 				type: "choice"
 			}]
 			shape: "diamond"
@@ -1226,7 +1225,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "3BEB488E750283FD"
-					table_id: 7605316060591977074L
 					type: "random"
 				}
 				{

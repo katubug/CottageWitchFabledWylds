@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "create"
-	group: "2757402A47D6A081"
+	group: ""
 	icon: "create:brass_hand"
 	id: "19DEED79E2FA960E"
 	images: [{
@@ -18,7 +18,7 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	order_index: 2
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{

@@ -1,0 +1,25 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "bakery:bread"
+    },
+    {
+      "tag": "bakery:cooked_beef"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "item": "candlelight:butter"
+    }
+  ],
+  "result": {
+    "item": "bakery:sandwich",
+    "count": 1
+  }
+}

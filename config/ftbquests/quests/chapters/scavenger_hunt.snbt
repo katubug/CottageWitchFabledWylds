@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "scavenger_hunt"
-	group: "7A9435459855DCCD"
+	group: ""
 	icon: "minecraft:spyglass"
 	id: "7401E53A08F6CC5E"
 	images: [{
@@ -18,7 +18,7 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	order_index: 1
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

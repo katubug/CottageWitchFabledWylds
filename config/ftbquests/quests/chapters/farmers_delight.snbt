@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "farmers_delight"
-	group: "1E0017DE6773EF00"
+	group: ""
 	icon: "farmersdelight:cooking_pot"
 	id: "1E6C7DB3D27545CE"
 	images: [{
@@ -18,7 +18,7 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	order_index: 0
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -265,41 +265,6 @@
 					item: "farmersdelight:carrot_crate"
 					type: "item"
 				}
-				{
-					id: "2C5CCAFE25DA5291"
-					item: "collectorsreap:lime_crate"
-					type: "item"
-				}
-				{
-					id: "09A34C53F2F63CED"
-					item: "collectorsreap:pomegranate_crate"
-					type: "item"
-				}
-				{
-					id: "0C2A58FE05ABEE4C"
-					item: "culturaldelights:avocado_crate"
-					type: "item"
-				}
-				{
-					id: "1A0F4D927B8F0A64"
-					item: "culturaldelights:cucumber_crate"
-					type: "item"
-				}
-				{
-					id: "65F750C0E2B8159A"
-					item: "culturaldelights:pickle_crate"
-					type: "item"
-				}
-				{
-					id: "5EA6B5537664B758"
-					item: "culturaldelights:corn_cob_crate"
-					type: "item"
-				}
-				{
-					id: "542AC82A97801360"
-					item: "culturaldelights:eggplant_crate"
-					type: "item"
-				}
 			]
 			title: "Compact Your Crops"
 			x: 4.5d
@@ -349,114 +314,6 @@
 			title: "Obtain the New Crops"
 			x: 2.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["4930ECD60EA9ED8D"]
-			description: [
-				"With this mod, crops have a small chance of spawning &agiant crops&r, similar to Stardew Valley. This is most likely to &a happen to fully grown crops exposed to Moonlight&r."
-				""
-				"Break them with a &bHoe&r to get significantly more regular crops than usual. Break them with an &bAxe&r or your hand to obtain the Crop Block itself. You can then &aCook&r them, &aPeel&r them, or place them on a &bCutting Board&r to gather the crops from them."
-				""
-				"And you even have a chance of Overweight Crops when using &bPlanters&r!"
-				""
-				"&bRich Farmland&r has an increased chance of spawning Overweight Crops."
-			]
-			id: "780D09CCF1A8D814"
-			rewards: [
-				{
-					id: "4529CCBE869330B5"
-					item: "overweight_farming:overweight_baked_potato_block"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0862AAB995B4CC60"
-					table_id: 6518300475828805418L
-					type: "random"
-				}
-			]
-			subtitle: "Everyone loves a chubby carrot"
-			tasks: [{
-				id: "6A35F0139B9BEB50"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:overweightcrops"
-					}
-				}
-				title: "Any Overweight Crop"
-				type: "item"
-			}]
-			title: "Overweight Crops"
-			x: 0.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["780D09CCF1A8D814"]
-			description: [
-				"The &bStraw Hat&r can be bartered from &aFarmer Villagers&r. It will give you a bonus to plant growth and an extra chance at &aOverweight Crops&r!"
-				""
-				"It also gives a chance of breeding twins or triplets! ...of the animals. Not you. Probably."
-			]
-			id: "41ACB7D51D1AC9A9"
-			rewards: [
-				{
-					id: "205924214DEAFFAD"
-					item: {
-						Count: 1b
-						id: "minecraft:golden_hoe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "00E055531ADCA57E"
-					table_id: 6518300475828805418L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "It's called fashion, sweaty, look it up"
-			tasks: [{
-				id: "7355E2367EA1596C"
-				item: {
-					Count: 1b
-					id: "overweight_farming:straw_hat"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["780D09CCF1A8D814"]
-			description: [
-				"Peel your &bOverweight Crops&r to obtain different appearances, and gain &bVegetable Peels&r, which can be made into &bCompost&r or fed to &ePigs&r!"
-				"Peeled &bMelons&r can have their seeds removed with an &bAxe&r, and then juiced by &6right clicking them with a bottle&r."
-			]
-			id: "4B733744EBC620FC"
-			rewards: [{
-				count: 8
-				id: "47F29C10D0A45984"
-				item: "overweight_farming:vegetable_peels"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3EF80E1AD4F90608"
-				item: "overweight_farming:peeled_overweight_carrot_block"
-				type: "item"
-			}]
-			title: "Peel A Carrot"
-			x: 1.5d
-			y: -2.0d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -548,84 +405,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["780D09CCF1A8D814"]
-			description: ["Gather &6one of each kind of &bOverweight Crop&r, which can be used as decoration, or &6cut on a &bCutting Board&r."]
-			id: "34C84EC0EC5B8A2E"
-			rewards: [
-				{
-					id: "6E3A73DDE4D0EA58"
-					item: "farmersdelight:cutting_board"
-					type: "item"
-				}
-				{
-					id: "3DCD2B47A882540B"
-					item: {
-						Count: 1b
-						id: "farmersdelight:golden_knife"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0053D306544A5F22"
-					item: "overweight_farming:overweight_beetroot_block"
-					type: "item"
-				}
-				{
-					id: "6E3DA1FE29488061"
-					item: "overweight_farming:overweight_carrot_block"
-					type: "item"
-				}
-				{
-					id: "1209DA4D38631457"
-					item: "overweight_farming:overweight_cocoa_block"
-					type: "item"
-				}
-				{
-					id: "662C49A7B61B4CE5"
-					item: "overweight_farming:overweight_potato_block"
-					type: "item"
-				}
-				{
-					id: "70AF154777CEAC93"
-					item: "overweight_farming:overweight_nether_wart_block"
-					type: "item"
-				}
-				{
-					id: "7E72F87F49999386"
-					item: "overweight_farming:overweight_poisonous_potato_block"
-					type: "item"
-				}
-				{
-					id: "3CA78D5A08C1F702"
-					item: "overweight_farming:overweight_apple_block"
-					type: "item"
-				}
-				{
-					id: "13847E25D5437927"
-					item: "overweight_farming:overweight_golden_apple_block"
-					type: "item"
-				}
-				{
-					id: "11B9307049059D0E"
-					item: "overweight_farming:overweight_onion_block"
-					type: "item"
-				}
-				{
-					id: "404FFDF985D47549"
-					item: "overweight_farming:overweight_cabbage_block"
-					type: "item"
-				}
-			]
-			title: "Collect Chubby Crops"
-			x: 3.0d
-			y: -1.0d
-		}
-		{
 			can_repeat: true
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
@@ -702,41 +481,6 @@
 					item: "farmersdelight:tomato_crate"
 					type: "item"
 				}
-				{
-					consume_items: true
-					count: 10L
-					id: "52AD3CA306639035"
-					item: "quark:apple_crate"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 10L
-					id: "335176CD3CC595F9"
-					item: "culturaldelights:avocado_crate"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 10L
-					id: "095EF4EE475C4250"
-					item: "culturaldelights:cucumber_crate"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 10L
-					id: "6D6FE18F9E75CBC3"
-					item: "culturaldelights:corn_cob_crate"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 10L
-					id: "30F3D5F7FA50469A"
-					item: "culturaldelights:eggplant_crate"
-					type: "item"
-				}
 			]
 			title: "Ship Your Crops"
 			x: 1.5d
@@ -772,43 +516,28 @@
 					type: "item"
 				}
 				{
-					id: "591F577CDB915FCB"
-					item: "farmersrespite:green_tea_leaves_sack"
+					id: "7A2978437C35FAF4"
+					item: "delightful:blueberry_sack"
 					type: "item"
 				}
 				{
-					id: "58946F323CDABEBC"
-					item: "farmersrespite:yellow_tea_leaves_sack"
+					id: "0902A7AEF4FD1D01"
+					item: "vegandelight:soybean_bag"
 					type: "item"
 				}
 				{
-					id: "10E1654908FAE623"
-					item: "farmersrespite:black_tea_leaves_sack"
+					id: "38FE66C53F81A1E0"
+					item: "bakery:strawberry_crate"
 					type: "item"
 				}
 				{
-					id: "301E69DAB8861731"
-					item: "quark:cocoa_beans_sack"
+					id: "2E3B99FC059E987A"
+					item: "bakery:oat_crate"
 					type: "item"
 				}
 				{
-					id: "0E7043FAB4B5E3FC"
-					item: "quark:nether_wart_sack"
-					type: "item"
-				}
-				{
-					id: "0571F824465F5029"
-					item: "quark:berry_sack"
-					type: "item"
-				}
-				{
-					id: "35AE1CBDD601223B"
-					item: "quark:glowberry_sack"
-					type: "item"
-				}
-				{
-					id: "2FB7FAE58ACE779B"
-					item: "farmersrespite:coffee_beans_sack"
+					id: "4B66FA5A5B0F2983"
+					item: "vinery:apple_crate"
 					type: "item"
 				}
 			]
@@ -905,14 +634,15 @@
 		{
 			description: [
 				"You know what's the spice of life? Variety. And you know who loves spice? You guessed it - &ebees&r."
+				""
 				"Oh, that's not what you guessed?"
 				""
 				"Well, nevermind that. Collect one of each type of &bBeehive&r, and see how much your &eBees&r will appreciate it."
 			]
 			id: "1FF3A036CE58CCC9"
 			rewards: [{
-				id: "3CA3A10AD6506A17"
-				item: "plushies:bee"
+				id: "06C43E4BC09A8E53"
+				item: "plushies:bee_plushie"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -937,84 +667,73 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "1C7625FF703A08C5"
-					item: "neapolitan:vanilla_pod_block"
+					id: "7B67D57994DE9B53"
+					item: "fruitsdelight:pineapple_crate"
 					type: "item"
 				}
 				{
-					id: "16E544095CA59090"
-					item: "neapolitan:dried_vanilla_pod_block"
+					id: "7BCDC3556D396412"
+					item: "fruitsdelight:cranberry_crate"
 					type: "item"
 				}
 				{
-					id: "728789276F787B8E"
-					item: "neapolitan:banana_bundle"
+					id: "7329E6065027E12B"
+					item: "fruitsdelight:lemon_crate"
 					type: "item"
 				}
 				{
-					id: "56FFC49DC13E368C"
-					item: "neapolitan:strawberry_basket"
+					id: "6219169D45A2969A"
+					item: "fruitsdelight:blueberry_crate"
 					type: "item"
 				}
 				{
-					id: "4DCE2C44EE55C438"
-					item: "neapolitan:banana_crate"
+					id: "6F804BD660ECA724"
+					item: "fruitsdelight:mangosteen_crate"
 					type: "item"
 				}
 				{
-					id: "2C15E9E0BB8B4BB5"
-					item: "neapolitan:mint_basket"
+					id: "33AB497E471BC2C8"
+					item: "fruitsdelight:orange_crate"
 					type: "item"
 				}
 				{
-					id: "39385FB83E50595A"
-					item: "neapolitan:adzuki_crate"
+					id: "0E5228FAFB7DDD5A"
+					item: "fruitsdelight:peach_crate"
 					type: "item"
 				}
 				{
-					id: "5D8C94C6DA24F06C"
-					item: "neapolitan:roasted_adzuki_crate"
+					id: "66AA477CDD6735CC"
+					item: "fruitsdelight:persimmon_crate"
 					type: "item"
 				}
 				{
-					id: "2448DF8EF88B5AFD"
-					item: "collectorsreap:lime_crate"
+					id: "50A9B1050B3AFE26"
+					item: "fruitsdelight:mango_crate"
 					type: "item"
 				}
 				{
-					id: "1F5E1C48DDEC8B63"
-					item: "collectorsreap:pomegranate_crate"
+					id: "3501A7B3536247C0"
+					item: "fruitsdelight:lychee_crate"
+					type: "item"
+				}
+				{
+					id: "6D0A18CC3038705B"
+					item: "fruitsdelight:hawberry_crate"
+					type: "item"
+				}
+				{
+					id: "3E57F1C1EA126980"
+					item: "fruitsdelight:pear_crate"
+					type: "item"
+				}
+				{
+					id: "7A447131AFA240EC"
+					item: "ends_delight:chorus_fruit_crate"
 					type: "item"
 				}
 			]
 			title: "Compact Your Crops 2"
 			x: 4.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["0545DF70043D964A"]
-			id: "008A62D8E70B51F9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "306D28898C8818B6"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "00D79767E3148101"
-					item: "quark:golden_apple_crate"
-					type: "item"
-				}
-				{
-					id: "54A081FFA1C847D7"
-					item: "quark:golden_carrot_crate"
-					type: "item"
-				}
-			]
-			title: "Compact Your (Golden) Crops"
-			x: 3.0d
 			y: -2.5d
 		}
 		{
@@ -1082,6 +801,16 @@
 					item: "vinery:cherry_crate"
 					type: "item"
 				}
+				{
+					id: "5F1451D3903FCB46"
+					item: "nethervinery:crimson_grape_crate"
+					type: "item"
+				}
+				{
+					id: "6F2ACCA13763E4E9"
+					item: "nethervinery:warped_grape_crate"
+					type: "item"
+				}
 			]
 			title: "Compact Your Crops: Wine Edition"
 			x: 7.0d
@@ -1089,8 +818,6 @@
 		}
 		{
 			dependencies: [
-				"42F4A9D340D6D4B3"
-				"008A62D8E70B51F9"
 				"77E1FEDE586A487C"
 				"2973338AB622C5D6"
 				"22F72EB92786EEF7"
@@ -1119,32 +846,6 @@
 			}]
 			x: 6.5d
 			y: 2.0d
-		}
-		{
-			dependencies: ["0545DF70043D964A"]
-			id: "42F4A9D340D6D4B3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3183BD2CE76319BB"
-				table_id: 7707783220386620668L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "72D2C48BC312799F"
-					item: "neapolitan:white_strawberry_basket"
-					type: "item"
-				}
-				{
-					id: "6120DFBC463438F5"
-					item: "culturaldelights:white_eggplant_crate"
-					type: "item"
-				}
-			]
-			title: "Compact Your Crops: Shiny Edition"
-			x: 7.5d
-			y: 0.0d
 		}
 	]
 	title: "Farming \\& Gardening"

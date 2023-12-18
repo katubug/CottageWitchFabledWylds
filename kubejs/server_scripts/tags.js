@@ -1,7 +1,8 @@
 ServerEvents.tags('item', event => {
 
     event.add(
-        'forge:salt', 'meadow:alpine_salt'
+        'forge:salt', 
+        'meadow:alpine_salt'
     )
 
     event.add(
@@ -98,6 +99,19 @@ ServerEvents.tags('item', event => {
         'vinery:savanna_grapes_red',
         'vinery:jungle_grapes_red', 
         'vinery:white_grape'
+    )
+
+    event.add(
+        'forge:lattices',
+        'beautify:oak_trellis', 
+        'beautify:spruce_trellis', 
+        'beautify:dark_oak_trellis', 
+        'beautify:crimson_trellis', 
+        'beautify:mangrove_trellis', 
+        'beautify:acacia_trellis', 
+        'beautify:jungle_trellis', 
+        'beautify:birch_trellis', 
+        'beautify:warped_trellis'
     )
 
 

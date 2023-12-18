@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "collections"
-	group: "7A9435459855DCCD"
+	group: ""
 	icon: "minecraft:bundle"
 	id: "5A00BD04AD81F733"
 	images: [{
@@ -18,7 +18,7 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -41,11 +41,6 @@
 			subtitle: "Red for passion, love, blood"
 			tasks: [
 				{
-					id: "599F0E00B4D055FE"
-					item: "twilightforest:thorn_rose"
-					type: "item"
-				}
-				{
 					id: "31BF06E67E3BAE92"
 					item: "minecraft:poppy"
 					type: "item"
@@ -61,18 +56,58 @@
 					type: "item"
 				}
 				{
-					id: "302B88C7413DC028"
-					item: "environmental:red_lotus_flower"
+					id: "2FB8522D22913DCB"
+					item: "regions_unexplored:alpha_rose"
 					type: "item"
 				}
 				{
-					id: "1F445D2E0FC1F84B"
-					item: "environmental:red_hibiscus"
+					id: "7233190C45E365BD"
+					item: "candlelight:rose"
 					type: "item"
 				}
 				{
-					id: "2C944AB1DDAA00CD"
-					item: "biomemakeover:moth_blossom"
+					id: "03E6C6361CA78F6F"
+					item: "regions_unexplored:tsubaki"
+					type: "item"
+				}
+				{
+					id: "6BCC0C240BB78C72"
+					item: "regions_unexplored:poppy_bush"
+					type: "item"
+				}
+				{
+					id: "56152CB323F0B746"
+					item: "regions_unexplored:salmon_poppy_bush"
+					type: "item"
+				}
+				{
+					id: "692FBE3275F81C34"
+					item: "regions_unexplored:waratah"
+					type: "item"
+				}
+				{
+					id: "5DF69717C88047EA"
+					item: "regions_unexplored:cave_hyssop"
+					type: "item"
+				}
+				{
+					id: "147B9E9F2C1669F6"
+					item: "regions_unexplored:red_lupine"
+					type: "item"
+				}
+				{
+					id: "5B9F50A3407C7FCE"
+					item: "regions_unexplored:fireweed"
+					type: "item"
+				}
+				{
+					id: "2F94A68DBD098349"
+					item: "regions_unexplored:bleeding_heart"
+					type: "item"
+				}
+				{
+					id: "3F58121AB13134CF"
+					item: "regions_unexplored:red_snowbelle"
 					type: "item"
 				}
 			]
@@ -97,18 +132,43 @@
 					type: "item"
 				}
 				{
-					id: "30695DC4B56127A5"
-					item: "environmental:orange_hibiscus"
+					id: "132DDB4805F52414"
+					item: "regions_unexplored:orange_coneflower"
 					type: "item"
 				}
 				{
-					id: "3CCB0C16B27E8BC0"
-					item: "environmental:cartwheel"
+					id: "6BBBD0249F701520"
+					item: "unusualprehistory:leefructus"
 					type: "item"
 				}
 				{
-					id: "67EB73A07EA755C9"
-					item: "biomemakeover:marigold"
+					id: "74874B35911D5AE0"
+					item: "regions_unexplored:orange_snowbelle"
+					type: "item"
+				}
+				{
+					id: "33397D50E4F85487"
+					item: "regions_unexplored:day_lily"
+					type: "item"
+				}
+				{
+					id: "61CDD0F3FBAF80A5"
+					item: "regions_unexplored:mallow"
+					type: "item"
+				}
+				{
+					id: "27FB1E9F814DC714"
+					item: "unusualprehistory:raiguenrayun"
+					type: "item"
+				}
+				{
+					id: "0B36914E8D0584AD"
+					item: "regions_unexplored:hibiscus"
+					type: "item"
+				}
+				{
+					id: "32BBD7CA6C249C5D"
+					item: "meadow:fire_lily"
 					type: "item"
 				}
 			]
@@ -228,23 +288,43 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "2C7AE02EC1C5FABF"
-					item: "hexerei:yellow_dock_flowers"
-					type: "item"
-				}
-				{
 					id: "6646480A0586896C"
 					item: "minecraft:dandelion"
 					type: "item"
 				}
 				{
-					id: "00D6733FC0BCAE4E"
-					item: "minecraft:sunflower"
+					id: "2B70F689F53FA27E"
+					item: "meadow:alpine_poppy"
 					type: "item"
 				}
 				{
-					id: "705E3F57D0837B0E"
-					item: "environmental:yellow_hibiscus"
+					id: "558A1B62B3C51C86"
+					item: "regions_unexplored:mycotoxic_daisy"
+					type: "item"
+				}
+				{
+					id: "3653CF7CC56D9FB6"
+					item: "regions_unexplored:yellow_lupine"
+					type: "item"
+				}
+				{
+					id: "0C8B02BF0A58DB81"
+					item: "regions_unexplored:alpha_dandelion"
+					type: "item"
+				}
+				{
+					id: "334DDF41A25EDF8E"
+					item: "regions_unexplored:yellow_snowbelle"
+					type: "item"
+				}
+				{
+					id: "7AEBE6616F264A9C"
+					item: "forbidden_arcanus:yellow_orchid"
+					type: "item"
+				}
+				{
+					id: "10F4FE139F5B3116"
+					item: "spawn:sunflower"
 					type: "item"
 				}
 			]
@@ -264,18 +344,18 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "5F815FC07B977F9E"
-					item: "hexerei:mugwort_flowers"
+					id: "015A59006DC6016D"
+					item: "regions_unexplored:green_snowbelle"
 					type: "item"
 				}
 				{
-					id: "26CCA06D7C4AD427"
-					item: "environmental:dianthus"
+					id: "66A84F1EC4C1C037"
+					item: "regions_unexplored:lime_snowbelle"
 					type: "item"
 				}
 				{
-					id: "43456CA37606D642"
-					item: "minecraft:peony"
+					id: "35FFD1D149C9A9C2"
+					item: "regions_unexplored:brown_snowbelle"
 					type: "item"
 				}
 			]
@@ -305,8 +385,68 @@
 					type: "item"
 				}
 				{
-					id: "77E56EE1ED5F820E"
-					item: "environmental:blue_delphinium"
+					id: "5AC5F24C29015AFE"
+					item: "regions_unexplored:felicia_daisy"
+					type: "item"
+				}
+				{
+					id: "7E006AEDC7B28731"
+					item: "regions_unexplored:cyan_snowbelle"
+					type: "item"
+				}
+				{
+					id: "343FF5334FC39731"
+					item: "regions_unexplored:hyacinth_flowers"
+					type: "item"
+				}
+				{
+					id: "6D368E0951EA9BF1"
+					item: "regions_unexplored:blue_magnolia_shrub"
+					type: "item"
+				}
+				{
+					id: "3F8B6A07FC91F6C2"
+					item: "regions_unexplored:light_blue_snowbelle"
+					type: "item"
+				}
+				{
+					id: "3D2229BF243C6AA7"
+					item: "regions_unexplored:meadow_sage"
+					type: "item"
+				}
+				{
+					id: "1CECC70EB76A77CB"
+					item: "regions_unexplored:blue_snowbelle"
+					type: "item"
+				}
+				{
+					id: "0BD05F5C83ACCF45"
+					item: "regions_unexplored:blue_lupine"
+					type: "item"
+				}
+				{
+					id: "2F60C2D1C13BF1DF"
+					item: "verdantvibes:lobelia"
+					type: "item"
+				}
+				{
+					id: "47B9B90CB9F18473"
+					item: "meadow:enzian"
+					type: "item"
+				}
+				{
+					id: "0A075B5A07B6DB0C"
+					item: "meadow:eriophorum_tall"
+					type: "item"
+				}
+				{
+					id: "65DA7D9570E051B4"
+					item: "regions_unexplored:tall_cobalt_earlight"
+					type: "item"
+				}
+				{
+					id: "59CB2F84C58E6115"
+					item: "regions_unexplored:cobalt_earlight"
 					type: "item"
 				}
 			]
@@ -338,33 +478,68 @@
 					type: "item"
 				}
 				{
-					id: "282538573A094C3D"
-					item: "hexerei:belladonna_flowers"
+					id: "18E8294D90AD5799"
+					item: "regions_unexplored:mauve_shrub"
 					type: "item"
 				}
 				{
-					id: "7ACAB3FAB0275615"
-					item: "ars_nouveau:magebloom"
+					id: "1C142155A0B58334"
+					item: "regions_unexplored:magenta_snowbelle"
 					type: "item"
 				}
 				{
-					id: "47844E396E7388A4"
-					item: "environmental:purple_hibiscus"
+					id: "0344E43C9F078D4B"
+					item: "regions_unexplored:hyssop"
 					type: "item"
 				}
 				{
-					id: "361E672772392D7B"
-					item: "environmental:violet"
+					id: "0123CFEE9619464C"
+					item: "meadow:delphinium"
 					type: "item"
 				}
 				{
-					id: "7A359781AD882456"
-					item: "environmental:purple_delphinium"
+					id: "112D90B30A37C028"
+					item: "regions_unexplored:purple_coneflower"
 					type: "item"
 				}
 				{
-					id: "663EF789E0FE6DA3"
-					item: "biomemakeover:foxglove"
+					id: "2C0177E62B445B62"
+					item: "aether:purple_flower"
+					type: "item"
+				}
+				{
+					id: "2DEA6874F2309A9C"
+					item: "verdantvibes:periwinkle"
+					type: "item"
+				}
+				{
+					id: "7B760446A32DEBE6"
+					item: "regions_unexplored:purple_lupine"
+					type: "item"
+				}
+				{
+					id: "40FA7958C2257744"
+					item: "mysticsbiomes:lavender"
+					type: "item"
+				}
+				{
+					id: "6928CCC10528EC31"
+					item: "regions_unexplored:purple_snowbelle"
+					type: "item"
+				}
+				{
+					id: "7C26E64891CFC6B2"
+					item: "regions_unexplored:glister_spire"
+					type: "item"
+				}
+				{
+					id: "33D81E17546768C2"
+					item: "regions_unexplored:glistering_bloom"
+					type: "item"
+				}
+				{
+					id: "3AB870AB35FBD003"
+					item: "regions_unexplored:glister_bulb"
 					type: "item"
 				}
 			]
@@ -401,45 +576,62 @@
 					type: "item"
 				}
 				{
-					id: "08C4D7C3FA0278FC"
-					item: "environmental:pink_delphinium"
+					id: "1DC4AAC16780AB9E"
+					item: "regions_unexplored:cherry_shrub"
 					type: "item"
 				}
 				{
-					id: "4C42B6E5BB9590CC"
-					item: "environmental:pink_hibiscus"
+					id: "1C7079D225B49C5C"
+					item: "regions_unexplored:pink_lupine"
 					type: "item"
 				}
 				{
-					id: "65A322EC44B77779"
-					item: "twilightforest:huge_water_lily"
+					id: "6A9B986163DF9024"
+					item: "regions_unexplored:cactus_flower"
 					type: "item"
 				}
 				{
-					id: "6AE818CB00330481"
-					item: "upgrade_aquatic:pink_searocket"
+					id: "79D97720FE6DDE1D"
+					item: "eidolon:oanna_bloom"
 					type: "item"
 				}
 				{
-					id: "4C8AED72D612C2E4"
-					item: "environmental:magenta_hibiscus"
+					id: "1265D8047393187D"
+					item: "regions_unexplored:corpse_flower"
 					type: "item"
 				}
 				{
-					id: "0C2CC5F1A191D9A1"
-					item: "upgrade_aquatic:flowering_rush"
-					type: "item"
-				}
-				{
-					id: "5D66D2D89A87763E"
+					id: "5384D3F9B529226C"
 					item: {
 						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:lilies"
-						}
+						id: "moresnifferflowers:dyespria"
+						tag: { }
 					}
-					title: "Any Lilies"
+					type: "item"
+				}
+				{
+					id: "165D64A105C1039B"
+					item: "regions_unexplored:pink_snowbelle"
+					type: "item"
+				}
+				{
+					id: "24FE61D5260575A4"
+					item: "meadow:saxifrage"
+					type: "item"
+				}
+				{
+					id: "7B7F0AC5D964158C"
+					item: "regions_unexplored:pink_magnolia_shrub"
+					type: "item"
+				}
+				{
+					id: "707CF5EF847B3749"
+					item: "minecraft:pink_petals"
+					type: "item"
+				}
+				{
+					id: "4EB9C0CECEAFCEDD"
+					item: "minecraft:peony"
 					type: "item"
 				}
 			]
@@ -491,23 +683,78 @@
 					type: "item"
 				}
 				{
-					id: "0FF916689C41397C"
-					item: "environmental:white_lotus_flower"
+					id: "1DE5BCFE27761046"
+					item: "verdantvibes:burnweed"
 					type: "item"
 				}
 				{
-					id: "500454A516F65136"
-					item: "environmental:white_delphinium"
+					id: "4A98CC2DB7BAAF7B"
+					item: "regions_unexplored:white_trillium"
 					type: "item"
 				}
 				{
-					id: "2D7A8D7433F7B8DE"
-					item: "upgrade_aquatic:white_searocket"
+					id: "1E2FAF204994050B"
+					item: "regions_unexplored:light_gray_snowbelle"
 					type: "item"
 				}
 				{
-					id: "0B4F4C1B74DEE219"
-					item: "biomemakeover:black_thistle"
+					id: "622F385F1DF9605E"
+					item: "aether:white_flower"
+					type: "item"
+				}
+				{
+					id: "447C7B4E7CDD1FCA"
+					item: "regions_unexplored:gray_snowbelle"
+					type: "item"
+				}
+				{
+					id: "37719DD2AC6B0990"
+					item: "verdantvibes:candy_tuft"
+					type: "item"
+				}
+				{
+					id: "4307E743A5B057CE"
+					item: "regions_unexplored:aster"
+					type: "item"
+				}
+				{
+					id: "04AA1A5232B686B0"
+					item: "regions_unexplored:daisy"
+					type: "item"
+				}
+				{
+					id: "4549013378CA45AE"
+					item: "regions_unexplored:white_magnolia_shrub"
+					type: "item"
+				}
+				{
+					id: "635E6990A0AAA181"
+					item: "meadow:eriophorum"
+					type: "item"
+				}
+				{
+					id: "2E297E7C555C9C66"
+					item: "regions_unexplored:blue_magnolia_flowers"
+					type: "item"
+				}
+				{
+					id: "7417A9421A23103C"
+					item: "moresnifferflowers:caulorflower"
+					type: "item"
+				}
+				{
+					id: "69B8FBFF15E62FE3"
+					item: "regions_unexplored:black_snowbelle"
+					type: "item"
+				}
+				{
+					id: "55FFAC0F82A1BC25"
+					item: "regions_unexplored:white_snowbelle"
+					type: "item"
+				}
+				{
+					id: "2675014B26F01FC7"
+					item: "regions_unexplored:tassel"
 					type: "item"
 				}
 			]
@@ -521,7 +768,6 @@
 			rewards: [
 				{
 					id: "5B49E95D66913E91"
-					table_id: 174664628969880996L
 					type: "choice"
 				}
 				{
@@ -533,11 +779,6 @@
 			shape: "hexagon"
 			subtitle: "Is fungiphilia a thing?"
 			tasks: [
-				{
-					id: "62F783639B880310"
-					item: "quark:glow_shroom"
-					type: "item"
-				}
 				{
 					id: "28CD84F7B5274FFD"
 					item: "minecraft:crimson_fungus"
@@ -559,28 +800,48 @@
 					type: "item"
 				}
 				{
-					id: "18DE9B00BA403E19"
-					item: "twilightforest:mushgloom"
+					id: "321FA8F645D70B59"
+					item: "regions_unexplored:tall_yellow_bioshroom"
 					type: "item"
 				}
 				{
-					id: "453026BBB2051786"
-					item: "collectorsreap:portobello"
+					id: "6DA6621F55E6D6D1"
+					item: "regions_unexplored:blue_bioshroom"
 					type: "item"
 				}
 				{
-					id: "5783B3748E3CB806"
-					item: "biomemakeover:green_glowshroom"
+					id: "45B5D21F4D268499"
+					item: "regions_unexplored:green_bioshroom"
 					type: "item"
 				}
 				{
-					id: "652D0736761C50D4"
-					item: "biomemakeover:orange_glowshroom"
+					id: "3A912525499C8B60"
+					item: "regions_unexplored:pink_bioshroom"
 					type: "item"
 				}
 				{
-					id: "2B8961E1ADD839AF"
-					item: "biomemakeover:purple_glowshroom"
+					id: "599717B406730BDB"
+					item: "regions_unexplored:yellow_bioshroom"
+					type: "item"
+				}
+				{
+					id: "5C658455DF6FC666"
+					item: "regions_unexplored:tall_blue_bioshroom"
+					type: "item"
+				}
+				{
+					id: "4180D4A07E418D98"
+					item: "regions_unexplored:tall_green_bioshroom"
+					type: "item"
+				}
+				{
+					id: "228323C1B2E2D939"
+					item: "regions_unexplored:tall_pink_bioshroom"
+					type: "item"
+				}
+				{
+					id: "4DBCD65800C2F11B"
+					item: "gardens_of_the_dead:soulblight_fungus"
 					type: "item"
 				}
 			]
@@ -592,18 +853,6 @@
 			description: ["For this quest, show your love of color by collecting each different type of wool."]
 			id: "3F5F93D7191952F9"
 			rewards: [
-				{
-					count: 4
-					id: "60967FCBA9CDD1D2"
-					item: "twilightforest:rainbow_oak_sapling"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "207EB76873ACDF1B"
-					item: "quark:rainbow_rune"
-					type: "item"
-				}
 				{
 					count: 3
 					id: "2095F78EF4981D37"
@@ -764,11 +1013,6 @@
 					table_id: 5161092699925703455L
 					type: "choice"
 				}
-				{
-					id: "62149A202F095504"
-					item: "plushies:cat"
-					type: "item"
-				}
 			]
 			shape: "octagon"
 			tasks: [{
@@ -855,11 +1099,6 @@
 					id: "2D9A605A8DF2FC96"
 					table_id: 7049021818423122779L
 					type: "random"
-				}
-				{
-					id: "61EB5CFD1CCEDF2A"
-					item: "plushies:mooshroom"
-					type: "item"
 				}
 			]
 			shape: "octagon"

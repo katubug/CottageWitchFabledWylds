@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "the_end"
-	group: "5FB460EFA0A2567E"
+	group: ""
 	icon: "minecraft:ender_eye"
 	id: "5CD8650A590340E5"
 	images: [{
@@ -18,7 +18,7 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	order_index: 1
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

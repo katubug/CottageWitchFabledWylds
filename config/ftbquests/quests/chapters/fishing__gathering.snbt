@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "fishing__gathering"
-	group: "1E0017DE6773EF00"
+	group: ""
 	icon: {
 		Count: 1b
 		id: "minecraft:fishing_rod"
@@ -38,7 +38,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 2
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -58,7 +58,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "36A27638B101E7BE"
-					table_id: 1279979498352596350L
 					type: "choice"
 				}
 			]
@@ -152,7 +151,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "53084827437F5C3A"
-					table_id: 1279979498352596350L
 					type: "choice"
 				}
 				{
@@ -193,7 +191,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6933C2EABDC4F6E6"
-				table_id: 1279979498352596350L
 				type: "random"
 			}]
 			tasks: [
@@ -242,15 +239,6 @@
 			size: 2.0d
 			tasks: [
 				{
-					block: "neapolitan:strawberry_bush"
-					block_type: 0
-					checkItem: false
-					icon: "neapolitan:strawberry_pips"
-					id: "32D6F99013A2BDBA"
-					type: "questsadditions:break"
-					value: 1L
-				}
-				{
 					block: "farmersdelight:wild_onions"
 					block_type: 0
 					checkItem: false
@@ -278,33 +266,6 @@
 					value: 1L
 				}
 				{
-					block: "culturaldelights:wild_eggplants"
-					block_type: 0
-					checkItem: false
-					icon: "culturaldelights:wild_eggplants"
-					id: "719C9F850D78A68F"
-					type: "questsadditions:break"
-					value: 1L
-				}
-				{
-					block: "culturaldelights:wild_corn"
-					block_type: 0
-					checkItem: false
-					icon: "culturaldelights:wild_corn"
-					id: "2ACC22362EEC45FC"
-					type: "questsadditions:break"
-					value: 1L
-				}
-				{
-					block: "culturaldelights:wild_cucumbers"
-					block_type: 0
-					checkItem: false
-					icon: "culturaldelights:wild_cucumbers"
-					id: "3EBEC615152C92BE"
-					type: "questsadditions:break"
-					value: 1L
-				}
-				{
 					block: "supplementaries:wild_flax"
 					block_type: 0
 					checkItem: false
@@ -323,15 +284,6 @@
 					value: 1L
 				}
 				{
-					block: "neapolitan:mint"
-					block_type: 0
-					checkItem: false
-					icon: "neapolitan:mint_sprout"
-					id: "6DD57C8E78D7F388"
-					type: "questsadditions:break"
-					value: 1L
-				}
-				{
 					block: "farmersdelight:wild_potatoes"
 					block_type: 0
 					checkItem: false
@@ -346,6 +298,22 @@
 					checkItem: false
 					icon: "farmersdelight:wild_carrots"
 					id: "5D924330F5B837BB"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "fruitsdelight:wild_pineapple"
+					block_type: 0
+					checkItem: false
+					id: "67A78ED3495ABCB3"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "vegandelight:wild_soybean"
+					block_type: 0
+					checkItem: false
+					id: "196A2A7BE9F5D9D3"
 					type: "questsadditions:break"
 					value: 1L
 				}
@@ -383,7 +351,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "31C47718D4D0DA62"
-					table_id: 1279979498352596350L
 					type: "random"
 				}
 			]
@@ -945,7 +912,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0E6EE39033A94576"
-				table_id: 1279979498352596350L
 				type: "random"
 			}]
 			tasks: [{
@@ -1071,7 +1037,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "074606E66D55DE3D"
-					table_id: 1279979498352596350L
 					type: "random"
 				}
 				{
@@ -1146,7 +1111,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0DE2BD70E7DA5FCD"
-				table_id: 1279979498352596350L
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -1184,7 +1148,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "418A7F27AFF087BE"
-					table_id: 1279979498352596350L
 					type: "random"
 				}
 				{
@@ -1253,7 +1216,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "73BA0DFDF9D7783A"
-				table_id: 1279979498352596350L
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -1285,7 +1247,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7F29843C0966C02F"
-				table_id: 1279979498352596350L
 				type: "random"
 			}]
 			shape: "hexagon"

@@ -1,9 +1,9 @@
 {
   "version": 8,
   "FoodItems": {
-    "FriedEgg": true,
+    "FriedEgg": false,
     "BerryPie": true,
-    "HoneyedApple": true
+    "HoneyedApple": false
   },
   "WateringCan": true,
   "RoseGold": true,

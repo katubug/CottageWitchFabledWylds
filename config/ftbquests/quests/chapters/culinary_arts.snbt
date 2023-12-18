@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "culinary_arts"
-	group: "1E0017DE6773EF00"
+	group: ""
 	icon: "nethersdelight:stuffed_hoglin"
 	id: "305A3D4D3A205E4A"
 	images: [
@@ -92,7 +92,7 @@
 			y: 13.0d
 		}
 	]
-	order_index: 1
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -2041,7 +2041,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "3E1C1CD4DB78713E"
-					table_id: 4747620395501175375L
 					type: "choice"
 				}
 				{
@@ -2087,7 +2086,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "7FCCAD4B194651A9"
-					table_id: 2688518876927697228L
 					type: "random"
 				}
 			]

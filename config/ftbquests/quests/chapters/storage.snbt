@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "storage"
-	group: "1E0017DE6773EF00"
+	group: ""
 	icon: "minecraft:chest"
 	id: "20C131FAFAF3F980"
 	images: [
@@ -44,7 +44,7 @@
 			y: 4.0d
 		}
 	]
-	order_index: 4
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{

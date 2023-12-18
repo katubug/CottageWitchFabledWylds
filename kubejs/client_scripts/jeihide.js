@@ -98,6 +98,9 @@ JEIEvents.hideItems(event => {
         'reliquary:midas_touchstone', 
         'reliquary:pyromancer_staff', 
         'reliquary:rod_of_lyssa',
+        'candlelight:carrot_crate', 
+        'candlelight:potato_crate', 
+        'candlelight:beetroot_crate',
 
     ];
     

@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "building__decorating"
-	group: "1E0017DE6773EF00"
+	group: ""
 	icon: "minecraft:oak_planks"
 	id: "3E1D90FE6819501F"
 	images: [
@@ -32,7 +32,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 3
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{

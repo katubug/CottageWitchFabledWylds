@@ -24,7 +24,7 @@
 	
 	# Minimap for clients connecting to this server will be disabled
 	# Default: false
-	force_disable_minimap: false
+	force_disable_minimap: true
 	
 	# Control how force-loaded chunks work.
 	# NEVER: only allow chunk force-loading if the owning team has at least one online player.
@@ -32,7 +32,7 @@
 	# DEFAULT: allow force-loading IF the team has at least one player with the 'ftbchunks.chunk_load_offline' FTB Ranks permission.
 	# Default: "default"
 	# Valid values: "default", "always", "never"
-	force_load_mode: "default"
+	force_load_mode: "never"
 	
 	# Hard limit for the number of chunks a team can claim, regardless of how many members. Default of 0 means no hard limit.
 	# Default: 0
@@ -53,19 +53,19 @@
 	# Setting this to 0 disables long-range tracking.
 	# Default: 20
 	# Range: 0 ~ 2147483647
-	long_range_tracker_interval: 20
+	long_range_tracker_interval: 0
 	
 	# Max claimed chunks.
 	# You can override this with FTB Ranks 'ftbchunks.max_claimed' permission
 	# Default: 500
 	# Range: -∞ ~ +∞
-	max_claimed_chunks: 500
+	max_claimed_chunks: 100
 	
 	# Max force loaded chunks.
 	# You can override this with FTB Ranks 'ftbchunks.max_force_loaded' permission
 	# Default: 25
 	# Range: -∞ ~ +∞
-	max_force_loaded_chunks: 25
+	max_force_loaded_chunks: 2
 	
 	# Maximum time (in real-world days) where if no player in a team logs in, the team automatically loses their claims.
 	# Prevents chunks being claimed indefinitely by teams who no longer play.
@@ -111,7 +111,7 @@
 	# Should PvP combat be allowed in claimed chunks? Default is ALWAYS; NEVER prevents it in all claimed chunks; PER_TEAM allows teams to decide if PvP is allowed in their claims
 	# Default: "always"
 	# Valid values: "always", "never", "per_team"
-	pvp_mode: "always"
+	pvp_mode: "per_team"
 	
 	# If true, the player must have the 'ftbchunks_mapping' Game stage to be able to use the map and minimap.
 	# Requires KubeJS and/or Gamestages to be installed.

@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "exploration"
-	group: "346046A71D537172"
+	group: ""
 	icon: "minecraft:grass_block"
 	id: "1226CF9B32B2E083"
 	images: [
@@ -80,7 +80,7 @@
 			y: 8.5d
 		}
 	]
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -212,9 +212,13 @@
 			description: [
 				"So, you died. It happens to us all, eventually! Don't worry, all your items are safe in a &agrave&r marking your last resting place."
 				""
-				"You can use your &bGrave Finder&r to locate your last death, as well as the &aminimap marker&r that's automatically placed there. Then, &6right click on your grave&r to recover all your items and gear."
+				"You can use your &bGrave Key&r to locate your last death, as well as the &aminimap marker&r that's automatically placed there. Then, &6right click on your grave&r to recover all your items and gear."
 				""
-				"Your &aexperience&r, however, drops near your grave, so make sure to collect it!"
+				"There's also a 50% chance to receive an &bEnchanted Grave Key&r, which you can &6hold right click&r to activate, and it will teleport you to your grave. These can also be &acrafted&r with your &bGrave Key&r and an &bEnder Pearl&r."
+				""
+				"Your &aexperience&r will be placed in an &bXP Catalyst&r, which can be collected separately from your grave by &6right clicking&r. You recover 100% of your experience this way."
+				""
+				"{image:enchanted_wilds:textures/questimages/graveexp.png width:200 height:200 align:1}"
 			]
 			id: "47643C0C8D4BCBD9"
 			rewards: [
@@ -240,12 +244,18 @@
 					}
 					type: "item"
 				}
+				{
+					id: "35DE3AC735BE5DC2"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
 			]
 			subtitle: "Handbook for the recently deceased"
 			tasks: [{
-				id: "412E4F0BC4FEF92B"
-				item: "enigmaticgraves:grave_finder"
-				type: "item"
+				advancement: "tombstone:adventure/first_grave"
+				criterion: ""
+				id: "55533D1D77C4F3CD"
+				type: "advancement"
 			}]
 			title: "Baby's First Death"
 			x: 3.5d
@@ -366,12 +376,24 @@
 			rewards: [
 				{
 					id: "59138A1AE98F4A94"
-					item: "usefulslime:slime_boots"
+					item: {
+						Count: 1b
+						id: "usefulslime:slime_boots"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "146D300604AF13CC"
-					item: "usefulslime:slime_sling"
+					item: {
+						Count: 1b
+						id: "usefulslime:slime_sling"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -627,6 +649,28 @@
 			}]
 			x: 4.5d
 			y: 8.5d
+		}
+		{
+			description: [
+				"You might notice that the &bEnchanted Items&r you find in the world are a little harder to understand. Enchantments are ancient magic which requires &aresearch&r to discern."
+				""
+				"You can use the codex in these &bScrolls of Identification&r by &6right clicking them onto items in your inventory&r. You can also &6right click the &bEnchanted Item&r on a &bEnchanting Table&r."
+			]
+			id: "065DC59360A84A58"
+			rewards: [{
+				count: 3
+				id: "217A27BE7B881243"
+				item: "irons_rpg_tweaks:identification_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E81775B3B389373"
+				title: "Scroll Identification"
+				type: "checkmark"
+			}]
+			title: "Enchantment Identification"
+			x: -3.5d
+			y: 3.5d
 		}
 	]
 	subtitle: ["a very good place to start"]

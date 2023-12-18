@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "combat__gear"
-	group: "346046A71D537172"
+	group: ""
 	icon: {
 		Count: 1b
 		id: "minecraft:diamond_chestplate"
@@ -62,7 +62,7 @@
 			y: -5.0d
 		}
 	]
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -1176,7 +1176,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "1932DF187F981A97"
-					table_id: 2688518876927697228L
 					type: "random"
 				}
 			]
@@ -1296,7 +1295,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "157534B164962891"
-					table_id: 2688518876927697228L
 					type: "random"
 				}
 			]
@@ -1553,7 +1551,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "5DCF345B1E63D9E3"
-					table_id: 8891211325592123080L
 					type: "random"
 				}
 				{
@@ -1663,7 +1660,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "795550A9EA41F849"
-				table_id: 2688518876927697228L
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -1739,7 +1735,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "374DD5C850FCAC63"
-				table_id: 2688518876927697228L
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -1799,7 +1794,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "25BCC5AA95FEC6A2"
-				table_id: 2688518876927697228L
 				type: "loot"
 			}]
 			shape: "hexagon"
@@ -1845,7 +1839,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "257876E4ED81AD41"
-				table_id: 2688518876927697228L
 				type: "loot"
 			}]
 			shape: "hexagon"
@@ -1905,7 +1898,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7370B2D8F5A2E9F3"
-				table_id: 2688518876927697228L
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -1943,7 +1935,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "58AA97376CEE5824"
-				table_id: 2688518876927697228L
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -2003,7 +1994,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "38F40BF04713CDFE"
-				table_id: 2688518876927697228L
 				type: "loot"
 			}]
 			shape: "hexagon"
@@ -2357,7 +2347,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "7594429605978225"
-					table_id: 2688518876927697228L
 					type: "random"
 				}
 			]
@@ -2414,7 +2403,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "78E07DDBDAD4D8B8"
-					table_id: 2688518876927697228L
 					type: "loot"
 				}
 			]

@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "miscellaneous"
-	group: "346046A71D537172"
+	group: ""
 	icon: "minecraft:bookshelf"
 	id: "0F5FCDF7AD60349B"
 	images: [
@@ -44,7 +44,7 @@
 			y: 4.5d
 		}
 	]
-	order_index: 2
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -1082,7 +1082,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4CAC99596EA711E2"
-					table_id: 1279979498352596350L
 					type: "random"
 				}
 				{
@@ -1328,7 +1327,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "33B0D43C0A77E807"
-					table_id: 8891211325592123080L
 					type: "choice"
 				}
 				{

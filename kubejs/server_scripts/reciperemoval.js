@@ -59,6 +59,9 @@ ServerEvents.recipes(event => {
         {output: 'reliquary:midas_touchstone'}, 
         {output: 'reliquary:pyromancer_staff'}, 
         {output: 'reliquary:rod_of_lyssa'},
+        {output: 'candlelight:carrot_crate'},
+        {output: 'candlelight:potato_crate'},
+        {output: 'candlelight:beetroot_crate'}, 
         //Replaced Recipes
         {output: 'mighty_mail:post_box'},
         {output: 'farmersdelight:wheat_dough'},

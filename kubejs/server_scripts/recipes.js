@@ -196,5 +196,38 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    //Magical Gold Conversions
+    event.shapeless(
+        Item.of('eidolon:arcane_gold_ingot'),
+        [
+            'eidolon:soul_shard',
+            'forbidden_arcanus:deorum_ingot'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('forbidden_arcanus:deorum_ingot'),
+        [
+            'forbidden_arcanus:mundabitur_dust',
+            'eidolon:arcane_gold_ingot'
+        ]
+    )
+
+    // Oil Lantern
+    event.shaped(
+        Item.of('meadow:oil_lantern'),
+        [
+            ' A ',
+            'ABA',
+            'CCC'
+        ],
+        {
+            A: 'minecraft:iron_ingot',
+            B: 'forbidden_arcanus:edelwood_oil',
+            C: 'minecraft:iron_nugget'
+        }
+    )
+
   })
 
+  

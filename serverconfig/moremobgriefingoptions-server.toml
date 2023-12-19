@@ -1816,4 +1816,145 @@
 	#fairylights:fastener mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"fairylights:fastener" = "DEFAULT"
+	#primalmagick:spell_projectile mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:spell_projectile" = "DEFAULT"
+	#primalmagick:spell_mine mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:spell_mine" = "DEFAULT"
+	#primalmagick:sin_crash mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:sin_crash" = "DEFAULT"
+	#primalmagick:sin_crystal mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:sin_crystal" = "DEFAULT"
+	#primalmagick:flying_carpet mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:flying_carpet" = "DEFAULT"
+	#primalmagick:apple mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:apple" = "DEFAULT"
+	#primalmagick:ignyx mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:ignyx" = "DEFAULT"
+	#primalmagick:alchemical_bomb mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:alchemical_bomb" = "DEFAULT"
+	#primalmagick:mana_arrow mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:mana_arrow" = "DEFAULT"
+	#primalmagick:fishing_hook mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:fishing_hook" = "DEFAULT"
+	#primalmagick:primalite_trident mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:primalite_trident" = "DEFAULT"
+	#primalmagick:hexium_trident mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:hexium_trident" = "DEFAULT"
+	#primalmagick:hallowsteel_trident mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:hallowsteel_trident" = "DEFAULT"
+	#primalmagick:forbidden_trident mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:forbidden_trident" = "DEFAULT"
+	#primalmagick:treefolk mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:treefolk" = "DEFAULT"
+	#primalmagick:inner_demon mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:inner_demon" = "DEFAULT"
+	#primalmagick:friendly_witch mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:friendly_witch" = "DEFAULT"
+	#primalmagick:primalite_golem mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:primalite_golem" = "DEFAULT"
+	#primalmagick:hexium_golem mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:hexium_golem" = "DEFAULT"
+	#primalmagick:hallowsteel_golem mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:hallowsteel_golem" = "DEFAULT"
+	#primalmagick:pixie_basic_earth mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_basic_earth" = "DEFAULT"
+	#primalmagick:pixie_grand_earth mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_grand_earth" = "DEFAULT"
+	#primalmagick:pixie_majestic_earth mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_majestic_earth" = "DEFAULT"
+	#primalmagick:pixie_basic_sea mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_basic_sea" = "DEFAULT"
+	#primalmagick:pixie_grand_sea mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_grand_sea" = "DEFAULT"
+	#primalmagick:pixie_majestic_sea mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_majestic_sea" = "DEFAULT"
+	#primalmagick:pixie_basic_sky mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_basic_sky" = "DEFAULT"
+	#primalmagick:pixie_grand_sky mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_grand_sky" = "DEFAULT"
+	#primalmagick:pixie_majestic_sky mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_majestic_sky" = "DEFAULT"
+	#primalmagick:pixie_basic_sun mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_basic_sun" = "DEFAULT"
+	#primalmagick:pixie_grand_sun mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_grand_sun" = "DEFAULT"
+	#primalmagick:pixie_majestic_sun mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_majestic_sun" = "DEFAULT"
+	#primalmagick:pixie_basic_moon mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_basic_moon" = "DEFAULT"
+	#primalmagick:pixie_grand_moon mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_grand_moon" = "DEFAULT"
+	#primalmagick:pixie_majestic_moon mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_majestic_moon" = "DEFAULT"
+	#primalmagick:pixie_basic_blood mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_basic_blood" = "DEFAULT"
+	#primalmagick:pixie_grand_blood mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_grand_blood" = "DEFAULT"
+	#primalmagick:pixie_majestic_blood mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_majestic_blood" = "DEFAULT"
+	#primalmagick:pixie_basic_infernal mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_basic_infernal" = "DEFAULT"
+	#primalmagick:pixie_grand_infernal mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_grand_infernal" = "DEFAULT"
+	#primalmagick:pixie_majestic_infernal mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_majestic_infernal" = "DEFAULT"
+	#primalmagick:pixie_basic_void mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_basic_void" = "DEFAULT"
+	#primalmagick:pixie_grand_void mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_grand_void" = "DEFAULT"
+	#primalmagick:pixie_majestic_void mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_majestic_void" = "DEFAULT"
+	#primalmagick:pixie_basic_hallowed mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_basic_hallowed" = "DEFAULT"
+	#primalmagick:pixie_grand_hallowed mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_grand_hallowed" = "DEFAULT"
+	#primalmagick:pixie_majestic_hallowed mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"primalmagick:pixie_majestic_hallowed" = "DEFAULT"
 

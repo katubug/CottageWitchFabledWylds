@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "globetrotting"
-	group: ""
+	group: "4E9968A53CD6CA57"
 	icon: "ars_nouveau:glyph_underfoot"
 	id: "5775D7E4FB7F551A"
 	images: [
@@ -13,7 +13,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgexplorating.png"
+			image: "enchanted_wilds:textures/questui/bgexplorating.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -9.0d
@@ -25,7 +25,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgdungeons.png"
+			image: "enchanted_wilds:textures/questui/bgdungeons.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.0d
@@ -37,7 +37,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgstructures.png"
+			image: "enchanted_wilds:textures/questui/bgstructures.png"
 			rotation: 0.0d
 			width: 17.0d
 			x: 0.0d
@@ -49,14 +49,14 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgwaystones.png"
+			image: "enchanted_wilds:textures/questui/bgwaystones.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 9.5d
 			y: -5.0d
 		}
 	]
-	order_index: 13
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -505,14 +505,15 @@
 				"&6Press CTRL+L to track your achievement progress&r!"
 			]
 			id: "78A442C5CCB7BF47"
+			shape: "octagon"
 			tasks: [{
 				advancement: "regions_unexplored:eternal_expedition"
 				criterion: ""
 				id: "15A19A39523CAD26"
 				type: "advancement"
 			}]
-			x: -11.0d
-			y: 0.5d
+			x: -10.5d
+			y: -2.5d
 		}
 	]
 	title: "Globetrotting"

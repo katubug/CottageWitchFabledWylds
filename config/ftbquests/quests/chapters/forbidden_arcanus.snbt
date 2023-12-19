@@ -1,20 +1,61 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "forbidden_arcanus"
 	group: "181D7A6A92948264"
+	icon: "forbidden_arcanus:arcane_crystal"
 	id: "28D81A0777D8ADD7"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "54BE861A17D87684"
-		tasks: [{
-			id: "69C1C9E97A3E304E"
-			item: "forbidden_arcanus:arcane_crystal"
-			type: "item"
-		}]
-		x: 0.0d
-		y: -3.0d
-	}]
-	title: "Forbidden Arcanus"
+	quests: [
+		{
+			id: "54BE861A17D87684"
+			tasks: [{
+				id: "69C1C9E97A3E304E"
+				item: "forbidden_arcanus:arcane_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"In &cDark Forest&r biomes, one can find strange, stunted trees known as &bEdelwood&r. These trees have &astrange properties&r."
+				""
+				"Their saplike &bOil&r can be collected from certain blocks with a &bGlass Bottle&r. This can be used to create an &bOil Lantern&r."
+				""
+				"&bBuckets&r crafted from &bEdelwood&r can carry up to &afour times as much liquid&r as a regular bucket, although in order to hold &bLava&r, you'll need the &aPermafrost enchantment&r. These &bBuckets&r can also &acapture larger mobs&r, such as "
+				""
+				"- &eChickens&r"
+				"- &eSquid and Glow Squid&r"
+				"- &eStriders&r"
+				"- &eAllay&r"
+				"- &eBats&r"
+				"- &eBees&r"
+			]
+			id: "1DAFA394954719B8"
+			subtitle: "they're not trees... they're children"
+			tasks: [{
+				id: "5D301D0765EE9781"
+				item: "forbidden_arcanus:edelwood_log"
+				type: "item"
+			}]
+			title: "Edelwood Trees"
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			description: ["&bArcane Bonemeal&r is an item which &afully grows its target&r in one fell swoop!"]
+			id: "1ED20531FE65594D"
+			tasks: [{
+				id: "0C610FD736E573FC"
+				item: "forbidden_arcanus:arcane_bone_meal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+	]
+	title: "Forbidden \\& Arcanus"
 }

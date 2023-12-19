@@ -27,6 +27,15 @@
 		{ count: 3, item: "bakery:yeast", weight: 5.0f }
 		{ count: 5, item: "meadow:alpine_salt", weight: 10.0f }
 		{ count: 3, item: "candlelight:butter", weight: 10.0f }
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{}"
+				}
+			}
+		}
 	]
 	title: "Random Tier 1"
 }

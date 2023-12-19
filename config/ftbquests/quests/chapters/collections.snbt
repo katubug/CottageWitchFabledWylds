@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "collections"
-	group: ""
+	group: "691BD44222F33F05"
 	icon: "minecraft:bundle"
 	id: "5A00BD04AD81F733"
 	images: [{
@@ -18,7 +18,7 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -1036,8 +1036,11 @@
 				"692725454B955B4C"
 			]
 			description: [
-				"Once you collect all the flowers, tick this box for &dthe ultimate reward&r."
+				"Once you collect all the flowers, tick this box for &athe ultimate reward&r."
+				""
 				"Ya-ha-ha!"
+				""
+				"&dCan only be claimed once all previous quests are completed&r."
 			]
 			hide_dependency_lines: true
 			id: "2DDA757CE80078C3"
@@ -1121,6 +1124,54 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			description: [
+				"&oRoses are red&r"
+				"&oViolets are blue&r"
+				"&oCandy is sweet&r"
+				"&oGo get some (for you)&r"
+				""
+				"Collect &aone of each type of Candy&r to get a sweet reward!"
+			]
+			id: "7DB8FFF48188EC9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50E36D0699A97EFC"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "50C4BBE7A037617A"
+					item: "supplementaries:candy"
+					type: "item"
+				}
+				{
+					id: "00BC773E6BC35CF5"
+					item: "eidolon:red_candy"
+					type: "item"
+				}
+				{
+					id: "3CF9008AEA3F6B50"
+					item: "eidolon:grape_candy"
+					type: "item"
+				}
+				{
+					id: "59F88F4BF5FBA33A"
+					item: "aether:candy_cane"
+					type: "item"
+				}
+				{
+					id: "20A182052B09A121"
+					item: "delightful:rock_candy"
+					type: "item"
+				}
+			]
+			title: "Sweet Tooth"
+			x: 1.5d
+			y: 1.0d
 		}
 	]
 	title: "Collections"

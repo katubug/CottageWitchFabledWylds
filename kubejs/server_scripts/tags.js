@@ -114,6 +114,23 @@ ServerEvents.tags('item', event => {
         'beautify:warped_trellis'
     )
 
+    event.add(
+        'forge:copycat_blocks',
+        'create:copycat_step',
+        'create:copycat_panel'
+    )
+
+    event.add(
+        'forge:create_doors',
+        'create:andesite_door',
+        'create:brass_door',
+        'create:copper_door',
+        'create:train_door',
+        'create:train_trapdoor',
+        'create:framed_glass_door', 
+        'create:framed_glass_trapdoor'
+    )
+
 
     // Tag Removal
     event.removeAllTagsFrom('bakery:dough',

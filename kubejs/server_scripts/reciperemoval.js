@@ -69,6 +69,7 @@ ServerEvents.recipes(event => {
         {output: 'delightful:deluxe_cheeseburger'},
         //{output: 'untameddelight:baked_trevally_with_cheese'},
         {output: 'luphieclutteredmod:luphie_mermaid_pearl'},
+        {output: 'meadow:oil_lantern'},
     ];
     
       for (const remove of toRemove) {

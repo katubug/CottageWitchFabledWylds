@@ -1,0 +1,370 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eidolon"
+	group: "181D7A6A92948264"
+	icon: "eidolon:codex"
+	id: "3772B68D6D8DD690"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["35618FF7350BEA17"]
+			id: "2B791CCC3DFBE3DE"
+			rewards: [
+				{
+					id: "43D3DB95CBF76D78"
+					item: "eidolon:pewter_inlay"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78BC460E03AA0322"
+					table_id: 5705869042914710822L
+					type: "random"
+				}
+			]
+			subtitle: "pew pew pew...ter"
+			tasks: [
+				{
+					id: "728F91B8EC02040A"
+					item: "eidolon:pewter_ingot"
+					type: "item"
+				}
+				{
+					id: "0881B0DC23878041"
+					item: "eidolon:pewter_blend"
+					type: "item"
+				}
+			]
+			title: "Obtain Pewter"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35618FF7350BEA17"]
+			id: "13623C8B65A712A5"
+			tasks: [
+				{
+					id: "6D56477F1DD9C99A"
+					item: "eidolon:avennian_sprig"
+					type: "item"
+				}
+				{
+					id: "4C5F21B39986C5DF"
+					item: "eidolon:sildrian_seed"
+					type: "item"
+				}
+				{
+					id: "1F163B1A7E459096"
+					item: "eidolon:oanna_bloom"
+					type: "item"
+				}
+				{
+					id: "612C3CD04C2BEBFF"
+					item: "eidolon:merammer_root"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"This we know for sure: &athe world is full of magic&r. Different types appeal to different witches, and not everyone will follow the same path. However, the first step is always the same - &aresearch&r."
+				""
+				"Obtain this book, the &bArs Ecclesia&r, from your &bEccentric Tome&r, and let's begin."
+				""
+				"Please turn the page."
+				"{@pagebreak}"
+				"The mod &lEidolon&r (AY-doh-lawn) gives two paths to follow: the &alight path of the sun goddess&r, and the &adark path of the moon goddess&r. Both paths will give unique benefits!"
+				""
+				"To begin your journey to please the &eSun Goddess&r, &6give your &bArs Ecclesia&6 to a &eCleric&r. To worship the &eMoon Goddess&r instead, &6give it to a &eWitch&r."
+				""
+				"You can also &6choose to do both&r - after all, we witches all have both light and dark within us."
+			]
+			id: "35618FF7350BEA17"
+			rewards: [
+				{
+					count: 2
+					id: "773B55C0FD103CA9"
+					item: "eidolon:lead_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5F810241D3B19192"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "712279A7E901DF4D"
+				item: "eidolon:codex"
+				type: "item"
+			}]
+			title: "A Grimoire of Sorts"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35618FF7350BEA17"]
+			description: [
+				"Every good witch needs &aan Altar&r. You can combine &bAltar&r blocks to make a larger one, which can fit more upgrades."
+				""
+				"Oh, yes, there are &aupgrades&r! You"
+			]
+			id: "6614EDDD9228A438"
+			rewards: [{
+				id: "2B4CBEA95BCF0110"
+				item: "minecraft:skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "05589C9F97548AAA"
+				item: { Count: 6b, id: "eidolon:wooden_altar" }
+				type: "item"
+			}]
+			title: "A Multiblock Altar"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6614EDDD9228A438"]
+			id: "362F1DD4147A2D2A"
+			tasks: [{
+				id: "1F775E3A4A4BA79C"
+				item: "eidolon:straw_effigy"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["362F1DD4147A2D2A"]
+			description: [
+				"In order to &apray to your goddess&r, which you can do once per day or night, you should &6Chant your chosen sign three times&r. You do this by accessing your &bArs Ecclesia&r and &6Clicking&r the sign, or signs, that you want. Over time, you will learn &amore Chants&r, and &amore spells&r you can perform with them."
+				""
+				"{image:enchanted_wilds:textures/questimages/prayers.png width:275 height:175 align:1}"
+				""
+				"As you pray, your goddess will give you &amana&r, which appears above your altar like this:"
+				""
+				""
+				"{image:enchanted_wilds:textures/questimages/manabar.png width:250 height:50 align:1}"
+			]
+			id: "2E95BFDEACD38578"
+			rewards: [{
+				count: 3
+				id: "768284848C1251B3"
+				item: "eidolon:tallow"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E63F2862BC1D8C5"
+				title: "Thoughts & Prayers"
+				type: "checkmark"
+			}]
+			title: "Thoughts \\& Prayers"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["35618FF7350BEA17"]
+			id: "405E2E0B8B109BC2"
+			rewards: [
+				{
+					id: "775A3D561F5F9E37"
+					item: "eidolon:merammer_root"
+					type: "item"
+				}
+				{
+					id: "28AAB3305D65AFCA"
+					item: "eidolon:avennian_sprig"
+					type: "item"
+				}
+				{
+					id: "0B7DC98528B0462A"
+					item: "eidolon:oanna_bloom"
+					type: "item"
+				}
+				{
+					id: "309E827C9F058040"
+					item: "eidolon:sildrian_seed"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "163EBCD4FF4D6CBA"
+				item: "eidolon:planter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6C5F3C1E50DE0082"]
+			id: "15E8B45D366A2B35"
+			tasks: [{
+				id: "2AB2EB696244234C"
+				item: "eidolon:arcane_gold_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["35618FF7350BEA17"]
+			description: ["The &bCrucible&r is an essential part of your mystic path. It allows you to &atransmute common items into arcane ones&r, among other things."]
+			id: "6C5F3C1E50DE0082"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E4D0A0DA43A5BD0"
+				table_id: 5705869042914710822L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "00A53EEAF8D68E6A"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["35618FF7350BEA17"]
+			description: [
+				"The &bSoul Enchanter&r is a device by which you can &achoose and upgrade Enchantments&r for your gear. This process costs &aexperience and &bSoul Shards&r."
+				""
+				"In the image below you can see a &bSword&r being imbued with the &aLifesteal&r enchantment. In the second half of the image, the sword has been &aplaced back into the &bEnchanter&r and you can see the &aLifesteal enchantment is offered at level 2&r."
+				""
+				"{image:enchanted_wilds:textures/questimages/soulenchanter.png width:300 height:130 align:1}"
+				""
+				"&dEach item can only be enchanted in this way 5 times&r, so choose wisely! You can &areroll enchantments&r on a given item by &aenchanting another item&r."
+			]
+			id: "3C9030840D8880FC"
+			rewards: [
+				{
+					count: 5
+					id: "4EE82DCDC676DE68"
+					item: "eidolon:soul_shard"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "160EE68E735096BD"
+					table_id: 5705869042914710822L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "797EB43804A39041"
+				item: "eidolon:soul_enchanter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35618FF7350BEA17"]
+			description: [
+				"In order to complete &aRituals&r, you'll need a &bBrazier&r to light, and two &aItem Receptacles&r - let's begin with the &bStone Hands&r. Later on, you'll upgrade, but these are a fine and stylish choice for now!"
+				""
+				"Now let's try our first ritual, the &aCrystallization Ritual&r! If you look in your &bArs Ecclesia&r you will see that it requires &bRedstone Dust&r and &bBone Meal&r. You'll also need &esome undead&r, such as &eZombies, Skeletons, or Wraiths&r, because the ritual needs to &aconsume their corporeal forms&r and &bconvert their souls to &bSoul Shards&r."
+				""
+				"{image:enchanted_wilds:textures/questimages/crystallizationritual.png width:100 height:55 align:1 fit:true}"
+				""
+				"Remember that to &alight the Brazier&r you must &6right click it with a &bFlint and Steel&r!"
+			]
+			id: "1BAFE094DBFDA666"
+			rewards: [{
+				id: "4D453058BF444DD5"
+				item: "minecraft:zombie_spawn_egg"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3A009140F2EDAADE"
+					item: "eidolon:brazier"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "01910939785178FF"
+					item: { Count: 2b, id: "eidolon:stone_hand" }
+					type: "item"
+				}
+			]
+			title: "The Ritual Basis"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1BAFE094DBFDA666"]
+			description: ["Congratulations on &acompleting your first ritual&r!"]
+			id: "577CA2909E86DB8C"
+			rewards: [
+				{
+					id: "302DDC0BE08E6ED3"
+					item: "eidolon:soul_shard"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C5097D0D148E6FC"
+					table_id: 5705869042914710822L
+					type: "random"
+				}
+			]
+			subtitle: "for fun and profit"
+			tasks: [{
+				id: "08B5B32A3DB3F8D7"
+				item: "eidolon:soul_shard"
+				type: "item"
+			}]
+			title: "Soul Shards"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"577CA2909E86DB8C"
+				"6C5F3C1E50DE0082"
+			]
+			id: "2261C0D9C4FB9D4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "448B4C8F39F71D93"
+				table_id: 5705869042914710822L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "552FC93A5BB5DF24"
+				item: "eidolon:lesser_soul_gem"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["577CA2909E86DB8C"]
+			id: "21C23C3AD73B4CD3"
+			tasks: [{
+				id: "4E211766F4BD57C1"
+				item: {
+					Count: 1b
+					id: "eidolon:reaper_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+	]
+	title: "Eidolon"
+}

@@ -12,13 +12,13 @@
 		dev: false
 		height: 10.0d
 		hover: [ ]
-		image: "cottagewitch:textures/bgfarming.png"
+		image: "enchanted_wilds:textures/questui/bgfarming.png"
 		rotation: 0.0d
 		width: 20.0d
 		x: 0.0d
 		y: 0.0d
 	}]
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -733,39 +733,8 @@
 				}
 			]
 			title: "Compact Your Crops 2"
-			x: 4.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["0545DF70043D964A"]
-			id: "22F72EB92786EEF7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "54BDFDE2D0F0A249"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "44120CB9F7F88C84"
-					item: "environmental:duck_egg_crate"
-					type: "item"
-				}
-				{
-					id: "55FB0A951F321653"
-					item: "incubation:turtle_egg_crate"
-					type: "item"
-				}
-				{
-					id: "4610BF6CBB1013F6"
-					item: "incubation:chicken_egg_crate"
-					type: "item"
-				}
-			]
-			title: "Compact Your Eggs (Gently)"
-			x: 6.0d
-			y: -2.5d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0545DF70043D964A"]
@@ -820,7 +789,6 @@
 			dependencies: [
 				"77E1FEDE586A487C"
 				"2973338AB622C5D6"
-				"22F72EB92786EEF7"
 				"6DF3D43144E93441"
 			]
 			description: ["Congratulations, you have compacted all of the crops! For your hard work, here is a reward."]

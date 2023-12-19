@@ -1,9 +1,9 @@
 {
 	default_hide_dependency_lines: false
-	default_min_width: 300
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "create"
-	group: ""
+	group: "181D7A6A92948264"
 	icon: "create:brass_hand"
 	id: "19DEED79E2FA960E"
 	images: [{
@@ -18,7 +18,7 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	order_index: 8
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -196,7 +196,7 @@
 				"An early game method of generating rotational force is with water wheels. They require &aat least one flowing water block&r to function. Any additional flowing water blocks &awill not generate more stress units or rotational speed&r. The two types of water wheels are the standard &bWater Wheel&r and the &bLarge Water Wheel&r. The standard &bWater Wheel&r generates &a256 su&r at a speed of &a8 rpm&r, while the &bLarge Water Wheel&r generates &a512 su&r at a speed of &a4 rpm&r."
 				""
 				""
-				"{image:cottagewitch:textures/lgwaterwheel.png width:100 height:100 align:1}"
+				"{image:enchanted_wilds:textures/questimages/lgwaterwheel.png width:100 height:100 align:1}"
 				""
 				"You can connect items such as &bShafts&r, &bCogs&r, or &bGearboxes&r to the center of the wheel, allowing you to distribute rotational force to your machines."
 				""
@@ -256,36 +256,6 @@
 			title: "Rotational Force: Wind"
 			x: 0.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["576AE3823B89AE8E"]
-			description: [
-				"Another power option is &bStarbuncle Wheels&r. It turns out that the industry of the &eStarbuncle&r goes beyond collecting and transferring items - they &alove to run&r."
-				""
-				"Give them a &awheel to run around in&r, and they will reliably generate you &d256 su&r. Put a &bGold Block&r &6in front of the wheel&r and they’ll generate &d320 su&r instead!"
-			]
-			id: "4E3C2382B7035B7D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0C3E96D9F238E3F4"
-					table_id: 1032206960599939459L
-					type: "loot"
-				}
-				{
-					id: "4282504A26348A26"
-					item: "minecraft:gold_block"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "28340DBE48085983"
-				item: "ars_creo:starbuncle_wheel"
-				type: "item"
-			}]
-			title: "Rotational Force: Exercise"
-			x: 2.0d
-			y: 2.5d
 		}
 		{
 			dependencies: ["1EB53FD55A3973BF"]
@@ -576,15 +546,16 @@
 					type: "random"
 				}
 				{
-					id: "49CF9314C0D15268"
-					item: "twilightdelight:chocolate_wafer"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "22C107E977A0CC4F"
+					table_id: 1032206960599939459L
+					type: "random"
 				}
 			]
 			tasks: [{
 				count: 4L
-				id: "11AE2D6398E0A8FF"
-				item: "neapolitan:chocolate_bar"
+				id: "1DE2F99870386DC6"
+				item: { Count: 4b, id: "create:bar_of_chocolate" }
 				type: "item"
 			}]
 			title: "Liquid to Solid via Compaction"
@@ -839,7 +810,7 @@
 				""
 				"You can view the recipe in &lJEI&r by selecting the second tab at the top, &d\"Recipe Sequence\"&r."
 				""
-				"{image:cottagewitch:textures/precisionmechanism.png width:150 height:150 align:1}"
+				"{image:enchanted_wilds:textures/questimages/precisionmechanism.png width:150 height:150 align:1}"
 				""
 				"The first Deployer should hold a &bCogwheel&r, the second a &bLarge Cogwheel&r, and the third a &bIron Nugget&r. Each mechanism must &6go through the process 5 times&r. There is only an &d80% change of receiving&r the final product."
 			]
@@ -866,7 +837,7 @@
 				""
 				"The machinery will then adopt whatever speed you &aset the Controller to&r. &6Right-click and hold on the side to configure the speed and rotation&r."
 				""
-				"{image:cottagewitch:textures/rotationalspeed.png width:150 height:150 align:1}"
+				"{image:enchanted_wilds:textures/questimages/rotationalspeed.png width:150 height:150 align:1}"
 			]
 			id: "0EBD468481C32221"
 			rewards: [{
@@ -922,7 +893,7 @@
 				"Set them up in the correct shape and provide them with &aRotational Force&r to get them going. You can feed items into them using many options - &bMechanical Arms, Hoppers, Pipez&r, or others!"
 				""
 				"You need to be sure to &6align their arrows correctly using the &bWrench&r, so that they all &aoutput to a single slot&r. This is required for them to work."
-				"{image:cottagewitch:textures/mechanicalcrafter.png width:100 height:100 align:1 fit:true}"
+				"{image:enchanted_wilds:textures/questimages/mechanicalcrafter.png width:100 height:100 align:1 fit:true}"
 				"This image is only &aone example&r of a shape you can place them in. You can do a simple 3x3 for most recipes, but &dyou'll need the above setup for the next quest&r."
 			]
 			id: "043613B0A380BAFE"
@@ -1095,7 +1066,7 @@
 				"Copycat Blocks are &lCreate’s&r version of &lFramedBlocks&r. They come in two forms, as half-slabs (steps) and panel form, both are crafted by &ausing Zinc in a Stonecutter&r. These copycat blocks differ from framed blocks because they can take the &oshape&r of certain blocks that framed blocks can’t. For example, &bIron Bars&r can be used on a &bFramed Panel&r to have the bars be &apositioned on the edge of a block rather than through the middle&r. In addition, blocks like the &bPiston&r can be put into copycat blocks while they aren’t able to be put into framed blocks."
 				""
 				"Keep in mind that the block used will &aremain in the copycat block&r. To remove the block from the copycat blocks, &aright-click the copycat block with a&r &bCreate Wrench&r."
-				"{image:cottagewitch:textures/copycatblocks.png width:100 height:70 align:1 fit:true}"
+				"{image:enchanted_wilds:textures/questimages/copycatblocks.png width:100 height:70 align:1 fit:true}"
 			]
 			id: "6133ABD925EDB8E8"
 			rewards: [
@@ -1191,7 +1162,7 @@
 			shape: "hexagon"
 			subtitle: "...or exit"
 			tasks: [{
-				id: "458A2737415D7CCA"
+				id: "1ADAAC50223C4DFC"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
@@ -1207,5 +1178,5 @@
 			y: 1.0d
 		}
 	]
-	title: "Create"
+	title: "Mechanical Magic"
 }

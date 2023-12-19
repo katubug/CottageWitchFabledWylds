@@ -15,7 +15,7 @@
 	#Makes night bag less unique by allowing you to place them normally on the ground
 	boring_night_bags = true
 	#Immediately attempt sleeping after laying down on a bed
-	sleep_immediately = false
+	sleep_immediately = true
 
 	[misc.heartstone_mod_integration]
 		#Gives some benefit when sleeping next to somebody else. By default only works in conjunction with heartstone mod

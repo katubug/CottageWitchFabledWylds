@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "wildlife"
-	group: ""
+	group: "4E9968A53CD6CA57"
 	icon: "minecraft:rabbit_hide"
 	id: "4DB925317B421272"
 	images: [
@@ -80,7 +80,7 @@
 			y: 4.5d
 		}
 	]
-	order_index: 11
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

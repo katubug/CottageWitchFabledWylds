@@ -1,0 +1,107 @@
+{
+	id: "53EA1BD79442566B"
+	loot_size: 3
+	order_index: 31
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"librarian\"]}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"fletcher\"]}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"inventor\"]}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"armorer\"]}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"leatherer\"]}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"toolsmith\"]}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"mapper\"]}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"shepherd\"]}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"butcher\"]}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"farmer\"]}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"cleric\"]}"
+				}
+			}
+		}
+	]
+	title: "Decrees"
+}

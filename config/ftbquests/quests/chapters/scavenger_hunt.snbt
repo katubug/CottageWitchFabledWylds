@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "scavenger_hunt"
-	group: ""
+	group: "691BD44222F33F05"
 	icon: "minecraft:spyglass"
 	id: "7401E53A08F6CC5E"
 	images: [{
@@ -12,13 +12,13 @@
 		dev: false
 		height: 20.0d
 		hover: [ ]
-		image: "cottagewitch:textures/bgscavengerhunt.png"
+		image: "enchanted_wilds:textures/questui/bgscavengerhunt.png"
 		rotation: 0.0d
 		width: 20.0d
 		x: 0.0d
 		y: 0.0d
 	}]
-	order_index: 6
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

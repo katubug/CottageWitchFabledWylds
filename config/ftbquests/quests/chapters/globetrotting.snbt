@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "globetrotting"
 	group: "4E9968A53CD6CA57"
-	icon: "ars_nouveau:glyph_underfoot"
+	icon: "supplementaries:globe"
 	id: "5775D7E4FB7F551A"
 	images: [
 		{

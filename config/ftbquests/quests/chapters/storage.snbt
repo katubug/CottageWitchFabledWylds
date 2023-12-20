@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "storage"
-	group: ""
+	group: "6B4E114EC6CDE8EE"
 	icon: "minecraft:chest"
 	id: "20C131FAFAF3F980"
 	images: [
@@ -13,7 +13,7 @@
 			dev: false
 			height: 15.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgstoragenetwork.png"
+			image: "enchanted_wilds:textures/questui/bgstoragenetwork.png"
 			rotation: 0.0d
 			width: 15.0d
 			x: 0.0d
@@ -25,7 +25,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgitemstransport.png"
+			image: "enchanted_wilds:textures/questui/bgitemstransport.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: 4.5d
@@ -37,51 +37,32 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgmiscpurple.png"
+			image: "enchanted_wilds:textures/questui/bgmiscpurple.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -4.5d
 			y: 4.0d
 		}
 	]
-	order_index: 7
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Oh I know, it's such a bother... your storage is just &olousy&r with &bGolden Apples&r - well worry no more, you can &acompress them&r into crates. These &bGolden Apple Crates&r can even be used to power a &bBeacon&r!"]
-			id: "58C6D8E0422110BC"
-			rewards: [
-				{
-					id: "377889882D9DFF5F"
-					item: "overweight_farming:overweight_golden_apple_block"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "34FDE83E40FA45F1"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "Some have crateness thrust upon them"
-			tasks: [{
-				count: 5L
-				id: "36726B34E435877E"
-				item: "quark:golden_apple_crate"
-				type: "item"
-			}]
-			title: "Obtain a Golden Apple Crate"
-			x: -2.5d
-			y: 2.5d
-		}
-		{
 			description: [
-				"There are a number of &ajar types&r in this modpack. This one holds liquids! Up to three buckets worth."
-				"It can hold everything from &bWater&r to &bSoups&r to even &bExperience&r."
-				"They can also function as &afish tanks&r or &acookie jars&r."
-				"Right click the jar with an empty hand to eat or drink its contents. Don't worry, you won't eat the lava."
-				"You can &aplace the jar by crouching and right clicking&r it. If you &asimply right click&r, you will instead capture small mobs such as &eSmall Slimes&r or &eBees&r."
+				"There are a number of &ajar types&r in this modpack."
+				""
+				""
+				"{image:enchanted_wilds:textures/questimages/jartypes.png width:150 height:100 align:1}"
+				""
+				"The one from &lSupplementaries&r can hold up to &athree buckets of liquid&r and can also hold &bCookies&r, or even &bBucketed Fish&r! You can &aeat edibles&r from the jar by &6right clicking&r."
+				""
+				"You can also capture small mobs such as &eSlimes&r and &eBees&r. You can &aplace the jar by crouching and right clicking&r it. If you &6simply right click&r, you will release the creature."
+				""
+				"The &bUtrem Jar&r from &lForbidden and Arcanus&r can hold &aone bucket of fluid&r."
+				""
+				"The &bJar&r from &lBakery&r can hold &bJams&r."
+				""
+				"And finally, the &bGlass Jar&r from &lMystic's Biomes&r is capable of capturing &eCaterpillars&r and &eButterflies&r! &dThis jar cannot be placed&r."
 			]
 			id: "62D95F91881F228C"
 			rewards: [{
@@ -90,11 +71,34 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			tasks: [{
-				id: "463FB873FA5E8629"
-				item: "supplementaries:jar"
-				type: "item"
-			}]
+			subtitle: "jar jar is the heart of it"
+			tasks: [
+				{
+					id: "463FB873FA5E8629"
+					item: "supplementaries:jar"
+					type: "item"
+				}
+				{
+					id: "5A6397C5950FDE9C"
+					item: "bakery:jar"
+					type: "item"
+				}
+				{
+					id: "099A1BC57E0814E2"
+					item: "forbidden_arcanus:utrem_jar"
+					type: "item"
+				}
+				{
+					id: "04993EB520479A71"
+					item: {
+						Count: 1b
+						id: "mysticsbiomes:glass_jar"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Differentiating Jars"
 			x: -3.0d
 			y: 5.5d
 		}
@@ -147,28 +151,6 @@
 			}]
 			x: -6.0d
 			y: 5.5d
-		}
-		{
-			dependencies: ["0B1646339D14D055"]
-			description: [
-				"As you could guess, the &bRing of Enderchest&r allows you to access your Ender Inventory without needing an &bEnder Chest&r."
-				"It &acannot be worn as a Curio&r but instead must be &6held and right clicked&r in order to be used."
-			]
-			id: "1EEB4AA9131B98DC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6F7ABEE64C5D9E9F"
-				table_id: 5161092699925703455L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "2741D617D6F0700F"
-				item: "ring_of_enderchest:ring_of_enderchest"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 6.5d
 		}
 		{
 			description: [

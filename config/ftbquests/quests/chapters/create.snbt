@@ -12,7 +12,7 @@
 		dev: false
 		height: 14.0625d
 		hover: [ ]
-		image: "cottagewitch:textures/bgcreate.png"
+		image: "enchanted_wilds:textures/questui/bgcreate.png"
 		rotation: 0.0d
 		width: 25.0d
 		x: 0.0d

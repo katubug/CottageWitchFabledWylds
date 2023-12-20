@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "farmers_delight"
-	group: ""
+	group: "33A91E268D63CB12"
 	icon: "farmersdelight:cooking_pot"
 	id: "1E6C7DB3D27545CE"
 	images: [{

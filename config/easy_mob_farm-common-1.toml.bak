@@ -1,0 +1,237 @@
+
+#Bo's Easy Mob Farm
+[General]
+	#Enable/Disable owner messages about full storage to avoid lagging systems.
+	informOwnerAboutFullStorage = true
+	#Enable/Disable full storage log messages for the server logs.
+	logFullStorage = true
+	#Number of roll's to get the loot preview for a captured mob. Higher numbers require more server load, but giving a more completed overview.
+	#Range: 1 ~ 5
+	lootPreviewRolls = 2
+	#Enable/Disable the drop sound for the loot drops.
+	playDropSound = true
+	#Enable/Disable the damage of the weapon item which is used for player killed drops.
+	damageWeaponItem = true
+	#The following mobs are allowed to be captured with any mob catcher and all mob farms. (Use empty list to disable!)
+	generalAllowedMobs = []
+	#The following mobs are not allowed to be captured with any mob catcher and all mob farms. (Use empty list to allow all mobs!)
+	generalDeniedMobs = ["minecraft:warden", "minecraft:wither", "minecraft:ender_dragon"]
+
+["Experience Dropping"]
+	#Defines the change of dropping experience without a weapon. (lower number = higher change)
+	#Range: 1 ~ 100
+	experienceDropChanceNoWeapon = 10
+	#Defines the change of dropping experience with a weapon. (lower number = higher change)
+	#Range: 1 ~ 100
+	experienceDropChanceWithWeapon = 5
+	#Defines the change of dropping experience with an enchanted weapon. (lower number = higher change)
+	#Range: 1 ~ 100
+	experienceDropChanceWithEnchantedWeapon = 3
+	#Defines the max amount to repair a mending weapon with experience points. (higher number = more repair)
+	#Range: 1 ~ 100
+	experienceDropMendingRepairAmount = 10
+
+["Copper Mob Farms"]
+
+	#Configuration for the copper mob farms.
+	["Copper Mob Farms"."Copper Animal Plains Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		copperAnimalPlainsFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperAnimalPlainsFarmDropSound = "minecraft:entity.chicken.egg"
+		#Supported Mobs for the animal plains farm. (Use empty list to allow all mobs.)
+		copperAnimalPlainsFarmAllowedMobs = ["minecraft:cow", "minecraft:chicken", "minecraft:donkey", "minecraft:pig", "minecraft:horse", "minecraft:sheep"]
+		#Denied Mobs for the animal plains farm.
+		copperAnimalPlainsFarmDeniedMobs = []
+
+	["Copper Mob Farms"."Copper Bee Hive Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		copperBeeHiveFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperBeeHiveFarmDropSound = "minecraft:block.beehive.exit"
+		#Supported Mobs for the bee hive farm. (Use empty list to allow all mobs.)
+		copperBeeHiveFarmAllowedMobs = ["productivebees:glowing_bee", "productivebees:copper_bee", "productivebees:gold_bee", "productivebees:brass_bee", "productivebees:emerald_bee", "productivebees:plastic_bee", "productivebees:iron_bee", "productivebees:spawn_egg_configurable_bee", "productivebees:red_shroom_bee", "productivebees:redstone_bee", "productivebees:chocolate_mining_bee", "productivebees:salty_bee", "productivebees:withered_bee", "productivebees:coal_bee", "productivebees:rancher_bee", "productivebees:creeper_bee", "productivebees:ghostly_bee", "productivebees:radioactive_bee", "productivebees:magmatic_bee", "minecraft:bee", "productivebees:lapis_bee", "productivebees:steel_bee", "productivebees:slimy_bee", "productivebees:configurable_bee", "productivebees:experience_bee", "productivebees:draconic_bee", "productivebees:silky_bee", "productivebees:blazing_bee", "productivebees:elementium_bee", "productivebees:skeletal_bee", "productivebees:zinc_bee", "productivebees:brown_shroom_bee", "productivebees:frosty_bee", "productivebees:obsidian_bee", "productivebees:ender_bee", "productivebees:zombie_bee", "productivebees:tea_bee", "productivebees:ametrine_bee", "productivebees:diamond_bee", "productivebees:crystalline_bee", "productivebees:prismarine_bee", "productivebees:pink_slimy_bee", "productivebees:terrasteel_bee", "productivebees:amethyst_bee"]
+		#Denied Mobs for the bee hive farm.
+		copperBeeHiveFarmDeniedMobs = []
+
+	["Copper Mob Farms"."Copper Desert Farm"]
+		#Defines after how many seconds a drop is performed.
+		#Range: 10 ~ 3600
+		copperDesertFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperDesertFarmDropSound = "minecraft:block.sand.hit"
+		#Supported Mobs for the desert farm. (Use empty list to allow all mobs.)
+		copperDesertFarmAllowedMobs = ["minecraft:skeleton", "minecraft:enderman", "minecraft:witch", "minecraft:spider", "minecraft:zombie", "minecraft:creeper", "minecraft:zombie_villager", "minecraft:husk", "minecraft:rabbit"]
+		#Denied Mobs for the desert farm.
+		copperDesertFarmDeniedMobs = []
+
+	["Copper Mob Farms"."Copper Jungle Farm"]
+		#Defines after how many seconds a drop is performed.
+		#Range: 10 ~ 3600
+		copperJungleFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperJungleFarmDropSound = "minecraft:block.azalea.hit"
+		#Supported Mobs for the jungle farm. (Use empty list to allow all mobs.)
+		copperJungleFarmAllowedMobs = ["minecraft:skeleton", "minecraft:witch", "minecraft:pig", "minecraft:sheep", "minecraft:parrot", "minecraft:cow", "minecraft:enderman", "minecraft:chicken", "minecraft:spider", "minecraft:zombie", "minecraft:creeper", "minecraft:panda", "minecraft:zombie_villager", "minecraft:slime"]
+		#Denied Mobs for the jungle farm.
+		copperJungleFarmDeniedMobs = []
+
+	["Copper Mob Farms"."Copper Monster Plains Cave Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		copperMonsterPlainsCaveFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperMonsterPlainsCaveFarmDropSound = "minecraft:block.cave_vines.fall"
+		#Supported Mobs for the plains cave farm. (Use empty list to allow all mobs.)
+		copperMonsterPlainsCaveFarmAllowedMobs = ["minecraft:cave_spider", "minecraft:skeleton", "minecraft:enderman", "minecraft:witch", "minecraft:zombie", "minecraft:creeper", "minecraft:zombie_villager", "minecraft:slime"]
+		#Denied Mobs for the plains cave farm.
+		copperMonsterPlainsCaveFarmDeniedMobs = []
+
+	["Copper Mob Farms"."Copper Nether Fortress Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		copperNetherFortressFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperNetherFortressFarmDropSound = "minecraft:block.netherrack.fall"
+		#Supported Mobs for the nether farm. (Use empty list to allow all mobs.)
+		copperNetherFortressFarmAllowedMobs = ["minecraft:blaze", "minecraft:skeleton", "minecraft:zombified_piglin", "minecraft:magma_cube", "minecraft:wither_skeleton"]
+		#Denied Mobs for the nether farm.
+		copperNetherFortressFarmDeniedMobs = []
+
+	["Copper Mob Farms"."Copper Ocean Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		copperOceanFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperOceanFarmDropSound = "minecraft:entity.fish.swim"
+		#Supported Mobs for the ocean farm. (Use empty list to allow all mobs.)
+		copperOceanFarmAllowedMobs = ["minecraft:cod", "minecraft:salmon", "aquaculture:pacific_halibut", "aquaculture:pink_salmon", "aquaculture:atlantic_herring", "minecraft:squid", "aquaculture:atlantic_halibut", "aquaculture:blackfish", "minecraft:glow_squid", "aquaculture:pollock", "aquaculture:rainbow_trout", "minecraft:drowned", "aquaculture:atlantic_cod"]
+		#Denied Mobs for the ocean farm.
+		copperOceanFarmDeniedMobs = []
+
+	["Copper Mob Farms"."Copper Swamp Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		copperSwampFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperSwampFarmDropSound = "minecraft:entity.slime.squish"
+		#Supported Mobs for the swamp farm. (Use empty list to allow all mobs.)
+		copperSwampFarmAllowedMobs = ["minecraft:cow", "minecraft:witch", "minecraft:chicken", "minecraft:spider", "minecraft:zombie", "minecraft:pig", "minecraft:zombie_villager", "minecraft:sheep", "minecraft:slime"]
+		#Denied Mobs for the swamp farm.
+		copperSwampFarmDeniedMobs = []
+
+["Iron Mob Farms"]
+
+	#Configuration for the iron mob farms.
+	["Iron Mob Farms"."Iron Animal Plains Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironAnimalPlainsFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironAnimalPlainsFarmDropSound = "minecraft:entity.chicken.egg"
+		#Supported Mobs for the animal plains farm. (Use empty list to allow all mobs.)
+		ironAnimalPlainsFarmAllowedMobs = ["minecraft:cow", "minecraft:chicken", "minecraft:donkey", "minecraft:pig", "minecraft:horse", "minecraft:sheep"]
+		#Denied Mobs for the animal plains farm.
+		ironAnimalPlainsFarmDeniedMobs = []
+
+	["Iron Mob Farms"."Iron Bee Hive Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironBeeHiveFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironBeeHiveFarmDropSound = "minecraft:block.beehive.exit"
+		#Supported Mobs for the bee hive farm. (Use empty list to allow all mobs.)
+		ironBeeHiveFarmAllowedMobs = ["productivebees:glowing_bee", "productivebees:copper_bee", "productivebees:gold_bee", "productivebees:brass_bee", "productivebees:emerald_bee", "productivebees:plastic_bee", "productivebees:iron_bee", "productivebees:spawn_egg_configurable_bee", "productivebees:red_shroom_bee", "productivebees:redstone_bee", "productivebees:chocolate_mining_bee", "productivebees:salty_bee", "productivebees:withered_bee", "productivebees:coal_bee", "productivebees:rancher_bee", "productivebees:creeper_bee", "productivebees:ghostly_bee", "productivebees:radioactive_bee", "productivebees:magmatic_bee", "minecraft:bee", "productivebees:lapis_bee", "productivebees:steel_bee", "productivebees:slimy_bee", "productivebees:configurable_bee", "productivebees:experience_bee", "productivebees:draconic_bee", "productivebees:silky_bee", "productivebees:blazing_bee", "productivebees:elementium_bee", "productivebees:skeletal_bee", "productivebees:zinc_bee", "productivebees:brown_shroom_bee", "productivebees:frosty_bee", "productivebees:obsidian_bee", "productivebees:ender_bee", "productivebees:zombie_bee", "productivebees:tea_bee", "productivebees:ametrine_bee", "productivebees:diamond_bee", "productivebees:crystalline_bee", "productivebees:prismarine_bee", "productivebees:pink_slimy_bee", "productivebees:terrasteel_bee", "productivebees:amethyst_bee"]
+		#Denied Mobs for the bee hive farm.
+		ironBeeHiveFarmDeniedMobs = []
+
+	["Iron Mob Farms"."Iron Desert Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironDesertFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironDesertFarmDropSound = "minecraft:block.sand.hit"
+		#Supported Mobs for the desert farm. (Use empty list to allow all mobs.)
+		ironDesertFarmAllowedMobs = ["minecraft:skeleton", "minecraft:enderman", "minecraft:witch", "minecraft:spider", "minecraft:zombie", "minecraft:creeper", "minecraft:zombie_villager", "minecraft:husk", "minecraft:rabbit"]
+		#Denied Mobs for the desert farm.
+		ironDesertFarmDeniedMobs = []
+
+	["Iron Mob Farms"."Iron Jungle Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironJungleFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironJungleFarmDropSound = "minecraft:block.azalea.hit"
+		#Supported Mobs for the jungle farm. (Use empty list to allow all mobs.)
+		ironJungleFarmAllowedMobs = ["minecraft:skeleton", "minecraft:witch", "minecraft:pig", "minecraft:sheep", "minecraft:parrot", "minecraft:cow", "minecraft:enderman", "minecraft:chicken", "minecraft:spider", "minecraft:zombie", "minecraft:creeper", "minecraft:panda", "minecraft:zombie_villager", "minecraft:slime"]
+		#Denied Mobs for the jungle farm.
+		ironJungleFarmDeniedMobs = []
+
+	["Iron Mob Farms"."Iron Monster Plains Cave Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironMonsterPlainsCaveFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironMonsterPlainsCaveFarmDropSound = "minecraft:block.cave_vines.fall"
+		#Supported Mobs for the plains cave farm. (Use empty list to allow all mobs.)
+		ironMonsterPlainsCaveFarmAllowedMobs = ["minecraft:cave_spider", "minecraft:skeleton", "minecraft:enderman", "minecraft:witch", "minecraft:zombie", "minecraft:creeper", "minecraft:zombie_villager", "minecraft:slime"]
+		#Denied Mobs for the plains cave farm.
+		ironMonsterPlainsCaveFarmDeniedMobs = []
+
+	["Iron Mob Farms"."Iron Nether Fortress Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironNetherFortressFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironNetherFortressFarmDropSound = "minecraft:block.netherrack.fall"
+		#Supported Mobs for the nether farm. (Use empty list to allow all mobs.)
+		ironNetherFortressFarmAllowedMobs = ["minecraft:blaze", "minecraft:skeleton", "minecraft:zombified_piglin", "minecraft:magma_cube", "minecraft:wither_skeleton"]
+		#Denied Mobs for the nether farm.
+		ironNetherFortressFarmDeniedMobs = []
+
+	["Iron Mob Farms"."Iron Ocean Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironOceanFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironOceanFarmDropSound = "minecraft:entity.fish.swim"
+		#Supported Mobs for the ocean farm. (Use empty list to allow all mobs.)
+		ironOceanFarmAllowedMobs = ["minecraft:cod", "minecraft:salmon", "aquaculture:pacific_halibut", "aquaculture:pink_salmon", "aquaculture:atlantic_herring", "minecraft:squid", "aquaculture:atlantic_halibut", "aquaculture:blackfish", "minecraft:glow_squid", "aquaculture:pollock", "aquaculture:rainbow_trout", "minecraft:drowned", "aquaculture:atlantic_cod"]
+		#Denied Mobs for the ocean farm.
+		ironOceanFarmDeniedMobs = []
+
+	["Iron Mob Farms"."Iron Swamp Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironSwampFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironSwampFarmDropSound = "minecraft:entity.slime.squish"
+		#Supported Mobs for the swamp farm. (Use empty list to allow all mobs.)
+		ironSwampFarmAllowedMobs = ["minecraft:cow", "minecraft:witch", "minecraft:chicken", "minecraft:spider", "minecraft:zombie", "minecraft:pig", "minecraft:zombie_villager", "minecraft:sheep", "minecraft:slime"]
+		#Denied Mobs for the swamp farm.
+		ironSwampFarmDeniedMobs = []
+
+["Gold Mob Farms"]
+
+	#Configuration for the gold mob farms.
+	["Gold Mob Farms"."Gold Animal Plains Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		goldAnimalPlainsFarmProcessTime = 150
+		#Defines the sound which is played when a loot drop is performed.
+		goldAnimalPlainsFarmDropSound = "minecraft:entity.chicken.egg"
+		#Supported Mobs for the animal plains farm. (Use empty list to allow all mobs.)
+		goldAnimalPlainsFarmAllowedMobs = ["minecraft:cow", "minecraft:chicken", "minecraft:donkey", "minecraft:pig", "minecraft:horse", "minecraft:sheep"]
+		#Denied Mobs for the animal plains farm.
+		goldAnimalPlainsFarmDeniedMobs = []
+
+	["Gold Mob Farms"."Gold Bee Hive Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		goldBeeHiveFarmProcessTime = 150
+		#Defines the sound which is played when a loot drop is performed.
+		goldBeeHiveFarmDropSound = "minecraft:block.beehive.exit"
+		#Supported Mobs for the bee hive farm. (Use empty list to allow all mobs.)
+		goldBeeHiveFarmAllowedMobs = ["productivebees:glowing_bee", "productivebees:copper_bee", "productivebees:gold_bee", "productivebees:brass_bee", "productivebees:emerald_bee", "productivebees:plastic_bee", "productivebees:iron_bee", "productivebee

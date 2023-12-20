@@ -12,7 +12,7 @@
 		dev: false
 		height: 10.0d
 		hover: [ ]
-		image: "cottagewitch:textures/bgtheend.png"
+		image: "enchanted_wilds:textures/questui/bgtheend.png"
 		rotation: 0.0d
 		width: 20.0d
 		x: 0.0d

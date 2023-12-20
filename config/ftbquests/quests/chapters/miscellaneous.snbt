@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "miscellaneous"
-	group: ""
+	group: "691BD44222F33F05"
 	icon: "minecraft:bookshelf"
 	id: "0F5FCDF7AD60349B"
 	images: [
@@ -13,7 +13,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgcommerce.png"
+			image: "enchanted_wilds:textures/questui/bgcommerce.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: 4.5d
@@ -25,7 +25,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgautomation.png"
+			image: "enchanted_wilds:textures/questui/bgautomation.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -4.5d
@@ -37,75 +37,16 @@
 			dev: false
 			height: 11.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgmiscteal.png"
+			image: "enchanted_wilds:textures/questui/bgmiscteal.png"
 			rotation: 0.0d
 			width: 11.0d
 			x: 0.0d
 			y: 4.5d
 		}
 	]
-	order_index: 5
+	order_index: 2
 	quest_links: [ ]
 	quests: [
-		{
-			description: [
-				"You can send letters and packages to your friends! You can &asend and receive mail&r using a &bSnailbox&r. Placing it down claims it, and you can even give it a name by &6right clicking on it&r and entering text in the name field."
-				""
-				"For more information, &6please click to the next page&r."
-				""
-				"{@pagebreak}"
-				""
-				"To &asend mail&r, you'll need a &bStamp&r and an &bOpen Envelope&r. These envelopes can be reused, so they're good for the environment. &6Place the Envelope in the upper right of the &bSnailbox&r. Then click &6\"Open Envelope&r.\""
-				""
-				"{image:cottagewitch:textures/snailmail1.png width:210 height:275 align:1}"
-				""
-				"{@pagebreak}"
-				""
-				"In here, you can put your mail! You can send &bphotos, items, and more&r! To include a message, use a &bBook and Quill&r. &aDon't forget to add a Stamp&r! Enter the name of the recipient, your name if desired, and then &6Hit Esc to go back to the previous window&r!"
-				""
-				"{image:cottagewitch:textures/snailmail2.png width:250 height:200 align:1}"
-				""
-				"{@pagebreak}"
-				""
-				"Once you've hit &dEsc&r, you can &aselect the Snailbox to send to&r, and ta-da! You're done!"
-				""
-				"{image:cottagewitch:textures/snailmail3.png width:250 height:80 align:1}"
-				""
-				"{image:cottagewitch:textures/snailmail4.png width:250 height:150 align:1}"
-			]
-			id: "476D80268DFAFC7A"
-			min_width: 300
-			rewards: [
-				{
-					count: 4
-					id: "0599A3D734B1522D"
-					item: "snailmail:stamp"
-					type: "item"
-				}
-				{
-					id: "792EE14262BC256A"
-					item: "snailmail:snail_box"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2BD1D64752FC1F78"
-					table_id: 2068679807827730220L
-					type: "choice"
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "A way to communicate in multiplayer"
-			tasks: [{
-				id: "47B16BD50607E0B8"
-				item: "snailmail:stamp"
-				type: "item"
-			}]
-			title: "Snail Mail"
-			x: -3.25d
-			y: 4.5d
-		}
 		{
 			description: [
 				"The &bSandcastle&r can be placed over &bTurtle Eggs&r in order to protect them from Zombies."
@@ -383,32 +324,6 @@
 			y: 5.5d
 		}
 		{
-			description: [
-				"Have you ever fallen in love with the color palette of one biome, but your base is somewhere else entirely? Well, worry not! With &bBiome Jars&r, you can &6pick up the biome and transport it!&r"
-				""
-				"Right click the &bBiome Jar&r on the ground of the biome you want to take. Wait just long enough to go - \"Is this worki -\""
-				""
-				"&l&dBANG!&r Yes, it's working! Once it completes its capture, you can &6right click it&r to pick it back up."
-				""
-				"Then, take your jar and &6right click it&r on the area you want to transfer the new biome to."
-			]
-			id: "642A47408175527E"
-			rewards: [{
-				id: "4D09F6B82F4DBEC7"
-				item: "biomesinjars:empty_biome_jar"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1AFEF35775412EB5"
-				item: "biomesinjars:empty_biome_jar"
-				type: "item"
-			}]
-			title: "Take Your Biomes With You"
-			x: -3.5d
-			y: 6.5d
-		}
-		{
 			dependencies: ["70C4F17973F6492E"]
 			description: [
 				"Villagers who have &abeen zombified and then cured&r will offer &asignificant discounts&r."
@@ -496,8 +411,8 @@
 					type: "random"
 				}
 				{
-					id: "085B97D1A7BA8CA9"
-					item: "plushies:llama"
+					id: "15682A41F4881B63"
+					item: "plushies:llama_plushie"
 					type: "item"
 				}
 			]
@@ -1073,42 +988,6 @@
 			y: 7.5d
 		}
 		{
-			description: [
-				"Although not all mermaids are witches, there are some &anotable examples of some which are&r. You, too, can keep a creepy garden under the sea with the help of the &bSea Necklace&r, which will equip you with a &atail all your own!&r It will also &agrant you swim speed bonuses&r and the &aability to breathe&r underwater indefinitely."
-				"To craft it, you'll need a &bSea Crystal&r, which you can craft with a little luck at treasure-hunting!"
-			]
-			id: "3E72CBC6D658F80E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4CAC99596EA711E2"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "26096232AA71A2BA"
-					table_id: 7737096167250795605L
-					type: "loot"
-				}
-			]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "03E158B19D645A2D"
-				item: {
-					Count: 1b
-					id: "endrem:guardian_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Sea Witch"
-			x: -1.0d
-			y: 4.5d
-		}
-		{
 			dependencies: ["70C4F17973F6492E"]
 			description: [
 				"If you're playing with others, you can use Bartering Stations from the &lShoppy&r mod to &asell items to one another&r!"
@@ -1141,178 +1020,6 @@
 			title: "Multiplayer Bartering"
 			x: 6.5d
 			y: -2.5d
-		}
-		{
-			dependencies: ["3E72CBC6D658F80E"]
-			description: [
-				"Now that you've gotten your first &bSea Crystal&r, you can craft it into a &bSea Necklace&r. This can be worn in your &achest slot&r or &aas a curio&r."
-				""
-				"Equipping the necklace will &aturn you into a mermaid while in water&r. This will allow you to &aswim quickly&r and &abreathe underwater&r."
-				""
-				"You can also upgrade your appearance by crafting the &bNecklace&r with &bupgrade items&r."
-				""
-				"You can dye your tail by &6crafting the &bNecklace&r with different dyes, just like leather armor."
-				""
-				"To &dremove dyes or upgrades&r, you need to &6hold the necklace&r in your hand and &6right click&r."
-			]
-			id: "32235F4557C97245"
-			rewards: [
-				{
-					id: "0F690C1236A49A15"
-					item: "minecraft:nautilus_shell"
-					type: "item"
-				}
-				{
-					id: "461207DF6A2508FE"
-					item: "minecraft:sea_lantern"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "23BFAEDC1538A8A9"
-					table_id: 7737096167250795605L
-					type: "choice"
-				}
-			]
-			subtitle: "see? crystal!"
-			tasks: [{
-				id: "05B780BD03A97741"
-				item: "mermod:sea_crystal"
-				type: "item"
-			}]
-			title: "Obtain a Sea Crystal"
-			x: -1.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["32235F4557C97245"]
-			description: ["This &bGlowing Pearl&r will make your mermaid top and tail shimmer as if &aenchanted&r!"]
-			id: "446D2A3C8B066099"
-			rewards: [
-				{
-					id: "4CF4355BEF3A17A7"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3243A0BCFBBE9088"
-					table_id: 7737096167250795605L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "1AC3BC2BA93D897A"
-				item: "mermod:glowing_pearl_modifier"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["32235F4557C97245"]
-			description: ["Use this item to look like you're in h2o: Just Add Water!"]
-			id: "2ABFB8A3E57C7F1A"
-			rewards: [
-				{
-					id: "21B44FA4EEDD6CA4"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "091048E071EEA686"
-					table_id: 7737096167250795605L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "0E0F18FDDDB3CAF0"
-				item: "mermod:moon_rock_modifier"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["32235F4557C97245"]
-			description: ["Once you've dyed your tail, you can &aadd a gradient&r by &6crafting this item with &bdye&r and then &6crafting it with your necklace&r."]
-			id: "082F39C7CD7A47D9"
-			rewards: [
-				{
-					id: "795FD36AE1F0BEEC"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3C225D04F4170902"
-					table_id: 7737096167250795605L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "608D1D285D7168E6"
-				item: "mermod:tail_gradient_modifier"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["32235F4557C97245"]
-			description: ["Want to be the Little Mermaid? This upgrade will &agive you Ariel's appearance&r."]
-			id: "3C874A7A82622DA3"
-			rewards: [
-				{
-					id: "2E27FE9F048B7753"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "07B566F63959453C"
-					table_id: 7737096167250795605L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "39623CFEA41CA5EA"
-				item: "mermod:ursula_shell_modifier"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["32235F4557C97245"]
-			description: ["Craft your necklace with this accessory to &aadd a bra to your mermaid look&r!"]
-			id: "7F994A9008E7F84D"
-			rewards: [
-				{
-					id: "3E4A0B59D9F7119E"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7062C9F173E6EBA9"
-					table_id: 7737096167250795605L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "4F0676809027358D"
-				item: "mermod:mermaid_bra_modifier"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 8.0d
 		}
 		{
 			description: [
@@ -1442,42 +1149,6 @@
 			}]
 			x: 1.0d
 			y: 3.5d
-		}
-		{
-			dependencies: ["70C4F17973F6492E"]
-			description: [
-				"Wanna buy some shrooms? You're in luck! The &eMushroom Trader&r is a unique villager who will trade you &ainteresting mushrooms and blocks&r in exchange for &bEmeralds&r."
-				""
-				"{image:cottagewitch:textures/mushroomtrader.png width:100 height:150 align:1}"
-				""
-				"But despite his grisly appearance, you &acannot Shear him&r, as that would be quite rude."
-			]
-			id: "7264C3A1D00DF2D4"
-			rewards: [
-				{
-					id: "31C90F4B56471882"
-					item: "biomemakeover:glowshroom_stew"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "106D05E1953195AC"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-			]
-			shape: "heart"
-			tasks: [{
-				icon: "minecraft:red_mushroom"
-				id: "72C16E75AC8D71FD"
-				observe_type: 5
-				timer: 0L
-				to_observe: "biomemakeover:mushroom_trader"
-				type: "observation"
-			}]
-			title: "Meet the Mushroom Trader"
-			x: 2.0d
-			y: -4.0d
 		}
 		{
 			description: [

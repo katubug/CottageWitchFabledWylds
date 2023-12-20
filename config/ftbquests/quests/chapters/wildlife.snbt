@@ -13,7 +13,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgtameable.png"
+			image: "enchanted_wilds:textures/questui/bgtameable.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -9.0d
@@ -25,7 +25,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgneutral.png"
+			image: "enchanted_wilds:textures/questui/bgneutral.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 9.0d
@@ -37,7 +37,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgwyldhunts.png"
+			image: "enchanted_wilds:textures/questui/bgwyldhunts.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 9.0d
@@ -49,7 +49,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgpetslivestock.png"
+			image: "enchanted_wilds:textures/questui/bgpetslivestock.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.0d
@@ -61,7 +61,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgmonsters.png"
+			image: "enchanted_wilds:textures/questui/bgmonsters.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.0d
@@ -73,7 +73,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgmythicmounts.png"
+			image: "enchanted_wilds:textures/questui/bgmythicmounts.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -9.0d
@@ -1973,6 +1973,36 @@
 			title: "Meet the Żar-ptak"
 			x: -9.0d
 			y: 3.5d
+		}
+		{
+			description: [
+				"&eSnails&r are delightful creatures. They can be found in &cTaigas&r and &cOld Growth Pine/Spruce Taigas&r."
+				""
+				"If hit with a melee attack, they will &aretreat into their shell&r and only &amighty attacks&r can break through them. However, if you &6shoot one with a projectile&r, they will drop their &bShell&r (which will regrow over time)."
+				""
+				"&bSnail Shells&r are useful, as they can be used to create &bBonemeal&r, or craft &bPotted Sweet Berry Bushes&r. They can also be used to make &bbuilding blocks&r, or even &bEscargot&r! Which, by the way, tastes just like mussels."
+				""
+				"&eSnails&r can be bred by feeding them &bSweet Berries&r."
+				""
+				"They also produce &bMucus&r when wet. This substance &aslows down mobs&r, or collected and &aturned into &bSlime&r, or &bMucus Blocks&r. These blocks slow mobs down as well, and can be &asolidified&r by exposing them to water. &aI wonder what happens if you use &bPhantom Membrane&r on them?"
+			]
+			id: "4D6A9260EB896658"
+			rewards: [{
+				id: "2AABFB5AC66E2263"
+				item: "spawn:snail_shell"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "spawn:snail_shell"
+				id: "15AF02F3CCD91E50"
+				observe_type: 5
+				timer: 0L
+				to_observe: "spawn:snail"
+				type: "observation"
+			}]
+			title: "Meet the Snail"
+			x: 7.5d
+			y: -12.0d
 		}
 	]
 	title: "Wildlife"

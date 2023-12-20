@@ -228,6 +228,149 @@ ServerEvents.recipes(event => {
         }
     )
 
-  })
+    // Lead Doors
+    event.shaped(
+        Item.of('dramaticdoors:short_lead_door'),
+        [
+            'AA ',
+            'AA '
+        ],
+        {
+            A: 'eidolon:lead_ingot',
+        }
+    )
 
-  
+    event.shaped(
+        Item.of('dramaticdoors:tall_lead_door'),
+        [
+            'AA ',
+            'AA ',
+            'AA '
+        ],
+        {
+            A: 'eidolon:lead_ingot',
+        }
+    )
+
+    // Silver Doors
+    event.shaped(
+        Item.of('dramaticdoors:short_silver_door'),
+        [
+            'AA ',
+            'AA '
+        ],
+        {
+            A: 'eidolon:silver_ingot',
+        }
+    )
+
+    event.shaped(
+        Item.of('dramaticdoors:tall_silver_door'),
+        [
+            'AA ',
+            'AA ',
+            'AA '
+        ],
+        {
+            A: 'eidolon:silver_ingot',
+        }
+    )
+
+    // Building Gadgets
+
+    //Building Gadget
+    event.shaped(
+        Item.of('buildinggadgets2:gadget_building', '{energy:500000,uuid:[I;-263423233,125847530,-2089373063,1330860108]}'),
+        [
+            'ABA',
+            'CBC',
+            'ADA'
+        ],
+        {
+            A: 'create:brass_ingot',
+            B: 'minecraft:redstone',
+            C: 'minecraft:diamond',
+            D: 'minecraft:lapis_lazuli'
+        }
+    )
+
+    //Exchanging Gadget
+    event.shaped(
+        Item.of('buildinggadgets2:gadget_exchanging', '{energy:500000,uuid:[I;2068449905,-191871022,-1763510008,-1044204975]}'),        [
+            'ABA',
+            'CDC',
+            'ADA'
+        ],
+        {
+            A: 'create:brass_ingot',
+            B: 'minecraft:redstone',
+            C: 'minecraft:diamond',
+            D: 'minecraft:lapis_lazuli'
+        }
+    )
+
+    //Copy Paste Gadget
+    event.shaped(
+        Item.of('buildinggadgets2:gadget_copy_paste', '{energy:500000.0d,mode:0b,template_id:[I;-1758435112,-1217443030,-1679697278,2082124584]}'),        
+        [
+            'ABA',
+            'CBC',
+            'ADA'
+        ],
+        {
+            A: 'create:brass_ingot',
+            B: 'minecraft:redstone',
+            C: 'minecraft:emerald',
+            D: 'minecraft:lapis_lazuli'
+        }
+    )
+
+    //Destruction Gadget
+    event.shaped(
+        Item.of('buildinggadgets2:gadget_destruction', '{energy:1000000.0d,fuzzy:1b,overlay:1b}'),
+        [
+            'ABA',
+            'CBC',
+            'ADA'
+        ],
+        {
+            A: 'create:brass_ingot',
+            B: 'minecraft:redstone',
+            C: 'minecraft:ender_pearl',
+            D: 'minecraft:lapis_lazuli'
+        }
+    )
+
+    // BG Charging Gadget
+    event.shaped(
+        Item.of('charginggadgets:charging_station'),
+        [
+            'ABA',
+            'DBD',
+            'ACA'
+        ],
+        {
+            A: 'minecraft:gold_ingot',
+            B: 'minecraft:redstone',
+            C: 'minecraft:coal_block',
+            D: 'minecraft:lapis_lazuli'
+        }
+    )
+
+    // BG Template Manager
+    event.shaped(
+        Item.of('buildinggadgets2:template_manager'),
+        [
+            'ABA',
+            'BCB',
+            'ADA'
+        ],
+        {
+            A: 'minecraft:copper_ingot',
+            B: 'minecraft:redstone',
+            C: 'minecraft:emerald',
+            D: 'minecraft:lapis_lazuli'
+        }
+    )
+
+  })

@@ -6,7 +6,7 @@
 	group: "33A91E268D63CB12"
 	icon: "farmersdelight:wild_onions"
 	id: "2AE38D06E2487812"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

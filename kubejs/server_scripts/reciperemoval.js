@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
         {output: 'nameless_trinkets:four_leaf_clover'},
         {output: 'reliquary:rending_gale'},
         {output: 'mysticsbiomes:strawberry_jam'},
-        {output: 'mysticsbiomes:glass_jar'},
+        //{output: 'mysticsbiomes:glass_jar'},
         {output: 'bakery:dough'},
         {output: 'candlelight:dough'},
         {output: 'create:dough'},
@@ -70,6 +70,8 @@ ServerEvents.recipes(event => {
         //{output: 'untameddelight:baked_trevally_with_cheese'},
         {output: 'luphieclutteredmod:luphie_mermaid_pearl'},
         {output: 'meadow:oil_lantern'},
+        {output: 'buildinggadgets:template_manager'},
+        {output: 'charginggadgets:charging_station'},
     ];
     
       for (const remove of toRemove) {

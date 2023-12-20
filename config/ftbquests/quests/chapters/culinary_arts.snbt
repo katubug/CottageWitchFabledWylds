@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "culinary_arts"
-	group: ""
+	group: "33A91E268D63CB12"
 	icon: "nethersdelight:stuffed_hoglin"
 	id: "305A3D4D3A205E4A"
 	images: [
@@ -13,7 +13,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgnetherdelight.png"
+			image: "enchanted_wilds:textures/questui/bgnetherdelight.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 10.0d
@@ -25,7 +25,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgteaandsundry.png"
+			image: "enchanted_wilds:textures/questui/bgteaandsundry.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -10.0d
@@ -37,7 +37,7 @@
 			dev: false
 			height: 13.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgspiceoflife.png"
+			image: "enchanted_wilds:textures/questui/bgspiceoflife.png"
 			rotation: 0.0d
 			width: 13.0d
 			x: 0.0d
@@ -49,7 +49,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgcookingpot.png"
+			image: "enchanted_wilds:textures/questui/bgcookingpot.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -10.5d
@@ -61,7 +61,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgcheesemaking.png"
+			image: "enchanted_wilds:textures/questui/bgcheesemaking.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 10.5d
@@ -73,7 +73,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgenddelight.png"
+			image: "enchanted_wilds:textures/questui/bgenddelight.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 5.0d
@@ -85,7 +85,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgwinery.png"
+			image: "enchanted_wilds:textures/questui/bgwinery.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -4.5d

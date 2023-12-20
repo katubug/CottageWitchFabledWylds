@@ -3,7 +3,7 @@
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "combat__gear"
-	group: ""
+	group: "6B4E114EC6CDE8EE"
 	icon: {
 		Count: 1b
 		id: "minecraft:diamond_chestplate"
@@ -19,7 +19,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgcurios.png"
+			image: "enchanted_wilds:textures/questui/bgcurios.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: 4.0d
@@ -31,7 +31,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgarmor.png"
+			image: "enchanted_wilds:textures/questui/bgarmor.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -4.0d
@@ -43,7 +43,7 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgitemsmisc.png"
+			image: "enchanted_wilds:textures/questui/bgitemsmisc.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -4.0d
@@ -55,14 +55,14 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgweaponsitems.png"
+			image: "enchanted_wilds:textures/questui/bgweaponsitems.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: 4.0d
 			y: -5.0d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

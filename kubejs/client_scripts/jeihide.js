@@ -89,7 +89,7 @@ JEIEvents.hideItems(event => {
         'reliquary:rending_gale',
         'mysticsbiomes:strawberry',
         'mysticsbiomes:strawberry_jam',
-        'mysticsbiomes:glass_jar',
+        //'mysticsbiomes:glass_jar',
         'bakery:dough',
         'candlelight:dough',
         'create:dough',
@@ -104,7 +104,15 @@ JEIEvents.hideItems(event => {
 
     ];
     
-      for (const hide of toHide) {
-        event.hide(hide);
-    }
+    for (const hide of toHide) {
+      event.hide(hide);
+  }
+})
+
+JEIEvents.addItems(event => {
+    event.add(Item.of('buildinggadgets2:gadget_building', '{energy:500000,uuid:[I;-263423233,125847530,-2089373063,1330860108]}'))
+    event.add(Item.of('buildinggadgets2:gadget_exchanging', '{energy:500000,uuid:[I;2068449905,-191871022,-1763510008,-1044204975]}'))
+    event.add(Item.of('buildinggadgets2:gadget_copy_paste', '{energy:1000000}'))
+    event.add(Item.of('buildinggadgets2:gadget_cut_paste', '{energy:5000000,pastereplace:1b}'))
+    event.add(Item.of('buildinggadgets2:gadget_destruction', '{energy:1000000}'))
 })

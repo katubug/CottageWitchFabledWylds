@@ -101,18 +101,30 @@ JEIEvents.hideItems(event => {
         'candlelight:carrot_crate', 
         'candlelight:potato_crate', 
         'candlelight:beetroot_crate',
-
+        'extra_compat:reinforced_gold_knife',
     ];
     
     for (const hide of toHide) {
       event.hide(hide);
   }
 })
-
+/*
 JEIEvents.addItems(event => {
     event.add(Item.of('buildinggadgets2:gadget_building', '{energy:500000,uuid:[I;-263423233,125847530,-2089373063,1330860108]}'))
     event.add(Item.of('buildinggadgets2:gadget_exchanging', '{energy:500000,uuid:[I;2068449905,-191871022,-1763510008,-1044204975]}'))
     event.add(Item.of('buildinggadgets2:gadget_copy_paste', '{energy:1000000}'))
     event.add(Item.of('buildinggadgets2:gadget_cut_paste', '{energy:5000000,pastereplace:1b}'))
     event.add(Item.of('buildinggadgets2:gadget_destruction', '{energy:1000000}'))
+})
+*/
+
+ClientEvents.onAddItems(event => {
+    // Add individual items
+    event.addItem('buildinggadgets2:gadget_building', '{energy:500000,uuid:[I;-263423233,125847530,-2089373063,1330860108]}');
+    event.addItem('buildinggadgets2:gadget_exchanging', '{energy:500000,uuid:[I;2068449905,-191871022,-1763510008,-1044204975]}');
+    event.addItem('buildinggadgets2:gadget_copy_paste', '{energy:1000000}');
+    event.addItem('buildinggadgets2:gadget_cut_paste', '{energy:5000000,pastereplace:1b}');
+    event.addItem('buildinggadgets2:gadget_destruction', '{energy:1000000}');
+
+    // Add more items as needed
 })

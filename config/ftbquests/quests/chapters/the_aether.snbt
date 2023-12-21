@@ -30,11 +30,11 @@
 				type: "item"
 			}]
 			title: "An Aethereal Dust"
-			x: -7.0d
+			x: -10.0d
 			y: -6.0d
 		}
 		{
-			dependencies: ["03B2D5D4464FC352"]
+			dependencies: ["1DBC9B1B0CCD84AF"]
 			description: [
 				"&eAechor Plants&r are hostile flora which will &ashoot damaging projectiles&r. These can cause the &aInebriation&r effect, which causes uncontrollable body spasms and vomiting, so try not to get hit!"
 				""
@@ -100,7 +100,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["03B2D5D4464FC352"]
+			dependencies: ["1DBC9B1B0CCD84AF"]
 			description: [
 				"The &cBronze Dungeon&r is the first dungeon of the Aether you should attempt to challenge. It is &ausually found underground&r."
 				""
@@ -154,7 +154,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["03B2D5D4464FC352"]
+			dependencies: ["1DBC9B1B0CCD84AF"]
 			description: [
 				"&eMoas&r are semi-flightless birds that are native to the &cAether&r. Although the wild ones are not tameable, they occasionally &alay eggs&r, which you can collect and &aIncubate&r."
 				""
@@ -259,7 +259,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["03B2D5D4464FC352"]
 			description: ["These &athrowable knives&r summon a &elightning strike&r where they hit, making them an excellent way to &acharge &bLuggages&r, &eCreepers&r, and more!"]
 			id: "22D1D2D87D646AE1"
 			rewards: [{
@@ -280,6 +279,47 @@
 				type: "item"
 			}]
 			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["03B2D5D4464FC352"]
+			description: [
+				"Welcome to the &cAether&r! You might first notice that your &atools are not as effective here!&r. You will need to &amake some tools from &blocal materials&r."
+				""
+				"So go on, punch some trees!"
+			]
+			id: "1DBC9B1B0CCD84AF"
+			tasks: [{
+				id: "084F9E93191AEE95"
+				item: {
+					Count: 1b
+					id: "aether:golden_parachute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Fresh Start"
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"&ePhygs&r are passive winged pigs which wander the airy meadows of this dimension."
+				""
+				"Much like &ePigs&r, you can place a &bSaddle&r on them. Unlike Pigs, you &ado not need a fishing rod&r to control them! They can help you traverse this land before you're able to find a more suitable mount."
+			]
+			id: "50BD354A26E24F59"
+			tasks: [{
+				id: "2CB917C44817D27C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aether:phyg"
+				type: "observation"
+			}]
+			title: "Meet the Phyg"
+			x: -8.5d
 			y: -8.5d
 		}
 	]

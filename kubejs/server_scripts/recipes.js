@@ -373,4 +373,165 @@ ServerEvents.recipes(event => {
         }
     )
 
+
+    // Easy Mob Farm Upgrades
+    event.shaped(
+        Item.of('easy_mob_farm:gold_mob_farm_template'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'minecraft:gold_ingot',
+            B: 'easy_mob_farm:iron_mob_farm_template'
+        }
+    )
+
+    event.shaped(
+        Item.of('easy_mob_farm:iron_mob_farm_template'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'minecraft:iron_ingot',
+            B: 'easy_mob_farm:copper_mob_farm_template'
+        }
+    )
+
+    //End Remastered Eyes from Enderman Overhaul Pearls
+    //Lost Eye
+    event.shaped(
+        Item.of('endrem:lost_eye'),
+        [
+            ' A ',
+            'BCD',
+            ' A '
+        ],
+        {
+            A: 'minecraft:ender_eye',
+            B: 'handcrafted:hammer',
+            C: 'endermanoverhaul:crimson_pearl',
+            D: 'minecraft:anvil'
+        }
+    )
+
+    //Exotic Eye
+    event.shaped(
+        Item.of('endrem:exotic_eye'),
+        [
+            ' A ',
+            'BCD',
+            ' A '
+        ],
+        {
+            A: 'minecraft:ender_eye',
+            B: 'minecraft:fire_coral',
+            C: 'endermanoverhaul:bubble_pearl',
+            D: 'minecraft:tube_coral'
+        }
+    )
+
+    //Magical Eye
+    event.shaped(
+        Item.of('endrem:magical_eye'),
+        [
+            ' A ',
+            'BCD',
+            ' A '
+        ],
+        {
+            A: 'minecraft:ender_eye',
+            B: 'eidolon:holy_symbol',
+            C: 'endermanoverhaul:summoner_pearl',
+            D: 'eidolon:unholy_symbol'
+        }
+    )
+
+    //Old Eye
+    event.shaped(
+        Item.of('endrem:old_eye'),
+        [
+            ' A ',
+            'BCB',
+            ' A '
+        ],
+        {
+            A: 'minecraft:ender_eye',
+            B: 'minecraft:chiseled_sandstone',
+            C: 'endermanoverhaul:ancient_pearl'
+        }
+    )
+
+    //Evil Eye
+    event.shaped(
+        Item.of('endrem:evil_eye'),
+        [
+            ' A ',
+            'BCB',
+            ' A '
+        ],
+        {
+            A: 'minecraft:ender_eye',
+            B: 'eidolon:silver_ingot',
+            C: 'endermanoverhaul:warped_pearl'
+        }
+    )
+
+    //Guardian Eye
+    event.shaped(
+        Item.of('endrem:guardian_eye'),
+        [
+            ' A ',
+            'BCB',
+            ' A '
+        ],
+        {
+            A: 'minecraft:ender_eye',
+            B: 'minecraft:prismarine_shard',
+            C: 'endermanoverhaul:soul_pearl'
+        }
+    )
+
+    //Corrupted Eye
+    event.shaped(
+        Item.of('endrem:corrupted_eye'),
+        [
+            ' A ',
+            'BCB',
+            ' A '
+        ],
+        {
+            A: 'minecraft:ender_eye',
+            B: 'forbidden_arcanus:corrupti_dust',
+            C: 'endermanoverhaul:corrupted_pearl'
+        }
+    )
+
+    //Cold Eye
+    event.shaped(
+        Item.of('endrem:cold_eye'),
+        [
+            ' A ',
+            'BCB',
+            ' A '
+        ],
+        {
+            A: 'minecraft:ender_eye',
+            B: 'minecraft:blue_ice',
+            C: 'endermanoverhaul:icy_pearl'
+        }
+    )
+
+    event.smithing(
+        'easy_mob_farm:netherite_mob_farm_template',  // arg 1: output
+        'easy_mob_farm:gold_mob_farm_template', // arg 2: the item to be upgraded
+        'minecraft:netherite_ingot',   // arg 3: the upgrade item
+        'minecraft:diamond'
+      )
+
   })
+
+  

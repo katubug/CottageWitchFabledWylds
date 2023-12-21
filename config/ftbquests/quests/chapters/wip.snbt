@@ -586,6 +586,345 @@
 			x: -5.5d
 			y: -13.5d
 		}
+		{
+			description: [
+				"So you'd like to &aobtain mob drops passively&r, eh? Well, here's a way for you to do so!"
+				""
+				"&lEasy Mob Farms&r adds in small &bFarm Blocks&r, which you can &aplace mobs in&r, and it will slowly generate their drops. These are crafted using &bTemplates&r."
+				""
+				"The &bCopper&r template is the easiest, and can process most basic vanilla mobs."
+				""
+				"The &bIron&r is a step up - it's compatible with more mobs, including some modded ones, and produces twice as quickly!"
+				""
+				"The &bGold&r similarly adds more compatibility with mobs, including all modded ones, and produces items at triple speed."
+				""
+				"And finally, the &bNetherite&r can process all mobs regardless of origin, and goes the fastest. Note that &asome mobs have been disabled&r for use in the &bFarms&r."
+				""
+				"&dTo find what Farm is used for your mob&r: use JEI to search for the name of your mob! You can also &6add \"@mob\" to narrow down the results."
+			]
+			id: "2ACDDDBA14BD01ED"
+			rewards: [
+				{
+					id: "10394AE2F03A8DFB"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					id: "32D170B3A560F050"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "0886E85FE6D4EC93"
+					item: "minecraft:white_tulip"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "64CD5E1597239676"
+				item: "easy_mob_farm:copper_mob_farm_template"
+				type: "item"
+			}]
+			title: "Mob Farming Beginnings"
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2ACDDDBA14BD01ED"]
+			description: [
+				"To get started, let's craft a &bCopper Plains Farm&r. Take this &bcaptured Pig&r and &6place it into the Farm&r. You can &aadd a weapon&r for it to be considered to be a &aplayer kill&r, which sometimes provides different &aloot drops&r."
+				""
+				"You can &aexport from the bottom of the &bFarm&r. This is &dhighly recommended&r to avoid lag! You can use an &bItem Pipe&r or a &bHopper&r connected to another storage block&r."
+				""
+				"It is also encouraged to &aadd an overflow safety&r, such as a &lSophisticated Storage&r &bVoid Upgrade&r. Generating items into full inventories is &dvery laggy&r."
+			]
+			id: "475522DFAB572B5D"
+			rewards: [{
+				id: "35B8980AB6FC50B2"
+				item: {
+					Count: 1b
+					id: "easy_mob_farm:collar_small"
+					tag: {
+						AbsorptionAmount: 0.0f
+						Age: 0
+						Air: 300s
+						ArmorDropChances: [
+							0.085f
+							0.085f
+							0.085f
+							0.085f
+						]
+						ArmorItems: [
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+						Attributes: [
+							{
+								Base: 16.0d
+								Modifiers: [{
+									Amount: 0.007028073786793844d
+									Name: "Random spawn bonus"
+									Operation: 1
+									UUID: [I;
+										1834418428
+										-1835645051
+										-1408229811
+										-900447836
+									]
+								}]
+								Name: "minecraft:generic.follow_range"
+							}
+							{
+								Base: 0.25d
+								Name: "minecraft:generic.movement_speed"
+							}
+							{
+								Base: 0.08d
+								Name: "forge:entity_gravity"
+							}
+							{
+								Base: 0.0d
+								Name: "forge:step_height_addition"
+							}
+						]
+						BaguData: { }
+						BalmData: { }
+						Brain: {
+							memories: { }
+						}
+						CanPickUpLoot: 0b
+						CanUpdate: 1b
+						CitadelData: { }
+						Color: 0b
+						Count: 1b
+						Damage: 4
+						DeathTime: 0s
+						EntityId: "minecraft:pig"
+						EntityLootTable: "minecraft:entities/pig"
+						EntityName: "Pig"
+						EntityPossibleLoot: "[\"item.minecraft.porkchop\"]"
+						EntityType: "minecraft:pig"
+						FallDistance: 0.0f
+						FallFlying: 0b
+						Fire: -1s
+						ForcedAge: 0
+						ForgeCaps: {
+							"aether:mob_accessory": {
+								DropChances: {
+									aether_gloves: 0.085f
+									aether_pendant: 0.085f
+									hands: 0.085f
+									necklace: 0.085f
+								}
+							}
+							"curios:inventory": {
+								Curios: [ ]
+							}
+							"earthmobsmod:shadow": {
+								PercentBoost: 0.0f
+							}
+							"structure_gel:gel_entity": {
+								portal: "structure_gel:empty"
+							}
+							"unusualprehistory:animal_capability": {
+								animal: ""
+								timer: 0
+							}
+						}
+						ForgeData: { }
+						HandDropChances: [
+							0.085f
+							0.085f
+						]
+						HandItems: [
+							{ }
+							{ }
+						]
+						Health: 10.0f
+						HurtByTimestamp: 0
+						HurtTime: 0s
+						InLove: 0
+						Invulnerable: 0b
+						LeftHanded: 0b
+						Motion: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						Muddy: 0b
+						OnGround: 1b
+						PersistenceRequired: 0b
+						PortalCooldown: 0
+						Pos: [
+							269.5d
+							63.0d
+							2.5d
+						]
+						Rotation: [
+							172.51228f
+							-17.687357f
+						]
+						Saddle: 0b
+						Sheared: 0b
+						Tags: ["nohostilesaroundcampfire.checked"]
+						UUID: [I;
+							-316555430
+							1013334263
+							-1332202479
+							-1938487236
+						]
+						"forge:spawn_type": "SPAWN_EGG"
+						id: "easy_mob_farm:collar_small"
+						tag: {
+							AbsorptionAmount: 0.0f
+							Age: 0
+							Air: 300s
+							ArmorDropChances: [
+								0.085f
+								0.085f
+								0.085f
+								0.085f
+							]
+							ArmorItems: [
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							Attributes: [
+								{
+									Base: 16.0d
+									Modifiers: [{
+										Amount: 0.007028073786793844d
+										Name: "Random spawn bonus"
+										Operation: 1
+										UUID: [I;
+											1834418428
+											-1835645051
+											-1408229811
+											-900447836
+										]
+									}]
+									Name: "minecraft:generic.follow_range"
+								}
+								{
+									Base: 0.25d
+									Name: "minecraft:generic.movement_speed"
+								}
+								{
+									Base: 0.08d
+									Name: "forge:entity_gravity"
+								}
+								{
+									Base: 0.0d
+									Name: "forge:step_height_addition"
+								}
+							]
+							BaguData: { }
+							BalmData: { }
+							Brain: {
+								memories: { }
+							}
+							CanPickUpLoot: 0b
+							CanUpdate: 1b
+							CitadelData: { }
+							Color: 0b
+							Count: 1b
+							Damage: 3
+							DeathTime: 0s
+							EntityId: "minecraft:pig"
+							EntityLootTable: "minecraft:entities/pig"
+							EntityName: "Pig"
+							EntityPossibleLoot: "[\"item.minecraft.porkchop\"]"
+							EntityType: "minecraft:pig"
+							FallDistance: 0.0f
+							FallFlying: 0b
+							Fire: -1s
+							ForcedAge: 0
+							ForgeCaps: {
+								"aether:mob_accessory": {
+									DropChances: {
+										aether_gloves: 0.085f
+										aether_pendant: 0.085f
+										hands: 0.085f
+										necklace: 0.085f
+									}
+								}
+								"curios:inventory": {
+									Curios: [ ]
+								}
+								"earthmobsmod:shadow": {
+									PercentBoost: 0.0f
+								}
+								"structure_gel:gel_entity": {
+									portal: "structure_gel:empty"
+								}
+								"unusualprehistory:animal_capability": {
+									animal: ""
+									timer: 0
+								}
+							}
+							ForgeData: { }
+							HandDropChances: [
+								0.085f
+								0.085f
+							]
+							HandItems: [
+								{ }
+								{ }
+							]
+							Health: 10.0f
+							HurtByTimestamp: 0
+							HurtTime: 0s
+							InLove: 0
+							Invulnerable: 0b
+							LeftHanded: 0b
+							Motion: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							Muddy: 0b
+							OnGround: 1b
+							PersistenceRequired: 0b
+							PortalCooldown: 0
+							Pos: [
+								269.5d
+								63.0d
+								2.5d
+							]
+							Rotation: [
+								172.51228f
+								-17.687357f
+							]
+							Saddle: 0b
+							Sheared: 0b
+							Tags: ["nohostilesaroundcampfire.checked"]
+							UUID: [I;
+								-316555430
+								1013334263
+								-1332202479
+								-1938487236
+							]
+							"forge:spawn_type": "SPAWN_EGG"
+							id: "easy_mob_farm:collar_small"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61327BC84EE631EE"
+				item: "easy_mob_farm:copper_animal_plains_farm"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
 	]
 	title: "WIP"
 }

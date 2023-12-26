@@ -121,6 +121,20 @@ JEIEvents.hideItems(event => {
         'sophisticatedstorage:gold_shulker_box',
         'sophisticatedstorage:diamond_shulker_box',
         'sophisticatedstorage:netherite_shulker_box',
+        'perfectplushies:nyf_plushie',
+        'perfectplushies:sirjain_plushie',
+        'perfectplushies:sizableshrimp_plushie',
+        'perfectplushies:tslat_plushie',
+        'perfectplushies:silk_plushie',
+        'perfectplushies:june_plushie',
+        'perfectplushies:daniel_plushie',
+        'perfectplushies:gamerpotion_plushie',
+        'perfectplushies:joosh_plushie',
+        'perfectplushies:rocris_plushie',
+        'perfectplushies:gamerpotion_plushie_rare',
+        'perfectplushies:geode_plushie',
+        'perfectplushies:sirjain_plushie_rare',
+
     ];
     
     for (const hide of toHide) {

@@ -265,6 +265,11 @@
 					item: "farmersdelight:carrot_crate"
 					type: "item"
 				}
+				{
+					id: "210BD760139220F7"
+					item: "hauntedharvest:corn_crate"
+					type: "item"
+				}
 			]
 			title: "Compact Your Crops"
 			x: 4.5d
@@ -308,6 +313,11 @@
 				{
 					id: "6423E31169FF965C"
 					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+				{
+					id: "2DA25EE755D85A5C"
+					item: "hauntedharvest:corn"
 					type: "item"
 				}
 			]

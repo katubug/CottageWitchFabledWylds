@@ -73,6 +73,12 @@
 		{ item: "aether_redux:glacia_sapling" }
 		{ item: "aether_redux:blighted_skyroot_sapling" }
 		{ item: "aether_redux:blightwillow_sapling" }
+		{ item: "deep_aether:conberry_sapling" }
+		{ item: "deep_aether:cruderoot_sapling" }
+		{ item: "deep_aether:blue_roseroot_sapling" }
+		{ item: "deep_aether:yagroot_sapling" }
+		{ item: "deep_aether:sunroot_sapling" }
+		{ item: "deep_aether:roseroot_sapling" }
 	]
 	title: "Saplings"
 }

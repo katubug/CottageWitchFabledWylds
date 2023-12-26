@@ -67,7 +67,11 @@ ServerEvents.tags('item', event => {
     // Golden Things for Tarot
     event.add('tarotcards:golden',
     'nethersdelight:golden_machete',
-    'farmersdelight:golden_knife'
+    'farmersdelight:golden_knife',
+    'nethersdelight:golden_machete',
+    'aquaculture:gold_fishing_rod', 
+    'forbidden_arcanus:golden_blacksmith_gavel',
+    'aether:golden_gloves'
     )
 
     // Meadow Wool
@@ -79,6 +83,13 @@ ServerEvents.tags('item', event => {
     event.removeAllTagsFrom('bakery:dough',
     'candlelight:dough',
     'create:dough')
+
+    //why are plushies wool??
+    event.remove('minecraft:wool', [
+        '#perfectplushies:village_plushies',
+        "#perfectplushies:treasure_plushies",
+        "#perfectplushies:rare_treasure_plushies"
+    ])
 
     //===Tags for FTB Quests===
     //Mailboxes
@@ -328,7 +339,8 @@ ServerEvents.tags('item', event => {
     )
 
     // Dirt for Compost Recipe
-    event.add('forge:dirt', 'minecraft:dirt', 'minecraft:coarse_dirt',
+    event.add('forge:dirt',
+    'minecraft:dirt', 'minecraft:coarse_dirt',
     'minecraft:rooted_dirt','minecraft:podzol')
 
 })

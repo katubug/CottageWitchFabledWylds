@@ -337,6 +337,14 @@
 					type: "questsadditions:break"
 					value: 1L
 				}
+				{
+					block: "miners_delight:wild_cave_carrots"
+					block_type: 0
+					checkItem: false
+					id: "5CDDE3062A2D9FF1"
+					type: "questsadditions:break"
+					value: 1L
+				}
 			]
 			title: "Forage Wild Crops"
 			x: -4.5d

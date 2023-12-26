@@ -91,6 +91,10 @@ ServerEvents.recipes(event => {
         {output: 'beautify:hanging_pot'},
         {output: 'pipez:item_pipe'},
         {output: 'tarotcards:tarot_deck'},
+        {mod: 'plushies'},
+        {mod: 'perfectplushies'},
+        {mod: 'practical_plushies_animals'},
+        {mod: 'practical_plushies_mobs'},
     ];
     
       for (const remove of toRemove) {

@@ -106,7 +106,7 @@
 	field_salad = true
 	glow_jelly_bottle = true
 	green_apple_crate = true
-	green_tea_leaf = true
+	green_tea_leaf = false
 	honey_glazed_walnut = true
 	jelly_bottle = true
 	joshua_fruit_crate = true

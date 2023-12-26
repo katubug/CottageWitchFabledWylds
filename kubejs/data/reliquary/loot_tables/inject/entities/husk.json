@@ -22,6 +22,11 @@
         {
           "type": "minecraft:item",
           "name": "tombstone:grave_dust"
+        },
+        ,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sand"
         }
       ],
       "name": "main",

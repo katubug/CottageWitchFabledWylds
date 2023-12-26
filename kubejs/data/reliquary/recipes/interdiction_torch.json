@@ -1,0 +1,22 @@
+{
+  "replace":true,
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "miners_delight:bat_wing"
+    },
+    {
+      "tag": "forge:rods/blaze"
+    },
+    {
+      "item": "reliquary:molten_core"
+    },
+    {
+      "item": "reliquary:nebulous_heart"
+    }
+  ],
+  "result": {
+    "item": "reliquary:interdiction_torch"
+  }
+}

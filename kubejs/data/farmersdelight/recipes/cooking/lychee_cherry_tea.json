@@ -1,0 +1,29 @@
+{
+  "replace":true,
+  "type": "herbalbrews:kettle_brewing",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "item": "fruitsdelight:lychee"
+    },
+    {
+      "item": "herbalbrews:dried_black_tea"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "fruitsdelight:lychee"
+    },
+    {
+      "item": "vinery:cherry"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "fruitsdelight:lychee_cherry_tea"
+  }
+}

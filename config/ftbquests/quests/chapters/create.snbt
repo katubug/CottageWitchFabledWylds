@@ -479,11 +479,6 @@
 					item: "create:basin"
 					type: "item"
 				}
-				{
-					id: "18318C670E941574"
-					item: "create:chocolate_bucket"
-					type: "item"
-				}
 			]
 			title: "Mixing and Crafting"
 			x: 2.0d

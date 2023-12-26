@@ -227,7 +227,7 @@ ServerEvents.recipes(event => {
             C: 'minecraft:iron_nugget'
         }
     )
-
+/*
     // Lead Doors
     event.shaped(
         Item.of('dramaticdoors:short_lead_door'),
@@ -275,6 +275,7 @@ ServerEvents.recipes(event => {
             A: 'eidolon:silver_ingot',
         }
     )
+    */
 
     // Building Gadgets
 
@@ -525,12 +526,328 @@ ServerEvents.recipes(event => {
         }
     )
 
+    //Rope
+    event.shaped(
+    Item.of('beautify:hanging_pot'),
+        [
+            ' A ',
+            ' B '
+        ],
+        {
+            A: '#supplementaries:ropes',
+            B: 'minecraft:flower_pot'
+        }
+    )
+
+    //End Remastered Eyes to Pearls
+    event.shapeless(
+        Item.of('minecraft:ender_pearl', 4),
+        [ 
+            '#forge:eyes'
+        ]
+        )
+
     event.smithing(
         'easy_mob_farm:netherite_mob_farm_template',  // arg 1: output
         'easy_mob_farm:gold_mob_farm_template', // arg 2: the item to be upgraded
         'minecraft:netherite_ingot',   // arg 3: the upgrade item
         'minecraft:diamond'
       )
+
+      //Herbal Brews Fixing
+      event.smoking('herbalbrews:dried_green_tea', 'herbalbrews:green_tea_leaf')
+      event.smoking('herbalbrews:dried_oolong_tea', 'herbalbrews:dried_green_tea')
+      event.smoking('herbalbrews:dried_black_tea', 'herbalbrews:dried_oolong_tea')
+
+      //Uncraft Dried Green Tea Block
+      event.shapeless(
+        Item.of('herbalbrews:dried_green_tea', 9),
+        [
+            'herbalbrews:dried_green_tea_leaf_block'
+        ]
+      )
+
+      //Craft Black Tea Block
+      event.shapeless(
+        Item.of('herbalbrews:black_tea_leaf_block'),
+        [
+            'herbalbrews:dried_black_tea',
+            'herbalbrews:dried_black_tea',
+            'herbalbrews:dried_black_tea',
+            'herbalbrews:dried_black_tea',
+            'herbalbrews:dried_black_tea',
+            'herbalbrews:dried_black_tea',
+            'herbalbrews:dried_black_tea',
+            'herbalbrews:dried_black_tea',
+            'herbalbrews:dried_black_tea'
+        ]
+      )
+
+      //Uncraft Black Tea Block
+      event.shapeless(
+        Item.of('herbalbrews:dried_black_tea', 9),
+        [
+            'herbalbrews:black_tea_leaf_block'
+        ]
+      )
+
+      //Craft Oolong Tea Block
+      event.shapeless(
+        Item.of('herbalbrews:oolong_tea_leaf_block'),
+        [
+            'herbalbrews:dried_oolong_tea',
+            'herbalbrews:dried_oolong_tea',
+            'herbalbrews:dried_oolong_tea',
+            'herbalbrews:dried_oolong_tea',
+            'herbalbrews:dried_oolong_tea',
+            'herbalbrews:dried_oolong_tea',
+            'herbalbrews:dried_oolong_tea',
+            'herbalbrews:dried_oolong_tea',
+            'herbalbrews:dried_oolong_tea'
+        ]
+      )
+
+      //Uncraft Oolong Tea Block
+      event.shapeless(
+        Item.of('herbalbrews:dried_oolong_tea', 9),
+        [
+            'herbalbrews:oolong_tea_leaf_block'
+        ]
+      )
+
+      //Compost
+      event.shapeless(
+        Item.of('farmersdelight:organic_compost', 2), 
+        [ 
+            {tag: 'forge:dirt'},
+            {tag: 'supplementaries:straw'},
+            {tag: 'supplementaries:straw'},
+            'minecraft:bone_meal',
+            'minecraft:bone_meal',
+            {tag: 'forge:compost'},
+            {tag: 'forge:compost'},
+            {tag: 'forge:compost'},
+            {tag: 'forge:compost'}
+        ]
+      )
+
+          //Eccentric Tome
+    event.shapeless(
+        Item.of('eccentrictome:tome', '{"eccentrictome:mods":{aether:{0:{Count:1b,id:"aether:book_of_lore"}},eidolon:{0:{Count:1b,id:"eidolon:codex"}},fdcookbook:{0:{Count:1b,id:"fdcookbook:fd_cookbook"}},ftbquests:{0:{Count:1b,id:"ftbquests:book"}},lexicon:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"lexicon:lexicon"}}},solonion:{0:{Count:1b,id:"solonion:food_book"}},unusualprehistory:{0:{Count:1b,id:"unusualprehistory:encyclopedia"}}}}')
+        ,[ 
+                'minecraft:book',
+                'minecraft:stick'
+            ]
+          )
+
+    //Chest Recipe with Logs
+    event.shaped(
+        Item.of('minecraft:chest', 4),
+        [
+            'AAA',
+            'A A',
+            'AAA'
+        ],
+        {
+            A: '#minecraft:logs'
+        }
+    )
+
+    //Uncompress Honey
+    event.shapeless(
+        Item.of('minecraft:honeycomb', 4),
+        [ 
+            'minecraft:honeycomb_block'
+        ]
+        )
+
+    //Uncompress Quartz
+    event.shapeless(
+        Item.of('minecraft:quartz', 4),
+        [ 
+            'minecraft:quartz_block'
+        ]
+        )
+
+    // Pipez Item Pipe
+    event.shaped(
+        Item.of('pipez:item_pipe', 16),
+        [
+            'AAA',
+            'BBB',
+            'AAA'
+        ],
+        {
+            A: 'minecraft:copper_ingot',
+            B: 'minecraft:redstone'
+        }
+    )
+
+    // Tarot Deck
+    event.shaped(
+        Item.of('tarotcards:tarot_deck'),
+        [
+            'ABA',
+            'ACA',
+            'ADA'
+        ],
+        {
+            A: 'create:golden_sheet',
+            B: 'minecraft:dragon_egg',
+            C: 'minecraft:nether_star',
+            D: 'tarotcards:justice'
+        }
+    )
+
+    // Warp Scrolls to Warp Stones
+    event.shaped(
+        Item.of('waystones:warp_stone'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'waystones:warp_scroll',
+            B: 'minecraft:emerald'
+        }
+    )
+
+    // Waystones to Sharestones
+    event.shapeless(
+        Item.of('waystones:sharestone'),
+        [ 
+            '#forge:waystones'
+        ]
+    )
+
+    // Palette
+    event.shaped(
+        Item.of('xercapaint:item_palette'),
+        [
+            'AA ',
+            'AA '
+        ],
+        {
+            A: '#minecraft:wooden_slabs'
+        }
+    )
+
+    // String from Wool
+    event.shapeless(
+        Item.of('minecraft:string', 4),
+        [ 
+            '#minecraft:wool'
+        ]
+    )
+
+// Coin Conversion recipes
+    // Lunar to Solar
+    event.shapeless(
+        Item.of('kubejs:solar_coin'),
+        [ 
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin'
+        ]
+    )
+
+    // Solar to Arcane
+    event.shapeless(
+        Item.of('kubejs:arcane_coin'),
+        [ 
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin'
+        ]
+    )
+
+    // Arcane to Solar
+    event.shapeless(
+        Item.of('kubejs:solar_coin', 9),
+        [ 
+            'kubejs:arcane_coin'
+        ]
+    )
+
+    // Solar to Lunar
+    event.shapeless(
+        Item.of('kubejs:lunar_coin', 9),
+        [ 
+            'kubejs:solar_coin'
+        ]
+    )
+
+    //Stonecutter recipes for Xerca Woods
+
+    event.stonecutting('kubejs:carved_warped_1', 'minecraft:stripped_warped_stem')
+    event.stonecutting('kubejs:carved_warped_2', 'minecraft:stripped_warped_stem')
+    event.stonecutting('kubejs:carved_warped_3', 'minecraft:stripped_warped_stem')
+    event.stonecutting('kubejs:carved_warped_4', 'minecraft:stripped_warped_stem')
+    event.stonecutting('kubejs:carved_warped_5', 'minecraft:stripped_warped_stem')
+    event.stonecutting('kubejs:carved_warped_6', 'minecraft:stripped_warped_stem')
+    event.stonecutting('kubejs:carved_warped_7', 'minecraft:stripped_warped_stem')
+    event.stonecutting('kubejs:carved_warped_8', 'minecraft:stripped_warped_stem')
+
+    event.stonecutting('kubejs:carved_crimson_1', 'minecraft:stripped_crimson_stem')
+    event.stonecutting('kubejs:carved_crimson_2', 'minecraft:stripped_crimson_stem')
+    event.stonecutting('kubejs:carved_crimson_3', 'minecraft:stripped_crimson_stem')
+    event.stonecutting('kubejs:carved_crimson_4', 'minecraft:stripped_crimson_stem')
+    event.stonecutting('kubejs:carved_crimson_5', 'minecraft:stripped_crimson_stem')
+    event.stonecutting('kubejs:carved_crimson_6', 'minecraft:stripped_crimson_stem')
+    event.stonecutting('kubejs:carved_crimson_7', 'minecraft:stripped_crimson_stem')
+    event.stonecutting('kubejs:carved_crimson_8', 'minecraft:stripped_crimson_stem')
+
+    event.stonecutting('kubejs:carved_birch_1', 'minecraft:stripped_birch_log')
+    event.stonecutting('kubejs:carved_birch_2', 'minecraft:stripped_birch_log')
+    event.stonecutting('kubejs:carved_birch_3', 'minecraft:stripped_birch_log')
+    event.stonecutting('kubejs:carved_birch_4', 'minecraft:stripped_birch_log')
+    event.stonecutting('kubejs:carved_birch_5', 'minecraft:stripped_birch_log')
+    event.stonecutting('kubejs:carved_birch_6', 'minecraft:stripped_birch_log')
+    event.stonecutting('kubejs:carved_birch_7', 'minecraft:stripped_birch_log')
+    event.stonecutting('kubejs:carved_birch_8', 'minecraft:stripped_birch_log')
+
+    event.stonecutting('kubejs:carved_acacia_1', 'minecraft:stripped_acacia_log')
+    event.stonecutting('kubejs:carved_acacia_2', 'minecraft:stripped_acacia_log')
+    event.stonecutting('kubejs:carved_acacia_3', 'minecraft:stripped_acacia_log')
+    event.stonecutting('kubejs:carved_acacia_4', 'minecraft:stripped_acacia_log')
+    event.stonecutting('kubejs:carved_acacia_5', 'minecraft:stripped_acacia_log')
+    event.stonecutting('kubejs:carved_acacia_6', 'minecraft:stripped_acacia_log')
+    event.stonecutting('kubejs:carved_acacia_7', 'minecraft:stripped_acacia_log')
+    event.stonecutting('kubejs:carved_acacia_8', 'minecraft:stripped_acacia_log')
+
+    event.stonecutting('kubejs:carved_spruce_1', 'minecraft:stripped_spruce_log')
+    event.stonecutting('kubejs:carved_spruce_2', 'minecraft:stripped_spruce_log')
+    event.stonecutting('kubejs:carved_spruce_3', 'minecraft:stripped_spruce_log')
+    event.stonecutting('kubejs:carved_spruce_4', 'minecraft:stripped_spruce_log')
+    event.stonecutting('kubejs:carved_spruce_5', 'minecraft:stripped_spruce_log')
+    event.stonecutting('kubejs:carved_spruce_6', 'minecraft:stripped_spruce_log')
+    event.stonecutting('kubejs:carved_spruce_7', 'minecraft:stripped_spruce_log')
+    event.stonecutting('kubejs:carved_spruce_8', 'minecraft:stripped_spruce_log')
+
+    event.stonecutting('kubejs:carved_dark_oak_1', 'minecraft:stripped_dark_oak_log')
+    event.stonecutting('kubejs:carved_dark_oak_2', 'minecraft:stripped_dark_oak_log')
+    event.stonecutting('kubejs:carved_dark_oak_3', 'minecraft:stripped_dark_oak_log')
+    event.stonecutting('kubejs:carved_dark_oak_4', 'minecraft:stripped_dark_oak_log')
+    event.stonecutting('kubejs:carved_dark_oak_5', 'minecraft:stripped_dark_oak_log')
+    event.stonecutting('kubejs:carved_dark_oak_6', 'minecraft:stripped_dark_oak_log')
+    event.stonecutting('kubejs:carved_dark_oak_7', 'minecraft:stripped_dark_oak_log')
+    event.stonecutting('kubejs:carved_dark_oak_8', 'minecraft:stripped_dark_oak_log')
+
+    // Blast 1 iron ingot into 10 nuggets in a Blast Furnace: 
+    event.blasting('create:zinc_block', 'create:raw_zinc_block')
 
   })
 

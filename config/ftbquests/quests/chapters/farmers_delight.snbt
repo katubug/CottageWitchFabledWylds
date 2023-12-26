@@ -540,6 +540,11 @@
 					item: "vinery:apple_crate"
 					type: "item"
 				}
+				{
+					id: "2C05CCABCF69D255"
+					item: "herbalbrews:tea_leaf_crate"
+					type: "item"
+				}
 			]
 			title: "Sack Up"
 			x: 4.5d

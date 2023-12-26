@@ -4,7 +4,6 @@
   "default_packs": [
     "file/corality-1-0-3.zip",
     "file/dynamic-beehives-beenests.zip",
-    "iseelava:translucent_lava",
     "green_stove",
     "file/\u00A7aChests\u00A78-\u00A7aReimagined\u00A70_\u00A78[v1.5]\u00A70.zip",
     "file/xksp-naturalize.zip",
@@ -52,8 +51,6 @@
     "file/3d-woodfire-furnace.zip",
     "file/3d-sweet-berry-bush-1-16.zip",
     "file/3d-blast-furnace-e1920.zip",
-    "bushy_leaves",
-    "better_leaves",
     "file/mushroom-slimes.zip",
     "file/fortune-cat-totem.zip",
     "file/dr-zhark-horse-armor-revamped.zip",
@@ -75,7 +72,18 @@
     "file/enchant icons 1.20 v1.3.zip",
     "file/cutepumpkins.zip",
     "file/KatusCarpets1-20.zip",
-    "file/MagitechPipez-1-20.zip"
+    "file/MagitechPipez-1-20.zip",
+    "bushy_leaves",
+    "better_leaves",
+    "builtin/overrides_pack",
+    "create_central_kitchen:create_styled",
+    "file/v2_REFRESH_Building_Gadgets_Create_Like.zip",
+    "builtin/deep_aether_additional_assets",
+    "file/Better-Leaves-7.2-1.19+.zip",
+    "file/Lopy-Create-Sophisticated-Backpacks.zip",
+    "file/corality-1-0-3.zip",
+    "file/cutepumpkins.zip",
+    "file/dr-zhark-horse-armor-revamped.zip"
     ],
   "default_overrides": {
     "force_compatible": true

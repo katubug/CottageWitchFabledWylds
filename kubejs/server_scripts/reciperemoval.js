@@ -62,6 +62,23 @@ ServerEvents.recipes(event => {
         {output: 'candlelight:potato_crate'},
         {output: 'candlelight:beetroot_crate'}, 
         {output: 'extra_compat:reinforced_gold_knife'},
+        {output: 'meadow:climbing_rope_topmount'},
+        {output: 'nameless_trinkets:mysterious_trinket'},
+        {output: 'herbalbrews:jug'},
+        {output: 'reliquary:bat_wing'},
+        {output: 'forbidden_arcanus:bat_wing'},
+        {output: 'plushies:bat_plushie'},
+        {output: 'herbalbrews:mixed_tea_leaf_block'},
+        {output: 'pipez:energy_pipe'},
+        {output: 'pipez:gas_pipe'},
+        {output: 'pipez:universal_pipe'},
+        {output: 'sophisticatedstorage:feeding_upgrade'},
+        {output: 'sophisticatedstorage:advanced_feeding_upgrade'},
+        {output: 'sophisticatedstorage:shulker_box'},
+        {output: 'sophisticatedstorage:iron_shulker_box'},
+        {output: 'sophisticatedstorage:gold_shulker_box'},
+        {output: 'sophisticatedstorage:diamond_shulker_box'},
+        {output: 'sophisticatedstorage:netherite_shulker_box'},
         //Replaced Recipes
         {output: 'mighty_mail:post_box'},
         {output: 'farmersdelight:wheat_dough'},
@@ -71,9 +88,14 @@ ServerEvents.recipes(event => {
         {output: 'meadow:oil_lantern'},
         {output: 'buildinggadgets:template_manager'},
         {output: 'charginggadgets:charging_station'},
+        {output: 'beautify:hanging_pot'},
+        {output: 'pipez:item_pipe'},
+        {output: 'tarotcards:tarot_deck'},
     ];
     
       for (const remove of toRemove) {
         event.remove(remove);
     }
+
+    event.remove({ output: 'minecraft:green_dye', type: 'minecraft:smoking' })
 })

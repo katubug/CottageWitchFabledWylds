@@ -1,0 +1,46 @@
+{
+	id: "3593DCF20E6E228E"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{ item: "nameless_trinkets:wooden_stick" }
+		{ item: "nameless_trinkets:moon_stone" }
+		{ item: "nameless_trinkets:speed_force" }
+		{ item: "nameless_trinkets:tear_of_the_sea" }
+		{ item: "nameless_trinkets:scarab_amulet" }
+		{ item: "nameless_trinkets:super_magnet" }
+		{ item: "nameless_trinkets:reforger" }
+		{ item: "nameless_trinkets:broken_magnet" }
+		{ item: "nameless_trinkets:amphibious_hands" }
+		{ item: "nameless_trinkets:blindfold" }
+		{ item: "nameless_trinkets:cracked_crown" }
+		{ item: "nameless_trinkets:tick" }
+		{ item: "nameless_trinkets:fertilizer" }
+		{ item: "nameless_trinkets:reverse_card" }
+		{ item: "nameless_trinkets:gills" }
+		{ item: "nameless_trinkets:experience_magnet" }
+		{ item: "nameless_trinkets:true_heart_of_the_sea" }
+		{ item: "nameless_trinkets:miners_soul" }
+		{ item: "nameless_trinkets:spider_legs" }
+		{ item: "nameless_trinkets:puffer_fish_liver" }
+		{ item: "nameless_trinkets:lucky_rock" }
+		{ item: "nameless_trinkets:vampire_blood" }
+		{ item: "nameless_trinkets:fragile_cloud" }
+		{ item: "nameless_trinkets:ethereal_wings" }
+		{ item: "nameless_trinkets:pocket_lightning_rod" }
+		{ item: "nameless_trinkets:creeper_sense" }
+		{ item: "nameless_trinkets:blaze_nucleus" }
+		{ item: "nameless_trinkets:ice_cube" }
+		{ item: "nameless_trinkets:callus" }
+		{ item: "nameless_trinkets:sigil_of_baphomet" }
+		{ item: "nameless_trinkets:rage_mind" }
+		{ item: "nameless_trinkets:fractured_nullstone" }
+		{ item: "nameless_trinkets:broken_ankh" }
+		{ item: "nameless_trinkets:fate_emerald" }
+		{ item: "nameless_trinkets:light_gloves" }
+		{ item: "nameless_trinkets:dragons_eye" }
+		{ item: "nameless_trinkets:dark_nelumbo" }
+		{ item: "nameless_trinkets:nelumbo" }
+	]
+	title: "Trinkets"
+}

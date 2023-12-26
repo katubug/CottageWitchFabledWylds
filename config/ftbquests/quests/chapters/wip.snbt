@@ -314,42 +314,6 @@
 			y: -15.5d
 		}
 		{
-			description: [
-				"The &lBeautify&r &bLattices&r can hold flowers! You can use"
-				""
-				"- &bSunflowers&r"
-				"- &bPeonies&r"
-				"- &bRose Bushes&r"
-				"- &bLilac&r"
-				"- &bGlow Lichen&r"
-				"- &bVines&r"
-				"- &bWeeping Vines&r"
-				"- &bTwisting Vines&r"
-			]
-			id: "5FC2335FA7C31389"
-			rewards: [{
-				id: "786A51ABF4B866A8"
-				item: "minecraft:sunflower"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "232C9643DDF46F70"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:lattices"
-					}
-				}
-				title: "Any Beautify Lattice"
-				type: "item"
-			}]
-			title: "Flowering Lattices"
-			x: 2.0d
-			y: -12.5d
-		}
-		{
 			dependencies: ["2D3C215D6E61E7AE"]
 			description: [
 				"To disenchant, you need to harness the &apower of the dead&r. First you'll want a &bDecorative Grave&r. These resting places will draw tired spirits to them over time. You can also &adirectly conjure a spirit&r to the &bGrave&r using a &bSoul Receptacle&r. &6Right click the Receptacle on the Grave&r, and the spirit within will inhabit the Grave right away."
@@ -373,77 +337,6 @@
 			title: "The Disenchantment Process"
 			x: 3.0d
 			y: -15.5d
-		}
-		{
-			description: ["You can use a &bSnail Shell&r to create an attractive and useful &bSweet Berry Bush&r pot! These &bPotted Berry Bushes&r are not only cute, but they &ado not damage entities&r who happen to walk into them!"]
-			id: "635CE2F00F6FB27D"
-			shape: "hexagon"
-			tasks: [{
-				id: "16AD266416930A00"
-				item: "spawn:potted_sweet_berries"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -13.0d
-		}
-		{
-			description: [
-				"Villagers often need help, and will place &arequests&r on a &bBounty Board&r. You can choose to accept or ignore these requests, and any you complete will &agrant you rewards&r!"
-				""
-				"Each &bbounty&r has a time requirement during which it needs to be completed, or else &dit will expire&r. However, this means that bounties you don't want to accept will be naturally &baremoved, and replaced with fresh ones&r!"
-				""
-				"A &bDecree&r can be brought to a &bBounty Board&r to determine &awhat kinds of bounties will show up&r. For example, if you bring a &bFletching Decree&r, you will get bounties for things like &akilling spiders&r, &bplanks&r, &bFletching tables&r, &bstring&r and so on."
-				""
-				"You can get &bDecrees&r by crafting, or by &atrading with a &eLibrarian&r. They will be &aunidentified&r to begin with, you can &6place it into the &bBounty Board&r to identify it. You can have &aup to three&r Decrees, and the Bounties that show up will mix and match from all of them."
-			]
-			id: "39876C2DADDC64E1"
-			rewards: [{
-				id: "7862B917BD12A048"
-				item: {
-					Count: 1b
-					id: "bountiful:decree"
-					tag: {
-						"bountiful:decree_data": "{}"
-					}
-				}
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				icon: "bountiful:bountyboard"
-				id: "6AEFA26A6FBCA0DB"
-				observe_type: 0
-				timer: 0L
-				to_observe: "bountiful:bountyboard"
-				type: "observation"
-			}]
-			title: "Discover a Bounty Board"
-			x: -0.5d
-			y: -15.5d
-		}
-		{
-			description: [
-				"The &bCatacombs&r are a winding underground Labyrinth, fraught with &bspawners&r and &ethe Undead&r. However, if you are brave enough to traverse one, &awhat treasures might you find&r?"
-				""
-				"Here's a tip: &amove the tiles&r."
-			]
-			id: "4E1F419E6DF416FA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5CAA6E5FED77B4E0"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			subtitle: "don't give up, skeleton!"
-			tasks: [{
-				icon: "createdeco:decal_skull"
-				id: "6486EBC90BF85C21"
-				structure: "eidolon:catacomb"
-				type: "structure"
-			}]
-			title: "Discover the Catacombs"
-			x: -1.5d
-			y: -10.0d
 		}
 		{
 			id: "2706AF7E135F398B"
@@ -478,113 +371,6 @@
 			}]
 			x: -3.0d
 			y: -17.0d
-		}
-		{
-			description: [
-				"&dThis mod is best used in multiplayer&r, although you can mail yourself in singleplayer!"
-				""
-				"In order to &areceive mail&r, you'll need a &bMail Box&r! "
-				""
-				"And to send letters, you'll want a &bPost Box&r, but we'll talk more about that later."
-				""
-				"Your &bMail Box&r can hold up to 9 items, but don't worry - it will &ahold 12 more items in queue&r if you forget to check your mail for a while."
-				""
-				"{image:enchanted_wilds:textures/questimages/mailbox.png width:100 height:100 align:1}"
-				""
-				"This is what your mailbox looks like when you have a package waiting for you!"
-			]
-			id: "2FFCF0B3C1290F3E"
-			rewards: [{
-				count: 4
-				id: "5F4ACFBA400309FD"
-				item: "minecraft:paper"
-				type: "item"
-			}]
-			tasks: [{
-				id: "42C56EC373D5D101"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:mailboxes"
-					}
-				}
-				title: "Any Mailbox"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -15.0d
-		}
-		{
-			dependencies: ["2FFCF0B3C1290F3E"]
-			description: [
-				"To &awrite a letter&r, you'll need a &bTypewriter&r and some &bNote Paper&r."
-				""
-				"Place the paper into the typewriter, then &6right click the Typewriter&r to begin composing your masterpiece! In order to remove the paper, you must &6title and sign your letter&r, then you can remove it to send! You can &amail the letter directly, or use an &benvelope!&r"
-				""
-				"{image:enchanted_wilds:textures/questimages/candlelightenvelope.png width:200 height:180 align:1}"
-				""
-				"First, &6right click while holding the &bEnvelope&r to bring up the menu. Then, &aplace the letter and envelope as shown above&r. Once you're done, &6remove the sealed envelope&r from the interface. Ta da!"
-			]
-			id: "01B4B5ED88AEAC28"
-			rewards: [{
-				id: "0543AA0274BEBE90"
-				item: "candlelight:letter_open"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "316D5BBF1B764AF6"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:typewriters"
-						}
-					}
-					title: "Any Typewriter"
-					type: "item"
-				}
-				{
-					id: "57A79B8DE445C47C"
-					item: "candlelight:note_paper"
-					type: "item"
-				}
-			]
-			x: -4.0d
-			y: -15.0d
-		}
-		{
-			dependencies: ["2FFCF0B3C1290F3E"]
-			description: [
-				"To send mail, you'll need a &bPost Box&r! These can be placed in central hub areas for multiple people to use - or put one at your base so you don't need to leave the house!"
-				""
-				"{image:enchanted_wilds:textures/questimages/mightymail.png width:300 height:180 align:1}"
-				""
-				"Right click the &bPost Box&r to access the interface. On the left you'll see a list of &amailboxes you can send to&r. You can then type a message in the box if you'd like, and attach items (&dyou must include at least one item&r) on the right. Then &6hit send&r, and off your mail goes!"
-			]
-			id: "419CE1361A152D99"
-			rewards: [
-				{
-					count: 2
-					id: "0B03105B5960E8BB"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1AEFC73EF1F13E94"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "367272C5C9D72F74"
-				item: "mighty_mail:post_box"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -13.5d
 		}
 		{
 			description: [
@@ -628,8 +414,8 @@
 				type: "item"
 			}]
 			title: "Mob Farming Beginnings"
-			x: 10.0d
-			y: -4.5d
+			x: 8.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2ACDDDBA14BD01ED"]
@@ -922,8 +708,19 @@
 				item: "easy_mob_farm:copper_animal_plains_farm"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.5d
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			id: "010280D9111FDB3C"
+			tasks: [{
+				advancement: "spawn:husbandry/obtain_mucus"
+				criterion: ""
+				id: "537F423BF4620F3E"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -12.5d
 		}
 	]
 	title: "WIP"

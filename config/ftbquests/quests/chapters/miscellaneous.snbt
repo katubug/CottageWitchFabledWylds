@@ -48,42 +48,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"The &bSandcastle&r can be placed over &bTurtle Eggs&r in order to protect them from Zombies."
-				""
-				"However, there is &da bug currently&r which prevents eggs in a &bSand Castle&r from hatching."
-			]
-			id: "012D4FE416DC8BE7"
-			rewards: [
-				{
-					count: 6
-					id: "6FA462CBA8F1F1A0"
-					item: "minecraft:seagrass"
-					type: "item"
-				}
-				{
-					id: "67DB8C7385EA982C"
-					item: "plushies:turtle"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "011BA0D1215C61A4"
-					table_id: 7737096167250795605L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "Do you wanna build a...uh...sandcastle?"
-			tasks: [{
-				id: "33B1F2EE602D5EAB"
-				item: "ecologics:sandcastle"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 6.5d
-		}
-		{
 			description: ["The &bIron Grate&r works to keep animals inside, as they are afraid to walk over it, although you can lead them across by attaching a &bLead&r to them. &aItems will fall through it&r."]
 			id: "0D7B3090032B6F0E"
 			rewards: [{
@@ -149,30 +113,6 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 4.5d
-		}
-		{
-			description: [
-				"The &bCinder Furnace&r is a unique item which &aonly functions on the back of a &eCindershell Tortoise&r, which live in the Nether Wastes."
-				""
-				"You can befriend and breed them with &bFungus&r - but beware, they have a LOT of young at once."
-				""
-				"If you place this &bFurnace&r on top of a &eCindershell&r, it will use the beast's volcanic heat to &asmelt items without fuel&r!"
-			]
-			id: "7B40E7022A67BC86"
-			rewards: [{
-				id: "29CA99C54CEF6EDB"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			subtitle: "Cindershelly, cindershelly, oh we love our cindershelly"
-			tasks: [{
-				id: "67131CB5294C5493"
-				item: "cnb:cinder_furnace"
-				type: "item"
-			}]
-			x: 2.5d
 			y: 4.5d
 		}
 		{
@@ -1126,29 +1066,6 @@
 			title: "Raid Master"
 			x: 2.0d
 			y: 5.5d
-		}
-		{
-			description: ["Hmm, some &bMagic Beans&r. They seem legit - wonder what they do?"]
-			id: "6855271C74721F52"
-			rewards: [{
-				id: "0135D146C676F9EE"
-				item: {
-					Count: 1b
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:healing"
-					}
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7AB04813FADD661F"
-				item: "neapolitan:magic_beans"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.5d
 		}
 		{
 			description: [
@@ -2653,6 +2570,150 @@
 			title: "Money Changing"
 			x: 4.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: [
+				"Villagers often need help, and will place &arequests&r on a &bBounty Board&r. You can choose to accept or ignore these requests, and any you complete will &agrant you rewards&r!"
+				""
+				"Each &bbounty&r has a time requirement during which it needs to be completed, or else &dit will expire&r. However, this means that bounties you don't want to accept will be naturally &baremoved, and replaced with fresh ones&r!"
+				""
+				"A &bDecree&r can be brought to a &bBounty Board&r to determine &awhat kinds of bounties will show up&r. For example, if you bring a &bFletching Decree&r, you will get bounties for things like &akilling spiders&r, &bplanks&r, &bFletching tables&r, &bstring&r and so on."
+				""
+				"You can get &bDecrees&r by crafting, or by &atrading with a &eLibrarian&r. They will be &aunidentified&r to begin with, you can &6place it into the &bBounty Board&r to identify it. You can have &aup to three&r Decrees, and the Bounties that show up will mix and match from all of them."
+			]
+			id: "39876C2DADDC64E1"
+			rewards: [{
+				id: "7862B917BD12A048"
+				item: {
+					Count: 1b
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{}"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: "bountiful:bountyboard"
+				id: "6AEFA26A6FBCA0DB"
+				observe_type: 0
+				timer: 0L
+				to_observe: "bountiful:bountyboard"
+				type: "observation"
+			}]
+			title: "Discover a Bounty Board"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2FFCF0B3C1290F3E"]
+			description: [
+				"To send mail, you'll need a &bPost Box&r! These can be placed in central hub areas for multiple people to use - or put one at your base so you don't need to leave the house!"
+				""
+				"{image:enchanted_wilds:textures/questimages/mightymail.png width:300 height:180 align:1}"
+				""
+				"Right click the &bPost Box&r to access the interface. On the left you'll see a list of &amailboxes you can send to&r. You can then type a message in the box if you'd like, and attach items (&dyou must include at least one item&r) on the right. Then &6hit send&r, and off your mail goes!"
+			]
+			id: "419CE1361A152D99"
+			rewards: [
+				{
+					count: 2
+					id: "0B03105B5960E8BB"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AEFC73EF1F13E94"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "367272C5C9D72F74"
+				item: "mighty_mail:post_box"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&dThis mod is best used in multiplayer&r, although you can mail yourself in singleplayer!"
+				""
+				"In order to &areceive mail&r, you'll need a &bMail Box&r! "
+				""
+				"And to send letters, you'll want a &bPost Box&r, but we'll talk more about that later."
+				""
+				"Your &bMail Box&r can hold up to 9 items, but don't worry - it will &ahold 12 more items in queue&r if you forget to check your mail for a while."
+				""
+				"{image:enchanted_wilds:textures/questimages/mailbox.png width:100 height:100 align:1}"
+				""
+				"This is what your mailbox looks like when you have a package waiting for you!"
+			]
+			id: "2FFCF0B3C1290F3E"
+			rewards: [{
+				count: 4
+				id: "5F4ACFBA400309FD"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "42C56EC373D5D101"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:mailboxes"
+					}
+				}
+				title: "Any Mailbox"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2FFCF0B3C1290F3E"]
+			description: [
+				"To &awrite a letter&r, you'll need a &bTypewriter&r and some &bNote Paper&r."
+				""
+				"Place the paper into the typewriter, then &6right click the Typewriter&r to begin composing your masterpiece! In order to remove the paper, you must &6title and sign your letter&r, then you can remove it to send! You can &amail the letter directly, or use an &benvelope!&r"
+				""
+				"{image:enchanted_wilds:textures/questimages/candlelightenvelope.png width:200 height:180 align:1}"
+				""
+				"First, &6right click while holding the &bEnvelope&r to bring up the menu. Then, &aplace the letter and envelope as shown above&r. Once you're done, &6remove the sealed envelope&r from the interface. Ta da!"
+			]
+			id: "01B4B5ED88AEAC28"
+			rewards: [{
+				id: "0543AA0274BEBE90"
+				item: "candlelight:letter_open"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "316D5BBF1B764AF6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:typewriters"
+						}
+					}
+					title: "Any Typewriter"
+					type: "item"
+				}
+				{
+					id: "57A79B8DE445C47C"
+					item: "candlelight:note_paper"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.5d
 		}
 	]
 	title: "Miscellaneous"

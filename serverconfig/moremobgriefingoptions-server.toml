@@ -1867,4 +1867,7 @@
 	#deep_aether:venomite mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"deep_aether:venomite" = "DEFAULT"
+	#items_displayed:item_display mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"items_displayed:item_display" = "DEFAULT"
 

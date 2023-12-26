@@ -287,8 +287,16 @@
 				"Welcome to the &cAether&r! You might first notice that your &atools are not as effective here!&r. You will need to &amake some tools from &blocal materials&r."
 				""
 				"So go on, punch some trees!"
+				""
+				"You may also be wondering &ahow to traverse&r this new location. In your inventory, you now have a &bGolden Parachute&r, which will automatically deploy as you're freefalling - or you can manually &6deploy it by right clicking while holding it&r as you fall. The clouds you see around you are also &aactually quite bouncy&r! Finally, the creatures of this land may &amake good mounts&r."
 			]
 			id: "1DBC9B1B0CCD84AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76EA63700D0CA722"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
 			tasks: [{
 				id: "084F9E93191AEE95"
 				item: {
@@ -305,13 +313,16 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["1DBC9B1B0CCD84AF"]
 			description: [
 				"&ePhygs&r are passive winged pigs which wander the airy meadows of this dimension."
 				""
 				"Much like &ePigs&r, you can place a &bSaddle&r on them. Unlike Pigs, you &ado not need a fishing rod&r to control them! They can help you traverse this land before you're able to find a more suitable mount."
 			]
 			id: "50BD354A26E24F59"
+			shape: "heart"
 			tasks: [{
+				icon: "aether:phyg_spawn_egg"
 				id: "2CB917C44817D27C"
 				observe_type: 5
 				timer: 0L

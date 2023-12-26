@@ -775,6 +775,54 @@
 			x: -3.5d
 			y: 0.0d
 		}
+		{
+			description: [
+				"The &lBeautify&r &bLattices&r can hold flowers! You can use"
+				""
+				"- &bSunflowers&r"
+				"- &bPeonies&r"
+				"- &bRose Bushes&r"
+				"- &bLilac&r"
+				"- &bGlow Lichen&r"
+				"- &bVines&r"
+				"- &bWeeping Vines&r"
+				"- &bTwisting Vines&r"
+			]
+			id: "5FC2335FA7C31389"
+			rewards: [{
+				id: "786A51ABF4B866A8"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "232C9643DDF46F70"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:lattices"
+					}
+				}
+				title: "Any Beautify Lattice"
+				type: "item"
+			}]
+			title: "Flowering Lattices"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			description: ["You can use a &bSnail Shell&r to create an attractive and useful &bSweet Berry Bush&r pot! These &bPotted Berry Bushes&r are not only cute, but they &ado not damage entities&r who happen to walk into them!"]
+			id: "635CE2F00F6FB27D"
+			shape: "hexagon"
+			tasks: [{
+				id: "16AD266416930A00"
+				item: "spawn:potted_sweet_berries"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
 	]
 	title: "Building \\& Decorating"
 }

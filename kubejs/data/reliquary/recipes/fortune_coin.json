@@ -1,0 +1,22 @@
+{
+  "replace":true,
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "reliquary:nebulous_heart"
+    },
+    {
+      "tag": "forge:nuggets/gold"
+    },
+    {
+      "item": "reliquary:slime_pearl"
+    },
+    {
+      "item": "miners_delight:bat_wing"
+    }
+  ],
+  "result": {
+    "item": "reliquary:fortune_coin"
+  }
+}

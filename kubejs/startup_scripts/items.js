@@ -105,6 +105,48 @@ event.modify('unusualprehistory:handmade_club', item => {
   item.addAttribute("generic.attack_damage", attribute.id, attribute.name, attribute.amount + boost, attribute.operation)
 });
 
+event.modify('lost_aether_content:phoenix_sword', item => {
+  let boost = -1
+  let attribute = item.getAttributes("generic.attack_damage").get(0)
+  item.removeAttribute("generic.attack_damage", attribute.id)
+  item.addAttribute("generic.attack_damage", attribute.id, attribute.name, attribute.amount + boost, attribute.operation)
+});
+
+event.modify('lost_aether_content:phoenix_axe', item => {
+  let boost = -1
+  let attribute = item.getAttributes("generic.attack_damage").get(0)
+  item.removeAttribute("generic.attack_damage", attribute.id)
+  item.addAttribute("generic.attack_damage", attribute.id, attribute.name, attribute.amount + boost, attribute.operation)
+});
+
+event.modify('deep_aether:stratus_sword', item => {
+  let boost = -1
+  let attribute = item.getAttributes("generic.attack_damage").get(0)
+  item.removeAttribute("generic.attack_damage", attribute.id)
+  item.addAttribute("generic.attack_damage", attribute.id, attribute.name, attribute.amount + boost, attribute.operation)
+});
+
+event.modify('deep_aether:stratus_axe', item => {
+  let boost = -1
+  let attribute = item.getAttributes("generic.attack_damage").get(0)
+  item.removeAttribute("generic.attack_damage", attribute.id)
+  item.addAttribute("generic.attack_damage", attribute.id, attribute.name, attribute.amount + boost, attribute.operation)
+});
+
+event.modify('experienceobelisk:cognitive_axe', item => {
+  let boost = -1
+  let attribute = item.getAttributes("generic.attack_damage").get(0)
+  item.removeAttribute("generic.attack_damage", attribute.id)
+  item.addAttribute("generic.attack_damage", attribute.id, attribute.name, attribute.amount + boost, attribute.operation)
+});
+
+event.modify('deep_aether:skyjade_sword', item => {
+  let boost = -1
+  let attribute = item.getAttributes("generic.attack_damage").get(0)
+  item.removeAttribute("generic.attack_damage", attribute.id)
+  item.addAttribute("generic.attack_damage", attribute.id, attribute.name, attribute.amount + boost, attribute.operation)
+});
+
     event.modify('unusualprehistory:defrosted_frozen_fossil', item => {
       item.foodProperties = food => {
           food.hunger(2)

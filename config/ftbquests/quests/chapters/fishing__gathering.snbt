@@ -57,7 +57,8 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "36A27638B101E7BE"
+					id: "50A47CBD7D4D38FA"
+					table_id: 661030336235288770L
 					type: "choice"
 				}
 			]
@@ -150,11 +151,6 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "53084827437F5C3A"
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
 					id: "5733FE4FC03C948A"
 					table_id: 7707783220386620668L
 					type: "random"
@@ -177,7 +173,7 @@
 						value: "forge:fishing_rods"
 					}
 				}
-				title: "Any #forge:fishing_rods"
+				title: "Any Fishing Rod"
 				type: "item"
 			}]
 			title: "Get a Fishing Rod"
@@ -317,6 +313,30 @@
 					type: "questsadditions:break"
 					value: 1L
 				}
+				{
+					block: "herbalbrews:wild_rooibos_plant"
+					block_type: 0
+					checkItem: false
+					id: "16F69DEFF5AADE21"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "herbalbrews:wild_yerba_mate_plant"
+					block_type: 0
+					checkItem: false
+					id: "3EE5AE89393CDE21"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "herbalbrews:wild_coffee_plant"
+					block_type: 0
+					checkItem: false
+					id: "59BFF4E67B9EE1CF"
+					type: "questsadditions:break"
+					value: 1L
+				}
 			]
 			title: "Forage Wild Crops"
 			x: -4.5d
@@ -350,7 +370,14 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "31C47718D4D0DA62"
+					id: "13212065D5B54E3D"
+					table_id: 8161559185986793228L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2469EAD60D8E35B7"
+					table_id: 661030336235288770L
 					type: "random"
 				}
 			]
@@ -411,13 +438,13 @@
 					type: "item"
 				}
 				{
-					id: "3746166D1A2C5579"
-					item: "plushies:dolphin"
+					id: "0F39E9E187EADE49"
+					item: "plushies:dolphin_plushie"
 					type: "item"
 				}
 			]
 			tasks: [{
-				icon: "crittersandcompanions:koi_fish"
+				icon: "aquaculture:goldfish"
 				id: "1FB45C4A92CEC1C7"
 				stat: "minecraft:fish_caught"
 				type: "stat"
@@ -430,154 +457,6 @@
 		{
 			dependencies: ["2093240CD42882CF"]
 			description: [
-				"You can find &bEggplants&r and &bAvocados&r in &cJungles&r, and grow it just like any other crop."
-				""
-				"&bCucumbers&r are found in &cSwamps&r."
-				""
-				"&bCorn&r grows naturally in &cPlains&r biomes."
-			]
-			id: "197930F20A0979D5"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2DEEE57F702B5468"
-					table_id: 6518300475828805418L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5112DC4EDA27BEEB"
-					table_id: 8096229411196850122L
-					type: "loot"
-				}
-			]
-			tasks: [
-				{
-					id: "7D2E048E963F81B8"
-					item: "culturaldelights:eggplant"
-					type: "item"
-				}
-				{
-					id: "4817602A91B0828B"
-					item: "culturaldelights:white_eggplant"
-					type: "item"
-				}
-				{
-					id: "6F4527ED96894DF1"
-					item: "culturaldelights:cucumber"
-					type: "item"
-				}
-				{
-					id: "55C85A79E33AC2EE"
-					item: "culturaldelights:avocado"
-					type: "item"
-				}
-				{
-					id: "24109E992F80F19B"
-					item: "culturaldelights:corn_cob"
-					type: "item"
-				}
-			]
-			title: "Collect Crops: Cultural Delight"
-			x: -6.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["2093240CD42882CF"]
-			description: [
-				"&lNeapolitan&r adds a number of new crops. Please &6click through the quest pages&r to view information on each crop, where it can be found, and how it can be grown!"
-				""
-				"&bMint&r can be found in &cmountainous areas, nearby to lakes&r. You can &6craft Mint Leaves&r into &bMint Sprouts&r, which thrive in light levels 7-14."
-				""
-				"{@pagebreak}"
-				""
-				"&bAdzuki&r can be found in &cforest biomes&r, growing &ain the soil&r. You can plant your own by &6right clicking Adzuki beans&r on &bGrass or Dirt&r. It requires any light level to grow. When a peaceful mob walks through adzuki, it becomes fertilized. This means it grows faster, and drops more beans if destroyed. You must &6left click&r to harvest &bAdzuki Sprouts&r."
-				""
-				"{@pagebreak}"
-				""
-				"&bBanana Plants&r can be found in &cJungles&r or on &cBeaches&r. They grow &bBanana Bundles&r, which drop &bBanana Bunches&r. You can &6right click while holding&r a Banana Bunch to &aobtain a Banana&r, and also to &aplace a Banana Peel&r, which can be hazardous!"
-				""
-				"Banana Plants can be farmed by &6planting a Banana Frond on gravel or sand&r, and waiting for it &ato rain&r."
-				""
-				"Additionally, &bJungle Leaves&r have a small percentage chance to drop a &bBanana Bunch&r."
-				""
-				"Banana no longer seems like a word to me."
-				""
-				"{@pagebreak}"
-				""
-				"&bStrawberries&r can be found in &cPlains Biomes&r and are somewhat rare."
-				""
-				"If a Strawberry bush is planted in &cthe End&r, there is a chance of it mutating to &bWhite Strawberries&r."
-				""
-				"{@pagebreak}"
-				""
-				"&bVanilla Plants&r can be found in &cSavannah Biomes&r. Vanilla &dmust be harvested with &bShears&r, or else you risk being poisoned!"
-				""
-				"Vanilla can be farmed by &6planting the Pods&r on the &atop, bottom, or side&r of blocks."
-				""
-				" "
-				"{image:cottagewitch:textures/vanillaplants.png width:100 height:80 align:1 fit:true}"
-				""
-				"It also has a rare chance to &adrop from &bAcacia Trees&r."
-			]
-			id: "67CA1350C2E739E9"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4224D01D565D2367"
-					table_id: 8096229411196850122L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0E7A7EC5EF6AD834"
-					table_id: 6518300475828805418L
-					type: "loot"
-				}
-			]
-			tasks: [
-				{
-					id: "5BD1AB696876CF92"
-					item: "neapolitan:banana_bunch"
-					type: "item"
-				}
-				{
-					id: "7C428E12B39EDDD0"
-					item: "neapolitan:vanilla_pods"
-					type: "item"
-				}
-				{
-					id: "08FD74244DA8C475"
-					item: "neapolitan:adzuki_beans"
-					type: "item"
-				}
-				{
-					id: "31558A0339DEFD30"
-					item: "neapolitan:mint_leaves"
-					type: "item"
-				}
-				{
-					id: "6046299B9D90E7CF"
-					item: "neapolitan:strawberries"
-					type: "item"
-				}
-				{
-					id: "31FDCBC119717D06"
-					item: "neapolitan:white_strawberries"
-					type: "item"
-				}
-			]
-			title: "Collect Crops: Neapolitan"
-			x: -7.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2093240CD42882CF"]
-			description: [
-				"&bPrickly Pear&r can be found atop &bCactuses&r. You can harvest them with &6right click&r, but they cannot be transplanted to a farm, although you can plant a cactus and hope for the best!"
-				""
-				"To find &bMulberries&r, you'll need to locate &bRiver Trees&r, and can be harvested by &6right clicking&r on the berry."
-				""
 				"&bCherry Trees&r can be found in most &cForests&r. To obtain them, you must &6right click the cherried leaves&r. They do not drop if the tree is broken."
 				""
 				"&bSalmonberries&r grow in patches in &cForests&r. These can be &acrafted into Pips&r which can then be planted!"
@@ -599,18 +478,8 @@
 			]
 			tasks: [
 				{
-					id: "44F4339F00E4C3FA"
-					item: "upgrade_aquatic:mulberry"
-					type: "item"
-				}
-				{
 					id: "472FE3154E462C98"
 					item: "vinery:cherry"
-					type: "item"
-				}
-				{
-					id: "32DE1E0D678F4764"
-					item: "ecologics:prickly_pear"
 					type: "item"
 				}
 				{
@@ -618,54 +487,14 @@
 					item: "delightful:salmonberries"
 					type: "item"
 				}
+				{
+					id: "70BBE0F5CAC35CA4"
+					item: "bakery:strawberry"
+					type: "item"
+				}
 			]
 			title: "Collect Crops: Misc"
 			x: -2.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["2093240CD42882CF"]
-			description: [
-				"&bPomegranates&r can be found in the &cWarped Forest&r biome. You can grow these in the Nether, without any requirements. If in the overworld, it must be &apollinated by a &eBee&r in order to fruit. You can speed up their growth with &bNylium&r or &bRich Soul Soil&r."
-				""
-				"&bLimes&r can be found in &cFlower Forest&r biomes, and these always require &apollination by &eBees&r in order to produce fruit. This needs to occur for each harvest, so it's a good idea to &6integrate them into your Beehive area&r, or to integrate &eBees&r into your farm."
-				""
-				"&bPortobellas&r can be found in small patches in &cMeadows&r. You can &agrow colonies&r by placing them in the dark on &bRich Soil&r."
-			]
-			id: "13FE83358ADA67C3"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2BD5F641ED85B1E1"
-					table_id: 6518300475828805418L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "400025ED447713B6"
-					table_id: 8096229411196850122L
-					type: "loot"
-				}
-			]
-			tasks: [
-				{
-					id: "1A010317073CCD6E"
-					item: "collectorsreap:portobello"
-					type: "item"
-				}
-				{
-					id: "580901397EC03847"
-					item: "collectorsreap:pomegranate"
-					type: "item"
-				}
-				{
-					id: "54F6A79ED08AA32C"
-					item: "collectorsreap:lime"
-					type: "item"
-				}
-			]
-			title: "Collect Crops: Collector's Reap"
-			x: -2.0d
 			y: 1.5d
 		}
 		{
@@ -855,12 +684,20 @@
 				"&bLight Hook&r: Allows you to cast farther."
 			]
 			id: "049194E907505824"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7C37496F4650DD4D"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C37496F4650DD4D"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17F604DCC7AA0A21"
+					table_id: 8161559185986793228L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "5B6DEDB1DA476DFA"
@@ -911,7 +748,8 @@
 			id: "053D86E7EB49F9B5"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "0E6EE39033A94576"
+				id: "2E9224EE00432F04"
+				table_id: 661030336235288770L
 				type: "random"
 			}]
 			tasks: [{
@@ -1000,22 +838,13 @@
 			id: "3AD6F37B8E5FA3C1"
 			rewards: [
 				{
-					id: "47F6631B15A0AF25"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							Parent: {
-								Items: [ ]
-								Size: 28
-							}
-						}
-						id: "snailmail:envelope_open"
-					}
+					id: "64FB82856609CC5E"
+					item: "candlelight:letter_open"
 					type: "item"
 				}
 				{
-					id: "24F068A46FCCAF59"
-					item: "snailmail:stamp"
+					id: "624D1CD365504FD2"
+					item: "candlelight:note_paper_writeable"
 					type: "item"
 				}
 			]
@@ -1036,14 +865,15 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "074606E66D55DE3D"
+					id: "69FBF6761180029E"
+					table_id: 8161559185986793228L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "6FCA6F9F11F1E6F3"
-					table_id: 6941837675484043489L
-					type: "loot"
+					id: "63EE2F795226C6C4"
+					table_id: 661030336235288770L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1108,11 +938,20 @@
 			dependencies: ["2E4D1699E2A7876B"]
 			description: ["These fish can be found near &cArid biomes&r such as Deserts or Plateaus."]
 			id: "06C3850AE2F503F9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0DE2BD70E7DA5FCD"
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13D891F98905D328"
+					table_id: 8161559185986793228L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DC3BFB1E954FD62"
+					table_id: 661030336235288770L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1147,19 +986,15 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "418A7F27AFF087BE"
+					id: "6A3987C5078E7B97"
+					table_id: 8161559185986793228L
 					type: "random"
 				}
 				{
-					id: "6617157D20FCD26A"
-					item: {
-						Count: 1b
-						id: "twilightforest:ice_bow"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "59AAF7E523BA5BE8"
+					table_id: 661030336235288770L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1213,11 +1048,20 @@
 			dependencies: ["2E4D1699E2A7876B"]
 			description: ["These fish live in &cSaltwater biomes&r such as Lukewarm or Warm Oceans."]
 			id: "6699FB75436251C1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "73BA0DFDF9D7783A"
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0ED31A7F1F4185EF"
+					table_id: 8161559185986793228L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6ADD7CC3EC19100F"
+					table_id: 661030336235288770L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1244,11 +1088,20 @@
 			dependencies: ["2E4D1699E2A7876B"]
 			description: ["These fish can be found in &cJungle-type&r biomes such as Rainforests or, well, Jungles!"]
 			id: "5E5B41EF3F322441"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7F29843C0966C02F"
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28632C01DCA4975A"
+					table_id: 8161559185986793228L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48034CE9A04717BA"
+					table_id: 661030336235288770L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1284,11 +1137,25 @@
 				"The &bBox Turtle&r, on the other hand, is found in &cSwamps&r."
 			]
 			id: "34CB324CA7D2B4FA"
-			rewards: [{
-				id: "18EA6B3800AF60B5"
-				item: "aquaculture:lockbox"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "18EA6B3800AF60B5"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "011799E330F6C0BB"
+					table_id: 8161559185986793228L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EC4AEDA02E2CCB5"
+					table_id: 661030336235288770L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1479,6 +1346,150 @@
 			title: "Beginner Crabbing"
 			x: -0.5d
 			y: -6.0d
+		}
+		{
+			id: "612A8FE9674855B1"
+			tasks: [
+				{
+					id: "196D63D5E15B19B1"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+				{
+					id: "088A7A8314BC7508"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					id: "4FBF4A60E8D4E5A4"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					id: "6536C374E030BB76"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+				{
+					id: "4C61A7828D650413"
+					item: "vegandelight:soybean"
+					type: "item"
+				}
+				{
+					id: "21B1CCDBEB7EDA1C"
+					item: "bakery:oat"
+					type: "item"
+				}
+			]
+			title: "Collect New Crops"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "56F73747B7197386"
+			tasks: [
+				{
+					id: "5EAC5E59EB7BB5F5"
+					item: "fruitsdelight:pear"
+					type: "item"
+				}
+				{
+					id: "5450A159D60E2EAA"
+					item: "fruitsdelight:hawberry"
+					type: "item"
+				}
+				{
+					id: "1AD90CDE5734BC29"
+					item: "fruitsdelight:lychee"
+					type: "item"
+				}
+				{
+					id: "72387748DE8C22C1"
+					item: "fruitsdelight:mango"
+					type: "item"
+				}
+				{
+					id: "361906B7484030F6"
+					item: "fruitsdelight:persimmon"
+					type: "item"
+				}
+				{
+					id: "1D36CD9E39A22ED7"
+					item: "fruitsdelight:peach"
+					type: "item"
+				}
+				{
+					id: "0C258257E43C1512"
+					item: "fruitsdelight:orange"
+					type: "item"
+				}
+				{
+					id: "455082C12B3E749B"
+					item: "fruitsdelight:blueberry"
+					type: "item"
+				}
+				{
+					id: "167AAD6735FAA235"
+					item: "fruitsdelight:lemon"
+					type: "item"
+				}
+				{
+					id: "75E75C23F9A94D44"
+					item: "fruitsdelight:hamimelon_slice"
+					type: "item"
+				}
+				{
+					id: "02B607079847F248"
+					item: "fruitsdelight:pineapple"
+					type: "item"
+				}
+				{
+					id: "55C2DBB2A6E3FDC0"
+					item: "bakery:strawberry"
+					type: "item"
+				}
+				{
+					id: "33CE691F23DDB8BF"
+					item: "vinery:cherry"
+					type: "item"
+				}
+			]
+			title: "Obtain New Fruits"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "14A010F870E73911"
+			tasks: [
+				{
+					id: "53E852CC48581B90"
+					item: "herbalbrews:green_tea_leaf"
+					type: "item"
+				}
+				{
+					id: "1B02D4131C97FF25"
+					item: "herbalbrews:yerba_mate_leaf"
+					type: "item"
+				}
+				{
+					id: "738CBB38A51CDEFB"
+					item: "herbalbrews:rooibos_leaf"
+					type: "item"
+				}
+				{
+					id: "145D1E59D68C88EF"
+					item: "herbalbrews:coffee_beans"
+					type: "item"
+				}
+				{
+					id: "6EC6E2B0A6320543"
+					item: "herbalbrews:lavender_blossom"
+					type: "item"
+				}
+			]
+			title: "Collect Tea Leaves"
+			x: -6.5d
+			y: 1.5d
 		}
 	]
 	title: "Fishing \\& Gathering"

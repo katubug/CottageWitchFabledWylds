@@ -68,6 +68,11 @@
 		{ item: "regions_unexplored:alpha_sapling" }
 		{ item: "aether:skyroot_sapling" }
 		{ item: "aether:golden_oak_sapling" }
+		{ item: "aether_redux:flowering_fieldsprout_sapling" }
+		{ item: "aether_redux:gilded_oak_sapling" }
+		{ item: "aether_redux:glacia_sapling" }
+		{ item: "aether_redux:blighted_skyroot_sapling" }
+		{ item: "aether_redux:blightwillow_sapling" }
 	]
 	title: "Saplings"
 }

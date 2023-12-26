@@ -89,7 +89,6 @@ JEIEvents.hideItems(event => {
         'reliquary:rending_gale',
         'mysticsbiomes:strawberry',
         'mysticsbiomes:strawberry_jam',
-        //'mysticsbiomes:glass_jar',
         'bakery:dough',
         'candlelight:dough',
         'create:dough',
@@ -102,6 +101,26 @@ JEIEvents.hideItems(event => {
         'candlelight:potato_crate', 
         'candlelight:beetroot_crate',
         'extra_compat:reinforced_gold_knife',
+        'meadow:climbing_rope_topmount',
+        'nameless_trinkets:mysterious_trinket',
+        'aether:obsidian_boots', 
+        'aether:obsidian_leggings', 
+        'aether:obsidian_chestplate',
+        'aether:obsidian_helmet',
+        'herbalbrews:jug',
+        'reliquary:bat_wing',
+        'forbidden_arcanus:bat_wing',
+        'herbalbrews:mixed_tea_leaf_block',
+        'pipez:energy_pipe',
+        'pipez:gas_pipe',
+        'pipez:universal_pipe',
+        'sophisticatedstorage:feeding_upgrade',
+        'sophisticatedstorage:advanced_feeding_upgrade',
+        'sophisticatedstorage:shulker_box',
+        'sophisticatedstorage:iron_shulker_box',
+        'sophisticatedstorage:gold_shulker_box',
+        'sophisticatedstorage:diamond_shulker_box',
+        'sophisticatedstorage:netherite_shulker_box',
     ];
     
     for (const hide of toHide) {
@@ -110,21 +129,11 @@ JEIEvents.hideItems(event => {
 })
 /*
 JEIEvents.addItems(event => {
-    event.add(Item.of('buildinggadgets2:gadget_building', '{energy:500000,uuid:[I;-263423233,125847530,-2089373063,1330860108]}'))
+    event.add(
+        'buildinggadgets2:gadget_building', '{energy:500000,uuid:[I;-263423233,125847530,-2089373063,1330860108]}'))
     event.add(Item.of('buildinggadgets2:gadget_exchanging', '{energy:500000,uuid:[I;2068449905,-191871022,-1763510008,-1044204975]}'))
     event.add(Item.of('buildinggadgets2:gadget_copy_paste', '{energy:1000000}'))
     event.add(Item.of('buildinggadgets2:gadget_cut_paste', '{energy:5000000,pastereplace:1b}'))
     event.add(Item.of('buildinggadgets2:gadget_destruction', '{energy:1000000}'))
 })
 */
-
-ClientEvents.onAddItems(event => {
-    // Add individual items
-    event.addItem('buildinggadgets2:gadget_building', '{energy:500000,uuid:[I;-263423233,125847530,-2089373063,1330860108]}');
-    event.addItem('buildinggadgets2:gadget_exchanging', '{energy:500000,uuid:[I;2068449905,-191871022,-1763510008,-1044204975]}');
-    event.addItem('buildinggadgets2:gadget_copy_paste', '{energy:1000000}');
-    event.addItem('buildinggadgets2:gadget_cut_paste', '{energy:5000000,pastereplace:1b}');
-    event.addItem('buildinggadgets2:gadget_destruction', '{energy:1000000}');
-
-    // Add more items as needed
-})

@@ -109,6 +109,63 @@
 					team_reward: false
 					type: "command"
 				}
+				{
+					id: "03343966A677ADE8"
+					item: {
+						Count: 1b
+						id: "eccentrictome:tome"
+						tag: {
+							"eccentrictome:mods": {
+								aether: {
+									0: {
+										Count: 1b
+										id: "aether:book_of_lore"
+									}
+								}
+								eidolon: {
+									0: {
+										Count: 1b
+										id: "eidolon:codex"
+									}
+								}
+								fdcookbook: {
+									0: {
+										Count: 1b
+										id: "fdcookbook:fd_cookbook"
+									}
+								}
+								ftbquests: {
+									0: {
+										Count: 1b
+										id: "ftbquests:book"
+									}
+								}
+								lexicon: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "lexicon:lexicon"
+										}
+									}
+								}
+								solonion: {
+									0: {
+										Count: 1b
+										id: "solonion:food_book"
+									}
+								}
+								unusualprehistory: {
+									0: {
+										Count: 1b
+										id: "unusualprehistory:encyclopedia"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			size: 2.0d

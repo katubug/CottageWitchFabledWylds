@@ -515,6 +515,30 @@
 			x: -10.5d
 			y: -2.5d
 		}
+		{
+			description: [
+				"The &bCatacombs&r are a winding underground Labyrinth, fraught with &bspawners&r and &ethe Undead&r. However, if you are brave enough to traverse one, &awhat treasures might you find&r?"
+				""
+				"Here's a tip: &amove the tiles&r."
+			]
+			id: "4E1F419E6DF416FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CAA6E5FED77B4E0"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			subtitle: "don't give up, skeleton!"
+			tasks: [{
+				icon: "createdeco:decal_skull"
+				id: "6486EBC90BF85C21"
+				structure: "eidolon:catacomb"
+				type: "structure"
+			}]
+			title: "Discover the Catacombs"
+			x: -2.0d
+			y: -6.5d
+		}
 	]
 	title: "Globetrotting"
 }

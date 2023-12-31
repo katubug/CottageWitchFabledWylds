@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "Witchy Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "Rotten Flesh and Poisonous Potatoes can be placed in the Composter."
+      "text": "Rotten Flesh can now be placed in the Composter."
     }
   }

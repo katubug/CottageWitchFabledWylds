@@ -22,7 +22,6 @@
     "file/prettier-glowstone-e3640.zip",
     "file/pmc-mob-pack-shulker_white_multicolored-shulker.zip",
     "file/mushroomwitch-e3600.zip",
-    "file/mushroom-cap-hat.zip",
     "file/metal_valve_handles.zip",
     "file/liet-custom-armors.zip",
     "file/floweryladder.zip",
@@ -45,7 +44,6 @@
     "file/FragrantFlowers.zip",
     "file/EnderEyes_1.20.1_v3.zip",
     "file/EBE_1.20.x_v1.1.zip",
-    "file/Botany's+3D+Mushrooms.zip",
     "file/better-fungus-e1460.zip",
     "file/Better-Leaves-7.2-1.19+.zip",
     "file/3d-woodfire-furnace.zip",
@@ -83,7 +81,20 @@
     "file/Lopy-Create-Sophisticated-Backpacks.zip",
     "file/corality-1-0-3.zip",
     "file/cutepumpkins.zip",
-    "file/dr-zhark-horse-armor-revamped.zip"
+    "file/dr-zhark-horse-armor-revamped.zip",
+    "file/nice-compass.zip",
+    "file/CustomHatsCarvedPumpkins.zip",
+    "file/Mythical Forest.zip",
+    "file/Botany's+3D+Mushrooms.zip",
+    "file/Os' Colorful Grasses (Short).zip",
+    "file/A-YoJos-LushPacc!V10.zip",
+    "file/Kubban's Saplings New.zip",
+    "file/Kubban's Flowers.zip",
+    "file/better-bookshelf-e3500.zip",
+    "file/Simple Grass Flowers v1.5.0.zip",
+    "file/bowl-e1450.zip",
+    "file/Endhanced Frames.zip",
+    "file/Invisible-Item-Frames-V5.zip"
     ],
   "default_overrides": {
     "force_compatible": true

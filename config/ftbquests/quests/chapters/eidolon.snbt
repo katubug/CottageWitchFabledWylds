@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "eidolon"
 	group: "181D7A6A92948264"
@@ -364,6 +365,33 @@
 			}]
 			x: 6.0d
 			y: 0.5d
+		}
+		{
+			description: ["mines slow stuff faster and fast stuff slower"]
+			id: "7740F9E102D05B8E"
+			tasks: [{
+				id: "2033BE6BDB9D0823"
+				item: {
+					Count: 1b
+					id: "eidolon:reversal_pick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "66056B5BE17B85DC"
+			tasks: [{
+				id: "2BAF22B163443413"
+				item: "eidolon:worktable"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
 		}
 	]
 	title: "Eidolon"

@@ -79,6 +79,11 @@ ServerEvents.recipes(event => {
         {output: 'sophisticatedstorage:gold_shulker_box'},
         {output: 'sophisticatedstorage:diamond_shulker_box'},
         {output: 'sophisticatedstorage:netherite_shulker_box'},
+        {output: 'easy_villagers:converter'},
+        {output: 'easy_villagers:iron_farm'},
+        {output: 'moblassos:emerald_lasso'},
+        {output: 'moblassos:contract'},
+        {output: 'easy_mob_farm:poppy_bouquet'},
         //Replaced Recipes
         {output: 'mighty_mail:post_box'},
         {output: 'farmersdelight:wheat_dough'},
@@ -95,6 +100,11 @@ ServerEvents.recipes(event => {
         {mod: 'perfectplushies'},
         {mod: 'practical_plushies_animals'},
         {mod: 'practical_plushies_mobs'},
+        {id: 'forbidden_arcanus:dragon_scale'},
+        {id: 'forbidden_arcanus:tyr_helmet'},
+        {id: 'forbidden_arcanus:tyr_chestplate'},
+        {id: 'forbidden_arcanus:tyr_leggings'},
+        {id: 'forbidden_arcanus:tyr_boots'},
     ];
     
       for (const remove of toRemove) {

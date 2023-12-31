@@ -539,6 +539,29 @@
 			x: -2.0d
 			y: -6.5d
 		}
+		{
+			description: [
+				"You've entered the &aNether&r for the first time! We hope you enjoy your stay in this hostile environment. :)"
+				""
+				"You can use the reward from this quest to &aset your respawn point in the Nether&r, if you so choose. Simply &6place it down&r and &6feed it &bGlowstone&r."
+			]
+			id: "13C0DC76BB0AD7CB"
+			rewards: [{
+				id: "014A6853173CF7AD"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			subtitle: "welcome to hell"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				icon: "minecraft:netherrack"
+				id: "107172A8EAD35796"
+				type: "advancement"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
 	]
 	title: "Globetrotting"
 }

@@ -65,8 +65,8 @@
 				type: "item"
 			}]
 			title: "Obtain some Iron Grates"
-			x: 2.5d
-			y: 2.5d
+			x: 8.0d
+			y: 3.0d
 		}
 		{
 			description: ["Found as loot in chests, the &bAncient Tomes&r are books of long-lost knowledge which will allow you to &aadd a level to the specified enchantment&r by combining the Tome with the &bEnchanted Book&r at an &bAnvil&r."]
@@ -91,8 +91,8 @@
 				type: "item"
 			}]
 			title: "Obtain an Ancient Tome"
-			x: 1.5d
-			y: 4.5d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -112,8 +112,8 @@
 				item: "quark:bottled_cloud"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.5d
+			x: 8.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -237,7 +237,7 @@
 			y: 3.5d
 		}
 		{
-			description: ["The &bBedroll&r is an item which will allow you to &apass the night without setting spawn&r. Simply carry it with you and &6right click it on the ground&r to place it."]
+			description: ["The &bSleeping Bag&r is an item which will allow you to &apass the night without setting spawn&r. Simply carry it with you and &6right click it on the ground&r to place it."]
 			id: "34E82F6EBE6762A3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -248,15 +248,15 @@
 			shape: "hexagon"
 			subtitle: "Sleep under the stars!"
 			tasks: [{
-				id: "0531D8B2000AAB12"
+				id: "51BFB66C5A869E3B"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "upgrade_aquatic:bedrolls"
+						value: "comforts:sleeping_bags"
 					}
 				}
-				title: "Any Bedroll"
+				title: "Any Sleeping Bag"
 				type: "item"
 			}]
 			title: "Roughing It"
@@ -269,13 +269,22 @@
 				"Villagers who have &abeen zombified and then cured&r will offer &asignificant discounts&r."
 				""
 				"Should you find a &eZombie Villager&r, &6hit them with a Splash Potion of Weakness&r, and then &6give them a golden apple&r. After a time, they will be cured!"
+				""
+				"Once you've done this, you will be rewarded with a &bConverter&r, which can be used to &aconvert zombie villagers automatically&r by providing it with a &bPotion of Weakness&r and a &bGolden Apple&r."
 			]
 			id: "16797E1EF5450E7E"
-			rewards: [{
-				id: "32B8F134BDB6C421"
-				item: "minecraft:enchanted_golden_apple"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "32B8F134BDB6C421"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "333B97ADAC628FF9"
+					item: "easy_villagers:converter"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "extreme couponing"
 			tasks: [{
@@ -321,7 +330,7 @@
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
-			description: ["The first time you trade with a villager, their &aprofession and possible trades will become locked&r. This is a good way to ensure that the &aLibrarian&r who sells &bMending&r doesn't suddenly run away to join the circus."]
+			description: ["The first time you trade with a villager, their &aprofession and possible trades will become locked&r. This is a good way to ensure that the &aLibrarian&r doesn't suddenly run away to join the circus."]
 			id: "3705ABBD8EE1A369"
 			rewards: [{
 				count: 4
@@ -405,8 +414,8 @@
 				type: "item"
 			}]
 			title: "Obtain the Redstone Randomizer"
-			x: -5.0d
-			y: -2.5d
+			x: 8.0d
+			y: 9.5d
 		}
 		{
 			description: ["The &bCog Block&r performs the same way that &bplaced Redstone&r does. However, it doesn't wash away in water, and can be placed vertically both up and down to send a signal."]
@@ -438,8 +447,8 @@
 				item: "supplementaries:cog_block"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -3.5d
+			x: -6.0d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -474,8 +483,8 @@
 				item: "supplementaries:wind_vane"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.5d
+			x: -5.5d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -516,7 +525,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -552,7 +561,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			description: ["The &bRedstone Illuminator&r is a light source which is on by default. It grows dimmer depending on how much &aRedstone signal&r it receives. One can use a &bCrank&r instead of a &bLever&r for more fine-tuned control."]
@@ -584,7 +593,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			description: [
@@ -615,7 +624,7 @@
 			}]
 			title: "Obtain a Faucet"
 			x: -4.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			description: ["The &bEnder Watcher&r transmits a Redstone signal when &aa player is looking at it&r. The signal intensity is determined by how far the player is."]
@@ -672,8 +681,8 @@
 				item: "quark:ender_watcher"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -5.5d
+			x: 9.5d
+			y: 6.5d
 		}
 		{
 			description: [
@@ -715,8 +724,8 @@
 				type: "item"
 			}]
 			title: "Obtain an Iron Rod"
-			x: -3.0d
-			y: -4.5d
+			x: 10.0d
+			y: 7.5d
 		}
 		{
 			description: ["The &bObsidian Pressure Plate&r can &aonly be activated by players&r, making it very useful for base entrances and such."]
@@ -749,13 +758,13 @@
 			shape: "hexagon"
 			subtitle: "It can sense your sentience"
 			tasks: [{
-				id: "38E9461ED962DF18"
-				item: "quark:obsidian_pressure_plate"
+				id: "124944875A442DDE"
+				item: "playerplates:obsidian_plate"
 				type: "item"
 			}]
 			title: "A Player-Only Pressure Plate"
-			x: -2.5d
-			y: -3.5d
+			x: -4.5d
+			y: -4.5d
 		}
 		{
 			description: ["This unique End-enchanted item will only &afall when provided with a Redstone signal&r. If it is provided a redstone signal and &acannot fall, it will float up instead&r."]
@@ -794,8 +803,8 @@
 				type: "item"
 			}]
 			title: "Sand Which Disobeys Gravity"
-			x: -3.5d
-			y: -3.5d
+			x: 9.5d
+			y: 8.5d
 		}
 		{
 			description: ["These special buttons function similarly to other &bButtons&r, except that the &bIron Button&r gives a &amuch longer signal&r than usual, and the &bGold Button&r a &amuch shorter signal&r than usual."]
@@ -834,8 +843,8 @@
 				}
 			]
 			title: "Obtain Iron and Gold Buttons"
-			x: -3.0d
-			y: -2.5d
+			x: 10.0d
+			y: 9.5d
 		}
 		{
 			description: [
@@ -874,8 +883,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Chute"
-			x: -4.0d
-			y: -2.5d
+			x: 9.0d
+			y: 9.5d
 		}
 		{
 			id: "2BE44A5A7C52C52D"
@@ -887,27 +896,6 @@
 			}]
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["70C4F17973F6492E"]
-			description: [
-				"You no longer need to break a villager's job block to cycle through their trades. Simply &aask nicely&r (by &6pressing the Cycle Trades button&r)."
-				""
-				"{image:cottagewitch:textures/tradecycle.png width:200 height:150 align:1}"
-			]
-			id: "08F9BA2E3066C5FB"
-			rewards: [{
-				id: "681C157623F6DA33"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "6436F337BFCACE09"
-				title: "Cycle some Trades"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: -6.5d
 		}
 		{
 			description: ["Playing a fun game is its own reward, but here's an extra bonus for spending so much time with us! "]
@@ -930,31 +918,30 @@
 		{
 			dependencies: ["70C4F17973F6492E"]
 			description: [
-				"If you're playing with others, you can use Bartering Stations from the &lShoppy&r mod to &asell items to one another&r!"
+				"The &bRuby&r is an item which can be used as a currency on multiplayer servers."
 				""
-				"To &aset an item to sell&r, &6right click it&r (in the amount you plan to sell it) on the top of the station. For example, you want to sell Leather in stacks of 16. You would right click 16 Leather on the top of the station to set the item."
+				"The &bExchange Block&r allows you to select an item to be sold and for how many Rubies. Once placed, &6shift click&r once to claim the block. Then, &6shift click again&r to access its interface."
 				""
-				"To &aadd more inventory&r (multiple stacks of the same item), &6right click&r that item onto the top of the station. For the above example, you would click the top of the station with 1-64 Leather to deposit it into the block."
+				"You &dcannot use the tangible &bRuby&r item at an &bExchange Block&r, however. It needs to be converted to currency by &6holding a &bRuby Card&6 and right clicking. All &bRubies&r in your inventory will be added to your account! Then you can spend them. You can also &awithdraw Rubies&r from the card by &6shift right clicking&r while holding it."
 				""
-				"To &aset the price&r, &6right click&r the item you'd like to receive (in the amount you want to receive) &don the bottom&r of the station. For the above example, if you wanted to sell 16 Leather for 1 Gold Nugget, you would click a single Gold Nugget on the bottom of the station."
-				""
-				"If you changed your mind, you could &achange the price&r again by right clicking it with 1 Gold Nugget, and it would add 1 for each click. Or, you could right click it with 5 Gold Nuggets to directly set the price to 5."
-				""
-				"To &areset the station&r, &6shift right click with empty hands&r on the &dtop&r of the station."
-				""
-				"To &awithdraw profits&r, &6shift left click with empty hands&r. If you &6left click&r without shift, you can see &awhat you're selling&r and &ahow many have sold/are still in stock&r."
-				""
-				"{image:cottagewitch:textures/shoppy.png width:100 height:100 align:1 fit:true}"
+				"Don't worry if you lose your card! Your &bRubies&r are &atied to your player data&r, and the card just allows you to access them easily. You can &aview your balance&r by &6holding the Card&r and looking in the &abottom right hand side&r of your screen."
 			]
 			id: "5C5768D4346FD3FE"
-			rewards: [{
-				id: "7C592B360B7E447C"
-				item: "shoppy:bartering_station"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7D1A90BCF6757E2D"
+					item: "ruby_exchange:exchange_block"
+					type: "item"
+				}
+				{
+					id: "054DEDBAFB3ECBEF"
+					item: "ruby_exchange:ruby_card"
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "1DFF4A58C1D8EE8D"
-				item: "shoppy:bartering_station"
+				id: "31ADB892314E413F"
+				item: "ruby_exchange:ruby"
 				type: "item"
 			}]
 			title: "Multiplayer Bartering"
@@ -965,24 +952,15 @@
 			description: [
 				"Those who experiment with altering their states may find themselves in quite the situation, not entirely knowing how they arrived at this conclusion."
 				""
-				"This achievement involves getting &aevery vanilla effect&r at once, as well as the modded effects, such as (this list may be incomplete):"
-				""
-				"Panic, Serenity (both Environmental), Health Boost, Resilience (both Quark)."
+				"This achievement involves getting &aevery vanilla effect&r at once, as well as the modded effects."
 			]
 			id: "3B84722A9CD28821"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "33B0D43C0A77E807"
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7B3C07A23A62C2D8"
-					table_id: 7265408724434505998L
-					type: "choice"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B3C07A23A62C2D8"
+				table_id: 7265408724434505998L
+				type: "choice"
+			}]
 			shape: "octagon"
 			tasks: [{
 				advancement: "minecraft:nether/all_effects"
@@ -1068,44 +1046,15 @@
 			y: 5.5d
 		}
 		{
-			description: [
-				"You can obtain a &bElder Eye&r from &eElder Guardians&r. Don't confuse it with the &bGuardian Eye&r, which is used to get to &cThe End&r!"
-				""
-				"The &bElder Eye&r is a &aplaceable item&r which will give off a &astrong redstone signal&r when an entity is nearby."
-			]
-			id: "2B185A8ECBD7AD8F"
-			rewards: [{
-				id: "76AF237790552D43"
-				item: "upgrade_aquatic:elder_eye"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "4223E607CF42AD78"
-				item: "upgrade_aquatic:elder_eye"
-				type: "item"
-			}]
-			title: "Eyes of an Elder"
-			x: -6.0d
-			y: -4.5d
-		}
-		{
 			dependencies: ["70C4F17973F6492E"]
 			description: ["Ooh dang, you just got &arejected by a &bNitwit&r. Feelsbadman."]
 			id: "4F7C97B20944FDB5"
-			rewards: [
-				{
-					id: "339DAF2F0074CD0D"
-					item: "finsandtails:spindly_emerald"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "230848B75E85B7EF"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "230848B75E85B7EF"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
 			tasks: [{
 				checkItem: false
 				entity: "minecraft:villager"
@@ -1122,7 +1071,7 @@
 				value: 1L
 			}]
 			title: "Denied."
-			x: 6.0d
+			x: 6.5d
 			y: -5.5d
 		}
 		{
@@ -1131,45 +1080,57 @@
 				""
 				"Whatever you believe the power of the picture truly is, it cannot be denied that it &ais at least somewhat magical&r. The ability to capture light from a moment in time and look back on it long since it has passed? That's a small miracle without a doubt."
 				""
-				"You, too, can &acapture photos with a camera&r! &6Right click&r while holding the &bCamera&r to enter the photo mode. While in photo mode, &6scroll in and out to zoom&r. To take a photo, &6right click again&r. &dThis consumes paper&r and provides you with photos! &dThere is also a cooldown before you can take another picture&r."
+				"You, too, can &acapture photos with a camera&r! &6Right click&r the camera to enter photo mode. From here, you can &6crouch&r to access the &aphoto settings&r - Focal Length, Shutter Speed, Flash Mode, and Composition Guides."
+				""
+				"But first, you'll need some &bFilm&r, and you can also upgrade your camera with &aother items&r!"
 				""
 				"Continued on next page."
 				""
 				"{@pagebreak}"
 				""
-				"The &bPhotos&r can either be hung in an &bImage Frame&r, or added to an &bAlbum&r."
+				"&6Shift right click&r while holding the &bCamera&r to access the interface. Here you can load &bFilm&r - color, or black and white. You can also add the following:"
 				""
-				"To open the Album, &6shift click&r and place photos inside. &6Right click holding the Album&r to view the photos, and &6scroll to change photos&r. You can also &aplace them in &bLecterns&r!"
+				"- &bRedstone Lamp&r to add a &aflash&r"
+				"- &bSpyglass&r to add a &azoom&r"
+				"- &bGlass Pane&r to add &afilters&r"
+				""
+				"{image:enchanted_wilds:textures/questimages/cameraui.png width:100 height:100 align:1 fit:true}"
 			]
 			id: "153DBE782905BF62"
 			rewards: [{
-				count: 10
-				id: "5B7A726DA7F78989"
-				item: "minecraft:paper"
+				id: "3A58EA7E39E073B3"
+				item: "exposure:color_film"
 				type: "item"
 			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "03128A3B738BB1B8"
-					item: {
-						Count: 1b
-						id: "camera:camera"
-						tag: {
-							active: 0b
+			shape: "rsquare"
+			tasks: [{
+				id: "3FCD8D8009D39246"
+				item: {
+					Count: 1b
+					id: "exposure:camera"
+					tag: {
+						Active: 0b
+						Filter: {
+							Count: 1b
+							id: "minecraft:glass_pane"
 						}
+						Flash: {
+							Count: 1b
+							id: "minecraft:redstone_lamp"
+						}
+						Lens: {
+							Count: 1b
+							id: "minecraft:spyglass"
+						}
+						Selfie: 0b
+						Zoom: 54.99999916788712d
 					}
-					type: "item"
 				}
-				{
-					id: "507468F7A2387394"
-					item: "camera:album"
-					type: "item"
-				}
-			]
-			title: "Photography Witchcraft"
-			x: 3.0d
-			y: 7.5d
+				type: "item"
+			}]
+			title: "Photography is Witchcraft"
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			description: [
@@ -2536,40 +2497,8 @@
 				}
 			]
 			title: "The Joy of Painting"
-			x: 1.5d
-			y: 6.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["70C4F17973F6492E"]
-			description: [
-				"In multiplayer, &bCoins&r are an important currency. They are obtainable in several ways - "
-				""
-				""
-				"- Rarely they can be fished up while it is raining."
-				"- They have a low chance to be dropped by &eSkeletons&r and &eZombie Villagers&r."
-				"- They can be looted in &cWoodland Mansions&r dungeon chests."
-				""
-				"However, in singleplayer they are...less useful. In that case, you may use this quest to exchange your found currency for something more practical."
-				""
-				"This quest is repeatable."
-			]
-			id: "2063FF7B9C55E56F"
-			rewards: [{
-				id: "3569569879089E03"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				consume_items: true
-				id: "7D95252A3CCFF662"
-				item: "kubejs:solar_coin"
-				type: "item"
-			}]
-			title: "Money Changing"
-			x: 4.5d
-			y: -2.0d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
@@ -2714,6 +2643,650 @@
 			]
 			x: -1.5d
 			y: 4.5d
+		}
+		{
+			description: [
+				"The &bUncrafter&r is a magical salvager which can &areturn one ingredient&r from a crafted item. For example, if you put in a &bDiamond Helmet&r, you could &aretrieve one &bDiamond&r from it."
+				""
+				"This works &aeven if the item has taken damage&r, so it could be a helpful way to salvage old gear!"
+			]
+			id: "257C8B9C7DBEEC23"
+			shape: "rsquare"
+			tasks: [{
+				id: "68A4AE97D731DA88"
+				item: "uncrafter:uncrafter"
+				type: "item"
+			}]
+			title: "Obtain an Uncrafter"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["257C8B9C7DBEEC23"]
+			description: ["The &bAdvanced Uncrafter&r is very similar to the basic version, except it can return &a3 of the ingredients&r of a crafted item, instead of just one."]
+			id: "02841E684EA6A93B"
+			shape: "hexagon"
+			tasks: [{
+				id: "20E696D509AC71A8"
+				item: "uncrafter:advanced_uncrafter"
+				type: "item"
+			}]
+			title: "Obtain an Advanced Uncrafter"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"The &bTraveler's Compass&r is an item which can seek out &ablocks, entities, and items in storage containers&r."
+				""
+				"First, &6right click while holding the &bCompass&r. Then, on the left, choose whether you're seeking an entity, item, or block. Then, &6click the item you're searching for&r into the simulated inventory slots in the center. This places a ghost of the item into the inventory."
+				""
+				"For example, if you wanted to find a &epig&r, you could place a &bPork Chop&r into the inventory. If you wanted to find &bIron Ore Blocks&r, you could place a &bRaw Iron&r, &bIron Ingot&r, or &bIron Ore&r into the inventory."
+				""
+				"Once the &bCompass&r detects the filtered items nearby, it will &apoint you in their direction&r."
+			]
+			id: "225C97A6C4FC4652"
+			rewards: [
+				{
+					id: "2C886FD18BE61D65"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					id: "3A09079F084DD2AB"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "73748512473776F6"
+				item: {
+					Count: 1b
+					id: "travelerscompass:travelerscompass"
+					tag: {
+						foundPos: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Seeking Specific Items"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["762A6A61693A5BBA"]
+			description: [
+				"You &aprint your photographs&r using the &bLightroom&r. Here you can &aview your developed negatives&r in detail, as well."
+				""
+				"&bBlack and White Film&r requires &bPaper&r and &bBlack Dye&r. Printing in &acolor&r additionally requires &bCyan&r, &bMagenta&r, and &bYellow Dyes&r."
+				""
+				"Once you have &6chosen your photo with left click&r, you can then &6click the checkmark&r to begin printing. And ta-da! Photographs!"
+			]
+			id: "573269BC454A499D"
+			rewards: [
+				{
+					id: "7BA174D02F378746"
+					item: {
+						Count: 1b
+						id: "exposure:photograph"
+						tag: {
+							Biome: "minecraft:plains"
+							Dimension: "minecraft:overworld"
+							Id: "Katubug_3973485"
+							LightLevel: 12
+							Photographer: "Katubug"
+							PhotographerId: [I;
+								-438126435
+								948191632
+								-1956014202
+								1052335046
+							]
+							Pos: [
+								302
+								64
+								28
+							]
+							SunAngle: 4.9744267f
+							Timestamp: "2023-12-29_13.10.35"
+							Type: "color"
+							Weather: "Clear"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54D5B32E2ACCD86A"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "059A5E5EACE82169"
+					item: "minecraft:magenta_dye"
+					type: "item"
+				}
+				{
+					id: "22C6A8212719C3E7"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					id: "201483B73DF0F814"
+					item: "minecraft:yellow_dye"
+					type: "item"
+				}
+				{
+					id: "56C9425B8338BE10"
+					item: "minecraft:cyan_dye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "481461FE47887ED6"
+				item: "exposure:lightroom"
+				type: "item"
+			}]
+			title: "Printing Photos"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["153DBE782905BF62"]
+			description: [
+				"In order to &aprint your photographs&r, you must first &adevelop the film&r."
+				""
+				"This is done by crafting &bThick&r, &bAwkward&r, and &bMundane Potions&r together with the &bFilm&r."
+				""
+				""
+				"{image:#FFFFFF width:100 height:100 align:1}"
+			]
+			id: "762A6A61693A5BBA"
+			rewards: [
+				{
+					count: 2
+					id: "1FE36B05678F71E6"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:thick"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5F931581D96A28E6"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:mundane"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "61398267ED10E965"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:awkward"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "246CF319B613D4EE"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:thick"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57E0032108F0660C"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:mundane"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51D93A5325DD5F2E"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:awkward"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Developing Photos"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"The &bHammock&r is an item which allows you to &aprogress the time to night&r by taking a &anice, relaxing nap&r during the day."
+				""
+				"You'll need to first make sure you have exactly &dfour blocks of space&r for the &bHammock&r. Place the &bRope and Nail&r on two blocks, four blocks apart. Then you can &6right click the &bHammock Cloth&r into place."
+			]
+			id: "6138C299ED7CE80C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EA69F9634017BF0"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3C3DABB67B7489C9"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:hammocks"
+						}
+					}
+					title: "Any #comforts:hammocks"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0A760BA85460BE9C"
+					item: "comforts:rope_and_nail"
+					type: "item"
+				}
+			]
+			title: "Daytime Relaxation"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: [
+				"Using &aFey Magic&r, you can ensnare villagers to do your bidding~"
+				""
+				"By &6shift right clicking on them&r, you bewitch them into item form, which allows you to carry them around until you have need of them. While in item form, you can &aplace them into a &bTrader&r, which transforms them into a &ehomunculus&r who will then trade with you."
+				""
+				"Should you decide to &arelease them&r, you can &6shift right click&r on the &bTrader&r to remove the &eVillager&r, then &6right click the villager&r onto the ground."
+				""
+				"&bTraders&r, and other blocks from the &lEasy Villagers&r mod, will retain their inventory when broken."
+			]
+			id: "3A51A2B4DE09D7D7"
+			rewards: [
+				{
+					id: "2D6B879DFC014FBA"
+					item: "easy_villagers:trader"
+					type: "item"
+				}
+				{
+					id: "2EC44B12F77464C1"
+					item: "plushies:villager_plushie"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BCBDCE79156430E"
+				item: "easy_villagers:villager"
+				type: "item"
+			}]
+			title: "Easy Villager Trading"
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"So you'd like to &aobtain mob drops passively&r, eh? Well, here's a way for you to do so!"
+				""
+				"&lEasy Mob Farms&r adds in small &bFarm Blocks&r, which you can &aplace mobs in&r, and it will slowly generate their drops. These are crafted using &bTemplates&r."
+				""
+				"The &bCopper&r template is the easiest, and can process most basic vanilla mobs."
+				""
+				"The &bIron&r is a step up - it's compatible with more mobs, including some modded ones, and produces twice as quickly!"
+				""
+				"The &bGold&r similarly adds more compatibility with mobs, including all modded ones, and produces items at triple speed."
+				""
+				"And finally, the &bNetherite&r can process all mobs regardless of origin, and goes the fastest. Note that &asome mobs have been disabled&r for use in the &bFarms&r."
+				""
+				"&dTo find what Farm is used for your mob&r: use JEI to search for the name of your mob! You can also &6add \"@mob\" to narrow down the results."
+			]
+			id: "2ACDDDBA14BD01ED"
+			rewards: [
+				{
+					id: "10394AE2F03A8DFB"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					id: "32D170B3A560F050"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "0886E85FE6D4EC93"
+					item: "minecraft:white_tulip"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "64CD5E1597239676"
+				item: "easy_mob_farm:copper_mob_farm_template"
+				type: "item"
+			}]
+			title: "Mob Farming Beginnings"
+			x: -6.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["2ACDDDBA14BD01ED"]
+			description: [
+				"To get started, let's craft a &bCopper Plains Farm&r. Take this &bcaptured Pig&r and &6place it into the Farm&r. You can &aadd a weapon&r for it to be considered to be a &aplayer kill&r, which sometimes provides different &aloot drops&r."
+				""
+				"You can &aexport from the bottom of the &bFarm&r. This is &dhighly recommended&r to avoid lag! You can use an &bItem Pipe&r or a &bHopper&r connected to another storage block&r."
+				""
+				"It is also encouraged to &aadd an overflow safety&r, such as a &lSophisticated Storage&r &bVoid Upgrade&r. Generating items into full inventories is &dvery laggy&r."
+			]
+			id: "475522DFAB572B5D"
+			rewards: [{
+				id: "35B8980AB6FC50B2"
+				item: {
+					Count: 1b
+					id: "easy_mob_farm:collar_small"
+					tag: {
+						AbsorptionAmount: 0.0f
+						Age: 0
+						Air: 300s
+						ArmorDropChances: [
+							0.085f
+							0.085f
+							0.085f
+							0.085f
+						]
+						ArmorItems: [
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+						Attributes: [
+							{
+								Base: 16.0d
+								Modifiers: [{
+									Amount: 0.007028073786793844d
+									Name: "Random spawn bonus"
+									Operation: 1
+									UUID: [I;
+										1834418428
+										-1835645051
+										-1408229811
+										-900447836
+									]
+								}]
+								Name: "minecraft:generic.follow_range"
+							}
+							{
+								Base: 0.25d
+								Name: "minecraft:generic.movement_speed"
+							}
+							{
+								Base: 0.08d
+								Name: "forge:entity_gravity"
+							}
+							{
+								Base: 0.0d
+								Name: "forge:step_height_addition"
+							}
+						]
+						BaguData: { }
+						BalmData: { }
+						Brain: {
+							memories: { }
+						}
+						CanPickUpLoot: 0b
+						CanUpdate: 1b
+						CitadelData: { }
+						Color: 0b
+						Count: 1b
+						Damage: 4
+						DeathTime: 0s
+						EntityId: "minecraft:pig"
+						EntityLootTable: "minecraft:entities/pig"
+						EntityName: "Pig"
+						EntityPossibleLoot: "[\"item.minecraft.porkchop\"]"
+						EntityType: "minecraft:pig"
+						FallDistance: 0.0f
+						FallFlying: 0b
+						Fire: -1s
+						ForcedAge: 0
+						ForgeCaps: {
+							"aether:mob_accessory": {
+								DropChances: {
+									aether_gloves: 0.085f
+									aether_pendant: 0.085f
+									hands: 0.085f
+									necklace: 0.085f
+								}
+							}
+							"curios:inventory": {
+								Curios: [ ]
+							}
+							"earthmobsmod:shadow": {
+								PercentBoost: 0.0f
+							}
+							"structure_gel:gel_entity": {
+								portal: "structure_gel:empty"
+							}
+							"unusualprehistory:animal_capability": {
+								animal: ""
+								timer: 0
+							}
+						}
+						ForgeData: { }
+						HandDropChances: [
+							0.085f
+							0.085f
+						]
+						HandItems: [
+							{ }
+							{ }
+						]
+						Health: 10.0f
+						HurtByTimestamp: 0
+						HurtTime: 0s
+						InLove: 0
+						Invulnerable: 0b
+						LeftHanded: 0b
+						Motion: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						Muddy: 0b
+						OnGround: 1b
+						PersistenceRequired: 0b
+						PortalCooldown: 0
+						Pos: [
+							269.5d
+							63.0d
+							2.5d
+						]
+						Rotation: [
+							172.51228f
+							-17.687357f
+						]
+						Saddle: 0b
+						Sheared: 0b
+						Tags: ["nohostilesaroundcampfire.checked"]
+						UUID: [I;
+							-316555430
+							1013334263
+							-1332202479
+							-1938487236
+						]
+						"forge:spawn_type": "SPAWN_EGG"
+						id: "easy_mob_farm:collar_small"
+						tag: {
+							AbsorptionAmount: 0.0f
+							Age: 0
+							Air: 300s
+							ArmorDropChances: [
+								0.085f
+								0.085f
+								0.085f
+								0.085f
+							]
+							ArmorItems: [
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							Attributes: [
+								{
+									Base: 16.0d
+									Modifiers: [{
+										Amount: 0.007028073786793844d
+										Name: "Random spawn bonus"
+										Operation: 1
+										UUID: [I;
+											1834418428
+											-1835645051
+											-1408229811
+											-900447836
+										]
+									}]
+									Name: "minecraft:generic.follow_range"
+								}
+								{
+									Base: 0.25d
+									Name: "minecraft:generic.movement_speed"
+								}
+								{
+									Base: 0.08d
+									Name: "forge:entity_gravity"
+								}
+								{
+									Base: 0.0d
+									Name: "forge:step_height_addition"
+								}
+							]
+							BaguData: { }
+							BalmData: { }
+							Brain: {
+								memories: { }
+							}
+							CanPickUpLoot: 0b
+							CanUpdate: 1b
+							CitadelData: { }
+							Color: 0b
+							Count: 1b
+							Damage: 3
+							DeathTime: 0s
+							EntityId: "minecraft:pig"
+							EntityLootTable: "minecraft:entities/pig"
+							EntityName: "Pig"
+							EntityPossibleLoot: "[\"item.minecraft.porkchop\"]"
+							EntityType: "minecraft:pig"
+							FallDistance: 0.0f
+							FallFlying: 0b
+							Fire: -1s
+							ForcedAge: 0
+							ForgeCaps: {
+								"aether:mob_accessory": {
+									DropChances: {
+										aether_gloves: 0.085f
+										aether_pendant: 0.085f
+										hands: 0.085f
+										necklace: 0.085f
+									}
+								}
+								"curios:inventory": {
+									Curios: [ ]
+								}
+								"earthmobsmod:shadow": {
+									PercentBoost: 0.0f
+								}
+								"structure_gel:gel_entity": {
+									portal: "structure_gel:empty"
+								}
+								"unusualprehistory:animal_capability": {
+									animal: ""
+									timer: 0
+								}
+							}
+							ForgeData: { }
+							HandDropChances: [
+								0.085f
+								0.085f
+							]
+							HandItems: [
+								{ }
+								{ }
+							]
+							Health: 10.0f
+							HurtByTimestamp: 0
+							HurtTime: 0s
+							InLove: 0
+							Invulnerable: 0b
+							LeftHanded: 0b
+							Motion: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							Muddy: 0b
+							OnGround: 1b
+							PersistenceRequired: 0b
+							PortalCooldown: 0
+							Pos: [
+								269.5d
+								63.0d
+								2.5d
+							]
+							Rotation: [
+								172.51228f
+								-17.687357f
+							]
+							Saddle: 0b
+							Sheared: 0b
+							Tags: ["nohostilesaroundcampfire.checked"]
+							UUID: [I;
+								-316555430
+								1013334263
+								-1332202479
+								-1938487236
+							]
+							"forge:spawn_type": "SPAWN_EGG"
+							id: "easy_mob_farm:collar_small"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61327BC84EE631EE"
+				item: "easy_mob_farm:copper_animal_plains_farm"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
 		}
 	]
 	title: "Miscellaneous"

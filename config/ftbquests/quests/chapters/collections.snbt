@@ -110,6 +110,16 @@
 					item: "regions_unexplored:red_snowbelle"
 					type: "item"
 				}
+				{
+					id: "6484205D05B1B0FD"
+					item: "deep_aether:sky_tulips"
+					type: "item"
+				}
+				{
+					id: "6A481E91246BA8FA"
+					item: "bovinesandbuttercups:freesia"
+					type: "item"
+				}
 			]
 			title: "Flower Picking: Red"
 			x: -3.5d
@@ -171,6 +181,21 @@
 					item: "meadow:fire_lily"
 					type: "item"
 				}
+				{
+					id: "69F330C0CE0907B8"
+					item: "bovinesandbuttercups:bird_of_paradise"
+					type: "item"
+				}
+				{
+					id: "16827B02202AE0C8"
+					item: "aether_redux:aurum"
+					type: "item"
+				}
+				{
+					id: "64B3B39CB4B9EBC2"
+					item: "deep_aether:golden_aspess"
+					type: "item"
+				}
 			]
 			title: "Flower Picking: Orange"
 			x: -3.0d
@@ -189,6 +214,12 @@
 					id: "7DCECB41814CB556"
 					table_id: 1739670786502713488L
 					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FC02539F2767A59"
+					table_id: 1739670786502713488L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -327,6 +358,21 @@
 					item: "spawn:sunflower"
 					type: "item"
 				}
+				{
+					id: "7FD7250038AFE96F"
+					item: "deep_aether:enchanted_blossom"
+					type: "item"
+				}
+				{
+					id: "2F8D8A1CDB98309A"
+					item: "bovinesandbuttercups:buttercup"
+					type: "item"
+				}
+				{
+					id: "25854DCD30FD7877"
+					item: "deep_aether:golden_flower"
+					type: "item"
+				}
 			]
 			title: "Flower Picking: Yellow"
 			x: -2.5d
@@ -356,6 +402,11 @@
 				{
 					id: "35FFD1D149C9A9C2"
 					item: "regions_unexplored:brown_snowbelle"
+					type: "item"
+				}
+				{
+					id: "069FA964DCB4B5C6"
+					item: "bovinesandbuttercups:limelight"
 					type: "item"
 				}
 			]
@@ -447,6 +498,31 @@
 				{
 					id: "59CB2F84C58E6115"
 					item: "regions_unexplored:cobalt_earlight"
+					type: "item"
+				}
+				{
+					id: "2B244079E5DAB200"
+					item: "bovinesandbuttercups:chargelily"
+					type: "item"
+				}
+				{
+					id: "7AE79300FEEEE611"
+					item: "aether_redux:daggerbloom"
+					type: "item"
+				}
+				{
+					id: "0E5DD4427B241ECD"
+					item: "bovinesandbuttercups:tropical_blue"
+					type: "item"
+				}
+				{
+					id: "5F282B62CAD30B80"
+					item: "aether_redux:lumina"
+					type: "item"
+				}
+				{
+					id: "133408009CCA2E46"
+					item: "deep_aether:iaspove"
 					type: "item"
 				}
 			]
@@ -542,6 +618,36 @@
 					item: "regions_unexplored:glister_bulb"
 					type: "item"
 				}
+				{
+					id: "248E67E0EC3FCB42"
+					item: "aether_redux:blightshade"
+					type: "item"
+				}
+				{
+					id: "752EDFBD96661C4E"
+					item: "aether_redux:sweetblossom"
+					type: "item"
+				}
+				{
+					id: "276C0C1666CAD0C1"
+					item: "deep_aether:echaisy"
+					type: "item"
+				}
+				{
+					id: "62E86D1210E59C94"
+					item: "aether_redux:frosted_purple_flower"
+					type: "item"
+				}
+				{
+					id: "3041A0709B5C630C"
+					item: "bovinesandbuttercups:hyacinth"
+					type: "item"
+				}
+				{
+					id: "30A7975CFC17BA0E"
+					item: "deep_aether:radiant_orchid"
+					type: "item"
+				}
 			]
 			title: "Flower Picking: Purple"
 			x: -0.5d
@@ -632,6 +738,31 @@
 				{
 					id: "4EB9C0CECEAFCEDD"
 					item: "minecraft:peony"
+					type: "item"
+				}
+				{
+					id: "5BE0A9E866995ED4"
+					item: "deep_aether:tall_aerlavender"
+					type: "item"
+				}
+				{
+					id: "192B945229C17DE9"
+					item: "deep_aether:aerlavender"
+					type: "item"
+				}
+				{
+					id: "57899B57853C1B04"
+					item: "aether_redux:iridia"
+					type: "item"
+				}
+				{
+					id: "1D0D7B4B06AEC58F"
+					item: "bovinesandbuttercups:pink_daisy"
+					type: "item"
+				}
+				{
+					id: "0BC036029A6DA647"
+					item: "aether_redux:fieldsprout_petals"
 					type: "item"
 				}
 			]
@@ -757,6 +888,16 @@
 					item: "regions_unexplored:tassel"
 					type: "item"
 				}
+				{
+					id: "68736E9DECE51AEB"
+					item: "aether_redux:gilded_white_flower"
+					type: "item"
+				}
+				{
+					id: "2221649BA75ACBD0"
+					item: "bovinesandbuttercups:snowdrop"
+					type: "item"
+				}
 			]
 			title: "Flower Picking: Black and White"
 			x: -1.5d
@@ -767,13 +908,16 @@
 			id: "6B3AD3CDE8EC90F1"
 			rewards: [
 				{
-					id: "5B49E95D66913E91"
+					exclude_from_claim_all: true
+					id: "54B1D653EA769025"
+					table_id: 5036677739913042344L
 					type: "choice"
 				}
 				{
-					id: "35E657F9581317FF"
-					table_id: 5036677739913042344L
-					type: "choice"
+					exclude_from_claim_all: true
+					id: "31595828405A7D60"
+					table_id: 1739670786502713488L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -842,6 +986,31 @@
 				{
 					id: "4DBCD65800C2F11B"
 					item: "gardens_of_the_dead:soulblight_fungus"
+					type: "item"
+				}
+				{
+					id: "4FDE78ADB3F9A756"
+					item: "aether_redux:blighted_fungi"
+					type: "item"
+				}
+				{
+					id: "73A0748C55A74491"
+					item: "deep_aether:lightcap_mushrooms"
+					type: "item"
+				}
+				{
+					id: "17AA08DC7CBF21D4"
+					item: "aether_redux:cloudcap_mushling"
+					type: "item"
+				}
+				{
+					id: "32BECBABDB7A92F7"
+					item: "aether_redux:tall_cloudcap"
+					type: "item"
+				}
+				{
+					id: "1B6BB31B6D5E317B"
+					item: "aether_redux:firecap"
 					type: "item"
 				}
 			]
@@ -1012,6 +1181,11 @@
 					id: "78D88788724EB26F"
 					table_id: 5161092699925703455L
 					type: "choice"
+				}
+				{
+					id: "5597B980A8925A17"
+					item: "perfectplushies:cat_plushie"
+					type: "item"
 				}
 			]
 			shape: "octagon"

@@ -210,11 +210,6 @@
 					type: "item"
 				}
 				{
-					id: "4932557C828D26FE"
-					item: "plushies:cow"
-					type: "item"
-				}
-				{
 					id: "65E313A1D617E96C"
 					item: "supplementaries:cage"
 					type: "item"
@@ -224,6 +219,11 @@
 					id: "32818194460DA541"
 					table_id: 2534339319169675056L
 					type: "random"
+				}
+				{
+					id: "3481FA348F86A932"
+					item: "practical_plushies_animals:cow_plushie"
+					type: "item"
 				}
 			]
 			shape: "octagon"
@@ -247,15 +247,20 @@
 					type: "choice"
 				}
 				{
-					id: "0AEB98268C0B3561"
-					item: "plushies:parrot"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "5CA33382BFD28B72"
 					table_id: 2534339319169675056L
 					type: "random"
+				}
+				{
+					id: "05DACFCFD497AD27"
+					item: "practical_plushies_animals:parrot_plushie"
+					type: "item"
+				}
+				{
+					id: "67BDC665D33CD841"
+					item: "plushies:bat_plushie"
+					type: "item"
 				}
 			]
 			shape: "octagon"
@@ -439,6 +444,11 @@
 					item: "minecraft:skeleton_spawn_egg"
 					type: "item"
 				}
+				{
+					id: "0B9EFFBE3E5D2033"
+					item: "practical_plushies_mobs:skeleton_plushie"
+					type: "item"
+				}
 			]
 			shape: "square"
 			tasks: [{
@@ -469,8 +479,8 @@
 					type: "choice"
 				}
 				{
-					id: "23C411FB6E5B7932"
-					item: "handcrafted:creeper_trophy"
+					id: "569EEAC4338CA7CB"
+					item: "practical_plushies_mobs:creeper_plushie"
 					type: "item"
 				}
 			]
@@ -597,6 +607,11 @@
 					item: "minecraft:gunpowder"
 					type: "item"
 				}
+				{
+					id: "7D77F88420FE18C0"
+					item: "practical_plushies_mobs:creeper_plushie"
+					type: "item"
+				}
 			]
 			shape: "square"
 			tasks: [{
@@ -612,16 +627,7 @@
 			dependencies: ["7E36FAC9107093C2"]
 			dependency_requirement: "all_started"
 			description: ["If you can manage to slay 500 &eCreepers&r, then you shall have earned this &bCreeper Spawn Egg&r."]
-			icon: {
-				Count: 1b
-				id: "twilightforest:creeper_skull_candle"
-				tag: {
-					BlockEntityTag: {
-						CandleAmount: 1
-						CandleColor: 0
-					}
-				}
-			}
+			icon: "minecraft:creeper_head"
 			id: "2A61057B25357F37"
 			rewards: [
 				{
@@ -669,6 +675,11 @@
 					item: "minecraft:zombie_spawn_egg"
 					type: "item"
 				}
+				{
+					id: "3F9CD9F2793404A3"
+					item: "practical_plushies_mobs:zombie_plushie"
+					type: "item"
+				}
 			]
 			shape: "square"
 			tasks: [{
@@ -711,8 +722,13 @@
 					type: "item"
 				}
 				{
-					id: "2340B768458086C7"
-					item: "plushies:enderman"
+					id: "51AD9AA94596F130"
+					item: "practical_plushies_mobs:enderman_plushie"
+					type: "item"
+				}
+				{
+					id: "08825BC926858558"
+					item: "supplementaries:enderman_head"
 					type: "item"
 				}
 			]
@@ -731,16 +747,7 @@
 			dependency_requirement: "one_started"
 			description: ["If you manage to defeat 500 &eWither Skeletons&r, then you deserve this reward: a &bWither Skeleton Spawn Egg&r, and a &bSpawner&r to put it in."]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "twilightforest:wither_skeleton_skull_candle"
-				tag: {
-					BlockEntityTag: {
-						CandleAmount: 1
-						CandleColor: 0
-					}
-				}
-			}
+			icon: "minecraft:wither_skeleton_skull"
 			id: "26E8A9DFDC4C1635"
 			rewards: [
 				{
@@ -751,6 +758,11 @@
 				{
 					id: "6588523AD85BBFF1"
 					item: "minecraft:wither_skeleton_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "76A93C878B3B0A4B"
+					item: "practical_plushies_mobs:wither_skeleton_plushie"
 					type: "item"
 				}
 			]
@@ -810,6 +822,11 @@
 					item: "minecraft:totem_of_undying"
 					type: "item"
 				}
+				{
+					id: "3941A25EC22A5857"
+					item: "plushies:pillager_plushie"
+					type: "item"
+				}
 			]
 			shape: "square"
 			tasks: [{
@@ -845,8 +862,13 @@
 					type: "item"
 				}
 				{
-					id: "7A6F0CBC359755FC"
-					item: "upgrade_aquatic:thrasher_tooth"
+					id: "3948038A99591515"
+					item: "additionaladditions:trident_shard"
+					type: "item"
+				}
+				{
+					id: "6651C84DD9677838"
+					item: "plushies:drowned_plushie"
 					type: "item"
 				}
 			]
@@ -942,6 +964,11 @@
 					item: "minecraft:sponge"
 					type: "item"
 				}
+				{
+					id: "3E0F231A89CC5797"
+					item: "plushies:elder_guardian_plushie"
+					type: "item"
+				}
 			]
 			shape: "square"
 			tasks: [{
@@ -1028,8 +1055,8 @@
 			]
 			id: "114EFE7EF75B22F3"
 			rewards: [{
-				id: "24BE315499AA4A97"
-				item: "plushies:goat"
+				id: "3350AB70B6803167"
+				item: "plushies:goat_plushie"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -1050,8 +1077,8 @@
 			]
 			id: "232A8F9F6388C377"
 			rewards: [{
-				id: "3D06E592368CB47A"
-				item: "plushies:axolotl"
+				id: "6E71D838286067FF"
+				item: "practical_plushies_animals:axolotl_plushie"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -1067,14 +1094,37 @@
 		{
 			description: [
 				"&eTadpoles&r, otherwise known as \"the forbidden boba,\" are cute lil wiggly fellas who are particularly susceptible to &eAxolotls&r."
+				""
 				"They're also susceptible to &bBuckets&r, and if you should capture one in such a way, then you've completed this quest."
 			]
 			id: "2FC0EAD96E3C41D4"
-			rewards: [{
-				id: "44BE0CD5ECFD83B2"
-				item: "plushies:frog"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "557522426CDED42B"
+					item: "perfectplushies:frog_plushie"
+					type: "item"
+				}
+				{
+					id: "069A6E3B40860E8F"
+					item: "practical_plushies_animals:frog_plushie"
+					type: "item"
+				}
+				{
+					id: "38E5E26D83B55745"
+					item: "plushies:frog_plushie"
+					type: "item"
+				}
+				{
+					id: "56D663C2C2799F83"
+					item: "plushies:warm_frog_plushie"
+					type: "item"
+				}
+				{
+					id: "3B39CEE7D524B72E"
+					item: "plushies:cold_frog_plushie"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				advancement: "minecraft:husbandry/tadpole_in_a_bucket"
@@ -1184,11 +1234,11 @@
 			}]
 			shape: "square"
 			tasks: [{
-				entity: "quark:wraith"
-				icon: "quark:soul_bead"
+				entity: "eidolon:wraith"
+				icon: "eidolon:tattered_cloth"
 				id: "67167BE721C1C831"
 				type: "kill"
-				value: 50L
+				value: 10L
 			}]
 			x: -3.0d
 			y: 7.0d
@@ -1198,12 +1248,19 @@
 			dependencies: ["43B3A6804B59565E"]
 			description: ["This quest is repeatable."]
 			id: "376F0C3219E696C9"
-			rewards: [{
-				count: 4
-				id: "06F77BA8B0FA6B73"
-				item: "minecraft:sponge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "06F77BA8B0FA6B73"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+				{
+					id: "78A79D6E76E54CDE"
+					item: "plushies:guardian_plushie"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:guardian"
@@ -1284,32 +1341,6 @@
 		}
 		{
 			description: [
-				"&eYaks&r are cowlike beasts with long fur. They can be &asheared for their wool&r, which is used in a number of recipes. They can also &abe milked&r!"
-				"They are bred with &aWheat&r."
-				"Once &asheared&r, they will go after the player, unless the player is wearing &bYak Pants&r."
-			]
-			id: "382FEE92206B1F49"
-			rewards: [{
-				count: 5
-				id: "5BCE90C27F72D1F9"
-				item: "environmental:yak_hair"
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: "environmental:yak_hair"
-				id: "0AD39E253DAC2DDE"
-				observe_type: 5
-				timer: 0L
-				to_observe: "environmental:yak"
-				type: "observation"
-			}]
-			title: "Meet the Yak"
-			x: 1.0d
-			y: -3.0d
-		}
-		{
-			description: [
 				"&eStonelings&r are very timid creatures! They can be found &cin caves underground&r, and will often be carrying &asomething shiny they found&r."
 				"Most times, they will &aimmediately flee&r the player and poof into their home dimension. However, if they are killed, they can drop the very valuable &bHeart of Diamond&r, used to make a &bPickarang&r."
 				"To obtain this, you'll need to &6sneak up on the &eStoneling&r, or &atempt it with a &bGlowshroom&r."
@@ -1332,54 +1363,6 @@
 			title: "Meet the Stoneling"
 			x: 7.5d
 			y: -7.0d
-		}
-		{
-			description: [
-				"The &eRootling&r is a forest-dwelling sentient plant which comes in multiple colors. It is closely related to the Mandrake."
-				"They can be &asheared to get petals&r, but they dislike this and will &aflee from you&r! Should you managed to shear some, the &bPetals&r can be used to make &bDyes&r."
-				"They love &arain and flowers&r, and can be found enjoying both. They're also social and will &agreet one another&r with a little belly bump!"
-				"When they die, they drop &bRootling Seeds&r which can be used to grow more &eRootlings&r. They also drop &bBulbus root&r, which are edible once cooked."
-				"They will follow you if you &ahold bonemeal&r."
-			]
-			id: "017910D0153E593E"
-			rewards: [{
-				id: "46BEBDF07CACC1D9"
-				item: "biomemakeover:rootling_seeds"
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: "biomemakeover:magenta_petals"
-				id: "253832B30BFEED93"
-				observe_type: 5
-				timer: 0L
-				to_observe: "biomemakeover:rootling"
-				type: "observation"
-			}]
-			title: "Meet the Rootling"
-			x: 9.0d
-			y: -2.5d
-		}
-		{
-			description: [
-				"The &bFwin&r is occasionally dropped from &eSwamp Muckers&r. These fish do not swim, but rather &apropel themselves around&r with their fwins."
-				"You can use these items to &acraft some boots&r which increase speed underwater, and &acan be Enchanted&r to allow players to leap from the water while swimming!"
-			]
-			id: "0856883C8F0C0214"
-			rewards: [{
-				id: "72F315A632F4BE0F"
-				item: "finsandtails:fwin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "45EC62F075FD23A5"
-				item: "finsandtails:fwin"
-				type: "item"
-			}]
-			title: "Swamp Muckers' Fwins"
-			x: 7.5d
-			y: -4.0d
 		}
 		{
 			description: [
@@ -1416,38 +1399,6 @@
 			title: "Wilden Trophies"
 			x: 7.5d
 			y: 4.0d
-		}
-		{
-			description: [
-				"&eFerrets&r are adorable obligate carnivores which can be &atamed with raw rabbit&r!"
-				"Be aware that they will &ahunt &eChickens and Rabbits&r even once tamed, so be sure to keep your livestock separated from them!"
-				"Tamed &eFerrets&r can also &adig for loot&r once every 5 minutes when &afed raw chicken&r."
-			]
-			id: "17D05EDC67E36F43"
-			rewards: [{
-				count: 5
-				id: "5A0F7BCCA4EFD7D8"
-				item: "minecraft:rabbit"
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "cottagewitch:textures/customicons/ferret.png"
-					}
-				}
-				id: "07EDB27B6B4B4337"
-				observe_type: 5
-				timer: 0L
-				to_observe: "crittersandcompanions:ferret"
-				type: "observation"
-			}]
-			title: "Meet the Ferret"
-			x: -7.5d
-			y: -7.5d
 		}
 		{
 			description: [
@@ -1509,54 +1460,24 @@
 		}
 		{
 			description: [
-				"&eKoi&r are delightful creatures which live in shallow fresh water. There are regular &eKoi&r and &eLucky Koi&r. Both will provide you with beneficial effects."
-				""
-				"Regular Koi &agive a Serenity effect&r which &aprevents hostile spawns&r in the nearby area. These fish can be found in &cBlossom Woods&r and &cBlossom Valleys&r biomes."
-				""
-				"Lucky Koi, you may be shocked to find, will grant a &aLuck effect&r if they are near you while fishing! These fish can be found in &cRivers&r."
-			]
-			id: "4F4775AF5B5B93E9"
-			rewards: [{
-				id: "38D49950C6F09766"
-				item: {
-					Count: 1b
-					id: "minecraft:potion"
-					tag: {
-						Potion: "goblintraders:luck"
-					}
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "514789673C21BDD6"
-					item: "crittersandcompanions:koi_fish_bucket"
-					type: "item"
-				}
-				{
-					id: "0E453F3092616CDB"
-					item: "environmental:koi_bucket"
-					type: "item"
-				}
-			]
-			title: "Types of Koi"
-			x: 10.5d
-			y: -7.0d
-		}
-		{
-			description: [
 				"Why not travel a while by Pig? It may not be fast, or efficient, or even particularly fun."
 				""
 				"No, that's it, that's the whole sentence."
 			]
 			id: "7E2641B15D6AF49E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6660D36094752F9E"
-				table_id: 7049021818423122779L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6660D36094752F9E"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+				{
+					id: "67C0A696E0A4057D"
+					item: "practical_plushies_animals:pig_plushie"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "16CAC410F6BBE772"
@@ -1992,6 +1913,7 @@
 				item: "spawn:snail_shell"
 				type: "item"
 			}]
+			shape: "heart"
 			tasks: [{
 				icon: "spawn:snail_shell"
 				id: "15AF02F3CCD91E50"
@@ -2001,8 +1923,49 @@
 				type: "observation"
 			}]
 			title: "Meet the Snail"
-			x: 7.5d
-			y: -12.0d
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["407BBCE05BCE9039"]
+			description: ["To achieve this advancement, &6feed a &eSnifflet&r something it enjoys!"]
+			id: "001588EAB32E428A"
+			rewards: [{
+				id: "29F76971A0043F27"
+				item: "plushies:sniffer_plushie"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/feed_snifflet"
+				criterion: ""
+				id: "729D77D2C5B6DF21"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Congratulations! You've found an &aancient being's egg&r. It may be an unusual familiar for a witch, but &awho knows what help it could provide you&r!"
+				""
+				"In the interest of science, which as we all know is just magic with the fun taken away, why not &6place this egg on some &bMoss&r and see if it &ahatches&r?"
+			]
+			id: "407BBCE05BCE9039"
+			rewards: [{
+				id: "4A0EDA6B8CC6D8C1"
+				item: "practical_plushies_animals:sniffer_plushie"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/obtain_sniffer_egg"
+				criterion: ""
+				id: "45106B8C35A3B6D9"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -3.0d
 		}
 	]
 	title: "Wildlife"

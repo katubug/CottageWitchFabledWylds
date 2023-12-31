@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "brewing__enchanting"
+	group: "181D7A6A92948264"
+	icon: "luphieclutteredmod:luphie_small_cauldron_set"
+	id: "0B597438B33910F1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Skilled witches know that there is more to life than &asingle-effect potions&r. Managing the space in one's pockets is important, after all!"
+				""
+				"Using a special &bBrewing Cauldron&r, one can easily &acombine up to three potions&r into one! However, &dthere are some limitations&r. Firstly, &aonly regular potions&r can be combined - that means no &bSplash Potions&r, no &bLingering Potions&r, and &oespecially&r no &bCombined Potions&r!! Magic can only go so far."
+				""
+				"Once you have three potions you want to combine, &6throw them in one by one&r. Then, a final ingredient is required:"
+				""
+				"- &bNether Wart&r to make a basic Potion"
+				"- &bGunpowder&r to make a Splash Potion"
+				"- &bDragon's Breath&r to make a Lingering Potion"
+				""
+				"Once you've thrown in your &bPotions&r and &bReagent&r, wait patiently for the magic to work. You can &acancel the brew&r at any time by &6right clicking&r on the &bBrewing Cauldron&r."
+				""
+				"Note that &athe result will be just one potion&r, with all three effects."
+			]
+			id: "3A317CC4151D30FB"
+			rewards: [{
+				id: "0A72326B7983EADD"
+				item: {
+					Count: 1b
+					id: "minecraft:splash_potion"
+					tag: {
+						CustomPotionColor: 15490372
+						CustomPotionEffects: [
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 7200
+								Id: 12
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:fire_resistance"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 1
+								Id: 6
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:instant_health"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 900
+								Id: 10
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:regeneration"
+							}
+						]
+						potionblender_IsCombinedSplashPotion: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63C27F352DB3F4E3"
+				item: "potionblender:brewing_cauldron"
+				type: "item"
+			}]
+			title: "Combining Potions"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D3C215D6E61E7AE"]
+			description: [
+				"To disenchant, you need to harness the &apower of the dead&r. First you'll want a &bDecorative Grave&r. These resting places will draw tired spirits to them over time. You can also &adirectly conjure a spirit&r to the &bGrave&r using a &bSoul Receptacle&r. &6Right click the Receptacle on the Grave&r, and the spirit within will inhabit the Grave right away."
+				""
+				"{image:enchanted_wilds:textures/questimages/graves.png width:300 height:150 align:1}"
+				""
+				"&oThe left Grave is empty, the right Grave is inhabited by a spirit.&r"
+				""
+				"Once the &espirit&r is inside, it will happily trade its energy to you. &6Hold the &bBook of Disenchanting&6 in your offhand&r, and the &bEnchanted Item&r in your &6main hand&r. Then you can &6right click the Grave&r."
+				""
+				"The top two enchantments &awill be stripped onto books&r (you do not need to provide the books). This process can then be repeated with a &anew spirit&r."
+				""
+				"This process also &aremoves Curses&r."
+			]
+			id: "71A11F7652CA6B01"
+			tasks: [{
+				id: "7518A023CB3847FF"
+				item: "tombstone:book_of_disenchantment"
+				type: "item"
+			}]
+			title: "The Disenchantment Process"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&bGrave Dust&r is a mystical substance which can be used in the &adisenchanting of items&r. You obtain it by &adying&r, or &akilling the undead&r:"
+				""
+				"- &eHusks&r"
+				"- &eSkeletons&r"
+				"- &eStrays&r"
+				"- &eWither Skeletons&r"
+				"- &eZombie Villagers&r"
+				""
+				""
+				"It is used in making the &bBook of Disenchantment&r, but that's not all you'll need. Craft the &bBook&r and refer to the following quest for more information!"
+			]
+			id: "2D3C215D6E61E7AE"
+			rewards: [{
+				count: 4
+				id: "1BFF1398CE19BC26"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "(dis)ENCHAHNTMENT!"
+			tasks: [{
+				id: "1BFEFD4EBEFC5F2A"
+				item: "tombstone:grave_dust"
+				type: "item"
+			}]
+			title: "Grave Dust and More"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&bAncient Manuscripts&r are esoteric texts whose old magic can be used to form &amodern day &bEnchanted Books&r. They are one of the best ways to try and get &aTreasure Enchantments&r, since villagers no longer sell them directly."
+				""
+				"They are also beneficial as &athey will never contain curses&r."
+				""
+				"Manuscript pages can be found in &bloot Chests&r, purchased from &eLibrarian Villagers&r, or dropped from &eWitches&r."
+			]
+			id: "74FF2DEFD69FA9A2"
+			rewards: [{
+				id: "2E44BD9605DFB50C"
+				item: "ancient_manuscripts:empty_glue_bottle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "65CD5F0ECEA96599"
+				item: "ancient_manuscripts:ancient_manuscript"
+				type: "item"
+			}]
+			title: "Find an Ancient Manuscript"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74FF2DEFD69FA9A2"]
+			description: [
+				"The &bBinding Table&r is what allows you to &acraft Enchanted Books&r from &bAncient Manuscripts&r. Using the &bEnchanted Book Glue&r, a &bBook&r, and optionally a &bDiamond&r, you can insert &aup to four &bAncient Manuscript&r pages. The more pages you add, the more powerful the enchantment you'll receive as a result. The level of the resulting enchantment is randomized."
+				""
+				"{image:enchanted_wilds:textures/questimages/bindingtable.png width:200 height:190 align:1}"
+				""
+				"If you want to guarantee that you'll receive a top tier enchantment, you can add a &bdiamond&r to the diamond slot on the table. The resulting enchantment will have the highest level available."
+				""
+				"&bEnchanted book glue*r is &aconsumed during the crafting process&a. If there is less glue remaining than pages to be glued, the &dbinding process will not work&r."
+			]
+			id: "564B745E34AB0932"
+			rewards: [
+				{
+					id: "58854BE7A99EBAB5"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "41CEEB82FE926F7E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "267CF8D693C41335"
+					item: {
+						Count: 1b
+						id: "ancient_manuscripts:enchanted_book_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "306E8339F7DE0BC6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:binding_tables"
+						}
+					}
+					title: "Any Binding Table"
+					type: "item"
+				}
+			]
+			title: "Binding Your Enchantment"
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+	title: "Brewing \\& Enchanting"
+}

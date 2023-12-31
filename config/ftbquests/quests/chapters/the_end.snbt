@@ -485,10 +485,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: [
-				"You've found your way to &dThe End&r, congratulations. With luck, your journey will continue."
-				"Remember that if you need to explore out over the void, you can do so on your &bBroom&r, or by taming a &eSpace Whale&r."
-			]
+			description: ["You've found your way to &dThe End&r, congratulations. With luck, your journey will continue."]
 			icon: "minecraft:end_stone"
 			id: "09ED0DFEB72DFD71"
 			rewards: [
@@ -503,9 +500,8 @@
 					type: "loot"
 				}
 				{
-					count: 4
-					id: "5C10C3DAA763509E"
-					item: "ends_delight:chorus_flower_tea"
+					id: "6A721EF4CA363444"
+					item: "end_respawn_anchor:end_respawn_anchor"
 					type: "item"
 				}
 			]
@@ -553,68 +549,6 @@
 		}
 		{
 			dependencies: ["09ED0DFEB72DFD71"]
-			description: ["The &cCrystal Peaks&r are corrupted by Nether, with massive veins of &bBlackstone&r snaking through the landmasses, and &bGlowstone&r and &bAmethyst&r crystals growing up into the sky."]
-			id: "0229E0EEF5052211"
-			rewards: [{
-				id: "0265CA8B54E6D447"
-				item: "minecraft:end_crystal"
-				type: "item"
-			}]
-			tasks: [{
-				biome: "nullscape:crystal_peaks"
-				icon: "minecraft:end_crystal"
-				id: "236D295BC242AF37"
-				type: "biome"
-			}]
-			title: "The Crystal Peaks"
-			x: 3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["09ED0DFEB72DFD71"]
-			description: [
-				"The &cShadowlands&r are a wasteland of former life. No one is sure what precisely happened, but this once-thriving oceanic biome has been drained, both of water, and of life."
-				"Tragically, the &eEnd Whales&r that once frolicked amongst the coral still remain, howling at what they have lost."
-			]
-			id: "574F372EC49CF5C9"
-			rewards: [{
-				count: 5
-				id: "4F8BA1E7FAF0F3C4"
-				item: "minecraft:chorus_fruit"
-				type: "item"
-			}]
-			tasks: [{
-				biome: "nullscape:shadowlands"
-				icon: "supplementaries:enderman_head"
-				id: "3C5BB8E203CB9467"
-				type: "biome"
-			}]
-			title: "The Shadowlands"
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["09ED0DFEB72DFD71"]
-			description: ["The &cVoid Barrens&r are, as you could have guessed, relatively barren. With &bBasalt&r forming amidst the endstone and forming jagged plains, there is &avery little here to welcome you&r."]
-			id: "6757822C696D79AD"
-			rewards: [{
-				count: 64
-				id: "6A2B60782E431A61"
-				item: "minecraft:basalt"
-				type: "item"
-			}]
-			tasks: [{
-				biome: "nullscape:void_barrens"
-				icon: "minecraft:end_stone"
-				id: "5AA6D877190A6DC1"
-				type: "biome"
-			}]
-			title: "The Void Barrens"
-			x: 7.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["09ED0DFEB72DFD71"]
 			description: ["You discovered an &cEnd City&r! These structures, once occupied by the &aEnder Elite&r, are now home to vicious &eShulkers&r, who want nothing more than to &aensure you never touch solid ground again&r."]
 			id: "47639E492B01312E"
 			rewards: [{
@@ -632,6 +566,27 @@
 			}]
 			x: 3.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["09ED0DFEB72DFD71"]
+			description: ["It seems impossible that anyone would be able to live in the hostile terrain of &cThe End&r. And yet... here's proof!"]
+			id: "45FC361963CE4FA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CFD6120F390B909"
+				table_id: 5161092699925703455L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: "minecraft:map"
+				id: "73EF70818A7D95C8"
+				structure: "stellarity:village"
+				type: "structure"
+			}]
+			title: "A Village? In Space?"
+			x: 4.0d
+			y: 2.0d
 		}
 	]
 	title: "The End"

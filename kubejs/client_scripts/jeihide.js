@@ -103,10 +103,6 @@ JEIEvents.hideItems(event => {
         'extra_compat:reinforced_gold_knife',
         'meadow:climbing_rope_topmount',
         'nameless_trinkets:mysterious_trinket',
-        'aether:obsidian_boots', 
-        'aether:obsidian_leggings', 
-        'aether:obsidian_chestplate',
-        'aether:obsidian_helmet',
         'herbalbrews:jug',
         'reliquary:bat_wing',
         'forbidden_arcanus:bat_wing',
@@ -134,6 +130,13 @@ JEIEvents.hideItems(event => {
         'perfectplushies:gamerpotion_plushie_rare',
         'perfectplushies:geode_plushie',
         'perfectplushies:sirjain_plushie_rare',
+        'relics:shadow_glaive',
+        'relics:infinity_ham',
+        'earthmobsmod:ruby',
+        'easy_villagers:iron_farm',
+        'moblassos:emerald_lasso',
+        'moblassos:contract',
+        'easy_mob_farm:poppy_bouquet',
 
     ];
     

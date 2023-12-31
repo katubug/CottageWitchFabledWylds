@@ -1,4 +1,5 @@
 {
+	autofocus_id: "5161948053596F24"
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
@@ -66,55 +67,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0AF3D2A62E51E5B2"]
-			description: [
-				"It's frustrating to have to switch from your &bNetherite Armor&r to Gold simply to appease the &ePiglins&r. Well, no more!"
-				"Now you can &agild your Netherite armor&r in a &bSmithing Station&r to enhance it with enough gold to pacify the &ePiglins&r."
-			]
-			id: "33EAE02ACC6CCA8B"
-			rewards: [
-				{
-					count: 3
-					id: "4F4FDA3469ADB8AC"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-				{
-					id: "23A8673E6A1C933B"
-					table_id: 8808494820591225409L
-					type: "loot"
-				}
-				{
-					id: "6052CF2F9F1A30E9"
-					table_id: 5036677739913042344L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6EB3D4E3537DF6CC"
-					table_id: 7265408724434505998L
-					type: "random"
-				}
-			]
-			shape: "pentagon"
-			subtitle: "Gild your loins! Or head, or chest, or..."
-			tasks: [{
-				id: "79690DA041641246"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "gildedarmor:gilded_armor"
-					}
-				}
-				title: "Any #gildedarmor:gilded_armor"
-				type: "item"
-			}]
-			title: "Gild Your Netherite Gear"
-			x: -6.0d
-			y: 1.5d
-		}
-		{
 			description: [
 				"The &bPickarang&r is a tool which can &aremotely break blocks and return the drops to you&r."
 				""
@@ -142,8 +94,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Pickarang"
-			x: 5.5d
-			y: -5.0d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
 			description: ["The &bDragon Scale&r is an incredibly valuable item which is obtained after defeating the Ender Dragon &6a second time&r. It can be used to &aduplicate Elytra&r."]
@@ -167,29 +119,8 @@
 				item: "quark:dragon_scale"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -5.5d
-		}
-		{
-			description: ["Did you know you can craft a &bTotem of Undying?&r. It's not cheap, but maybe it's worth the trouble!"]
-			id: "7AAD7513F2D067D8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7EB05BE06489B33E"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			subtitle: "Touhou-tem of Undying"
-			tasks: [{
-				id: "7379F20CFDE39949"
-				item: "minecraft:totem_of_undying"
-				only_from_crafting: true
-				type: "item"
-			}]
-			title: "Craft a Totem of Undying"
-			x: -5.0d
-			y: -4.5d
+			x: -1.5d
+			y: -9.5d
 		}
 		{
 			description: [
@@ -223,8 +154,8 @@
 				id: "5862E16DD2298F30"
 				type: "advancement"
 			}]
-			x: -7.0d
-			y: 3.0d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
 			description: ["Obtain a &bfull set of Diamond Tools&r to earn a unique armor set!"]
@@ -905,8 +836,8 @@
 				type: "item"
 			}]
 			title: "Oh my GOD a BACKPACK"
-			x: 1.5d
-			y: 2.5d
+			x: 8.5d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -956,6 +887,92 @@
 			}]
 			title: "Trinket Fragments"
 			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FD200068F50454E"]
+			id: "392922B523171D85"
+			tasks: [{
+				id: "579BB3B6694CEB11"
+				item: "relics:researching_table"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"The &lRelics&r mod adds in many different &bcurios&r and items with &aspecial functionality&r."
+				""
+				"In order to &afind out what each item does&r, however, you must &6research them&r using a &bRelic Researching Table&r. Who knows, perhaps they can even be enhanced!"
+				""
+				"- &bAmphibian Boot&r: Underwater Ruins, Shipwrecks"
+				"- &bAqua Walker&r: Underwater Ruins, Shipwrecks"
+				"- &bArrow Quiver&r: Fletcher Houses"
+				"- &bBastion Ring&r: Fortress Bridges, Bastions, Ruined Portals"
+				"- &bBlazing Flask&r: Fortress Bridges, Bastions, Ruined Portals"
+				"- &bChorus Inhibitor&r: End Cities"
+				"- &bDrowned Belt&r: Underwater Ruins, Shipwrecks"
+				"- &bElytra Booster&r: End Cities"
+				"- &bEnder's Hand&r: End Cities"
+				"- &bHoly Locket&r: Desert Temples, Desert Villages"
+				"- &bHorse Flute&r: Strongholds, Abandoned Mineshafts, Villages"
+				"- &bHunter Belt&r: Butcher Houses"
+				"- &bIce Breaker&r: Igloos, Snowy Villages"
+				"- &bIce Skates&r: Igloos, Snowy Villages"
+				"- &bJellyfish Necklace&r: Underwater Ruins, Shipwrecks"
+				"- &bLeather Belt&r: Strongholds, Abandoned Mineshafts"
+				"- &bMagic Mirror&r: Strongholds, Abandoned Mineshafts"
+				"- &bMagma Walker&r: Fortress Bridges, Bastions, Ruined Portals"
+				"- &bMidnight Robe&r: Strongholds, Abandoned Mineshafts"
+				"- &bRage Glove&r: Fortress Bridges, Bastions, Ruined Portals"
+				"- &bReflection Necklace&r: Fortress Bridges, Bastions, Ruined Portals"
+				"- &bRoller Skates&r: Strongholds, Abandoned Mineshafts"
+				"- &bSun Goddess' Traveler&r:  Fortress Bridges, Bastions, Ruined Portals"
+				"- &bJeweled Talisman&r: Strongholds, Abandoned Mineshafts"
+				"- &bSpore Sack&r: Jungle Temple"
+				"- &bWool Mitten&r: Igloos, Snowy Villages"
+			]
+			id: "3FD200068F50454E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "795740A2E4FC2AA5"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3FD2547F1133B21A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:relics"
+					}
+				}
+				title: "Any #forge:relics"
+				type: "item"
+			}]
+			title: "Obtain a Relic"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			description: ["These delicate &bEthereal Wings&r allow the player to &afly and hover&r as if they were a deity. However, movement is &aincredibly slow&r. Still, it should be useful for building..."]
+			id: "5864262E17DC9BFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A204301A6C4BF2A"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A4E490EAE3CF3E0"
+				item: "nameless_trinkets:ethereal_wings"
+				type: "item"
+			}]
+			x: 5.5d
 			y: 3.0d
 		}
 	]

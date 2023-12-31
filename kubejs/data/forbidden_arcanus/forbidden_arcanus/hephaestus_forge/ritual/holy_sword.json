@@ -1,0 +1,45 @@
+{
+    "replace":true,
+    "additional_requirements": {
+      "enhancers": [
+        "forbidden_arcanus:divine_pact"
+      ],
+      "forge_tier": 1
+    },
+    "essences": {
+      "aureal": 1000,
+      "blood": 0,
+      "experience": 500,
+      "souls": 3
+    },
+    "inputs": [
+      {
+        "amount": 1,
+        "ingredient": {
+          "item": "eidolon:holy_symbol"
+        }
+      },
+      {
+        "amount": 2,
+        "ingredient": {
+          "item": "minecraft:feather"
+        }
+      },
+      {
+        "amount": 1,
+        "ingredient": {
+          "item": "tombstone:ankh_of_pray"
+        }
+      }
+    ],
+    "main_ingredient": {
+      "item": "minecraft:golden_sword"
+    },
+    "result": {
+      "type": "forbidden_arcanus:create_item",
+      "result_item": {
+        "Count": 1,
+        "id": "aether:holy_sword"
+      }
+    }
+  }

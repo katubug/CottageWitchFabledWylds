@@ -1,0 +1,42 @@
+{
+    "replace":true,
+    "additional_requirements": {
+      "forge_tier": 1
+    },
+    "essences": {
+      "aureal": 1000,
+      "blood": 0,
+      "experience": 500,
+      "souls": 3
+    },
+    "inputs": [
+      {
+        "amount": 2,
+        "ingredient": {
+          "item": "forbidden_arcanus:arcane_crystal_dust"
+        }
+      },
+      {
+        "amount": 1,
+        "ingredient": {
+          "item": "minecraft:golden_apple"
+        }
+      },
+      {
+        "amount": 3,
+        "ingredient": {
+          "item": "minecraft:gold_ingot"
+        }
+      }
+    ],
+    "main_ingredient": {
+      "item": "eidolon:holy_symbol"
+    },
+    "result": {
+      "type": "forbidden_arcanus:create_item",
+      "result_item": {
+        "Count": 1,
+        "id": "forbidden_arcanus:divine_pact"
+      }
+    }
+  }

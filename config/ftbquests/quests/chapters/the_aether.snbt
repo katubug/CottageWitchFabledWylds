@@ -333,6 +333,17 @@
 			x: -8.5d
 			y: -8.5d
 		}
+		{
+			id: "5523A46E1449BF15"
+			tasks: [{
+				advancement: "aether:obsidian_armor"
+				criterion: ""
+				id: "63EBCEB505C6FBB7"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
 	]
 	title: "The Aether"
 }

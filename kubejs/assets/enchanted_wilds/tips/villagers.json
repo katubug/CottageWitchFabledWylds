@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "Witchy Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "Villagers will follow you if you are holding an emerald block."
+      "text": "You can pick up Villagers by holding shift and right clicking them!"
     }
   }

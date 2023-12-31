@@ -343,6 +343,40 @@ ServerEvents.tags('item', event => {
     'minecraft:dirt', 'minecraft:coarse_dirt',
     'minecraft:rooted_dirt','minecraft:podzol')
 
+    //Mystic Dagger works with Farmer's Delight?
+    event.add('farmersdelight:tools/knives',
+        'forbidden_arcanus:mystical_dagger'
+    )
+
+    //Relic Tagging
+    event.add( 'forge:relics',
+        'relics:amphibian_boot', 
+        'relics:aqua_walker',
+        'relics:arrow_quiver', 
+        'relics:bastion_ring', 
+        'relics:blazing_flask',
+        'relics:chorus_inhibitor',
+        'relics:drowned_belt',
+        'relics:elytra_booster',
+        'relics:enders_hand',
+        'relics:horse_flute',
+        'relics:hunter_belt',
+        'relics:ice_breaker',
+        'relics:ice_skates', 
+        'relics:jellyfish_necklace',
+        'relics:leather_belt',
+        'relics:magic_mirror',
+        'relics:holy_locket',
+        'relics:midnight_robe',
+        'relics:rage_glove',
+        'relics:reflection_necklace',
+        'relics:roller_skates',
+        'relics:space_dissector',
+        'relics:spatial_sign', 
+        'relics:spore_sack',
+        'relics:wool_mitten',
+    )
+
 })
 
 ServerEvents.tags('block', event => {

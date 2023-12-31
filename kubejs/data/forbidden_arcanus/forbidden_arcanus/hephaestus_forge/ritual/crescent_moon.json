@@ -1,0 +1,59 @@
+{
+    "additional_requirements": {
+      "forge_tier": 1
+    },
+    "essences": {
+      "aureal": 500,
+      "blood": 500,
+      "experience": 500,
+      "souls": 5
+    },
+    "inputs": [
+    {
+        "amount": 1,
+        "ingredient": {
+            "item": "minecraft:black_candle"
+        }
+        },
+        {
+        "amount": 1,
+        "ingredient": {
+            "item": "forbidden_arcanus:dark_matter"
+        }
+        },
+    {
+        "amount": 1,
+        "ingredient": {
+            "item": "tombstone:grave_dust"
+        }
+        },
+        {
+        "amount": 1,
+        "ingredient": {
+            "item": "fruitsdelight:blueberry_jelly"
+        }
+        },
+      {
+        "amount": 1,
+        "ingredient": {
+          "item": "aether:purple_flower"
+        }
+      },
+      {
+        "amount": 1,
+        "ingredient": {
+          "item": "regions_unexplored:duskmelon_slice"
+        }
+      }
+    ],
+    "main_ingredient": {
+      "item": "eidolon:unholy_symbol"
+    },
+    "result": {
+      "type": "forbidden_arcanus:create_item",
+      "result_item": {
+        "Count": 1,
+        "id": "forbidden_arcanus:crescent_moon"
+      }
+    }
+  }

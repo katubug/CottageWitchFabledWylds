@@ -92,7 +92,7 @@
 			y: 13.0d
 		}
 	]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -1621,8 +1621,8 @@
 				type: "item"
 			}]
 			title: "Cherry Good"
-			x: -6.0d
-			y: 15.5d
+			x: -7.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["7D770ADEB3905EE0"]
@@ -1803,7 +1803,7 @@
 				}
 			]
 			title: "Winemaking Drip"
-			x: -4.0d
+			x: -6.0d
 			y: 15.5d
 		}
 		{
@@ -2078,10 +2078,7 @@
 				""
 				"This cooking device will help you to &arender &bRennet&r, but it can also &acook simple meats&r and even make some delicious...&abear related foods&r? Hmm."
 				""
-				"Anyway. All the recipes this mod adds are visible &ainside the Cauldron and Cheese Press interfaces&r. They cannot be found in JEI! So make sure you &6check the in-item GUI&r."
-				""
-				""
-				"{image:cottagewitch:textures/rennet.png width:100 height:50 align:1 fit:true}"
+				"Anyway. "
 			]
 			id: "4E4341D997F9AE98"
 			rewards: [{
@@ -2173,7 +2170,7 @@
 				""
 				"&eWater Buffalo&r can be found in &cRiver&r biomes."
 				""
-				"&eWarped Cows&r live in &cWarped Forest&r biomes."
+				"&eWarped Cows&r can be found in &cWarped Forest&r biomes."
 			]
 			id: "31CE923007EF1D03"
 			rewards: [
@@ -2305,8 +2302,8 @@
 				}
 			]
 			title: "Collect All Grapes"
-			x: -4.0d
-			y: 13.5d
+			x: -4.5d
+			y: 15.0d
 		}
 		{
 			description: ["Only the most chronically underground creatures eat &eBats&r... and they're missing out! Murder some innocent adorable fluffy friends and &afeast on their flesh&r in order to win this fabulous stuffed prize!"]
@@ -2607,6 +2604,91 @@
 			title: "Vegetarian Options"
 			x: 2.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["7D770ADEB3905EE0"]
+			description: [
+				"There are two &aunique &bGrape&r types that grow in &cthe Nether&r."
+				""
+				"You may be shocked to learn that they are found in &cCrimson Forests&r and &cWarped Forests&r, respectively."
+			]
+			id: "16FC821BC1489BB5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1145093F7FF8AEC1"
+				table_id: 8096229411196850122L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7D29E3787744DCEB"
+					item: "nethervinery:crimson_grape"
+					type: "item"
+				}
+				{
+					id: "281FE55A8FCB5E38"
+					item: "nethervinery:warped_grape"
+					type: "item"
+				}
+			]
+			title: "Collect Nether Grapes"
+			x: -3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["31CE923007EF1D03"]
+			description: ["It might take a while, but why not &acollect all &bCheese&r types and have yourself a little tasting?"]
+			id: "70B1F4C0D65D12D1"
+			rewards: [
+				{
+					id: "5C6040394DBFB91C"
+					item: "practical_plushies_animals:sheep_plushie"
+					type: "item"
+				}
+				{
+					id: "62472CE10CCECE37"
+					item: "plushies:cow_plushie"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "it's not easy being cheesy"
+			tasks: [
+				{
+					id: "3308E70FCCB2CD12"
+					item: "meadow:piece_of_sheep_cheese"
+					type: "item"
+				}
+				{
+					id: "34E34BD224E77BDB"
+					item: "meadow:piece_of_grain_cheese"
+					type: "item"
+				}
+				{
+					id: "730DC6B219ACDF24"
+					item: "meadow:piece_of_amethyst_cheese"
+					type: "item"
+				}
+				{
+					id: "5114754DE3B687EC"
+					item: "meadow:piece_of_buffalo_cheese"
+					type: "item"
+				}
+				{
+					id: "1C0C5475C0A854DB"
+					item: "meadow:piece_of_goat_cheese"
+					type: "item"
+				}
+				{
+					id: "043D65B703B603C7"
+					item: "meadow:piece_of_warped_cheese"
+					type: "item"
+				}
+			]
+			title: "Collect All Cheeses"
+			x: 10.5d
+			y: 5.5d
 		}
 	]
 	title: "Culinary Arts"

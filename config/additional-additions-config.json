@@ -10,7 +10,7 @@
   "Ropes": false,
   "EnchantmentPrecision": true,
   "EnchantmentSpeed": true,
-  "Wrench": true,
+  "Wrench": false,
   "CopperPatina": true,
   "AmethystLamp": {
     "enabled": true,

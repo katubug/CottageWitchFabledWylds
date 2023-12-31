@@ -1,5 +1,4 @@
 {
-	"replace": true,
 	"type": "minecraft:the_end",
 	"generator": {
 		"type": "minecraft:noise",
@@ -488,7 +487,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -548,7 +547,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -608,7 +607,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -698,7 +697,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -1778,7 +1777,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -1838,7 +1837,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -1898,7 +1897,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -1988,7 +1987,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -2408,7 +2407,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -2468,7 +2467,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -2528,7 +2527,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -2618,7 +2617,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -3278,7 +3277,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -3338,7 +3337,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -3398,7 +3397,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -3488,7 +3487,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -4358,7 +4357,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -4418,7 +4417,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -4478,7 +4477,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -4568,7 +4567,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -5078,7 +5077,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -5138,7 +5137,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -5198,7 +5197,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -5288,7 +5287,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -6038,36 +6037,6 @@
 					}
 				},
 				{
-					"biome": "phantasm:dreaming_den",
-					"parameters": {
-						"temperature": [
-							-1,
-							1
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-1.01,
-							-1.01
-						],
-						"offset": 0
-					}
-				},
-				{
 					"biome": "far_end:flesh_tundra",
 					"parameters": {
 						"temperature": [
@@ -6099,36 +6068,6 @@
 				},
 				{
 					"biome": "stellarity:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							1
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-1.01,
-							-1.01
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.8625,
@@ -6218,36 +6157,6 @@
 					}
 				},
 				{
-					"biome": "phantasm:dreaming_den",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							1
-						],
-						"humidity": [
-							-0.025,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-1.01,
-							-1.01
-						],
-						"offset": 0
-					}
-				},
-				{
 					"biome": "far_end:flesh_tundra",
 					"parameters": {
 						"temperature": [
@@ -6279,36 +6188,6 @@
 				},
 				{
 					"biome": "stellarity:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							1
-						],
-						"humidity": [
-							-0.16,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-1.01,
-							-1.01
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.5875,
@@ -6398,36 +6277,6 @@
 					}
 				},
 				{
-					"biome": "phantasm:dreaming_den",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							1
-						],
-						"humidity": [
-							-0.28500000000000003,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-1.01,
-							-1.01
-						],
-						"offset": 0
-					}
-				},
-				{
 					"biome": "far_end:flesh_tundra",
 					"parameters": {
 						"temperature": [
@@ -6459,36 +6308,6 @@
 				},
 				{
 					"biome": "stellarity:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							1
-						],
-						"humidity": [
-							-0.41000000000000003,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-1.01,
-							-1.01
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -6578,36 +6397,6 @@
 					}
 				},
 				{
-					"biome": "phantasm:dreaming_den",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							1
-						],
-						"humidity": [
-							-0.555,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-1.01,
-							-1.01
-						],
-						"offset": 0
-					}
-				},
-				{
 					"biome": "far_end:flesh_tundra",
 					"parameters": {
 						"temperature": [
@@ -6639,36 +6428,6 @@
 				},
 				{
 					"biome": "stellarity:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							1
-						],
-						"humidity": [
-							-0.7000000000000001,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-1.01,
-							-1.01
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -6758,67 +6517,7 @@
 					}
 				},
 				{
-					"biome": "phantasm:dreaming_den",
-					"parameters": {
-						"temperature": [
-							0.135,
-							1
-						],
-						"humidity": [
-							-0.8500000000000001,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-1.01,
-							-1.01
-						],
-						"offset": 0
-					}
-				},
-				{
 					"biome": "stellarity:the_hallow",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							1
-						],
-						"humidity": [
-							-1,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-1.01,
-							-1.01
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							0.29000000000000004,
@@ -7028,7 +6727,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -7088,7 +6787,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -7148,7 +6847,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -7238,7 +6937,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -8348,7 +8047,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -8408,7 +8107,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -8468,7 +8167,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -8558,7 +8257,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -11258,7 +10957,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -11318,7 +11017,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -11378,7 +11077,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -11468,7 +11167,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -12548,7 +12247,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -12608,7 +12307,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -12668,7 +12367,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -12758,7 +12457,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -13178,7 +12877,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -13238,7 +12937,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -13298,7 +12997,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -13388,7 +13087,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -14048,7 +13747,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -14108,7 +13807,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -14168,7 +13867,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -14258,7 +13957,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -15128,7 +14827,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -15188,7 +14887,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -15248,7 +14947,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -15338,7 +15037,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -15848,7 +15547,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -15908,7 +15607,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -15968,7 +15667,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -16058,7 +15757,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -16806,35 +16505,6 @@
 						],
 						"offset": 0
 					}
-				},{
-					"biome": "phantasm:dreaming_den",
-					"parameters": {
-						"temperature": [
-							-1,
-							1
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-0.43,
-							0.185
-						],
-						"offset": 0
-					}
 				},
 				{
 					"biome": "far_end:flesh_tundra",
@@ -16868,36 +16538,6 @@
 				},
 				{
 					"biome": "stellarity:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							1
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-0.43,
-							0.185
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.8625,
@@ -16985,35 +16625,6 @@
 						],
 						"offset": 0
 					}
-				},{
-					"biome": "phantasm:dreaming_den",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							1
-						],
-						"humidity": [
-							-0.025,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-0.43,
-							0.185
-						],
-						"offset": 0
-					}
 				},
 				{
 					"biome": "far_end:flesh_tundra",
@@ -17047,35 +16658,6 @@
 				},
 				{
 					"biome": "stellarity:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							1
-						],
-						"humidity": [
-							-0.16,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-0.43,
-							0.185
-						],
-						"offset": 0
-					}
-				},{
-					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.5875,
@@ -17163,35 +16745,6 @@
 						],
 						"offset": 0
 					}
-				},{
-					"biome": "phantasm:dreaming_den",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							1
-						],
-						"humidity": [
-							-0.28500000000000003,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-0.43,
-							0.185
-						],
-						"offset": 0
-					}
 				},
 				{
 					"biome": "far_end:flesh_tundra",
@@ -17252,35 +16805,6 @@
 						],
 						"offset": 0
 					}
-				},{
-					"biome": "phantasm:dreaming_den",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							1
-						],
-						"humidity": [
-							-0.41000000000000003,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-0.43,
-							0.185
-						],
-						"offset": 0
-					}
 				},
 				{
 					"biome": "far_end:flesh_tundra",
@@ -17314,35 +16838,6 @@
 				},
 				{
 					"biome": "stellarity:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							1
-						],
-						"humidity": [
-							-0.555,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-0.43,
-							0.185
-						],
-						"offset": 0
-					}
-				},{
-					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -17432,36 +16927,6 @@
 					}
 				},
 				{
-					"biome": "phantasm:dreaming_den",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							1
-						],
-						"humidity": [
-							-0.7000000000000001,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-0.43,
-							0.185
-						],
-						"offset": 0
-					}
-				},
-				{
 					"biome": "far_end:flesh_tundra",
 					"parameters": {
 						"temperature": [
@@ -17520,68 +16985,9 @@
 						],
 						"offset": 0
 					}
-				},{
-					"biome": "phantasm:dreaming_den",
-					"parameters": {
-						"temperature": [
-							0.135,
-							1
-						],
-						"humidity": [
-							-0.8500000000000001,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-0.43,
-							0.185
-						],
-						"offset": 0
-					}
 				},
 				{
 					"biome": "stellarity:the_hallow",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							1
-						],
-						"humidity": [
-							-1,
-							1
-						],
-						"continentalness": [
-							-0.215,
-							0.115
-						],
-						"erosion": [
-							0.59,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							-0.43,
-							0.185
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							0.29000000000000004,
@@ -17791,7 +17197,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -17851,7 +17257,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -17911,7 +17317,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -18001,7 +17407,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,
@@ -19111,7 +18517,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.45,
@@ -19171,7 +18577,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.3,
@@ -19231,7 +18637,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -19321,7 +18727,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_barrens",
+					"biome": "phantasm:dreaming_den",
 					"parameters": {
 						"temperature": [
 							-0.007499999999999993,

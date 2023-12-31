@@ -1,0 +1,21 @@
+{
+	id: "26D10299709776E3"
+	loot_size: 1
+	order_index: 33
+	rewards: [
+		{ item: "forbidden_arcanus:arcane_crystal_dust_speck", weight: 50.0f }
+		{ item: "forbidden_arcanus:arcane_crystal", weight: 15.0f }
+		{ item: "forbidden_arcanus:corrupted_arcane_crystal", weight: 9.0f }
+		{ item: "forbidden_arcanus:arcane_crystal_dust", weight: 20.0f }
+		{ item: "forbidden_arcanus:soul", weight: 30.0f }
+		{ item: "forbidden_arcanus:ender_pearl_fragment", weight: 30.0f }
+		{ item: "forbidden_arcanus:strange_root", weight: 50.0f }
+		{ item: "forbidden_arcanus:edelwood_stick", weight: 50.0f }
+		{ item: "forbidden_arcanus:spawner_scrap", weight: 30.0f }
+		{ item: "forbidden_arcanus:arcane_bone_meal", weight: 40.0f }
+		{ item: "forbidden_arcanus:purifying_soap", weight: 40.0f }
+		{ item: "minecraft:experience_bottle", weight: 30.0f }
+		{ count: 10, item: "forbidden_arcanus:darkstone", weight: 40.0f }
+	]
+	title: "Forbidden Arcanus"
+}

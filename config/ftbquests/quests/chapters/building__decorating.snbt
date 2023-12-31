@@ -1,4 +1,5 @@
 {
+	autofocus_id: "3B14FB98F6CA73AA"
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
@@ -822,6 +823,74 @@
 			}]
 			x: -2.5d
 			y: 0.0d
+		}
+		{
+			description: [
+				"&lAstikor Carts&r adds some delightful horse-drawn &bCarts&r, which are both useful and decorative. For this quest, let's focus on the latter."
+				""
+				"Place &bsome flowers&r above some &bdirt&r in the cart's inventory to attain this cute look! Note that you have to &6shift right click on the &bWheel&r in order to access the inventory."
+				""
+				"{image:enchanted_wilds:textures/questimages/astikorflowers.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "2BFD231209D227FC"
+			rewards: [
+				{
+					id: "7D79AA62A2CD731F"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					id: "468C4904A7420C3D"
+					item: "minecraft:dandelion"
+					type: "item"
+				}
+				{
+					id: "6499645EE9C90BDB"
+					item: "minecraft:allium"
+					type: "item"
+				}
+				{
+					id: "6D80CF228C1E9BE1"
+					item: "minecraft:blue_orchid"
+					type: "item"
+				}
+				{
+					id: "6A0097EA7ECC853B"
+					item: "minecraft:poppy"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "79BC1FC3F6464004"
+				item: "astikorcarts:supply_cart"
+				type: "item"
+			}]
+			title: "Decorative Carts"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The &bBlock of Sky&r is a decorative block which &amimics the sky outside&r, making it an excellent addition to underground bases!"
+				""
+				"{image:enchanted_wilds:textures/questimages/blockofsky.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "51936D506F533BCC"
+			rewards: [{
+				count: 5
+				id: "3953B6A759A7C773"
+				item: "blockofsky:sky_block"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "388FDCAAB68DF8CF"
+				item: "blockofsky:sky_block"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
 		}
 	]
 	title: "Building \\& Decorating"

@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "Witchy Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "There are multiple ways to prevent hostile spawns in an area. You can burn Sage on a Sage Burning Plate, or you can craft a Magnum Torch and place it down!"
+      "text": "There are multiple ways to prevent hostiles from getting to your base. You can craft a Magnum Torch and place it down to prevent spawns, or use Enchanted Ash as a perimiter to prevent undead from crossing. The Interdiction Torch also pushes hostile mobs away!"
     }
 }

@@ -741,52 +741,10 @@ ServerEvents.recipes(event => {
         ]
     )
 
-// Coin Conversion recipes
-    // Lunar to Solar
     event.shapeless(
-        Item.of('kubejs:solar_coin'),
-        [ 
-            'kubejs:lunar_coin',
-            'kubejs:lunar_coin',
-            'kubejs:lunar_coin',
-            'kubejs:lunar_coin',
-            'kubejs:lunar_coin',
-            'kubejs:lunar_coin',
-            'kubejs:lunar_coin',
-            'kubejs:lunar_coin',
-            'kubejs:lunar_coin'
-        ]
-    )
-
-    // Solar to Arcane
-    event.shapeless(
-        Item.of('kubejs:arcane_coin'),
-        [ 
-            'kubejs:solar_coin',
-            'kubejs:solar_coin',
-            'kubejs:solar_coin',
-            'kubejs:solar_coin',
-            'kubejs:solar_coin',
-            'kubejs:solar_coin',
-            'kubejs:solar_coin',
-            'kubejs:solar_coin',
-            'kubejs:solar_coin'
-        ]
-    )
-
-    // Arcane to Solar
-    event.shapeless(
-        Item.of('kubejs:solar_coin', 9),
-        [ 
-            'kubejs:arcane_coin'
-        ]
-    )
-
-    // Solar to Lunar
-    event.shapeless(
-        Item.of('kubejs:lunar_coin', 9),
-        [ 
-            'kubejs:solar_coin'
+        Item.of('minecraft:carved_pumpkin', '{CustomModelData:6}'),
+        [
+            'kubejs:ticket'
         ]
     )
 

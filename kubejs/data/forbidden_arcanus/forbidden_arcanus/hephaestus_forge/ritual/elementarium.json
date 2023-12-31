@@ -1,0 +1,71 @@
+{
+    "additional_requirements": {
+      "forge_tier": 1
+    },
+    "essences": {
+      "aureal": 500,
+      "blood": 500,
+      "experience": 500,
+      "souls": 5
+    },
+    "inputs": [
+    {
+        "amount": 1,
+        "ingredient": {
+            "item": "miners_delight:bat_wing"
+        }
+        },
+        {
+        "amount": 1,
+        "ingredient": {
+            "item": "aether:skyroot_sapling"
+        }
+        },
+    {
+        "amount": 1,
+        "ingredient": {
+            "item": "farmersdelight:organic_compost"
+        }
+        },
+        {
+        "amount": 1,
+        "ingredient": {
+            "item": "minecraft:dirt"
+        }
+        },
+      {
+        "amount": 1,
+        "ingredient": {
+          "item": "minecraft:fire_charge"
+        }
+      },
+      {
+        "amount": 1,
+        "ingredient": {
+          "item": "minecraft:firework_rocket"
+        }
+      },
+      {
+        "amount": 1,
+        "ingredient": {
+          "item": "minecraft:cod"
+        }
+      },
+      {
+        "amount": 1,
+        "ingredient": {
+          "item": "minecraft:water_bucket"
+        }
+      }
+    ],
+    "main_ingredient": {
+      "item": "eidolon:holy_symbol"
+    },
+    "result": {
+      "type": "forbidden_arcanus:create_item",
+      "result_item": {
+        "Count": 1,
+        "id": "forbidden_arcanus:elementarium"
+      }
+    }
+  }

@@ -4,19 +4,7 @@ StartupEvents.registry('item', event => {
     // The texture for this item has to be placed in kubejs/assets/kubejs/textures/item/test_item.png
     // If you want a custom item model, you can create one in Blockbench and put it in kubejs/assets/kubejs/models/item/test_item.json
 
-    event.create('lunar_coin').maxStackSize(64).displayName("Lunar Coin")
-    event.create('solar_coin').maxStackSize(64).displayName("Solar Coin")
-    event.create('arcane_coin').maxStackSize(64).displayName("Arcane Coin")
-
-    /*
-    ItemEvents.modification (event => {
-      let dArcanus = Item.of('forbidden_arcanus:draco_arcanus_sword').item
-      let attackDamageField = dArcanus.class.getDeclaredField("attackDamage");
-      attackDamageField.setAccessible(true)
-      attackDamageField.setFloat(dArcanus, 9);
-    })*/
-
-    
+    event.create('ticket')
 
   })
 
@@ -147,19 +135,111 @@ event.modify('deep_aether:skyjade_sword', item => {
   item.addAttribute("generic.attack_damage", attribute.id, attribute.name, attribute.amount + boost, attribute.operation)
 });
 
-    event.modify('unusualprehistory:defrosted_frozen_fossil', item => {
-      item.foodProperties = food => {
-          food.hunger(2)
-          food.saturation(3)
-      }
-    });
+// Gravitite Armor
+
+event.modify('aether:gravitite_helmet', item => {
+  item.armorProtection = 2
+  item.armorToughness = 2
+});
+
+event.modify('aether:gravitite_chestplate', item => {
+  item.armorProtection = 7
+  item.armorToughness = 2
+});
+
+event.modify('aether:gravitite_leggings', item => {
+  item.armorProtection = 5
+  item.armorToughness = 2
+});
+
+event.modify('aether:gravitite_boots', item => {
+  item.armorProtection = 2
+  item.armorToughness = 2
+});
+
+//Draco Arcanus Armor
+
+event.modify('forbidden_arcanus:draco_arcanus_helmet', item => {
+  item.armorProtection = 4
+  item.armorToughness = 3
+});
+
+event.modify('forbidden_arcanus:draco_arcanus_chestplate', item => {
+  item.armorProtection = 9
+  item.armorToughness = 3
+});
+
+event.modify('forbidden_arcanus:draco_arcanus_leggings', item => {
+  item.armorProtection = 7
+  item.armorToughness = 3
+});
+
+event.modify('forbidden_arcanus:draco_arcanus_boots', item => {
+  item.armorProtection = 4
+  item.armorToughness = 3
+});
+
+//Draco Arcanus Armor
+
+event.modify('forbidden_arcanus:draco_arcanus_helmet', item => {
+  item.armorProtection = 4
+  item.armorToughness = 3
+});
+
+event.modify('forbidden_arcanus:draco_arcanus_chestplate', item => {
+  item.armorProtection = 9
+  item.armorToughness = 3
+});
+
+event.modify('forbidden_arcanus:draco_arcanus_leggings', item => {
+  item.armorProtection = 7
+  item.armorToughness = 3
+});
+
+event.modify('forbidden_arcanus:draco_arcanus_boots', item => {
+  item.armorProtection = 4
+  item.armorToughness = 3
+});
+
+// Food nerfing
+
+event.modify('unusualprehistory:defrosted_frozen_fossil', item => {
+  item.foodProperties = food => {
+      food.hunger(2)
+      food.saturation(3)
+  }
+});
 
 })
 
 
 StartupEvents.registry('block', event => {
 
-// Carved Warped Logs
+  //Emmu Blocks
+  event.create('bat_wallpaper', 'cardinal')
+  .model('kubejs:block/bat_wallpaper')
+  .soundType('wood')
+  .hardness(2)
+  .displayName('Bat Wallpaper') 
+  .tagBlock('minecraft:mineable/axe') 
+
+  event.create('skull_wallpaper', 'cardinal')
+  .model('kubejs:block/skull_wallpaper')
+  .soundType('wood')
+  .hardness(2)
+  .displayName('Skull Wallpaper') 
+  .tagBlock('minecraft:mineable/axe') 
+
+  event.create('witch_cat_plushie')
+  .model('kubejs:block/witch_cat_plushie')
+  .soundType('wool')
+  .fullBlock(false)
+  .defaultCutout()
+  .hardness(1.5)
+  .displayName('Witch Cat Plushie') 
+
+
+  // Carved Warped Logs
   event.create('carved_warped_1', 'cardinal')
   .model('kubejs:block/carved_warped_1')
   .soundType('wood')

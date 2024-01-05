@@ -1,8 +1,5 @@
 
 [compass-behavior]
-	#Mobs search radius (in blocks).
-	#Range: > 1
-	search_radius = 65
 	#How often the compass search target will be updated. Low values can cause SERIOUS performance problems.
 	#Range: > 1
 	search_rate = 50
@@ -22,4 +19,25 @@
 	disable_mob_search = false
 	#Disable interaction with the JEI panel.
 	disable_jei_compatibility = false
+	#Block search radius (in blocks). Large values may result in lag issues.
+	#Range: > 1
+	blocks_search_radius = 25
+	#Containers search radius (in blocks). Large values may result in lag issues.
+	#Range: > 1
+	containers_search_radius = 25
+	#Mobs search radius (in blocks).
+	#Range: > 1
+	entities_search_radius = 65
+
+[compass-settings]
+	#Prevents players from searching Villagers based on their trade items.
+	disable_villager_search = false
+	#Prevents players from searching items lying on the ground.
+	disable_item_entity_search = false
+	#Prevents players from searching fluids based on their buckets.
+	disable_mob_fluid_search = false
+	#Prevents players from searching spawners.
+	disable_mob_spawner_search = false
+	#Prevents players from searching entities based on their inventories (Minecarts).
+	disable_mob_inventory_search = false
 

@@ -95,6 +95,7 @@ ServerEvents.recipes(event => {
         {output: 'galosphere:raw_silver_block'},
         {output: 'earthmobsmod:ruby_block'},
         {output: 'ruby_exchange:ruby_ore'},
+        {output: 'functionalstorage:armory_cabinet'},
         //Replaced Recipes
         {output: 'mighty_mail:post_box'},
         {output: 'farmersdelight:wheat_dough'},

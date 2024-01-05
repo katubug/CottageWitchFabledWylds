@@ -147,6 +147,7 @@ JEIEvents.hideItems(event => {
         'galosphere:silver_block',
         'galosphere:raw_silver_block',
         'earthmobsmod:ruby_block',
+        'functionalstorage:armory_cabinet',
         
 
     ];

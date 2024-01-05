@@ -217,14 +217,15 @@ ServerEvents.recipes(event => {
     event.shaped(
         Item.of('meadow:oil_lantern'),
         [
-            ' A ',
+            'DAD',
             'ABA',
             'CCC'
         ],
         {
             A: 'minecraft:iron_ingot',
             B: 'forbidden_arcanus:edelwood_oil',
-            C: 'minecraft:iron_nugget'
+            C: 'minecraft:iron_nugget',
+            D: 'eidolon:enchanted_ash'
         }
     )
 /*

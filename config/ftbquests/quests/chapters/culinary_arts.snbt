@@ -2690,6 +2690,51 @@
 			x: 10.5d
 			y: 5.5d
 		}
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: [
+				"You may have noticed &bMushroom Stew&r has a new look! Did you know you can &6rename it in an anvil&r to get &aeven more alternatives&r?"
+				""
+				"Try:"
+				""
+				"Bowl of Potato"
+				"Bowl of Cookie"
+				"Bowl of Bread"
+				"Bowl of Apple"
+				"Dish of Spaghetti"
+				"Dish of Cookie"
+				"Dish of Apple"
+				"Dish of Bread"
+				"Dish of Garlic Bread"
+				"Bowl Of Ramen"
+				"Bowl Of Egg Soup"
+				"Sauces"
+			]
+			id: "7F2646EB463D6CF8"
+			rewards: [{
+				id: "4C977859DBE5905D"
+				item: {
+					Count: 1b
+					id: "minecraft:mushroom_stew"
+					tag: {
+						display: {
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Dish of Spaghetti\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "the most aesthetic dishes"
+			tasks: [{
+				id: "728E035F1251C894"
+				item: "minecraft:mushroom_stew"
+				type: "item"
+			}]
+			title: "New Stew"
+			x: -0.5d
+			y: 5.5d
+		}
 	]
 	title: "Culinary Arts"
 }

@@ -115,32 +115,6 @@
 		}
 		{
 			description: [
-				"While some &eElephants&r are large and occasionally aggressive, there are variants which are &asmall and friendly&r. These &eElephants&r can be &6tamed with &bPeanuts&r, and will &ahelp you water your gardens&r!"
-				"{image:cottagewitch:textures/elephant.png width:150 height:150 align:1}"
-			]
-			id: "2E69432952BEB130"
-			rewards: [{
-				count: 10
-				id: "5637F9ABF0306708"
-				item: "sprout:peanut"
-				type: "item"
-			}]
-			shape: "heart"
-			subtitle: "the smol one"
-			tasks: [{
-				icon: "sprout:peanut"
-				id: "5F44B153C821B44E"
-				observe_type: 5
-				timer: 0L
-				to_observe: "sprout:elephant"
-				type: "observation"
-			}]
-			title: "Meet the Elephant"
-			x: -9.0d
-			y: -3.5d
-		}
-		{
-			description: [
 				"This delightful item not only &aplays a lovely tune&r when you &6hold right click while holding it&r, but it also &asummons all non-sitting pets nearby&r to your location."
 				"You can optionally bind your flute to a specific pet by &6shift right clicking&r on the animal with the flute."
 			]
@@ -997,8 +971,8 @@
 					type: "item"
 				}
 				{
-					id: "025034A031F1EE27"
-					item: "plushies:snow_golem"
+					id: "60AF85F5AFCDACD4"
+					item: "plushies:snow_golem_plushie"
 					type: "item"
 				}
 			]
@@ -1137,63 +1111,6 @@
 		}
 		{
 			description: [
-				"The &eSlabfish&r is a rectangular entity which can be &atamed&r with &bTropical Fish&r."
-				"Once tamed, you can &6right click&r to &agive them a sweater&r by equipping them with &bWool&r. They can also help you carry items if you &agive them a &bChest&r."
-				"You can also &adye the chest backpack&r by placing a dye in that slot."
-				"&eSlabfish&r will toggle sitting or standing if you &6shift right click&r them."
-				"However, they will &donly follow you when you're holding &bTropical Fish&r."
-			]
-			id: "7A028A2ABDD3D304"
-			rewards: [{
-				id: "4DF7256C6FF7781B"
-				item: "environmental:slabfish_effigy"
-				type: "item"
-			}]
-			shape: "heart"
-			subtitle: "it's a slab. it's a fish. it's a slabfish."
-			tasks: [{
-				icon: "environmental:slabfish_effigy"
-				id: "7EADDF251FAAE962"
-				observe_type: 5
-				timer: 0L
-				to_observe: "environmental:slabfish"
-				type: "observation"
-			}]
-			title: "Meet the Slabfish"
-			x: -7.5d
-			y: -3.5d
-		}
-		{
-			description: [
-				"Looking for a challenge? Why not craft yourself a &bGate Pearl&r? &dYou can craft any one you'd like for this quest&r."
-				"A &bGate Pearl&r allows you to summon a &eGateway&r by using it on a block.There will need to be &asufficient space&r available, and &aanother Gateway cannot already be open&r."
-				"An open Gateway will &dfail in a burst of lightning&r if it &acannot spawn a mob&r, any active &amob gets too far away&r, or the &awave timer&r elapses. Rewards will spawn from the Gateway as they are obtained."
-				"These &eGateway&r provide a challenge for powerful players, and are a great source of &bMob Drops&r."
-			]
-			id: "538D45E5FE8591D6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1C76B55071F1CB88"
-				type: "choice"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "6870A2403C99B582"
-				item: {
-					Count: 1b
-					id: "gateways:gate_pearl"
-					tag: {
-						gateway: "gateways:zombie_gate_small"
-					}
-				}
-				type: "item"
-			}]
-			title: "Gateways to Eternity"
-			x: 9.0d
-			y: 2.5d
-		}
-		{
-			description: [
 				"&eGoats&r are ornery things. If you should happen across one, &abeware of their headbutts&r! "
 				"However, if you can get it to &acharge into a hard block&r such as &bStone&r, it will drop a &bHorn&r."
 			]
@@ -1275,188 +1192,34 @@
 		{
 			description: [
 				"&eSnails&r are some of the most delightful creatures."
-				"They're quite fond of terracotta, so you can easily &ascoop them up&r in a &bFlower Pot&r! Catch one of each to be rewarded with more of the same!"
+				""
+				"They're quite fond of &bSweet Berries&r, so if you find two - perhaps you could breed them?"
 			]
 			id: "55CAFBB909F98ED8"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3BEB488E750283FD"
-					type: "random"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "361AB2E20ED1793D"
 					table_id: 8096229411196850122L
 					type: "random"
 				}
-			]
-			subtitle: "it's far too perilous"
-			tasks: [
-				{
-					id: "56D54ABE011FE588"
-					item: "finsandtails:flatback_leaf_snail_pot"
-					type: "item"
-				}
-				{
-					id: "5E956C8B3E380B66"
-					item: "finsandtails:river_pebble_snail_pot"
-					type: "item"
-				}
-				{
-					id: "59A385070126BB28"
-					item: "finsandtails:siderol_whiskered_snail_pot"
-					type: "item"
-				}
-			]
-			title: "The Search for the Holy Snail"
-			x: -10.5d
-			y: -7.5d
-		}
-		{
-			description: [
-				"Ooh look, a nice &ajuicy loot chest&r! Wonder what's inside?"
-				"&lGOTCHA&r, it's a &eMimic&r! Mimics are creatures which resemble chests, but will turn hostile should you try to open them."
-				"Once defeated, &athey drop &bArtifacts&r."
-			]
-			id: "7FB79E375B154A0E"
-			rewards: [{
-				count: 10
-				id: "1B9AF3CC1116662F"
-				item: "nethersdelight:mimicarnation"
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: "artifacts:mimic_spawn_egg"
-				id: "3E845198C4BE9909"
-				observe_type: 5
-				timer: 0L
-				to_observe: "artifacts:mimic"
-				type: "observation"
-			}]
-			title: "Fall Prey to the Mimic"
-			x: 10.5d
-			y: 4.0d
-		}
-		{
-			description: [
-				"&eStonelings&r are very timid creatures! They can be found &cin caves underground&r, and will often be carrying &asomething shiny they found&r."
-				"Most times, they will &aimmediately flee&r the player and poof into their home dimension. However, if they are killed, they can drop the very valuable &bHeart of Diamond&r, used to make a &bPickarang&r."
-				"To obtain this, you'll need to &6sneak up on the &eStoneling&r, or &atempt it with a &bGlowshroom&r."
-			]
-			id: "1D8DD63F836302C8"
-			rewards: [{
-				id: "4A85FD0801EB0478"
-				item: "quark:glow_shroom"
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: "quark:diamond_heart"
-				id: "0C8FFD1E7B985EA1"
-				observe_type: 5
-				timer: 0L
-				to_observe: "quark:stoneling"
-				type: "observation"
-			}]
-			title: "Meet the Stoneling"
-			x: 7.5d
-			y: -7.0d
-		}
-		{
-			description: [
-				"It is the duty of every witch to improve the world around them. One such method is &adestroying evil creatures&r such as the &eWilden&r."
-				"The &eWilden&r are an ancient race of Shapeshifters who &abroke the treaty with nature&r and became forever trapped in their animal states. They now exist &aonly to kill&r. Defeat them and absorb their knowledge and power."
-			]
-			id: "7EF23B68E32568DE"
-			rewards: [{
-				id: "4A10122B4878EE34"
-				item: "ars_nouveau:ritual_wilden_summon"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					count: 10L
-					id: "3A9BB346C47CCBDD"
-					item: "ars_nouveau:wilden_horn"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "2B6EEF46BC2C7530"
-					item: "ars_nouveau:wilden_wing"
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "03133B1C35B17F08"
-					item: "ars_nouveau:wilden_spike"
-					type: "item"
-				}
-			]
-			title: "Wilden Trophies"
-			x: 7.5d
-			y: 4.0d
-		}
-		{
-			description: [
-				"&eOwls&r are some of the more traditional witch familiars, so you'll be pleased to note that &athey can be tamed&r!"
-				"Feed them &bgame meat&r such as &brabbit&r or &bchicken&r. They can also be bred with the same items. They will &afollow you once tamed&r even if you're flying through the air!"
-			]
-			id: "697E566F9FF782F0"
-			rewards: [
-				{
-					count: 5
-					id: "478853E191F41ABC"
-					item: "minecraft:chicken"
-					type: "item"
-				}
 				{
 					exclude_from_claim_all: true
-					id: "7DAF274364D46AF7"
+					id: "000F827C9B034A30"
 					table_id: 7049021818423122779L
 					type: "choice"
 				}
 			]
-			shape: "heart"
-			subtitle: "owl be happy to see you"
+			shape: "hexagon"
+			subtitle: "it's far too perilous"
 			tasks: [{
-				icon: "biomemakeover:owl_spawn_egg"
-				id: "03EBA7A36A380D74"
-				observe_type: 5
-				timer: 0L
-				to_observe: "biomemakeover:owl"
-				type: "observation"
-			}]
-			title: "Meet the Owl"
-			x: -9.0d
-			y: -5.5d
-		}
-		{
-			description: [
-				"Above the canopy of the &cDark Forest&r, you can find giant hostile &eMoths&r, which cluster around &bMoth Blossoms&r and &alights&r. These pests seem to serve to prevent people from traversing the canopy."
-				"Use their &bScales&r to create a &bPotion of the Nocturnal&r, an exceptionally long-lasting brew which prevents &ePhantoms&r from spawning."
-			]
-			id: "5E86B948F3FA0264"
-			rewards: [{
-				count: 3
-				id: "6E248284527A632A"
-				item: "biomemakeover:moth_scales"
+				id: "6AE89277C3F147A4"
+				item: "spawn:snail_eggs"
 				type: "item"
 			}]
-			shape: "square"
-			tasks: [{
-				entity: "biomemakeover:moth"
-				icon: "biomemakeover:moth_scales"
-				id: "60D39B0FAEEC2C7C"
-				type: "kill"
-				value: 5L
-			}]
-			title: "Moths in the Canopy"
-			x: 11.0d
-			y: 6.0d
+			title: "The Search for the Holy Snail"
+			x: -9.0d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -1500,59 +1263,6 @@
 			title: "Traveling Piggyback"
 			x: -1.0d
 			y: -3.0d
-		}
-		{
-			description: [
-				"The &eRed Bull Crab&r, unlike it's friendlier cousin the &eWhite Bull Crab&r, is somewhat vicious, even to others of its own kind."
-				""
-				"If you kill one, you may receive a &bRed Bull Crab Claw&r, which can either &abe cooked&r, or &acrafted into a &bRed Claw Gauntlet&r."
-				""
-				"The Gauntlet can be enchanted with &aunique effects&r."
-			]
-			id: "068330DDB109AAD2"
-			rewards: [{
-				id: "604366D6E4B3DD6F"
-				item: "finsandtails:red_bull_crab_claw"
-				type: "item"
-			}]
-			shape: "square"
-			subtitle: "it gives you claaaaws"
-			tasks: [{
-				entity: "finsandtails:red_bull_crab"
-				icon: "finsandtails:red_bull_crab_claw"
-				id: "4B46CE4E3E2AA1E3"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Slay a Red Bull Crab"
-			x: 7.0d
-			y: 6.0d
-		}
-		{
-			description: [
-				"&ePenglils&r are fun-loving little guys who are distant relatives of the &ePenguin&r. They love water and can be tamed with &bHigh-Finned Blue&r."
-				""
-				"I wonder what would happen if you named one \"Lord?\""
-			]
-			id: "30B298083652D459"
-			rewards: [{
-				count: 5
-				id: "52786D29ABFE43EB"
-				item: "finsandtails:high_finned_blue"
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: "finsandtails:penglil_bucket"
-				id: "643E09E7E6546836"
-				observe_type: 5
-				timer: 0L
-				to_observe: "finsandtails:penglil"
-				type: "observation"
-			}]
-			title: "Meet the Penglil"
-			x: -9.0d
-			y: -7.5d
 		}
 		{
 			description: ["This elusive big cat can be found in &cGroves&r and &cSnowy Taigas&r. &aTame this mount&r with &bmutton&r or &bsalmon&r for a lifelong friend!"]
@@ -1966,6 +1676,57 @@
 			}]
 			x: 1.5d
 			y: -3.0d
+		}
+		{
+			description: [
+				"Commonly associated with the &eFey&r, &eButterflies&r are a beautiful and mystical natural phenomenon. Said to be beings of great power - who can &acause typhoons with a single flap of their wings&r, they are also symbols of &atransformation and rebirth&r."
+				""
+				"&6Capture these creatures by left clicking&r using a &bButterfly Net&r. They can then be &arelocated&r, transferred to a &bGlass Bottle&r (which can be &aplaced down with &6shift right click&r), or &6preserved in a &bBook&r."
+				""
+				"When making &bButterfly Scrolls&r, &dbe careful not to shift+click the craft&r or you'll end up with a &astack of unusable empty sheets&r."
+			]
+			id: "6C7E1C6C0E2C8C64"
+			rewards: [{
+				id: "1B47B8B0E3F1EF78"
+				item: "butterflies:monarch_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59223D090752C450"
+				item: {
+					Count: 1b
+					id: "butterflies:butterfly_net"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Catching Butterflies"
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6C7E1C6C0E2C8C64"]
+			description: [
+				"Your dedication to &acollecting &bPreserved Butterflies&r is impressive and laudable!"
+				""
+				"Take this reward and &6fly as they do&r."
+			]
+			id: "273CD6FDC0A73F35"
+			rewards: [{
+				id: "242046B5BCE34376"
+				item: "nameless_trinkets:ethereal_wings"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "butterflies:butterfly/fill_butterfly_book"
+				criterion: ""
+				id: "72D24DF4F709494F"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -5.5d
 		}
 	]
 	title: "Wildlife"

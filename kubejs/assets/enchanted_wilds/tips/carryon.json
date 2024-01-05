@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Witchy Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Shift + right click to pick up most entities and tile entities such as chests! You can also stack animals this way."
+    }
+  }

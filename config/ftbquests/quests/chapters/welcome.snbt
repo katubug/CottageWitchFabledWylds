@@ -90,8 +90,6 @@
 				""
 				"This quest grants you an &bEccentric Tome&r, which contains guidebooks to mods in the pack."
 				""
-				"It also gives you a &bSack&r, which is like a very poor &bShulker Box&r - but hey, it's better than nothing!"
-				""
 				"&lIf you ever lose your Eccentric Tome&r, you can easily &6craft a new one&r with a &bBook&r and a &bStick&r."
 				""
 				"Your most useful tool is &lJEI&r, a mod that appears on the right of your inventory screen. It will let you view all the items in the modpack, and their recipes. &6Please explore this to see what is on offer&r!"
@@ -99,11 +97,6 @@
 			icon: "minecraft:grass_block"
 			id: "6C6635F6D9644BB7"
 			rewards: [
-				{
-					id: "3FC5AF6E67ED19A5"
-					item: "supplementaries:sack"
-					type: "item"
-				}
 				{
 					auto: "enabled"
 					command: "/say Hi, @p! Thanks for playing! Please check out your quests with the - key, or by opening your Quest Book!"

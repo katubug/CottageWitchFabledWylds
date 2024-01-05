@@ -184,11 +184,20 @@
 			dependencies: ["2E4D1699E2A7876B"]
 			description: ["Catch one each of the &abasic fish in vanilla&r!"]
 			id: "7A31753911D1CCFC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6933C2EABDC4F6E6"
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F8DE26FF6D408D5"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79EFA02AE79333FB"
+					table_id: 661030336235288770L
+					type: "choice"
+				}
+			]
 			tasks: [
 				{
 					id: "7B3E2CE57F6AE720"
@@ -387,6 +396,12 @@
 					id: "2469EAD60D8E35B7"
 					table_id: 661030336235288770L
 					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A2E351F211C713B"
+					table_id: 7737096167250795605L
+					type: "loot"
 				}
 			]
 			shape: "pentagon"
@@ -602,6 +617,12 @@
 					item: "aquaculture:lockbox"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "34B2234B97ED0E9E"
+					table_id: 7737096167250795605L
+					type: "loot"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{
@@ -727,12 +748,20 @@
 			dependencies: ["662B6BDBC0074C00"]
 			description: ["Are you drowning in &bNether Stars&r? Sure, we all are. Make this hook and get a bonus to durability and luck!"]
 			id: "49F0E2188F02F13E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2ECB1ACC657AF415"
-				table_id: 5161092699925703455L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2ECB1ACC657AF415"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02CFFDC5F0487D5E"
+					table_id: 7737096167250795605L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "3C97FC4345923F3D"
@@ -754,12 +783,20 @@
 				"&bDiamond Hook&r: Increased chance to not use durability when fishing."
 			]
 			id: "053D86E7EB49F9B5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2E9224EE00432F04"
-				table_id: 661030336235288770L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E9224EE00432F04"
+					table_id: 661030336235288770L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71E2706F2CBC2BFF"
+					table_id: 7737096167250795605L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "2A1BB7D954DF3CCE"
 				item: {
@@ -779,12 +816,20 @@
 			dependencies: ["2E4D1699E2A7876B"]
 			description: ["You can obtain &bFish Fillets&r by &6crafting them together with a &bKnife&r! The amount of Fillets you get is dependent on the size of the fish."]
 			id: "18D138B9A304EABE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "292586857EAE9C4B"
-				table_id: 8096229411196850122L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "292586857EAE9C4B"
+					table_id: 8096229411196850122L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A4D4B7445E42CE4"
+					table_id: 7737096167250795605L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "62D86EBC6EEDEB2E"
@@ -799,11 +844,19 @@
 			dependencies: ["2E4D1699E2A7876B"]
 			description: ["Although you cannot &afillet&r the &bGoldfish&r, you can extract gold from it! Although, honestly, I'd probably just put it in an item frame."]
 			id: "57DDE34EDA5DA3AE"
-			rewards: [{
-				id: "23E651E362B148C6"
-				item: "minecraft:glow_item_frame"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "23E651E362B148C6"
+					item: "minecraft:glow_item_frame"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D484A0C4B290B2A"
+					table_id: 7737096167250795605L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "5725C2863A5DDA36"
@@ -818,12 +871,20 @@
 			dependencies: ["7FBB7033C56FD372"]
 			description: ["You can craft a &bBobber&r and &bFishing Line&r to customize your &bFishing Rod&r! These can be dyed any color, and are a cosmetic only change."]
 			id: "11C0F51479EDDCCB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4E8EB2FA42484581"
-				table_id: 987967038148964353L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E8EB2FA42484581"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D4799199FA7CA6D"
+					table_id: 7737096167250795605L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1188,11 +1249,19 @@
 		}
 		{
 			id: "59B1855ECF0E6434"
-			rewards: [{
-				id: "74B36C9F8E7AA753"
-				item: "crabbersdelight:pearl"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "74B36C9F8E7AA753"
+					item: "crabbersdelight:pearl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D6FFDEEE5FB4CC4"
+					table_id: 7737096167250795605L
+					type: "loot"
+				}
+			]
 			subtitle: "i am perfectly clam"
 			tasks: [
 				{
@@ -1222,6 +1291,12 @@
 		}
 		{
 			id: "4D9D45E60E1A72D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "583A99F9C877CD85"
+				table_id: 7737096167250795605L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "57DE78AA06B54A54"

@@ -1,0 +1,44 @@
+{
+    "additional_requirements": {
+        "forge_tier": 4,
+        "enhancers": [
+          "forbidden_arcanus:maledictus_pact"
+        ]
+      },
+    "essences": {
+      "aureal": 250,
+      "blood": 250,
+      "experience": 250,
+      "souls": 1
+    },
+    "inputs": [
+      {
+        "amount": 2,
+        "ingredient": {
+          "item": "forbidden_arcanus:obsidian_ingot"
+        }
+      },
+      {
+        "amount": 2,
+        "ingredient": {
+          "tag": "forge:gems"
+        }
+      },
+      {
+        "amount": 2,
+        "ingredient": {
+          "item": "eidolon:soul_shard"
+        }
+      }
+    ],
+    "main_ingredient": {
+      "item": "forbidden_arcanus:dragon_scale"
+    },
+    "result": {
+      "type": "forbidden_arcanus:create_item",
+      "result_item": {
+        "Count": 1,
+        "id": "forbidden_arcanus:draco_arcanus_boots"
+      }
+    }
+  }

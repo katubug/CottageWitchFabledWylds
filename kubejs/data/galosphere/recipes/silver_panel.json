@@ -1,0 +1,19 @@
+{
+  "replace":true,
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "eidolon:silver_block"
+    }
+  },
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "result": {
+    "count": 4,
+    "item": "galosphere:silver_panel"
+  },
+  "show_notification": true
+}

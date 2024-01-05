@@ -713,6 +713,65 @@ ServerEvents.recipes(event => {
         }
     )
 
+    //DNA Fridge
+    event.shaped(
+        Item.of('unusualprehistory:dna_fridge'),
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'minecraft:copper_ingot',
+            B: 'minecraft:blue_ice', 
+            C: 'minecraft:iron_ingot', 
+            D: 'unusualprehistory:permafrost'
+        }
+    )
+
+    //Incubator
+    event.shaped(
+        Item.of('unusualprehistory:incubator'),
+        [
+            'ABA',
+            'CDC',
+            'EFE'
+        ],
+        {
+            A: 'unusualprehistory:insulator',
+            B: 'minecraft:green_stained_glass',
+            C: 'minecraft:copper_ingot',
+            D: 'unusualprehistory:organic_ooze',
+            E: 'minecraft:redstone',
+            F: 'eidolon:arcane_gold_ingot'
+        }
+    )
+
+    //Preserved Flesh Craftable
+    event.shaped(
+        Item.of('galosphere:preserved_flesh'),
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'galosphere:pink_salt_shard',
+            B: 'galosphere:cured_membrane', 
+            C: 'galosphere:salted_jerky', 
+            D: 'eidolon:zombie_heart',
+        }
+    )
+
+    //Insulator
+    event.shapeless(
+        Item.of('unusualprehistory:insulator'),
+        [ 
+            'minecraft:light_blue_wool', 'minecraft:magma_cream', 'minecraft:light_gray_wool'
+        ]
+    )
+
+
     // Waystones to Sharestones
     event.shapeless(
         Item.of('waystones:sharestone'),

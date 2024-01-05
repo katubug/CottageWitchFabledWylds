@@ -1,0 +1,9 @@
+{
+  "replace":true,
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "eidolon:silver_block"
+  },
+  "result": "galosphere:silver_tiles_slab"
+}

@@ -279,7 +279,7 @@ mobDropsEnabled = true
 		#Determines if almost destroyed charms stay displayed in the hud
 		keepAlmostDestroyedDisplayed = true
 		#List of hostile entities that are not supposed to have mob charms registered for them
-		entityBlockList = ["minecraft:ender_dragon", "minecraft:wither", "irons_spellbooks:dead_king", "luphieclutteredmod:imperial_and_pastel_chair_entity", "luphieclutteredmod:log_bed_seating_entity", "luphieclutteredmod:log_set_seating_entity", "luphieclutteredmod:lovely_love_seats_entity", "luphieclutteredmod:luphie_armchair_entity", "luphieclutteredmod:mushroom_bed_seat_entity", "luphieclutteredmod:pastel_chair_entity", "luphieclutteredmod:rovers_stool_entity", "luphieclutteredmod:unliving_chair_entity", "aether:valkyrie_queen", "irons_spellbooks:debug_wizard", "irons_spellbooks:catacombs_zombie", "irons_spellbooks:magehunter_vindicator", "cozy_home:seat", "cozy_home:seat_low", "irons_spellbooks:archevoker"]
+		entityBlockList = ["minecraft:ender_dragon", "minecraft:wither", "irons_spellbooks:dead_king", "luphieclutteredmod:imperial_and_pastel_chair_entity", "luphieclutteredmod:log_bed_seating_entity", "luphieclutteredmod:log_set_seating_entity", "luphieclutteredmod:lovely_love_seats_entity", "luphieclutteredmod:luphie_armchair_entity", "luphieclutteredmod:mushroom_bed_seat_entity", "luphieclutteredmod:pastel_chair_entity", "luphieclutteredmod:rovers_stool_entity", "luphieclutteredmod:unliving_chair_entity", "aether:valkyrie_queen", "irons_spellbooks:debug_wizard", "irons_spellbooks:catacombs_zombie", "irons_spellbooks:magehunter_vindicator", "cozy_home:seat", "cozy_home:seat_low", "unusualprehistory:encrusted"]
 
 	#Mob Charm Fragment Settings
 	[items.mobCharmFragment]

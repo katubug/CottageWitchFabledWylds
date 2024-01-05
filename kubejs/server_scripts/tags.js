@@ -343,9 +343,10 @@ ServerEvents.tags('item', event => {
     'minecraft:dirt', 'minecraft:coarse_dirt',
     'minecraft:rooted_dirt','minecraft:podzol')
 
-    //Mystic Dagger works with Farmer's Delight?
+    //Magical Knives work with FD
     event.add('farmersdelight:tools/knives',
-        'forbidden_arcanus:mystical_dagger'
+        'forbidden_arcanus:mystical_dagger',
+        'eidolon:athame'
     )
 
     //Relic Tagging
@@ -548,6 +549,47 @@ ServerEvents.tags('block', event => {
 
     //Herbal Brews
     event.add('herbalbrews:allows_cooking', 
+    'bakery:brick_stove',
+    'bakery:cobblestone_stove',
+    'bakery:deepslate_stove',
+    'bakery:end_stove',
+    'bakery:granite_stove',
+    'bakery:mud_stove',
+    'bakery:quartz_stove',
+    'bakery:red_nether_bricks_stove',
+    'bakery:sandstone_stove',
+    'bakery:stone_bricks_stove',
+    'candlelight:bamboo_stove',
+    'candlelight:basalt_stove',
+    'candlelight:cobblestone_stove',
+    'candlelight:deepslate_stove',
+    'candlelight:end_stove',
+    'candlelight:granite_stove',
+    'candlelight:mud_stove',
+    'candlelight:quartz_stove',
+    'candlelight:red_nether_bricks_stove',
+    'candlelight:sandstone_stove',
+    'candlelight:stone_bricks_stove',
+    'create:blaze_burner',
+    'ends_delight:end_stove',
+    'fantasyfurniture:bone/skeleton/oven',
+    'fantasyfurniture:bone/wither/oven',
+    'fantasyfurniture:necrolord/oven',
+    'fantasyfurniture:nordic/oven',
+    'fantasyfurniture:royal/oven',
+    'fantasyfurniture:venthyr/oven',
+    'farmersdelight:stove',
+    'handcrafted:oven',
+    'herbalbrews:stove',
+    'meadow:stove_tiles',
+    'meadow:stove_tiles_lid',
+    'meadow:stove_tiles_wood',
+    'minecraft:magma_block',
+    'nethersdelight:blackstone_stove',
+    )
+
+    //Eidolon
+    event.add('eidolon:crucible_hot_blocks', 
     'bakery:brick_stove',
     'bakery:cobblestone_stove',
     'bakery:deepslate_stove',

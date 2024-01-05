@@ -39,7 +39,6 @@
     "file/PolyStashAllFences.zip",
     "file/OsShulkerboxescolorblindfriendly.zip",
     "file/LowOnFire_1.20.1.zip",
-    "file/LootrChestRetexture_v1.1_1.19.zip",
     "file/Henry's+Pots+and+Plants.zip",
     "file/FragrantFlowers.zip",
     "file/EnderEyes_1.20.1_v3.zip",
@@ -73,10 +72,8 @@
     "file/MagitechPipez-1-20.zip",
     "bushy_leaves",
     "better_leaves",
-    "builtin/overrides_pack",
     "create_central_kitchen:create_styled",
     "file/v2_REFRESH_Building_Gadgets_Create_Like.zip",
-    "builtin/deep_aether_additional_assets",
     "file/Better-Leaves-7.2-1.19+.zip",
     "file/Lopy-Create-Sophisticated-Backpacks.zip",
     "file/corality-1-0-3.zip",
@@ -94,7 +91,13 @@
     "file/Simple Grass Flowers v1.5.0.zip",
     "file/bowl-e1450.zip",
     "file/Endhanced Frames.zip",
-    "file/Invisible-Item-Frames-V5.zip"
+    "file/Invisible-Item-Frames-V5.zip",
+    "file/Silver-Rats.zip",
+    "file/fat-cat-1-18-2.zip",
+    "file/Gray's Villager Overhaul.zip",
+    "file/Gray's Guardian Overhaul.zip",
+    "file/Gray's Boss Overhaul.zip",
+    "iseelava:translucent_lava"
     ],
   "default_overrides": {
     "force_compatible": true

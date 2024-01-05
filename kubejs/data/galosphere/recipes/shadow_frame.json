@@ -1,0 +1,23 @@
+{
+  "replace":true,
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "galosphere:cured_membrane"
+    },
+    "S": {
+      "item": "eidolon:silver_ingot"
+    }
+  },
+  "pattern": [
+    "S#S",
+    "#S#",
+    "S#S"
+  ],
+  "result": {
+    "count": 8,
+    "item": "galosphere:shadow_frame"
+  },
+  "show_notification": true
+}

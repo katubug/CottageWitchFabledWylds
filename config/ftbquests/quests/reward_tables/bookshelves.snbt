@@ -1,7 +1,7 @@
 {
 	id: "78615DFBBA7A9358"
 	loot_size: 1
-	order_index: 26
+	order_index: 24
 	rewards: [
 		{ count: 15, item: "luphieclutteredmod:luphie_mushroom_bookshelf" }
 		{ count: 15, item: "luphieclutteredmod:luphie_jack_o_lantern_bookshelf" }

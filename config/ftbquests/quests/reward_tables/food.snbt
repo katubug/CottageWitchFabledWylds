@@ -1,7 +1,7 @@
 {
 	id: "705B95C0FA754FCA"
 	loot_size: 6
-	order_index: 21
+	order_index: 19
 	rewards: [
 		{ item: "vinery:cherry" }
 		{ item: "farmersdelight:pie_crust" }

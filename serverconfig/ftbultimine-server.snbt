@@ -12,6 +12,11 @@
 	# Range: 0.0 ~ 10000.0
 	exhaustion_per_block: 20.0d
 	
+	# Amount of experience taken per block mined (fractional values allowed)
+	# Default: 0.0
+	# Range: 0.0 ~ 20000.0
+	experience_per_block: 0.0d
+	
 	# Max amount of blocks that can be ultimined at once
 	# Default: 64
 	# Range: 0 ~ 32768
@@ -53,4 +58,9 @@
 	# Right-click with a shovel with the Ultimine key held to flatten multiple grass/dirt blocks into dirt paths
 	# Default: true
 	right_click_shovel: true
+	
+	# Cooldown in ticks between successive uses of the ultimine feature
+	# Default: 0
+	# Range: 0 ~ 9223372036854775807
+	ultimine_cooldown: 0L
 }

@@ -1,0 +1,38 @@
+{
+    "additional_requirements": {
+        "forge_tier": 5,
+        "enhancers": [
+          "forbidden_arcanus:divine_pact"
+        ]
+      },
+    "essences": {
+      "aureal": 500,
+      "blood": 500,
+      "experience": 500,
+      "souls": 3
+    },
+    "inputs": [
+      {
+        "amount": 5,
+        "ingredient": {
+          "item": "forbidden_arcanus:aquatic_dragon_scale"
+        }
+      },
+      {
+        "amount": 3,
+        "ingredient": {
+          "item": "forbidden_arcanus:golden_dragon_scale"
+        }
+    }
+    ],
+    "main_ingredient": {
+      "item": "minecraft:diamond_chestplate"
+    },
+    "result": {
+      "type": "forbidden_arcanus:create_item",
+      "result_item": {
+        "Count": 1,
+        "id": "forbidden_arcanus:tyr_chestplate"
+      }
+    }
+  }

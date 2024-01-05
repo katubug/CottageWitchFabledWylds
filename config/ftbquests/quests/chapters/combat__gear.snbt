@@ -68,62 +68,6 @@
 	quests: [
 		{
 			description: [
-				"The &bPickarang&r is a tool which can &aremotely break blocks and return the drops to you&r."
-				""
-				"It can also be used to &agrab dropped items&r and &adamage enemies&r."
-				""
-				"You can upgrade it to the &bFlamarang&r, and both versions can be Enchanted."
-			]
-			id: "5055BAE47F0F00DC"
-			rewards: [{
-				id: "240072CBB31D21BD"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			shape: "hexagon"
-			subtitle: "Seriously this is like the coolest item in the game"
-			tasks: [{
-				id: "0A710AE6C4500B69"
-				item: {
-					Count: 1b
-					id: "quark:pickarang"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Obtain a Pickarang"
-			x: 9.0d
-			y: -4.5d
-		}
-		{
-			description: ["The &bDragon Scale&r is an incredibly valuable item which is obtained after defeating the Ender Dragon &6a second time&r. It can be used to &aduplicate Elytra&r."]
-			id: "6C4B68A0370C245B"
-			rewards: [
-				{
-					id: "6939729DA29BDE5B"
-					table_id: 5161092699925703455L
-					type: "loot"
-				}
-				{
-					id: "10895B3655E7A5A6"
-					table_id: 5161092699925703455L
-					type: "loot"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "The scale of the universe"
-			tasks: [{
-				id: "7699FD548E88FFFB"
-				item: "quark:dragon_scale"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -9.5d
-		}
-		{
-			description: [
 				"A full set of Netherite Armor takes..."
 				""
 				"*counts on fingers*..."
@@ -797,47 +741,6 @@
 			title: "Tarot Trading"
 			x: 6.0d
 			y: 4.0d
-		}
-		{
-			description: [
-				"This &bBackpack&r can be worn in the &acurios \"Back\" slot&r and opened by &6pressing B&r (by default)."
-				"It can hold a small amount of extra items and &aremains equipped when you die&r."
-				""
-				"It can be &aenchanted&r, and the &aappearance is customizable&r! Simply &6access the paint palette button&r from the menu."
-				""
-				"{image:cottagewitch:textures/backpacked.png width:100 height:50 align:1 fit:true}"
-				""
-				"Hover over each option to &asee what challenge unlocks that look&r."
-				""
-				"A note: You can equip Backpacks in more than 1 Curio slot. However, &dyou can only use the one in your Back slot&r! Any additional backpacks will not be beneficial, and &dbackpacks equipped in the generic Curio slot cannot be used&r."
-				""
-				"When you &rright click&r equip the backpack, it will &dgo in the wrong slot&r, so please equip it manually."
-			]
-			id: "7B72E2C06B316F5A"
-			rewards: [
-				{
-					count: 15
-					id: "6FE42AC5E90113D8"
-					item: "minecraft:bamboo"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0FB0AAAB64B8D5B7"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "just what you've always wanted!"
-			tasks: [{
-				id: "62D500A4711B3B3C"
-				item: "backpacked:backpack"
-				type: "item"
-			}]
-			title: "Oh my GOD a BACKPACK"
-			x: 8.5d
-			y: 2.0d
 		}
 		{
 			description: [

@@ -1,7 +1,7 @@
 {
 	id: "26D10299709776E3"
 	loot_size: 1
-	order_index: 33
+	order_index: 30
 	rewards: [
 		{ item: "forbidden_arcanus:arcane_crystal_dust_speck", weight: 50.0f }
 		{ item: "forbidden_arcanus:arcane_crystal", weight: 15.0f }

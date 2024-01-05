@@ -1,17 +1,29 @@
 {
 	id: "6B5FAFF8A2051C55"
 	loot_size: 4
-	order_index: 23
+	order_index: 21
 	rewards: [
-		{ count: 5, item: "minecraft:tube_coral_block" }
-		{ count: 5, item: "minecraft:brain_coral_block" }
-		{ count: 5, item: "minecraft:bubble_coral_block" }
-		{ count: 5, item: "minecraft:fire_coral_block" }
-		{ count: 5, item: "minecraft:horn_coral_block" }
-		{ item: "netherdepthsupgrade:warped_kelp" }
-		{ item: "netherdepthsupgrade:warped_seagrass" }
-		{ item: "netherdepthsupgrade:crimson_kelp" }
-		{ item: "netherdepthsupgrade:crimson_seagrass" }
+		{ count: 5, item: "minecraft:tube_coral_block", weight: 5.0f }
+		{ count: 5, item: "minecraft:brain_coral_block", weight: 5.0f }
+		{ count: 5, item: "minecraft:bubble_coral_block", weight: 5.0f }
+		{ count: 5, item: "minecraft:fire_coral_block", weight: 5.0f }
+		{ count: 5, item: "minecraft:horn_coral_block", weight: 5.0f }
+		{ count: 5, item: "netherdepthsupgrade:warped_kelp" }
+		{ count: 5, item: "netherdepthsupgrade:crimson_kelp" }
+		{ count: 5, item: "minecraft:horn_coral_fan", weight: 5.0f }
+		{ count: 5, item: "minecraft:tube_coral", weight: 5.0f }
+		{ count: 5, item: "minecraft:brain_coral", weight: 5.0f }
+		{ count: 5, item: "minecraft:bubble_coral", weight: 5.0f }
+		{ count: 5, item: "minecraft:fire_coral", weight: 5.0f }
+		{ count: 5, item: "minecraft:horn_coral", weight: 5.0f }
+		{ count: 5, item: "minecraft:tube_coral_fan", weight: 5.0f }
+		{ count: 5, item: "minecraft:brain_coral_fan", weight: 5.0f }
+		{ count: 5, item: "minecraft:bubble_coral_fan", weight: 5.0f }
+		{ count: 5, item: "minecraft:fire_coral_fan", weight: 5.0f }
+		{ count: 5, item: "minecraft:kelp", weight: 10.0f }
+		{ count: 5, item: "minecraft:seagrass", weight: 10.0f }
+		{ count: 5, item: "netherdepthsupgrade:warped_seagrass" }
+		{ count: 5, item: "netherdepthsupgrade:crimson_seagrass" }
 	]
 	title: "Aquatic"
 }

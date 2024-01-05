@@ -1,0 +1,50 @@
+{
+    "additional_requirements": {
+        "forge_tier": 5,
+        "enhancers": [
+          "forbidden_arcanus:divine_pact"
+        ]
+      },
+    "essences": {
+      "aureal": 500,
+      "blood": 500,
+      "experience": 500,
+      "souls": 3
+    },
+    "inputs": [
+      {
+        "amount": 2,
+        "ingredient": {
+          "item": "forbidden_arcanus:aquatic_dragon_scale"
+        }
+      },
+      {
+        "amount": 2,
+        "ingredient": {
+          "item": "forbidden_arcanus:golden_dragon_scale"
+        }
+      },
+      {
+        "amount": 2,
+        "ingredient": {
+          "tag": "forge:gems"
+        }
+      },
+      {
+        "amount": 2,
+        "ingredient": {
+          "item": "eidolon:soul_shard"
+        }
+      }
+    ],
+    "main_ingredient": {
+      "item": "minecraft:diamond_boots"
+    },
+    "result": {
+      "type": "forbidden_arcanus:create_item",
+      "result_item": {
+        "Count": 1,
+        "id": "forbidden_arcanus:tyr_boots"
+      }
+    }
+  }

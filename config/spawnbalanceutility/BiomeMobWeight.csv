@@ -621,7 +621,7 @@
 621, ocean, minecraft:lukewarm_ocean, MONSTER, eidolon:zombie_brute, 60, 1, 3
 622, ocean, minecraft:lukewarm_ocean, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 623, ocean, minecraft:lukewarm_ocean, MONSTER, eidolon:wraith, 60, 1, 3
-624, ocean, minecraft:lukewarm_ocean, MONSTER, creeperoverhaul:ocean_creeper, 10, 1, 1
+624, ocean, minecraft:lukewarm_ocean, MONSTER, creeperoverhaul:ocean_creeper, 1, 1, 1
 625, ocean, minecraft:lukewarm_ocean, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 626, ocean, minecraft:lukewarm_ocean, MONSTER, earthmobsmod:tropical_slime, 10, 1, 2
 627, ocean, minecraft:lukewarm_ocean, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
@@ -1451,7 +1451,7 @@
 1453, ocean, minecraft:warm_ocean, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 1454, ocean, minecraft:warm_ocean, MONSTER, eidolon:wraith, 60, 1, 3
 1455, ocean, minecraft:warm_ocean, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
-1456, ocean, minecraft:warm_ocean, MONSTER, creeperoverhaul:ocean_creeper, 10, 1, 1
+1456, ocean, minecraft:warm_ocean, MONSTER, creeperoverhaul:ocean_creeper, 1, 1, 1
 1457, ocean, minecraft:warm_ocean, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1458, ocean, minecraft:warm_ocean, MONSTER, earthmobsmod:tropical_slime, 10, 1, 2
 1459, ocean, minecraft:warm_ocean, MONSTER, endermanoverhaul:coral_enderman, 10, 1, 2
@@ -2129,7 +2129,6 @@
 2131, river, minecraft:frozen_river, WATER_AMBIENT, aquaculture:bluegill, 20, 1, 6
 2132, river, minecraft:frozen_river, rascals, friendsandfoes:rascal, 10, 1, 1
 2133, none, minecraft:deep_dark, MONSTER, unusualfishmod:prawn, 20, 1, 1
-2134, none, minecraft:deep_dark, MONSTER, unusualprehistory:encrusted, 10, 1, 2
 2135, none, minecraft:deep_dark, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 2136, none, minecraft:deep_dark, CREATURE, mythicmounts:firebird, 10, 1, 1
 2137, none, minecraft:deep_dark, CREATURE, minecraft:pig, 30, 1, 1
@@ -2406,7 +2405,6 @@
 2408, none, regions_unexplored:bioshroom_caves, MONSTER, minecraft:witch, 5, 1, 1
 2409, none, regions_unexplored:bioshroom_caves, MONSTER, unusualfishmod:prawn, 20, 1, 1
 2410, none, regions_unexplored:bioshroom_caves, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
-2411, none, regions_unexplored:bioshroom_caves, MONSTER, unusualprehistory:encrusted, 10, 1, 2
 2412, none, regions_unexplored:bioshroom_caves, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 2413, none, regions_unexplored:bioshroom_caves, CREATURE, eidolon:slimy_slug, 10, 2, 3
 2414, none, regions_unexplored:bioshroom_caves, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
@@ -2652,7 +2650,7 @@
 2654, ocean, minecraft:deep_lukewarm_ocean, MONSTER, eidolon:zombie_brute, 60, 1, 3
 2655, ocean, minecraft:deep_lukewarm_ocean, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 2656, ocean, minecraft:deep_lukewarm_ocean, MONSTER, eidolon:wraith, 60, 1, 3
-2657, ocean, minecraft:deep_lukewarm_ocean, MONSTER, creeperoverhaul:ocean_creeper, 10, 1, 1
+2657, ocean, minecraft:deep_lukewarm_ocean, MONSTER, creeperoverhaul:ocean_creeper, 1, 1, 1
 2658, ocean, minecraft:deep_lukewarm_ocean, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 2659, ocean, minecraft:deep_lukewarm_ocean, MONSTER, earthmobsmod:tropical_slime, 10, 1, 2
 2660, ocean, minecraft:deep_lukewarm_ocean, CREATURE, minecraft:pig, 20, 1, 4
@@ -2944,7 +2942,6 @@
 2946, none, regions_unexplored:scorching_caves, MONSTER, unusualfishmod:prawn, 20, 1, 1
 2947, none, regions_unexplored:scorching_caves, MONSTER, eidolon:zombie_brute, 60, 1, 3
 2948, none, regions_unexplored:scorching_caves, MONSTER, eidolon:wraith, 60, 1, 3
-2949, none, regions_unexplored:scorching_caves, MONSTER, unusualprehistory:encrusted, 10, 1, 2
 2950, none, regions_unexplored:scorching_caves, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 2951, none, regions_unexplored:scorching_caves, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 2952, none, regions_unexplored:scorching_caves, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -3064,7 +3061,6 @@
 3066, none, minecraft:lush_caves, MONSTER, creeperoverhaul:dripstone_creeper, 75, 2, 2
 3067, none, minecraft:lush_caves, MONSTER, eidolon:wraith, 60, 1, 3
 3068, none, minecraft:lush_caves, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
-3069, none, minecraft:lush_caves, MONSTER, unusualprehistory:encrusted, 10, 1, 2
 3070, none, minecraft:lush_caves, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 3071, none, minecraft:lush_caves, CREATURE, eidolon:slimy_slug, 10, 2, 3
 3072, none, minecraft:lush_caves, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
@@ -4342,7 +4338,6 @@
 4344, none, regions_unexplored:redstone_caves, MONSTER, unusualfishmod:prawn, 20, 1, 1
 4345, none, regions_unexplored:redstone_caves, MONSTER, eidolon:zombie_brute, 60, 1, 3
 4346, none, regions_unexplored:redstone_caves, MONSTER, eidolon:wraith, 60, 1, 3
-4347, none, regions_unexplored:redstone_caves, MONSTER, unusualprehistory:encrusted, 10, 1, 2
 4348, none, regions_unexplored:redstone_caves, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 4349, none, regions_unexplored:redstone_caves, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 4350, none, regions_unexplored:redstone_caves, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -4615,7 +4610,6 @@
 4617, none, minecraft:dripstone_caves, MONSTER, creeperoverhaul:dripstone_creeper, 75, 2, 2
 4618, none, minecraft:dripstone_caves, MONSTER, eidolon:wraith, 60, 1, 3
 4619, none, minecraft:dripstone_caves, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
-4620, none, minecraft:dripstone_caves, MONSTER, unusualprehistory:encrusted, 10, 1, 2
 4621, none, minecraft:dripstone_caves, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 4622, none, minecraft:dripstone_caves, MONSTER, earthmobsmod:bouldering_drowned, 20, 4, 4
 4623, none, minecraft:dripstone_caves, MONSTER, earthmobsmod:bouldering_zombie, 20, 4, 4
@@ -4969,7 +4963,6 @@
 4970, none, regions_unexplored:prismachasm, MONSTER, unusualfishmod:prawn, 20, 1, 1
 4971, none, regions_unexplored:prismachasm, MONSTER, eidolon:zombie_brute, 60, 1, 3
 4972, none, regions_unexplored:prismachasm, MONSTER, eidolon:wraith, 60, 1, 3
-4973, none, regions_unexplored:prismachasm, MONSTER, unusualprehistory:encrusted, 10, 1, 2
 4974, none, regions_unexplored:prismachasm, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 4975, none, regions_unexplored:prismachasm, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 4976, none, regions_unexplored:prismachasm, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -5418,7 +5411,6 @@
 5419, none, regions_unexplored:ancient_delta, MONSTER, eidolon:zombie_brute, 60, 1, 3
 5420, none, regions_unexplored:ancient_delta, MONSTER, eidolon:wraith, 60, 1, 3
 5421, none, regions_unexplored:ancient_delta, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
-5422, none, regions_unexplored:ancient_delta, MONSTER, unusualprehistory:encrusted, 10, 1, 2
 5423, none, regions_unexplored:ancient_delta, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 5424, none, regions_unexplored:ancient_delta, CREATURE, eidolon:slimy_slug, 10, 2, 3
 5425, none, regions_unexplored:ancient_delta, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3

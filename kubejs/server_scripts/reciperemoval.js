@@ -84,6 +84,17 @@ ServerEvents.recipes(event => {
         {output: 'moblassos:emerald_lasso'},
         {output: 'moblassos:contract'},
         {output: 'easy_mob_farm:poppy_bouquet'},
+        {output: 'unusualprehistory:encrusted_flask'},
+        {output: 'unusualprehistory:encrusted_organ'},
+        {output: 'unusualprehistory:encrusted_sack'},
+        {output: 'unusualprehistory:encrusted_spawn_egg'},
+        {output: 'galosphere:silver_nugget'},
+        {output: 'galosphere:silver_ingot'},
+        {output: 'galosphere:raw_silver'},
+        {output: 'galosphere:silver_block'},
+        {output: 'galosphere:raw_silver_block'},
+        {output: 'earthmobsmod:ruby_block'},
+        {output: 'ruby_exchange:ruby_ore'},
         //Replaced Recipes
         {output: 'mighty_mail:post_box'},
         {output: 'farmersdelight:wheat_dough'},
@@ -105,6 +116,15 @@ ServerEvents.recipes(event => {
         {id: 'forbidden_arcanus:tyr_chestplate'},
         {id: 'forbidden_arcanus:tyr_leggings'},
         {id: 'forbidden_arcanus:tyr_boots'},
+        {id: 'forbidden_arcanus:draco_arcanus_helmet'},
+        {id: 'forbidden_arcanus:draco_arcanus_chestplate'},
+        {id: 'forbidden_arcanus:draco_arcanus_leggings'},
+        {id: 'forbidden_arcanus:draco_arcanus_boots'},
+        {output: 'unusualprehistory:dna_fridge'}, 
+        {output: 'unusualprehistory:incubator'},
+        {output: 'unusualprehistory:insulator'},
+
+        
     ];
     
       for (const remove of toRemove) {

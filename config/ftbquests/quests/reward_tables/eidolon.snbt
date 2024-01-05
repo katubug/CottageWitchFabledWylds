@@ -1,17 +1,20 @@
 {
 	id: "4F2F51A9DDD45526"
 	loot_size: 3
-	order_index: 30
+	order_index: 27
 	rewards: [
-		{ count: 2, item: "eidolon:silver_ingot", weight: 10.0f }
 		{ item: "eidolon:zombie_heart" }
-		{ item: "eidolon:tattered_cloth" }
+		{ item: "eidolon:tattered_cloth", weight: 4.0f }
 		{ item: "eidolon:wraith_heart" }
-		{ count: 5, item: "eidolon:tallow", weight: 20.0f }
-		{ count: 2, item: "eidolon:merammer_root", weight: 20.0f }
-		{ count: 2, item: "eidolon:avennian_sprig", weight: 20.0f }
-		{ count: 2, item: "eidolon:oanna_bloom", weight: 20.0f }
-		{ count: 2, item: "eidolon:sildrian_seed", weight: 20.0f }
+		{ count: 4, item: "eidolon:tallow", weight: 10.0f }
+		{ item: "eidolon:merammer_root", weight: 5.0f }
+		{ count: 2, item: "eidolon:fungus_sprouts", weight: 10.0f }
+		{ count: 2, item: "eidolon:soul_shard", weight: 4.0f }
+		{ count: 3, item: "eidolon:raw_lead", weight: 10.0f }
+		{ count: 3, item: "eidolon:raw_silver", weight: 15.0f }
+		{ count: 2, item: "eidolon:arcane_gold_nugget", weight: 5.0f }
+		{ item: "eidolon:raven_feather", weight: 9.0f }
+		{ count: 5, item: "eidolon:elder_brick", weight: 10.0f }
 	]
 	title: "Eidolon"
 }

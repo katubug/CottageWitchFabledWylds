@@ -137,6 +137,17 @@ JEIEvents.hideItems(event => {
         'moblassos:emerald_lasso',
         'moblassos:contract',
         'easy_mob_farm:poppy_bouquet',
+        'unusualprehistory:encrusted_flask',
+        'unusualprehistory:encrusted_organ',
+        'unusualprehistory:encrusted_sack',
+        'unusualprehistory:encrusted_spawn_egg',
+        'galosphere:silver_nugget', 
+        'galosphere:silver_ingot', 
+        'galosphere:raw_silver',
+        'galosphere:silver_block',
+        'galosphere:raw_silver_block',
+        'earthmobsmod:ruby_block',
+        
 
     ];
     

@@ -35,7 +35,7 @@
 
 [XP-Module]
 	#The purpose of the xp module is to rework how experience is dropped on a player's death by creating a souls-like xp catalyst instead. Disabling will nullify every feature listed under this module.
-	xpModuleEnabled = true
+	xpModuleEnabled = false
 	#Whether or not players will drop xp despite keepInventory gamerule. Default: true
 	ignoreKeepInventory = true
 	#Whether or not the player who dropped the xp is the only player allow to collect the xp. Default: true

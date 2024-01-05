@@ -62,6 +62,13 @@
   "supplementaries:safe": null,
   "supplementaries:hat_stand": null,
   "tombstone:graves": null,
+  "easy_villagers:villager": null,
+  "easy_villagers:converter": null,
+  "easy_villagers:breeder": null,
+  "reliquary:mortar": null,
+  "reliquary:altar": null,
+  "reliquary:cauldron": null,
+  "reliquary:pedestal": null,
   "pipez:pipe": null,
   "delightful:crop_progress": null,
   "waystones:waystone": null,
@@ -109,12 +116,5 @@
   "jade:registry_name": null,
   "jade:mod_name": null,
   "jade:distance": null,
-  "jade:block_face": null,
-  "easy_villagers:villager": null,
-  "easy_villagers:converter": null,
-  "easy_villagers:breeder": null,
-  "reliquary:mortar": null,
-  "reliquary:altar": null,
-  "reliquary:cauldron": null,
-  "reliquary:pedestal": null
+  "jade:block_face": null
 }

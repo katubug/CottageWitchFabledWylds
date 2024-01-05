@@ -1,2 +1,0 @@
-# The folders (relative to the base game directory) Groovy script mods should be read from.
-folders = ["mods/scripts"]

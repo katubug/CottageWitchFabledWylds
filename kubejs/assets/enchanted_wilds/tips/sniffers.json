@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Witchy Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Sniffers can now be saddled and ridden! You can also give them chests, which they will place their foraged items into."
+    }
+  }

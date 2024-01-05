@@ -11,18 +11,6 @@
 	quests: [
 		{
 			dependencies: ["24BD82C392D6D1E6"]
-			id: "54BE861A17D87684"
-			shape: "hexagon"
-			tasks: [{
-				id: "69C1C9E97A3E304E"
-				item: "forbidden_arcanus:arcane_crystal"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["24BD82C392D6D1E6"]
 			description: [
 				"In &cDark Forest&r biomes, one can find strange, stunted trees known as &bEdelwood&r. These trees have &astrange properties&r."
 				""
@@ -142,7 +130,13 @@
 		}
 		{
 			dependencies: ["24BD82C392D6D1E6"]
-			description: [""]
+			description: [
+				"Your consequences have actions. No. Wait, that's backwards. Your actions have consequences. For example, &aslaying innocent mobs&r will increase your &bCorruption&r, whereas &acaring for them&r will increase your &bAureal&r."
+				""
+				"The higher your &bCorruption&r, the more likely you are to &ahave visions of hostility&r or even &atake damage&r from your instability. You can use your &bSanity Meter&r to measure how much of either effect you currently have."
+				""
+				"To cleanse &bCorruption&r, you can use &bPurifying Soap&r which has been &6exposed to water&r. Additionally, you &again 1 sanity every 5 minutes&r."
+			]
 			id: "0CC652648EABB94A"
 			rewards: [{
 				id: "2233230A8192FB3F"
@@ -155,14 +149,14 @@
 				item: "forbidden_arcanus:sanity_meter"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -5.5d
+			x: -8.5d
+			y: -9.0d
 		}
 		{
 			description: [
-				"The arcane lives within everything; it is ubiquitous and unavoidable. Woven throughout the fabric of reality."
+				"The arcane lives within everything; it is ubiquitous and unavoidable. It is woven throughout the fabric of reality."
 				""
-				"This mod allows the user"
+				"This mod allows the user to tap into that magic by &acrafting powerful items&r and &aperforming functional rituals&r."
 			]
 			id: "24BD82C392D6D1E6"
 			shape: "rsquare"
@@ -414,7 +408,7 @@
 			y: -13.5d
 		}
 		{
-			dependencies: ["15D03A310865D50C"]
+			dependencies: ["5C8E1A4FE8171871"]
 			description: [
 				"Every ritual you execute will require you to &asacrifice certain items&r which need to be &6placed on Darkstone Pedestals&r. Obtaining these Pedestals should be your next step."
 				""
@@ -547,7 +541,14 @@
 		}
 		{
 			dependencies: ["1EC54422333F609F"]
+			description: ["&bDeorum&r is a magical compound similar to &bArcane Gold&r. It can be used to create &aenhanced armor and tools&r, as well as other &aimportant recipes&r."]
 			id: "7F0A9AFBC33149DD"
+			rewards: [{
+				count: 3
+				id: "53B7C59BDB23FF0E"
+				item: "forbidden_arcanus:deorum_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6CB17115E62825C3"
 				item: "forbidden_arcanus:deorum_ingot"
@@ -581,12 +582,20 @@
 		}
 		{
 			dependencies: ["51DBF0FDEA43F6F6"]
+			description: ["&bMundabitur Dust&r is an item which &atransforms other items&r when used in recipes or right clicked on blocks."]
 			id: "1EC54422333F609F"
+			rewards: [{
+				count: 2
+				id: "37D37791C21B59E4"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A1A25B524FD2C1C"
 				item: "forbidden_arcanus:mundabitur_dust"
 				type: "item"
 			}]
+			title: "Mutability through Dust"
 			x: -4.5d
 			y: -10.0d
 		}
@@ -670,7 +679,20 @@
 			y: -12.0d
 		}
 		{
+			dependencies: ["67FE1D56444A359C"]
+			description: [
+				"The ultimate upgrade: the &bEternal Stella&r is meant to keep your gear in fine fettle. When &6right clicked&r, it will &arepair all the gear in your inventory&r."
+				""
+				"However, its real benefit is used as a &bSmithing Table Upgrade&r, which will make one piece of gear &acompletely unbreaking&r for all time."
+			]
 			id: "43D9E749C104844D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "620F7230CA5355F0"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "2CCECADBEF2775D0"
 				item: {
@@ -680,11 +702,37 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -9.0d
+			x: -2.0d
+			y: -7.5d
 		}
 		{
+			dependencies: ["67FE1D56444A359C"]
+			description: [
+				"The &bSmelter Prism&r can be applied via smithing to give gear the &aFiery Modifier&r."
+				""
+				"The fiery modifier can be applied to all tool items (&bPickaxes&r, &bShovels&r, &bAxes&r, &bHoes&r) and will automatically &asmelt all mined blocks&r, if they have a smelting recipe. "
+			]
 			id: "6859CDDA651A97AF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41AF72BF4A6205DB"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					id: "60B01F90FE47450F"
+					item: {
+						Count: 1b
+						id: "nethervinery:blazewine_pinot"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
 				id: "7B1343B65287D48C"
 				item: {
@@ -696,38 +744,232 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -9.5d
+			x: -0.5d
+			y: -8.5d
 		}
 		{
+			dependencies: ["67FE1D56444A359C"]
+			description: ["&dThis item is not currently implemented&r, but you do get a reward for making it!"]
 			id: "22F429E9C46B9426"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CC51CA84F338850"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					id: "3A0D26EEF720A11F"
+					item: "chimes:glass_bells"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
 				id: "2E785E38B534F61E"
 				item: "forbidden_arcanus:whirlwind_prism"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -9.0d
+			x: 0.5d
+			y: -8.5d
 		}
 		{
+			dependencies: ["67FE1D56444A359C"]
+			description: [
+				"The &bSea Prism&r can be applied to gear via the &bSmithing Table&r, and grants the &aAquatic Modifier&r."
+				""
+				"The &bAquatic Modifier&r can only be applied to &bHelmets&r, and grants you the ability to &abreathe underwater indefinitely&r."
+			]
 			id: "0CF29444A90A89B4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B72337AAC611978"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					id: "1510DBA596647A29"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
 				id: "72FDD3C237BAE0E6"
 				item: "forbidden_arcanus:sea_prism"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -10.0d
+			x: 0.0d
+			y: -9.5d
 		}
 		{
+			dependencies: ["67FE1D56444A359C"]
+			description: [
+				"The &bTerrastomp Prism&r can be applied to gear via the &bSmithing Table&r, and grants the &aDemolishing Modifier&r."
+				""
+				"The &ademolishing modifier&r can unlock the true power out of your tools (&bPickaxes&r, &bShovels&r, &bAxes&r, &bHoes&r). Tools with this modifier &awill be able to break a 3x3 area&r."
+			]
 			id: "036E716384231676"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "074B119E2A287E7F"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DEA3C43BB91CAAB"
+					table_id: 6990203354287577879L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
 				id: "245ACC2FCABC762F"
 				item: "forbidden_arcanus:terrastomp_prism"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["24BD82C392D6D1E6"]
+			description: [
+				"&lForbidden \\& Arcanus&r adds several new types of &bore&r."
+				""
+				"The &bArcane Crystal Ore&r can be found from layers -40 to 14. These blocks luminesce, standing out against the darkness. This ore can be &cmost commonly found at layer -13&r."
+				""
+				"The &bRunic Ore&r can be found &cbelow y level 2&r, and drops &bRunes&r."
+				""
+				"&bXpetrified Ore&r drops &bXpetrified Orbs&r and can be found &cbetween layer -6 and 35&r"
+				""
+				"&bStella Arcanum&r can be found &cfrom levels -44 to 42&r, but it's &avery rare&r. Beware, this block is known to be &dvery dangerous when you break it&r, mine it with some safe distance. Drops a Stellarite Piece."
+			]
+			id: "3A3A0F719214E7F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16DC78ABC5E34633"
+				table_id: 2797019701616015075L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					icon: "forbidden_arcanus:stella_arcanum"
+					id: "3AF7B05FF96927B3"
+					observe_type: 0
+					timer: 0L
+					to_observe: "forbidden_arcanus:stella_arcanum"
+					type: "observation"
+				}
+				{
+					icon: "forbidden_arcanus:xpetrified_ore"
+					id: "1A15283787FC5494"
+					observe_type: 0
+					timer: 0L
+					to_observe: "forbidden_arcanus:xpetrified_ore"
+					type: "observation"
+				}
+				{
+					icon: "forbidden_arcanus:arcane_crystal_ore"
+					id: "1AAE89E64E039724"
+					observe_type: 1
+					timer: 0L
+					to_observe: "forbidden_arcanus:arcane_crystal_ores"
+					type: "observation"
+				}
+				{
+					icon: "forbidden_arcanus:runic_stone"
+					id: "23A8A133FB38BCE4"
+					observe_type: 1
+					timer: 0L
+					to_observe: "forbidden_arcanus:runic_stones"
+					type: "observation"
+				}
+			]
+			title: "Find Arcane Ores"
+			x: -7.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["67FE1D56444A359C"]
+			description: [
+				"&bFerromagnetic Mixture&r can be applied via the &bsmithing table&r, and applies the &aMagnetized Modifier&r."
+				""
+				"The &aMagnetized Modifier&r can only be used on &bBoots&r. When boots with this modifier are equipped, the &aitem pick-up range of the player will increase&r by one and a half blocks."
+			]
+			id: "34554B433FD5D820"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2283908DD52C9E76"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					id: "615954FB413E20A9"
+					item: "additionaladditions:mysterious_bundle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "51522F0934258817"
+				item: "forbidden_arcanus:ferrognetic_mixture"
+				type: "item"
+			}]
+			x: -3.0d
 			y: -8.5d
+		}
+		{
+			dependencies: ["2C0E58D8D409F6B6"]
+			description: ["The &bArcane Dragon Egg&r is currently a decorative-only block. However, it looks awesome and you should make one."]
+			id: "0F18C1DE105F2521"
+			rewards: [{
+				id: "57898B693D8EB85C"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C53BA5B9F0405E5"
+				item: "forbidden_arcanus:arcane_dragon_egg"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["15D03A310865D50C"]
+			description: [
+				"The &bBlacksmith's Gavel&r is an important tool to use with the &bHephaestus Forge&r. Aside from being a decent weapon against enemies, it is also &anecessary for rituals&r!"
+				""
+				"Once you have your ritual ready to go, you must &6right click on the &bForge&r with the &bGavel&r to begin the process."
+			]
+			id: "5C8E1A4FE8171871"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1381F4A7CEA593D5"
+				table_id: 2797019701616015075L
+				type: "random"
+			}]
+			tasks: [{
+				id: "504A704BE2690541"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forbidden_arcanus:blacksmith_gavel"
+					}
+				}
+				title: "Any #forbidden_arcanus:blacksmith_gavel"
+				type: "item"
+			}]
+			title: "Use Your Gavel"
+			x: -0.5d
+			y: -11.0d
 		}
 	]
 	title: "Forbidden \\& Arcanus"

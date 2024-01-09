@@ -2735,6 +2735,65 @@
 			x: -0.5d
 			y: 5.5d
 		}
+		{
+			id: "6A66ACC2ABDDB0E6"
+			shape: "octagon"
+			tasks: [
+				{
+					advancement: "candlelight:main/cook_everything_pot"
+					criterion: ""
+					id: "7AB40DBA70E14BEE"
+					type: "advancement"
+				}
+				{
+					advancement: "candlelight:main/cook_everything_vegetable"
+					criterion: ""
+					id: "3C3B11ADC9254AC8"
+					type: "advancement"
+				}
+				{
+					advancement: "candlelight:main/cook_everything_pan"
+					criterion: ""
+					id: "2BC234DC58D4D452"
+					type: "advancement"
+				}
+			]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			description: ["Drink a vial of &bJo's Special Mixture&r. But don't say we didn't warn you."]
+			id: "4FB5E1E2FF403D75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B70743B657CF73B"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "vinery:main/get_drunk"
+				criterion: ""
+				id: "50899B20FED6B460"
+				type: "advancement"
+			}]
+			title: "An Unwise Decision"
+			x: -7.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6A66ACC2ABDDB0E6"]
+			id: "033BD29F71F83261"
+			shape: "octagon"
+			tasks: [{
+				advancement: "candlelight:main/cook_everything"
+				criterion: ""
+				id: "3C2D7531A049EB3C"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
 	]
 	title: "Culinary Arts"
 }

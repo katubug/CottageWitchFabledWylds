@@ -232,7 +232,6 @@ ServerEvents.tags('item', event => {
     )
 
     event.add('forge:largerfish',
-    'aquaculture:tuna',
     'aquaculture:capitaine',
     'aquaculture:arapaima'
     )
@@ -340,13 +339,194 @@ ServerEvents.tags('item', event => {
 
     // Dirt for Compost Recipe
     event.add('forge:dirt',
-    'minecraft:dirt', 'minecraft:coarse_dirt',
+    'minecraft:dirt',
+    'minecraft:coarse_dirt',
     'minecraft:rooted_dirt','minecraft:podzol')
 
     //Magical Knives work with FD
     event.add('farmersdelight:tools/knives',
         'forbidden_arcanus:mystical_dagger',
         'eidolon:athame'
+    )
+
+    //Ambers
+    event.add('forge:amber',
+    'aether:golden_amber',
+    'unusualprehistory:amber_shard',
+    'moresnifferflowers:amber_shard'
+    )
+
+    //Blueberries
+    event.add('forge:fruits/blueberry',
+    'aether:blue_berry'
+    )
+
+    //Salmonberries
+    event.add('forge:fruits/salmonberries',
+    'regions_unexplored:salmonberry'
+    )
+
+    //Tallow
+    event.add('forge:tallow',
+        'delightful:animal_fat'
+    )
+
+    //Fish to breed Tuna with
+    event.add('spawn:tuna_feeds',
+    'aquaculture:atlantic_cod',
+    'aquaculture:blackfish',
+    'aquaculture:pacific_halibut',
+    'aquaculture:atlantic_halibut',
+    'aquaculture:atlantic_herring',
+    'aquaculture:pink_salmon',
+    'aquaculture:pollock',
+    'aquaculture:rainbow_trout',
+    'aquaculture:bayad',
+    'aquaculture:boulti',
+    'aquaculture:capitaine',
+    'aquaculture:synodontis',
+    'aquaculture:smallmouth_bass',
+    'aquaculture:bluegill',
+    'aquaculture:brown_trout',
+    'aquaculture:carp',
+    'aquaculture:catfish',
+    'aquaculture:gar', 
+    'aquaculture:minnow', 
+    'aquaculture:muskellunge',
+    'aquaculture:perch',
+    'aquaculture:arapaima',
+    'aquaculture:piranha',
+    'aquaculture:tambaqui',
+    'aquaculture:red_grouper'
+    )
+
+    event.add('spawn:tuna_tempts',
+    'aquaculture:atlantic_cod',
+    'aquaculture:blackfish',
+    'aquaculture:pacific_halibut',
+    'aquaculture:atlantic_halibut',
+    'aquaculture:atlantic_herring',
+    'aquaculture:pink_salmon',
+    'aquaculture:pollock',
+    'aquaculture:rainbow_trout',
+    'aquaculture:bayad',
+    'aquaculture:boulti',
+    'aquaculture:capitaine',
+    'aquaculture:synodontis',
+    'aquaculture:smallmouth_bass',
+    'aquaculture:bluegill',
+    'aquaculture:brown_trout',
+    'aquaculture:carp',
+    'aquaculture:catfish',
+    'aquaculture:gar', 
+    'aquaculture:minnow', 
+    'aquaculture:muskellunge',
+    'aquaculture:perch',
+    'aquaculture:arapaima',
+    'aquaculture:piranha',
+    'aquaculture:tambaqui',
+    'aquaculture:red_grouper'
+    )
+
+    //Angler fish shiny items
+    event.add('spawn:angler_fish_likes',
+    'minecraft:echo_shard',
+    'regions_unexplored:aster',
+    'regions_unexplored:blue_bioshroom',
+    'regions_unexplored:green_bioshroom',
+    'regions_unexplored:pink_bioshroom',
+    'regions_unexplored:yellow_bioshroom',
+    'regions_unexplored:tall_blue_bioshroom',
+    'regions_unexplored:tall_green_bioshroom',
+    'regions_unexplored:tall_pink_bioshroom',
+    'galosphere:lumiere_shard',
+    'minecraft:gold_ingot',
+    'minecraft:emerald',
+    'minecraft:diamond',
+    'aquaculture:neptunium_ingot',
+    'regions_unexplored:prismarite_cluster',
+    'regions_unexplored:large_prismarite_cluster',
+    'regions_unexplored:hanging_prismarite',
+    'regions_unexplored:redstone_bud',
+    'regions_unexplored:redstone_bulb',
+    'regions_unexplored:pointed_redstone',
+    'waystones:warp_dust',
+    'create:rose_quartz',
+    'create:polished_rose_quartz',
+    'eidolon:arcane_gold_ingot',
+    'forbidden_arcanus:arcane_crystal_dust',
+    'forbidden_arcanus:arcane_crystal_dust_speck',
+    'aether:enchanted_berry',
+    'galosphere:glinted_amethyst_cluster',
+    'galosphere:allurite_cluster',
+    'galosphere:glinted_allurite_cluster',
+    'galosphere:allurite_shard',
+    'minecraft:ender_pearl',
+    'minecraft:amethyst_shard',
+    'regions_unexplored:tall_yellow_bioshroom'
+    )
+
+    event.add('spawn:angler_fish_tempts',
+    'minecraft:echo_shard',
+    'regions_unexplored:aster',
+    'regions_unexplored:blue_bioshroom',
+    'regions_unexplored:green_bioshroom',
+    'regions_unexplored:pink_bioshroom',
+    'regions_unexplored:yellow_bioshroom',
+    'regions_unexplored:tall_blue_bioshroom',
+    'regions_unexplored:tall_green_bioshroom',
+    'regions_unexplored:tall_pink_bioshroom',
+    'galosphere:lumiere_shard',
+    'minecraft:gold_ingot',
+    'minecraft:emerald',
+    'minecraft:diamond',
+    'aquaculture:neptunium_ingot',
+    'regions_unexplored:prismarite_cluster',
+    'regions_unexplored:large_prismarite_cluster',
+    'regions_unexplored:hanging_prismarite',
+    'regions_unexplored:redstone_bud',
+    'regions_unexplored:redstone_bulb',
+    'regions_unexplored:pointed_redstone',
+    'waystones:warp_dust',
+    'create:rose_quartz',
+    'create:polished_rose_quartz',
+    'eidolon:arcane_gold_ingot',
+    'forbidden_arcanus:arcane_crystal_dust',
+    'forbidden_arcanus:arcane_crystal_dust_speck',
+    'aether:enchanted_berry',
+    'galosphere:glinted_amethyst_cluster',
+    'galosphere:allurite_cluster',
+    'galosphere:glinted_allurite_cluster',
+    'galosphere:allurite_shard',
+    'minecraft:ender_pearl',
+    'minecraft:amethyst_shard',
+    'regions_unexplored:tall_yellow_bioshroom'
+    )
+
+    //Jam Tagging
+    event.add('forge:jams',
+    'fruitsdelight:apple_jelly',
+    'fruitsdelight:blueberry_jelly',
+    'fruitsdelight:glowberry_jelly',
+    'fruitsdelight:hamimelon_jelly',
+    'fruitsdelight:melon_jelly',
+    'fruitsdelight:hawberry_jelly',
+    'fruitsdelight:lychee_jelly',
+    'fruitsdelight:mango_jelly',
+    'fruitsdelight:orange_jelly',
+    'fruitsdelight:peach_jelly',
+    'fruitsdelight:pear_jelly',
+    'fruitsdelight:persimmon_jelly',
+    'fruitsdelight:pineapple_jelly',
+    'fruitsdelight:lemon_jelly',
+    'fruitsdelight:cranberry_jelly',
+    'fruitsdelight:mangosteen_jelly',
+    'fruitsdelight:sweetberry_jelly',
+    'fruitsdelight:chorus_jelly',
+    'bakery:strawberry_jam',
+    'bakery:sweetberry_jam',
+    'bakery:glowberry_jam',
+    'bakery:apple_jam'
     )
 
     //Relic Tagging

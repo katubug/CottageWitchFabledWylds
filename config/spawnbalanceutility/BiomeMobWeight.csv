@@ -652,7 +652,6 @@
 652, ocean, minecraft:lukewarm_ocean, WATER_AMBIENT, unusualfishmod:hatchet_fish, 30, 1, 4
 653, ocean, minecraft:lukewarm_ocean, WATER_AMBIENT, unusualfishmod:forkfish, 20, 1, 2
 654, ocean, minecraft:lukewarm_ocean, WATER_AMBIENT, aquaculture:atlantic_herring, 20, 1, 6
-655, ocean, minecraft:lukewarm_ocean, WATER_AMBIENT, aquaculture:tuna, 10, 1, 1
 656, ocean, minecraft:lukewarm_ocean, WATER_AMBIENT, aquaculture:jellyfish, 10, 1, 3
 657, ocean, minecraft:lukewarm_ocean, WATER_AMBIENT, unusualprehistory:scau, 10, 3, 5
 658, ocean, minecraft:lukewarm_ocean, WATER_AMBIENT, unusualfishmod:circus, 30, 1, 1
@@ -1178,7 +1177,6 @@
 1180, ocean, minecraft:frozen_ocean, WATER_AMBIENT, aquaculture:blackfish, 13, 1, 4
 1181, ocean, minecraft:frozen_ocean, WATER_AMBIENT, aquaculture:atlantic_cod, 10, 1, 1
 1182, ocean, minecraft:frozen_ocean, WATER_AMBIENT, aquaculture:atlantic_herring, 20, 1, 6
-1183, ocean, minecraft:frozen_ocean, WATER_AMBIENT, aquaculture:tuna, 10, 1, 1
 1184, ocean, minecraft:frozen_ocean, WATER_AMBIENT, aquaculture:pacific_halibut, 10, 1, 1
 1185, ocean, minecraft:frozen_ocean, WATER_AMBIENT, aquaculture:jellyfish, 10, 1, 3
 1186, ocean, minecraft:frozen_ocean, WATER_AMBIENT, aquaculture:pollock, 10, 1, 2
@@ -1481,7 +1479,6 @@
 1483, ocean, minecraft:warm_ocean, WATER_AMBIENT, unusualfishmod:hatchet_fish, 30, 1, 4
 1484, ocean, minecraft:warm_ocean, WATER_AMBIENT, unusualfishmod:sea_mosquito, 10, 1, 2
 1485, ocean, minecraft:warm_ocean, WATER_AMBIENT, unusualfishmod:duality_damselfish, 10, 2, 2
-1486, ocean, minecraft:warm_ocean, WATER_AMBIENT, aquaculture:tuna, 10, 1, 1
 1487, ocean, minecraft:warm_ocean, WATER_AMBIENT, unusualfishmod:spindlefish, 20, 1, 2
 1488, ocean, minecraft:warm_ocean, WATER_AMBIENT, unusualfishmod:amber_goby, 30, 1, 2
 1489, ocean, minecraft:warm_ocean, WATER_AMBIENT, aquaculture:jellyfish, 10, 1, 3
@@ -1689,7 +1686,6 @@
 1691, ocean, regions_unexplored:rocky_reef, WATER_AMBIENT, aquaculture:atlantic_halibut, 10, 1, 1
 1692, ocean, regions_unexplored:rocky_reef, WATER_AMBIENT, unusualfishmod:hatchet_fish, 30, 1, 4
 1693, ocean, regions_unexplored:rocky_reef, WATER_AMBIENT, aquaculture:atlantic_herring, 20, 1, 6
-1694, ocean, regions_unexplored:rocky_reef, WATER_AMBIENT, aquaculture:tuna, 10, 1, 1
 1695, ocean, regions_unexplored:rocky_reef, WATER_AMBIENT, aquaculture:jellyfish, 10, 1, 3
 1696, ocean, regions_unexplored:rocky_reef, rascals, friendsandfoes:rascal, 10, 1, 1
 1697, none, minecraft:stony_shore, MONSTER, minecraft:spider, 80, 4, 4
@@ -2053,7 +2049,6 @@
 2055, ocean, minecraft:deep_frozen_ocean, WATER_AMBIENT, aquaculture:blackfish, 13, 1, 4
 2056, ocean, minecraft:deep_frozen_ocean, WATER_AMBIENT, aquaculture:atlantic_cod, 10, 1, 1
 2057, ocean, minecraft:deep_frozen_ocean, WATER_AMBIENT, aquaculture:atlantic_herring, 20, 1, 6
-2058, ocean, minecraft:deep_frozen_ocean, WATER_AMBIENT, aquaculture:tuna, 10, 1, 1
 2059, ocean, minecraft:deep_frozen_ocean, WATER_AMBIENT, aquaculture:pacific_halibut, 10, 1, 1
 2060, ocean, minecraft:deep_frozen_ocean, WATER_AMBIENT, aquaculture:jellyfish, 10, 1, 3
 2061, ocean, minecraft:deep_frozen_ocean, WATER_AMBIENT, aquaculture:pollock, 10, 1, 2
@@ -2677,7 +2672,6 @@
 2681, ocean, minecraft:deep_lukewarm_ocean, WATER_AMBIENT, aquaculture:atlantic_halibut, 10, 1, 1
 2682, ocean, minecraft:deep_lukewarm_ocean, WATER_AMBIENT, unusualfishmod:hatchet_fish, 30, 1, 4
 2683, ocean, minecraft:deep_lukewarm_ocean, WATER_AMBIENT, aquaculture:atlantic_herring, 20, 1, 6
-2684, ocean, minecraft:deep_lukewarm_ocean, WATER_AMBIENT, aquaculture:tuna, 10, 1, 1
 2685, ocean, minecraft:deep_lukewarm_ocean, WATER_AMBIENT, unusualfishmod:squoddle, 10, 1, 3
 2686, ocean, minecraft:deep_lukewarm_ocean, WATER_AMBIENT, aquaculture:jellyfish, 10, 1, 3
 2687, ocean, minecraft:deep_lukewarm_ocean, WATER_AMBIENT, spawn:angler_fish, 10, 1, 5
@@ -2712,7 +2706,6 @@
 2716, beach, regions_unexplored:gravel_beach, WATER_AMBIENT, aquaculture:atlantic_halibut, 10, 1, 1
 2717, beach, regions_unexplored:gravel_beach, WATER_AMBIENT, unusualfishmod:hatchet_fish, 30, 1, 4
 2718, beach, regions_unexplored:gravel_beach, WATER_AMBIENT, aquaculture:atlantic_herring, 20, 1, 6
-2719, beach, regions_unexplored:gravel_beach, WATER_AMBIENT, aquaculture:tuna, 10, 1, 1
 2720, beach, regions_unexplored:gravel_beach, WATER_AMBIENT, aquaculture:jellyfish, 10, 1, 3
 2721, beach, regions_unexplored:gravel_beach, rascals, friendsandfoes:rascal, 10, 1, 1
 2722, none, meadow:meadow_clearing, MONSTER, minecraft:spider, 80, 4, 4
@@ -3122,7 +3115,6 @@
 3128, beach, regions_unexplored:grassy_beach, WATER_AMBIENT, aquaculture:atlantic_halibut, 10, 1, 1
 3129, beach, regions_unexplored:grassy_beach, WATER_AMBIENT, unusualfishmod:hatchet_fish, 30, 1, 4
 3130, beach, regions_unexplored:grassy_beach, WATER_AMBIENT, aquaculture:atlantic_herring, 20, 1, 6
-3131, beach, regions_unexplored:grassy_beach, WATER_AMBIENT, aquaculture:tuna, 10, 1, 1
 3132, beach, regions_unexplored:grassy_beach, WATER_AMBIENT, aquaculture:jellyfish, 10, 1, 3
 3133, beach, regions_unexplored:grassy_beach, rascals, friendsandfoes:rascal, 10, 1, 1
 3134, jungle, minecraft:bamboo_jungle, MONSTER, minecraft:spider, 80, 4, 4
@@ -3273,7 +3265,6 @@
 3279, beach, minecraft:snowy_beach, WATER_AMBIENT, unusualfishmod:hatchet_fish, 30, 1, 4
 3280, beach, minecraft:snowy_beach, WATER_AMBIENT, aquaculture:atlantic_herring, 20, 1, 6
 3281, beach, minecraft:snowy_beach, WATER_AMBIENT, aquaculture:pollock, 10, 1, 2
-3282, beach, minecraft:snowy_beach, WATER_AMBIENT, aquaculture:tuna, 10, 1, 1
 3283, beach, minecraft:snowy_beach, WATER_AMBIENT, aquaculture:pacific_halibut, 10, 1, 1
 3284, beach, minecraft:snowy_beach, WATER_AMBIENT, aquaculture:jellyfish, 10, 1, 3
 3285, beach, minecraft:snowy_beach, WATER_AMBIENT, aquaculture:pink_salmon, 10, 1, 2
@@ -3459,7 +3450,6 @@
 3465, ocean, minecraft:ocean, WATER_AMBIENT, unusualfishmod:hatchet_fish, 30, 1, 4
 3466, ocean, minecraft:ocean, WATER_AMBIENT, aquaculture:atlantic_herring, 20, 1, 6
 3467, ocean, minecraft:ocean, WATER_AMBIENT, unusualfishmod:beaked_herring, 15, 1, 8
-3468, ocean, minecraft:ocean, WATER_AMBIENT, aquaculture:tuna, 10, 1, 1
 3469, ocean, minecraft:ocean, WATER_AMBIENT, aquaculture:jellyfish, 10, 1, 3
 3470, ocean, minecraft:ocean, WATER_AMBIENT, unusualfishmod:brick_snail, 30, 1, 2
 3471, ocean, minecraft:ocean, rascals, friendsandfoes:rascal, 10, 1, 1
@@ -3598,7 +3588,6 @@
 3604, ocean, minecraft:cold_ocean, WATER_AMBIENT, aquaculture:blackfish, 13, 1, 4
 3605, ocean, minecraft:cold_ocean, WATER_AMBIENT, aquaculture:atlantic_cod, 10, 1, 1
 3606, ocean, minecraft:cold_ocean, WATER_AMBIENT, aquaculture:atlantic_herring, 20, 1, 6
-3607, ocean, minecraft:cold_ocean, WATER_AMBIENT, aquaculture:tuna, 10, 1, 1
 3608, ocean, minecraft:cold_ocean, WATER_AMBIENT, aquaculture:pacific_halibut, 10, 1, 1
 3609, ocean, minecraft:cold_ocean, WATER_AMBIENT, aquaculture:jellyfish, 10, 1, 3
 3610, ocean, minecraft:cold_ocean, WATER_AMBIENT, aquaculture:pollock, 10, 1, 2
@@ -3890,7 +3879,6 @@
 3896, beach, minecraft:beach, WATER_AMBIENT, aquaculture:atlantic_halibut, 10, 1, 1
 3897, beach, minecraft:beach, WATER_AMBIENT, unusualfishmod:hatchet_fish, 30, 1, 4
 3898, beach, minecraft:beach, WATER_AMBIENT, aquaculture:atlantic_herring, 20, 1, 6
-3899, beach, minecraft:beach, WATER_AMBIENT, aquaculture:tuna, 10, 1, 1
 3900, beach, minecraft:beach, WATER_AMBIENT, aquaculture:jellyfish, 10, 1, 3
 3901, beach, minecraft:beach, WATER_AMBIENT, unusualfishmod:aero_mono, 30, 3, 5
 3902, beach, minecraft:beach, rascals, friendsandfoes:rascal, 10, 1, 1
@@ -3938,7 +3926,6 @@
 3944, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, aquaculture:blackfish, 13, 1, 4
 3945, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, aquaculture:atlantic_cod, 10, 1, 1
 3946, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, aquaculture:atlantic_herring, 20, 1, 6
-3947, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, aquaculture:tuna, 10, 1, 1
 3948, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, aquaculture:pacific_halibut, 10, 1, 1
 3949, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, aquaculture:jellyfish, 10, 1, 3
 3950, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, aquaculture:pollock, 10, 1, 2
@@ -4119,7 +4106,6 @@
 4125, ocean, regions_unexplored:hyacinth_deeps, WATER_AMBIENT, aquaculture:blackfish, 13, 1, 4
 4126, ocean, regions_unexplored:hyacinth_deeps, WATER_AMBIENT, aquaculture:atlantic_cod, 10, 1, 1
 4127, ocean, regions_unexplored:hyacinth_deeps, WATER_AMBIENT, aquaculture:atlantic_herring, 20, 1, 6
-4128, ocean, regions_unexplored:hyacinth_deeps, WATER_AMBIENT, aquaculture:tuna, 10, 1, 1
 4129, ocean, regions_unexplored:hyacinth_deeps, WATER_AMBIENT, aquaculture:pacific_halibut, 10, 1, 1
 4130, ocean, regions_unexplored:hyacinth_deeps, WATER_AMBIENT, aquaculture:jellyfish, 10, 1, 3
 4131, ocean, regions_unexplored:hyacinth_deeps, WATER_AMBIENT, aquaculture:pollock, 10, 1, 2
@@ -5389,7 +5375,6 @@
 5397, ocean, minecraft:deep_ocean, WATER_AMBIENT, unusualfishmod:hatchet_fish, 30, 1, 4
 5398, ocean, minecraft:deep_ocean, WATER_AMBIENT, unusualfishmod:sea_spider, 15, 1, 4
 5399, ocean, minecraft:deep_ocean, WATER_AMBIENT, aquaculture:atlantic_herring, 20, 1, 6
-5400, ocean, minecraft:deep_ocean, WATER_AMBIENT, aquaculture:tuna, 10, 1, 1
 5401, ocean, minecraft:deep_ocean, WATER_AMBIENT, unusualfishmod:demon_herring, 20, 2, 8
 5402, ocean, minecraft:deep_ocean, WATER_AMBIENT, aquaculture:jellyfish, 10, 1, 3
 5403, ocean, minecraft:deep_ocean, WATER_AMBIENT, spawn:angler_fish, 10, 1, 5

@@ -7,8 +7,14 @@ StartupEvents.registry('item', event => {
     event.create('ticket')
 
   })
+  
 
   ItemEvents.modification(event => {
+
+    event.modify('unusualprehistory:zuloagae', item => {
+      item.burnTime = 100
+    })
+
     event.modify('forbidden_arcanus:draco_arcanus_sword', item => {
       item.attackDamage = 9
       item.fireResistant = true

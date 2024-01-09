@@ -189,7 +189,11 @@
 			y: -2.5d
 		}
 		{
-			description: ["Discover &cThe Catacombs&r, which are absolutely &acrawling with undead&r, but may have hidden treasures inside!"]
+			description: [
+				"Discover &cThe Catacombs&r*, which are absolutely &acrawling with undead&r, but may have hidden treasures inside!"
+				""
+				"*Not to be confused with &cThe Catacombs&r, which are an identically named structure from &lEidolon&r."
+			]
 			id: "3533886FEAAAE291"
 			rewards: [{
 				id: "474AE26E907CEE13"
@@ -519,7 +523,7 @@
 			description: [
 				"The &bCatacombs&r are a winding underground Labyrinth, fraught with &bspawners&r and &ethe Undead&r. However, if you are brave enough to traverse one, &awhat treasures might you find&r?"
 				""
-				"Here's a tip: &amove the tiles&r."
+				"Here's a tip: &dmove the tiles&r."
 			]
 			id: "4E1F419E6DF416FA"
 			rewards: [{

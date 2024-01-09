@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "type": "aether:enchanting",
+  "category": "enchanting_food",
+  "cookingtime": 250,
+  "experience": 0.35,
+  "ingredient": {
+    "tag": "forge:fruits/blueberry"
+  },
+  "result": "aether:enchanted_berry"
+}

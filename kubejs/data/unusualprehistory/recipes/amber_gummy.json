@@ -1,0 +1,19 @@
+{
+  "replace":true,
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:amber",
+      "count": 2
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "unusualprehistory:amber_gummy"
+  }
+}

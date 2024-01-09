@@ -96,6 +96,10 @@ ServerEvents.recipes(event => {
         {output: 'earthmobsmod:ruby_block'},
         {output: 'ruby_exchange:ruby_ore'},
         {output: 'functionalstorage:armory_cabinet'},
+        {output: 'delightful:jelly_bottle'},
+        {output: 'delightful:glow_jelly_bottle'},
+        {input: 'aquaculture:tuna'},
+        {output: 'delightful:blueberry_sack'},
         //Replaced Recipes
         {output: 'mighty_mail:post_box'},
         {output: 'farmersdelight:wheat_dough'},

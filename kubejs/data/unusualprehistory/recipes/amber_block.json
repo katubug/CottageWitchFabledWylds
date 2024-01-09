@@ -1,0 +1,18 @@
+{
+  "replace":true,
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:amber"
+    }
+  },
+  "result": {
+    "item": "unusualprehistory:amber_block",
+    "count": 4
+  }
+}

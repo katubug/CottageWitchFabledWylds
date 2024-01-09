@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "the_bumblezone"
+	group: ""
+	id: "5AD825CF5F17FD1D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The inner world of &eBees&r is a deep one. They possess incredible intelligence, problem solving, and even have a cultural hierarchy. They the only insects which have been observed to &adance for fun&r! They represent innovation, creativity, wisdom, community, and love. &bHoney&r is often used in rituals, especially for sweetening spells."
+				""
+				"If you wish to delve deeper into the lives of these magical creatures, find a &bBee Nest&r and &6throw an &bEnder Pearl&r at it!"
+			]
+			id: "51F84C9F2CA50DA7"
+			rewards: [{
+				id: "5E29A28C09705A8F"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				icon: "minecraft:bee_nest"
+				id: "6D90ED97D4448F28"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:bee_nest"
+				type: "observation"
+			}]
+			title: "Find a Bee's Nest"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["51F84C9F2CA50DA7"]
+			description: [
+				"Once you &6enter the dimension&r, you may be struck by its majesty. Confounded by its splendor! Enchanted by its inhabitants! And... maybe wondering how you get back home."
+				""
+				"To &aexit the Bumblezone&r, you can either dig &cdown past y level zero&r or &cup above 7 level 255&r. You can also &6use /home&r or &6use this &bWarp Scroll&r to go to a &bWaypoint&r."
+				""
+				"You can also &ause a &bMap&r to help your exploration!"
+				""
+				"The &cBumblezone&r contains 8 biomes: &cHive Wall&r, &cHive Pillar&r, &cSugar Water Floor&r, &cCrystal Canyon&r, &cPollinated Fields&r, &cPollinated Pillar&r, &cFloral Meadow&r, and &cHowling Constructs&r. These are distributed &aboth vertically and horizontally&r, so take care if using a &bNature's Compass&r."
+				""
+				"Generally, Hive Wall Biome creates the flat walls of the dimension. Hive Pillar biome creates the large support columns that upholds the space. Sugar Water Floor takes up the rest of the space with low land and filled with Sugar Water. The other biomes such as Crystal Canyon, Pollinated Fields, Floral Meadow, and Howling Constructs can be found scattered throughout the dimension, so start exploring!"
+				""
+				"Within the dimension, &eBees&r spawn frequently, but you can also uncommonly find &dHoney Slimes&r, and even more rarely, a &eBeehemoth&r. In &cFloral Meadows&r, you can meet &eRootmin&r!"
+			]
+			id: "1F8B3B9C1641187E"
+			rewards: [
+				{
+					id: "3421A8D3711173EB"
+					item: "waystones:warp_scroll"
+					type: "item"
+				}
+				{
+					id: "2ABEC5AC6BE551ED"
+					item: "minecraft:map"
+					type: "item"
+				}
+			]
+			subtitle: "home of the humble bumble"
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: "minecraft:honeycomb"
+				id: "028884B8F7A7F5A3"
+				type: "dimension"
+			}]
+			title: "Enter the Bumblezone"
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	title: "The Bumblezone"
+}

@@ -1,0 +1,19 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aether_redux:oats"
+    },
+    {
+      "item": "aether_redux:oats"
+    },
+    {
+      "tag": "forge:fruits/blueberry"
+    }
+  ],
+  "result": {
+    "item": "aether_redux:oat_muffin"
+  }
+}

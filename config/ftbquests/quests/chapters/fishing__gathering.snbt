@@ -1143,11 +1143,6 @@
 					item: "aquaculture:red_grouper"
 					type: "item"
 				}
-				{
-					id: "7AEEFE6C6A45E9BF"
-					item: "aquaculture:tuna"
-					type: "item"
-				}
 			]
 			title: "Catch Saltwater Fish"
 			x: 4.0d

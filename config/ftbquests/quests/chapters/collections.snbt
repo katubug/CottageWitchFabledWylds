@@ -1258,8 +1258,8 @@
 				title: "Ultimate Flower Enthusiast"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			description: ["Breed 2 of each vanilla animal in order to obtain this reward!"]
@@ -1346,6 +1346,157 @@
 			title: "Sweet Tooth"
 			x: 1.5d
 			y: 1.0d
+		}
+		{
+			description: [
+				"What's a witch without &bCandles&r? Well, still pretty great. But not as well-lit!"
+				""
+				"Show your dedication to your craft by making &aone of each type of candle&r."
+				""
+				"Turn the page for more &oreal life information&r about what each color of candle stands for!"
+				""
+				"{@pagebreak}"
+				"All information comes from &oforestofwisdom.com.au&r:"
+				""
+				"&fWhite&r - &7Attracting, Purifying, Cleansing, Protection, Balancing, Clarity, Divination, Grounding, Guidance, Healing, Higher Self, Hope, Innocence, Optimism, Peace, Spirituality, Truth, Will Power and Workplace Magic.&r"
+				""
+				"&o&7White is also thought of as an all purpose candle. White candles can generally be used to replace other colours when they are not available.&r"
+				""
+				"&0Black&r - &7Absorbing, Acceptance, Anger, The Afterlife, Banishing, Binding, Challenges, Determination, Death, Endings, Justice, Loss, Release, Break Hexes, Security, Grief, Negativity, Magic, Patience, Persistence, Rebirth, Karma, Secrets, Spirituality, Strength and Self Control.&r"
+				""
+				"&4Red&r - &7Courage, Assertiveness, Business, Creativity, Energy, Desire, Love, Loyalty, Motivation, Passion, Romance, Strength, Power, Action, Survival, Change and Overcoming obstacles.&r"
+				""
+				"&eYellow&r - &7Action, Communication, Friendships, Learning new skills, Loans and Credit, Business, Happiness, Intellect, Inspiration, Intuition, Knowledge, Wisdom, Pleasure, Stimulation and Travel.&r"
+				""
+				"&dPink&r - &7Acceptance, Affection, Beauty, Compassion, Reconciliation, Children, Healing Abuse, Fidelity, Family, Friendship, Femininity, Kindness, Love, Marriage, Nurturing, Passion, Sensuality and Love.&r"
+				""
+				"&2Green&r - &7Abundance, Acceptance, Action, Agriculture, Beauty, Change, Creativity, Family, Fertility, Harmony, Healing, Luck, Longevity, Environment, Nurturing, Partnerships, Peace and Prosperity.&r"
+				""
+				"&5Purple&r - &7Astrology, Authority, Enlightenment, Spiritual Development, Psychic Protection, Emotions, Imagination, Influence, Independence, Power, Spirituality, Truth, Wisdom, Writing,  Addiction and Overcoming Fears.&r"
+				""
+				"&6Orange&r - &7Abundance, Adaptability, Ambition, Celebration, Confidence, Creativity, Courage, Discipline, Vitality (Energy), Independence, Freedom, Goals, Justice, Money, Positivity, Pleasure, Reconciliation, Stimulation, Strength and Travel.&r"
+				""
+				"&bBlue&r - &7Honesty, Trust, Communication, Dreamwork, Sleep, Mental obstacles, Wisdom, Pregnancy, Leadership, Justice, Career, Marriage, Interviews and Study.&r"
+				""
+				"Brown - &7Material matters, Endurance, Hard Work, Animals, Balance, Courage, Grounding, Finding lost objects, Stability, Material Protection.&r"
+				""
+				"Silver - &7Awareness, Healing, Intuition, Divination, Money, Psychic Powers, Purification, Hidden Potential, Fertility, Feminine Energy, Stability, Success, Sea, Moon and Star Magic and The Goddess.&r"
+				""
+				"Gold - &7Abundance, Fame and Fortune, Ambitions, Money, Positivity, Happiness, Creativity, Divination, Power, Influence, Luxury, Masculine Energy, Sun Magick and The God.&r"
+			]
+			id: "0191F41344B7250D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43914AF24173E53D"
+					table_id: 1465218687757294420L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DB6DBE89F9D92F9"
+					table_id: 1465218687757294420L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B1A5ED949B876CF"
+					table_id: 1465218687757294420L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "s-candle-ous"
+			tasks: [
+				{
+					id: "022372E038E7680B"
+					item: "minecraft:candle"
+					type: "item"
+				}
+				{
+					id: "4D48BBB8E9120645"
+					item: "minecraft:white_candle"
+					type: "item"
+				}
+				{
+					id: "1E4F8343D0851534"
+					item: "minecraft:light_gray_candle"
+					type: "item"
+				}
+				{
+					id: "019EA117E6A9B328"
+					item: "minecraft:gray_candle"
+					type: "item"
+				}
+				{
+					id: "35500AD21909D229"
+					item: "minecraft:black_candle"
+					type: "item"
+				}
+				{
+					id: "7C91AF037A6E61DD"
+					item: "minecraft:brown_candle"
+					type: "item"
+				}
+				{
+					id: "1A88D0AF8A835DFC"
+					item: "minecraft:red_candle"
+					type: "item"
+				}
+				{
+					id: "55F12273A12CB092"
+					item: "minecraft:orange_candle"
+					type: "item"
+				}
+				{
+					id: "40A0EEFFC8CE2E18"
+					item: "minecraft:yellow_candle"
+					type: "item"
+				}
+				{
+					id: "536E7FC65EF4CA49"
+					item: "minecraft:pink_candle"
+					type: "item"
+				}
+				{
+					id: "1D96D7BC1BF8C3FA"
+					item: "minecraft:magenta_candle"
+					type: "item"
+				}
+				{
+					id: "7E6D031B1ED5068A"
+					item: "minecraft:purple_candle"
+					type: "item"
+				}
+				{
+					id: "76958EC26D9D81C3"
+					item: "minecraft:blue_candle"
+					type: "item"
+				}
+				{
+					id: "6247FDD515F116D6"
+					item: "minecraft:light_blue_candle"
+					type: "item"
+				}
+				{
+					id: "40057A4399D028F9"
+					item: "minecraft:cyan_candle"
+					type: "item"
+				}
+				{
+					id: "026057263B4F4DC8"
+					item: "minecraft:green_candle"
+					type: "item"
+				}
+				{
+					id: "3FD6E3E45C92039A"
+					item: "minecraft:lime_candle"
+					type: "item"
+				}
+			]
+			title: "A Rainbow of Candles"
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 	title: "Collections"

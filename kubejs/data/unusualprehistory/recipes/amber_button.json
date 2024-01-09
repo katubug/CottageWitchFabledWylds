@@ -1,0 +1,12 @@
+{
+  "replace":true,
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:amber"
+    }
+  ],
+  "result": {
+    "item": "unusualprehistory:amber_button"
+  }
+}

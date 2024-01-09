@@ -1,0 +1,26 @@
+{
+  "replace":true,
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "delightful:enabled",
+          "value": "salmonberry_pips"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "tag": "forge:fruits/salmonberries"
+          }
+        ],
+        "result": {
+          "item": "delightful:salmonberry_pips"
+        }
+      }
+    }
+  ]
+}

@@ -148,7 +148,12 @@ JEIEvents.hideItems(event => {
         'galosphere:raw_silver_block',
         'earthmobsmod:ruby_block',
         'functionalstorage:armory_cabinet',
-        
+        'delightful:jelly_bottle',
+        'delightful:glow_jelly_bottle',
+        'aquaculture:tuna',
+        'aquaculture:tuna_bucket',
+        'delightful:blueberry_sack',
+        'regions_unexplored:salmonberry',
 
     ];
     

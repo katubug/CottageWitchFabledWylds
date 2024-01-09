@@ -987,8 +987,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Snow Golem"
-			x: -10.5d
-			y: -3.5d
+			x: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -1137,8 +1137,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Goat"
-			x: 9.0d
-			y: -5.5d
+			x: 7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -1191,38 +1191,6 @@
 		}
 		{
 			description: [
-				"&eSnails&r are some of the most delightful creatures."
-				""
-				"They're quite fond of &bSweet Berries&r, so if you find two - perhaps you could breed them?"
-			]
-			id: "55CAFBB909F98ED8"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "361AB2E20ED1793D"
-					table_id: 8096229411196850122L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "000F827C9B034A30"
-					table_id: 7049021818423122779L
-					type: "choice"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "it's far too perilous"
-			tasks: [{
-				id: "6AE89277C3F147A4"
-				item: "spawn:snail_eggs"
-				type: "item"
-			}]
-			title: "The Search for the Holy Snail"
-			x: -9.0d
-			y: -5.5d
-		}
-		{
-			description: [
 				"Why not travel a while by Pig? It may not be fast, or efficient, or even particularly fun."
 				""
 				"No, that's it, that's the whole sentence."
@@ -1261,7 +1229,7 @@
 				}
 			]
 			title: "Traveling Piggyback"
-			x: -1.0d
+			x: -1.5d
 			y: -3.0d
 		}
 		{
@@ -1624,6 +1592,7 @@
 				type: "item"
 			}]
 			shape: "heart"
+			subtitle: "in search of the holy snail"
 			tasks: [{
 				icon: "spawn:snail_shell"
 				id: "15AF02F3CCD91E50"
@@ -1633,8 +1602,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Snail"
-			x: 7.0d
-			y: -5.5d
+			x: 6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["407BBCE05BCE9039"]
@@ -1703,7 +1672,7 @@
 			}]
 			title: "Catching Butterflies"
 			x: 10.5d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6C7E1C6C0E2C8C64"]
@@ -1726,7 +1695,370 @@
 				type: "advancement"
 			}]
 			x: 11.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"The &bTuna&r can be found swimming around in &cregular&r and &cCold Oceans&r, both deep and normal variants."
+				""
+				"Unlike most fish, they are &abreedable&r! They eat many types of fish, including &bCod&r. Once two of them breed, they will lay a &bTuna Egg&r, which can be bucketed and transported as you desire."
+			]
+			id: "4CFBA6535773FE66"
+			rewards: [{
+				count: 5
+				id: "7CBD9A0B16235E83"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "a breedable fish"
+			tasks: [{
+				icon: "spawn:tuna_chunk"
+				id: "7071EAE34E9A7483"
+				observe_type: 5
+				timer: 0L
+				to_observe: "spawn:tuna"
+				type: "observation"
+			}]
+			title: "Meet the Tuna"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The &eAngler Fish&r is a creature which spawns &anear the bottom&r of &cDeep Oceans&r. You will be able to find them by their &asignature glow&r."
+				""
+				"They can be &acaptured in a bucket&r, and it may be very beneficial to have one - &6feed one something shiny&r (&bgems, gold, glowing things&r) to be granted &a5 minutes of &bNight Vision&r!"
+				""
+				"Keep in mind that &eAngler fish&r cannot withstand the pressure of being on land and will promptly deflate when exposed to air."
+			]
+			id: "56497A1094C28B5F"
+			rewards: [{
+				count: 4
+				id: "657F9980DF37A974"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "a light in the darkness"
+			tasks: [{
+				icon: "spawn:angler_fish"
+				id: "4C434405B56764B9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "spawn:angler_fish"
+				type: "observation"
+			}]
+			title: "Meet the Angler Fish"
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&eHamsters&r are adorable, skittish creatures which can be found in &cPlains&r and &cMeadows&r, but most commonly in &cSunflower Fields&r. "
+				""
+				"Hamsters can be tamed with &bSunflower Seeds&r, a new item which drops from &bSunflowers&r. Once tamed, they can be told to sit and follow like other pets! However, beware for they are &avery territorial&r and will &aattack other &eHamsters&r that you have tamed!"
+				""
+				"&eHamsters&r actively collect items and put them in their cheek pouches! Once their inventory is full their cheeks will get visually larger. Adorable. Players can &6open up their Hamster's cheek pouches&r to use as storage. This is totally normal and okay."
+			]
+			id: "104737784582F996"
+			rewards: [{
+				count: 5
+				id: "41B36E8FE27BCEEA"
+				item: "spawn:sunflower_seeds"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "cute but territorial"
+			tasks: [{
+				icon: "spawn:hamster_spawn_egg"
+				id: "2A7BA15246361925"
+				observe_type: 5
+				timer: 0L
+				to_observe: "spawn:hamster"
+				type: "observation"
+			}]
+			title: "Meet the Hamster"
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"01396882DABC0EFE"
+				"249323B78D8EB666"
+			]
+			description: [
+				"&eAnts&r are industrious little creatures that make their homes in &bAnthills&r. They can be found in &cSavannahs&r, &cPlains&r, and &cForests&r."
+				""
+				"They are &aneutral&r, but if you anger one, the &awhole hive will fight back&r!"
+				""
+				"&eAnts&r work like &eBees&r, and can live in &bAnthills&r (spawn naturally) or &bAnt Farms&r (craftable). They also &acollect resources from Dead Bushes and Tall Grass&r and bring them back to their home."
+				""
+				"&bAnthills&r that have the resource level of three &arandomly turn blocks in a 3x3 radius below them into rotten versions of themselves&r, consuming all three of the resource levels. "
+				""
+				"&bLogs&r become &bRotten Logs&r and &bDirt-like blocks&r become &bAnt Mounds&r. "
+			]
+			id: "7FE2C3E2F1129E9D"
+			shape: "heart"
+			tasks: [{
+				icon: "spawn:ant_spawn_egg"
+				id: "058408120C0D089B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "spawn:ant"
+				type: "observation"
+			}]
+			title: "The Noble Ant"
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7FE2C3E2F1129E9D"]
+			description: [
+				"The &cAnt Gardens&r biome is the easiest place to find &bAnthills&r. They are filled with &bRotten Leaves&r, &bCoarse Dirt&r, and spawn &bRotten Trees&r, which provide a new type of wood!"
+				""
+				"&bRotten Logs&r are not strong enough to craft signs and build boats, but are easier to break than regular wood. You can also obtain a new block by clicking &bRotten Planks&r with an axe: &bCracked Rotten Planks&r! These produce &ascary creaking noises&r when walked on."
+			]
+			id: "03EE3579CD0561AA"
+			rewards: [{
+				count: 5
+				id: "13DC62B76053D496"
+				item: "spawn:rotten_log"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "spawn:ant_gardens"
+				icon: "spawn:anthill"
+				id: "22774E00D20302F3"
+				type: "biome"
+			}]
+			title: "Visit the Ant Gardens Biome"
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&bAnt Mounds&r are a new &abrushable block&r!"
+				""
+				"Don't destroy them, as this will &aanger nearby ants&r. Instead, &6brush them&r to find unique and rare treasures!"
+			]
+			id: "249323B78D8EB666"
+			rewards: [{
+				id: "5E7D92DF4421CB64"
+				item: {
+					Count: 1b
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "brusha brusha"
+			tasks: [{
+				icon: "spawn:ant_mound"
+				id: "54647C47BCBF2921"
+				observe_type: 0
+				timer: 0L
+				to_observe: "spawn:ant_mound"
+				type: "observation"
+			}]
+			title: "Encounter an Ant Mound"
+			x: -9.0d
 			y: -5.5d
+		}
+		{
+			description: [
+				"&bAnt Pupae&r can be found rarely by &6Brushing&r an &bAnt Mound&r."
+				""
+				"When &6clicked on the ground&r, they spawn baby &eTamed Ants&r, which behave like dogs! They will &afollow you, attack what you attack&r, and can have their abdomens &adyed&r."
+				""
+				"Beware that Adult &eTamed Ants&r will attack &aother Tamed Ants with different colored abdomens&r!"
+			]
+			id: "01396882DABC0EFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "504393997A3462BB"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "the next generation"
+			tasks: [{
+				id: "1BD89BDB862ED0EE"
+				item: "spawn:ant_pupa"
+				type: "item"
+			}]
+			title: "Obtain an Ant Pupa"
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["01396882DABC0EFE"]
+			description: ["&bAnt Farms&r function similarly to &bBeehives&r, in that they provide a place for &eAnts&r to live and work! They can be crafted with &bAnt Pupae&r, and do not require &asilk touch&r to be moved."]
+			id: "5229FDBCDE70576C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37AB9A4033DB9A08"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			subtitle: "aliens optional"
+			tasks: [{
+				id: "2EC9D9E09A8677B0"
+				item: "spawn:ant_farm"
+				type: "item"
+			}]
+			title: "Make an Ant Farm"
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["03EE3579CD0561AA"]
+			description: [
+				"&bAnt Mounts&r (no, not mounds, mounts!) are a new dungeon structure found in &cAnt Gardens&r."
+				""
+				"They have 4 possible variations and are &aFULL of Ants and Ant Mounds&r."
+				""
+				"To navigate through one, &6brush the Ant Mounds&r and &6dig the &bPacked Mud&r to get to other chambers. &dDon't hit the ants or break &bMounds&r or &bAnthills&r! This will cause the &aAnts to anger and attack you&r."
+				""
+				"Inside these mounts you can find two unique &bSherds&r and even a new &bMusic Disc&r!"
+			]
+			id: "3558EAA43C9F9F2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31CB06573F1B9630"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			subtitle: "no you cannot mount the ants"
+			tasks: [{
+				icon: "spawn:anthill"
+				id: "2C68CCC05BBD9D00"
+				structure: "spawn:ant_mount"
+				type: "structure"
+			}]
+			title: "Discover the Ant Mount"
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&eWraptors&r are large, dignified avians which live in &cWarped Forests&r. They are &aneutral beasts&r, and are sometimes kept as livestock due to their &abeautiful &bFeathers&r, which can be &aclipped off with &bShears&r. However, the wild ones can &aturn hostile if completely shorn&r."
+				""
+				"Their natural enemy is the &eWither Skeleton&r, which they will attack on sight. They have been &aknown to collect the skulls of these foes&r and keep them in their &cCoops&r."
+				""
+				"You can &abreed &eWraptors&r in the &cNether&r with &bShroomlights&r, after which they will &alay an egg&r with an &aextremely tough shell&r. These eggs do not hatch naturally, you must &6repeatedly drop an &bAnvil&r on them in order to crack them."
+				""
+				"&bCracked Wraptor Eggs&r, before they hatch, can be &6harvested with a &bHoe&r to gain a food item which grants &bWither Resistance&r."
+			]
+			id: "2652207D3AFA6E7C"
+			rewards: [{
+				count: 5
+				id: "76EDB17C6680BE26"
+				item: "minecraft:shroomlight"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: "species:wraptor_egg"
+				id: "3B1BA667CFFB3B7A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "species:wraptor"
+				type: "observation"
+			}]
+			title: "Meet the Wraptor"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&eBirts&r are an unusual species which bear a passing resemblence to birds. The stalk-like antenna atop their heads allows them to communicate remotely! They live in &ahollowed-out Birch Trees&r, and each &bNest&r can contain up to 3 &eBirts&r, much like a &bBeehive&r."
+				""
+				"At night they &areturn to their nests&r to &alay eggs&r, which can be collected."
+				""
+				"&bBirt Eggs&r can be thrown like Chicken Eggs to &aspawn new Birts&r, or can be used to &6throw at enemies&r, which will cause a brief stun (Birted), which immobilizes your foe."
+				""
+				"You can also use them to craft a &aunique &bMusic Disc!&r"
+			]
+			id: "1EF0463BA62E3EB7"
+			rewards: [{
+				count: 3
+				id: "2781712D9FB0829D"
+				item: "minecraft:disc_fragment_5"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "next you'll meet the ernie"
+			tasks: [{
+				icon: "species:birt_egg"
+				id: "59D9E5FA138B99D7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "species:birt"
+				type: "observation"
+			}]
+			title: "Meet the Birt"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&aLimpets&r are bipedal, subterranean mollusks with a rather deranged appearance. These peaceful creatures are &asought after for their ores&r, which grow in formations on their shells."
+				""
+				"One can &6break off the ore&r by &achasing down the &eLimpet&r and &6whacking it with a &bPickaxe&r. However, &eLimpets&r have learned to fear pickaxes, and will &aretreat when attacked&r, making them somewhat frustrating prey. Aside from pickaxes, they &dcannot be damaged by most weapons&r."
+				""
+				"One can use &bSilk Touch&r to &apartially preserve the Limpet's shell&r when harvesting them. The ore drops are also affected by &bFortune&r."
+			]
+			id: "176AD15DC753D7A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02E2B845987E278E"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "heart"
+			subtitle: "das limpet???"
+			tasks: [{
+				icon: "species:limpet_spawn_egg"
+				id: "2981560A91E4B6AE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "species:limpet"
+				type: "observation"
+			}]
+			title: "Meet the Limpet"
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&eRoombugs&r are flattish fellows which can be found in &cSavannahs&r and &cBadlands&r biomes."
+				""
+				"Roombugs are delightful, drowsy arthropods that can be &6tamed with Honeycombs&r and &6healed using Bottles of Honey&r. Tamed Roombugs can be &aridden by the player&r or commanded to sit down, during which they may loudly doze off to sleep."
+				""
+				"Sleeping roombugs can be &amounted by entities&r, and can then move around with mounted entities on their back. &6Shift + Right Click&r allows the player to &aforcefully dismount entities&r that are riding a &eroombug&r. This introduces a quick, convenient way to relocate entities. "
+			]
+			id: "520598DFD36F43BC"
+			rewards: [{
+				count: 5
+				id: "4EFE4B901D437293"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: "species:roombug_spawn_egg"
+				id: "150EE6A7230EF58A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "species:roombug"
+				type: "observation"
+			}]
+			title: "Meet the Roombug"
+			x: -9.0d
+			y: -4.0d
 		}
 	]
 	title: "Wildlife"

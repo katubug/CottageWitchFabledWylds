@@ -24,7 +24,9 @@
 		{
 			description: [
 				"You've obtained some &bseeds&r, congratulations! The first step of becoming a successful farmer is to have something to plant."
+				""
 				"As a reward, try this &bRich Soil&r. It can be crafted from &bOrganic Compost&r, and is great for planting crops on!"
+				""
 				"It will &aperiodically grant a growth boost&r to crops (when it's provided with water) and it &acannot be trampled&r. It &acan also be used to grow &bMushroom Colonies&r in complete darkness."
 			]
 			id: "4930ECD60EA9ED8D"
@@ -387,11 +389,6 @@
 			id: "2186A6F69ADBE795"
 			rewards: [
 				{
-					id: "2504FA7EFE4F83CE"
-					item: "hexerei:gold_rings"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "679B96B27A170259"
 					table_id: 8808494820591225409L
@@ -603,6 +600,7 @@
 			dependencies: ["02F91E51E86F71F6"]
 			description: [
 				"Much like its browner brother, &bRich Soul Soil&r is formed of &bSoil Compost&r that has been &aleft adjacent to Lava&r."
+				""
 				"You can use it to grow &bNether Crops&r more quickly!"
 			]
 			id: "60445E736AE3B5B4"
@@ -675,9 +673,9 @@
 			id: "77E1FEDE586A487C"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "655EEA38807AA427"
-				table_id: 5161092699925703455L
-				type: "loot"
+				id: "6E0961718E2E2E27"
+				table_id: 8808494820591225409L
+				type: "random"
 			}]
 			shape: "hexagon"
 			tasks: [

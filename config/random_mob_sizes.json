@@ -1,8 +1,13 @@
 {
 	"keep_scaling_on_conversion": true,
-	"minecraft:bat": 0.75,
-	"minecraft:chicken": {
+	"minecraft:sheep": {
 		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"minecraft:bat": 0.75,
+	"minecraft:cow": {
+		"type": "uniform",
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
 	},
@@ -11,18 +16,13 @@
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
 	},
-	"minecraft:sheep": {
+	"minecraft:chicken": {
 		"type": "gaussian",
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
 	},
 	"minecraft:pig": {
 		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"minecraft:cow": {
-		"type": "uniform",
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
 	}

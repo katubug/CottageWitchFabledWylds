@@ -1,0 +1,10 @@
+{
+  "replace":true,
+  "type": "deep_aether:poison_recipe",
+  "ingredient": {
+    "tag": "forge:fruits/blueberry"
+  },
+  "result": {
+    "item": "aether:enchanted_berry"
+  }
+}

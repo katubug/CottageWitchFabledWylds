@@ -1,0 +1,25 @@
+{
+    "name":"joshie:village/ocean/roads",
+    "fallback": "minecraft:empty",
+    "elements": 
+    [
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "joshie:village/ocean/terminators/terminator_1",
+                "projection": "rigid",
+                "processors": "minecraft:empty" 
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "joshie:village/ocean/terminators/terminator_1",
+                "projection": "rigid",
+                "processors": "minecraft:empty" 
+            }
+        }
+    ]
+}

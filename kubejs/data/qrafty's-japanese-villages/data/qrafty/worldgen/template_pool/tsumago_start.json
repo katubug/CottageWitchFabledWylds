@@ -1,0 +1,15 @@
+{
+  "name": "qrafty:tsumago/room/tsumago_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "qrafty:tsumago/small_room/small_room_2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

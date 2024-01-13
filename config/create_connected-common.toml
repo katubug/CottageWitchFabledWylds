@@ -21,4 +21,5 @@
 	brass_gearbox = true
 	item_silo = true
 	sequenced_pulse_generator = true
+	linked_transmitter = true
 

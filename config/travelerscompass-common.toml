@@ -11,14 +11,6 @@
 	#How often experience will be spent for using the compass?
 	#Range: > 1
 	xp_drain_rate = 270
-	#Prevents players from searching for blocks.
-	disable_block_search = false
-	#Prevents players from searching containers (chests, furnaces, etc.) based on their contents.
-	disable_container_search = false
-	#Prevents players from searching mobs based on their drops or Spawn Eggs.
-	disable_mob_search = false
-	#Disable interaction with the JEI panel.
-	disable_jei_compatibility = false
 	#Block search radius (in blocks). Large values may result in lag issues.
 	#Range: > 1
 	blocks_search_radius = 25
@@ -40,4 +32,27 @@
 	disable_mob_spawner_search = false
 	#Prevents players from searching entities based on their inventories (Minecarts).
 	disable_mob_inventory_search = false
+	#Prevents players from searching for blocks.
+	disable_block_search = false
+	#Prevents players from searching containers (chests, furnaces, etc.) based on their contents.
+	disable_container_search = false
+	#Prevents players from searching mobs based on their drops or Spawn Eggs.
+	disable_mob_search = false
+	#Disable interaction with the JEI panel.
+	disable_jei_compatibility = false
+	#Setting the value to true will make the compass search for all objects except those specified in the list.
+	#Setting it to false will make the compass search only for objects listed in the list.
+	black_list_filter_type = true
+	#Items and blocks in this list will be filtered based on the filtering mode set above.
+	#Example: ["minecraft.diamond_block", "minecraft.carrot", "twilightforest.cicada"]
+	filter_by_names = []
+	#Items and blocks in this list will be filtered based on their tags.
+	#Example: ["forge:stone"]
+	filter_by_tags = []
+	#Items and blocks in this list will be filtered based on their Mod Name.
+	#Example: ["alexscaves", "ae2", "minecraft"]
+	filter_by_mods = []
+	#Entities in this list will be filtered based on their names.
+	#Example: ["entity.minecraft.trader_llama", "entity.mowziesmobs.foliaath"]
+	filter_entity = []
 

@@ -205,7 +205,14 @@
 			subtitle: "Don't let it call your Cooking Pot black."
 			tasks: [{
 				id: "622600E3F1AD966D"
-				item: "herbalbrews:tea_kettle"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:kettles"
+					}
+				}
+				title: "Any #forge:kettles"
 				type: "item"
 			}]
 			title: "Obtain a Kettle"
@@ -620,7 +627,7 @@
 			}]
 			title: "Obtain a Cutting Board"
 			x: -13.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
@@ -1240,8 +1247,11 @@
 		{
 			description: [
 				"Did you know that you can &aautomate your cooking with &lCreate&r? You can!"
+				""
 				"Right click the &bCooking Guide&r onto a &bBlaze Burner&r to &6create a Blaze Stove&r."
+				""
 				"Hold \"w\" to &6ponder&r the &bCooking Guide&r for more information."
+				""
 				"Be sure that the &bCooking Guide&r is outside of your &bAkashic Tome&r! &dThe book will be consumed&r by this process. Check the &atutorial quests&r for info on removing a book from the &bAkashic Tome&r."
 			]
 			id: "1C7D5C2C8C201E83"
@@ -2793,6 +2803,40 @@
 			}]
 			x: -1.0d
 			y: -6.0d
+		}
+		{
+			description: [
+				"How you eat is almost as important as what you eat! For example, food is far more satisfying when eaten off of a &bTable Set&r. Place down these 3 items on a surface, and then &6right click your meal onto the &bplate&r"
+				""
+				"Then you can &6right click to eat&r, and you'll get &agreater saturation&r than if you'd eaten it with your fingers (you mongrel)."
+			]
+			id: "723C5BE92D3B2177"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BEDB2215CF38F54"
+				table_id: 8096229411196850122L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "149F6345F6566A63"
+					item: "candlelight:table_set"
+					type: "item"
+				}
+				{
+					id: "4078CE01E5FE45F8"
+					item: "candlelight:napkin"
+					type: "item"
+				}
+				{
+					id: "3D70553D07947553"
+					item: "candlelight:glass"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -8.0d
 		}
 	]
 	title: "Culinary Arts"

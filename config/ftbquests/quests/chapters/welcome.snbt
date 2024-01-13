@@ -17,8 +17,8 @@
 			image: "enchanted_wilds:textures/questui/logo.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 0.0d
-			y: -5.0d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			click: "https://www.akliz.net/cottagewitch"
@@ -41,8 +41,8 @@
 			image: "enchanted_wilds:textures/questui/questkey.png"
 			rotation: 0.0d
 			width: 11.5d
-			x: 5.0d
-			y: 9.5d
+			x: 6.0d
+			y: -3.5d
 		}
 		{
 			click: ""
@@ -220,19 +220,25 @@
 			can_repeat: true
 			description: [
 				"Would you like a Mushroom Hat? Cool! Click the box above."
+				""
 				"Be careful, because if you place it on the ground &dit will turn into a pumpkin&r. And it doesn't even need to be midnight."
 			]
 			id: "3DFB7EF14F053582"
 			rewards: [{
-				command: "/give @p minecraft:carved_pumpkin{CustomModelData:1}"
+				command: "/give @p carved_pumpkin{CustomModelData:1,display:{Name:'[{\"text\":\"Mushroom Hat\",\"italic\":false,\"color\":\"yellow\"}]',Lore:['[{\"text\":\"A sweet lil mushroom hat.\",\"italic\":false}]']}} 1"
+				elevate_perms: true
 				icon: {
 					Count: 1b
 					id: "minecraft:carved_pumpkin"
 					tag: {
 						CustomModelData: 1
+						display: {
+							Lore: ["[{\"text\":\"A sweet lil mushroom hat.\",\"italic\":false}]"]
+							Name: "[{\"text\":\"Mushroom Hat\",\"italic\":false,\"color\":\"yellow\"}]"
+						}
 					}
 				}
-				id: "34D0D294831901C4"
+				id: "66564731E9B2D42D"
 				type: "command"
 			}]
 			tasks: [{
@@ -439,15 +445,17 @@
 		}
 		{
 			description: [
-				"If you want your base to stay active even when you're not there, you want &achunk forceloading&r."
+				"If you want your base to stay active even when you're not there, you want &achunk loading&r."
 				""
-				"&6Press the '&r key (apostrophe) to access the &bOpen Parties and Claims&r menu. This will allow you to claim and/or forceload &athe chunk you're in&r. You can also do this from your &dMap&r."
+				"Open your inventory and look at the top left of your screen. The &amap icon&r will lead you to the &aFTB Chunks&r screen."
 				""
-				"{image:cottagewitch:textures/openparties.png width:150 height:180 align:1}"
+				"{image:enchanted_wilds:textures/questimages/ftbmenu.png width:200 height:150 align:1}"
 				""
-				"Forceloading a chunk will &aensure that your base stays loaded when you're away&r. This is very hard on performance though, so do this &dsparingly&r!"
+				"Choose &bClaimed Chunks&r and &6left click&r on a chunk to claim it for your own. To unclaim, &bright click&r it. To &aload the chunk when you're not in it&r, &6shift and left click the claimed chunk&r. You can unload it by holding &6shift and right clicking&r."
 				""
-				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Party as an Ally&r."
+				"{image:enchanted_wilds:textures/questimages/claimchunks.png width:200 height:120 align:1}"
+				""
+				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Team as an Ally&r."
 			]
 			id: "26D8EAD9D892805E"
 			min_width: 350
@@ -471,19 +479,15 @@
 		{
 			dependencies: ["26D8EAD9D892805E"]
 			description: [
-				"&lOpen Parties and Claims&r allows you to add other players to your party, which can &aallow access to your claimed chunks&r."
+				"FTB Teams allows you to add other players to your party, which can allow you to &ashare quest progress&r if desired, and also &aallow access to your claimed chunks&r."
 				""
-				"You can create a party by typing &d/openpac-parties create&r. You can &achange all party settings&r in the main apostrophe menu. There are a ton of options to control griefing, protection, and access."
+				"The Teams screen is accessible in the &ctop left of your inventory&r. From there, you can &acreate a party&r. You can invite others if you want to share quest progress, otherwise you can simply add other players as allies via the &bManage Allies&r screen."
 				""
-				"You can add a player as an &aAlly&r if you don't want to be on the same team. Type &d/openpac-parties ally add [username]&r."
+				"{image:enchanted_wilds:textures/questimages/ftbmenu.png width:200 height:150 align:1}"
 				""
-				"{image:cottagewitch:textures/allyadd.png width:200 height:50 align:1}"
+				"{image:enchanted_wilds:textures/questimages/createaparty.png width:100 height:75 align:1 fit:true}"
 				""
-				"There are TWO Parties mods in this modpack, due to reasons beyond the packmaker's control. :( I apologize for the confusion."
-				""
-				"&lFTB Teams&r parties allow you to &ashare quest progress&r but do not affect claims."
-				""
-				"&lOpen Parties&r parties allow you to &agrant acces to share claims&r, but do not affect quest progress."
+				"{image:enchanted_wilds:textures/questimages/manageallies.png width:200 height:150 align:1}"
 			]
 			id: "20F9C02AF5CBE665"
 			rewards: [
@@ -511,11 +515,11 @@
 			description: [
 				"You might be wondering where all the quests are, when your screen looks like this:"
 				""
-				"{image:cottagewitch:textures/questmenu.png width:100 height:70 align:1 fit:true}"
+				"{image:enchanted_wilds:textures/questimages/questmenu.png width:300 height:200 align:1}"
 				""
 				"See that &aarrow on the left bar&r? &6Hovering over that&r will show you all the categories."
 				""
-				"{image:cottagewitch:textures/questmenu2.png width:100 height:70 align:1 fit:true}"
+				"{image:enchanted_wilds:textures/questimages/questmenu2.png width:300 height:200 align:1}"
 				""
 				"Be sure to &6click the Pin in the upper right&r to keep this sidebar open permanently!"
 			]
@@ -660,6 +664,66 @@
 			title: "Doling Death to Others"
 			x: -2.0d
 			y: 10.0d
+		}
+		{
+			description: ["Would you like an adorable &bScarecrow&r to look over your fields? Well look no further! Simply claim this quest reward, &6place down the &bItem Frame&r on the ground (it will be invisible) and &6display your &bScarecrow&r."]
+			id: "2E1F1E4415C20577"
+			rewards: [
+				{
+					id: "11D206DBB7A76FD6"
+					item: {
+						Count: 1b
+						id: "minecraft:carved_pumpkin"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Scarecrow\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1046A9750580CC7C"
+					item: "minecraft:item_frame"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48FE16D6A1E00A6D"
+				title: "Yes I want a Scarecrow!"
+				type: "checkmark"
+			}]
+			title: "Do You Wanna Build a Scarecrow?"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"In this world, witches have an uncanny ability to &6transform their shape&r into that of another creature. This form, known as &bFamiliar Form&r, can be most any creature (&dexcept bosses&r) that the witch has had &atime to study&r."
+				""
+				"In order to study a creature, &6press and hold ] while looking at it&r. You will feel a slight tingling, and then once you have completed your analysis, you will get a message that your second form has been assigned."
+				""
+				"You can shift back and forth at will by using the &6\\\\ key&r. If you wish to change your &bFamiliar Form&r, simply &astudy another beast&r."
+				""
+				"Be aware that certain creatures will grant benefits or detriments. You may have &aincreased or decreased health&r, gain &aspecial abilities&r, or &abe unable to breathe air&r."
+				""
+				"&dAs a warning, transforming into an &lAether&r Moa will cause significant FPS drops&r."
+			]
+			id: "4A5B69E21CC64F2E"
+			rewards: [{
+				id: "76D34F4F496773BD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "49E02AF0BD8F9289"
+				title: "I understand"
+				type: "checkmark"
+			}]
+			title: "Familiar Forms"
+			x: 4.5d
+			y: 5.0d
 		}
 	]
 	title: "Welcome"

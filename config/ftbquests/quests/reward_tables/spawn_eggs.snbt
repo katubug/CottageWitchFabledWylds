@@ -18,6 +18,7 @@
 		{ item: "friendsandfoes:moobloom_spawn_egg" }
 		{ item: "friendsandfoes:glare_spawn_egg" }
 		{ item: "minecraft:allay_spawn_egg" }
+		{ item: "the_bumblezone:rootmin_spawn_egg" }
 	]
 	title: "Spawn Eggs"
 }

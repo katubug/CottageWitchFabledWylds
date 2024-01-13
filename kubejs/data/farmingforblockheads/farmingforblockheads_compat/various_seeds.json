@@ -1,0 +1,104 @@
+{
+    "modId": "minecraft",
+    "group": {
+      "name": "Various Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        {
+            "output": "fruitsdelight:lemon_seeds"
+          },
+          
+          {
+            "output": "fruitsdelight:hamimelon_seeds"
+          },
+          
+          {
+            "output": "bakery:strawberry_seeds"
+          },
+          
+          {
+            "output": "bakery:oat_seeds"
+          },
+          
+          {
+            "output": "nethervinery:crimson_grape_seeds",
+            "payment": {
+                "item": "minecraft:blaze_powder",
+                "count": 1
+              }
+          },
+          
+          {
+            "output": "nethervinery:warped_grape_seeds",
+            "payment": {
+                "item": "minecraft:blaze_powder",
+                "count": 1
+              }
+          },
+          
+          {
+            "output": "vinery:red_grape_seeds"
+          },
+          
+          {
+            "output": "vinery:white_grape_seeds"
+          },
+          
+          {
+            "output": "hauntedharvest:kernels"
+          },
+          
+          {
+            "output": "vinery:savanna_grape_seeds_white"
+          },
+          
+          {
+            "output": "vinery:taiga_grape_seeds_red"
+          },
+          
+          {
+            "output": "vinery:taiga_grape_seeds_white"
+          },
+          
+          {
+            "output": "vinery:jungle_grape_seeds_red"
+          },
+          
+          {
+            "output": "vinery:jungle_grape_seeds_white"
+          },
+          
+          {
+            "output": "spawn:sunflower_seeds"
+          },
+          
+          {
+            "output": "deep_aether:squash_seeds",
+            "payment": {
+                "item": "deep_aether:skyjade",
+                "count": 1
+              }
+          },
+          
+          {
+            "output": "deep_aether:golden_grass_seeds",
+            "payment": {
+                "item": "deep_aether:skyjade",
+                "count": 2
+              }
+          },
+          
+          {
+            "output": "delightful:salmonberry_pips"
+          },
+          
+          {
+            "output": "vinery:savanna_grape_seeds_red"
+        }
+    ]
+  }

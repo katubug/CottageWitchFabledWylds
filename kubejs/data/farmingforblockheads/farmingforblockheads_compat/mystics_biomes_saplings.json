@@ -1,0 +1,35 @@
+{
+    "modId": "mysticsbiomes",
+    "group": {
+      "name": "Mystic's Biomes Saplings",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+      {
+        "output": "mysticsbiomes:strawberry_sapling"
+          },
+    {
+            "output": "mysticsbiomes:pink_cherry_blossom_sapling"
+          },
+    {
+            "output": "mysticsbiomes:white_cherry_blossom_sapling"
+          },
+    {
+            "output": "mysticsbiomes:maple_sapling"
+          },
+    {
+            "output": "mysticsbiomes:orange_maple_sapling"
+          },
+    {
+            "output": "mysticsbiomes:yellow_maple_sapling"
+          },
+    {
+            "output": "mysticsbiomes:jacaranda_sapling"
+          }
+    ]
+  }
+  

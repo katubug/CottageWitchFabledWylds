@@ -1,0 +1,35 @@
+{
+    "modId": "minecraft",
+    "group": {
+      "name": "Magical Saplings",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+        {
+            "output": "forbidden_arcanus:aurum_sapling",
+            "payment": {
+                "item": "forbidden_arcanus:arcane_crystal",
+                "count": 4
+              }
+          },
+          {
+            "output": "forbidden_arcanus:growing_edelwood",
+            "payment": {
+                "item": "forbidden_arcanus:arcane_crystal",
+                "count": 4
+              }
+          },
+    {
+            "output": "eidolon:illwood_sapling",
+            "payment": {
+                "item": "eidolon:arcane_gold_ingot",
+                "count": 4
+              }
+      }
+    ]
+  }
+  

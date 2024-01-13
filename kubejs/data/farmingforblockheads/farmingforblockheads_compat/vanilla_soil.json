@@ -1,0 +1,44 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Vanilla Soil",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:grass_block",
+      "payment": {
+        "item": "minecraft:diamond",
+        "count": 1
+      }
+    },
+    {
+      "output": "minecraft:podzol"
+    },
+	{
+      "output": "minecraft:mycelium",
+      "payment": {
+        "item": "minecraft:diamond",
+        "count": 4
+      }
+    },
+	{
+      "output": "minecraft:warped_nylium",
+      "payment": {
+        "item": "minecraft:blaze_powder",
+        "count": 2
+      }
+    },
+	{
+      "output": "minecraft:crimson_nylium",
+      "payment": {
+        "item": "minecraft:blaze_powder",
+        "count": 2
+      }
+    }
+  ]
+}

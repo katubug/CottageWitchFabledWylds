@@ -1,0 +1,44 @@
+{
+    "modId": "fruitsdelight",
+    "group": {
+      "name": "Fruit's Delight Saplings",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:diamond"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+        {
+            "output": "fruitsdelight:pineapple_sapling"
+          },
+    {
+            "output": "fruitsdelight:mangosteen_sapling"
+          },
+    {
+            "output": "fruitsdelight:apple_sapling"
+          },
+    {
+            "output": "fruitsdelight:orange_sapling"
+          },
+    {
+            "output": "fruitsdelight:peach_sapling"
+          },
+    {
+            "output": "fruitsdelight:persimmon_sapling"
+          },
+    {
+            "output": "fruitsdelight:mango_sapling"
+          },
+    {
+            "output": "fruitsdelight:lychee_sapling"
+          },
+    {
+            "output": "fruitsdelight:hawberry_sapling"
+          },
+    {
+            "output": "fruitsdelight:pear_sapling"
+    }
+    ]
+  }
+  

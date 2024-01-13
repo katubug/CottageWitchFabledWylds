@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "A": {
+        "item": "minecraft:white_wool"
+      },
+      "B": {
+        "tag": "forge:string"
+      }
+    },
+    "pattern": [
+      "A A",
+      "BBB"
+    ],
+    "result": {
+      "item": "witchywearables:cat_ears"
+    }
+  }

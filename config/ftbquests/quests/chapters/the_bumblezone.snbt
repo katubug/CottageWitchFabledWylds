@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "the_bumblezone"
 	group: ""
+	icon: "minecraft:honeycomb"
 	id: "5AD825CF5F17FD1D"
 	order_index: 0
 	quest_links: [ ]
@@ -72,6 +73,623 @@
 			title: "Enter the Bumblezone"
 			x: -1.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["1F8B3B9C1641187E"]
+			description: [
+				"&bSugar Water&r is a substance commonly found in the &cSugar Water Floor&r biome of the &bBumblezone&r. You can &6bottle it&r and then use those bottles to &6feed Bees&r or &bHoneycomb Brood Blocks&r. When doing the latter, it &afeeds the growing pupa&r and will eventually &aspawn a baby &eBee&r."
+				""
+				"When doing the former, you can possibly get the &aProtection of the Hive&r effect!"
+			]
+			id: "6C3861D0B545A88F"
+			shape: "hexagon"
+			tasks: [{
+				id: "3DF907434FE2ECAB"
+				item: "the_bumblezone:sugar_water_bottle"
+				type: "item"
+			}]
+			title: "Obtain Sugar Water"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F8B3B9C1641187E"]
+			description: [
+				"Oops! You've garnered yourself the &dWrath of the Hive&r, a condition which makes &aall nearby bees furious&r. They will attack you, and any non-bee creatures nearby."
+				""
+				"It turns out, &eBees&r don't like it when you steal their hard-earned &bHoney&r, or &aattempting to harm them&r. The following actions will anger the hive:"
+				""
+				"- Damaging any &eBee&r or their &eQueen&r."
+				"- Breaking translucent &bHoney Blocks&r."
+				"- Using Glass Bottles on &bFilled Porous Honeycomb blocks&r."
+				"- Destroying a &bHoneycomb Brood Block&r without &aSilk Touch&r."
+				"- Entering a &cCell Maze&r."
+				""
+				"How can you avoid this negative effect? Well, you can &aingratiate yourself to the hive&r by &6feeding sweets to &eBees&r. This will sometimes grant you &bProtection of the Hive&r, which will cause Bees to come to your aid in battle, and provides a &done time forgiveness&r when doing any of the above actions."
+				""
+				"- &bSugar Water Bottles&r have a 7% chance of granting &bProtection of the Hive&r."
+				"- &bHoney Bottles&r have a 30% chance"
+				"- Feeding a bee a &bHoney Bucket&r will give an 80% chance, as well as putting nearby Bees into &alove mode&r, and fully heal the targeted bee. If the targeted bee is a baby, it has a chance of &agrowing up immediately&r."
+				"- &bRoyal Jelly&r - either bottle or bucket - will fully heal the &eBee&r, age up a Baby one, and gives a 100% chance of &bProtection of the Hive&r."
+			]
+			id: "4D77214933327DFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "696F9109B8862B26"
+				table_id: 5651126569320430640L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:stingless_bee_helmet_1"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "57EC0384FCCDB245"
+				nbt: {
+					ActiveEffects: [{
+						"forge:id": "the_bumblezone:wrath_of_the_hive"
+					}]
+				}
+				title: "Anger the Hive"
+				type: "questsadditions:playernbt"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F8B3B9C1641187E"]
+			description: [
+				"There are two types of &bHoney Compass&r."
+				""
+				"The first, and most common one, will help you to locate the &cCell Maze&r, a &aloot filled dungeon&r."
+				""
+				"The second is found within the &cCell Maze&r, and it will help you locate the &cThrone Room&r!"
+			]
+			id: "0ADE58E9E0DFD059"
+			rewards: [{
+				count: 3
+				id: "578436146F12C99E"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DA350B7B461B3AC"
+				item: {
+					Count: 1b
+					id: "the_bumblezone:honey_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Obtain a Honey Compass"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0ADE58E9E0DFD059"]
+			description: [
+				"The &cCell Maze&r is a structure which is filled with &aunique loot&r such as &bBee Armor&r, and will also give you something to help lead you to &aThe Queen&r. These mazes are normally located at &csea level&r."
+				""
+				"Entering the Maze without &bProtection of the Hive&r or having consumed the &bEssence of Bees&r (an endgame item) will give you &bWrath of the Hive&r, so be careful! Make sure to bring plenty of &asweet things&r to feed to &eBees&r and &bBrood Blocks&r!"
+			]
+			id: "2602582F440361DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "214FA81E595BDC51"
+				table_id: 5651126569320430640L
+				type: "loot"
+			}]
+			tasks: [{
+				icon: "the_bumblezone:honey_cocoon"
+				id: "665D0A61F133F52F"
+				structure: "the_bumblezone:cell_maze"
+				type: "structure"
+			}]
+			title: "Find the Cell Maze"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2602582F440361DB"]
+			description: [
+				"The &bHoney Compass&r you just got is a special one - it will point you &atoward a &cThrone Pillar&r, where the &eQueen Bee&r can be found!"
+				""
+				"Make sure you are &aon your best bee-haviour."
+			]
+			id: "4482909B2A137E38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42E532F9A15AAFF9"
+				table_id: 5651126569320430640L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "the_bumblezone:tools/obtain_throne_honey_compass"
+				criterion: ""
+				id: "22B27A878D9B8BD1"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4482909B2A137E38"]
+			description: [
+				"You have met the regal &eQueen Bee&r! What an honor. As it turns out, the &eQueen&r loves &ato trade&r! You can try trading random items with her, and see what you may get in return! Items can be &6dropped in front of her&r or you can &6right click her while holding them&r."
+				""
+				"If you don't feel like experimenting - In &lJEI&r you can see a list of &aQueen Bee Trades&r. Find the &bQueen Bee Spawn Egg&r in JEI and &6right click it&r to view all trades."
+				""
+				"Upon the first successful trade, you will be given &aThe Queen's Desires&r advancement line, which gives a &bRoyal Jelly Bottle&r reward for each advancement completed. After completing the entire advancement line, you get the &bEssence of the Bees&r item!"
+				""
+				"For more information on trading, please see the next page."
+				""
+				"{@pagebreak}"
+				"The &eBee Queen&r will sometimes pick one tradable item as a &bBonus Trade&r, and tell nearby players that she &awants that item especially, for the next 20 minutes&r. If the player trades that item with the queen, they get &a3 times the reward and xp&r!"
+				""
+				"They can do this up to &a24 times&r before the Queen is satisfied and the &aBonus Trade is depleted until the 20 minutes runs out&r. Then the Queen picks a new item for Bonus Trading!"
+				""
+				"You can &astill trade other items with the Queen&r for normal amount of rewards at any time even when the Queen is not asking for that item."
+				""
+				"On &acertain days of the year&r, the Bonus Trade system will turn off and the &eBee Queen&r will ask for specific items to do &aspecial trades just for those days&r! You can still do normal trades with other items during this time. These &dspecial hidden trades do not show up in &lJEI&r."
+			]
+			id: "4DFEEDE1DAACD8B7"
+			rewards: [
+				{
+					count: 5
+					id: "38211C5C1B7094C0"
+					item: "minecraft:honey_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46031815AD60F620"
+					table_id: 5651126569320430640L
+					type: "random"
+				}
+			]
+			subtitle: "not quite beyonce"
+			tasks: [{
+				icon: "nameless_trinkets:gods_crown"
+				id: "09DF288B961701B8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "the_bumblezone:bee_queen"
+				type: "observation"
+			}]
+			title: "An Audience with the Queen"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4DFEEDE1DAACD8B7"]
+			description: [
+				"The &bEssence of the Bees&r is acquired by &acompleting the &bQueen's Desire&r advancement line, which is unlocked after &atrading with her&r for the first time."
+				""
+				"It is a consumable item which &agives you pleasant pheremones&r, soothing nearby &eBees&r. You gain the following &dpermanent bonuses&r:"
+				""
+				"- Actions which previously activated &bWrath of the Hive&r will no longer do so."
+				"- Entering the &cThrone Pillar&r will no longer grant &bMining Fatigue&r."
+				"- Entering &bHoney Fluid&r will grant Regenerative effect."
+				"- Entering &bRoyal Jelly Fluid&r will grant a short lived Beenergized effect and stronger Regenerative effect."
+				"- &bBeehive/Bee Nests&r can be mined, &bhoney&r taken by bottle, or sheared for &bhoneycombs&r without angering the bees. No campfire needed!"
+				"- &eHoney Slime&r will not get angry at you for taking its honey."
+				"- Standing on &bLuminescent Wax&r will start granting beneficial effects instead of negative ones."
+				"- Allows usage of endgame Bumblezone &bEssence&r items. Their abilities are now usable by the player."
+				""
+				"Additionally, new &bHoney Compasses&r pointing towards &cSempiternal Sanctums&r will begin showing up in &cBumblezone Loot&r."
+			]
+			id: "635FE9332FFCE4A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "148F7621921D62B2"
+				table_id: 1465218687757294420L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "71DD9BC15B81F902"
+				item: "the_bumblezone:essence_of_the_bees"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0ADE58E9E0DFD059"]
+			id: "394A179160EB4AE8"
+			rewards: [
+				{
+					id: "6D08D28EFD2D4982"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 10
+					id: "4F7A8CFF28114CF1"
+					item: "the_bumblezone:bee_bread"
+					type: "item"
+				}
+			]
+			subtitle: "What a majestic set of armor worn by the bee warriors. While not very powerful, it is a very nice looking armor."
+			tasks: [
+				{
+					id: "27A36C84442BD4A7"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/helmets"
+						}
+					}
+					title: "Any #the_bumblezone:armors/helmets"
+					type: "item"
+				}
+				{
+					id: "1E4B0AAE235A44EB"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/chestplates"
+						}
+					}
+					title: "Any #the_bumblezone:armors/chestplates"
+					type: "item"
+				}
+				{
+					id: "7A026460FAE4A947"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/leggings"
+						}
+					}
+					title: "Any #the_bumblezone:armors/leggings"
+					type: "item"
+				}
+				{
+					id: "7474B92AA308F8FD"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/boots"
+						}
+					}
+					title: "Any #the_bumblezone:armors/boots"
+					type: "item"
+				}
+			]
+			title: "The Bee Armor"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0ADE58E9E0DFD059"]
+			id: "1ACFAAF917E5016A"
+			rewards: [
+				{
+					id: "3E977BE907EFAC07"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 10
+					id: "7DC3F1D7635BDB43"
+					item: "the_bumblezone:bee_bread"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "119C263D70857316"
+					item: "the_bumblezone:bee_stinger"
+					type: "item"
+				}
+				{
+					id: "4BCAF18A0B87E5F7"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:stinger_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49FE029CAD2D437C"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:crystal_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73D16FF74DB5B2C9"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:honey_crystal_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bee Weaponry"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["649CD989B90CED8A"]
+			description: [
+				"The Purple &cSempiternal Sanctum&r grants a chance at the &bEssence of Knowing&r."
+				""
+				"Holding this item in offhand will highlight mobs and outline certain block entities near you! Allowing you to see what monster is nearby or hidden chests or suspicious blocks!"
+				""
+				"It will also tell you the name of any structure you are in!"
+				""
+				"It has 1200 use before it is depleted and needs 15 minutes to recharge by being in the inventory of a player that had consumed Essence of the Bees in the past."
+			]
+			id: "7B8261F4787E6EA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1209F3D90F72505F"
+				table_id: 5651126569320430640L
+				type: "random"
+			}]
+			subtitle: "edit me"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_knowing"
+					tag: {
+						abilityUseRemaining: 1200
+					}
+				}
+				id: "21800782215F1EBF"
+				structure: "the_bumblezone:sempiternal_sanctum_purple"
+				title: "Find the Sempirternal Sanctum Purple"
+				type: "structure"
+			}]
+			title: "Sempiternal Sanctum: Purple"
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["649CD989B90CED8A"]
+			description: [
+				"The White &cSempiternal Sanctum&r grants a chance at the &bEssence of Continuity&r."
+				""
+				"Holding this item in offhand will make dying not kill you and instead teleport you back to your respawn point with all health restored, hunger bar filled, neutral and negative status effects removed, and fire removed. Will work in hardcore worlds too!"
+				""
+				"It only has 1 use before it is depleted and needs 40 minutes to recharge by being in the inventory of a player that had consumed Essence of the Bees in the past. Upon use, it will also set cooldown on all other Essence of Continuity that player has as well due to how powerful this item is."
+				""
+				"Upon prevention of death, the item will also give you a Written Book with details of where you were and how you almost died."
+			]
+			id: "42C94ED483CD4AB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DB437232958BB78"
+				table_id: 5651126569320430640L
+				type: "random"
+			}]
+			subtitle: "edit me"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_continuity"
+					tag: {
+						abilityUseRemaining: 1
+					}
+				}
+				id: "24ADA1FE7305C9C6"
+				structure: "the_bumblezone:sempiternal_sanctum_white"
+				title: "Find the Sempiternal Sanctum White"
+				type: "structure"
+			}]
+			title: "Sempiternal Sanctum: White"
+			x: -0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["649CD989B90CED8A"]
+			description: [
+				"The Red &cSempiternal Sanctum&r grants a chance at the &bEssence of Raging&r."
+				""
+				"Holding this item in offhand will &ahighlight 4 nearby hostile mobs in red&r. Killing them will &agrant you &bStrength&r, and it will &ahighlight more hostile mobs&r nearby. Each highlighted kill makes your &bStrength&r effect more powerful, and maxes out at &bStrength 16&r after killing &a7 highlighted mobs&r."
+				""
+				"The &bStrength&r only lasts 15 seconds between kills. If time runs out, or if you kill a non-highlighted mob, the &aitem goes into 10 second cooldown&r. Making any kill after you've maxed your &bStrength&r will also set the item to cooldown."
+				""
+				"It has &a28 uses (highlighted kills) before it is depleted&r and needs 30 minutes to recharge. To recharge, it must &abe in the inventory of a player that has consumed &bEssence of the Bees&r. It will set cooldown on all other &bEssence of Raging&r items that player is holding as well, due to how powerful this item is."
+			]
+			id: "45FE520AC009290F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02294440E6F5FAE5"
+				table_id: 5651126569320430640L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_raging"
+					tag: {
+						abilityUseRemaining: 28
+					}
+				}
+				id: "1069ECE91757590C"
+				structure: "#the_bumblezone:honey_compass/sempiternal_sanctums/red"
+				title: "Find the Sempiternal Sanctum Red"
+				type: "structure"
+			}]
+			title: "Sempiternal Sanctum: Red"
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["649CD989B90CED8A"]
+			description: [
+				"The Blue &cSempiternal Sanctum&r grants a chance at the &bEssence of Calming&r."
+				""
+				"Holding this item in offhand will make mobs nearby no longer get angry at you! (Let me know if a modded mob still attacks you while this essence is active)"
+				""
+				"The effect is lost early if player gets hurt by any mob or attacks any mob. If the player sprints while it is active, the item loses power crazy quickly! No rushing!"
+				""
+				"It has 600 use (seconds) before it is depleted and needs 10 minutes to recharge by being in the inventory of a player that had consumed Essence of the Bees in the past."
+			]
+			id: "49EA7F3135E2CC74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DFD08B0FA09749E"
+				table_id: 5651126569320430640L
+				type: "random"
+			}]
+			subtitle: "edit me"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_calming"
+					tag: {
+						abilityUseRemaining: 600
+					}
+				}
+				id: "026654F5006802CE"
+				structure: "the_bumblezone:sempiternal_sanctum_blue"
+				title: "Find the Sempiternal Sanctum Blue"
+				type: "structure"
+			}]
+			title: "Sempiternal Sanctum: Blue"
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["649CD989B90CED8A"]
+			description: [
+				"The Yellow &cSempiternal Sanctum&r grants a chance at the &bEssence of Radiance&r."
+				""
+				"This item is active when &athe player is in a place visible to the sun&r. While held in the offhand, it provides &bRegeneration&r, &bSaturation&r, &bSpeed&r, &bHaste 2&r, and &bDamage Resistance 2&r. It also &aslowly repairs armor over time&r."
+				""
+				"It has &a4800 uses before it is depleted&r and needs 10 minutes to recharge. It will only recharge in the inventory of someone who has &aconsumed &bEssence of the Bees&r."
+			]
+			id: "6BADAB3BD0E50555"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0980E03831C18565"
+				table_id: 5651126569320430640L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_radiance"
+					tag: {
+						abilityUseRemaining: 4800
+					}
+				}
+				id: "63BEA72E5A7DCF1F"
+				structure: "the_bumblezone:sempiternal_sanctum_yellow"
+				title: "Find the Sempiternal Sanctum Yellow"
+				type: "structure"
+			}]
+			title: "Sempiternal Sanctum: Yellow"
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["649CD989B90CED8A"]
+			description: [
+				"The Green &cSempiternal Sanctum&r grants a chance at the &bEssence of Life&r."
+				""
+				"Holding this item in offhand will &agrow crops and saplings nearby&r, revive &bDead Bushes&r into a random sapling, &aheal mobs tamed by you&r, and &aheal other mobs or players&r on the same team as you! Also, will cure &bPoison and &bWither effects&r."
+				""
+				"It has &a1000 uses before it is depleted&r and needs 10 minutes to recharge by being in the inventory of a player that had consumed &bEssence of the Bees&r in the past."
+			]
+			id: "54AAA9079FF8E65B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EC76ECEDC4E519E"
+				table_id: 5651126569320430640L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_life"
+					tag: {
+						abilityUseRemaining: 1000
+					}
+				}
+				id: "70CF21FB5F2B81C3"
+				structure: "the_bumblezone:sempiternal_sanctum_green"
+				title: "Find the Sempirternal Sanctum Green"
+				type: "structure"
+			}]
+			title: "Sempiternal Sanctum: Green"
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["635FE9332FFCE4A7"]
+			description: [
+				"The &cSempiternal Sanctums&r are endgame structures which should not be visited until one has consumed the &bEssence of Bees&r. Visiting without bee pheremones will result in &aMining Fatigue&r, &aincreased damage from &eSentries&r, and &athe inability to trigger &bSanctum Events&r."
+				""
+				"At the top of the structure is &aa garden full of Rootmins on patrol&r. Flowers matching the structure's color will be spawned. Upon entering the hole in the center, the player can navigate a &cdeadly maze&r full of &eSentry Watchers&r and collect great loot!"
+				""
+				"But if the player manages to find their way into the center heart of the structure, they will find a room with a colorful &bEssence Block&r in the center, which matches the color of the structure. &6Touching this Essence Block&r will trigger an &aarena event&r! Each sanctum has a different event and a different endgame reward item for beating said event. The events can be very difficult, so come prepared! Once an event is finished, it &acan be repeated&r by &6clicking the &bEssence Block&r again."
+				""
+				"The powerful items you can obtain are as follows:"
+				""
+				"&bEssence of Raging&r (red)"
+				""
+				"&bEssence of Radiance&r (yellow)"
+				""
+				"&bEssence of Life&r (green)"
+				""
+				"&bEssence of Calming&r (blue)"
+				""
+				"&bEssence of Knowing&r (purple)"
+				""
+				"&bEssence of Continuity&r (white)"
+			]
+			id: "649CD989B90CED8A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2982DB19A790ADE3"
+					table_id: 5651126569320430640L
+					type: "random"
+				}
+				{
+					id: "3D42AFA9F6AB004C"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:honeycomb_block"
+				id: "084D64217A9CC5E1"
+				structure: "#the_bumblezone:sempiternal_sanctums"
+				type: "structure"
+			}]
+			title: "Find a Sempiternal Sanctum"
+			x: -1.0d
+			y: 11.5d
 		}
 	]
 	title: "The Bumblezone"

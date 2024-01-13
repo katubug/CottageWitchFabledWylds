@@ -802,7 +802,7 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('minecraft:carved_pumpkin', '{CustomModelData:6}'),
+        Item.of('minecraft:carved_pumpkin', "{CustomModelData:2,display:{Lore:['[{\"text\":\"A pair of ears to make you cute.\",\"italic\":false}]'],Name:'[{\"text\":\"Cat Ears\",\"italic\":false,\"color\":\"yellow\"}]'}}"),
         [
             'kubejs:ticket'
         ]

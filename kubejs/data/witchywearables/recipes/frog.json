@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "A": {
+        "item": "minecraft:slime_ball"
+      },
+      "B": {
+        "item": "minecraft:tadpole_bucket"
+      }
+    },
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "result": {
+      "item": "witchywearables:frog"
+    }
+  }

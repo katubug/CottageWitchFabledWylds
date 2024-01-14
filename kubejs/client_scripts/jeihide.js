@@ -104,7 +104,6 @@ JEIEvents.hideItems(event => {
         'meadow:climbing_rope_topmount',
         'nameless_trinkets:mysterious_trinket',
         'herbalbrews:jug',
-        'reliquary:bat_wing',
         'forbidden_arcanus:bat_wing',
         'herbalbrews:mixed_tea_leaf_block',
         'pipez:energy_pipe',

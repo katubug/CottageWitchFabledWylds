@@ -1,0 +1,175 @@
+{
+	id: "305852CD0C9B8F68"
+	loot_size: 5
+	order_index: 35
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "aether:phoenix_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:phoenix_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:phoenix_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:phoenix_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:phoenix_gloves"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{ item: "aether:life_shard", weight: 5.0f }
+		{ item: "aether:iron_bubble", weight: 5.0f }
+		{
+			item: {
+				Count: 1b
+				id: "aether:vampire_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:pig_slayer"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 7.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:gravitite_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:gravitite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:gravitite_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:gravitite_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:gravitite_gloves"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:gravitite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 7.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:gravitite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 7.0f
+		}
+		{ item: "aether:enchanted_gravitite" }
+		{
+			item: {
+				Count: 1b
+				id: "aether:ice_ring"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:ice_pendant"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{ item: "aether:golden_gummy_swet", weight: 10.0f }
+		{ item: "aether:healing_stone" }
+		{ count: 5, item: "aether:enchanted_berry", weight: 10.0f }
+		{ count: 3, item: "aether:aerogel", weight: 10.0f }
+	]
+	title: "Aether Gold"
+}

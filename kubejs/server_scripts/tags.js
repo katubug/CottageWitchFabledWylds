@@ -558,6 +558,11 @@ ServerEvents.tags('item', event => {
         'relics:wool_mitten',
     )
 
+    event.add('forge:gummy_swets',
+    'aether:blue_gummy_swet',
+    'aether:golden_gummy_swet',
+    'aether_redux:vanilla_gummy_swet')
+
 })
 
 ServerEvents.tags('block', event => {

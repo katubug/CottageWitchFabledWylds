@@ -88,6 +88,12 @@
 					table_id: 8808494820591225409L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "13521F5DF9EADE37"
+					table_id: 462305041008574759L
+					type: "random"
+				}
 			]
 			tasks: [{
 				icon: "aether:gold_dungeon_key"
@@ -115,12 +121,20 @@
 				"&dThe boss chest is not instanced&r. All players must share the loot."
 			]
 			id: "73B0AD309B893DA1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "360E506C686FF852"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "360E506C686FF852"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C4D6B241E266D09"
+					table_id: 462305041008574759L
+					type: "random"
+				}
+			]
 			tasks: [{
 				icon: "aether:bronze_dungeon_key"
 				id: "7E7E69D63336DFF1"
@@ -143,6 +157,12 @@
 				"Once you defeat her, you can &aaccess her loot chest&r. &dThe boss chest is not instanced&r. All players must share the loot."
 			]
 			id: "40C73D709236E1B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F6323D167DA5749"
+				table_id: 462305041008574759L
+				type: "random"
+			}]
 			tasks: [{
 				icon: "aether:silver_dungeon_key"
 				id: "4678BDB7E0777CFB"
@@ -165,8 +185,8 @@
 			id: "599776131E39F34F"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "789F0F711C2AF6A7"
-				table_id: 6941837675484043489L
+				id: "25404AFBA70ABA8B"
+				table_id: 462305041008574759L
 				type: "random"
 			}]
 			shape: "heart"
@@ -190,12 +210,20 @@
 				"Your next step is to make a &bMoa Incubator&r."
 			]
 			id: "79727381C12A8B3A"
-			rewards: [{
-				count: 5
-				id: "11BF91815E3CB86F"
-				item: "aether:ambrosium_torch"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "11BF91815E3CB86F"
+					item: "aether:ambrosium_torch"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A66473E141775D4"
+					table_id: 462305041008574759L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "415DEAB4DE37D7FF"
 				item: {
@@ -236,6 +264,11 @@
 					table_id: 8808494820591225409L
 					type: "loot"
 				}
+				{
+					id: "103A95A8E52B267C"
+					item: "minecraft:name_tag"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{
@@ -250,11 +283,17 @@
 		{
 			dependencies: ["49EE628AA4D1BDF3"]
 			description: [
-				"The Platinum Dungeon is a castle-like tower found on small floating islands around the Aether. Climbing the stairs to the top you'll find yourself face-to-face with a large, crowned Aerwhale lulled by its music box."
+				"The &cPlatinum Dungeon&r is a castle-like tower found on small floating islands around the Aether. Climbing the stairs to the top, you'll find yourself face-to-face with a large, crowned &eAerwhale&r lulled into complacency by its music box."
 				""
-				"Should you choose to destroy its tunes, pray you have good dodging muscles because the fight with the Aerwhale King is as unforgiving as it is fun."
+				"Should you choose to &adestroy its tunes&r, pray you have good muscles for dodging, because the fight with the &eAerwhale King&r is as &dunforgiving as it is fun&r. You will certainly want a &bShield&r!"
 			]
 			id: "1482F02526A8FA46"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08708C9A3F262D63"
+				table_id: 462305041008574759L
+				type: "random"
+			}]
 			tasks: [{
 				icon: "lost_aether_content:platinum_key"
 				id: "3611F603F34C3543"
@@ -268,7 +307,7 @@
 		{
 			dependencies: ["03B2D5D4464FC352"]
 			description: [
-				"Welcome to the &cAether&r! You might first notice that your &atools are not as effective here!&r. You will need to &amake some tools from &blocal materials&r."
+				"Welcome to the &cAether&r! You might first notice that your &atools are not as effective here&r! You will need to &amake some tools from &blocal materials&r."
 				""
 				"So go on, punch some trees!"
 				""
@@ -306,6 +345,12 @@
 				"Much like &ePigs&r, you can place a &bSaddle&r on them. Unlike Pigs, you &ado not need a fishing rod&r to control them! They can help you traverse this land before you're able to find a more suitable mount."
 			]
 			id: "50BD354A26E24F59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23DF85DE9BB0E7D3"
+				table_id: 462305041008574759L
+				type: "random"
+			}]
 			shape: "heart"
 			tasks: [{
 				icon: "aether:phyg_spawn_egg"
@@ -320,39 +365,15 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["1DBC9B1B0CCD84AF"]
-			dependency_requirement: "one_completed"
-			description: [
-				"Entering into this world the first time, you'll find that &ayou can't place down normal torches&r. So how are you to light your way??"
-				""
-				"Introducing &bAmbrosium&r! It's known as the Aether's equivalent to coal. Just like with coal, its &aprimary function is being a fuel-source for furnaces&r, as well as a major ingredient for crafting &bAmbrosium Torches&r and &bAmbrosium Campfires&r."
-				""
-				"&9&oIts mystical glow sets it apart from Overworld's mundane coal..perhaps there's other uses for it, too..&r&r"
-			]
-			icon: "aether:ambrosium_ore"
-			id: "4358EF4824C86C97"
-			shape: "hexagon"
-			subtitle: "A foray into Aether's coal-alternative"
-			tasks: [
-				{
-					id: "14F5626B47832D05"
-					item: "aether:ambrosium_shard"
-					type: "item"
-				}
-				{
-					id: "64018D97E8C191CC"
-					item: "aether:ambrosium_torch"
-					type: "item"
-				}
-			]
-			title: "Let there be LIGHT!"
-			x: -8.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["4358EF4824C86C97"]
-			description: ["The altar is a furnace-like block that allows you to enchant certain Aether items, as well as repair vanilla and Aether tools and armor."]
+			dependencies: ["7F99DA7EA85CBD2B"]
+			description: ["The &bAltar&r is a block which &aenchants certain Aether items&r, as well as &arepairing vanilla and Aether tools and armor&r, in exchange for &bFuel&r."]
 			id: "681FB07067E06E57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BCE916ED271D09D"
+				table_id: 462305041008574759L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "45D0C751F277C8A4"
@@ -373,6 +394,12 @@
 				}
 			}
 			id: "3D5BA0F5B7641700"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7455C8D5F8903ED9"
+				table_id: 1129944662014018005L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -408,6 +435,12 @@
 			dependencies: ["40C73D709236E1B1"]
 			icon: "aether:victory_medal"
 			id: "7F079145CBF86C28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EDC49D955EA761D"
+				table_id: 4891142420904354454L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -453,6 +486,12 @@
 		{
 			dependencies: ["1482F02526A8FA46"]
 			id: "0D08A86B0B0118D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BE518CFB8936DB1"
+				table_id: 4614893746888110358L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [{
 				entity: "lost_aether_content:aerwhale_king"
@@ -466,46 +505,80 @@
 		}
 		{
 			dependencies: ["1DBC9B1B0CCD84AF"]
-			description: ["Icestone is used for freezing certain items in the Freezer, it can also turn nearby water into ice and nearby lava into obsidian when placed."]
+			description: ["&bIcestone&r can be used for &afreezing certain items&r in the &bFreezer&r. It can also be placed down to &aturn nearby water or lava&r into &bIce&r and &bObsidian&r, respectively."]
 			id: "4CD57BD038FC728C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6816A0699AAA44E7"
+				table_id: 462305041008574759L
+				type: "random"
+			}]
 			shape: "hexagon"
+			subtitle: "ice ice baby"
 			tasks: [{
 				id: "0D88D4719DDE104E"
 				item: "aether:icestone"
 				type: "item"
 			}]
+			title: "Obtain Icestone"
 			x: -6.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["4CD57BD038FC728C"]
-			description: ["The freezer is a furnace-type block that uses icestone for fuel. It's needed for making the ice pendant and ice ring."]
+			description: ["The &bFreezer&r is sort of like an inverse &bFurnace&r. It uses &bIcestone&r as fuel, and can &afreeze certain items&r, such as &bBuckets of Water and Lava&r, or even &bPendants&r and &bRings&r."]
 			id: "35BF6B77AFC9659D"
+			rewards: [{
+				id: "058E3BB068EB583A"
+				item: "aether:golden_pendant"
+				type: "item"
+			}]
 			shape: "hexagon"
+			subtitle: "chill out"
 			tasks: [{
 				id: "20125D4ADF47FB4F"
 				item: "aether:freezer"
 				type: "item"
 			}]
+			title: "Obtain a Freezer"
 			x: -5.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["1DBC9B1B0CCD84AF"]
-			description: ["Aerogel is what you get when you allow the intrusive thoughts to win and you place lava in the Aether. It's merely a building block."]
+			description: [
+				"Placing &bLava&r in the &cAether&r can lead to unexpected consequences. Unless you read this quest before you do it, in which case you'll probably be expecting them."
+				""
+				"&bLava&r simply cannot exist in a realm this high in altitude, and instead transforms into &bAerogel&r, which can be used as a &abuilding block&r."
+			]
 			id: "734B7C29BB20298E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46D19928FFCACA81"
+				table_id: 462305041008574759L
+				type: "random"
+			}]
 			shape: "hexagon"
+			subtitle: "you let the intrusive thoughts win"
 			tasks: [{
 				id: "4F9A9A88774750F0"
 				item: "aether:aerogel"
 				type: "item"
 			}]
+			title: "Obtain Aerogel"
 			x: -7.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["1DBC9B1B0CCD84AF"]
+			description: ["&eSwets&r are the &cAether&r equivalent to your average, everyday slime. However, these ones are a little more... kidnappy. So &abe careful&r."]
 			id: "6466CEAA5302A48B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A8E5A14D32CBEA0"
+				table_id: 462305041008574759L
+				type: "random"
+			}]
 			shape: "heart"
 			tasks: [{
 				icon: {
@@ -527,16 +600,90 @@
 		}
 		{
 			dependencies: ["6466CEAA5302A48B"]
-			description: ["Gummy swets are a good source of food, combining 4 swet gels and 1 sugar in the crafting table."]
+			description: ["&bGummy swets&r are a &agood source of food&r, made by combining 4 &bswet gels&r and 1 &bsugar&r in the crafting table."]
 			id: "08BE5D377CDCF868"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56FF0022357583A4"
+				table_id: 462305041008574759L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "4DFE76B30C72B0A0"
-				item: "aether:blue_gummy_swet"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:gummy_swets"
+					}
+				}
+				title: "Any #forge:gummy_swets"
 				type: "item"
 			}]
+			title: "Obtain a Gummy Swet"
 			x: -5.5d
 			y: -9.5d
+		}
+		{
+			dependencies: ["1DBC9B1B0CCD84AF"]
+			description: ["These &athrowable knives&r summon a &elightning strike&r where they hit, making them an excellent way to &acharge &bLuggages&r, &eCreepers&r, and more!"]
+			id: "22D1D2D87D646AE1"
+			rewards: [{
+				id: "66747B79C320D879"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "baby you're like lightning in a ...knife?"
+			tasks: [{
+				id: "75C2D53765182805"
+				item: "aether:lightning_knife"
+				type: "item"
+			}]
+			title: "Obtain a Lightning Knife"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DBC9B1B0CCD84AF"]
+			description: [
+				"Entering into this world the first time, you'll find that &ayou can't place down normal torches&r. So how are you to light your way??"
+				""
+				"Introducing &bAmbrosium&r! It's known as the Aether's equivalent to coal. Just like with coal, its &aprimary function is being a fuel-source for furnaces&r, as well as a major ingredient for crafting &bAmbrosium Torches&r and &bAmbrosium Campfires&r."
+				""
+				"&7&oIts mystical glow sets it apart from Overworld's mundane coal..perhaps there's other uses for it, too...&r&r"
+			]
+			id: "7F99DA7EA85CBD2B"
+			rewards: [
+				{
+					count: 5
+					id: "2C2BD34ACC3DF352"
+					item: "aether:ambrosium_shard"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "12B19A0F07896136"
+					item: "aether:ambrosium_torch"
+					type: "item"
+				}
+			]
+			subtitle: "your light is nothing here"
+			tasks: [{
+				icon: "minecraft:torch"
+				id: "37EAB69291D8AE36"
+				type: "custom"
+			}]
+			title: "Attempt to Use a Torch"
+			x: -8.0d
+			y: -5.0d
 		}
 	]
 	title: "The Aether"

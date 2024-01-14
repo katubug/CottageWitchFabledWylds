@@ -65,7 +65,6 @@ ServerEvents.recipes(event => {
         {output: 'meadow:climbing_rope_topmount'},
         {output: 'nameless_trinkets:mysterious_trinket'},
         {output: 'herbalbrews:jug'},
-        {output: 'reliquary:bat_wing'},
         {output: 'forbidden_arcanus:bat_wing'},
         {output: 'plushies:bat_plushie'},
         {output: 'herbalbrews:mixed_tea_leaf_block'},

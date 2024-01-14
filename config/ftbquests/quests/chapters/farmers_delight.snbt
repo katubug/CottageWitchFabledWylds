@@ -272,11 +272,6 @@
 					item: "hauntedharvest:corn_crate"
 					type: "item"
 				}
-				{
-					id: "4061245B5E15AD6F"
-					item: "miners_delight:cave_carrot_crate"
-					type: "item"
-				}
 			]
 			title: "Compact Your Crops"
 			x: 4.5d

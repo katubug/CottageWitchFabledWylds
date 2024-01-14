@@ -2316,47 +2316,6 @@
 			y: 15.0d
 		}
 		{
-			description: ["Only the most chronically underground creatures eat &eBats&r... and they're missing out! Murder some innocent adorable fluffy friends and &afeast on their flesh&r in order to win this fabulous stuffed prize!"]
-			id: "1063482F45518BBE"
-			rewards: [{
-				id: "7ED0F87669C9E525"
-				item: "plushies:bat_plushie"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "now you're cooking with bats"
-			tasks: [
-				{
-					id: "44CFFBF4890171E7"
-					item: "miners_delight:bat_soup"
-					type: "item"
-				}
-				{
-					id: "3C7E7012E9DCDE6C"
-					item: "forbidden_arcanus:bat_soup"
-					type: "item"
-				}
-				{
-					id: "40C9D12568F5819B"
-					item: "miners_delight:smoked_bat_wing"
-					type: "item"
-				}
-				{
-					id: "31B6257123C3FEB8"
-					item: "miners_delight:bat_rolls"
-					type: "item"
-				}
-				{
-					id: "544C89270927DCE2"
-					item: "miners_delight:bat_cookie"
-					type: "item"
-				}
-			]
-			title: "Smor-bats-bord"
-			x: 3.0d
-			y: 4.5d
-		}
-		{
 			dependencies: ["1266B799DAB9CCC7"]
 			description: [
 				"Did you know that &aall true teas are the same plant&r? They're simply oxidized at different levels."

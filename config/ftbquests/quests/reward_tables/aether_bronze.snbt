@@ -1,0 +1,205 @@
+{
+	id: "0FAE5EAEF331C1D5"
+	loot_size: 5
+	order_index: 33
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "aether:neptune_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:neptune_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:neptune_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:neptune_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:neptune_gloves"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:valkyrie_lance"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:hammer_of_kingbdogz"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:sentry_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 7.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:zanite_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:zanite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:zanite_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:zanite_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:zanite_gloves"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:zanite_ring"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:zanite_pendant"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:shield_of_repulsion"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:cloud_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:phoenix_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aether:flaming_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4.0f
+		}
+		{ item: "aether:agility_cape", weight: 5.0f }
+		{ count: 3, item: "aether:zanite_gemstone", weight: 10.0f }
+		{ count: 3, item: "aether:golden_amber", weight: 10.0f }
+		{ count: 5, item: "aether:sentry_stone", weight: 10.0f }
+		{ count: 5, item: "aether:carved_stone", weight: 10.0f }
+		{ item: "aether:lightning_knife", weight: 5.0f }
+		{ count: 3, item: "aether:golden_dart", weight: 10.0f }
+	]
+	title: "Aether Bronze"
+}

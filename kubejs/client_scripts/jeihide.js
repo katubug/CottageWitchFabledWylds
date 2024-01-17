@@ -153,6 +153,8 @@ JEIEvents.hideItems(event => {
         'aquaculture:tuna_bucket',
         'delightful:blueberry_sack',
         'regions_unexplored:salmonberry',
+        'trashcans:energy_trash_can',
+        'framedblocks:powered_framing_saw',
 
     ];
     

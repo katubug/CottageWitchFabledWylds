@@ -878,6 +878,1045 @@
 			x: 5.5d
 			y: 3.0d
 		}
+		{
+			description: [
+				"Collect a whole set of &bRose Gold Tools&r to complete this quest."
+				""
+				"&bRose Gold&r has better strength and durability than regular &bgold&r, but retains gold's &ahighly enchantable properties&r."
+			]
+			id: "288EC6D43791AE1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5955D9A20B32A2E8"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3F30B6988D5B5E5A"
+					item: {
+						Count: 1b
+						id: "additionaladditions:rose_gold_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F6B6EFF6440FA30"
+					item: {
+						Count: 1b
+						id: "additionaladditions:rose_gold_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50CAE98A584151C8"
+					item: {
+						Count: 1b
+						id: "additionaladditions:rose_gold_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AB5C33A68FB6F03"
+					item: {
+						Count: 1b
+						id: "additionaladditions:rose_gold_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "283C72386CA91263"
+					item: {
+						Count: 1b
+						id: "additionaladditions:rose_gold_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "180CD8817C4FAE54"
+					item: {
+						Count: 1b
+						id: "delightful:rose_gold_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Rosegold Tools"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bVeridium Tools&r to complete this quest."
+				""
+				"&bVeridium&r tools can be &apowered up for a short time by &6right clicking them in your inventory&r with an &bAmbrosium Shard&r!"
+			]
+			id: "5A1553E4AA644F9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DEA11CBE28463CE"
+				table_id: 1129944662014018005L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "67471740B9A0288D"
+					item: {
+						Count: 1b
+						id: "aether_redux:veridium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BA36F86595AF640"
+					item: {
+						Count: 1b
+						id: "aether_redux:veridium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "379F66E331312CFE"
+					item: {
+						Count: 1b
+						id: "aether_redux:veridium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "075D31B63E0E4C91"
+					item: {
+						Count: 1b
+						id: "aether_redux:veridium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35290CF4DE337375"
+					item: {
+						Count: 1b
+						id: "aether_redux:veridium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40B12159601F43D6"
+					item: {
+						Count: 1b
+						id: "delightful:veridium_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Veridium Tools"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bSkyjade Tools&r to complete this quest."
+				""
+				"&bSkyjade tools&r start out as &amore efficient than &bDiamond&r, but slow down as they &alose durability&r."
+			]
+			id: "40B58129C3B0C4D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C15F58A9D6D1717"
+				table_id: 4891142420904354454L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6A5B0C1444895357"
+					item: {
+						Count: 1b
+						id: "deep_aether:skyjade_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CFA70E0DE92BF7D"
+					item: {
+						Count: 1b
+						id: "deep_aether:skyjade_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3716ACD4D01386AC"
+					item: {
+						Count: 1b
+						id: "deep_aether:skyjade_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "454518CAA3A49318"
+					item: {
+						Count: 1b
+						id: "deep_aether:skyjade_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7867C5C068B58DCC"
+					item: {
+						Count: 1b
+						id: "deep_aether:skyjade_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FBF04C305004E09"
+					item: {
+						Count: 1b
+						id: "delightful:skyjade_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Skyjade Tools"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bInfused Veridium Tools&r to complete this quest."
+				""
+				"&bInfused Veridium&r tools can be &apowered up for a short time by &6right clicking them in your inventory&r with an &bAmbrosium Shard&r!"
+			]
+			id: "7EF57C472A44EF4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05D62A980862EBCD"
+				table_id: 4891142420904354454L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3077ABC8A57F541A"
+					item: {
+						Count: 1b
+						id: "aether_redux:infused_veridium_sword"
+						tag: {
+							Damage: 0
+							ambrosium_charge: 64b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0525468E61F37FEB"
+					item: {
+						Count: 1b
+						id: "aether_redux:infused_veridium_pickaxe"
+						tag: {
+							Damage: 0
+							ambrosium_charge: 64b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00AAE35C70263299"
+					item: {
+						Count: 1b
+						id: "aether_redux:infused_veridium_axe"
+						tag: {
+							Damage: 0
+							ambrosium_charge: 64b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4512DBE21F90DBCD"
+					item: {
+						Count: 1b
+						id: "aether_redux:infused_veridium_shovel"
+						tag: {
+							Damage: 0
+							ambrosium_charge: 64b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49661EA2AAA3C4C7"
+					item: {
+						Count: 1b
+						id: "aether_redux:infused_veridium_hoe"
+						tag: {
+							Damage: 0
+							ambrosium_charge: 64b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DE33B6F3AD18CCE"
+					item: {
+						Count: 1b
+						id: "delightful:infused_veridium_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Infused Veridium Tools"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bZanite Tools&r to complete this quest."
+				""
+				"&bZanite&r has the unique property of its tools becoming &amore powerful as the durability decreases&r!"
+			]
+			id: "504788BE57A03888"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D7EE7E2686BFDBC"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2ED796C6C7641B41"
+					item: {
+						Count: 1b
+						id: "aether:zanite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "386816D63667CDAF"
+					item: {
+						Count: 1b
+						id: "aether:zanite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34F556A120D13266"
+					item: {
+						Count: 1b
+						id: "aether:zanite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16BB563723D8A89B"
+					item: {
+						Count: 1b
+						id: "aether:zanite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5186670292DA82BA"
+					item: {
+						Count: 1b
+						id: "aether:zanite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "061E0CFCB861DAC4"
+					item: {
+						Count: 1b
+						id: "delightful:zanite_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Zanite Tools"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bCrystalline Tools&r to complete this quest."
+				""
+				"&bCrystalline Tools&r give extra benefit to their wielder depending on &ahow much exp they have&r."
+			]
+			id: "2D7B82E9F78ECE60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "159DCAB86C06A2B1"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "62B22ABAAC4F757F"
+					item: {
+						Count: 1b
+						id: "phantasm:crystalline_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78526E4DE174E381"
+					item: {
+						Count: 1b
+						id: "phantasm:crystalline_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "032047B54B72A7AD"
+					item: {
+						Count: 1b
+						id: "phantasm:crystalline_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D33C881462F0416"
+					item: {
+						Count: 1b
+						id: "phantasm:crystalline_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "535D8C440485C766"
+					item: {
+						Count: 1b
+						id: "phantasm:crystalline_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B9832336DB1217B"
+					item: {
+						Count: 1b
+						id: "delightful:crystalline_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bSkyroot Tools&r to complete this quest."
+				""
+				"Although &bSkyroot&r has low durability, its tools are capable of &adoubling drops&r from crops, mobs, and blocks!"
+			]
+			id: "617797549249DD8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "330849F271915561"
+				table_id: 462305041008574759L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3AE6CE1D803831EC"
+					item: {
+						Count: 1b
+						id: "aether:skyroot_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FFA996C35C18453"
+					item: {
+						Count: 1b
+						id: "aether:skyroot_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "778132D7BC853CBC"
+					item: {
+						Count: 1b
+						id: "aether:skyroot_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "634FDC9A68A278DE"
+					item: {
+						Count: 1b
+						id: "aether:skyroot_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C2D8B0B473E3436"
+					item: {
+						Count: 1b
+						id: "aether:skyroot_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CC5B119C8A87F09"
+					item: {
+						Count: 1b
+						id: "delightful:skyroot_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Skyroot Tools"
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bHolystone Tools&r to complete this quest."
+				""
+				"&bHolystone Tools&r provide an excellent way of obtaining &bAmbrosium&r, as they &aperiodically drop some&r while they're being used."
+			]
+			id: "6C058AA9B784AC5F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74199C5F875C9488"
+				table_id: 462305041008574759L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6DE55AD38978627F"
+					item: {
+						Count: 1b
+						id: "aether:holystone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F432BB4EE0A67C3"
+					item: {
+						Count: 1b
+						id: "aether:holystone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "104CCE34CCED8E8B"
+					item: {
+						Count: 1b
+						id: "aether:holystone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B51EB2C640B21DB"
+					item: {
+						Count: 1b
+						id: "aether:holystone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "190EF2E1F233500D"
+					item: {
+						Count: 1b
+						id: "aether:holystone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AD5B2A80F4A1467"
+					item: {
+						Count: 1b
+						id: "delightful:holystone_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bStratus Tools&r to complete this quest."
+				""
+				"True to their name, &bStratus&r tools will &acause things to float up into the air&r, before crashing down again. Check out the &bBook of Lore&r for more detailed information."
+			]
+			id: "32D102BEB6D101A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26ACE82BCBF0865B"
+				table_id: 3483625352404373352L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "69B8A92D1B4B78E8"
+					item: {
+						Count: 1b
+						id: "deep_aether:stratus_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C5D40E960A1D4E6"
+					item: {
+						Count: 1b
+						id: "deep_aether:stratus_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C3AA76C04DCC723"
+					item: {
+						Count: 1b
+						id: "deep_aether:stratus_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0909B8BC324C97AA"
+					item: {
+						Count: 1b
+						id: "deep_aether:stratus_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "049116966F1FF198"
+					item: {
+						Count: 1b
+						id: "deep_aether:stratus_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E8955ED193B4AFA"
+					item: {
+						Count: 1b
+						id: "delightful:stratus_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Stratus Tools"
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bPhoenix Tools&r to complete this quest."
+				""
+				"As you might have surmised, &bPhoenix&r tools have fiery properties, such as the ability to &asmelt blocks or drops&r, and also deal &aextra damage against burning enemies&r."
+			]
+			id: "1E4DB24AE20A673B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3200927595EEA741"
+				table_id: 3483625352404373352L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "20607BDAE84944F6"
+					item: {
+						Count: 1b
+						id: "lost_aether_content:phoenix_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75543321D1F7BB30"
+					item: {
+						Count: 1b
+						id: "lost_aether_content:phoenix_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32E0B089E32419A7"
+					item: {
+						Count: 1b
+						id: "lost_aether_content:phoenix_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "558947386A2B5E50"
+					item: {
+						Count: 1b
+						id: "lost_aether_content:phoenix_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C837C7AF7CAD782"
+					item: {
+						Count: 1b
+						id: "lost_aether_content:phoenix_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Phoenix Tools"
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bGravitite Tools&r to complete this quest."
+				""
+				"True to their name, &bGravitite&r tools will &acause things to float up into the air&r, before crashing down again. Check out the &bBook of Lore&r for more detailed information."
+			]
+			id: "3887E025A2D5A00F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A07AE1DAE14569A"
+				table_id: 3483625352404373352L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6B68F39C40633C15"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "567EC8E86598B44E"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "522168E6F5065736"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C0E030847620B65"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C00E3B8D58F17B3"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32885868C4B5A3C8"
+					item: {
+						Count: 1b
+						id: "delightful:gravitite_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Gravitite Tools"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bValkyrie Tools&r to complete this quest."
+				""
+				"&bValkyrie&r tools offer the advantage of &aextra block reach&r, and relatively high &aattack power&r, although at the cost of &aattack speed&r."
+			]
+			id: "17AC6C494C28787B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D74FDC72A8442A1"
+				table_id: 1129944662014018005L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4FE0B109E16037AB"
+					item: {
+						Count: 1b
+						id: "aether:valkyrie_lance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55E69ACEFCE2E0E0"
+					item: {
+						Count: 1b
+						id: "aether:valkyrie_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07DE7DEF7BC6F02F"
+					item: {
+						Count: 1b
+						id: "aether:valkyrie_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53A44B5DB965441F"
+					item: {
+						Count: 1b
+						id: "aether:valkyrie_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "485BB691983B6A87"
+					item: {
+						Count: 1b
+						id: "aether:valkyrie_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Valkyrie Tools"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			description: ["&bTravel Boots&r are a nice, comfy set of footwear which allow you to &aeasily step up single block heights&r. Useful for traversal, but not great in combat."]
+			id: "694844999878F745"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5237FABD3F201173"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "not to be confused with 7-league boots"
+			tasks: [{
+				id: "6D452DB6697F64CB"
+				item: {
+					Count: 1b
+					id: "travelboots:basic_travel_boots_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain Travel Boots"
+			x: -2.5d
+			y: 1.0d
+		}
 	]
 	title: "Equipment \\& Gear"
 }

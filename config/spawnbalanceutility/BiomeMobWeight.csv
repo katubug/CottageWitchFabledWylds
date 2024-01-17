@@ -5802,3 +5802,26 @@
 5826, none, regions_unexplored:shrubland, WATER_AMBIENT, aquaculture:bluegill, 20, 1, 6
 5827, none, regions_unexplored:shrubland, rascals, friendsandfoes:rascal, 10, 1, 1
 1507, icy, regions_unexplored:cold_boreal_taiga,CREATURE, snuffles:snuffle, 10, 1, 3
+918, swamp, minecraft:mangrove_swamp, CREATURE, whatareyouvotingfor:crab, 10, 1, 2
+2713, beach, regions_unexplored:gravel_beach, CREATURE, whatareyouvotingfor:crab, 10, 1, 2
+3100, beach, regions_unexplored:grassy_beach, CREATURE, whatareyouvotingfor:crab, 10, 1, 2
+3891, beach, minecraft:beach, CREATURE, whatareyouvotingfor:crab, 10, 1, 2
+4008, savanna, minecraft:windswept_savanna, CREATURE, whatareyouvotingfor:armadillo, 30, 1, 1
+1003, savanna, regions_unexplored:dry_bushland, CREATURE, whatareyouvotingfor:armadillo, 30, 1, 1
+2199, savanna, regions_unexplored:baobab_savanna, CREATURE, whatareyouvotingfor:armadillo, 30, 1, 1
+2383, savanna, minecraft:savanna, CREATURE, whatareyouvotingfor:armadillo, 30, 1, 1
+3221, savanna, minecraft:savanna_plateau, CREATURE, whatareyouvotingfor:armadillo, 30, 1, 1
+4057, savanna, minecraft:windswept_savanna, CREATURE, whatareyouvotingfor:armadillo, 30, 1, 1
+5202, savanna, regions_unexplored:steppe, CREATURE, whatareyouvotingfor:armadillo, 30, 1, 1
+1697, none, minecraft:stony_shore, CREATURE, whatareyouvotingfor:penguin, 50, 3, 5
+1885, none, minecraft:ice_spikes, CREATURE, whatareyouvotingfor:penguin, 50, 3, 5
+1549, jungle, regions_unexplored:eucalyptus_forest, CREATURE, mysticsbiomes:red_panda, 10, 2, 4
+139, jungle, regions_unexplored:sparse_rainforest, CREATURE, mysticsbiomes:red_panda, 10, 2, 4
+1853, jungle, regions_unexplored:rainforest, CREATURE, mysticsbiomes:red_panda, 10, 2, 4
+3136, jungle, minecraft:bamboo_jungle, CREATURE, mysticsbiomes:red_panda, 10, 2, 4
+3301, jungle, minecraft:jungle, CREATURE, mysticsbiomes:red_panda, 10, 2, 4
+504, forest, regions_unexplored:bamboo_forest, CREATURE, mysticsbiomes:red_panda, 10, 2, 4
+1549, jungle, regions_unexplored:eucalyptus_forest, CREATURE, minecraft:panda, 80, 1, 2
+139, jungle, regions_unexplored:sparse_rainforest, CREATURE, minecraft:panda, 80, 1, 2
+1853, jungle, regions_unexplored:rainforest, CREATURE, minecraft:panda, 80, 1, 2
+485, none, mysticsbiomes:bamboo_blossom_forest, CREATURE, minecraft:panda, 80, 1, 2

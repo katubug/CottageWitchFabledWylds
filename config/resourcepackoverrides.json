@@ -2,6 +2,8 @@
   "schema_version": "2",
   "failed_reloads_per_session": 100,
   "default_packs": [
+    "file/Nature Revamp Beta v1.14 [1.20].zip",
+    "file/Angel's_Weather_v1.3.zip",
     "file/corality-1-0-3.zip",
     "file/dynamic-beehives-beenests.zip",
     "green_stove",
@@ -107,7 +109,12 @@
     "file/BSG - Combo - 1.20.zip",
     "file/formidable-frogs.zip",
     "file/astraliyte-s-animated-textures-1-3.zip",
-    "file/warm-smoke.zip"
+    "file/warm-smoke.zip",
+    "file/cherryhearts.zip",
+    "file/Os' Variated Glow Lichen.zip",
+    "file/Os' Cleaner Signs.zip",
+    "file/Os' 3D Iron Bars.zip",
+    "file/Nature Revamp Beta Edited.zip"
     ],
   "default_overrides": {
     "force_compatible": true

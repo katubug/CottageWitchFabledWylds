@@ -2,7 +2,7 @@
 [compass-behavior]
 	#How often the compass search target will be updated. Low values can cause SERIOUS performance problems.
 	#Range: > 1
-	search_rate = 50
+	search_rate = 80
 	#Will experience be drained for using the compass?
 	xp_drain = false
 	#How much XP will be drained from player when Compass is active?
@@ -45,7 +45,7 @@
 	black_list_filter_type = true
 	#Items and blocks in this list will be filtered based on the filtering mode set above.
 	#Example: ["minecraft.diamond_block", "minecraft.carrot", "twilightforest.cicada"]
-	filter_by_names = []
+	filter_by_names = ["minecraft.ancient_debris"]
 	#Items and blocks in this list will be filtered based on their tags.
 	#Example: ["forge:stone"]
 	filter_by_tags = []
@@ -54,5 +54,5 @@
 	filter_by_mods = []
 	#Entities in this list will be filtered based on their names.
 	#Example: ["entity.minecraft.trader_llama", "entity.mowziesmobs.foliaath"]
-	filter_entity = []
+	filter_entity = ["entity.the_bumblezone.bee_queen"]
 

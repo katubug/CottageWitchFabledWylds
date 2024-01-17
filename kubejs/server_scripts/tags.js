@@ -563,6 +563,14 @@ ServerEvents.tags('item', event => {
     'aether:golden_gummy_swet',
     'aether_redux:vanilla_gummy_swet')
 
+    event.add('forge:wind_chimes',
+    'chimes:bamboo_chimes',
+    'chimes:iron_chimes',
+    'chimes:carved_bamboo_chimes',
+    'chimes:amethyst_chimes',
+    'chimes:copper_chimes',
+    'chimes:glass_bells')
+
 })
 
 ServerEvents.tags('block', event => {

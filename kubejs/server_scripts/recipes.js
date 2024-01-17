@@ -41,8 +41,7 @@ ServerEvents.recipes(event => {
             ' A ',
             'BCB',
             ' D '
-        ],
-        {
+        ], {
             A: 'minecraft:chain',
             B: 'minecraft:iron_ingot',
             C: '#forge:souls',
@@ -52,12 +51,13 @@ ServerEvents.recipes(event => {
 
     //Recipe Replacements
     //Strawberries
-    event.replaceInput(
-        { input: 'mysticsbiomes:strawberry' }, // Arg 1: the filter
-        'mysticsbiomes:strawberry',            // Arg 2: the item to replace
-        'bakery:strawberry'         // Arg 3: the item to replace it with
+    event.replaceInput({
+            input: 'mysticsbiomes:strawberry'
+        }, // Arg 1: the filter
+        'mysticsbiomes:strawberry', // Arg 2: the item to replace
+        'bakery:strawberry' // Arg 3: the item to replace it with
         // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
-      )
+    )
 
 
     // Cheaper Post Box
@@ -67,8 +67,7 @@ ServerEvents.recipes(event => {
             'ABA',
             'BCB',
             ' D '
-        ],
-        {
+        ], {
             A: 'minecraft:blue_dye',
             B: 'minecraft:iron_ingot',
             C: '#forge:chests',
@@ -82,8 +81,7 @@ ServerEvents.recipes(event => {
         [
             ' A ',
             'BCB'
-        ],
-        {
+        ], {
             A: 'crabbersdelight:pearl',
             B: 'minecraft:gold_nugget',
             C: 'minecraft:gold_ingot'
@@ -92,30 +90,31 @@ ServerEvents.recipes(event => {
 
     //Slime Balls
     event.shapeless(
-        Item.of('minecraft:slime_ball'), 
-        [ 
-            {tag: 'forge:dyes/lime'},
+        Item.of('minecraft:slime_ball'),
+        [{
+                tag: 'forge:dyes/lime'
+            },
             'farmersdelight:wheat_dough'
         ]
-      )
+    )
 
 
     //Dough
     event.shapeless(
-        Item.of('farmersdelight:wheat_dough', 3), 
-        [ 
+        Item.of('farmersdelight:wheat_dough', 3),
+        [
             'create:wheat_flour',
             'create:wheat_flour',
             'minecraft:water_bucket',
             'bakery:yeast'
         ]
-      )
+    )
 
     //Recipes Use Cheese ======================================================
     //Cheeseburger from Scratch
     event.shapeless(
-        Item.of('delightful:cheeseburger'), 
-        [ 
+        Item.of('delightful:cheeseburger'),
+        [
             'minecraft:bread',
             '#candlelight:cooked_beef',
             '#forge:crops/cabbage',
@@ -123,32 +122,32 @@ ServerEvents.recipes(event => {
             'farmersdelight:tomato',
             'farmersdelight:onion'
         ]
-      )
+    )
 
     //Cheeseburger from burger
     event.shapeless(
-        Item.of('delightful:cheeseburger'), 
-        [ 
+        Item.of('delightful:cheeseburger'),
+        [
             'farmersdelight:hamburger',
             '#forge:cheese',
         ]
-        )
+    )
 
     //Deluxe Cheeseburger from Cheeseburger
     event.shapeless(
-        Item.of('delightful:deluxe_cheeseburger'), 
-        [ 
+        Item.of('delightful:deluxe_cheeseburger'),
+        [
             'delightful:cheeseburger',
             '#forge:cheese',
             '#candlelight:cooked_beef',
             '#forge:cooked_bacon'
         ]
-        )
+    )
 
     //Deluxe Cheeseburger from Scratch
     event.shapeless(
-        Item.of('delightful:deluxe_cheeseburger'), 
-        [ 
+        Item.of('delightful:deluxe_cheeseburger'),
+        [
             'minecraft:bread',
             '#candlelight:cooked_beef',
             '#candlelight:cooked_beef',
@@ -159,7 +158,7 @@ ServerEvents.recipes(event => {
             'farmersdelight:onion',
             '#forge:cooked_bacon'
         ]
-        )
+    )
 
     // Trevally with Cheese
     /*
@@ -220,63 +219,62 @@ ServerEvents.recipes(event => {
             'DAD',
             'ABA',
             'CCC'
-        ],
-        {
+        ], {
             A: 'minecraft:iron_ingot',
             B: 'forbidden_arcanus:edelwood_oil',
             C: 'minecraft:iron_nugget',
             D: 'eidolon:enchanted_ash'
         }
     )
-/*
-    // Lead Doors
-    event.shaped(
-        Item.of('dramaticdoors:short_lead_door'),
-        [
-            'AA ',
-            'AA '
-        ],
-        {
-            A: 'eidolon:lead_ingot',
-        }
-    )
+    /*
+        // Lead Doors
+        event.shaped(
+            Item.of('dramaticdoors:short_lead_door'),
+            [
+                'AA ',
+                'AA '
+            ],
+            {
+                A: 'eidolon:lead_ingot',
+            }
+        )
 
-    event.shaped(
-        Item.of('dramaticdoors:tall_lead_door'),
-        [
-            'AA ',
-            'AA ',
-            'AA '
-        ],
-        {
-            A: 'eidolon:lead_ingot',
-        }
-    )
+        event.shaped(
+            Item.of('dramaticdoors:tall_lead_door'),
+            [
+                'AA ',
+                'AA ',
+                'AA '
+            ],
+            {
+                A: 'eidolon:lead_ingot',
+            }
+        )
 
-    // Silver Doors
-    event.shaped(
-        Item.of('dramaticdoors:short_silver_door'),
-        [
-            'AA ',
-            'AA '
-        ],
-        {
-            A: 'eidolon:silver_ingot',
-        }
-    )
+        // Silver Doors
+        event.shaped(
+            Item.of('dramaticdoors:short_silver_door'),
+            [
+                'AA ',
+                'AA '
+            ],
+            {
+                A: 'eidolon:silver_ingot',
+            }
+        )
 
-    event.shaped(
-        Item.of('dramaticdoors:tall_silver_door'),
-        [
-            'AA ',
-            'AA ',
-            'AA '
-        ],
-        {
-            A: 'eidolon:silver_ingot',
-        }
-    )
-    */
+        event.shaped(
+            Item.of('dramaticdoors:tall_silver_door'),
+            [
+                'AA ',
+                'AA ',
+                'AA '
+            ],
+            {
+                A: 'eidolon:silver_ingot',
+            }
+        )
+        */
 
     // Building Gadgets
 
@@ -287,8 +285,7 @@ ServerEvents.recipes(event => {
             'ABA',
             'CBC',
             'ADA'
-        ],
-        {
+        ], {
             A: 'create:brass_ingot',
             B: 'minecraft:redstone',
             C: 'minecraft:diamond',
@@ -298,12 +295,11 @@ ServerEvents.recipes(event => {
 
     //Exchanging Gadget
     event.shaped(
-        Item.of('buildinggadgets2:gadget_exchanging', '{energy:500000,uuid:[I;2068449905,-191871022,-1763510008,-1044204975]}'),        [
+        Item.of('buildinggadgets2:gadget_exchanging', '{energy:500000,uuid:[I;2068449905,-191871022,-1763510008,-1044204975]}'), [
             'ABA',
             'CDC',
             'ADA'
-        ],
-        {
+        ], {
             A: 'create:brass_ingot',
             B: 'minecraft:redstone',
             C: 'minecraft:diamond',
@@ -313,13 +309,12 @@ ServerEvents.recipes(event => {
 
     //Copy Paste Gadget
     event.shaped(
-        Item.of('buildinggadgets2:gadget_copy_paste', '{energy:500000.0d,mode:0b,template_id:[I;-1758435112,-1217443030,-1679697278,2082124584]}'),        
+        Item.of('buildinggadgets2:gadget_copy_paste', '{energy:500000.0d,mode:0b,template_id:[I;-1758435112,-1217443030,-1679697278,2082124584]}'),
         [
             'ABA',
             'CBC',
             'ADA'
-        ],
-        {
+        ], {
             A: 'create:brass_ingot',
             B: 'minecraft:redstone',
             C: 'minecraft:emerald',
@@ -334,8 +329,7 @@ ServerEvents.recipes(event => {
             'ABA',
             'CBC',
             'ADA'
-        ],
-        {
+        ], {
             A: 'create:brass_ingot',
             B: 'minecraft:redstone',
             C: 'minecraft:ender_pearl',
@@ -350,8 +344,7 @@ ServerEvents.recipes(event => {
             'ABA',
             'DBD',
             'ACA'
-        ],
-        {
+        ], {
             A: 'minecraft:gold_ingot',
             B: 'minecraft:redstone',
             C: 'minecraft:coal_block',
@@ -366,8 +359,7 @@ ServerEvents.recipes(event => {
             'ABA',
             'BCB',
             'ADA'
-        ],
-        {
+        ], {
             A: 'minecraft:copper_ingot',
             B: 'minecraft:redstone',
             C: 'minecraft:emerald',
@@ -383,8 +375,7 @@ ServerEvents.recipes(event => {
             ' A ',
             'ABA',
             ' A '
-        ],
-        {
+        ], {
             A: 'minecraft:gold_ingot',
             B: 'easy_mob_farm:iron_mob_farm_template'
         }
@@ -396,8 +387,7 @@ ServerEvents.recipes(event => {
             ' A ',
             'ABA',
             ' A '
-        ],
-        {
+        ], {
             A: 'minecraft:iron_ingot',
             B: 'easy_mob_farm:copper_mob_farm_template'
         }
@@ -411,8 +401,7 @@ ServerEvents.recipes(event => {
             ' A ',
             'BCD',
             ' A '
-        ],
-        {
+        ], {
             A: 'minecraft:ender_eye',
             B: 'handcrafted:hammer',
             C: 'endermanoverhaul:crimson_pearl',
@@ -427,8 +416,7 @@ ServerEvents.recipes(event => {
             ' A ',
             'BCD',
             ' A '
-        ],
-        {
+        ], {
             A: 'minecraft:ender_eye',
             B: 'minecraft:fire_coral',
             C: 'endermanoverhaul:bubble_pearl',
@@ -443,8 +431,7 @@ ServerEvents.recipes(event => {
             ' A ',
             'BCD',
             ' A '
-        ],
-        {
+        ], {
             A: 'minecraft:ender_eye',
             B: 'eidolon:holy_symbol',
             C: 'endermanoverhaul:summoner_pearl',
@@ -459,8 +446,7 @@ ServerEvents.recipes(event => {
             ' A ',
             'BCB',
             ' A '
-        ],
-        {
+        ], {
             A: 'minecraft:ender_eye',
             B: 'minecraft:chiseled_sandstone',
             C: 'endermanoverhaul:ancient_pearl'
@@ -474,8 +460,7 @@ ServerEvents.recipes(event => {
             ' A ',
             'BCB',
             ' A '
-        ],
-        {
+        ], {
             A: 'minecraft:ender_eye',
             B: 'eidolon:silver_ingot',
             C: 'endermanoverhaul:warped_pearl'
@@ -489,8 +474,7 @@ ServerEvents.recipes(event => {
             ' A ',
             'BCB',
             ' A '
-        ],
-        {
+        ], {
             A: 'minecraft:ender_eye',
             B: 'minecraft:prismarine_shard',
             C: 'endermanoverhaul:soul_pearl'
@@ -504,8 +488,7 @@ ServerEvents.recipes(event => {
             ' A ',
             'BCB',
             ' A '
-        ],
-        {
+        ], {
             A: 'minecraft:ender_eye',
             B: 'forbidden_arcanus:corrupti_dust',
             C: 'endermanoverhaul:corrupted_pearl'
@@ -519,8 +502,7 @@ ServerEvents.recipes(event => {
             ' A ',
             'BCB',
             ' A '
-        ],
-        {
+        ], {
             A: 'minecraft:ender_eye',
             B: 'minecraft:blue_ice',
             C: 'endermanoverhaul:icy_pearl'
@@ -529,12 +511,11 @@ ServerEvents.recipes(event => {
 
     //Rope
     event.shaped(
-    Item.of('beautify:hanging_pot'),
+        Item.of('beautify:hanging_pot'),
         [
             ' A ',
             ' B '
-        ],
-        {
+        ], {
             A: '#supplementaries:ropes',
             B: 'minecraft:flower_pot'
         }
@@ -543,33 +524,33 @@ ServerEvents.recipes(event => {
     //End Remastered Eyes to Pearls
     event.shapeless(
         Item.of('minecraft:ender_pearl', 4),
-        [ 
+        [
             '#forge:eyes'
         ]
-        )
+    )
 
     event.smithing(
-        'easy_mob_farm:netherite_mob_farm_template',  // arg 1: output
+        'easy_mob_farm:netherite_mob_farm_template', // arg 1: output
         'easy_mob_farm:gold_mob_farm_template', // arg 2: the item to be upgraded
-        'minecraft:netherite_ingot',   // arg 3: the upgrade item
+        'minecraft:netherite_ingot', // arg 3: the upgrade item
         'minecraft:diamond'
-      )
+    )
 
-      //Herbal Brews Fixing
-      event.smoking('herbalbrews:dried_green_tea', 'herbalbrews:green_tea_leaf')
-      event.smoking('herbalbrews:dried_oolong_tea', 'herbalbrews:dried_green_tea')
-      event.smoking('herbalbrews:dried_black_tea', 'herbalbrews:dried_oolong_tea')
+    //Herbal Brews Fixing
+    event.smoking('herbalbrews:dried_green_tea', 'herbalbrews:green_tea_leaf')
+    event.smoking('herbalbrews:dried_oolong_tea', 'herbalbrews:dried_green_tea')
+    event.smoking('herbalbrews:dried_black_tea', 'herbalbrews:dried_oolong_tea')
 
-      //Uncraft Dried Green Tea Block
-      event.shapeless(
+    //Uncraft Dried Green Tea Block
+    event.shapeless(
         Item.of('herbalbrews:dried_green_tea', 9),
         [
             'herbalbrews:dried_green_tea_leaf_block'
         ]
-      )
+    )
 
-      //Craft Black Tea Block
-      event.shapeless(
+    //Craft Black Tea Block
+    event.shapeless(
         Item.of('herbalbrews:black_tea_leaf_block'),
         [
             'herbalbrews:dried_black_tea',
@@ -582,18 +563,18 @@ ServerEvents.recipes(event => {
             'herbalbrews:dried_black_tea',
             'herbalbrews:dried_black_tea'
         ]
-      )
+    )
 
-      //Uncraft Black Tea Block
-      event.shapeless(
+    //Uncraft Black Tea Block
+    event.shapeless(
         Item.of('herbalbrews:dried_black_tea', 9),
         [
             'herbalbrews:black_tea_leaf_block'
         ]
-      )
+    )
 
-      //Craft Oolong Tea Block
-      event.shapeless(
+    //Craft Oolong Tea Block
+    event.shapeless(
         Item.of('herbalbrews:oolong_tea_leaf_block'),
         [
             'herbalbrews:dried_oolong_tea',
@@ -606,40 +587,52 @@ ServerEvents.recipes(event => {
             'herbalbrews:dried_oolong_tea',
             'herbalbrews:dried_oolong_tea'
         ]
-      )
+    )
 
-      //Uncraft Oolong Tea Block
-      event.shapeless(
+    //Uncraft Oolong Tea Block
+    event.shapeless(
         Item.of('herbalbrews:dried_oolong_tea', 9),
         [
             'herbalbrews:oolong_tea_leaf_block'
         ]
-      )
+    )
 
-      //Compost
-      event.shapeless(
-        Item.of('farmersdelight:organic_compost', 2), 
-        [ 
-            {tag: 'forge:dirt'},
-            {tag: 'supplementaries:straw'},
-            {tag: 'supplementaries:straw'},
-            'minecraft:bone_meal',
-            'minecraft:bone_meal',
-            {tag: 'forge:compost'},
-            {tag: 'forge:compost'},
-            {tag: 'forge:compost'},
-            {tag: 'forge:compost'}
-        ]
-      )
-
-          //Eccentric Tome
+    //Compost
     event.shapeless(
-        Item.of('eccentrictome:tome', '{"eccentrictome:mods":{aether:{0:{Count:1b,id:"aether:book_of_lore"}},eidolon:{0:{Count:1b,id:"eidolon:codex"}},fdcookbook:{0:{Count:1b,id:"fdcookbook:fd_cookbook"}},ftbquests:{0:{Count:1b,id:"ftbquests:book"}},lexicon:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"lexicon:lexicon"}}},solonion:{0:{Count:1b,id:"solonion:food_book"}},unusualprehistory:{0:{Count:1b,id:"unusualprehistory:encyclopedia"}}}}')
-        ,[ 
-                'minecraft:book',
-                'minecraft:stick'
-            ]
-          )
+        Item.of('farmersdelight:organic_compost', 2),
+        [{
+                tag: 'forge:dirt'
+            },
+            {
+                tag: 'supplementaries:straw'
+            },
+            {
+                tag: 'supplementaries:straw'
+            },
+            'minecraft:bone_meal',
+            'minecraft:bone_meal',
+            {
+                tag: 'forge:compost'
+            },
+            {
+                tag: 'forge:compost'
+            },
+            {
+                tag: 'forge:compost'
+            },
+            {
+                tag: 'forge:compost'
+            }
+        ]
+    )
+
+    //Eccentric Tome
+    event.shapeless(
+        Item.of('eccentrictome:tome', '{"eccentrictome:mods":{aether:{0:{Count:1b,id:"aether:book_of_lore"}},eidolon:{0:{Count:1b,id:"eidolon:codex"}},fdcookbook:{0:{Count:1b,id:"fdcookbook:fd_cookbook"}},ftbquests:{0:{Count:1b,id:"ftbquests:book"}},lexicon:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"lexicon:lexicon"}}},solonion:{0:{Count:1b,id:"solonion:food_book"}},unusualprehistory:{0:{Count:1b,id:"unusualprehistory:encyclopedia"}}}}'), [
+            'minecraft:book',
+            'minecraft:stick'
+        ]
+    )
 
     //Chest Recipe with Logs
     event.shaped(
@@ -648,8 +641,7 @@ ServerEvents.recipes(event => {
             'AAA',
             'A A',
             'AAA'
-        ],
-        {
+        ], {
             A: '#minecraft:logs'
         }
     )
@@ -657,18 +649,18 @@ ServerEvents.recipes(event => {
     //Uncompress Honey
     event.shapeless(
         Item.of('minecraft:honeycomb', 4),
-        [ 
+        [
             'minecraft:honeycomb_block'
         ]
-        )
+    )
 
     //Uncompress Quartz
     event.shapeless(
         Item.of('minecraft:quartz', 4),
-        [ 
+        [
             'minecraft:quartz_block'
         ]
-        )
+    )
 
     // Pipez Item Pipe
     event.shaped(
@@ -677,8 +669,7 @@ ServerEvents.recipes(event => {
             'AAA',
             'BBB',
             'AAA'
-        ],
-        {
+        ], {
             A: 'minecraft:copper_ingot',
             B: 'minecraft:redstone'
         }
@@ -691,8 +682,7 @@ ServerEvents.recipes(event => {
             'ABA',
             'ACA',
             'ADA'
-        ],
-        {
+        ], {
             A: 'create:golden_sheet',
             B: 'minecraft:dragon_egg',
             C: 'minecraft:nether_star',
@@ -707,8 +697,7 @@ ServerEvents.recipes(event => {
             ' A ',
             'ABA',
             ' A '
-        ],
-        {
+        ], {
             A: 'waystones:warp_scroll',
             B: 'minecraft:emerald'
         }
@@ -721,11 +710,10 @@ ServerEvents.recipes(event => {
             'ABA',
             'CDC',
             'ABA'
-        ],
-        {
+        ], {
             A: 'minecraft:copper_ingot',
-            B: 'minecraft:blue_ice', 
-            C: 'minecraft:iron_ingot', 
+            B: 'minecraft:blue_ice',
+            C: 'minecraft:iron_ingot',
             D: 'unusualprehistory:permafrost'
         }
     )
@@ -737,8 +725,7 @@ ServerEvents.recipes(event => {
             'ABA',
             'CDC',
             'EFE'
-        ],
-        {
+        ], {
             A: 'unusualprehistory:insulator',
             B: 'minecraft:green_stained_glass',
             C: 'minecraft:copper_ingot',
@@ -755,11 +742,10 @@ ServerEvents.recipes(event => {
             'ABA',
             'CDC',
             'ABA'
-        ],
-        {
+        ], {
             A: 'galosphere:pink_salt_shard',
-            B: 'galosphere:cured_membrane', 
-            C: 'galosphere:salted_jerky', 
+            B: 'galosphere:cured_membrane',
+            C: 'galosphere:salted_jerky',
             D: 'eidolon:zombie_heart',
         }
     )
@@ -767,7 +753,7 @@ ServerEvents.recipes(event => {
     //Insulator
     event.shapeless(
         Item.of('unusualprehistory:insulator'),
-        [ 
+        [
             'minecraft:light_blue_wool', 'minecraft:magma_cream', 'minecraft:light_gray_wool'
         ]
     )
@@ -776,7 +762,7 @@ ServerEvents.recipes(event => {
     // Waystones to Sharestones
     event.shapeless(
         Item.of('waystones:sharestone'),
-        [ 
+        [
             '#forge:waystones'
         ]
     )
@@ -787,8 +773,7 @@ ServerEvents.recipes(event => {
         [
             'AA ',
             'AA '
-        ],
-        {
+        ], {
             A: '#minecraft:wooden_slabs'
         }
     )
@@ -796,7 +781,7 @@ ServerEvents.recipes(event => {
     // String from Wool
     event.shapeless(
         Item.of('minecraft:string', 4),
-        [ 
+        [
             '#minecraft:wool'
         ]
     )
@@ -894,8 +879,8 @@ ServerEvents.recipes(event => {
         'plushies:pig_plushie',
         'plushies:horse_plushie',
         'plushies:bee_plushie',
-        'plushies:cat_plushie', 
-        'plushies:chicken_plushie', 
+        'plushies:cat_plushie',
+        'plushies:chicken_plushie',
         'plushies:wolf_plushie',
         'plushies:allay_plushie',
         'plushies:red_fox_plushie',
@@ -921,8 +906,8 @@ ServerEvents.recipes(event => {
         'plushies:killer_bunny_plushie',
         'plushies:iron_golem_plushie',
         'plushies:wandering_trader_plushie',
-        'plushies:villager_plushie', 
-        'plushies:toast_rabbit_plushie', 
+        'plushies:villager_plushie',
+        'plushies:toast_rabbit_plushie',
         'plushies:white_splotched_rabbit_plushie',
         'plushies:yellow_rabbit_plushie',
         'plushies:salt_rabbit_plushie',
@@ -948,8 +933,8 @@ ServerEvents.recipes(event => {
         'plushies:elder_guardian_plushie',
         'plushies:turtle_plushie',
         'plushies:frog_plushie',
-        'plushies:warm_frog_plushie', 
-        'plushies:cold_frog_plushie', 
+        'plushies:warm_frog_plushie',
+        'plushies:cold_frog_plushie',
         'plushies:tadpole_plushie',
         'plushies:salmon_plushie',
         'plushies:cod_plushie',
@@ -975,8 +960,8 @@ ServerEvents.recipes(event => {
         'plushies:wither_skeleton_plushie',
         'plushies:piglin_plushie',
         'plushies:piglin_brute_plushie',
-        'plushies:zombiefied_piglin_plushie', 
-        'plushies:blaze_plushie', 
+        'plushies:zombiefied_piglin_plushie',
+        'plushies:blaze_plushie',
         'practical_plushies_animals:turtle_plushie',
         'practical_plushies_animals:camel_plushie',
         'practical_plushies_animals:horse_plushie',
@@ -1002,8 +987,8 @@ ServerEvents.recipes(event => {
         'practical_plushies_animals:cow_plushie',
         'practical_plushies_animals:fox_plushie',
         'practical_plushies_animals:parrot_plushie',
-        'practical_plushies_animals:pig_plushie', 
-        'practical_plushies_animals:sheep_plushie', 
+        'practical_plushies_animals:pig_plushie',
+        'practical_plushies_animals:sheep_plushie',
         'plushies:ghast_plushie',
         'plushies:hoglin_plushie',
         'plushies:zoglin_plushie',
@@ -1017,14 +1002,11 @@ ServerEvents.recipes(event => {
                 'AAA',
                 'ABA',
                 'AAA'
-            ],
-            {
+            ], {
                 A: '#minecraft:wool',
                 B: plush
             }
         )
     }
 
-  })
-
-  
+})

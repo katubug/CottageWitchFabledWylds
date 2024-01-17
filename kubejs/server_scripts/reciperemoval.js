@@ -99,6 +99,8 @@ ServerEvents.recipes(event => {
         {output: 'delightful:glow_jelly_bottle'},
         {input: 'aquaculture:tuna'},
         {output: 'delightful:blueberry_sack'},
+        {output: 'trashcans:energy_trash_can'},
+        {output: 'framedblocks:powered_framing_saw'},
         //Replaced Recipes
         {output: 'mighty_mail:post_box'},
         {output: 'farmersdelight:wheat_dough'},

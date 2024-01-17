@@ -1,8 +1,8 @@
 {
   "quality": {
-    "weather_quality": "DEFAULT",
-    "leaves_quality": "DEFAULT",
-    "enable_vignette": true
+    "weather_quality": "FAST",
+    "leaves_quality": "FANCY",
+    "enable_vignette": false
   },
   "advanced": {
     "enable_memory_tracing": false,
@@ -22,6 +22,6 @@
     "use_no_error_g_l_context": true
   },
   "notifications": {
-    "hide_donation_button": false
+    "hide_donation_button": true
   }
 }

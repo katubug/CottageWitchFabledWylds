@@ -460,6 +460,10 @@
 	  {
 		  "id": "butterflies:swallowtail_chrysalis",
 		  "required": false
+	  },
+	  {
+		  "id": "the_bumblezone:bee_queen",
+		  "required": false
 	  }
   ]
 }

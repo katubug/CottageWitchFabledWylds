@@ -8,7 +8,7 @@
 	#Range: 0 ~ 1000000
 	maxRadius = 10000
 	#A list of structures that the compass will not display in the GUI and will not be able to search for. Wildcard character * can be used to match any number of characters, and ? can be used to match one character. Ex: ["minecraft:stronghold", "minecraft:endcity", "minecraft:*village*"]
-	structureBlacklist = []
+	structureBlacklist = ["the_bumblezone:cell_maze", "the_bumblezone:sempiternal_sanctum_blue", "the_bumblezone:sempiternal_sanctum_red", "the_bumblezone:sempiternal_sanctum_yellow", "the_bumblezone:sempiternal_sanctum_green", "the_bumblezone:sempiternal_sanctum_purple", "the_bumblezone:sempiternal_sanctum_white", "the_bumblezone:throne_pillar"]
 	#The maximum number of samples to be taken when searching for a structure.
 	#Range: 0 ~ 100000000
 	maxSamples = 100000

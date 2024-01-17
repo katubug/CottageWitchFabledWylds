@@ -1,4 +1,5 @@
 {
+	autofocus_id: "5F7EBDA2EDC4F25B"
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
@@ -149,8 +150,23 @@
 					type: "item"
 				}
 				{
-					id: "32DD7FF8676CA282"
-					item: "farmersrespite:green_tea_cookie"
+					id: "74D424DD9551F89F"
+					item: "mysticsbiomes:pumpkin_cookie"
+					type: "item"
+				}
+				{
+					id: "4E88AA295F899E23"
+					item: "fruitsdelight:persimmon_cookie"
+					type: "item"
+				}
+				{
+					id: "443B56C906C4F9B2"
+					item: "fruitsdelight:lemon_cookie"
+					type: "item"
+				}
+				{
+					id: "7F71B1A3C72D4C42"
+					item: "fruitsdelight:cranberry_cookie"
 					type: "item"
 				}
 			]
@@ -489,6 +505,7 @@
 		{
 			description: [
 				"Looking for something to spend some time on? Why not &aa Scavenger Hunt?&r. Obtain these items for the ability to claim an incredible prize!"
+				""
 				"&6Click the checkbox in this quest to begin.&r. This can be done at any time."
 			]
 			id: "505C0E55270CBFBC"
@@ -543,6 +560,7 @@
 			]
 			description: [
 				"&dCongratulations&r on collecting every item in the hunt! Please enjoy your fabulous prizes (and the sense of personal satisfaction, which is the real treasure)."
+				""
 				"The check mark above unlocks &6once all Scavenger Hunt Quests are done&r."
 			]
 			hide_dependency_lines: true

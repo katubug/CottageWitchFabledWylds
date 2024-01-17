@@ -2060,6 +2060,110 @@
 			x: -9.0d
 			y: -4.0d
 		}
+		{
+			description: [
+				"The noble &eCrab&r can be found in &cMangrove Swamps&r, or on &cBeaches&r. Similarly to spiders, they are able to &aclimb the sides of blocks&r."
+				""
+				"They have two &bClaws&r, one of which is significantly larger than the other. These claws &acontinue to grow&r over the creature's lifespan, and can be Small, Medium, or Large."
+				""
+				"Crabs occasionally &awave their dominant claws&r, and if a &eCrab&r has a &bLarge&r claw, there is a chance for &ait to drop off&r, revealing a smaller claw underneath. These discarded shells despawn after &done minute&r, so be quick if you want to get your hands on one!"
+				""
+				"The &bCrab Claw&r can be held to &aincrease block reach build distance by 2&r. Each use consumes durability, and &bClaws&r cannot be repaired."
+				""
+				"Crabs cannot be bred or tamed."
+			]
+			id: "0356686F0D027673"
+			rewards: [{
+				id: "4D44D164BB546709"
+				item: {
+					Count: 1b
+					id: "whatareyouvotingfor:crab_claw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "waving at the waves"
+			tasks: [{
+				icon: "crabbersdelight:cooked_crab"
+				id: "50155B1ED0B23B6C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "whatareyouvotingfor:crab"
+				type: "observation"
+			}]
+			title: "Meet the Crab"
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"The &eArmadillo&r can be found in &cSavannah&r type biomes, and always spawns alone."
+				""
+				"They are easily frightened creatures, and when startled will &acurl up like a block&r, making them &amassively resistant to damage&r and also &aimmune to arrows&r. &eArmadillos&r are afraid of:"
+				""
+				"- Monsters"
+				"- Mobs that aren't monsters (although they will calm down if the animal remains nearby)"
+				"- Being hurt (frightens all nearby Armadillos also)"
+				"- Players walking without crouching"
+				"- Quick movements such as turning quickly or falling down"
+				""
+				"&eArmadillos&r can be &atempted and bred using &bEggs&r. When Baby Armadillos grow up, they &adrop a &bScute&r, which can be used to craft &bArmor&r for your &bWolf&r!"
+			]
+			id: "40A9FF60E79ED869"
+			rewards: [{
+				count: 4
+				id: "012B9088D4EC2C1B"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "what's the dealio, armadillio?"
+			tasks: [{
+				icon: "whatareyouvotingfor:armadillo_scute"
+				id: "7792E08C97EB12B8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "whatareyouvotingfor:armadillo"
+				type: "observation"
+			}]
+			title: "Meet the Armadillo"
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&ePenguins&r are semi-aquatic birds which live on &cStony Shores&r and in &cIce Spikes&r."
+				""
+				"Although graceful in the water, these animals are &aclumsy on land&r, and may trip and fall. They are naturally curious and may approach you to watch for a while."
+				""
+				"They can be &abred&r using &bSalmon&r or &bCod&r. After breeding, the &ePenguin&r will lay an &bEgg&r on land, and sit on it until it hatches. &bPenguin Eggs&r do not hatch without being properly incubated by a &ePenguin&r. If an &bEgg&r is abandoned, nearby &ePenguins&r may adopt it as their own."
+				""
+				"When in a boat near &ePenguins&r, they will swim up to you and &agive you extra speed&r!"
+			]
+			id: "1E7014F43C19F95C"
+			rewards: [{
+				count: 4
+				id: "31EE4CD9502B253A"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "el pinguino"
+			tasks: [{
+				icon: "whatareyouvotingfor:penguin_egg"
+				id: "2495C4F792A2EFFB"
+				observe_type: 0
+				timer: 0L
+				to_observe: "whatareyouvotingfor:penguin"
+				type: "observation"
+			}]
+			title: "Meet the Penguin"
+			x: 17.0d
+			y: -2.5d
+		}
 	]
 	title: "Wildlife"
 }

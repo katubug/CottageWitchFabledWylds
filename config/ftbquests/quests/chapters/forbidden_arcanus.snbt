@@ -971,6 +971,32 @@
 			x: -0.5d
 			y: -11.0d
 		}
+		{
+			description: [
+				"You may notice these intangible beings floating about in your world. These &eLost Souls&r are just that - wandering spirits who have lost corporeal form. Some may have been fey, beasts, or even humans. But now they are just shadows."
+				""
+				"You &acannot harm them by normal means&r, and they will not harm you. In fact, they may not even notice you at all."
+			]
+			id: "098989FFC63144B1"
+			rewards: [{
+				id: "6C5867B8EB80F515"
+				item: "forbidden_arcanus:soul"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "who are you, lil guy?"
+			tasks: [{
+				icon: "forbidden_arcanus:soul"
+				id: "7D78569C42C78AED"
+				observe_type: 5
+				timer: 0L
+				to_observe: "forbidden_arcanus:lost_soul"
+				type: "observation"
+			}]
+			title: "Meet a Lost Soul"
+			x: -9.0d
+			y: -14.0d
+		}
 	]
 	title: "Forbidden \\& Arcanus"
 }

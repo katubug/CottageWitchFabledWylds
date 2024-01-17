@@ -149,8 +149,8 @@
 				}
 			]
 			title: "Gadgets, Part 1"
-			x: 5.0d
-			y: -2.0d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1AFE0FBF887D22FD"]
@@ -194,8 +194,8 @@
 				}
 			]
 			title: "Gadgets, Part 2"
-			x: 5.0d
-			y: 0.5d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1184EA40A20DEB5D"]
@@ -219,8 +219,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			description: ["Lanterns can now be placed on walls! That's it, that's the tweet."]
@@ -688,7 +688,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.0d
 			y: 0.5d
 		}
 		{
@@ -835,6 +835,165 @@
 			}]
 			x: -7.0d
 			y: 3.0d
+		}
+		{
+			description: [
+				"&bWind Chimes&r are lovely decorative blocks which &aproduce unique sounds&r to soothe you."
+				""
+				"They have the added bonus of &arepelling &ePhantoms&r!"
+			]
+			id: "1B32E8DD0C5CD3A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AB1FCAE0E6CE307"
+				table_id: 8096229411196850122L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "388CB6543BEDA841"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:wind_chimes"
+					}
+				}
+				title: "Any #forge:wind_chimes"
+				type: "item"
+			}]
+			title: "Wind Chimes"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&bFramed Blocks&r are a unique item similar to &lCreate's&r &bCopycat Blocks&r. They are frameworks which can &adisplay the texture of another block&r. To do this, &6place the &bFramed Block&r and then &6right click it with another block&r."
+				""
+				"Framed blocks come in &a multitude of different shapes&r, many of which are not available in vanilla, such as &aslopes and corners&r. You can use this mod to elevate your builds to a new level!"
+			]
+			id: "39844F8340E6A438"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "2B8B387D21F60115"
+				item: "framedblocks:framed_cube"
+				type: "item"
+			}]
+			title: "Framed Blocks"
+			x: 6.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["39844F8340E6A438"]
+			description: ["Although you can &acraft many of the &bFramed Blocks&r &adirectly&r, it's highly recommended to get a &bFraming Saw&r, which acts very similarly to a &bStonecutter&r, and will allow you to craft the basic &bFramed Cube&r and then &6alter it to a different shape&r."]
+			id: "0C3A4C2AADB4DCD8"
+			tasks: [{
+				id: "2C43AB1CC7A2DB59"
+				item: "framedblocks:framing_saw"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39844F8340E6A438"]
+			description: [
+				"The &bFramed Hammer&r can be used to &aremove the &acosmetic block&r from a &framed block&r by &6right clicking&r."
+				""
+				"It can also be used to &acustomize the slope of a &bFramed Collapsible Block&r. &6Left click&r the corner on the face you want to change to &amove the face inward&r and &6left click the corner while sneaking&r to &amove the face outward.&r"
+				""
+				"The latch of the &bFramed Chest&r can be switched between three modes by &6left clicking the chest with a &bFramed Hammer&r: "
+				"- Default chest latch (default state) "
+				"- Camo-textured latch "
+				"- No latch"
+				""
+				"The &bFramed Pressure Plates&r (all variants) can be switched between &awaterloggable and non-waterloggable&r by &6left-clicking them with a &bFramed Hammer&r. Their default state is non-waterloggable to match vanilla behaviour."
+			]
+			id: "10522CDFCA586C03"
+			shape: "hexagon"
+			tasks: [{
+				id: "3512D09881BBB55C"
+				item: "framedblocks:framed_hammer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39844F8340E6A438"]
+			description: ["The &bFramed Wrench&r (and &aall other &bWrenches&r) can be used to rotate the Framed Block. On most blocks, the &arotation behaviour is dependent on the face&r that was clicked."]
+			id: "7A91474C948416AC"
+			shape: "hexagon"
+			tasks: [{
+				id: "76157035E5314C9A"
+				item: "framedblocks:framed_wrench"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39844F8340E6A438"]
+			description: ["The &bFramed Blueprint&r allows copying &bFramed Blocks&r including their &acosmetic block&r and &aglowing state&r. The &drotation of the Framed Block itself is not copied&r."]
+			id: "545AAD86EA0B7701"
+			shape: "hexagon"
+			tasks: [{
+				id: "574AAB47BA4BDEAE"
+				item: {
+					Count: 1b
+					id: "framedblocks:framed_blueprint"
+					tag: {
+						blueprint_data: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39844F8340E6A438"]
+			description: ["The &bFramed Key&r allows &alocking certain Framed Blocks in their current shape&r to suppress neighbor updates. This allows &aplacing blocks in configurations that would not be possible&r with the desired neighbors (i.e. placing Framed Stairs in the corner shape without keeping the necessary neighbors to force that shape)."]
+			id: "0A6B50D21095E2AA"
+			shape: "hexagon"
+			tasks: [{
+				id: "36C0181DF101D2D8"
+				item: "framedblocks:framed_key"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39844F8340E6A438"]
+			description: [
+				"To begin with the &bFramed Screwdriver&r can be used to &acycle through different states of the &bcosmetic block&r."
+				""
+				"It can also be used to &aremove the &bPhantom Membrane&r from intangible &bFramed Blocks&r by &6shift right clicking&r it onto the block."
+			]
+			id: "7C9FD049608453D0"
+			shape: "hexagon"
+			tasks: [{
+				id: "33560AB3BC07DCB1"
+				item: "framedblocks:framed_screwdriver"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39844F8340E6A438"]
+			description: ["The &bFramed Reinforcement&r is an item which, when &6right clicked on a &bFramed Block&r, will &agrant it &bBlast Resistance&r."]
+			id: "1D28D1DF0BA0F0D6"
+			shape: "hexagon"
+			tasks: [{
+				id: "14E7B563E23795BE"
+				item: "framedblocks:framed_reinforcement"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
 		}
 	]
 	title: "Building \\& Decorating"

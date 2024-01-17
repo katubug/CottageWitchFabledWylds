@@ -1,4 +1,5 @@
 {
+	autofocus_id: "2BE44A5A7C52C52D"
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
@@ -813,7 +814,7 @@
 				""
 				"Make sure you &aload your Palette with dye first!&r You can do this by &6crafting Dyes together with the Palette&r."
 				""
-				"{image:cottagewitch:textures/palette.png width:100 height:100 align:1}"
+				"{image:enchanted_wilds:textures/questimages/palette.png width:100 height:100 align:1}"
 				""
 				"Read more on the next page."
 				"{@pagebreak}"
@@ -821,17 +822,17 @@
 				""
 				"Use the &aWater&r on your Palette to erase a mixed color. Use the &ablending options&r on the right of the &bCanvas&r to blend your colors together. Change your &abrush size&r there, too!"
 				""
-				"{image:cottagewitch:textures/joyofpainting.png width:100 height:80 align:1 fit:true}"
+				"{image:enchanted_wilds:textures/questimages/joyofpainting.png width:100 height:80 align:1 fit:true}"
 				""
 				"You can toggle tooltips using the button in the &atop right&r (not pictured)."
 				"{@pagebreak}"
 				"At any time, you can &6shift left click&r the &bEasel&r to take your painting down. You can &6hang the painting by right clicking it&r on a wall. You can remove it and edit it &aas long as you haven't signed it yet&r."
 				""
-				"{image:cottagewitch:textures/joyofpaintingsign.png width:100 height:90 align:1 fit:true}"
+				"{image:enchanted_wilds:textures/questimages/joyofpaintingsign.png width:100 height:90 align:1 fit:true}"
 				""
 				"Once you've signed it, it can no longer be edited, but it will be named what you titled it, and will show your name as the artist! Nice work!"
 				""
-				"{image:cottagewitch:textures/joyofpaintingdone.png width:100 height:100 align:1 fit:true}"
+				"{image:enchanted_wilds:textures/questimages/joyofpaintingdone.png width:100 height:100 align:1 fit:true}"
 			]
 			id: "076F2A55BD9D0BCA"
 			rewards: [
@@ -2960,6 +2961,29 @@
 			}]
 			x: -4.5d
 			y: -2.0d
+		}
+		{
+			description: [
+				"This humble &bTrash Can&r will help you &adispose all of your unwanted items&r without needing to risk setting your entire base on fire."
+				""
+				"It can accept &ainput from a &bPipe&r, as well as being used manually. "
+			]
+			id: "069DC32E95840336"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4469F01C2F510F27"
+				table_id: 6046676062417606251L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CC29D6C1F5B7B7A"
+				item: "trashcans:item_trash_can"
+				type: "item"
+			}]
+			title: "The Mighty Trash Can"
+			x: 1.5d
+			y: 4.5d
 		}
 	]
 	title: "Miscellaneous"

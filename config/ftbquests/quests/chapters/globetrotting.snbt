@@ -1,4 +1,5 @@
 {
+	autofocus_id: "4E9CAB55113B5280"
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
@@ -87,6 +88,7 @@
 		{
 			description: [
 				"This world has a ton of different structures for you to encounter! Some are dangerous, others contain only &amild peril&r."
+				""
 				"Most of them contain &ajuicy loot&r! Why not try to find all of them?"
 			]
 			id: "4EE44DF5D0E5BD53"
@@ -565,6 +567,138 @@
 			}]
 			x: -10.5d
 			y: 0.5d
+		}
+		{
+			id: "591CF255E9BDD1D1"
+			tasks: [{
+				id: "6B7D1A36D4285BD1"
+				structure: "verdantvibes:fairy_circle"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			id: "7210927B460B6B0F"
+			tasks: [{
+				id: "75CE3EDF1ACF8297"
+				structure: "swampier_swamps:village_swamp"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "2F11F1501E038311"
+			tasks: [{
+				id: "3E10A9FF916FCC7A"
+				structure: "adorabuild_structures:library_large_1"
+				type: "structure"
+			}]
+			title: "Visit your Local Library"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			id: "48ECF54E7038910F"
+			tasks: [{
+				id: "1D224C88E7ADFA3F"
+				structure: "betterdungeons:skeleton_dungeon"
+				type: "structure"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Visit both types of &cGraveyards&r to pay your respects to the dead."
+				""
+				"Or to ransack the place. The dead don't need &aall these bones anymore&r, do they?"
+			]
+			id: "5290EB7B63B925AA"
+			rewards: [
+				{
+					count: 3
+					id: "333DA6ABD33660CA"
+					item: "minecraft:black_candle"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6D8DEE4FE1AB3FA3"
+					item: "minecraft:cobweb"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "2E08CAE23617AE49"
+					structure: "structory:graveyard"
+					type: "structure"
+				}
+				{
+					id: "33301DDA1E95B4CA"
+					structure: "formationsoverworld:graveyard"
+					type: "structure"
+				}
+			]
+			title: "The Final Resting Places"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "7903C08408A091DF"
+			tasks: [{
+				id: "682331CF8B0E9E37"
+				structure: "dungeons_enhanced:tall_witch_hut"
+				type: "structure"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			description: ["A tower... it seems abandoned! What sort of treasures - and what sort of dangers - might it have in it's &abasement&r?"]
+			id: "21B1D0246C8E90EC"
+			tasks: [{
+				id: "05E27A5923603D89"
+				structure: "formationsoverworld:stone_tower"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			id: "50DA655C90509B80"
+			tasks: [{
+				id: "018B5A12E7D96074"
+				structure: "betterwitchhuts:witch_hut"
+				type: "structure"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			id: "3DA0BA730A8040BE"
+			tasks: [
+				{
+					id: "18A10BB4AF7A1194"
+					structure: "#ctov:large_village"
+					type: "structure"
+				}
+				{
+					id: "7AD6D5486EC931D1"
+					structure: "#ctov:medium_village"
+					type: "structure"
+				}
+				{
+					id: "54F676AF64CA77B1"
+					structure: "#ctov:small_village"
+					type: "structure"
+				}
+			]
+			x: 8.5d
+			y: 7.0d
 		}
 	]
 	title: "Globetrotting"

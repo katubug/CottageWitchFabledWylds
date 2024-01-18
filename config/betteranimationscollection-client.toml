@@ -21,7 +21,7 @@
 	#This one makes llamas open their mouth when spitting. How have they been doing that before?!
 	spitful_llama = true
 	#A truly stunning visual addition. Spiders now finally have the knees they've always dreamed of.
-	spider_knees = true
+	spider_knees = false
 	#Gives a jellyfish-like effect to the swimming animation of squids; generally just makes their tentacles flow more while moving.
 	squiggly_squid_tentacles = true
 	#A pleasing visual change; this makes the insides of slimes flow around like liquid.
@@ -29,7 +29,7 @@
 	jiggly_liquidy_slime = true
 	#Remember that one very popular "TNT" music video by CaptainSparklez with the really cute wobbly Creeper?
 	#Well, it's in the game now. The full thing, the real deal, exactly like the video.
-	wobbly_creeper = true
+	wobbly_creeper = false
 	#This makes the udders on cows wobble around when they walk.
 	#Also makes their udders have nipples.
 	wobbly_cow_udder = true
@@ -62,7 +62,7 @@
 	wiggly_iron_golem_nose = true
 	#A subtle change; this makes villagers wiggle their big noses whenever they make their iconic sound.
 	#It's a small change, but who doesn't get a kick out of it?
-	wiggly_villager_nose = true
+	wiggly_villager_nose = false
 	#Makes horses more lively again, just like they used to be in older versions.
 	#Does this by adding back their mouth and knees while staying true to the vanilla model style.
 	familiar_horse = true

@@ -2095,8 +2095,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Crab"
-			x: 15.5d
-			y: -2.0d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -2130,8 +2130,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Armadillo"
-			x: 16.0d
-			y: -4.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -2161,8 +2161,134 @@
 				type: "observation"
 			}]
 			title: "Meet the Penguin"
-			x: 17.0d
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			id: "5C17C47397C9270D"
+			shape: "heart"
+			tasks: [{
+				icon: "galosphere:sparkle_spawn_egg"
+				id: "4118A2CC31004F60"
+				observe_type: 5
+				timer: 0L
+				to_observe: "galosphere:sparkle"
+				type: "observation"
+			}]
+			x: 16.0d
+			y: -6.0d
+		}
+		{
+			id: "48F072428CCC9630"
+			shape: "heart"
+			tasks: [{
+				icon: "galosphere:bottle_of_spectre"
+				id: "578AAE1457247829"
+				observe_type: 5
+				timer: 0L
+				to_observe: "galosphere:spectre"
+				type: "observation"
+			}]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			id: "5B0869DFFC4B85A7"
+			shape: "heart"
+			tasks: [{
+				icon: "friendsandfoes:rascal_spawn_egg"
+				id: "4242E509A9BDE07D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:rascal"
+				type: "observation"
+			}]
+			x: 15.0d
 			y: -2.5d
+		}
+		{
+			id: "4BE2F61081D4D690"
+			shape: "heart"
+			tasks: [{
+				icon: "minecraft:allay_spawn_egg"
+				id: "29E91154AEEB12F7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:allay"
+				type: "observation"
+			}]
+			x: 15.0d
+			y: -8.0d
+		}
+		{
+			id: "7E3E39BE05E6CF2F"
+			shape: "heart"
+			tasks: [{
+				icon: "earthmobsmod:baby_ghast_spawn_egg"
+				id: "6BFB3309D4F65453"
+				observe_type: 0
+				timer: 0L
+				to_observe: "earthmobsmod:baby_ghast"
+				type: "observation"
+			}]
+			x: 15.0d
+			y: -6.5d
+		}
+		{
+			id: "21FF76EAF508799E"
+			shape: "heart"
+			tasks: [{
+				icon: "earthmobsmod:teacup_pig_pot"
+				id: "087423507985286D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "earthmobsmod:teacup_pig"
+				type: "observation"
+			}]
+			x: 17.0d
+			y: -5.0d
+		}
+		{
+			id: "048E0AE97BA096FE"
+			shape: "heart"
+			tasks: [{
+				icon: "earthmobsmod:duck_egg"
+				id: "584A633C5FCC64B2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "earthmobsmod:duck"
+				type: "observation"
+			}]
+			x: 17.0d
+			y: -7.5d
+		}
+		{
+			id: "0489B1DECAB846C8"
+			shape: "heart"
+			tasks: [{
+				icon: "deep_aether:quail_egg"
+				id: "347EC12D4EEA0DA3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "deep_aether:quail"
+				type: "observation"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			id: "53AA311A328DF5D5"
+			shape: "heart"
+			tasks: [{
+				icon: "friendsandfoes:glare_spawn_egg"
+				id: "030ABD97C9145B7B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:glare"
+				type: "observation"
+			}]
+			x: 18.0d
+			y: -6.5d
 		}
 	]
 	title: "Wildlife"

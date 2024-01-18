@@ -700,6 +700,16 @@
 			x: 8.5d
 			y: 7.0d
 		}
+		{
+			id: "60C544B7E9552B88"
+			tasks: [{
+				id: "2D132ED869984A30"
+				structure: "formationsoverworld:witch_tower"
+				type: "structure"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
 	]
 	title: "Globetrotting"
 }

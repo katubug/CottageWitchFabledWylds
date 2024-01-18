@@ -87,7 +87,6 @@
     "file/Os' Colorful Grasses (Short).zip",
     "file/A-YoJos-LushPacc!V10.zip",
     "file/Kubban's Saplings New.zip",
-    "file/Kubban's Flowers.zip",
     "file/better-bookshelf-e3500.zip",
     "file/Simple Grass Flowers v1.5.0.zip",
     "file/bowl-e1450.zip",
@@ -114,7 +113,8 @@
     "file/Os' Variated Glow Lichen.zip",
     "file/Os' Cleaner Signs.zip",
     "file/Os' 3D Iron Bars.zip",
-    "file/Nature Revamp Beta Edited.zip"
+    "file/Nature Revamp Beta Edited.zip",
+    "file/Kubban's Flowers.zip"
     ],
   "default_overrides": {
     "force_compatible": true

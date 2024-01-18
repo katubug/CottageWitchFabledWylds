@@ -2155,7 +2155,7 @@
 			tasks: [{
 				icon: "whatareyouvotingfor:penguin_egg"
 				id: "2495C4F792A2EFFB"
-				observe_type: 0
+				observe_type: 5
 				timer: 0L
 				to_observe: "whatareyouvotingfor:penguin"
 				type: "observation"

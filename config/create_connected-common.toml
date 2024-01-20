@@ -1,6 +1,6 @@
 
 #.
-#Enable/disable features
+#Enable/disable features. Values on server override clients
 [features]
 	#.
 	copycat_vertical_step = true
@@ -22,4 +22,6 @@
 	item_silo = true
 	sequenced_pulse_generator = true
 	linked_transmitter = true
+	bamboo_window = true
+	cherry_window = true
 

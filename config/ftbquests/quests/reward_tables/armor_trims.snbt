@@ -1,0 +1,33 @@
+{
+	id: "4972AA871F691F6C"
+	loot_size: 1
+	order_index: 38
+	rewards: [
+		{ item: "minecraft:netherite_upgrade_smithing_template" }
+		{ item: "minecraft:sentry_armor_trim_smithing_template" }
+		{ item: "minecraft:vex_armor_trim_smithing_template" }
+		{ item: "minecraft:wild_armor_trim_smithing_template" }
+		{ item: "minecraft:coast_armor_trim_smithing_template" }
+		{ item: "minecraft:dune_armor_trim_smithing_template" }
+		{ item: "minecraft:wayfinder_armor_trim_smithing_template" }
+		{ item: "minecraft:raiser_armor_trim_smithing_template" }
+		{ item: "minecraft:shaper_armor_trim_smithing_template" }
+		{ item: "minecraft:host_armor_trim_smithing_template" }
+		{ item: "minecraft:ward_armor_trim_smithing_template" }
+		{ item: "minecraft:silence_armor_trim_smithing_template" }
+		{ item: "minecraft:tide_armor_trim_smithing_template" }
+		{ item: "minecraft:snout_armor_trim_smithing_template" }
+		{ item: "minecraft:rib_armor_trim_smithing_template" }
+		{ item: "minecraft:eye_armor_trim_smithing_template" }
+		{ item: "minecraft:spire_armor_trim_smithing_template" }
+		{ item: "unusualfishmod:ancient_weapon_smithing_template" }
+		{ item: "moresnifferflowers:aroma_armor_trim_smithing_table" }
+		{ item: "additionaladditions:rose_gold_upgrade" }
+		{ item: "forbidden_arcanus:darkstone_upgrade_smithing_template" }
+		{ item: "lost_aether_content:noble_armor_trim_smithing_template" }
+		{ item: "galosphere:silver_upgrade_smithing_template" }
+		{ item: "galosphere:preserved_template" }
+		{ item: "deep_aether:stratus_smithing_template" }
+	]
+	title: "Armor Trims"
+}

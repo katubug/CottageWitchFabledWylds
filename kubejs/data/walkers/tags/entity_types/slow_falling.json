@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
     {
       "id": "minecraft:bat",
@@ -207,6 +207,14 @@
     },
     {
       "id": "wildlife:wren_albino",
+      "required": false
+    },
+    {
+      "id": "galosphere:spectre",
+      "required": false
+    },
+    {
+      "id": "species:birt",
       "required": false
     }
   ]

@@ -1,4 +1,5 @@
 {
+	autofocus_id: "19ED6330FD3E968C"
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
@@ -513,17 +514,6 @@
 			}]
 			title: "The Beginning of the End"
 			x: 2.5d
-			y: 0.0d
-		}
-		{
-			id: "43C892891BB4B5BF"
-			invisible: true
-			tasks: [{
-				id: "3E8070012B9B91FA"
-				item: "ftbquests:barrier"
-				type: "item"
-			}]
-			x: 0.0d
 			y: 0.0d
 		}
 		{

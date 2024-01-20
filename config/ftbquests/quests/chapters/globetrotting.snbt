@@ -569,18 +569,34 @@
 			y: 0.5d
 		}
 		{
+			description: [
+				"A &cFairy Ring&r is, according to folklore, a place where the fey come to dance. A place where the veil between worlds is thin."
+				""
+				"Do you dare step in one? You may be fine..."
+			]
 			id: "591CF255E9BDD1D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56B52A1C6631F963"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "octagon"
 			tasks: [{
+				icon: "spawn:sunflower"
 				id: "6B7D1A36D4285BD1"
 				structure: "verdantvibes:fairy_circle"
 				type: "structure"
 			}]
-			x: 8.0d
-			y: 1.5d
+			title: "Find a Fairy Circle"
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			id: "7210927B460B6B0F"
+			shape: "octagon"
 			tasks: [{
+				icon: "swampier_swamps:swamp_vine"
 				id: "75CE3EDF1ACF8297"
 				structure: "swampier_swamps:village_swamp"
 				type: "structure"
@@ -590,7 +606,9 @@
 		}
 		{
 			id: "2F11F1501E038311"
+			shape: "octagon"
 			tasks: [{
+				icon: "luphieclutteredmod:luphie_short_book_stack"
 				id: "3E10A9FF916FCC7A"
 				structure: "adorabuild_structures:library_large_1"
 				type: "structure"
@@ -601,7 +619,9 @@
 		}
 		{
 			id: "48ECF54E7038910F"
+			shape: "octagon"
 			tasks: [{
+				icon: "minecraft:skeleton_skull"
 				id: "1D224C88E7ADFA3F"
 				structure: "betterdungeons:skeleton_dungeon"
 				type: "structure"
@@ -633,11 +653,25 @@
 			shape: "octagon"
 			tasks: [
 				{
+					icon: {
+						Count: 1b
+						id: "tombstone:decorative_grave_simple"
+						tag: {
+							model_texture: 0
+						}
+					}
 					id: "2E08CAE23617AE49"
 					structure: "structory:graveyard"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1b
+						id: "tombstone:decorative_grave_cross"
+						tag: {
+							model_texture: 1
+						}
+					}
 					id: "33301DDA1E95B4CA"
 					structure: "formationsoverworld:graveyard"
 					type: "structure"
@@ -648,7 +682,9 @@
 			y: 4.0d
 		}
 		{
+			icon: "mcwholidays:witch_hat"
 			id: "7903C08408A091DF"
+			shape: "octagon"
 			tasks: [{
 				id: "682331CF8B0E9E37"
 				structure: "dungeons_enhanced:tall_witch_hut"
@@ -660,7 +696,9 @@
 		{
 			description: ["A tower... it seems abandoned! What sort of treasures - and what sort of dangers - might it have in it's &abasement&r?"]
 			id: "21B1D0246C8E90EC"
+			shape: "octagon"
 			tasks: [{
+				icon: "minecraft:stone_brick_wall"
 				id: "05E27A5923603D89"
 				structure: "formationsoverworld:stone_tower"
 				type: "structure"
@@ -670,7 +708,15 @@
 		}
 		{
 			id: "50DA655C90509B80"
+			shape: "octagon"
 			tasks: [{
+				icon: {
+					Count: 1b
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "018B5A12E7D96074"
 				structure: "betterwitchhuts:witch_hut"
 				type: "structure"
@@ -679,30 +725,43 @@
 			y: 5.5d
 		}
 		{
+			description: ["Visiting different cities will enrich you, both as a person and financially."]
 			id: "3DA0BA730A8040BE"
+			rewards: [{
+				id: "19CB10B4675EC48A"
+				item: "ruby_exchange:ruby_block"
+				type: "item"
+			}]
+			shape: "octagon"
 			tasks: [
 				{
+					icon: "minecraft:gold_block"
 					id: "18A10BB4AF7A1194"
 					structure: "#ctov:large_village"
 					type: "structure"
 				}
 				{
+					icon: "minecraft:iron_block"
 					id: "7AD6D5486EC931D1"
 					structure: "#ctov:medium_village"
 					type: "structure"
 				}
 				{
+					icon: "minecraft:copper_block"
 					id: "54F676AF64CA77B1"
 					structure: "#ctov:small_village"
 					type: "structure"
 				}
 			]
-			x: 8.5d
-			y: 7.0d
+			title: "Savvy Traveler"
+			x: 0.5d
+			y: 6.0d
 		}
 		{
 			id: "60C544B7E9552B88"
+			shape: "octagon"
 			tasks: [{
+				icon: "mcwholidays:witch_cauldron"
 				id: "2D132ED869984A30"
 				structure: "formationsoverworld:witch_tower"
 				type: "structure"

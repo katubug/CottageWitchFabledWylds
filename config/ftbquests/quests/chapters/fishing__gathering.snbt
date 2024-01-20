@@ -1,4 +1,5 @@
 {
+	autofocus_id: "60BA7A551EC7DC60"
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
@@ -1243,6 +1244,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["0A415DB19D448EE0"]
 			id: "59B1855ECF0E6434"
 			rewards: [
 				{
@@ -1280,11 +1282,12 @@
 					type: "item"
 				}
 			]
-			title: "Obtain a Clam"
+			title: "Obtain Shellfish"
 			x: -2.5d
 			y: -6.5d
 		}
 		{
+			dependencies: ["0A415DB19D448EE0"]
 			id: "4D9D45E60E1A72D6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1330,8 +1333,8 @@
 				}
 			]
 			title: "Compact Your Marine Life"
-			x: -2.0d
-			y: -4.5d
+			x: 0.5d
+			y: -6.5d
 		}
 		{
 			description: [
@@ -1354,6 +1357,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 2.0d
 			subtitle: "it's a trap!"
 			tasks: [
 				{
@@ -1374,8 +1379,8 @@
 				}
 			]
 			title: "Beginner Crabbing"
-			x: -0.5d
-			y: -6.0d
+			x: -1.0d
+			y: -9.0d
 		}
 		{
 			id: "612A8FE9674855B1"
@@ -1520,6 +1525,73 @@
 			title: "Collect Tea Leaves"
 			x: -6.5d
 			y: 1.5d
+		}
+		{
+			id: "5533E0B209F5D310"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "09F69C9CFFE89495"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "unusualfishmod:unusual_catch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5533E0B209F5D310"]
+			id: "27FA4B47BD5F218F"
+			tasks: [{
+				id: "751D61D1F9D515C3"
+				item: "unusualfishmod:ancient_weapon_smithing_template"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["27FA4B47BD5F218F"]
+			id: "7AB6A4220B15CB6F"
+			tasks: [{
+				id: "6A18E671BB3EB07D"
+				item: {
+					Count: 1b
+					id: "unusualfishmod:depth_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["27FA4B47BD5F218F"]
+			id: "096C4A203C903E34"
+			tasks: [{
+				id: "154D8117A4A6F81E"
+				item: {
+					Count: 1b
+					id: "unusualfishmod:ripsaw"
+					tag: {
+						Damage: 0
+						SawingProgress: 0.0f
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.5d
 		}
 	]
 	title: "Fishing \\& Gathering"

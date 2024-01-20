@@ -1,4 +1,5 @@
 {
+	autofocus_id: "61F03A15727266F2"
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
@@ -152,8 +153,10 @@
 		{
 			description: [
 				"Gain this advancement by taming and befriending an animal!"
-				"Using the reward from this quest, you can right click to place an entity in your inventory so you can easily move them large distances. Simply &6right click the Mob Cage on the animal, and then right click it on a block&r to place the animal down again."
-				"You can also &6shift right click&r to place it&r! It's totally normal to put your best friends in cages."
+				""
+				"Using the &bCage&r reward from this quest, you can right click to place an entity in your inventory so you can easily move them large distances. Simply &6right click the &bCage&r on the animal, and then &6right click it on a block&r to place the animal down again."
+				""
+				"You can also &6shift right click&r to place the &bCage&r as a block to display your new pal. Putting your friends in cages is &ototally normal&r."
 			]
 			id: "52BC8196E858B238"
 			rewards: [
@@ -340,8 +343,8 @@
 				item: "domesticationinnovation:deed_of_ownership"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.5d
+			x: -11.0d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -1106,8 +1109,8 @@
 				id: "7A90C9C915A28458"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: -6.0d
+			x: -7.0d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -2217,11 +2220,24 @@
 				to_observe: "minecraft:allay"
 				type: "observation"
 			}]
-			x: 15.0d
-			y: -8.0d
+			x: 16.5d
+			y: -5.0d
 		}
 		{
+			description: [
+				"Everyone knows that &eGhasts&r are, well, ghastly. But &eBaby Ghasts&r, well now! That's something different entirely! These diminuitive creatures can be found in &cCrimson Forests&r, and can be &atamed with &bCrimson Fungus&r."
+				""
+				"However, as a wise man once said, \"don't angry them! they shoot small fire ball!\""
+				""
+				"What a great wisdom."
+			]
 			id: "7E3E39BE05E6CF2F"
+			rewards: [{
+				count: 5
+				id: "3B9D5BA37568B5C8"
+				item: "minecraft:crimson_fungus"
+				type: "item"
+			}]
 			shape: "heart"
 			tasks: [{
 				icon: "earthmobsmod:baby_ghast_spawn_egg"
@@ -2231,12 +2247,32 @@
 				to_observe: "earthmobsmod:baby_ghast"
 				type: "observation"
 			}]
-			x: 15.0d
-			y: -6.5d
+			title: "Meet a Baby Ghast"
+			x: -10.0d
+			y: -3.0d
 		}
 		{
+			description: [
+				"Awwww! It's soooo cute!"
+				""
+				"&eTeacup Pigs&r are basically versions of the &ePigs&r we all know and love, but tiny enough to be &6scooped up in a &bFlowerpot&r! They can be &atempted and bred&r with &bCarrots&r, just like normal pigs."
+				""
+				"But... surely you can't saddle them... right?"
+			]
 			id: "21FF76EAF508799E"
+			rewards: [{
+				id: "51ABCD21C17332A6"
+				item: {
+					Count: 1b
+					id: "minecraft:carrot_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "heart"
+			subtitle: "they may be but small..."
 			tasks: [{
 				icon: "earthmobsmod:teacup_pig_pot"
 				id: "087423507985286D"
@@ -2245,11 +2281,23 @@
 				to_observe: "earthmobsmod:teacup_pig"
 				type: "observation"
 			}]
-			x: 17.0d
-			y: -5.0d
+			title: "Meet the Teacup Pig"
+			x: 2.0d
+			y: -6.0d
 		}
 		{
+			description: [
+				"The history between witches and &educks&r is a long and storied one. Back in the great Duck Wars of 2021, the two were mortal enemies. But there was a love story which defied the odds - a witch and her duck, inseparable friends, no matter what. Their friendship was so deep that it &abrought an end&r to the slaughter and violence."
+				""
+				"Nowadays, witches and ducks are pretty chill. You can &abreed them with &bSeeds&r, and occasionally they will lay &bdelicious Eggs&r."
+			]
 			id: "048E0AE97BA096FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65767D03D8AED1C3"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
 			shape: "heart"
 			tasks: [{
 				icon: "earthmobsmod:duck_egg"
@@ -2259,7 +2307,8 @@
 				to_observe: "earthmobsmod:duck"
 				type: "observation"
 			}]
-			x: 17.0d
+			title: "Meet the Duck"
+			x: 7.5d
 			y: -7.5d
 		}
 		{

@@ -101,6 +101,7 @@ ServerEvents.recipes(event => {
         {output: 'delightful:blueberry_sack'},
         {output: 'trashcans:energy_trash_can'},
         {output: 'framedblocks:powered_framing_saw'},
+        {output: 'unusualfishmod:sea_boom'},
         //Replaced Recipes
         {output: 'mighty_mail:post_box'},
         {output: 'farmersdelight:wheat_dough'},

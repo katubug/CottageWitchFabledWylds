@@ -36,6 +36,14 @@
 		{ count: 5, item: "forbidden_arcanus:soul", weight: 20.0f }
 		{ item: "ancient_manuscripts:ancient_manuscript", weight: 13.0f }
 		{ count: 2, item: "forbidden_arcanus:xpetrified_orb", weight: 10.0f }
+		{ item: "minecraft:coast_armor_trim_smithing_template", weight: 5.0f }
+		{ item: "minecraft:dune_armor_trim_smithing_template", weight: 5.0f }
+		{ item: "minecraft:wild_armor_trim_smithing_template", weight: 5.0f }
+		{ item: "minecraft:vex_armor_trim_smithing_template", weight: 5.0f }
+		{ item: "minecraft:sentry_armor_trim_smithing_template", weight: 5.0f }
+		{ item: "minecraft:spire_armor_trim_smithing_template" }
+		{ item: "minecraft:eye_armor_trim_smithing_template" }
+		{ item: "minecraft:rib_armor_trim_smithing_template", weight: 5.0f }
 	]
 	title: "Random Tier 2"
 }

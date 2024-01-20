@@ -9,7 +9,6 @@
 		{ item: "minecraft:pufferfish_bucket" }
 		{ item: "minecraft:axolotl_bucket" }
 		{ item: "minecraft:tadpole_bucket" }
-		{ item: "crabbersdelight:crab_bucket" }
 		{ item: "unusualfishmod:sea_spider_bucket" }
 		{ item: "unusualfishmod:clownthorn_shark_bucket" }
 		{ item: "unusualfishmod:sneepsnorp_bucket" }

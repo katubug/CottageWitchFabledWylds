@@ -1262,7 +1262,7 @@
 1262, nether, minecraft:crimson_forest, MONSTER, endermanoverhaul:crimson_forest_enderman, 10, 1, 2
 1263, nether, minecraft:crimson_forest, MONSTER, minecraft:ghast, 10, 4, 4
 1264, nether, minecraft:crimson_forest, CREATURE, minecraft:strider, 60, 1, 2
-1265, nether, minecraft:crimson_forest, CREATURE, earthmobsmod:baby_ghast, 20, 3, 4
+1265, nether, minecraft:crimson_forest, CREATURE, earthmobsmod:baby_ghast, 50, 3, 4
 1266, nether, minecraft:crimson_forest, AMBIENT, mythicmounts:netherbat, 80, 2, 4
 1267, nether, minecraft:crimson_forest, WATER_AMBIENT, netherdepthsupgrade:lava_pufferfish, 15, 1, 5
 1268, nether, minecraft:crimson_forest, WATER_AMBIENT, netherdepthsupgrade:bonefish, 10, 1, 5
@@ -3412,7 +3412,6 @@
 3412, swamp, minecraft:mangrove_swamp, WATER_AMBIENT, unusualfishmod:sailor_barb, 30, 3, 5
 3413, swamp, minecraft:mangrove_swamp, WATER_AMBIENT, aquaculture:minnow, 18, 1, 5
 3414, swamp, minecraft:mangrove_swamp, WATER_AMBIENT, aquaculture:catfish, 10, 1, 1
-3415, swamp, minecraft:mangrove_swamp, WATER_AMBIENT, crabbersdelight:crab, 70, 3, 6
 3416, swamp, minecraft:mangrove_swamp, WATER_AMBIENT, unusualfishmod:drooping_gourami, 30, 1, 2
 3417, swamp, minecraft:mangrove_swamp, WATER_AMBIENT, aquaculture:carp, 10, 1, 3
 3418, swamp, minecraft:mangrove_swamp, WATER_AMBIENT, aquaculture:gar, 10, 1, 2

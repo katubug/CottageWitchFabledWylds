@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
     {
       "id": "minecraft:skeleton",
@@ -23,6 +23,10 @@
     },
     {
       "id": "minecraft:phantom",
+      "required": false
+    },
+    {
+      "id": "earthmobsmod:albino_cow",
       "required": false
     }
   ]

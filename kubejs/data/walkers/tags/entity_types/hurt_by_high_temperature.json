@@ -1,8 +1,12 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
     {
       "id": "minecraft:snow_golem",
+      "required": false
+    },
+    {
+      "id": "snuffles:snuffle",
       "required": false
     }
   ]

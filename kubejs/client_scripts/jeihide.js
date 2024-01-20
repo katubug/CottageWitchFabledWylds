@@ -155,6 +155,9 @@ JEIEvents.hideItems(event => {
         'regions_unexplored:salmonberry',
         'trashcans:energy_trash_can',
         'framedblocks:powered_framing_saw',
+        'crabbersdelight:crab_spawn_egg',
+        'crabbersdelight:crab_bucket',
+        'unusualfishmod:sea_boom',
 
     ];
     

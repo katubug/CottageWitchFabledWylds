@@ -3,7 +3,7 @@
 fruitsGrowChance = 0.1
 #Chance for fruits to drop per random tick
 #Range: 0.0 ~ 1.0
-fruitsDropChance = 0.1
+fruitsDropChance = 0.0
 #Chance for flower to decay when fruits are picked up / dropped
 #Range: 0.0 ~ 1.0
 flowerDecayChance = 0.1

@@ -17,7 +17,7 @@
 			image: "enchanted_wilds:textures/questui/logo.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -3.0d
+			x: -4.5d
 			y: -4.5d
 		}
 		{
@@ -41,7 +41,7 @@
 			image: "enchanted_wilds:textures/questui/questkey.png"
 			rotation: 0.0d
 			width: 11.5d
-			x: 6.0d
+			x: 5.0d
 			y: -3.5d
 		}
 		{

@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "brewing__enchanting"
 	group: "181D7A6A92948264"
@@ -103,6 +104,7 @@
 				"This process also &aremoves Curses&r."
 			]
 			id: "71A11F7652CA6B01"
+			subtitle: "moving enchantments onto books"
 			tasks: [{
 				id: "7518A023CB3847FF"
 				item: "tombstone:book_of_disenchantment"
@@ -219,6 +221,285 @@
 			title: "Binding Your Enchantment"
 			x: 1.5d
 			y: -1.5d
+		}
+		{
+			description: [
+				"It's said that there is a method by which one can condense &bknowledge&r, the very essence of our lives, into a &bliquid&r. It is known that one absorbs the &bexperience&r from &aslain foes&r and even from &aprocessing raw materials&r found in the wild. But what if you could &atransfer and hoard that &bknowledge&r?"
+				""
+				"Preliminary studies indicate that to begin such a process requires &bCognitive Flux&r, which is crafted from ingredients with &ahigh amounts of magical vibration&r."
+			]
+			id: "34EA3E4BDBDF02ED"
+			rewards: [{
+				count: 2
+				id: "5FF20B209C8344D9"
+				item: "experienceobelisk:cognitive_flux"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "what an experience"
+			tasks: [{
+				id: "41045BB21DAC71D2"
+				item: "experienceobelisk:cognitive_flux"
+				type: "item"
+			}]
+			title: "The Beginning of Cognition"
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"6EF0EA42F5F648A7"
+				"443F0752884AEDFA"
+			]
+			description: [
+				"The &bStaff of Attunement&r is a handheld device used for &abinding Cognitium-consuming blocks&r - such as an &bExperience Fountain&r or &bPrecision Dispelle&rr - to a nearby &bExperience Obelisk&r. "
+				""
+				""
+				"&6Shift right click an Obelisk with a &bStaff of Attunement&r in order to &asave its location&r to the staff. Afterwards, any XP-consuming block that you &6shift right click&r with the staff will be bound to the saved obelisk. Repeat the process on either block to &aundo the binding&r."
+				""
+				"This binding interaction has a &dmaximum range of 32 blocks&r."
+			]
+			id: "461C5AC8C4B8FE12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67D52267371BA063"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "44348FA5DCB8E9F1"
+				item: "experienceobelisk:attunement_staff"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3D6CDC6F955DDCA9"]
+			description: [
+				"The &bExperience Obelisk&r is a device that lets you easily &astore and retrieve experience&r. Every point of experience is converted into &b20mB of Cognitium&r, which is then stored in the Obelisk's internal reservoir. This fluid can be transferred to external tanks or elsewhere using fluid pipes. Each Obelisk can store 100,000,000 mB of Cognitium — which translates to &ajust over 1072 XP levels&r."
+				""
+				"The &bObelisk&r stores not only &bCognitium&r, but also &bliquid experience&r from &lSophisticated Storage&r. The difference is that &bCognitium&r is magically charged as opposed to &bExperience&r, and as such, once &bliquid Experience&r is processed via the Obelisk, it never loses its charge, and remains &bCognitium&r forevermore."
+				""
+				"The Obelisk will also passively &avacuum up all experience orbs in a set radius&r, adding them to its internal storage. This can be &aconfigured in the Obelisk's gui&r."
+				""
+				"{@pagebreak}"
+				"{image:enchanted_wilds:textures/questimages/expobelisk1.png width:225 height:200 align:1}"
+				""
+				"Upon right-clicking the block, you are presented with the following 6 options to store or retrieve XP. Since minecraft XP does not work in a linear fashion, with &aeach level being worth more&r the higher they get, all XP values are &dfrom the players' perspective&r. That is to say, if you had 30 levels and chose to store 10 in an empty obelisk, you would be left with 20 levels, but the Obelisk GUI would read 24 levels - since each individual level is worth more the higher you go."
+				""
+				"{@pagebreak}"
+				"{image:enchanted_wilds:textures/questimages/expobelisk2.png width:225 height:200 align:1}"
+				""
+				"In this second image, you can adjust the &arange of the exp vacuum&r, and whether or not it is active based on &aredstone signal&r. If set to \"Ignore,\" it will &abe passively active&r all the time. If \"Enabled,\" it will &aonly activate when receiving redstone signal&r."
+			]
+			id: "443F0752884AEDFA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F6A8A82324D10DF"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			tasks: [{
+				id: "420B44603C4A70A3"
+				item: {
+					Count: 1b
+					id: "experienceobelisk:experience_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Experience Obelisk"
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3D6CDC6F955DDCA9"]
+			description: [
+				"The &bExperience Fountain&r is a device that &adispenses experience orbs&r from its top surface. This device needs to be &6bound to a nearby Obelisk by means of a &bStaff of Attunement&r in order to function. The fountain will deduct experience from the bound obelisk as it does so. The Fountain has four modes of operation:"
+				""
+				"- Slow (4 xp / second)"
+				"- Moderate (40 xp / second)"
+				"- Fast (400 xp / second)"
+				"- Hyperspeed (4000 xp / second)"
+				""
+				"These modes can by cycled by &6right-clicking the fountain&r."
+				""
+				"The Fountain must be &6activated by a neighboring redstone signal&r, or by &6standing on it&r."
+			]
+			id: "6EF0EA42F5F648A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29EEF4D9FF6743B9"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05FB31824BCC4A15"
+				item: "experienceobelisk:experience_fountain"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3D6CDC6F955DDCA9"]
+			description: [
+				"The &bPrecision Dispeller&r is an incredibly powerful item which allows you to &aremove both Enchantments and &bCurses&r from your items."
+				""
+				"When you &6select an enchantment to remove&r, you'll receive an &bExperience&r refund which is slightly greater than that which a &bGrindstone&r would give."
+				""
+				"To remove a curse, however, you will &6pay experience&r to remove it."
+				""
+				"Should you want to, the &bPrecision Dispeller&r can be &abound to an &bObelisk&a using a &bStaff of Attunement&r. When bound, &aexperience gained will be added to the Obelisk&r internal reservoir instead of being released as XP orbs."
+				""
+				"Likewise, the XP cost from curse removal will first be &adeducted from the Obelisk&r, and only deducted from the player if the amount of XP in the Obelisk is insufficient."
+				""
+				"The XP returns and XP cost are &ashown in points&r, as well as base levels (the number of levels you would have if you started at 0 levels and gained that amount of points). Base levels are absolute and &ddo not scale with however much XP is on your person&r. So if you were to have 50 levels on your person, and remove a curse with a base level cost of 30, you would be left with around 44 levels. &dThis is intentional and not a bug&r."
+			]
+			id: "3F17E265CF40B4F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03B7293DF489633F"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "deleting enchantments and curses"
+			tasks: [{
+				id: "37DBCBC82CD4A7B4"
+				item: "experienceobelisk:precision_dispeller"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["34EA3E4BDBDF02ED"]
+			description: ["&bCognitive flux&r, by itself, is a &aloose and crumbly substance&r, and not much use for anything. However, it may be &6fired in a furnace or blast furnace&r to produce &bCognitive Amalgam&r, a much more durable and useful material."]
+			id: "71FB194B1DC7337A"
+			rewards: [
+				{
+					id: "6D61B929EFD28E8D"
+					item: "experienceobelisk:cognitive_amalgam"
+					type: "item"
+				}
+				{
+					id: "52DC166E62645AA6"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "016C3B32CB8F6531"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C6071E204CED0EC"
+				item: "experienceobelisk:cognitive_amalgam"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["24B32FC417B84D6F"]
+			description: ["The &bAstute Assembly&r is a mystically-charged device which is used to craft items which &arun on liquid Cognitium&r."]
+			id: "3D6CDC6F955DDCA9"
+			rewards: [{
+				id: "2C9D00CD33F1D165"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "10FD00AA015F61E2"
+				item: "experienceobelisk:astute_assembly"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6EF0EA42F5F648A7"]
+			description: ["The &bExperience Fountain&r also provides players with an easy way to obtain &bCognitium Buckets&r or &bBottles o' Enchanting&r. Provided the bound obelisk has enough Cognitium, &6right-click a fountain with an empty bucket or an empty bottle&r."]
+			id: "2483BED806DAE305"
+			rewards: [{
+				id: "7BCF77A69AED64F9"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62CDDD0EA501C55F"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["24B32FC417B84D6F"]
+			description: [
+				"The &bEnlightened Amulet&r is an item that, when active, &avacuums up all XP orbs in a 6 block radius&r and combines them into single orb at the player's position."
+				""
+				"The amulet will be active &aanywhere in your inventory&r. It can be activated and inactivated by &6shift right clicking&r while holding it."
+			]
+			id: "0A3644146A69AC33"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07948779ECE88436"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "352976B249F104A4"
+				item: {
+					Count: 1b
+					id: "experienceobelisk:enlightened_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["71FB194B1DC7337A"]
+			description: ["&bCognitive amalgam&r can be &afurther combined&r with &bIron&r to derive a strong and rigid alloy well-suited for &amanufacturing devices&r, or with &bEmerald&r, to produce crystals remarkably suited for &atransmitting and receiving cognitium&r without the need of pipes."]
+			id: "24B32FC417B84D6F"
+			rewards: [
+				{
+					count: 2
+					id: "3DB8DC8C0FCA5589"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D3E7739EAA56686"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4A44436ED5933616"
+					item: "experienceobelisk:cognitive_alloy"
+					type: "item"
+				}
+				{
+					id: "3EEBBE371A1F8B2C"
+					item: "experienceobelisk:cognitive_crystal"
+					type: "item"
+				}
+			]
+			title: "Stronger Cognition"
+			x: -4.5d
+			y: -8.0d
 		}
 	]
 	title: "Brewing \\& Enchanting"

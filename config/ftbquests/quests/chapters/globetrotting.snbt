@@ -573,8 +573,8 @@
 				type: "structure"
 			}]
 			title: "Discover the Catacombs"
-			x: -2.5d
-			y: -5.5d
+			x: -1.5d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -681,7 +681,14 @@
 			y: 7.0d
 		}
 		{
+			description: ["Stocked with &aloot and spawners&r, these dungeons can be found &cdeep underground&r, and should be approached with caution! A &bshield&r is practically a necessity."]
 			id: "48ECF54E7038910F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C54B78E7FBA5F0A"
+				table_id: 5036677739913042344L
+				type: "choice"
+			}]
 			shape: "octagon"
 			tasks: [{
 				icon: "minecraft:skeleton_skull"
@@ -689,8 +696,9 @@
 				structure: "betterdungeons:skeleton_dungeon"
 				type: "structure"
 			}]
-			x: 10.0d
-			y: 2.0d
+			title: "Find a Skeleton Dungeon"
+			x: 2.5d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -745,16 +753,31 @@
 			y: 6.5d
 		}
 		{
+			description: ["Hmm, this &cWitch Hut&r is a little taller than usual. I wonder &aif there's more here&r. After all, she must &dsleep somewhere&r..."]
 			icon: "mcwholidays:witch_hat"
 			id: "7903C08408A091DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7613E2D7DFB914D5"
+				table_id: 8415512190420352941L
+				type: "random"
+			}]
 			shape: "octagon"
 			tasks: [{
+				icon: {
+					Count: 1b
+					id: "fairylights:witch_light"
+					tag: {
+						color: 3949738
+					}
+				}
 				id: "682331CF8B0E9E37"
 				structure: "dungeons_enhanced:tall_witch_hut"
 				type: "structure"
 			}]
-			x: 9.5d
-			y: 3.5d
+			title: "Tall Witch Hut"
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			description: ["A tower... it seems abandoned! What sort of treasures - and what sort of dangers - might it have in it's &abasement&r?"]
@@ -876,7 +899,7 @@
 				type: "structure"
 			}]
 			title: "Enhanced Desert Temple"
-			x: 0.0d
+			x: -2.5d
 			y: -4.5d
 		}
 		{
@@ -896,8 +919,8 @@
 				type: "structure"
 			}]
 			title: "The Sunken Shrine"
-			x: 2.5d
-			y: -5.5d
+			x: 1.5d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -946,8 +969,8 @@
 				type: "structure"
 			}]
 			title: "The Desert Tomb"
-			x: -1.5d
-			y: -2.5d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			description: ["Located in the depths of the ocean, the &cElder Temple&r is a bounty of &bSponges&r, &bCopper&r, &bCoral Blocks&r, and, of course: &eGuardians&r. Look for the &aBubble Columns&r throughout the structure which can help you &6catch your breath&r."]
@@ -966,8 +989,8 @@
 				type: "structure"
 			}]
 			title: "The Elder's Temple"
-			x: 1.5d
-			y: -2.5d
+			x: 2.0d
+			y: -3.0d
 		}
 	]
 	title: "Globetrotting"

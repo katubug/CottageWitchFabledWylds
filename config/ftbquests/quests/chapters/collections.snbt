@@ -1489,6 +1489,182 @@
 			x: 2.0d
 			y: -0.5d
 		}
+		{
+			description: ["What every witch - every person, really - needs is a &acollection of &bHats&r. Why not accumulate all of them and get a nice reward?"]
+			id: "755902F379AFB989"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "200D6AD7AD4C585A"
+				table_id: 5036677739913042344L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "some very fine hats"
+			tasks: [
+				{
+					id: "46351DE52E129F65"
+					item: {
+						Count: 1b
+						id: "marbledsvillagerhats:fishermans_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CF1FC94488992EC"
+					item: {
+						Count: 1b
+						id: "quark:forgotten_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16F36AAE97B36E0A"
+					item: {
+						Count: 1b
+						id: "marbledsvillagerhats:cartographers_monocle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D64478F040DD5AD"
+					item: {
+						Count: 1b
+						id: "marbledsvillagerhats:fletchers_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39B875CF43A915B1"
+					item: {
+						Count: 1b
+						id: "marbledsvillagerhats:librarians_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B8416AA1D59F37D"
+					item: {
+						Count: 1b
+						id: "marbledsvillagerhats:shepherds_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BCFD703BE692076"
+					item: {
+						Count: 1b
+						id: "marbledsvillagerhats:weaponsmiths_eyepatch"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7712DEE5ACE12A5B"
+					item: "reliquary:witch_hat"
+					type: "item"
+				}
+				{
+					id: "2A6EACC152673AB4"
+					item: {
+						Count: 1b
+						id: "herbalbrews:witch_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31575EB2E64A7171"
+					item: {
+						Count: 1b
+						id: "marbledsvillagerhats:witches_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6258AED11AE43ECF"
+					item: {
+						Count: 1b
+						id: "herbalbrews:top_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D4EEE6C53629857"
+					item: {
+						Count: 1b
+						id: "eidolon:top_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76E69D94B0805177"
+					item: {
+						Count: 1b
+						id: "marbledsvillagerhats:farmers_straw_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C93D9FDC4137D7F"
+					item: {
+						Count: 1b
+						id: "marbledsvillagerhats:butchers_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "674DA30513000F79"
+					item: {
+						Count: 1b
+						id: "marbledsvillagerhats:armorers_goggles"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Handsome Haberdashery"
+			x: 2.5d
+			y: -1.5d
+		}
 	]
 	title: "Collections"
 }

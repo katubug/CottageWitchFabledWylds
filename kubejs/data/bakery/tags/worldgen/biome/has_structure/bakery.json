@@ -1,0 +1,14 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:meadow",
+    "minecraft:forest",
+    "regions_unexplored:rocky_meadow",
+    "regions_unexplored:clover_plains",
+    "regions_unexplored:grassland",
+    "regions_unexplored:highland_fields",
+    "regions_unexplored:prairie"
+  ]
+}

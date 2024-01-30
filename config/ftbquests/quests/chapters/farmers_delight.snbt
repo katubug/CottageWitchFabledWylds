@@ -279,7 +279,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["4930ECD60EA9ED8D"]
+			dependencies: [
+				"4930ECD60EA9ED8D"
+				"2093240CD42882CF"
+			]
 			description: ["Expand your farm with these delicious &bnew crops&r! Crops that &agrow in soil&r can have their &agrowth boosted&r by using &bRich Farmland&r."]
 			id: "2CA80140F624D0AE"
 			rewards: [
@@ -892,6 +895,307 @@
 			title: "The Stalk Market"
 			x: -2.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			description: ["Tea is a wonderful thing, as you may already know. There are &amany different ingredients&r that one can use to make either a delicious camellia tea or an herbal tisane!"]
+			id: "14A010F870E73911"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BF35E6761EE7285"
+				table_id: 8096229411196850122L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "53E852CC48581B90"
+					item: "herbalbrews:green_tea_leaf"
+					type: "item"
+				}
+				{
+					id: "1B02D4131C97FF25"
+					item: "herbalbrews:yerba_mate_leaf"
+					type: "item"
+				}
+				{
+					id: "738CBB38A51CDEFB"
+					item: "herbalbrews:rooibos_leaf"
+					type: "item"
+				}
+				{
+					id: "145D1E59D68C88EF"
+					item: "herbalbrews:coffee_beans"
+					type: "item"
+				}
+				{
+					id: "6EC6E2B0A6320543"
+					item: "herbalbrews:lavender_blossom"
+					type: "item"
+				}
+			]
+			title: "Collect Tea Leaves"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Scattered around the world, you can find &bWild Crops&r growing. Find all of them to build your &alovely witchy garden&r!"
+				""
+				"Did you know that corn hung over a mirror will bring good luck to your household? Take a small white onion and stick it full of black-headed pins. When placed in the window, this will protect against negativity. And carrots are said to promote... physical desire. *wink*"
+				""
+				"More information on how to find each crop are in the &dother quests in this section&r."
+			]
+			icon: "farmersdelight:wild_carrots"
+			id: "2093240CD42882CF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20C2ED31F2632341"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "413BC3D1F2061C63"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					block: "farmersdelight:wild_onions"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_onions"
+					id: "7C0454EAFEA8424E"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farmersdelight:wild_cabbages"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_cabbages"
+					id: "6CBB2B9301C6974B"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farmersdelight:wild_rice"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_rice"
+					id: "5576BC85D39A7C82"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "supplementaries:wild_flax"
+					block_type: 0
+					checkItem: false
+					icon: "supplementaries:wild_flax"
+					id: "0625FF2B8B3F0133"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "delightful:wild_salmonberries"
+					block_type: 0
+					checkItem: false
+					icon: "delightful:wild_salmonberries"
+					id: "0FBA394BEF33BDF5"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farmersdelight:wild_potatoes"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_potatoes"
+					id: "697D603DCCC7A53C"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farmersdelight:wild_carrots"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_carrots"
+					id: "5D924330F5B837BB"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "fruitsdelight:wild_pineapple"
+					block_type: 0
+					checkItem: false
+					id: "67A78ED3495ABCB3"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "vegandelight:wild_soybean"
+					block_type: 0
+					checkItem: false
+					id: "196A2A7BE9F5D9D3"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "herbalbrews:wild_rooibos_plant"
+					block_type: 0
+					checkItem: false
+					id: "16F69DEFF5AADE21"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "herbalbrews:wild_yerba_mate_plant"
+					block_type: 0
+					checkItem: false
+					id: "3EE5AE89393CDE21"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "herbalbrews:wild_coffee_plant"
+					block_type: 0
+					checkItem: false
+					id: "59BFF4E67B9EE1CF"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			title: "Forage Wild Crops"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			description: [
+				"&bCherry Trees&r can be found in most &cForests&r. To obtain them, you must &6right click the cherried leaves&r. They do not drop if the tree is broken."
+				""
+				"&bSalmonberries&r grow in patches in &cForests&r. These can be &acrafted into Pips&r which can then be planted!"
+				""
+				"&bStrawberries&r can be found growing in both &ccold biomes such as Taiga&r, and also in &cJungle Biomes&r!"
+			]
+			id: "3D99932B0EAFD2DA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "241DD25D49F14D3D"
+					table_id: 6518300475828805418L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C9A17EC026DFCC1"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "472FE3154E462C98"
+					item: "vinery:cherry"
+					type: "item"
+				}
+				{
+					id: "7257E765EFC85C34"
+					item: "delightful:salmonberries"
+					type: "item"
+				}
+				{
+					id: "70BBE0F5CAC35CA4"
+					item: "bakery:strawberry"
+					type: "item"
+				}
+			]
+			title: "Collect Crops: Misc"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			id: "56F73747B7197386"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74D0F94688292BDA"
+				table_id: 8096229411196850122L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "5EAC5E59EB7BB5F5"
+					item: "fruitsdelight:pear"
+					type: "item"
+				}
+				{
+					id: "5450A159D60E2EAA"
+					item: "fruitsdelight:hawberry"
+					type: "item"
+				}
+				{
+					id: "1AD90CDE5734BC29"
+					item: "fruitsdelight:lychee"
+					type: "item"
+				}
+				{
+					id: "72387748DE8C22C1"
+					item: "fruitsdelight:mango"
+					type: "item"
+				}
+				{
+					id: "361906B7484030F6"
+					item: "fruitsdelight:persimmon"
+					type: "item"
+				}
+				{
+					id: "1D36CD9E39A22ED7"
+					item: "fruitsdelight:peach"
+					type: "item"
+				}
+				{
+					id: "0C258257E43C1512"
+					item: "fruitsdelight:orange"
+					type: "item"
+				}
+				{
+					id: "455082C12B3E749B"
+					item: "fruitsdelight:blueberry"
+					type: "item"
+				}
+				{
+					id: "167AAD6735FAA235"
+					item: "fruitsdelight:lemon"
+					type: "item"
+				}
+				{
+					id: "75E75C23F9A94D44"
+					item: "fruitsdelight:hamimelon_slice"
+					type: "item"
+				}
+				{
+					id: "02B607079847F248"
+					item: "fruitsdelight:pineapple"
+					type: "item"
+				}
+				{
+					id: "55C2DBB2A6E3FDC0"
+					item: "bakery:strawberry"
+					type: "item"
+				}
+				{
+					id: "33CE691F23DDB8BF"
+					item: "vinery:cherry"
+					type: "item"
+				}
+			]
+			title: "Obtain New Fruits"
+			x: 4.5d
+			y: -2.5d
 		}
 	]
 	title: "Farming \\& Gardening"

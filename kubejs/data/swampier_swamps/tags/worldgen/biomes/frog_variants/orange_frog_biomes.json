@@ -1,0 +1,30 @@
+{
+  "replace": true,
+  "_comment": [
+    " This system applies the Frog Variants to the given Biomes.",
+    " Something noteworthy about it, the way it works is it goes",
+    " through all Variants one at a time, and once there is a matching",
+    " Biome, it gets used to create the Frog Variant connected to that",
+    " Biome. What this means is, if two Frogs have the same Biome in their",
+    " files, the one checked first will be selected",
+    " The order for the checks is:",
+    " White => Orange => Magenta => Light Blue => Yellow => Lime => Pink => Gray => Light Gray => Cyan => Purple => Blue => Brown => Green => Red => Black",
+    "",
+    " If no matches were found, the game will use the default files:",
+    " #spawns_cold_variant_frogs",
+    " #spawns_warm_variant_frogs",
+    " Or if the Biome isnt on those lists, it defaults to",
+    " TEMPERATE (Orange) as the selected Variant."
+  ],
+  "values": [
+    "minecraft:meadow",
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:beach",
+    "minecraft:desert",
+    "regions_unexplored:silver_birch_forest",
+    "regions_unexplored:joshua_desert",
+    "regions_unexplored:outback",
+    "regions_unexplored:saguaro_desert"
+  ]
+}

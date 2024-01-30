@@ -45,7 +45,7 @@
 	mob_category = ["MONSTER"]
 	#Range for preventing mob spawns on x-z-plane.
 	#Range: > 0
-	horizontal_range = 64
+	horizontal_range = 128
 
 [emerald_torch]
 	#Mobs that should still be allowed to spawn despite being included in "mob_category".

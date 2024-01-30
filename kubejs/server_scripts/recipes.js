@@ -786,12 +786,22 @@ ServerEvents.recipes(event => {
         ]
     )
 
-    event.shapeless(
-        Item.of('minecraft:carved_pumpkin', "{CustomModelData:2,display:{Lore:['[{\"text\":\"A pair of ears to make you cute.\",\"italic\":false}]'],Name:'[{\"text\":\"Cat Ears\",\"italic\":false,\"color\":\"yellow\"}]'}}"),
+    // Uncrafter Requires Nether
+    event.shaped(
+        Item.of('uncrafter:uncrafter'),
         [
-            'kubejs:ticket'
-        ]
+            'ABA',
+            'CDC',
+            'EEE'
+        ], {
+            A: 'minecraft:iron_ingot',
+            B: 'minecraft:blaze_rod',
+            C: 'minecraft:dark_prismarine',
+            D: 'minecraft:gilded_blackstone',
+            E: 'minecraft:crying_obsidian'
+        }
     )
+
 
     //Stonecutter recipes for Xerca Woods
 
@@ -1005,6 +1015,69 @@ ServerEvents.recipes(event => {
             ], {
                 A: '#minecraft:wool',
                 B: plush
+            }
+        )
+    }
+
+    //Sherd Dupe
+    let sherdDupe = [
+        'minecraft:prize_pottery_sherd',
+        'minecraft:snort_pottery_sherd',
+        'gildedsherds:heart_pottery_sherd',
+        'minecraft:brewer_pottery_sherd',
+        'minecraft:angler_pottery_sherd',
+        'minecraft:shelter_pottery_sherd',
+        'gildedsherds:prize_pottery_sherd',
+        'minecraft:heart_pottery_sherd',
+        'gildedsherds:miner_pottery_sherd',
+        'minecraft:skull_pottery_sherd',
+        'minecraft:mourner_pottery_sherd',
+        'minecraft:burn_pottery_sherd',
+        'gildedsherds:plenty_pottery_sherd',
+        'ohmysherd:snip_pottery_sherd',
+        'minecraft:sheaf_pottery_sherd',
+        'gildedsherds:mourner_pottery_sherd',
+        'gildedsherds:archer_pottery_sherd',
+        'minecraft:howl_pottery_sherd',
+        'gildedsherds:danger_pottery_sherd',
+        'gildedsherds:brewer_pottery_sherd',
+        'ohmysherd:invader_pottery_sherd',
+        'minecraft:danger_pottery_sherd',
+        'gildedsherds:friend_pottery_sherd',
+        'gildedsherds:arms_up_pottery_sherd',
+        'minecraft:explorer_pottery_sherd',
+        'gildedsherds:howl_pottery_sherd',
+        'gildedsherds:blade_pottery_sherd',
+        'spawn:crown_pottery_sherd',
+        'gildedsherds:angler_pottery_sherd',
+        'gildedsherds:sheaf_pottery_sherd',
+        'gildedsherds:explorer_pottery_sherd',
+        'spawn:spade_pottery_sherd',
+        'minecraft:archer_pottery_sherd',
+        'minecraft:blade_pottery_sherd',
+        'gildedsherds:skull_pottery_sherd',
+        'gildedsherds:snort_pottery_sherd',
+        'minecraft:heartbreak_pottery_sherd',
+        'gildedsherds:shelter_pottery_sherd',
+        'minecraft:plenty_pottery_sherd',
+        'minecraft:friend_pottery_sherd',
+        'gildedsherds:burn_pottery_sherd',
+        'minecraft:miner_pottery_sherd',
+        'gildedsherds:heartbreak_pottery_sherd',
+        'minecraft:arms_up_pottery_sherd',
+        'ohmysherd:remains_pottery_sherd'
+    ];
+
+    for (const sherd of sherdDupe) {
+        event.shaped(
+            Item.of(sherd, 2),
+            [
+                ' A ',
+                'ABA',
+                ' A '
+            ], {
+                A: 'minecraft:brick',
+                B: sherd
             }
         )
     }

@@ -280,7 +280,7 @@
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			description: ["Farmer's Delight adds 4 new crops: &bTomato&r, &bRice&r, &bCabbage&r, and &bOnion&r. Wild versions of these can be found while exploring, and then you can plant them in your garden at home!"]
+			description: ["Expand your farm with these delicious &bnew crops&r! Crops that &agrow in soil&r can have their &agrowth boosted&r by using &bRich Farmland&r."]
 			id: "2CA80140F624D0AE"
 			rewards: [
 				{
@@ -323,10 +323,30 @@
 					item: "hauntedharvest:corn"
 					type: "item"
 				}
+				{
+					id: "7146147F7299D5E9"
+					item: "bakery:oat"
+					type: "item"
+				}
+				{
+					id: "0CA9A8C25665C056"
+					item: "bakery:strawberry"
+					type: "item"
+				}
+				{
+					id: "2CC257E0F2FBF493"
+					item: "delightful:salmonberries"
+					type: "item"
+				}
+				{
+					id: "07E0C6422AFA5B4A"
+					item: "vegandelight:soybean"
+					type: "item"
+				}
 			]
-			title: "Obtain the New Crops"
+			title: "Obtain New Ground Crops"
 			x: 2.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -487,6 +507,30 @@
 					count: 10L
 					id: "241C1EBB473D9D1B"
 					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "5AE7758AC5D86AA5"
+					item: "hauntedharvest:corn_crate"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "37C77AEC3CECE483"
+					item: "bakery:strawberry_crate"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "28597237443B3B16"
+					item: "farmersdelight:rice_bag"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "55F02BCB172E8D8C"
+					item: "delightful:salmonberry_sack"
 					type: "item"
 				}
 			]

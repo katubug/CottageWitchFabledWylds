@@ -147,6 +147,8 @@
 				"At first glance, they don't seem all that different, but &dobtain a Tackle Box&r and you'll get more perspective on how much better these &bFishing Rods&r can be."
 				""
 				"They are &aalso enchantable&r."
+				""
+				"This quest also grants you a &bBook of Unusual Catch&r, an enchantment which allows you to &6reel in bizarre and unique fish&r."
 			]
 			id: "2E4D1699E2A7876B"
 			rewards: [
@@ -159,6 +161,20 @@
 				{
 					id: "3A0C38A5244D788B"
 					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "2837E7001466631E"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "unusualfishmod:unusual_catch"
+								lvl: 1s
+							}]
+						}
+					}
 					type: "item"
 				}
 			]
@@ -421,7 +437,7 @@
 				type: "item"
 			}]
 			title: "Deliver Fish"
-			x: 5.0d
+			x: 4.0d
 			y: -3.0d
 		}
 		{
@@ -476,7 +492,7 @@
 			}]
 			title: "Catch Em All (and Then Some)"
 			x: 7.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
@@ -601,7 +617,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1C9F3475CA6B1C49"]
@@ -838,8 +854,8 @@
 				type: "item"
 			}]
 			title: "Fillet Your Fish"
-			x: 7.0d
-			y: -1.5d
+			x: 8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
@@ -1527,71 +1543,51 @@
 			y: 1.5d
 		}
 		{
-			id: "5533E0B209F5D310"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "09F69C9CFFE89495"
-				item: {
-					Count: 1b
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "unusualfishmod:unusual_catch"
-							lvl: 1s
-						}]
-					}
-				}
-				type: "item"
-			}]
-			x: -6.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["5533E0B209F5D310"]
+			dependencies: ["7B9BAC982DF2D54F"]
+			description: ["This &bSmithing Template&r will allow you to craft &acertain unusual &bfish drops&r into &bunusual weapons&r!"]
 			id: "27FA4B47BD5F218F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4607D78A3631ABDD"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "751D61D1F9D515C3"
 				item: "unusualfishmod:ancient_weapon_smithing_template"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -7.5d
+			title: "A Fishy Smithing Template"
+			x: 7.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["27FA4B47BD5F218F"]
-			id: "7AB6A4220B15CB6F"
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["You did it! You &acaught an &bUnusual Fish&r. Now you can &6smelt it into an &bUnusual Filet&r, or &asee what else you can do with it&r..."]
+			id: "7B9BAC982DF2D54F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5380C1E3614E24BD"
+				table_id: 661030336235288770L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
-				id: "6A18E671BB3EB07D"
+				id: "52339BF7E4715092"
 				item: {
 					Count: 1b
-					id: "unusualfishmod:depth_scythe"
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
+						value: "unusualfishmod:raw_unusual_fish"
 					}
 				}
+				title: "Any #unusualfishmod:raw_unusual_fish"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["27FA4B47BD5F218F"]
-			id: "096C4A203C903E34"
-			tasks: [{
-				id: "154D8117A4A6F81E"
-				item: {
-					Count: 1b
-					id: "unusualfishmod:ripsaw"
-					tag: {
-						Damage: 0
-						SawingProgress: 0.0f
-					}
-				}
-				type: "item"
-			}]
-			x: -4.5d
-			y: -9.5d
+			title: "Catch an Unusual Fish"
+			x: 5.5d
+			y: -3.0d
 		}
 	]
 	title: "Fishing \\& Gathering"

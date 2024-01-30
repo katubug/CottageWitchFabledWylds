@@ -1,0 +1,18 @@
+{
+	id: "260520A69D2AE5D2"
+	loot_size: 1
+	order_index: 40
+	rewards: [
+		{ item: "practical_plushies_animals:rabbit_plushie" }
+		{ item: "plushies:salt_rabbit_plushie" }
+		{ item: "plushies:brown_rabbit_plushie" }
+		{ item: "plushies:white_splotched_rabbit_plushie" }
+		{ item: "plushies:white_rabbit_plushie" }
+		{ item: "plushies:killer_bunny_plushie" }
+		{ item: "plushies:yellow_rabbit_plushie" }
+		{ item: "perfectplushies:rabbit_plushie" }
+		{ item: "plushies:black_rabbit_plushie" }
+		{ item: "plushies:toast_rabbit_plushie" }
+	]
+	title: "Rabbit Plushies"
+}

@@ -30,7 +30,7 @@
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.5d
-			y: 14.0d
+			y: 8.0d
 		}
 		{
 			click: ""
@@ -171,8 +171,8 @@
 				type: "dimension"
 			}]
 			title: "Begin your World"
-			x: 0.75d
-			y: 3.0d
+			x: -0.75d
+			y: 2.25d
 		}
 		{
 			description: [
@@ -214,7 +214,7 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -248,7 +248,7 @@
 			}]
 			title: "Mushroom Hat"
 			x: 2.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			description: ["Need to get somewhere in a hurry? Why not try &aslinging&r? The &bSlime Sling&r, when &6pointed at the ground and drawn&r, will shoot the player in the opposite direction upon release. You can achieve &aquite a bit of air time&r this way! And the &bSlime Boots&r make it so you...you know...&adon't die from fall damage&r. A winning combination!"]
@@ -283,8 +283,8 @@
 				title: "The Only Way to \"Fly\""
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 4.0d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -306,7 +306,7 @@
 			}]
 			title: "Enchantment Identification"
 			x: -1.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["47643C0C8D4BCBD9"]

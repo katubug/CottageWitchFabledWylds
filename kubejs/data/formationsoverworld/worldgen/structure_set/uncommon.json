@@ -1,0 +1,39 @@
+{
+  "replace":true,
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 650800552,
+    "spacing": 15,
+    "separation": 8
+  },
+  "structures": [
+    {
+      "structure": "formationsoverworld:campsite",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:graveyard",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:hobbit_hole",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:log_shelter",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:meteor",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:stone_ore_spikes",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:stone_tower",
+      "weight": 1
+    }
+  ]
+}

@@ -378,7 +378,6 @@
 378, none, mysticsbiomes:bamboo_blossom_forest, MONSTER, minecraft:slime, 80, 4, 4
 379, none, mysticsbiomes:bamboo_blossom_forest, MONSTER, minecraft:enderman, 5, 1, 4
 380, none, mysticsbiomes:bamboo_blossom_forest, MONSTER, minecraft:witch, 5, 1, 1
-381, none, mysticsbiomes:bamboo_blossom_forest, CREATURE, mysticsbiomes:red_panda, 10, 2, 4
 382, none, mysticsbiomes:bamboo_blossom_forest, CREATURE, eidolon:slimy_slug, 10, 2, 3
 383, none, mysticsbiomes:bamboo_blossom_forest, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 384, none, mysticsbiomes:bamboo_blossom_forest, CREATURE, unusualprehistory:mammoth, 10, 3, 4
@@ -423,7 +422,6 @@
 423, forest, regions_unexplored:bamboo_forest, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
 424, forest, regions_unexplored:bamboo_forest, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 425, forest, regions_unexplored:bamboo_forest, CREATURE, minecraft:pig, 30, 1, 1
-426, forest, regions_unexplored:bamboo_forest, CREATURE, mysticsbiomes:red_panda, 10, 2, 4
 427, forest, regions_unexplored:bamboo_forest, AMBIENT, minecraft:bat, 10, 8, 8
 428, forest, regions_unexplored:bamboo_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 429, forest, regions_unexplored:bamboo_forest, AMBIENT, mythicmounts:dragon, 10, 1, 1
@@ -475,7 +473,6 @@
 475, jungle, minecraft:bamboo_jungle, CREATURE, mythicmounts:firebird, 10, 1, 1
 476, jungle, minecraft:bamboo_jungle, CREATURE, species:limpet, 10, 1, 1
 477, jungle, minecraft:bamboo_jungle, CREATURE, minecraft:pig, 30, 1, 1
-478, jungle, minecraft:bamboo_jungle, CREATURE, mysticsbiomes:red_panda, 10, 2, 4
 479, jungle, minecraft:bamboo_jungle, AMBIENT, minecraft:bat, 10, 8, 8
 480, jungle, minecraft:bamboo_jungle, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 481, jungle, minecraft:bamboo_jungle, AMBIENT, mythicmounts:dragon, 10, 1, 1
@@ -1869,7 +1866,6 @@
 1869, jungle, regions_unexplored:eucalyptus_forest, CREATURE, unusualprehistory:majunga, 10, 1, 1
 1870, jungle, regions_unexplored:eucalyptus_forest, CREATURE, mythicmounts:firebird, 10, 1, 1
 1871, jungle, regions_unexplored:eucalyptus_forest, CREATURE, minecraft:pig, 30, 1, 1
-1872, jungle, regions_unexplored:eucalyptus_forest, CREATURE, mysticsbiomes:red_panda, 10, 2, 4
 1873, jungle, regions_unexplored:eucalyptus_forest, CREATURE, minecraft:panda, 80, 1, 2
 1874, jungle, regions_unexplored:eucalyptus_forest, AMBIENT, minecraft:bat, 10, 8, 8
 1875, jungle, regions_unexplored:eucalyptus_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
@@ -3123,7 +3119,6 @@
 3123, jungle, minecraft:jungle, CREATURE, mythicmounts:firebird, 10, 1, 1
 3124, jungle, minecraft:jungle, CREATURE, species:limpet, 10, 1, 1
 3125, jungle, minecraft:jungle, CREATURE, minecraft:pig, 30, 1, 1
-3126, jungle, minecraft:jungle, CREATURE, mysticsbiomes:red_panda, 10, 2, 4
 3127, jungle, minecraft:jungle, AMBIENT, minecraft:bat, 10, 8, 8
 3128, jungle, minecraft:jungle, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 3129, jungle, minecraft:jungle, AMBIENT, mythicmounts:dragon, 10, 1, 1
@@ -4663,7 +4658,6 @@
 4664, jungle, regions_unexplored:rainforest, CREATURE, unusualprehistory:majunga, 10, 1, 1
 4665, jungle, regions_unexplored:rainforest, CREATURE, mythicmounts:firebird, 10, 1, 1
 4666, jungle, regions_unexplored:rainforest, CREATURE, minecraft:pig, 30, 1, 1
-4667, jungle, regions_unexplored:rainforest, CREATURE, mysticsbiomes:red_panda, 10, 2, 4
 4668, jungle, regions_unexplored:rainforest, CREATURE, minecraft:panda, 80, 1, 2
 4669, jungle, regions_unexplored:rainforest, AMBIENT, minecraft:bat, 10, 8, 8
 4670, jungle, regions_unexplored:rainforest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
@@ -5613,7 +5607,6 @@
 5614, jungle, regions_unexplored:sparse_rainforest, CREATURE, unusualprehistory:majunga, 10, 1, 1
 5615, jungle, regions_unexplored:sparse_rainforest, CREATURE, mythicmounts:firebird, 10, 1, 1
 5616, jungle, regions_unexplored:sparse_rainforest, CREATURE, minecraft:pig, 30, 1, 1
-5617, jungle, regions_unexplored:sparse_rainforest, CREATURE, mysticsbiomes:red_panda, 10, 2, 4
 5618, jungle, regions_unexplored:sparse_rainforest, CREATURE, minecraft:panda, 80, 1, 2
 5619, jungle, regions_unexplored:sparse_rainforest, AMBIENT, minecraft:bat, 10, 8, 8
 5620, jungle, regions_unexplored:sparse_rainforest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1

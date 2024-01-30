@@ -1,0 +1,1319 @@
+
+{
+	"content": {
+
+        "plushie_rew_cod_plush": {
+            "type": "item",
+            "content": "plushies:cod_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_skeleton_horse_plush": {
+            "type": "item",
+            "content": "plushies:skeleton_horse_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_drowned_plush": {
+            "type": "item",
+            "content": "plushies:drowned_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_vindicator_plush": {
+            "type": "item",
+            "content": "plushies:vindicator_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_evoker_plush": {
+            "type": "item",
+            "content": "plushies:evoker_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_witch_plush": {
+            "type": "item",
+            "content": "plushies:witch_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_ravager_plush": {
+            "type": "item",
+            "content": "plushies:ravager_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_zombie_villager_plush": {
+            "type": "item",
+            "content": "plushies:zombie_villager_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_villager_plush": {
+            "type": "item",
+            "content": "plushies:villager_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_sheep_plush": {
+            "type": "item",
+            "content": "plushies:sheep_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_hippo_plush": {
+            "type": "item",
+            "content": "perfectplushies:hippo_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_horse_plush": {
+            "type": "item",
+            "content": "plushies:horse_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_enderman_plush": {
+            "type": "item",
+            "content": "plushies:enderman_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_salmon_plush": {
+            "type": "item",
+            "content": "plushies:salmon_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_silverfish_plush": {
+            "type": "item",
+            "content": "plushies:silverfish_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_husk_plush": {
+            "type": "item",
+            "content": "plushies:husk_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_zombie_plush": {
+            "type": "item",
+            "content": "plushies:zombie_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_phantom_plush": {
+            "type": "item",
+            "content": "plushies:phantom_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_zombiefied_piglin_plush": {
+            "type": "item",
+            "content": "plushies:zombiefied_piglin_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_llama_plush": {
+            "type": "item",
+            "content": "plushies:llama_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_chicken_plush": {
+            "type": "item",
+            "content": "plushies:chicken_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_pig_plush": {
+            "type": "item",
+            "content": "plushies:pig_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_polar_bear_plush": {
+            "type": "item",
+            "content": "plushies:polar_bear_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_wolf_plush": {
+            "type": "item",
+            "content": "plushies:wolf_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_piglin_plush": {
+            "type": "item",
+            "content": "plushies:piglin_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_wither_skeleton_plush": {
+            "type": "item",
+            "content": "plushies:wither_skeleton_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_piglin_brute_plush": {
+            "type": "item",
+            "content": "plushies:piglin_brute_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_hoglin_plush": {
+            "type": "item",
+            "content": "plushies:hoglin_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_parrot_plush": {
+            "type": "item",
+            "content": "plushies:parrot_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_panda_plush": {
+            "type": "item",
+            "content": "plushies:panda_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_goat_plush": {
+            "type": "item",
+            "content": "plushies:goat_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_wandering_trader_plush": {
+            "type": "item",
+            "content": "plushies:wandering_trader_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+
+        "plushie_rew_robin_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "perfectplushies:robin_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_monkey_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "perfectplushies:monkey_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_hummingbird_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "perfectplushies:hummingbird_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_elephant_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "perfectplushies:elephant_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_reindeer_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "perfectplushies:reindeer_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_mouse_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "perfectplushies:mouse_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_doe_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "perfectplushies:doe_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_rabbit_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "perfectplushies:rabbit_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_mooshroom_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:mooshroom_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_cow_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:cow_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_cat_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:cat_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_tadpole_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:tadpole_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_spider_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:spider_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_camel_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:camel_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_killer_bunny_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:killer_bunny_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_white_splotched_rabbit_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:white_splotched_rabbit_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_black_rabbit_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:black_rabbit_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_brown_rabbit_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:brown_rabbit_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_white_rabbit_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:white_rabbit_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_yellow_rabbit_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:yellow_rabbit_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_salt_rabbit_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:salt_rabbit_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_toast_rabbit_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:toast_rabbit_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_guardian_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:guardian_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_elder_guardian_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:elder_guardian_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_cave_spider_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:cave_spider_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_endermite_plushie": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "plushies:endermite_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2700
+        },
+
+        "plushie_rew_phantom_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "practical_plushies_mobs:phantom_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_zoglin_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "practical_plushies_mobs:zoglin_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_skeleton_horse_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "practical_plushies_mobs:skeleton_horse_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_horse_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "practical_plushies_animals:horse_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_ppa_camel_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "practical_plushies_animals:camel_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_shulker_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "plushies:shulker_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_blaze_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "plushies:blaze_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_ocelot_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "plushies:ocelot_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_ghast_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "plushies:ghast_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_snow_golem_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "plushies:snow_golem_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_turtle_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "plushies:turtle_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_dog_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "perfectplushies:dog_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_pp_cat_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "perfectplushies:cat_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_dolphin_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "perfectplushies:dolphin_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        }
+        ,
+
+        "plushie_rew_duck_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "perfectplushies:duck_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        }
+        ,
+
+        "plushie_rew_rubber_duck_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "perfectplushies:rubber_duck_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_goose_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "perfectplushies:goose_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_red_ruffed_lemur_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "perfectplushies:red_ruffed_lemur_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_bear_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "perfectplushies:bear_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_panda_plushie": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "perfectplushies:panda_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3400
+        },
+
+        "plushie_rew_bat_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "plushies:bat_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+
+        "plushie_rew_axolotl_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "plushies:axolotl_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+
+        "plushie_rew_dolphin_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "plushies:dolphin_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+
+        "plushie_rew_frog_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "plushies:frog_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+
+        "plushie_rew_witch_cat_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "kubejs:witch_cat_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+
+        "plushie_rew_allay_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "plushies:allay_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+
+        "plushie_rew_bee_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "plushies:bee_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+
+        "plushie_rew_cold_frog_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "plushies:cold_frog_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+
+        "plushie_rew_warm_frog_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "plushies:warm_frog_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+
+        "plushie_rew_capybara_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "perfectplushies:capybara_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+
+        "plushie_rew_glow_squid_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "plushies:glow_squid_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+
+        "plushie_rew_pufferfish_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "plushies:pufferfish_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+
+        "plushie_rew_red_fox_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "plushies:red_fox_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+
+        "plushie_rew_white_fox_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "plushies:white_fox_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+
+        "plushie_rew_squid_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "plushies:squid_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_pp_frog_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "perfectplushies:frog_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_raccoon_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "perfectplushies:raccoon_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_pp_red_fox_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "perfectplushies:red_fox_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_red_panda_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "perfectplushies:red_panda_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_snow_fox_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "perfectplushies:snow_fox_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_turtle_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "perfectplushies:turtle_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_allay_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:allay_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_axolotl_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:axolotl_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_bee_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:bee_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_camel_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:camel_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_cat_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:cat_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_chicken_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:chicken_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_cow_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:cow_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_dolphin_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:dolphin_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_fox_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:fox_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_frog_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:frog_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_panda_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:panda_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_parrot_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:parrot_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_pig_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:pig_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_rabbit_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:rabbit_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_sheep_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:sheep_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_sniffer_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:sniffer_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_turtle_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:turtle_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppa_wolf_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_animals:wolf_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppm_ghast_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_mobs:ghast_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppm_skeleton_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_mobs:skeleton_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppm_witch_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_mobs:witch_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppm_wither_skeleton_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_mobs:wither_skeleton_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        
+        "plushie_rew_ppm_zombie_plush": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "practical_plushies_mobs:zombie_plushie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        }
+
+	}
+
+}

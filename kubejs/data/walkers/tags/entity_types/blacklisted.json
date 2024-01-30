@@ -1,5 +1,5 @@
 {
-  "replace": true,
+  "replace": false,
   "values": [
 	  {
 		  "id": "amethyst_imbuement:sardonyx_elemental",
@@ -463,6 +463,10 @@
 	  },
 	  {
 		  "id": "the_bumblezone:bee_queen",
+		  "required": false
+	  },
+	  {
+		  "id": "aether:valkyrie_queen",
 		  "required": false
 	  }
   ]

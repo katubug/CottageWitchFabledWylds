@@ -158,6 +158,8 @@ JEIEvents.hideItems(event => {
         'crabbersdelight:crab_spawn_egg',
         'crabbersdelight:crab_bucket',
         'unusualfishmod:sea_boom',
+        'vegandelight:salt',
+        'reliquary:zombie_heart',
 
     ];
     

@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:is_forest",
+    "#minecraft:is_taiga",
+    "minecraft:plains",
+    "minecraft:snowy_plains"
+  ]
+}

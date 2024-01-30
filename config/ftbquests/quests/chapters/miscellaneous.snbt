@@ -217,6 +217,11 @@
 					item: "easy_villagers:converter"
 					type: "item"
 				}
+				{
+					id: "08FBA74E19CD647E"
+					item: "plushies:zombie_villager_plushie"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			subtitle: "extreme couponing"
@@ -552,8 +557,8 @@
 			shape: "hexagon"
 			subtitle: "It can sense your sentience"
 			tasks: [{
-				id: "124944875A442DDE"
-				item: "playerplates:obsidian_plate"
+				id: "6C1477BB186BDC18"
+				item: "quark:obsidian_pressure_plate"
 				type: "item"
 			}]
 			title: "A Player-Only Pressure Plate"
@@ -706,6 +711,11 @@
 					id: "19BF21C8EB91FC15"
 					table_id: 1510389528595555205L
 					type: "choice"
+				}
+				{
+					id: "79FF899A792B5187"
+					item: "plushies:ravager_plushie"
+					type: "item"
 				}
 			]
 			subtitle: "please can someone go healer"
@@ -2325,6 +2335,12 @@
 				"This works &aeven if the item has taken damage&r, so it could be a helpful way to salvage old gear!"
 			]
 			id: "257C8B9C7DBEEC23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F3358EFD33CB978"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "68A4AE97D731DA88"
@@ -2339,6 +2355,12 @@
 			dependencies: ["257C8B9C7DBEEC23"]
 			description: ["The &bAdvanced Uncrafter&r is very similar to the basic version, except it can return &a3 of the ingredients&r of a crafted item, instead of just one."]
 			id: "02841E684EA6A93B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AD07D22F8640FF6"
+				table_id: 5161092699925703455L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "20E696D509AC71A8"
@@ -2984,6 +3006,226 @@
 			title: "The Mighty Trash Can"
 			x: 1.5d
 			y: 4.5d
+		}
+		{
+			description: ["This unique End-enchanted item will only &afall when provided with a Redstone signal&r. If it is provided a redstone signal and &acannot fall, it will float up instead&r."]
+			id: "063A5C650B0846FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C41052B1E513FCF"
+				table_id: 3965165831041023950L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "this sand doesn't follow your rules"
+			tasks: [{
+				id: "67F40A51BA83155F"
+				item: "quark:gravisand"
+				type: "item"
+			}]
+			title: "Sand Which Disobeys Gravity"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			description: ["These special buttons function similarly to other &bButtons&r, except that the &bIron Button&r gives a &amuch longer signal&r than usual, and the &bGold Button&r a &amuch shorter signal&r than usual."]
+			id: "726336858C8FB767"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BE8896C264CD90A"
+				table_id: 3965165831041023950L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "can't stop the signal"
+			tasks: [
+				{
+					id: "3415EC1CDB979CE9"
+					item: "quark:iron_button"
+					type: "item"
+				}
+				{
+					id: "71A7344753E19556"
+					item: "quark:gold_button"
+					type: "item"
+				}
+			]
+			title: "Obtain Iron and Gold Buttons"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			description: ["The &bEnder Watcher&r transmits a Redstone signal when &aa player is looking at it&r. The signal intensity is determined by how far the player is."]
+			id: "45ED6F2E8BA02BE1"
+			rewards: [
+				{
+					id: "34D82E42B8D42B39"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A8EE26090571E60"
+					table_id: 3965165831041023950L
+					type: "loot"
+				}
+				{
+					id: "3E1AE85C3383B966"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									797961014
+									-232764807
+									-1952866225
+									341423790
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU2MWMwZDU0ZmFjY2I2YTE5MzdmNTZiYmYzZDU5YTViN2QxMjZlYzM4NTBiMDQ5N2ViZTc3ZjFmNTY3YTlmNSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Fancy Cube\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "62B5BCDB2A90DAEF"
+				item: "quark:ender_watcher"
+				type: "item"
+			}]
+			title: "Obtain an Ender Watcher"
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"The &bIron Rod&r is not just a decoration, it is also functional. When it is placed on a &bSticky Piston&r, it will &abreak the block&r the Piston pushes it into."
+				""
+				"This only works on blocks which can be pushed, so blocks like &bObsidian&r will not be affected."
+			]
+			id: "3052EF7FA42720A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AB59380B6460560"
+				table_id: 3965165831041023950L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "that's my grindr screenname"
+			tasks: [{
+				id: "1918779DD3A11D09"
+				item: "quark:iron_rod"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"The &bWooden Chute&r is a block which draws items from above it and &adrops them&r perfectly in the center of the block below it."
+				""
+				"It can be disabled with a Redstone signal, or by placing a block directly below it."
+			]
+			id: "3A61711F03B28A75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4059529E6D0AA569"
+				table_id: 3965165831041023950L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "676B0CB3CC791FE2"
+				item: "quark:chute"
+				type: "item"
+			}]
+			title: "Wooden Chute"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			description: ["The &bIron Grate&r works to keep animals inside, as they are afraid to walk over it, although you can lead them across by attaching a &bLead&r to them. &aItems will fall through it&r."]
+			id: "56A1AFEE3581AF89"
+			rewards: [{
+				count: 10
+				id: "523F3BAD090A8740"
+				item: "quark:grate"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "well that's just grate"
+			tasks: [{
+				count: 4L
+				id: "1305E7DA1FE92274"
+				item: "quark:grate"
+				type: "item"
+			}]
+			title: "Obtain Iron Grates"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"You can obtain a &bCloud in a Bottle&r by ascending to &acloud height&r and &6right clicking the air with a glass bottle&r."
+				""
+				"You can release the Cloud by right-clicking the bottle in the air. It will shortly disappear. However, if the cloud is &6replaced with another block&r, it returns to the bottle. This allows you to &aplace blocks in midair&r."
+			]
+			id: "4E8C0079E6F9A13A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11A5E2AE72919C5A"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "73285DBFEE08DB21"
+				item: "quark:bottled_cloud"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: ["Once you get one &bPlushie&r, you'll probably end up &awanting more&r. Earn them using this &bBounty Board Decree&r!"]
+			id: "6EF0662A6493D818"
+			rewards: [{
+				id: "71CFF588AECD9697"
+				item: {
+					Count: 1b
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{\"ids\":[\"plushies\"]}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B78390A0008A99B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plushies"
+					}
+				}
+				title: "Any #forge:plushies"
+				type: "item"
+			}]
+			title: "Obtain a Plushie"
+			x: 4.5d
+			y: -2.0d
 		}
 	]
 	title: "Miscellaneous"

@@ -451,6 +451,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "45AA1220E47294AD"
+					item: "plushies:dragon_plushie"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			tasks: [{

@@ -49,10 +49,13 @@
 	#Items and blocks in this list will be filtered based on their tags.
 	#Example: ["forge:stone"]
 	filter_by_tags = []
-	#Items and blocks in this list will be filtered based on their Mod Name.
+	#Items and blocks in this list will be filtered based on their mod Name.
 	#Example: ["alexscaves", "ae2", "minecraft"]
 	filter_by_mods = []
 	#Entities in this list will be filtered based on their names.
 	#Example: ["entity.minecraft.trader_llama", "entity.mowziesmobs.foliaath"]
 	filter_entity = ["entity.the_bumblezone.bee_queen"]
+	#Entities in this list will be filtered based on what mod they are from.
+	#Example: ["creeperoverhaul", "deeperdarker", "minecraft"]
+	filteredEntityByModIDList = []
 

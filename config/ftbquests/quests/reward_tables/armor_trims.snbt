@@ -1,7 +1,7 @@
 {
 	id: "4972AA871F691F6C"
 	loot_size: 1
-	order_index: 38
+	order_index: 39
 	rewards: [
 		{ item: "minecraft:netherite_upgrade_smithing_template" }
 		{ item: "minecraft:sentry_armor_trim_smithing_template" }

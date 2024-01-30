@@ -1,13 +1,29 @@
 {
 	id: "705B95C0FA754FCA"
-	loot_size: 6
-	order_index: 19
+	loot_size: 4
+	order_index: 20
 	rewards: [
-		{ item: "vinery:cherry" }
 		{ item: "farmersdelight:pie_crust" }
-		{ item: "minecraft:sweet_berries" }
+		{ count: 5, item: "minecraft:sweet_berries" }
 		{ item: "minecraft:mushroom_stew" }
 		{ count: 5, item: "meadow:alpine_salt" }
+		{ count: 3, item: "candlelight:butter" }
+		{ count: 4, item: "minecraft:beef" }
+		{ count: 3, item: "farmersdelight:milk_bottle" }
+		{ count: 3, item: "minecraft:kelp" }
+		{ count: 4, item: "farmersdelight:rice_panicle" }
+		{ count: 3, item: "farmersdelight:wheat_dough" }
+		{ count: 2, item: "nethersdelight:hoglin_loin" }
+		{ count: 3, item: "create:bar_of_chocolate" }
+		{ item: "mysticsbiomes:strawberry_milk_bucket" }
+		{ item: "meadow:wooden_amethyst_milk_bucket" }
+		{ count: 4, item: "meadow:rennet" }
+		{ count: 3, item: "farmersdelight:bacon" }
+		{ count: 2, item: "candlelight:mozzarella" }
+		{ count: 2, item: "minecraft:honey_bottle" }
+		{ count: 5, item: "minecraft:egg" }
+		{ count: 3, item: "minecraft:mutton" }
+		{ count: 2, item: "minecraft:rabbit" }
 	]
 	title: "Food"
 }

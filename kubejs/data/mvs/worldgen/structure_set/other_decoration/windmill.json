@@ -1,0 +1,15 @@
+{
+  "replace":true,
+  "structures":[
+  ],
+  "placement": {
+
+    "type": "mvs:advanced_random_spread",
+
+    "salt": 774638947,
+
+    "spacing": 26,
+
+    "separation": 14
+  }
+}

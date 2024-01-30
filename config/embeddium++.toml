@@ -33,7 +33,7 @@
 		#Without flywheel installed or using any backend, it increases FPS significatly on chest rooms
 		fastChests = false
 		#Toggles FastBeds feature
-		fastBeds = true
+		fastBeds = false
 		#Toggles Minecraft Fonts shadows
 		#Depending of the case may increase performance
 		#Gives a flat style text
@@ -86,6 +86,14 @@
 		#Toggle if Entities should have dynamic lights
 		onEntities = true
 		updateOnlyOnPositionChange = true
+
+	[embeddiumplus.others]
+		#Configure if borderless fullscreen option should be attached to F11 or replace vanilla fullscreen
+		#Allowed Values: ATTACH, REPLACE, OFF
+		borderlessAttachModeOnF11 = "ATTACH"
+		#Toggles fast language reload
+		#Embeddedt points it maybe cause troubles to JEI, so ¿why not add it as a toggleable option?
+		fastLanguageReload = true
 
 	[embeddiumplus.quality]
 		#Chunks fade in speed

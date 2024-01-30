@@ -85,8 +85,8 @@
 				type: "item"
 			}]
 			title: "Combining Potions"
-			x: 1.5d
-			y: 0.5d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2D3C215D6E61E7AE"]
@@ -135,6 +135,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			size: 2.0d
 			subtitle: "(dis)ENCHAHNTMENT!"
 			tasks: [{
 				id: "1BFEFD4EBEFC5F2A"
@@ -160,6 +161,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "65CD5F0ECEA96599"
 				item: "ancient_manuscripts:ancient_manuscript"
@@ -178,7 +180,7 @@
 				""
 				"If you want to guarantee that you'll receive a top tier enchantment, you can add a &bdiamond&r to the diamond slot on the table. The resulting enchantment will have the highest level available."
 				""
-				"&bEnchanted book glue*r is &aconsumed during the crafting process&a. If there is less glue remaining than pages to be glued, the &dbinding process will not work&r."
+				"&bEnchanted book glue&r is &aconsumed during the crafting process&a. If there is less glue remaining than pages to be glued, the &dbinding process will not work&r."
 			]
 			id: "564B745E34AB0932"
 			rewards: [
@@ -500,6 +502,26 @@
 			title: "Stronger Cognition"
 			x: -4.5d
 			y: -8.0d
+		}
+		{
+			id: "6E1B07BEB8F423BC"
+			tasks: [{
+				id: "460256459F27E160"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			id: "037DDBA4E75EC862"
+			tasks: [{
+				id: "7F438B0249797484"
+				item: "herbalbrews:cauldron"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
 		}
 	]
 	title: "Brewing \\& Enchanting"

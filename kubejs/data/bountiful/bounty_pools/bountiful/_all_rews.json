@@ -1,0 +1,23 @@
+{
+	"content": {
+
+		"all_rew_ruby_reward": {
+			"name": "Ruby",
+			"type": "item",
+            "rarity": "UNCOMMON",
+			"content": "rubyexchange:ruby",
+			"amount": {
+				"min": 4,
+				"max": 32
+			},
+			"unitWorth": 1000
+		},
+
+        "all_rew_decree": {
+            "rarity": "COMMON"
+        },
+    
+        "all_rew_prismarine_crystals": null
+
+	}
+}

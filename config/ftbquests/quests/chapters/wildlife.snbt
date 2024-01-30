@@ -379,13 +379,11 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["43B3A6804B59565E"]
 			description: ["Find an &eIceologer&r during a raid or in his secluded home. And then murder him. Because frankly, he deserves it."]
 			id: "23D702F268464D8E"
 			rewards: [{
-				count: 5
-				id: "4FD84074975C4353"
-				item: "twilightforest:ice_bomb"
+				id: "1E553A6C8557B05F"
+				item: "reliquary:ice_magus_rod"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -395,8 +393,8 @@
 				id: "016BADEBDA25900E"
 				type: "advancement"
 			}]
-			x: -3.0d
-			y: 2.5d
+			x: 9.0d
+			y: 7.0d
 		}
 		{
 			can_repeat: true
@@ -618,6 +616,11 @@
 					table_id: 5161092699925703455L
 					type: "loot"
 				}
+				{
+					id: "6C40DE6A97CD8CE1"
+					item: "plushies:creeper_plushie"
+					type: "item"
+				}
 			]
 			shape: "square"
 			tasks: [{
@@ -669,14 +672,20 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["43B3A6804B59565E"]
 			description: ["Defeat the &eIllusioner&r - if you can find him - and obtain his riches!"]
 			id: "61E2531671CC8118"
-			rewards: [{
-				id: "4C326A6B45BB6BF4"
-				item: "minecraft:emerald_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4C326A6B45BB6BF4"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "3C6FB31AEA61131F"
+					item: "plushies:illusioner_plushie"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				advancement: "friendsandfoes:adventure/kill_illusioner"
@@ -684,8 +693,8 @@
 				id: "1BBF8996270374EB"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 7.5d
+			x: 7.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -769,6 +778,11 @@
 				{
 					id: "3506C0BD5CA7D0C5"
 					item: "minecraft:wither_rose"
+					type: "item"
+				}
+				{
+					id: "2114E44A8D9C11AC"
+					item: "plushies:wither_skeleton_plushie"
 					type: "item"
 				}
 			]
@@ -860,18 +874,18 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["43B3A6804B59565E"]
 			description: ["Kill all three &eIllager Magicians&r. Please."]
 			id: "077E56B6A68AB3AC"
 			rewards: [
 				{
-					id: "743B5E809927506A"
-					item: "ars_nouveau:wixie_charm"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "4271070CEB49F7C0"
+					table_id: 8415512190420352941L
+					type: "loot"
 				}
 				{
-					id: "660DA5C0B4FF6006"
-					item: "ars_nouveau:whirlisprig_charm"
+					id: "2ABB95BC3E06E88A"
+					item: "plushies:evoker_plushie"
 					type: "item"
 				}
 			]
@@ -882,8 +896,8 @@
 				id: "39A1B59A1F5CD337"
 				type: "advancement"
 			}]
-			x: 3.0d
-			y: 2.5d
+			x: 9.0d
+			y: 5.0d
 		}
 		{
 			description: [
@@ -1009,6 +1023,16 @@
 					table_id: 8808494820591225409L
 					type: "random"
 				}
+				{
+					id: "11BA7BD84D12269E"
+					item: "plushies:spider_plushie"
+					type: "item"
+				}
+				{
+					id: "7DCDEAAD5461FF83"
+					item: "plushies:cave_spider_plushie"
+					type: "item"
+				}
 			]
 			shape: "square"
 			tasks: [{
@@ -1019,7 +1043,7 @@
 				value: 100L
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 7.5d
 		}
 		{
 			description: [
@@ -1087,18 +1111,8 @@
 					type: "item"
 				}
 				{
-					id: "38E5E26D83B55745"
-					item: "plushies:frog_plushie"
-					type: "item"
-				}
-				{
-					id: "56D663C2C2799F83"
-					item: "plushies:warm_frog_plushie"
-					type: "item"
-				}
-				{
-					id: "3B39CEE7D524B72E"
-					item: "plushies:cold_frog_plushie"
+					id: "0D0DD755731F3665"
+					item: "plushies:tadpole_plushie"
 					type: "item"
 				}
 			]
@@ -2168,49 +2182,13 @@
 			y: -8.0d
 		}
 		{
-			id: "5C17C47397C9270D"
-			shape: "heart"
-			tasks: [{
-				icon: "galosphere:sparkle_spawn_egg"
-				id: "4118A2CC31004F60"
-				observe_type: 5
-				timer: 0L
-				to_observe: "galosphere:sparkle"
-				type: "observation"
-			}]
-			x: 16.0d
-			y: -6.0d
-		}
-		{
-			id: "48F072428CCC9630"
-			shape: "heart"
-			tasks: [{
-				icon: "galosphere:bottle_of_spectre"
-				id: "578AAE1457247829"
-				observe_type: 5
-				timer: 0L
-				to_observe: "galosphere:spectre"
-				type: "observation"
-			}]
-			x: 15.5d
-			y: -4.0d
-		}
-		{
-			id: "5B0869DFFC4B85A7"
-			shape: "heart"
-			tasks: [{
-				icon: "friendsandfoes:rascal_spawn_egg"
-				id: "4242E509A9BDE07D"
-				observe_type: 5
-				timer: 0L
-				to_observe: "friendsandfoes:rascal"
-				type: "observation"
-			}]
-			x: 15.0d
-			y: -2.5d
-		}
-		{
+			description: ["The &eAllay&r are kind and gentle creatures which are coveted for their &apropensity to collect items&r. Give them an item to hold, and they will &apick that item type from the ground&r and put it in a nearby inventory!"]
 			id: "4BE2F61081D4D690"
+			rewards: [{
+				id: "22F5B2CC2471499D"
+				item: "plushies:allay_plushie"
+				type: "item"
+			}]
 			shape: "heart"
 			tasks: [{
 				icon: "minecraft:allay_spawn_egg"
@@ -2220,8 +2198,9 @@
 				to_observe: "minecraft:allay"
 				type: "observation"
 			}]
-			x: 16.5d
-			y: -5.0d
+			title: "Meet the Allay"
+			x: 9.0d
+			y: -3.5d
 		}
 		{
 			description: [
@@ -2292,12 +2271,19 @@
 				"Nowadays, witches and ducks are pretty chill. You can &abreed them with &bSeeds&r, and occasionally they will lay &bdelicious Eggs&r."
 			]
 			id: "048E0AE97BA096FE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "65767D03D8AED1C3"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65767D03D8AED1C3"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					id: "55B3A9984CC36601"
+					item: "perfectplushies:duck_plushie"
+					type: "item"
+				}
+			]
 			shape: "heart"
 			tasks: [{
 				icon: "earthmobsmod:duck_egg"
@@ -2312,32 +2298,293 @@
 			y: -7.5d
 		}
 		{
-			id: "0489B1DECAB846C8"
+			description: [
+				"&eStonelings&r are very timid creatures! They can be found &cin caves underground&r, and will often be carrying &asomething shiny they found&r."
+				""
+				"Most times, they will &aimmediately flee&r the player and poof into their home dimension. However, if they are killed, they can drop the very valuable &bHeart of Diamond&r, used to make a &bPickarang&r."
+				""
+				"To obtain this, you'll need to &6sneak up on the &eStoneling&r."
+			]
+			id: "2D8511D462DFF413"
+			rewards: [{
+				id: "101DF70390C46B3B"
+				item: "quark:diamond_heart"
+				type: "item"
+			}]
 			shape: "heart"
 			tasks: [{
-				icon: "deep_aether:quail_egg"
-				id: "347EC12D4EEA0DA3"
+				icon: "quark:diamond_heart"
+				id: "7551AFCE82A71085"
 				observe_type: 5
 				timer: 0L
-				to_observe: "deep_aether:quail"
+				to_observe: "quark:stoneling"
 				type: "observation"
 			}]
-			x: 16.5d
+			title: "Meet the Stoneling"
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			description: ["Just theoretically speaking... in a completely hypothetical situation...what would happen if you - or anyone, it doesn't have to be you - what would happen if someone were to (and understand, I'm not suggesting you do this or anything), but &awhat if someone were to throw a &bBirt Egg&r at the &eWarden&r?"]
+			id: "72AEC02678301699"
+			rewards: [{
+				id: "67BADCFA13D0E998"
+				item: "plushies:warden_plushie"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "species:adventure/birt_egg_at_warden"
+				criterion: ""
+				icon: "species:birt_egg"
+				id: "70729BC850B5B74E"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["The &eWither&r is a fearsome foe, but I have faith that you're a powerful enough witch to &6defeat one in combat&r."]
+			id: "5D5261F404366454"
+			rewards: [
+				{
+					id: "3D997D4750DFFDFE"
+					item: "plushies:wither_plushie"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "26B9C8227D2D8C9C"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "plushies:wither_plushie"
+				id: "2B3B9D9056B50C03"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Wither"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&eCapybara&r are widely known as being friendly, amiable creatures, capable of making friends with creatures of all types."
+				""
+				"They can be &atamed with &bSugarcane&r, and &abred with &bApples&r!"
+			]
+			icon: "perfectplushies:capybara_plushie"
+			id: "0F493F4799F7F09B"
+			rewards: [{
+				id: "0D5EB00F9108C638"
+				item: "perfectplushies:capybara_plushie"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "2571B404C77E7E84"
+				observe_type: 5
+				timer: 0L
+				to_observe: "capybaramod:capybara"
+				type: "observation"
+			}]
+			title: "Meet the Capybara"
+			x: -8.0d
 			y: -3.0d
 		}
 		{
-			id: "53AA311A328DF5D5"
+			description: [
+				"&eRed Pandas&r are actually more closely related to Raccoons than &etrue Pandas&r, but that doesn't make them any less adorable!"
+				""
+				"They are naturally skittish creatures and will &arear up when you approach&r in an attempt to frighten you off. They can be &atamed with &bSweet Berries&r and &abred with &bBamboo&r!"
+			]
+			id: "01C95F8B7C4A029B"
+			rewards: [{
+				id: "5279FFA93EDFF122"
+				item: "perfectplushies:red_panda_plushie"
+				type: "item"
+			}]
 			shape: "heart"
+			subtitle: "im so scawy"
 			tasks: [{
-				icon: "friendsandfoes:glare_spawn_egg"
-				id: "030ABD97C9145B7B"
+				icon: "perfectplushies:red_panda_plushie"
+				id: "6D904C85DC5492DA"
 				observe_type: 5
 				timer: 0L
-				to_observe: "friendsandfoes:glare"
+				to_observe: "ydms_redpanda:redpanda"
 				type: "observation"
 			}]
-			x: 18.0d
-			y: -6.5d
+			title: "Meet the Red Panda"
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			description: ["The &eNecromancer&r is a new &aboss mob&r which appears during the &afinal waves of a Villager Raid&r. They are incredibly powerful, with the ability to &asummon the &eUndead&r, and shoot &aarcane projectiles&r."]
+			id: "1F9D46A2AE20D31A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "299B87CD1A808F59"
+				table_id: 5705869042914710822L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "eidolon:necromancer"
+				icon: "eidolon:spawn_necromancer"
+				id: "42DF2CED1E7D168D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Necromancer"
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"This advancement requires you to &6put all &eFrog&6 variants on a &bLead&r. However, because this is modded, it's not going to be as easy as 1, 2, 3. In fact, we're turning it up to &a11&r."
+				""
+				"&eFrogs&r only spawn in &cSwampy&r areas, but you can &6breed them with &bSlimeballs&r to make them lay &bFrogspawn&r. Once that Frogspawn hatches, you can &6capture the &eTadpoles&r with &bBuckets&r! Then you can &abring those &eTadpoles&r to different biomes to grow into &aregional variant&r adult &eFrogs&r."
+				""
+				"Here's a guide:"
+				""
+				"- &4Red&r: &cJungles&r or &cSparse Jungles&r, &cRainforests&r."
+				""
+				"- &6Orange&r: &cBirch Biomes&r, &cBeaches&r, &cDeserts&r. &dAny frog grown in a biome not otherwise specified will also become Orange&r."
+				""
+				"- &eYellow&r: &cBadlands Biomes&r."
+				""
+				"- &aLime&r: &cSwamps, &cFens&r, &cBayous&r, &cMarshes&r, and &cLush Caves&r."
+				""
+				"- &2Green&r: &cPlains&r and &cRiver Biomes&r."
+				""
+				"- &3Cyan&r: &cLukewarm&r/&cDeep Lukewarm&r, &cDeep&r/Regular &cOceans&r, &cRocky Reef&r."
+				""
+				"- &bLight Blue&r: &cWarm Oceans&r, &cIce Spikes&r."
+				""
+				"- &1Blue&r: &cCold&r, &cFrozen Oceans&r (and &cDeep&r variants), &cHyacinth Deeps&r."
+				""
+				"- &5Purple&r: Biomes in &cThe End&r."
+				""
+				"- &dMagenta&r: &cMushroom Fields&r, &cCherry Grove&r, and &cBioshroom Caves&r."
+				""
+				"- &dPink&r: &cFlower Forest&r, &cSunflower Plains&r, &cFlower Fields&r, &cLavender Meadow&r, &cStrawberry Fields&r."
+				""
+				"- &8Brown&r: &cTaiga Biomes&r, &cDripstone Caves&r, &cRedwoods&r and &cSparse Redwoods&r."
+				""
+				"- &0Black&r: &cDeep Dark&r, &cDark Forest&r, and &cAerglow Forest&r."
+				""
+				"- &8Gray&r: &cWindswept&r/&cGravelly Hills&r, &cStony Peaks&r/&cShores&r. &cWindswept Forest&r, and &cRocky Meadow&r."
+				""
+				"- &7Light Gray&r: &cFrozen&r or &cJagged Peaks&r, &cFrozen River&r or &cTundra&r, and &cIcy Heights&r."
+				" "
+				"- White: &cSnowy Plains&r, &cSnowy Taiga&r, &cSnowy Slopes&r, &cSnowy Beach&r, &cGrove&r."
+			]
+			id: "7C47161393ACC4BE"
+			rewards: [
+				{
+					id: "195772F0977B1D51"
+					item: "plushies:frog_plushie"
+					type: "item"
+				}
+				{
+					id: "0EFA55CC857E2FFD"
+					item: "plushies:warm_frog_plushie"
+					type: "item"
+				}
+				{
+					id: "6467E24028400535"
+					item: "plushies:cold_frog_plushie"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "squad goals"
+			tasks: [{
+				advancement: "minecraft:husbandry/leash_all_frog_variants"
+				criterion: ""
+				icon: "plushies:cold_frog_plushie"
+				id: "3BC9A58E2483968C"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["&eGiant Skeletons&r are hostile beings which can be found in &lEidolon's&r &cCatacombs&r. Defeat 5 of them to complete this quest."]
+			id: "398BB6F24F13BBB3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "659FA95F02395932"
+				table_id: 5292480009438044012L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "eidolon:giant_skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "389CBA4D1AA1A2FD"
+				type: "kill"
+				value: 5L
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"The &aBerserker&r is an ancient undead, once slated to protect the &eGoddess of the Deep&r in her palace of &bsalt&r. However, the &eDeep Goddess&r long ago left this realm - and her guardian - behind. In the ensuing millenia, the &eBerserker&r has become &apetrified by &bsalt&r, but it is likely that an &aintruder&r would &6awaken him again&r."
+				""
+				"His home is made in the &cPink Salt Shrine&r, where he lays dormant &adeep within&r."
+				""
+				"If you fight him, expect &avicious ranged and AoE attacks&r, as well as a &avery strong melee&r. He is slow, however, and a particularly crafty witch can likely take him down!"
+			]
+			id: "6D86FA424098E37F"
+			rewards: [{
+				id: "6828FCEF98C00ADA"
+				item: "galosphere:preserved_template"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "prepare for a difficult fight"
+			tasks: [{
+				entity: "galosphere:berserker"
+				icon: {
+					Count: 1b
+					id: "galosphere:preserved_flesh"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7C2CB6061E5B9572"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Berserker"
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			description: ["&eZombie Brutes&r can spawn in most places that regular ones can, they are just &amore rare&r. Slay 5 of them for this quest."]
+			id: "2E1689CD059947AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "169E9F327A642827"
+				table_id: 5292480009438044012L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "eidolon:zombie_brute"
+				icon: "minecraft:zombie_head"
+				id: "43B201E3365649C7"
+				type: "kill"
+				value: 5L
+			}]
+			x: 10.5d
+			y: 6.5d
 		}
 	]
 	title: "Wildlife"

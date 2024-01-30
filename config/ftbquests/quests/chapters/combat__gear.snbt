@@ -68,13 +68,13 @@
 	quests: [
 		{
 			description: [
-				"A full set of Netherite Armor takes..."
+				"A full set of &bNetherite Armor&r takes..."
 				""
 				"*counts on fingers*..."
 				""
 				"..."
 				""
-				"At least four &bNetherite&r. Anyway the important thing isn't the math, just go do it and take the reward."
+				"&aAt least &ofour&r &bNetherite&r. Anyway - the important thing isn't the math, just go do it and take the reward."
 			]
 			id: "0AF3D2A62E51E5B2"
 			rewards: [
@@ -98,8 +98,8 @@
 				id: "5862E16DD2298F30"
 				type: "advancement"
 			}]
-			x: -6.0d
-			y: 2.0d
+			x: -6.5d
+			y: 3.5d
 		}
 		{
 			description: ["Obtain a &bfull set of Diamond Tools&r to earn a unique armor set!"]
@@ -450,11 +450,15 @@
 				}
 			]
 			title: "The Full Set: Iron Armor"
-			x: -2.0d
-			y: 2.0d
+			x: -6.0d
+			y: 4.5d
 		}
 		{
-			description: ["Obtain a full set of &bGolden Everything&r to earn the right to &aPraise the Sun&r."]
+			description: [
+				"Obtain a full set of &bGolden tools&r to complete this quest."
+				""
+				"&bGolden tools&r have lower durability than other tools, but are &ahighly enchantable&r, and also make &ePiglins&r friendly towards you."
+			]
 			id: "63244E494B2159D8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -464,50 +468,6 @@
 			}]
 			shape: "hexagon"
 			tasks: [
-				{
-					id: "4431FD9F2261940D"
-					item: {
-						Count: 1b
-						id: "minecraft:golden_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "58294C168F4C9EB9"
-					item: {
-						Count: 1b
-						id: "minecraft:golden_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "74B9321ADDB55D43"
-					item: {
-						Count: 1b
-						id: "minecraft:golden_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6B4FD1700E953829"
-					item: {
-						Count: 1b
-						id: "minecraft:golden_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "69117BF9195BCB02"
 					item: {
@@ -564,7 +524,7 @@
 					type: "item"
 				}
 			]
-			title: "The Full Set: Golden Glory"
+			title: "The Full Set: Golden Tools"
 			x: 3.0d
 			y: -4.0d
 		}
@@ -625,8 +585,8 @@
 				}
 			]
 			title: "The Full Set: Diamond Armor"
-			x: -2.5d
-			y: 3.0d
+			x: -5.5d
+			y: 5.5d
 		}
 		{
 			description: [
@@ -749,6 +709,12 @@
 				"Simply &6right click it on your mount&r to stow it, and &6right click the ground&r to free them."
 			]
 			id: "5639488A5172F863"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "269A3AA3F9B3DF9C"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "1438B1A20A96E484"
@@ -769,8 +735,8 @@
 				type: "item"
 			}]
 			title: "A Way to Transport Mounts"
-			x: 5.5d
-			y: -3.0d
+			x: -2.5d
+			y: -4.5d
 		}
 		{
 			description: ["Do you have an excess of &bTrinkets&r? You can &6right click them on &bAmethyst&r to convert them into &bUnknown Fragments&r. Once you have nine of them, you can &atrade them in here&r for a &brandom Trinket&r."]
@@ -1047,7 +1013,7 @@
 				}
 			]
 			title: "The Full Set: Veridium Tools"
-			x: 1.5d
+			x: 6.5d
 			y: -5.0d
 		}
 		{
@@ -1482,7 +1448,7 @@
 			]
 			title: "The Full Set: Skyroot Tools"
 			x: 5.5d
-			y: -5.0d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -1727,8 +1693,8 @@
 				}
 			]
 			title: "The Full Set: Phoenix Tools"
-			x: 4.5d
-			y: -7.0d
+			x: 6.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -1888,7 +1854,7 @@
 				}
 			]
 			title: "The Full Set: Valkyrie Tools"
-			x: 2.5d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
@@ -1914,8 +1880,1623 @@
 				type: "item"
 			}]
 			title: "Obtain Travel Boots"
-			x: -2.5d
-			y: 1.0d
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			description: ["These adorable pieces of gear, including &bCat Ears&r, &bDruid Horns&r, and a &bFrog&r you can wear o your head are &easy to obtain&r and have &aweak stats&r. You can use them with &lCosmetic Armor&r &aslots&r to apply their appearance even though your armor is still giving you its benefits!"]
+			id: "753BC713E94D53E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49799AA94CA0D6F8"
+				table_id: 7049021818423122779L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0998C5542C32C227"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "witchywearables:witchywearables"
+					}
+				}
+				title: "Any #witchywearables:witchywearables"
+				type: "item"
+			}]
+			title: "Witchy Wearables"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Collect a whole set of &bDraco Arcanus Tools&r to complete this quest."
+				""
+				"These tools are some of the most powerful in the game."
+			]
+			id: "71E54B1DC4C31526"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E613C6BB83CAD1A"
+				table_id: 5161092699925703455L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "03D3546F4BE54CF7"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "422A23D37E4A0A18"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "716E10497FDB6E47"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AE9BF1057B83F46"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06A1D8A33D108684"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53D2E84C291641F0"
+					item: {
+						Count: 1b
+						id: "delightful:draco_arcanus_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Draco Arcanus Tools"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bNeptunium Tools&r to complete this quest."
+				""
+				"The &bNeptunium tools&r have unique properties."
+				""
+				"&bFishing Rod&r: &aLures fish faster&r than other rods."
+				""
+				"&bHoe&r: Farmland hoed by this tool will &abe forever hydrated&r without requiring a water source."
+				""
+				"&bPickaxe&r and &bShovel: Are &anot hindered&r by the underwater mining speed penalty."
+			]
+			id: "2A899AF9F78828B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2770C34463AC901D"
+				table_id: 3860672237768942222L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "115D883F2096D316"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09FF60A0FFD072CA"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_pickaxe"
+						tag: {
+							Damage: 0
+							inWater: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02BAE54881F6E627"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "111CCFC11A529438"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_shovel"
+						tag: {
+							Damage: 0
+							inWater: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65F554514D7A4774"
+					item: "aquaculture:neptunium_fillet_knife"
+					type: "item"
+				}
+			]
+			title: "The Full Set: Neptunium Tools"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &aCognitium Tools&r to complete this quest."
+				""
+				"On top of being &amore durable than &biron&r, you find that tools made of &bCognitive Alloy&r are more comfortable to wield - affording you an &aextra block of reach distance&r and a &aslightly faster mining speed&r."
+			]
+			id: "4AABC75FBF6773FD"
+			rewards: [{
+				id: "26AD437A482BF741"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "59C0F66D6350D9D6"
+					item: {
+						Count: 1b
+						id: "experienceobelisk:cognitive_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10B6B3266A5C51EB"
+					item: {
+						Count: 1b
+						id: "experienceobelisk:cognitive_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29111436972FD511"
+					item: {
+						Count: 1b
+						id: "experienceobelisk:cognitive_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5ABFEF63373C2124"
+					item: {
+						Count: 1b
+						id: "experienceobelisk:cognitive_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43B5B79F3EF575D6"
+					item: {
+						Count: 1b
+						id: "experienceobelisk:cognitive_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Cognitive Tools"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bSilver Tools&r to complete this quest."
+				""
+				"These tools &ado not offer any special properties&r, but as long as we're collecting everything else, you might as well get rewarded for this, too!"
+			]
+			id: "2A4241B2167ED09E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07F2E4E93887C432"
+				table_id: 6046676062417606251L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "61B7B8563B031421"
+					item: {
+						Count: 1b
+						id: "eidolon:silver_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AF3FE579D1CC7E6"
+					item: {
+						Count: 1b
+						id: "eidolon:silver_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68BFE4051325BC13"
+					item: {
+						Count: 1b
+						id: "eidolon:silver_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C2EF0B36D139ED3"
+					item: {
+						Count: 1b
+						id: "eidolon:silver_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17816CF4EC4D21BE"
+					item: {
+						Count: 1b
+						id: "eidolon:silver_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68E7D74A82347E7E"
+					item: {
+						Count: 1b
+						id: "delightful:silver_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Silver Tools"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			id: "7B3A4A2BAA943C98"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "13FF0FDD6871F9D1"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DCCA3F69ED2EA42"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50F5DCB623C0C5AB"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DE5F10AB823FDD7"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Golden Armor"
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			id: "33CFB64E32F26FC0"
+			shape: "hexagon"
+			subtitle: "so slimy"
+			tasks: [
+				{
+					id: "0246F59B6004C025"
+					item: {
+						Count: 1b
+						id: "usefulslime:slime_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74CA2988B6D58B6F"
+					item: {
+						Count: 1b
+						id: "usefulslime:slime_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "269F616D3D9DD393"
+					item: {
+						Count: 1b
+						id: "usefulslime:slime_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DEB784DAD6BE521"
+					item: {
+						Count: 1b
+						id: "usefulslime:slime_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Slime Armor"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			id: "6414F457952B1D90"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "77CDAA96EC63A25E"
+					item: {
+						Count: 1b
+						id: "additionaladditions:rose_gold_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B54A4CD5234FF8D"
+					item: {
+						Count: 1b
+						id: "additionaladditions:rose_gold_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "661A2C61B04A6F05"
+					item: {
+						Count: 1b
+						id: "additionaladditions:rose_gold_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6110D4CB4E7F7D7A"
+					item: {
+						Count: 1b
+						id: "additionaladditions:rose_gold_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Rose Gold Armor"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			id: "457DA91CC8AD13E5"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "101E6DC94E6D1FD8"
+					item: {
+						Count: 1b
+						id: "eidolon:silver_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EC81476D21A067F"
+					item: {
+						Count: 1b
+						id: "eidolon:silver_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "075949E250E158B9"
+					item: {
+						Count: 1b
+						id: "eidolon:silver_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41A3D8391531F187"
+					item: {
+						Count: 1b
+						id: "eidolon:silver_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Silver Armor"
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			id: "0629675C9C5E1AA4"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "53602C50BEE37C8F"
+					item: {
+						Count: 1b
+						id: "eidolon:bonelord_helm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E484295F7F4CEB8"
+					item: {
+						Count: 1b
+						id: "eidolon:bonelord_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CBAA5C7BAC95CC7"
+					item: {
+						Count: 1b
+						id: "eidolon:bonelord_greaves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Bone Paladin Armor"
+			x: -6.5d
+			y: 9.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bGravitite Armor&r to complete this quest."
+				""
+				"Gravitite Armor &agives the wearer an extra-high jump&r when the &afull set is worn&r."
+			]
+			id: "2031C43EB0A0E5AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7ABDCA8093E24D76"
+				table_id: 3483625352404373352L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6C2F5EEB9240E818"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07EAA3260709FDDD"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17EC54AB5F1BC7D4"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B05482C9642F8D3"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D364AD9CBCCBACC"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Gravitite Armor"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Collect a whole set of &bPhoenix Armor&r to complete this quest."
+				""
+				"Phoenix armor grants &afire resistance&r when the full set is worn, and allows you to &6swim in lava&r. It can be obtained through &cGold Aether Dungeons&r. &dBe careful when submerging yourself in &awater&r!"
+			]
+			id: "0C1D4878563F68F1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1704B491FCD2A8D9"
+					table_id: 3483625352404373352L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A6129A345B8A5E9"
+					table_id: 4614893746888110358L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "205966251CB9EB3B"
+					item: {
+						Count: 1b
+						id: "aether:phoenix_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B85BA14AF64D138"
+					item: {
+						Count: 1b
+						id: "aether:phoenix_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07F65B4CFA301E72"
+					item: {
+						Count: 1b
+						id: "aether:phoenix_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "286C625D9FB1D221"
+					item: {
+						Count: 1b
+						id: "aether:phoenix_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44CB55F7ED31443B"
+					item: {
+						Count: 1b
+						id: "aether:phoenix_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Phoenix Armor"
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			id: "3EC4594BEE7A00BD"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "45909A295EF85508"
+					item: {
+						Count: 1b
+						id: "aether:valkyrie_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CE8696172DF92C4"
+					item: {
+						Count: 1b
+						id: "aether:valkyrie_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45DAF6F34A422859"
+					item: {
+						Count: 1b
+						id: "aether:valkyrie_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C2909C6C83337EC"
+					item: {
+						Count: 1b
+						id: "aether:valkyrie_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01514D439C1982D9"
+					item: {
+						Count: 1b
+						id: "aether:valkyrie_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Valkyrie Armor"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bZanite Armor&r to complete this quest."
+				""
+				"Zanite is &acomparable to &bIron Armor&r, except it &alooks cooler&r."
+			]
+			id: "7C3D56B94067B47F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B842FD8B1B8FDC8"
+				table_id: 1129944662014018005L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "03C817560F68ED54"
+					item: {
+						Count: 1b
+						id: "aether:zanite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F20AC22418C1127"
+					item: {
+						Count: 1b
+						id: "aether:zanite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53E1ED1CEBCF989E"
+					item: {
+						Count: 1b
+						id: "aether:zanite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F5CC6829718740C"
+					item: {
+						Count: 1b
+						id: "aether:zanite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3742159688CF1DAE"
+					item: {
+						Count: 1b
+						id: "aether:zanite_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Zanite Armor"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			id: "2FA571E707F908E0"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3364F5268DA5245A"
+					item: {
+						Count: 1b
+						id: "aether:neptune_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5551F03E08730FB9"
+					item: {
+						Count: 1b
+						id: "aether:neptune_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D9454A32A738EC3"
+					item: {
+						Count: 1b
+						id: "aether:neptune_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DEC94F0C9F0A4A1"
+					item: {
+						Count: 1b
+						id: "aether:neptune_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0253B4E2D9BD492B"
+					item: {
+						Count: 1b
+						id: "aether:neptune_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Neptune Armor"
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			id: "2F6C2F4DD36AE5E7"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "51A6F4E1CDDE13CA"
+					item: {
+						Count: 1b
+						id: "meadow:fur_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "527003760C03C340"
+					item: {
+						Count: 1b
+						id: "meadow:fur_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5372D70D8F98EABE"
+					item: {
+						Count: 1b
+						id: "meadow:fur_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18021B7C8379E38C"
+					item: {
+						Count: 1b
+						id: "meadow:fur_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Fur Armor"
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			id: "5571B4A2D74600FA"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "22291AB47B6CFDF2"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34940D1FC4A1B2CA"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57B0CE8B649BBD4E"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4584F139E317F564"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Draco Arcanus Armor"
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			id: "308B6CDB9FFA8BF9"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6491AACF48004691"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FD1F4B8CBBA670B"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4989316E4EFFAAC7"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10F3560CDA892B54"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Tyr Armor"
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			id: "782DCE75380C539C"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "48B128E732C13609"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:mortem_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EFA183B7E584163"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:mortem_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E38690FF9348D37"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:mortem_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A61CC02159FE11E"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:mortem_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Mortem Armor"
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bObsidian Armor&r to complete this quest."
+				""
+				"Obsidian armor is &amore powerful than &bDiamond&r, and can only be obtained by &6submerging yourself in water while wearing &bPhoenix Armor&r."
+			]
+			id: "68DC48AD556FD232"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10D0006A07BCCF8F"
+					table_id: 3483625352404373352L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A3B1C38BC51204F"
+					table_id: 4614893746888110358L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0D493FC8787F819F"
+					item: {
+						Count: 1b
+						id: "aether:obsidian_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69097E13A6EEB765"
+					item: {
+						Count: 1b
+						id: "aether:obsidian_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D904664B2F6625A"
+					item: {
+						Count: 1b
+						id: "aether:obsidian_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45FFB02B171B7335"
+					item: {
+						Count: 1b
+						id: "aether:obsidian_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Obsidian Armor"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			id: "03B7B6D5B037F086"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0A1302991FC421D7"
+					item: {
+						Count: 1b
+						id: "unusualprehistory:shedscale_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31BDA9FD67B54C70"
+					item: {
+						Count: 1b
+						id: "unusualprehistory:shedscale_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08843CFFA11CC540"
+					item: {
+						Count: 1b
+						id: "unusualprehistory:shedscale_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E788D74C6F24D3C"
+					item: {
+						Count: 1b
+						id: "unusualprehistory:shedscale_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Shedscale Armor"
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bStratus Armor&r to complete this quest."
+				""
+				"When the full set of this is worn, it provides you with &aa jump boost&r and a &aDash ability&r!"
+			]
+			id: "760069FF490EDFF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FD958F5C55F7971"
+				table_id: 4614893746888110358L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "084F0886D91F2EFA"
+					item: {
+						Count: 1b
+						id: "deep_aether:stratus_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "641E314EA05DFAED"
+					item: {
+						Count: 1b
+						id: "deep_aether:stratus_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35B3A1383D1158FC"
+					item: {
+						Count: 1b
+						id: "deep_aether:stratus_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79F1379F30571E45"
+					item: {
+						Count: 1b
+						id: "deep_aether:stratus_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Stratus Armor"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Collect a whole set of &bSkyjade Armor&r to complete this quest."
+				""
+				"Skyjade provides a &alarge amount of protection&r, but it has &alow durability&r, and it &aloses protection as durability goes down&r."
+			]
+			id: "466637D74502B351"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DA894F7B9DEE08D"
+				table_id: 3483625352404373352L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5BC9DFD12D30575A"
+					item: {
+						Count: 1b
+						id: "deep_aether:skyjade_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27EF38018CFDC5E6"
+					item: {
+						Count: 1b
+						id: "deep_aether:skyjade_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "185873D2316D4E8A"
+					item: {
+						Count: 1b
+						id: "deep_aether:skyjade_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "506242B9D7D90674"
+					item: {
+						Count: 1b
+						id: "deep_aether:skyjade_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Skyjade Armor"
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			id: "74C9CC2C5A5D1E3F"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "55B557CD188B3EC4"
+					item: {
+						Count: 1b
+						id: "galosphere:sterling_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BE3F53F33A96FE5"
+					item: {
+						Count: 1b
+						id: "galosphere:sterling_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1354A39692D976B2"
+					item: {
+						Count: 1b
+						id: "galosphere:sterling_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AA3750E1849AA01"
+					item: {
+						Count: 1b
+						id: "galosphere:sterling_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Sterling Armor"
+			x: -8.5d
+			y: 9.0d
+		}
+		{
+			id: "4918B7871C3246B4"
+			rewards: [{
+				id: "0149BBEAFD66549D"
+				item: "practical_plushies_animals:bee_plushie"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "761062473F3F3AB0"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:stingless_bee_helmet_1"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "102FB98DFD602215"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:bumble_bee_chestplate_1"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "339A587CF6F14143"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:honey_bee_leggings_1"
+						tag: {
+							Damage: 0
+							pollinated: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41B8266D76384128"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:carpenter_bee_boots_1"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Bee Armor, Variant 1"
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			id: "512561271D178D2D"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "371535024E2DD6F7"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:stingless_bee_helmet_2"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "251A8B1913E04DAE"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:bumble_bee_chestplate_2"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "535F83F2909F9834"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:honey_bee_leggings_2"
+						tag: {
+							Damage: 0
+							pollinated: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07EC67CA50DADC83"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:carpenter_bee_boots_2"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Bee Armor, Variant 2"
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			description: ["The &bDragon Scale&r is an incredibly valuable item which is obtained after defeating the Ender Dragon &6a second time&r. It can be used to &aduplicate Elytra&r."]
+			id: "6CD94FF2310068FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DD29F86E9C4A50F"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "the scale of the universe"
+			tasks: [{
+				id: "25F5B0E3C7679E27"
+				item: "quark:dragon_scale"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
 		}
 	]
 	title: "Equipment \\& Gear"

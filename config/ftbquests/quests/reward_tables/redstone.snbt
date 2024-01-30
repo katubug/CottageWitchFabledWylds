@@ -10,6 +10,7 @@
 		{ count: 2, item: "minecraft:comparator" }
 		{ count: 2, item: "minecraft:piston" }
 		{ count: 2, item: "minecraft:sticky_piston" }
+		{ count: 2, item: "quark:redstone_randomizer" }
 	]
 	title: "Redstone"
 }

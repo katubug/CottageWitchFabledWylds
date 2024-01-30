@@ -1,0 +1,41 @@
+{
+  "replace": true,
+  "_comment": [
+    " This system applies the Frog Variants to the given Biomes.",
+    " Something noteworthy about it, the way it works is it goes",
+    " through all Variants one at a time, and once there is a matching",
+    " Biome, it gets used to create the Frog Variant connected to that",
+    " Biome. What this means is, if two Frogs have the same Biome in their",
+    " files, the one checked first will be selected",
+    " The order for the checks is:",
+    " White => Orange => Magenta => Light Blue => Yellow => Lime => Pink => Gray => Light Gray => Cyan => Purple => Blue => Brown => Green => Red => Black",
+    "",
+    " If no matches were found, the game will use the default files:",
+    " #spawns_cold_variant_frogs",
+    " #spawns_warm_variant_frogs",
+    " Or if the Biome isnt on those lists, it defaults to",
+    " TEMPERATE (Orange) as the selected Variant."
+  ],
+  "values": [
+    "minecraft:the_end",
+    "minecraft:end_highlands",
+    "minecraft:end_midlands",
+    "minecraft:small_end_islands",
+    "minecraft:end_barrens",
+    "stellarity:the_hallow",
+    "far_end:the_nest",
+    "far_end:amethyst_forest",
+    "far_end:ashfall_delta",
+    "stellarity:blazing_dunes",
+    "stellarity:crystal_crags",
+    "stellarity:dragons_den",
+    "far_end:end_wilds",
+    "far_end:ender_waste",
+    "far_end:flesh_tundra",
+    "stellarity:frosted_hills",
+    "stellarity:prismarine_forest",
+    "stellarity:sculk_growth",
+    "far_end:warped_marsh",
+    "far_end:void"
+  ]
+}

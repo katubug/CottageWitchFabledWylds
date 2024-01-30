@@ -8,5 +8,7 @@ PlayerEvents.loggedIn(event => {
       event.player.give('ftbquests:book')
       event.player.give(Item.of('farmersdelight:flint_knife', '{Damage:0}'))
       event.player.give(Item.of('sophisticatedbackpacks:backpack', '{borderColor:1481884,clothColor:1481884}'))
+      event.player.give(Item.of('reliquary:mob_charm', '{Damage:0,entity:"minecraft:witch"}'))
+      event.player.give('reliquary:witch_hat')
        }
   })

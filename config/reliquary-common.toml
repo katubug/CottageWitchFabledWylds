@@ -263,7 +263,7 @@ mobDropsEnabled = true
 	[items.mobCharm]
 		#Total durability of Mob Charm
 		#Range: 20 ~ 1000
-		durability = 80
+		durability = 20
 		#Damage that Mob Charm takes when player kills mob it protects them from
 		#Range: 0 ~ 40
 		damagePerKill = 1

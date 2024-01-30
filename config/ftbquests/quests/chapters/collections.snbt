@@ -123,8 +123,8 @@
 				}
 			]
 			title: "Flower Picking: Red"
-			x: -3.5d
-			y: -0.5d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -199,8 +199,8 @@
 				}
 			]
 			title: "Flower Picking: Orange"
-			x: -3.0d
-			y: 0.5d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			description: ["Obtain all vanilla music discs."]
@@ -299,7 +299,7 @@
 			]
 			title: "Music Lover"
 			x: 3.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -376,8 +376,8 @@
 				}
 			]
 			title: "Flower Picking: Yellow"
-			x: -2.5d
-			y: -0.5d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -412,8 +412,8 @@
 				}
 			]
 			title: "Flower Picking: Misc"
-			x: -2.0d
-			y: 0.5d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -512,11 +512,6 @@
 					type: "item"
 				}
 				{
-					id: "0E5DD4427B241ECD"
-					item: "bovinesandbuttercups:tropical_blue"
-					type: "item"
-				}
-				{
 					id: "5F282B62CAD30B80"
 					item: "aether_redux:lumina"
 					type: "item"
@@ -528,8 +523,8 @@
 				}
 			]
 			title: "Flower Picking: Blue"
-			x: -1.5d
-			y: -0.5d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -651,8 +646,8 @@
 				}
 			]
 			title: "Flower Picking: Purple"
-			x: -0.5d
-			y: -0.5d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -757,19 +752,14 @@
 					type: "item"
 				}
 				{
-					id: "1D0D7B4B06AEC58F"
-					item: "bovinesandbuttercups:pink_daisy"
-					type: "item"
-				}
-				{
 					id: "0BC036029A6DA647"
 					item: "aether_redux:fieldsprout_petals"
 					type: "item"
 				}
 			]
 			title: "Flower Picking: Pink"
-			x: -1.0d
-			y: 0.5d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			description: ["Collect one each of every flower in the game to earn rewards!"]
@@ -894,15 +884,10 @@
 					item: "aether_redux:gilded_white_flower"
 					type: "item"
 				}
-				{
-					id: "2221649BA75ACBD0"
-					item: "bovinesandbuttercups:snowdrop"
-					type: "item"
-				}
 			]
 			title: "Flower Picking: Black and White"
-			x: -1.5d
-			y: 1.5d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			description: ["Mushrooms are rad as hell. Why not try collecting all of them? Then you can have a super beautiful mushroom glade."]
@@ -1017,7 +1002,7 @@
 			]
 			title: "Cool Mushrooms"
 			x: 3.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			description: ["For this quest, show your love of color by collecting each different type of wool."]
@@ -1165,7 +1150,7 @@
 			]
 			title: "Obtain the Rainbow"
 			x: 2.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			description: ["Can you tame one of each type of cat in the game? There are eleven. Good luck!"]
@@ -1188,6 +1173,11 @@
 					item: "perfectplushies:cat_plushie"
 					type: "item"
 				}
+				{
+					id: "16A1947C3A98B3B5"
+					item: "practical_plushies_animals:cat_plushie"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			tasks: [{
@@ -1197,7 +1187,7 @@
 				type: "advancement"
 			}]
 			x: 3.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1259,8 +1249,8 @@
 				title: "Ultimate Flower Enthusiast"
 				type: "checkmark"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			description: ["Breed 2 of each vanilla animal in order to obtain this reward!"]
@@ -1287,7 +1277,7 @@
 				type: "advancement"
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			id: "3ADA19F1E7F84DD6"
@@ -1346,7 +1336,7 @@
 			]
 			title: "Sweet Tooth"
 			x: 1.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -1497,7 +1487,7 @@
 			]
 			title: "A Rainbow of Candles"
 			x: 2.0d
-			y: 0.0d
+			y: -0.5d
 		}
 	]
 	title: "Collections"

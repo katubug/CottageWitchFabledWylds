@@ -2150,7 +2150,7 @@
 			description: [
 				"&bSalt&r is an important ingredient in &bCheesemaking&r. It can be found in &cMeadow biomes&r, embedded in &bLimestone&r."
 				""
-				"Place this, alongside some &bRaw Beef&r and a &bGlass Bottle&r, inside a &bCauldron&r to make &bRennet&r, the next step in acquiring the most delicious food group."
+				"Place this, alongside some &bRaw Beef&r and a &bGlass Bottle&r, inside a &bCauldron&r to make &bRennet&r, the next step in acquiring the most delicious food group: Cheese."
 			]
 			id: "684AF61973DB643F"
 			rewards: [{
@@ -2161,12 +2161,9 @@
 			}]
 			subtitle: "getting salty"
 			tasks: [{
-				block: "meadow:alpine_salt_ore"
-				block_type: 0
-				checkItem: false
-				id: "60EB0849563B7F8B"
-				type: "questsadditions:break"
-				value: 1L
+				id: "11B37CCB85F3C0B4"
+				item: "meadow:alpine_salt"
+				type: "item"
 			}]
 			title: "Obtain Alpine Salt"
 			x: 8.5d
@@ -2707,6 +2704,20 @@
 		}
 		{
 			id: "6A66ACC2ABDDB0E6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0DC27313DA58BCD2"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66EA45FB2B5458FE"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
 			shape: "octagon"
 			tasks: [
 				{
@@ -2754,6 +2765,20 @@
 		{
 			dependencies: ["6A66ACC2ABDDB0E6"]
 			id: "033BD29F71F83261"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11050524B4245BFE"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69515968CD5ED942"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				advancement: "candlelight:main/cook_everything"
@@ -2795,8 +2820,178 @@
 					type: "item"
 				}
 			]
+			title: "Setting the Table"
 			x: -3.5d
 			y: -8.0d
+		}
+		{
+			description: ["Although it doesn't provide &amuch protection&r, this outfit will have you &aslingin' dishes&r and &aslicin' fishes&r like a pro!"]
+			id: "3801F3578406768D"
+			rewards: [
+				{
+					count: 5
+					id: "4657A7C2401AAC7B"
+					item: "farmersdelight:ham"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3782D5434616BC76"
+					item: "candlelight:butter"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "41807D1F177E3A4B"
+					item: "meadow:alpine_salt"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "739BACBEC59B3B1B"
+					item: {
+						Count: 1b
+						id: "candlelight:cooking_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D1B228F5F683746"
+					item: {
+						Count: 1b
+						id: "candlelight:chefs_jacket"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38B77D35D27BE8EC"
+					item: {
+						Count: 1b
+						id: "candlelight:chefs_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "022F4C0EFBD2CE6D"
+					item: {
+						Count: 1b
+						id: "candlelight:chefs_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Looking like a Cook"
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4051209155C0D4C0"]
+			description: [
+				"Jellie was the cat of &eGoodTimesWithScar&r, and she was as loving as she was adorable."
+				""
+				"Minecraft doesn't let you &apour one out for her&r, but drink a bottle of &bJellie Wine&r in her memory."
+			]
+			id: "2A2ACF82DF1B661F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06330CEF8D9E8518"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "667E746FC263FEEB"
+				item: {
+					Count: 1b
+					id: "vinery:jellie_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The Best Girl"
+			x: -3.0d
+			y: 16.0d
+		}
+		{
+			description: ["The &bCopper Cooking Pot&r and &bCopper Cooking Pan&r are new tools which will allow you to make &anew and unique dishes&r, such as &bPasta&r and &bPizza&r!"]
+			id: "6164AA637455604E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "155393B7899D37FA"
+				table_id: 8096229411196850122L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "065F4B747FEFB70B"
+					item: "candlelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "42E38A6303137616"
+					item: {
+						Count: 1b
+						id: "candlelight:cooking_pan"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cooking with Copper"
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			id: "4EAB1C3073616E17"
+			tasks: [{
+				id: "65EE14C0671388C0"
+				item: "bakery:kitchen_sink"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -11.5d
+		}
+		{
+			id: "207C60DC8889AC0F"
+			tasks: [
+				{
+					id: "66430D234BFDE2B5"
+					item: "bakery:baker_station"
+					type: "item"
+				}
+				{
+					id: "48DF3C6839DAEE2A"
+					item: "bakery:small_cooking_pot"
+					type: "item"
+				}
+				{
+					id: "146FC370305552E7"
+					item: "bakery:brick_stove"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -12.0d
 		}
 	]
 	title: "Culinary Arts"

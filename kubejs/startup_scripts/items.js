@@ -141,6 +141,13 @@ event.modify('deep_aether:skyjade_sword', item => {
   item.addAttribute("generic.attack_damage", attribute.id, attribute.name, attribute.amount + boost, attribute.operation)
 });
 
+event.modify('eidolon:deathbringer_scythe', item => {
+  let boost = -1
+  let attribute = item.getAttributes("generic.attack_damage").get(0)
+  item.removeAttribute("generic.attack_damage", attribute.id)
+  item.addAttribute("generic.attack_damage", attribute.id, attribute.name, attribute.amount + boost, attribute.operation)
+});
+
 // Gravitite Armor
 
 event.modify('aether:gravitite_helmet', item => {
@@ -211,8 +218,29 @@ event.modify('forbidden_arcanus:draco_arcanus_boots', item => {
 
 event.modify('unusualprehistory:defrosted_frozen_fossil', item => {
   item.foodProperties = food => {
-      food.hunger(2)
-      food.saturation(3)
+      food.hunger(4)
+      food.saturation(2)
+  }
+});
+
+event.modify('unusualfishmod:strange_broth', item => {
+  item.foodProperties = food => {
+      food.hunger(7)
+      food.saturation(1.5)
+  }
+});
+
+event.modify('unusualfishmod:lobster_roll', item => {
+  item.foodProperties = food => {
+      food.hunger(6)
+      food.saturation(1.5)
+  }
+});
+
+event.modify('unusualfishmod:unusual_sandwich', item => {
+  item.foodProperties = food => {
+      food.hunger(7)
+      food.saturation(1.5)
   }
 });
 

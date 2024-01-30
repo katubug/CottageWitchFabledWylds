@@ -239,11 +239,35 @@
 				"Simply &6right click while holding it&r in order to search for the structure you want to find."
 			]
 			id: "292B26978E644D9F"
-			rewards: [{
-				id: "3697431A62122609"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "3697431A62122609"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					id: "2DEE2C92B67779A6"
+					item: {
+						Count: 1b
+						id: "capsule:capsule"
+						tag: {
+							author: "HeyKatu"
+							canRotate: 0b
+							color: 6196919
+							display: {
+								color: 14714914
+							}
+							isReward: 1b
+							label: "lighthouse"
+							oneUse: 1b
+							size: 23
+							state: 5
+							structureName: "minecraft:config/capsule/rewards/lighthouse"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "628297917BCB66ED"
@@ -511,6 +535,12 @@
 				"&6Press CTRL+L to track your achievement progress&r!"
 			]
 			id: "78A442C5CCB7BF47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4907DA9834645C93"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
 			shape: "octagon"
 			tasks: [{
 				advancement: "regions_unexplored:eternal_expedition"
@@ -518,8 +548,8 @@
 				id: "15A19A39523CAD26"
 				type: "advancement"
 			}]
-			x: -10.5d
-			y: -2.5d
+			x: -9.0d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -534,6 +564,7 @@
 				table_id: 6941837675484043489L
 				type: "random"
 			}]
+			shape: "octagon"
 			subtitle: "don't give up, skeleton!"
 			tasks: [{
 				icon: "createdeco:decal_skull"
@@ -542,8 +573,8 @@
 				type: "structure"
 			}]
 			title: "Discover the Catacombs"
-			x: -2.0d
-			y: -6.5d
+			x: -2.5d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -557,6 +588,7 @@
 				item: "minecraft:respawn_anchor"
 				type: "item"
 			}]
+			shape: "octagon"
 			subtitle: "welcome to hell"
 			tasks: [{
 				advancement: "minecraft:story/enter_the_nether"
@@ -565,8 +597,8 @@
 				id: "107172A8EAD35796"
 				type: "advancement"
 			}]
-			x: -10.5d
-			y: 0.5d
+			x: -9.0d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -589,11 +621,23 @@
 				type: "structure"
 			}]
 			title: "Find a Fairy Circle"
-			x: 2.0d
-			y: 3.0d
+			x: -3.5d
+			y: 6.5d
 		}
 		{
+			description: [
+				"One might not necessarily assume that a &cSwamp&r is the most pleasant place to form a village - but you'd be wrong!"
+				""
+				"For one thing, you get unlimited access to cute &eFrogs&r, delightfully squishy &bMud&r, and plenty of water for your crops."
+				""
+				"Once you &asee one for yourself&r, you'll understand the charm."
+			]
 			id: "7210927B460B6B0F"
+			rewards: [{
+				id: "4C5700905C7B6B76"
+				item: "minecraft:tadpole_bucket"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				icon: "swampier_swamps:swamp_vine"
@@ -601,11 +645,30 @@
 				structure: "swampier_swamps:village_swamp"
 				type: "structure"
 			}]
-			x: 8.0d
-			y: 3.0d
+			title: "Find a Swamp Village"
+			x: -5.0d
+			y: 5.0d
 		}
 		{
+			description: [
+				"Never underestimate your local library! Whether you're &alooking for Enchanted books&r in &cMinecraft&r, or hoping for &awitchy resources &cirl&r, the library has what you're looking for - and it's completely free!"
+				""
+				"To complete this quest, you only need to find a &cLibrary structure&r. However, I task you with the additional homework of checking out some books on witchcraft irl as well!"
+				""
+				"Here are some of my recommendations:"
+				""
+				"- Everday Witchcraft, by Deborah Blake"
+				"- The Green Witch, by Arin Murphy-Hiscock"
+				"- Wild Witchcraft, by Rebecca Beyer"
+				"- Cunningham's Encyclopedia of Magical Herbs, by Scott Cunningham"
+			]
 			id: "2F11F1501E038311"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "725A1583BC3F17DA"
+				table_id: 8891211325592123080L
+				type: "random"
+			}]
 			shape: "octagon"
 			tasks: [{
 				icon: "luphieclutteredmod:luphie_short_book_stack"
@@ -614,8 +677,8 @@
 				type: "structure"
 			}]
 			title: "Visit your Local Library"
-			x: 8.0d
-			y: 4.5d
+			x: -1.5d
+			y: 7.0d
 		}
 		{
 			id: "48ECF54E7038910F"
@@ -678,8 +741,8 @@
 				}
 			]
 			title: "The Final Resting Places"
-			x: 3.0d
-			y: 4.0d
+			x: 3.5d
+			y: 6.5d
 		}
 		{
 			icon: "mcwholidays:witch_hat"
@@ -696,6 +759,12 @@
 		{
 			description: ["A tower... it seems abandoned! What sort of treasures - and what sort of dangers - might it have in it's &abasement&r?"]
 			id: "21B1D0246C8E90EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D325F453C9AB874"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
 			shape: "octagon"
 			tasks: [{
 				icon: "minecraft:stone_brick_wall"
@@ -703,11 +772,19 @@
 				structure: "formationsoverworld:stone_tower"
 				type: "structure"
 			}]
-			x: 8.0d
-			y: 5.5d
+			title: "Find a Stone Tower"
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			description: ["Ah, a familiar sight, yet somehow new! A &cWitch's Hut&r, home to one of your kin and their cat. Perhaps it would be nice to &astop in and say hello&r?"]
 			id: "50DA655C90509B80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D840AA333F7E2AF"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
 			shape: "octagon"
 			tasks: [{
 				icon: {
@@ -721,7 +798,8 @@
 				structure: "betterwitchhuts:witch_hut"
 				type: "structure"
 			}]
-			x: 9.5d
+			title: "Find a Better Witch Hut"
+			x: 0.0d
 			y: 5.5d
 		}
 		{
@@ -754,11 +832,18 @@
 				}
 			]
 			title: "Savvy Traveler"
-			x: 0.5d
-			y: 6.0d
+			x: 1.5d
+			y: 7.0d
 		}
 		{
+			description: ["An abandoned &eWitch's&r tower, eh? Hmmm. Well, witches are very clever people, so it's likely there are some &asecrets to be found&r. But beware, because &dwitches are also quite tricksy&r."]
 			id: "60C544B7E9552B88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "547D631D936075E5"
+				table_id: 8415512190420352941L
+				type: "loot"
+			}]
 			shape: "octagon"
 			tasks: [{
 				icon: "mcwholidays:witch_cauldron"
@@ -766,8 +851,123 @@
 				structure: "formationsoverworld:witch_tower"
 				type: "structure"
 			}]
-			x: 10.0d
-			y: 6.5d
+			title: "Find the Old Witch's Tower"
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"These imposing Ziggurats look out over the stretching deserts, and contain both &awonders&r and &eUndead&r."
+				""
+				"Navigate the &amazes&r within to find rooms filled with treasure - and &dtraps&r."
+			]
+			id: "76A0C79C3F0A8D38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7709B423E58187C9"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: "minecraft:redstone_torch"
+				id: "6F4919326230760A"
+				structure: "dungeons_enhanced:desert_temple"
+				type: "structure"
+			}]
+			title: "Enhanced Desert Temple"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["Deep in the Ocean, the &cSunken Shrine&r houses &ethe Drowned&r, but also &atreasure&r. The ancients who built these Shrines were notorious for &asetting out decoys to hide their true bounty&r."]
+			id: "62FD1ED7FE9ED635"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "612D3D734EC1D152"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: "minecraft:wet_sponge"
+				id: "502BE5DCC94C27B2"
+				structure: "dungeons_enhanced:sunken_shrine"
+				type: "structure"
+			}]
+			title: "The Sunken Shrine"
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"The &cDeep Crypt&r is a structure found &aburied in the bowels of the earth&r, below y-level 0."
+				""
+				"Beware of hidden spawners, and be on the lookout for &alootable graves&r. If you are lucky, perhaps you'll find a &atreasure trove&r."
+			]
+			id: "40F10403E2BCFBF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AF8F1BE2A632C64"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: "minecraft:chiseled_deepslate"
+				id: "10C8D4DF9DA35FBE"
+				structure: "dungeons_enhanced:deep_crypt"
+				type: "structure"
+			}]
+			title: "Deep Crypt"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			description: ["Although no one knows who was &aburied in these aged structures&r, one thing about them is clear: there is more going on than meets the eye."]
+			id: "23F7E0857CEF8C97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "315D08B241C570D7"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:golden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2DBFE8490EDAF76A"
+				structure: "dungeons_enhanced:desert_tomb"
+				type: "structure"
+			}]
+			title: "The Desert Tomb"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			description: ["Located in the depths of the ocean, the &cElder Temple&r is a bounty of &bSponges&r, &bCopper&r, &bCoral Blocks&r, and, of course: &eGuardians&r. Look for the &aBubble Columns&r throughout the structure which can help you &6catch your breath&r."]
+			id: "4CEBBF8FE39DE199"
+			rewards: [{
+				count: 4
+				id: "1FF68458707A1396"
+				item: "minecraft:sponge"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: "minecraft:prismarine"
+				id: "0853935025C00479"
+				structure: "dungeons_enhanced:elders_temple"
+				type: "structure"
+			}]
+			title: "The Elder's Temple"
+			x: 1.5d
+			y: -2.5d
 		}
 	]
 	title: "Globetrotting"

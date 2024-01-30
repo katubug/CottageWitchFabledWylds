@@ -101,7 +101,7 @@
 			]
 			title: "Differentiating Jars"
 			x: -3.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			description: [
@@ -131,7 +131,7 @@
 			}]
 			title: "Obtain a Basket"
 			x: -2.5d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			description: [
@@ -151,7 +151,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			description: [
@@ -279,7 +279,7 @@
 				table_id: 2068679807827730220L
 				type: "choice"
 			}]
-			shape: "hexagon"
+			shape: "rsquare"
 			subtitle: "om nom nom nom"
 			tasks: [{
 				id: "37E8405F8CFB4AB9"
@@ -292,11 +292,15 @@
 			}]
 			title: "Not Exactly a Pet"
 			x: -4.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0AC47FF8FD45B289"]
-			description: ["The &eLuggage&r, when &astruck by lightning&r, will have its inventory increased."]
+			description: [
+				"The &eLuggage&r, when &astruck by lightning&r, will have its inventory increased."
+				""
+				"You can use a good, old-fashioned &bLightning Rod&r for this, but you can also use &aany spell which summons lightning&r, or even &aLightning Knives&r from the &lAether&r."
+			]
 			id: "27A6A7ADD9B0A8AE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -311,7 +315,7 @@
 			}]
 			title: "Upgrade your Lugage"
 			x: -6.5d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			id: "1836D76FCA8240F3"
@@ -413,7 +417,7 @@
 			}]
 			title: "Not Quite A Chest"
 			x: -4.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3571AAEB58389A64"]

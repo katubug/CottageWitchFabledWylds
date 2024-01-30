@@ -995,6 +995,55 @@
 			x: 5.5d
 			y: 2.0d
 		}
+		{
+			description: ["The &bTrowel&r will place a random block from your hotbar when you &6right click with it&r. Perfect for easily &arandomizing your build's palette&r."]
+			id: "4110A15F659422D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DD7243213C5D605"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "place blocks randomly"
+			tasks: [{
+				id: "1BCDD73ACFB3A232"
+				item: "quark:trowel"
+				type: "item"
+			}]
+			title: "Obtain a Trowel"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"These &bGlass Item Frames&r display items on a surface just like the normal kind, but they will &abecome invisible&r once they have an item inside them."
+				""
+				"&6Place a Banner inside&r to display its pattern on that block."
+			]
+			id: "2288D26992644668"
+			rewards: [
+				{
+					id: "19FDE070E2F296D6"
+					item: "quark:glass_item_frame"
+					type: "item"
+				}
+				{
+					id: "19E1EF2A1E2EBAA3"
+					item: "quark:glowing_glass_item_frame"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "17E72F8759070F3C"
+				item: "quark:glass_item_frame"
+				type: "item"
+			}]
+			title: "Invisible Frames"
+			x: -6.0d
+			y: 3.0d
+		}
 	]
 	title: "Building \\& Decorating"
 }

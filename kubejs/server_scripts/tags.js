@@ -30,6 +30,10 @@ ServerEvents.tags('item', event => {
     'herbalbrews:copper_tea_kettle'
     )
 
+    //Cherry
+    event.add('forge:fruits/cherry',
+    'vinery:cherry')
+
     // Rope Tags
     event.add('supplementaries:ropes',
     'farmersdelight:rope')
@@ -273,6 +277,10 @@ ServerEvents.tags('item', event => {
         'candlelight:typewriter_iron', 
         'candlelight:typewriter_copper'
     )
+
+    //Tropical Ball is Slime
+    event.add('forge:slimeballs',
+    'earthmobsmod:tropical_ball')
 
     //Ancient Manuscript Binding Tables
     event.add(

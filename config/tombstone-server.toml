@@ -76,7 +76,7 @@
 	#Voodoo Poppet [false/true|default:true]
 	allow_voodoo_poppet = true
 	#Familiar Receptacle [false/true|default:true]
-	allow_familiar_receptacle = true
+	allow_familiar_receptacle = false
 	#Book of Disenchantment [false/true|default:true]
 	allow_book_of_disenchantment = true
 	#Scroll of Preservation [false/true|default:true]
@@ -84,13 +84,13 @@
 	#Grave's Key [false/true|default:true]
 	allow_grave_key = true
 	#Scroll of Knowledge [false/true|default:true]
-	allow_scroll_of_knowledge = true
+	allow_scroll_of_knowledge = false
 	#Tablet of Recall [false/true|default:true]
-	allow_tablet_of_recall = true
+	allow_tablet_of_recall = false
 	#Tablet of Home [false/true|default:true]
-	allow_tablet_of_home = true
+	allow_tablet_of_home = false
 	#Tablet of Assistance [false/true|default:true]
-	allow_tablet_of_assistance = true
+	allow_tablet_of_assistance = false
 	#Tablet of Cupidity [false/true|default:true]
 	allow_tablet_of_cupidity = true
 	#Scroll of Unstable Intangibility [false/true|default:true]
@@ -120,9 +120,9 @@
 	#Enchanted Bundle [false/true|default:true]
 	allow_enchanted_bundle = true
 	#Book of Recycling [false/true|default:true]
-	allow_book_of_recycling = true
+	allow_book_of_recycling = false
 	#Book of Repairing [false/true|default:true]
-	allow_book_of_repairing = true
+	allow_book_of_repairing = false
 	#Book of Magic Impregnation [false/true|default:true]
 	allow_book_of_magic_impregnation = true
 	#Smoke Ball [false/true|default:true]
@@ -136,7 +136,7 @@
 	#Magic Scroll [false/true|default:true]
 	allow_magic_scroll = true
 	#Familiar Stone [false/true|default:true]
-	allow_familiar_stone = true
+	allow_familiar_stone = false
 	#Merchant Stone [false/true|default:true]
 	allow_merchant_stone = true
 	#Book of Scribe [false/true|default:true]

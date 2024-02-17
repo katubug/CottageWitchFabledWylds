@@ -116,6 +116,7 @@ ServerEvents.recipes(event => {
         {output: 'beautify:hanging_pot'},
         {output: 'pipez:item_pipe'},
         {output: 'tarotcards:tarot_deck'},
+        /*
         {output: 'plushies:sniffer_plushie'},
         {output: 'plushies:goat_plushie'},
         {output: 'plushies:snow_golem_plushie'},
@@ -164,10 +165,11 @@ ServerEvents.recipes(event => {
         {output: 'plushies:elder_guardian_plushie'},
         {output: 'plushies:guardian_plushie'},
         {output: 'plushies:wither_skeleton_plushie'},
-        //{mod: 'plushies'},
-        //{mod: 'perfectplushies'},
-        //{mod: 'practical_plushies_animals'},
-        //{mod: 'practical_plushies_mobs'},
+        */
+        {mod: 'plushies'},
+        {mod: 'perfectplushies'},
+        {mod: 'practical_plushies_animals'},
+        {mod: 'practical_plushies_mobs'},
         {id: 'forbidden_arcanus:dragon_scale'},
         {id: 'forbidden_arcanus:tyr_helmet'},
         {id: 'forbidden_arcanus:tyr_chestplate'},
@@ -180,7 +182,10 @@ ServerEvents.recipes(event => {
         {output: 'unusualprehistory:dna_fridge'}, 
         {output: 'unusualprehistory:incubator'},
         {output: 'unusualprehistory:insulator'},
-        {output: 'uncrafter:uncrafter'}
+        {output: 'uncrafter:uncrafter'},
+        {output: 'unusualfishmod:lobster_roll'},
+        {output: 'unusualprehistory:organic_ooze'},
+        {id: 'candlelight:mozzarella'},
 
         
     ];

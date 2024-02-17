@@ -47,7 +47,7 @@
 			}]
 			title: "Beginning the Create-ive Process"
 			x: -9.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["090B731F01A14C75"]
@@ -91,6 +91,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["01896E1F4E0B7F2F"]
 			description: [
 				"&bAndesite&r is one of the foundational blocks of beginning your factory. However, though stone by itself is strong, it is not malleable. So, it is best to mix it with &bIron&r to create a more versatile material: &bAndesite Alloy&r."
 				""
@@ -293,7 +294,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1EB53FD55A3973BF"]
@@ -395,11 +396,18 @@
 				}
 			}
 			id: "4DC3913C41E20B81"
-			rewards: [{
-				id: "5515200AFB8C706B"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "5515200AFB8C706B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "58A2CA3F36071D7F"
+					item: "abyssal_decor:bottomless_bag_of_cobblestone"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -1095,7 +1103,7 @@
 			}]
 			title: "Copycat Blocks"
 			x: -7.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5CCE41AE05329A9A"]
@@ -1171,7 +1179,7 @@
 			}]
 			title: "A-door-able Entrance"
 			x: -7.0d
-			y: 1.0d
+			y: -0.5d
 		}
 	]
 	title: "Mechanical Magic"

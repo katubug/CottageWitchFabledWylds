@@ -539,7 +539,7 @@
 				type: "item"
 			}]
 			title: "Getting Ahead in the End"
-			x: 1.5d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -559,8 +559,8 @@
 				id: "754AB385A44018C4"
 				type: "advancement"
 			}]
-			x: 3.5d
-			y: -1.5d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["09ED0DFEB72DFD71"]
@@ -582,6 +582,69 @@
 			title: "A Village? In Space?"
 			x: 4.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["09ED0DFEB72DFD71"]
+			description: ["The &cAmethyst Forest&r is a pastel wonderland, which would be a lovely place to live... if it weren't for all the &eEndermen&r vwooping about."]
+			id: "4BC766F17ADDBE77"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51B635373F6F6EB7"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "far_end:amethyst_forest"
+				icon: "minecraft:amethyst_cluster"
+				id: "28407BD4AC914DF7"
+				type: "biome"
+			}]
+			title: "Visit the Amethyst Forest"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09ED0DFEB72DFD71"]
+			description: ["The &cChapel of Light&r is an airy, serene oasis. Although it harbors no secrets, it is still a &aworthy place to make pilgrimage to&r, if only for the reward this quest grants."]
+			id: "35BBB767F2EA1FA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "688EAB59B6BC9383"
+				table_id: 5525848455660196930L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: "minecraft:cherry_leaves"
+				id: "157EA29D0861EF70"
+				structure: "stellarity:chapel_of_light"
+				type: "structure"
+			}]
+			title: "Find a Chapel of Light"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09ED0DFEB72DFD71"]
+			description: ["This lush, garden biome is one of the most gorgeous places you could hope to visit in this bizarre landscape."]
+			id: "22B1A539154545B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "359642B35E39A222"
+				table_id: 5161092699925703455L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "stellarity:the_hallow"
+				icon: "minecraft:lilac"
+				id: "07AF0EDCCAC2282A"
+				type: "biome"
+			}]
+			title: "Visit The Hallow"
+			x: 1.0d
+			y: -2.0d
 		}
 	]
 	title: "The End"

@@ -665,7 +665,7 @@
 				""
 				"The &bEmerald Magnum Torch&r prevents &eneutral and passive mobs&r from spawning."
 				""
-				"The &bAmethyst Magnum Torch&r prevents &lALL&r mob spawns."
+				"The &bAmethyst Magnum Torch&r prevents &eambient or water&r mob spawns."
 			]
 			id: "592DF5A6484F1988"
 			rewards: [{
@@ -674,7 +674,6 @@
 				xp_levels: 5
 			}]
 			shape: "hexagon"
-			subtitle: "an alternative to sage"
 			tasks: [{
 				id: "03BCF6954B5954F4"
 				item: {

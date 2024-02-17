@@ -1,0 +1,15 @@
+{
+	icon: "minecraft:chest"
+	id: "705CBAED5F795251"
+	loot_size: 1
+	order_index: 42
+	rewards: [
+		{ item: "minecraft:jungle_trapdoor" }
+		{ item: "minecraft:mangrove_fence_gate" }
+		{ item: "minecraft:cherry_planks" }
+		{ item: "minecraft:dark_oak_button" }
+		{ item: "minecraft:mangrove_stairs" }
+		{ item: "minecraft:bamboo_button" }
+	]
+	title: "katu"
+}

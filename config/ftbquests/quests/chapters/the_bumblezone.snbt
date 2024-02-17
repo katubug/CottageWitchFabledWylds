@@ -1,5 +1,5 @@
 {
-	autofocus_id: "4482909B2A137E38"
+	autofocus_id: "30CC85F74EB4717A"
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
@@ -11,13 +11,13 @@
 		click: ""
 		corner: false
 		dev: false
-		height: 25.75d
+		height: 11.25d
 		hover: [ ]
 		image: "enchanted_wilds:textures/questui/bgbumblezone.png"
 		rotation: 0.0d
-		width: 15.0d
-		x: -1.0d
-		y: 4.0d
+		width: 20.0d
+		x: 0.0d
+		y: 0.0d
 	}]
 	order_index: 4
 	quest_links: [ ]
@@ -45,8 +45,8 @@
 				type: "observation"
 			}]
 			title: "Find a Bee's Nest"
-			x: -1.0d
-			y: -3.0d
+			x: -7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["51F84C9F2CA50DA7"]
@@ -84,8 +84,8 @@
 				type: "dimension"
 			}]
 			title: "Enter the Bumblezone"
-			x: -2.0d
-			y: -1.5d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1F8B3B9C1641187E"]
@@ -102,8 +102,8 @@
 				type: "item"
 			}]
 			title: "Obtain Sugar Water"
-			x: -4.0d
-			y: -1.5d
+			x: -5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1F8B3B9C1641187E"]
@@ -149,8 +149,8 @@
 				title: "Anger the Hive"
 				type: "questsadditions:playernbt"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1F8B3B9C1641187E"]
@@ -178,8 +178,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Honey Compass"
-			x: -1.0d
-			y: 0.5d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0ADE58E9E0DFD059"]
@@ -203,7 +203,7 @@
 			}]
 			title: "Find the Cell Maze"
 			x: -2.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2602582F440361DB"]
@@ -226,8 +226,8 @@
 				id: "22B27A878D9B8BD1"
 				type: "advancement"
 			}]
-			x: -1.0d
-			y: 3.5d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4482909B2A137E38"]
@@ -274,8 +274,8 @@
 				type: "observation"
 			}]
 			title: "An Audience with the Queen"
-			x: -3.0d
-			y: 3.5d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4DFEEDE1DAACD8B7"]
@@ -308,8 +308,8 @@
 				item: "the_bumblezone:essence_of_the_bees"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0ADE58E9E0DFD059"]
@@ -379,8 +379,8 @@
 				}
 			]
 			title: "The Bee Armor"
-			x: -0.5d
-			y: 2.0d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0ADE58E9E0DFD059"]
@@ -439,8 +439,8 @@
 				}
 			]
 			title: "Bee Weaponry"
-			x: -4.0d
-			y: 2.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
@@ -475,8 +475,8 @@
 				type: "structure"
 			}]
 			title: "Sempiternal Sanctum: Purple"
-			x: -3.0d
-			y: 10.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
@@ -511,8 +511,8 @@
 				type: "structure"
 			}]
 			title: "Sempiternal Sanctum: White"
-			x: -1.0d
-			y: 10.0d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
@@ -546,8 +546,8 @@
 				type: "structure"
 			}]
 			title: "Sempiternal Sanctum: Red"
-			x: -4.0d
-			y: 8.5d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
@@ -582,8 +582,8 @@
 				type: "structure"
 			}]
 			title: "Sempiternal Sanctum: Blue"
-			x: -2.0d
-			y: 8.5d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
@@ -615,8 +615,8 @@
 				type: "structure"
 			}]
 			title: "Sempiternal Sanctum: Yellow"
-			x: 1.5d
-			y: 8.5d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
@@ -648,8 +648,8 @@
 				type: "structure"
 			}]
 			title: "Sempiternal Sanctum: Green"
-			x: 0.5d
-			y: 10.0d
+			x: 7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["635FE9332FFCE4A7"]
@@ -701,8 +701,20 @@
 				type: "structure"
 			}]
 			title: "Find a Sempiternal Sanctum"
-			x: -1.0d
-			y: 7.0d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "30CC85F74EB4717A"
+			secret: true
+			tasks: [{
+				id: "26D10AD03CED6F5F"
+				item: "ftbquests:barrier"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "The Bumblezone"

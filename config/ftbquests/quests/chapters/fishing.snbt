@@ -1,5 +1,7 @@
 {
+	autofocus_id: "1F268F57DC20768A"
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "fishing"
 	group: "33A91E268D63CB12"
@@ -11,6 +13,18 @@
 		}
 	}
 	id: "404A724A4F9629B6"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 11.25d
+		hover: [ ]
+		image: "enchanted_wilds:textures/questui/bgfishing.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -60,8 +74,8 @@
 				}
 			]
 			title: "Catch Unusual Fish"
-			x: -1.5d
-			y: -0.5d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
@@ -136,13 +150,14 @@
 				}
 			]
 			title: "Catch Freshwater Fish"
-			x: -2.0d
-			y: -1.5d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["104D0C28773A1DD4"]
 			description: [
 				"The lava pools at the base of the &cNether&r are surprisingly full of life! Using a &bspecial Fishing Rod&r, you can &areel them in&r and enjoy the fruits of your labor!"
+				""
 				"Many of the fish can either be &acooked&r or &aprocessed into other byproducts&r. Use &lJEI&r to see what can be done with each fish!"
 			]
 			id: "0F5E5A0B0C05ACD2"
@@ -208,8 +223,8 @@
 				}
 			]
 			title: "Catch Nether Fish"
-			x: -2.0d
-			y: -3.0d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
@@ -235,8 +250,8 @@
 				type: "item"
 			}]
 			title: "Catch the Goldfish"
-			x: -0.5d
-			y: -6.5d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
@@ -261,8 +276,8 @@
 				type: "item"
 			}]
 			title: "I've Nether Fished So Well"
-			x: 0.0d
-			y: -4.0d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
@@ -287,8 +302,8 @@
 				item: "aquaculture:message_in_a_bottle"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.5d
+			x: -7.0d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -340,8 +355,8 @@
 				type: "item"
 			}]
 			title: "Deliver Fish"
-			x: 0.5d
-			y: -7.0d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
@@ -367,8 +382,8 @@
 				type: "item"
 			}]
 			title: "Catch an Unusual Fish"
-			x: 4.5d
-			y: -6.0d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7B9BAC982DF2D54F"]
@@ -387,8 +402,8 @@
 				type: "item"
 			}]
 			title: "A Fishy Smithing Template"
-			x: 6.5d
-			y: -6.0d
+			x: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
@@ -441,8 +456,8 @@
 				value: 999
 			}]
 			title: "Catch Em All (and Then Some)"
-			x: 1.0d
-			y: -8.0d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -498,8 +513,8 @@
 				type: "item"
 			}]
 			title: "Get a Fishing Rod"
-			x: 2.25d
-			y: -6.0d
+			x: -6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
@@ -542,8 +557,8 @@
 				}
 			]
 			title: "Catch Basic Fish"
-			x: 1.0d
-			y: -3.5d
+			x: -4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
@@ -607,8 +622,8 @@
 				}
 			]
 			title: "Catch Arctic Fish"
-			x: -1.0d
-			y: -1.5d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
@@ -652,8 +667,8 @@
 				}
 			]
 			title: "Catch Fish in Arid Biomes"
-			x: -0.5d
-			y: -0.5d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
@@ -697,8 +712,8 @@
 				}
 			]
 			title: "Catch Jungle Fish"
-			x: 0.5d
-			y: -0.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
@@ -732,8 +747,8 @@
 				}
 			]
 			title: "Catch Saltwater Fish"
-			x: 0.0d
-			y: -1.5d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7FBB7033C56FD372"]
@@ -766,8 +781,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -1.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1C9F3475CA6B1C49"]
@@ -803,7 +818,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -844,8 +859,8 @@
 				}
 			]
 			title: "Fish Up Boxes"
-			x: 3.0d
-			y: -1.0d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
@@ -873,8 +888,8 @@
 				item: "aquaculture:tackle_box"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["662B6BDBC0074C00"]
@@ -914,8 +929,8 @@
 				title: "Any Upgraded Hook"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7FBB7033C56FD372"]
@@ -933,8 +948,8 @@
 				type: "item"
 			}]
 			title: "Make an Iron Hook"
-			x: 4.5d
-			y: -1.0d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["662B6BDBC0074C00"]
@@ -978,8 +993,8 @@
 				type: "item"
 			}]
 			title: "Craft a Utility Hook"
-			x: 5.5d
-			y: 0.0d
+			x: 4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["662B6BDBC0074C00"]
@@ -1006,7 +1021,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7FBB7033C56FD372"]
@@ -1058,8 +1073,8 @@
 				item: "aquaculture:worm_farm"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -2.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
@@ -1086,8 +1101,8 @@
 				type: "item"
 			}]
 			title: "Fillet Your Fish"
-			x: 4.5d
-			y: -4.5d
+			x: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0A415DB19D448EE0"]
@@ -1136,8 +1151,8 @@
 				}
 			]
 			title: "Compact Your Marine Life"
-			x: -2.0d
-			y: -4.5d
+			x: 5.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -1182,8 +1197,8 @@
 				}
 			]
 			title: "Beginner Crabbing"
-			x: -3.5d
-			y: -7.0d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0A415DB19D448EE0"]
@@ -1225,8 +1240,20 @@
 				}
 			]
 			title: "Obtain Shellfish"
-			x: -5.0d
-			y: -4.5d
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "1F268F57DC20768A"
+			secret: true
+			tasks: [{
+				id: "0D354D7988E374CE"
+				item: "ftbquests:barrier"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "Fishing"

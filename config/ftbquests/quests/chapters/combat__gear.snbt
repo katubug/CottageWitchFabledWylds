@@ -1,7 +1,7 @@
 {
 	autofocus_id: "5161948053596F24"
 	default_hide_dependency_lines: false
-	default_min_width: 300
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "combat__gear"
 	group: "6B4E114EC6CDE8EE"
@@ -747,7 +747,7 @@
 				table_id: 3860672237768942222L
 				type: "random"
 			}]
-			shape: "hexagon"
+			shape: "pentagon"
 			tasks: [{
 				count: 9L
 				id: "0B662955A4DC2D7B"
@@ -755,8 +755,8 @@
 				type: "item"
 			}]
 			title: "Trinket Fragments"
-			x: 6.5d
-			y: 3.0d
+			x: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3FD200068F50454E"]
@@ -767,7 +767,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -824,7 +824,7 @@
 			}]
 			title: "Obtain a Relic"
 			x: 4.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			description: ["These delicate &bEthereal Wings&r allow the player to &afly and hover&r as if they were a deity. However, movement is &aincredibly slow&r. Still, it should be useful for building..."]
@@ -841,8 +841,8 @@
 				item: "nameless_trinkets:ethereal_wings"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -2150,7 +2150,7 @@
 			description: [
 				"Collect a whole set of &bSilver Tools&r to complete this quest."
 				""
-				"These tools &ado not offer any special properties&r, but as long as we're collecting everything else, you might as well get rewarded for this, too!"
+				"These tools &aset fire to the &eundead&r when struck!"
 			]
 			id: "2A4241B2167ED09E"
 			rewards: [{
@@ -2233,7 +2233,18 @@
 			y: -3.0d
 		}
 		{
+			description: [
+				"Collect a whole set of &bGold Armor&r to complete this quest."
+				""
+				"Although it has low protection and even lower durability, &bGold&r armor is &ahighly enchantable&r!"
+			]
 			id: "7B3A4A2BAA943C98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7480BC97A2AF84F0"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2282,11 +2293,36 @@
 				}
 			]
 			title: "The Full Set: Golden Armor"
-			x: -6.0d
-			y: 8.0d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
+			description: [
+				"Collect a whole set of &bSlime Armor&r to complete this quest."
+				""
+				"The &bSlime Boots&r prevent fall damage by &amaking you bouncy&r! If you wear the &bChestplate&r and &bLeggings&r at the same time, you can &aclimb walls&r. And the &bHelmet&r allows you to &ahang from the ceiling&r."
+				""
+				"The more pieces of this set you wear, the &amore powerful the &bSlime Sling&r becomes."
+			]
 			id: "33CFB64E32F26FC0"
+			rewards: [
+				{
+					id: "49012E06BB1EB89C"
+					item: "usefulslime:slippery_slime_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0F266439EB9AF809"
+					item: "reliquary:slime_pearl"
+					type: "item"
+				}
+				{
+					id: "4A1B1607E9AC0D43"
+					item: "quark:slime_in_a_bucket"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "so slimy"
 			tasks: [
@@ -2336,11 +2372,35 @@
 				}
 			]
 			title: "The Full Set: Slime Armor"
-			x: -5.0d
-			y: 8.0d
+			x: -2.5d
+			y: 5.5d
 		}
 		{
+			description: [
+				"Collect a whole set of &bRose Gold Armor&r to complete this quest."
+				""
+				"Rose Gold Armor is &aabout as strong as &bIron&r, but with the &aenchantability of &bGold&r!"
+			]
 			id: "6414F457952B1D90"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F4E7E36CD346ECE"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					count: 5
+					id: "5A0694E5EE0D0F75"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					id: "0DDC8A1278E89909"
+					item: "candlelight:rose"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2389,11 +2449,22 @@
 				}
 			]
 			title: "The Full Set: Rose Gold Armor"
-			x: -4.0d
-			y: 8.0d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
+			description: [
+				"Collect a whole set of &bSilver Armor&r to complete this quest."
+				""
+				"Although this armor &ahas no special properties&r, you may as well collect it while you're doing everything else... right?"
+			]
 			id: "457DA91CC8AD13E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "382E0DAA95823571"
+				table_id: 5705869042914710822L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2442,8 +2513,8 @@
 				}
 			]
 			title: "The Full Set: Silver Armor"
-			x: -5.5d
-			y: 9.0d
+			x: -4.0d
+			y: 2.5d
 		}
 		{
 			id: "0629675C9C5E1AA4"
@@ -2484,7 +2555,7 @@
 				}
 			]
 			title: "The Full Set: Bone Paladin Armor"
-			x: -6.5d
+			x: -7.5d
 			y: 9.0d
 		}
 		{
@@ -2646,7 +2717,18 @@
 			y: 5.5d
 		}
 		{
+			description: [
+				"Collect a whole set of &bValkyrie Armor&r to complete this quest."
+				""
+				"When a full set of this armor is worn, it grants &atemporary flight&r to the wearer!"
+			]
 			id: "3EC4594BEE7A00BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "484DD0769BA18997"
+				table_id: 4891142420904354454L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2706,8 +2788,8 @@
 				}
 			]
 			title: "The Full Set: Valkyrie Armor"
-			x: 0.0d
-			y: 9.0d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -2785,7 +2867,25 @@
 			y: 4.5d
 		}
 		{
+			description: [
+				"Collect a whole set of &bNeptune Armor&r to complete this quest."
+				""
+				"This armor set allows you to &amove faster when swimming&r."
+			]
 			id: "2FA571E707F908E0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EB6E77171B271E3"
+					table_id: 1129944662014018005L
+					type: "loot"
+				}
+				{
+					id: "3DE3FCD98B4071C2"
+					item: "aether:iron_bubble"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2845,11 +2945,22 @@
 				}
 			]
 			title: "The Full Set: Neptune Armor"
-			x: -1.0d
-			y: 9.0d
+			x: -3.5d
+			y: 3.5d
 		}
 		{
+			description: [
+				"Collect a whole set of &bFur Armor&r to complete this quest."
+				""
+				"When a full set is equipped, the wearer is granted &a+2 Knockback Resist&r! However, it is mostly a cosmetic set."
+			]
 			id: "2F6C2F4DD36AE5E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42CF761E4546C107"
+				table_id: 8096229411196850122L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2898,11 +3009,30 @@
 				}
 			]
 			title: "The Full Set: Fur Armor"
-			x: -4.5d
-			y: 9.0d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
+			description: [
+				"Collect a whole set of &bDraco Arcanus Armor&r to complete this quest."
+				""
+				"Although this armor &ahas no special properties&r, it is &avery powerful protection&r."
+			]
 			id: "5571B4A2D74600FA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D7DD3B1C6BE090E"
+					table_id: 2797019701616015075L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37C3F1A98AD8A607"
+					table_id: 5161092699925703455L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2951,11 +3081,30 @@
 				}
 			]
 			title: "The Full Set: Draco Arcanus Armor"
-			x: -7.0d
-			y: 8.0d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
+			description: [
+				"Collect a whole set of &bDraco Arcanus Armor&r to complete this quest."
+				""
+				"Although this armor &ahas no special properties&r, it is &avery powerful protection&r."
+			]
 			id: "308B6CDB9FFA8BF9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C11855EDEC4FAA6"
+					table_id: 2797019701616015075L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "716D3A8B164A3C8C"
+					table_id: 5161092699925703455L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -3004,8 +3153,8 @@
 				}
 			]
 			title: "The Full Set: Tyr Armor"
-			x: -7.5d
-			y: 9.0d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			id: "782DCE75380C539C"
@@ -3057,8 +3206,8 @@
 				}
 			]
 			title: "The Full Set: Mortem Armor"
-			x: -9.5d
-			y: 7.0d
+			x: -9.0d
+			y: 8.0d
 		}
 		{
 			description: [
@@ -3133,6 +3282,11 @@
 			y: 3.5d
 		}
 		{
+			description: [
+				"Collect a whole set of &bShedscale Armor&r to complete this quest."
+				""
+				"This set offers a bonus to &aswim speed&r!"
+			]
 			id: "03B7B6D5B037F086"
 			shape: "hexagon"
 			tasks: [
@@ -3367,12 +3521,35 @@
 			y: 9.0d
 		}
 		{
+			description: [
+				"Collect a whole set of &bBee Armor&r to complete this quest."
+				""
+				"The &bStingless Bee Helmet&r, when worn, will &ahighlight all &eBees&r and &eBeehemoths&r when &6you crouch&r. You can also &6right click &eBees&r with an empty hand to &aput them on your head&r! The bee will leave your head if you &atake damage&r, &acrouch&r, &ago underwater&r, &aobtain Wrath of the Hive&r effect, or &aafter 30 seconds&r passes. &bNausea &aduration will also decrease&r twice as fast when this armor is on and &bPoison&r duration will be &aslightly decreased&r as well."
+				""
+				"The &bChestplate&r gives you &abrief flight&r if you &6jump after jumping&r. The &bBeenergized&r effect will improve this. It also makes you &aimmune to &bFreezing&r!"
+				""
+				"The &bLeggings&r allow you to resist &bSlowness&r from &lBumblezone&r blocks. You can also use them to &acollect &bPollen&r from flowers! You can use this to &6spawn a &ePollen Puff&r by &6crouching&r. Additionally, all &bSlowness&r durations will be &adecreased&r."
+				""
+				"These &bBoots&r can &aautomine many kinds&r of &bwood&r, &bbeehive&r, or &bhoneycomb&r blocks that you are standing on - simply &6look down and hold crouch&r."
+				""
+				"The boots can be enchanted with the normal boot enchantments but can also be enchanted with &bEfficiency&r, &bSilk Touch&r, and &bFortune&r. To go with Efficiency, the boots also mine faster when you have the full bee armor set on or have Beenergized status effect. These mining speed boosts &ado stack&r."
+				""
+				"The boots will also let you briefly hang on walls made of wood, beehive, or honeycomb blocks allowing you to wall jump or wall run!"
+			]
 			id: "4918B7871C3246B4"
-			rewards: [{
-				id: "0149BBEAFD66549D"
-				item: "practical_plushies_animals:bee_plushie"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0149BBEAFD66549D"
+					item: "practical_plushies_animals:bee_plushie"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11D4C35A65632F8D"
+					table_id: 5651126569320430640L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -3422,11 +3599,40 @@
 				}
 			]
 			title: "The Full Set: Bee Armor, Variant 1"
-			x: -8.5d
-			y: 7.0d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
+			description: [
+				"Collect a whole set of &bBee Armor&r to complete this quest."
+				""
+				"The &bStingless Bee Helmet&r, when worn, will &ahighlight all &eBees&r and &eBeehemoths&r when &6you crouch&r. You can also &6right click &eBees&r with an empty hand to &aput them on your head&r! The bee will leave your head if you &atake damage&r, &acrouch&r, &ago underwater&r, &aobtain Wrath of the Hive&r effect, or &aafter 30 seconds&r passes. &bNausea &aduration will also decrease&r twice as fast when this armor is on and &bPoison&r duration will be &aslightly decreased&r as well."
+				""
+				"The &bChestplate&r gives you &abrief flight&r if you &6jump after jumping&r. The &bBeenergized&r effect will improve this. It also makes you &aimmune to &bFreezing&r!"
+				""
+				"The &bLeggings&r allow you to resist &bSlowness&r from &lBumblezone&r blocks. You can also use them to &acollect &bPollen&r from flowers! You can use this to &6spawn a &ePollen Puff&r by &6crouching&r. Additionally, all &bSlowness&r durations will be &adecreased&r."
+				""
+				"These &bBoots&r can &aautomine many kinds&r of &bwood&r, &bbeehive&r, or &bhoneycomb&r blocks that you are standing on - simply &6look down and hold crouch&r."
+				""
+				"The boots can be enchanted with the normal boot enchantments but can also be enchanted with &bEfficiency&r, &bSilk Touch&r, and &bFortune&r. To go with Efficiency, the boots also mine faster when you have the full bee armor set on or have Beenergized status effect. These mining speed boosts &ado stack&r."
+				""
+				"The boots will also let you briefly hang on walls made of wood, beehive, or honeycomb blocks allowing you to wall jump or wall run!"
+			]
 			id: "512561271D178D2D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32363556F74A95F2"
+					table_id: 1465218687757294420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D362F98E3AD199D"
+					table_id: 5651126569320430640L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -3476,8 +3682,8 @@
 				}
 			]
 			title: "The Full Set: Bee Armor, Variant 2"
-			x: -9.0d
-			y: 8.0d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			description: ["The &bDragon Scale&r is an incredibly valuable item which is obtained after defeating the Ender Dragon &6a second time&r. It can be used to &aduplicate Elytra&r."]
@@ -3496,6 +3702,79 @@
 				type: "item"
 			}]
 			x: -3.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"The &bPickarang&r is a tool which can &aremotely break blocks and return the drops to you&r."
+				""
+				"It can also be used to &agrab dropped items&r and &adamage enemies&r."
+				""
+				"You can upgrade it to the &bFlamarang&r, and both versions can be Enchanted."
+			]
+			id: "0323243BE6D015C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4899D460BAF74ACE"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6669EF98E54CE5AD"
+				item: {
+					Count: 1b
+					id: "quark:pickarang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0323243BE6D015C7"]
+			description: ["Similar to the &bPickarang&r, this item can be used to &amine blocks&r and &adefeat enemies&r. However, it also has an &aauto-smelting&r function!"]
+			id: "230F870FB86A18B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D7EB8861FD08213"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "663A12DFC8EE8F64"
+				item: {
+					Count: 1b
+					id: "quark:flamerang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			description: ["It can be tedious to carry a &bCrafting Table&r around and have to keep placing it and picking it up. Thankfully, there's &aan easier solution - &bPortable Crafting Tables&r!"]
+			id: "01D64E94563773D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28C2959FEF6D96C5"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A70C2A18766134B"
+				item: "craftingcraft:portable_crafting"
+				type: "item"
+			}]
+			x: -4.5d
 			y: -4.5d
 		}
 	]

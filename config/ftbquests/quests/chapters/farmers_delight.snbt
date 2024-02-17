@@ -139,8 +139,8 @@
 				type: "item"
 			}]
 			title: "Make a Pie"
-			x: -4.5d
-			y: -2.0d
+			x: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -159,8 +159,8 @@
 				type: "item"
 			}]
 			title: "Obtain Straw"
-			x: -5.0d
-			y: -0.5d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
@@ -178,8 +178,8 @@
 				item: "farmersdelight:canvas"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.5d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
@@ -204,8 +204,8 @@
 				type: "item"
 			}]
 			title: "Obtain Rope"
-			x: -7.0d
-			y: 0.0d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2CA80140F624D0AE"]
@@ -283,7 +283,11 @@
 				"4930ECD60EA9ED8D"
 				"2093240CD42882CF"
 			]
-			description: ["Expand your farm with these delicious &bnew crops&r! Crops that &agrow in soil&r can have their &agrowth boosted&r by using &bRich Farmland&r."]
+			description: [
+				"Expand your farm with these delicious &bnew crops&r! Crops that &agrow in soil&r can have their &agrowth boosted&r by using &bRich Farmland&r."
+				""
+				"&bCorn&r can only be found naturally in &cAbandoned Farms&r, but you can also &6buy it from the &bMarket Stall&r!"
+			]
 			id: "2CA80140F624D0AE"
 			rewards: [
 				{
@@ -432,7 +436,7 @@
 				id: "689FF833D614619E"
 				type: "advancement"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 3.0d
 		}
 		{
@@ -641,7 +645,7 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
+			x: -4.0d
 			y: 1.0d
 		}
 		{
@@ -678,8 +682,8 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: 2.0d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			id: "7814F0DBA486B635"
@@ -713,8 +717,8 @@
 				id: "28E5384ECA31D155"
 				type: "advancement"
 			}]
-			x: -5.0d
-			y: 2.5d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0545DF70043D964A"]
@@ -867,6 +871,11 @@
 					table_id: 5525848455660196930L
 					type: "choice"
 				}
+				{
+					id: "0DC463D1C29D6429"
+					item: "abyssal_decor:bottomless_bag_of_dirt"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "2E7A316EBC2BA46A"
@@ -898,7 +907,17 @@
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
-			description: ["Tea is a wonderful thing, as you may already know. There are &amany different ingredients&r that one can use to make either a delicious camellia tea or an herbal tisane!"]
+			description: [
+				"Tea is a wonderful thing, as you may already know. There are &amany different ingredients&r that one can use to make either a delicious camellia tea or an herbal tisane!"
+				""
+				"&bTea Blossoms&r can be gotten by &6shearing flowers&r and then planted to grow &bTea Leaves&r."
+				""
+				"&bYerba Mate&r and &bLavender&r can be found in &cMountain&r biomes."
+				""
+				"&bCoffee&r and &bHibiscus&r can both be found in &cJungles&r."
+				""
+				"&bRooibos&r can be found growing in &cSavannah&r."
+			]
 			id: "14A010F870E73911"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -943,7 +962,17 @@
 				""
 				"Did you know that corn hung over a mirror will bring good luck to your household? Take a small white onion and stick it full of black-headed pins. When placed in the window, this will protect against negativity. And carrots are said to promote... physical desire. *wink*"
 				""
-				"More information on how to find each crop are in the &dother quests in this section&r."
+				"&bWild Tomatoes&r can be found in &chot, dry biomes&r."
+				""
+				"&bWild Rice&r can be found growing in &bwater&r in &cwet biomes&r."
+				""
+				"&bWild Cabbages&r and &bPineapples&r can be found in &cbeach biomes&r."
+				""
+				"&bWild Coffee&r can be found in &cJungle biomes&r!"
+				""
+				"&bSalmonberries&r spawn in &cForests&r."
+				""
+				"&bSoybeans&r, &bOnions&r, &bCarrots&r, and &bPotatoes&r can be found in most any biome!"
 			]
 			icon: "farmersdelight:wild_carrots"
 			id: "2093240CD42882CF"
@@ -1044,22 +1073,6 @@
 					value: 1L
 				}
 				{
-					block: "herbalbrews:wild_rooibos_plant"
-					block_type: 0
-					checkItem: false
-					id: "16F69DEFF5AADE21"
-					type: "questsadditions:break"
-					value: 1L
-				}
-				{
-					block: "herbalbrews:wild_yerba_mate_plant"
-					block_type: 0
-					checkItem: false
-					id: "3EE5AE89393CDE21"
-					type: "questsadditions:break"
-					value: 1L
-				}
-				{
 					block: "herbalbrews:wild_coffee_plant"
 					block_type: 0
 					checkItem: false
@@ -1119,6 +1132,23 @@
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
+			description: [
+				"&bPersimmons&r, &bBlueberries&r and &bHawberry&r can be found in &ccold taiga biomes&r. Blueberries can also be found in &cWindswept biomes&r and &cSwamps&r."
+				""
+				"&bPears&r can be found in &cwarm biomes&r and &cBirch tree biomes&r."
+				""
+				"&bPeaches&r can be found in &cSparse Jungles&r and &chot, humid biomes&r."
+				""
+				"&bOranges&r, &bFigs&r, &bApples&r, and &bKiwi&r grow in &cwarm biomes&r and &cforests&r."
+				""
+				"&bMangos&r and &bLychee&r are often located in &chot, humid, or tropical biomes&r."
+				""
+				"&bMangosteens&r, &bBayberries&r and &bCranberries&r can be found in &chot, humid biomes&r, as well as &cswamps&r."
+				""
+				"&bLemons&r grow in &cwarm biomes&r and &cPlains&r."
+				""
+				"Look for &bHamimelons&r in &cDesert biomes&r."
+			]
 			id: "56F73747B7197386"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1185,11 +1215,6 @@
 				{
 					id: "55C2DBB2A6E3FDC0"
 					item: "bakery:strawberry"
-					type: "item"
-				}
-				{
-					id: "33CE691F23DDB8BF"
-					item: "vinery:cherry"
 					type: "item"
 				}
 			]

@@ -18,7 +18,7 @@
 	#Caps the duration of Ghostly Shape effect to 10 seconds when teleporting with a Grave's Key [false/true|default:true]
 	nerf_ghostly_shape_teleport_with_key = true
 	#Cancel the Ghostly Shape effect when colliding an enemy [false/true|default:true]
-	nerf_ghostly_shape_enemy_collision = true
+	nerf_ghostly_shape_enemy_collision = false
 	#Cancel the Ghostly Shape effect when opening a chest [false/true|default:true]
 	nerf_ghostly_shape_open_chest = true
 	#Cancel the Ghostly Shape effect when breaking a block [false/true|default:true]
@@ -96,7 +96,7 @@
 #Allows to define the conditions for a village siege to begin
 [village_siege]
 	#Allows to handle village sieges [false/true|default:true]
-	handle_village_siege = true
+	handle_village_siege = false
 	#Logs the different states of a village siege while searching for an adequate place [false/true|default:false]
 	log_siege_state = false
 	#The creatures of the siege have a glowing effect (only uses this for test purposes) [false/true|default:false]

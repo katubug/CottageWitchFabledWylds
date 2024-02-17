@@ -78,8 +78,6 @@
 78, forest, regions_unexplored:alpha_grove, CREATURE, mythicmounts:firebird, 10, 1, 1
 79, forest, regions_unexplored:alpha_grove, CREATURE, earthmobsmod:wooly_cow, 10, 3, 6
 80, forest, regions_unexplored:alpha_grove, CREATURE, earthmobsmod:umbra_cow, 10, 3, 6
-81, forest, regions_unexplored:alpha_grove, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-82, forest, regions_unexplored:alpha_grove, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 83, forest, regions_unexplored:alpha_grove, CREATURE, minecraft:pig, 30, 1, 1
 84, forest, regions_unexplored:alpha_grove, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 85, forest, regions_unexplored:alpha_grove, AMBIENT, minecraft:bat, 10, 8, 8
@@ -288,8 +286,6 @@
 288, forest, regions_unexplored:autumnal_maple_forest, CREATURE, mythicmounts:firebird, 10, 1, 1
 289, forest, regions_unexplored:autumnal_maple_forest, CREATURE, earthmobsmod:wooly_cow, 10, 3, 6
 290, forest, regions_unexplored:autumnal_maple_forest, CREATURE, earthmobsmod:umbra_cow, 10, 3, 6
-291, forest, regions_unexplored:autumnal_maple_forest, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-292, forest, regions_unexplored:autumnal_maple_forest, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 293, forest, regions_unexplored:autumnal_maple_forest, CREATURE, minecraft:pig, 30, 1, 1
 294, forest, regions_unexplored:autumnal_maple_forest, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 295, forest, regions_unexplored:autumnal_maple_forest, CREATURE, butterflies:morpho, 10, 1, 2
@@ -346,7 +342,6 @@
 346, badlands, minecraft:badlands, CREATURE, unusualprehistory:coty, 10, 3, 4
 347, badlands, minecraft:badlands, CREATURE, mythicmounts:firebird, 10, 1, 1
 348, badlands, minecraft:badlands, CREATURE, species:limpet, 10, 1, 1
-349, badlands, minecraft:badlands, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 350, badlands, minecraft:badlands, CREATURE, minecraft:pig, 30, 1, 1
 351, badlands, minecraft:badlands, AMBIENT, minecraft:bat, 10, 8, 8
 352, badlands, minecraft:badlands, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
@@ -419,8 +414,6 @@
 420, forest, regions_unexplored:bamboo_forest, CREATURE, eidolon:raven, 10, 2, 4
 421, forest, regions_unexplored:bamboo_forest, CREATURE, minecraft:cow, 10, 2, 3
 422, forest, regions_unexplored:bamboo_forest, CREATURE, mythicmounts:firebird, 10, 1, 1
-423, forest, regions_unexplored:bamboo_forest, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-424, forest, regions_unexplored:bamboo_forest, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 425, forest, regions_unexplored:bamboo_forest, CREATURE, minecraft:pig, 30, 1, 1
 427, forest, regions_unexplored:bamboo_forest, AMBIENT, minecraft:bat, 10, 8, 8
 428, forest, regions_unexplored:bamboo_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
@@ -556,8 +549,6 @@
 559, none, regions_unexplored:barley_fields, CREATURE, earthmobsmod:albino_cow, 10, 3, 6
 560, none, regions_unexplored:barley_fields, CREATURE, earthmobsmod:cream_cow, 10, 3, 6
 561, none, regions_unexplored:barley_fields, CREATURE, earthmobsmod:teacup_pig, 10, 3, 6
-562, none, regions_unexplored:barley_fields, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-563, none, regions_unexplored:barley_fields, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 564, none, regions_unexplored:barley_fields, CREATURE, minecraft:pig, 30, 1, 1
 565, none, regions_unexplored:barley_fields, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 566, none, regions_unexplored:barley_fields, AMBIENT, minecraft:bat, 10, 8, 8
@@ -654,7 +645,6 @@
 657, beach, minecraft:beach, CREATURE, mythicmounts:firebird, 10, 1, 1
 658, beach, minecraft:beach, CREATURE, species:limpet, 10, 1, 1
 659, beach, minecraft:beach, CREATURE, unusualprehistory:ulughbegsaurus, 10, 1, 1
-660, beach, minecraft:beach, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 661, beach, minecraft:beach, CREATURE, minecraft:pig, 30, 1, 1
 662, beach, minecraft:beach, CREATURE, whatareyouvotingfor:crab, 10, 1, 2
 663, beach, minecraft:beach, AMBIENT, minecraft:bat, 10, 8, 8
@@ -735,8 +725,6 @@
 738, forest, minecraft:birch_forest, CREATURE, minecraft:cow, 10, 2, 3
 739, forest, minecraft:birch_forest, CREATURE, mythicmounts:firebird, 10, 1, 1
 740, forest, minecraft:birch_forest, CREATURE, species:limpet, 10, 1, 1
-741, forest, minecraft:birch_forest, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-742, forest, minecraft:birch_forest, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 743, forest, minecraft:birch_forest, CREATURE, minecraft:pig, 30, 1, 1
 744, forest, minecraft:birch_forest, CREATURE, butterflies:morpho, 10, 1, 2
 745, forest, minecraft:birch_forest, CREATURE, butterflies:forester, 10, 1, 2
@@ -1047,8 +1035,6 @@
 1050, none, regions_unexplored:clover_plains, CREATURE, earthmobsmod:albino_cow, 10, 3, 6
 1051, none, regions_unexplored:clover_plains, CREATURE, earthmobsmod:cream_cow, 10, 3, 6
 1052, none, regions_unexplored:clover_plains, CREATURE, earthmobsmod:teacup_pig, 10, 3, 6
-1053, none, regions_unexplored:clover_plains, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-1054, none, regions_unexplored:clover_plains, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 1055, none, regions_unexplored:clover_plains, CREATURE, minecraft:pig, 30, 1, 1
 1056, none, regions_unexplored:clover_plains, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 1057, none, regions_unexplored:clover_plains, CREATURE, butterflies:morpho, 10, 1, 2
@@ -1195,7 +1181,7 @@
 1198, ocean, minecraft:cold_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1199, ocean, minecraft:cold_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1200, ocean, minecraft:cold_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-1201, ocean, minecraft:cold_ocean, WATER_CREATURE, minecraft:squid, 10, 1, 4
+1201, ocean, minecraft:cold_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
 1202, ocean, minecraft:cold_ocean, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
 1203, ocean, minecraft:cold_ocean, WATER_CREATURE, unusualfishmod:shockcat, 20, 1, 2
 1204, ocean, minecraft:cold_ocean, WATER_CREATURE, spawn:tuna, 15, 1, 1
@@ -1237,7 +1223,7 @@
 1240, river, regions_unexplored:cold_river, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1241, river, regions_unexplored:cold_river, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1242, river, regions_unexplored:cold_river, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-1243, river, regions_unexplored:cold_river, WATER_CREATURE, minecraft:squid, 10, 1, 4
+1243, river, regions_unexplored:cold_river, WATER_CREATURE, minecraft:squid, 50, 1, 4
 1244, river, regions_unexplored:cold_river, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
 1245, river, regions_unexplored:cold_river, WATER_CREATURE, unusualfishmod:shockcat, 20, 1, 2
 1246, river, regions_unexplored:cold_river, WATER_AMBIENT, minecraft:salmon, 10, 1, 5
@@ -1357,8 +1343,6 @@
 1360, forest, minecraft:dark_forest, CREATURE, mythicmounts:firebird, 10, 1, 1
 1361, forest, minecraft:dark_forest, CREATURE, meadow:brown_bear, 10, 2, 3
 1362, forest, minecraft:dark_forest, CREATURE, species:limpet, 10, 1, 1
-1363, forest, minecraft:dark_forest, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-1364, forest, minecraft:dark_forest, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 1365, forest, minecraft:dark_forest, CREATURE, minecraft:pig, 30, 1, 1
 1366, forest, minecraft:dark_forest, AMBIENT, minecraft:bat, 10, 8, 8
 1367, forest, minecraft:dark_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
@@ -1403,8 +1387,6 @@
 1406, forest, regions_unexplored:deciduous_forest, CREATURE, eidolon:raven, 10, 2, 4
 1407, forest, regions_unexplored:deciduous_forest, CREATURE, minecraft:cow, 10, 2, 3
 1408, forest, regions_unexplored:deciduous_forest, CREATURE, mythicmounts:firebird, 10, 1, 1
-1409, forest, regions_unexplored:deciduous_forest, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-1410, forest, regions_unexplored:deciduous_forest, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 1411, forest, regions_unexplored:deciduous_forest, CREATURE, minecraft:pig, 30, 1, 1
 1412, forest, regions_unexplored:deciduous_forest, AMBIENT, minecraft:bat, 10, 8, 8
 1413, forest, regions_unexplored:deciduous_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
@@ -1453,7 +1435,7 @@
 1456, ocean, minecraft:deep_cold_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1457, ocean, minecraft:deep_cold_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1458, ocean, minecraft:deep_cold_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-1459, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, minecraft:squid, 10, 1, 4
+1459, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
 1460, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
 1461, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, unusualfishmod:volt_angler, 30, 1, 2
 1462, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, unusualfishmod:shockcat, 20, 1, 2
@@ -1523,7 +1505,7 @@
 1526, ocean, minecraft:deep_frozen_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1527, ocean, minecraft:deep_frozen_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1528, ocean, minecraft:deep_frozen_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-1529, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, minecraft:squid, 10, 1, 4
+1529, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
 1530, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
 1531, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, unusualfishmod:shockcat, 20, 1, 2
 1532, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, unusualprehistory:ammon, 10, 1, 5
@@ -1567,7 +1549,7 @@
 1570, ocean, minecraft:deep_lukewarm_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1571, ocean, minecraft:deep_lukewarm_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1572, ocean, minecraft:deep_lukewarm_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-1573, ocean, minecraft:deep_lukewarm_ocean, WATER_CREATURE, minecraft:squid, 10, 1, 4
+1573, ocean, minecraft:deep_lukewarm_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
 1574, ocean, minecraft:deep_lukewarm_ocean, WATER_CREATURE, minecraft:dolphin, 10, 1, 2
 1575, ocean, minecraft:deep_lukewarm_ocean, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
 1576, ocean, minecraft:deep_lukewarm_ocean, WATER_CREATURE, unusualfishmod:shockcat, 20, 1, 2
@@ -1607,7 +1589,7 @@
 1610, ocean, minecraft:deep_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1611, ocean, minecraft:deep_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1612, ocean, minecraft:deep_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-1613, ocean, minecraft:deep_ocean, WATER_CREATURE, minecraft:squid, 10, 1, 4
+1613, ocean, minecraft:deep_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
 1614, ocean, minecraft:deep_ocean, WATER_CREATURE, minecraft:dolphin, 10, 1, 2
 1615, ocean, minecraft:deep_ocean, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
 1616, ocean, minecraft:deep_ocean, WATER_CREATURE, unusualfishmod:shockcat, 20, 1, 2
@@ -1656,7 +1638,6 @@
 1659, desert, minecraft:desert, CREATURE, unusualprehistory:veloci, 10, 3, 4
 1660, desert, minecraft:desert, CREATURE, mythicmounts:firebird, 10, 1, 1
 1661, desert, minecraft:desert, CREATURE, species:limpet, 10, 1, 1
-1662, desert, minecraft:desert, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 1663, desert, minecraft:desert, CREATURE, minecraft:pig, 30, 1, 1
 1664, desert, minecraft:desert, AMBIENT, minecraft:bat, 10, 8, 8
 1665, desert, minecraft:desert, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
@@ -1971,8 +1952,6 @@
 1975, none, regions_unexplored:flower_fields, CREATURE, earthmobsmod:albino_cow, 10, 3, 6
 1976, none, regions_unexplored:flower_fields, CREATURE, earthmobsmod:cream_cow, 10, 3, 6
 1977, none, regions_unexplored:flower_fields, CREATURE, earthmobsmod:teacup_pig, 10, 3, 6
-1978, none, regions_unexplored:flower_fields, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-1979, none, regions_unexplored:flower_fields, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 1980, none, regions_unexplored:flower_fields, CREATURE, minecraft:pig, 30, 1, 1
 1981, none, regions_unexplored:flower_fields, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 1982, none, regions_unexplored:flower_fields, CREATURE, mysticsbiomes:rainbow_chicken, 30, 2, 5
@@ -2040,10 +2019,8 @@
 2044, forest, minecraft:flower_forest, CREATURE, minecraft:cow, 10, 2, 3
 2045, forest, minecraft:flower_forest, CREATURE, mythicmounts:firebird, 10, 1, 1
 2046, forest, minecraft:flower_forest, CREATURE, species:limpet, 10, 1, 1
-2047, forest, minecraft:flower_forest, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
 2048, forest, minecraft:flower_forest, CREATURE, earthmobsmod:moobloom, 10, 3, 4
 2049, forest, minecraft:flower_forest, CREATURE, earthmobsmod:moolip, 10, 3, 4
-2050, forest, minecraft:flower_forest, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 2051, forest, minecraft:flower_forest, CREATURE, minecraft:pig, 30, 1, 1
 2052, forest, minecraft:flower_forest, CREATURE, mysticsbiomes:rainbow_chicken, 30, 2, 5
 2053, forest, minecraft:flower_forest, CREATURE, butterflies:morpho, 10, 1, 2
@@ -2108,8 +2085,6 @@
 2112, forest, minecraft:forest, CREATURE, mythicmounts:firebird, 10, 1, 1
 2113, forest, minecraft:forest, CREATURE, meadow:brown_bear, 10, 2, 3
 2114, forest, minecraft:forest, CREATURE, species:limpet, 10, 1, 1
-2115, forest, minecraft:forest, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-2116, forest, minecraft:forest, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 2117, forest, minecraft:forest, CREATURE, minecraft:pig, 30, 1, 1
 2118, forest, minecraft:forest, AMBIENT, minecraft:bat, 10, 8, 8
 2119, forest, minecraft:forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
@@ -2197,7 +2172,7 @@
 2201, ocean, minecraft:frozen_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2202, ocean, minecraft:frozen_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2203, ocean, minecraft:frozen_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-2204, ocean, minecraft:frozen_ocean, WATER_CREATURE, minecraft:squid, 10, 1, 4
+2204, ocean, minecraft:frozen_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
 2205, ocean, minecraft:frozen_ocean, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
 2206, ocean, minecraft:frozen_ocean, WATER_CREATURE, unusualfishmod:shockcat, 20, 1, 2
 2207, ocean, minecraft:frozen_ocean, WATER_CREATURE, unusualprehistory:ammon, 10, 1, 5
@@ -2331,7 +2306,7 @@
 2335, river, minecraft:frozen_river, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2336, river, minecraft:frozen_river, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2337, river, minecraft:frozen_river, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-2338, river, minecraft:frozen_river, WATER_CREATURE, minecraft:squid, 10, 1, 4
+2338, river, minecraft:frozen_river, WATER_CREATURE, minecraft:squid, 50, 1, 4
 2339, river, minecraft:frozen_river, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
 2340, river, minecraft:frozen_river, WATER_CREATURE, unusualfishmod:pinkfin, 20, 1, 2
 2341, river, minecraft:frozen_river, WATER_CREATURE, unusualfishmod:shockcat, 20, 1, 2
@@ -2594,8 +2569,6 @@
 2598, plains, regions_unexplored:grassland, CREATURE, earthmobsmod:albino_cow, 10, 3, 6
 2599, plains, regions_unexplored:grassland, CREATURE, earthmobsmod:cream_cow, 10, 3, 6
 2600, plains, regions_unexplored:grassland, CREATURE, earthmobsmod:teacup_pig, 10, 3, 6
-2601, plains, regions_unexplored:grassland, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-2602, plains, regions_unexplored:grassland, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 2603, plains, regions_unexplored:grassland, CREATURE, minecraft:pig, 30, 1, 1
 2604, plains, regions_unexplored:grassland, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 2605, plains, regions_unexplored:grassland, AMBIENT, minecraft:bat, 10, 8, 8
@@ -2630,7 +2603,6 @@
 2634, beach, regions_unexplored:grassy_beach, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 2635, beach, regions_unexplored:grassy_beach, CREATURE, mythicmounts:firebird, 10, 1, 1
 2636, beach, regions_unexplored:grassy_beach, CREATURE, unusualprehistory:ulughbegsaurus, 10, 1, 1
-2637, beach, regions_unexplored:grassy_beach, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 2638, beach, regions_unexplored:grassy_beach, CREATURE, minecraft:pig, 30, 1, 1
 2639, beach, regions_unexplored:grassy_beach, CREATURE, whatareyouvotingfor:crab, 10, 1, 2
 2640, beach, regions_unexplored:grassy_beach, AMBIENT, minecraft:bat, 10, 8, 8
@@ -2718,8 +2690,6 @@
 2722, forest, minecraft:grove, CREATURE, earthmobsmod:wooly_cow, 10, 4, 6
 2723, forest, minecraft:grove, CREATURE, earthmobsmod:umbra_cow, 10, 3, 6
 2724, forest, minecraft:grove, CREATURE, earthmobsmod:horned_sheep, 10, 3, 6
-2725, forest, minecraft:grove, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-2726, forest, minecraft:grove, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 2727, forest, minecraft:grove, CREATURE, minecraft:pig, 30, 1, 1
 2728, forest, minecraft:grove, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 2729, forest, minecraft:grove, CREATURE, butterflies:morpho, 10, 1, 2
@@ -2891,7 +2861,7 @@
 2895, ocean, regions_unexplored:hyacinth_deeps, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2896, ocean, regions_unexplored:hyacinth_deeps, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2897, ocean, regions_unexplored:hyacinth_deeps, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-2898, ocean, regions_unexplored:hyacinth_deeps, WATER_CREATURE, minecraft:squid, 10, 1, 4
+2898, ocean, regions_unexplored:hyacinth_deeps, WATER_CREATURE, minecraft:squid, 50, 1, 4
 2899, ocean, regions_unexplored:hyacinth_deeps, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
 2900, ocean, regions_unexplored:hyacinth_deeps, WATER_CREATURE, unusualfishmod:shockcat, 20, 1, 2
 2901, ocean, regions_unexplored:hyacinth_deeps, WATER_CREATURE, unusualprehistory:ammon, 10, 1, 5
@@ -3072,7 +3042,6 @@
 3076, desert, regions_unexplored:joshua_desert, CREATURE, minecraft:donkey, 10, 1, 2
 3077, desert, regions_unexplored:joshua_desert, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 3078, desert, regions_unexplored:joshua_desert, CREATURE, mythicmounts:firebird, 10, 1, 1
-3079, desert, regions_unexplored:joshua_desert, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 3080, desert, regions_unexplored:joshua_desert, CREATURE, minecraft:pig, 30, 1, 1
 3081, desert, regions_unexplored:joshua_desert, AMBIENT, minecraft:bat, 10, 8, 8
 3082, desert, regions_unexplored:joshua_desert, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
@@ -3233,7 +3202,7 @@
 3238, ocean, minecraft:lukewarm_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 3239, ocean, minecraft:lukewarm_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 3240, ocean, minecraft:lukewarm_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-3241, ocean, minecraft:lukewarm_ocean, WATER_CREATURE, minecraft:squid, 10, 1, 2
+3241, ocean, minecraft:lukewarm_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 2
 3242, ocean, minecraft:lukewarm_ocean, WATER_CREATURE, minecraft:dolphin, 10, 1, 2
 3243, ocean, minecraft:lukewarm_ocean, WATER_CREATURE, unusualfishmod:sea_pancake, 10, 1, 1
 3244, ocean, minecraft:lukewarm_ocean, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -3324,8 +3293,6 @@
 3329, forest, regions_unexplored:magnolia_woodland, CREATURE, eidolon:raven, 10, 2, 4
 3330, forest, regions_unexplored:magnolia_woodland, CREATURE, minecraft:cow, 10, 2, 3
 3331, forest, regions_unexplored:magnolia_woodland, CREATURE, mythicmounts:firebird, 10, 1, 1
-3332, forest, regions_unexplored:magnolia_woodland, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-3333, forest, regions_unexplored:magnolia_woodland, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 3334, forest, regions_unexplored:magnolia_woodland, CREATURE, minecraft:pig, 30, 1, 1
 3335, forest, regions_unexplored:magnolia_woodland, CREATURE, mysticsbiomes:rainbow_chicken, 30, 2, 5
 3336, forest, regions_unexplored:magnolia_woodland, CREATURE, butterflies:morpho, 10, 1, 2
@@ -3438,8 +3405,6 @@
 3444, forest, regions_unexplored:maple_forest, CREATURE, eidolon:raven, 10, 2, 4
 3445, forest, regions_unexplored:maple_forest, CREATURE, minecraft:cow, 10, 2, 3
 3446, forest, regions_unexplored:maple_forest, CREATURE, mythicmounts:firebird, 10, 1, 1
-3447, forest, regions_unexplored:maple_forest, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-3448, forest, regions_unexplored:maple_forest, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 3449, forest, regions_unexplored:maple_forest, CREATURE, minecraft:pig, 30, 1, 1
 3450, forest, regions_unexplored:maple_forest, CREATURE, butterflies:morpho, 10, 1, 2
 3451, forest, regions_unexplored:maple_forest, CREATURE, butterflies:forester, 10, 1, 2
@@ -3547,8 +3512,6 @@
 3553, forest, regions_unexplored:mauve_hills, CREATURE, eidolon:raven, 10, 2, 4
 3554, forest, regions_unexplored:mauve_hills, CREATURE, minecraft:cow, 10, 2, 3
 3555, forest, regions_unexplored:mauve_hills, CREATURE, mythicmounts:firebird, 10, 1, 1
-3556, forest, regions_unexplored:mauve_hills, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-3557, forest, regions_unexplored:mauve_hills, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 3558, forest, regions_unexplored:mauve_hills, CREATURE, minecraft:pig, 30, 1, 1
 3559, forest, regions_unexplored:mauve_hills, CREATURE, butterflies:morpho, 10, 1, 2
 3560, forest, regions_unexplored:mauve_hills, CREATURE, butterflies:forester, 10, 1, 2
@@ -3616,8 +3579,6 @@
 3622, plains, minecraft:meadow, CREATURE, earthmobsmod:cream_cow, 10, 3, 6
 3623, plains, minecraft:meadow, CREATURE, earthmobsmod:teacup_pig, 10, 3, 6
 3624, plains, minecraft:meadow, CREATURE, earthmobsmod:horned_sheep, 10, 3, 6
-3625, plains, minecraft:meadow, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-3626, plains, minecraft:meadow, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 3627, plains, minecraft:meadow, CREATURE, minecraft:pig, 30, 1, 1
 3628, plains, minecraft:meadow, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 3629, plains, minecraft:meadow, CREATURE, mysticsbiomes:rainbow_chicken, 30, 2, 5
@@ -3806,7 +3767,7 @@
 3812, river, regions_unexplored:muddy_river, AMBIENT, mythicmounts:dragon, 10, 1, 1
 3813, river, regions_unexplored:muddy_river, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 3814, river, regions_unexplored:muddy_river, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-3815, river, regions_unexplored:muddy_river, WATER_CREATURE, minecraft:squid, 10, 1, 4
+3815, river, regions_unexplored:muddy_river, WATER_CREATURE, minecraft:squid, 50, 1, 4
 3816, river, regions_unexplored:muddy_river, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
 3817, river, regions_unexplored:muddy_river, WATER_CREATURE, unusualfishmod:shockcat, 20, 1, 2
 3818, river, regions_unexplored:muddy_river, WATER_AMBIENT, minecraft:salmon, 10, 1, 5
@@ -3918,7 +3879,7 @@
 3924, ocean, minecraft:ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 3925, ocean, minecraft:ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 3926, ocean, minecraft:ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-3927, ocean, minecraft:ocean, WATER_CREATURE, minecraft:squid, 10, 1, 4
+3927, ocean, minecraft:ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
 3928, ocean, minecraft:ocean, WATER_CREATURE, minecraft:dolphin, 10, 1, 2
 3929, ocean, minecraft:ocean, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
 3930, ocean, minecraft:ocean, WATER_CREATURE, unusualfishmod:shockcat, 20, 1, 2
@@ -4007,8 +3968,6 @@
 4013, forest, minecraft:old_growth_birch_forest, CREATURE, minecraft:cow, 10, 2, 3
 4014, forest, minecraft:old_growth_birch_forest, CREATURE, mythicmounts:firebird, 10, 1, 1
 4015, forest, minecraft:old_growth_birch_forest, CREATURE, species:limpet, 10, 1, 1
-4016, forest, minecraft:old_growth_birch_forest, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-4017, forest, minecraft:old_growth_birch_forest, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 4018, forest, minecraft:old_growth_birch_forest, CREATURE, minecraft:pig, 30, 1, 1
 4019, forest, minecraft:old_growth_birch_forest, CREATURE, butterflies:morpho, 10, 1, 2
 4020, forest, minecraft:old_growth_birch_forest, CREATURE, butterflies:forester, 10, 1, 2
@@ -4175,8 +4134,6 @@
 4181, forest, regions_unexplored:orchard, CREATURE, eidolon:raven, 10, 2, 4
 4182, forest, regions_unexplored:orchard, CREATURE, minecraft:cow, 10, 2, 3
 4183, forest, regions_unexplored:orchard, CREATURE, mythicmounts:firebird, 10, 1, 1
-4184, forest, regions_unexplored:orchard, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-4185, forest, regions_unexplored:orchard, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 4186, forest, regions_unexplored:orchard, CREATURE, minecraft:pig, 30, 1, 1
 4187, forest, regions_unexplored:orchard, CREATURE, butterflies:morpho, 10, 1, 2
 4188, forest, regions_unexplored:orchard, CREATURE, butterflies:forester, 10, 1, 2
@@ -4236,7 +4193,6 @@
 4242, none, regions_unexplored:outback, CREATURE, minecraft:sheep, 10, 2, 3
 4243, none, regions_unexplored:outback, CREATURE, minecraft:cow, 10, 2, 3
 4244, none, regions_unexplored:outback, CREATURE, mythicmounts:firebird, 10, 1, 1
-4245, none, regions_unexplored:outback, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 4246, none, regions_unexplored:outback, CREATURE, minecraft:pig, 30, 1, 1
 4247, none, regions_unexplored:outback, AMBIENT, minecraft:bat, 10, 8, 8
 4248, none, regions_unexplored:outback, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
@@ -4380,8 +4336,6 @@
 4386, plains, minecraft:plains, CREATURE, earthmobsmod:albino_cow, 10, 3, 6
 4387, plains, minecraft:plains, CREATURE, earthmobsmod:cream_cow, 10, 3, 6
 4388, plains, minecraft:plains, CREATURE, earthmobsmod:teacup_pig, 10, 3, 6
-4389, plains, minecraft:plains, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-4390, plains, minecraft:plains, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 4391, plains, minecraft:plains, CREATURE, minecraft:pig, 30, 1, 1
 4392, plains, minecraft:plains, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 4393, plains, minecraft:plains, AMBIENT, minecraft:bat, 10, 8, 8
@@ -4463,8 +4417,6 @@
 4469, none, regions_unexplored:poppy_fields, CREATURE, earthmobsmod:albino_cow, 10, 3, 6
 4470, none, regions_unexplored:poppy_fields, CREATURE, earthmobsmod:cream_cow, 10, 3, 6
 4471, none, regions_unexplored:poppy_fields, CREATURE, earthmobsmod:teacup_pig, 10, 3, 6
-4472, none, regions_unexplored:poppy_fields, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-4473, none, regions_unexplored:poppy_fields, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 4474, none, regions_unexplored:poppy_fields, CREATURE, minecraft:pig, 30, 1, 1
 4475, none, regions_unexplored:poppy_fields, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 4476, none, regions_unexplored:poppy_fields, AMBIENT, minecraft:bat, 10, 8, 8
@@ -4510,8 +4462,6 @@
 4516, plains, regions_unexplored:prairie, CREATURE, earthmobsmod:albino_cow, 10, 3, 6
 4517, plains, regions_unexplored:prairie, CREATURE, earthmobsmod:cream_cow, 10, 3, 6
 4518, plains, regions_unexplored:prairie, CREATURE, earthmobsmod:teacup_pig, 10, 3, 6
-4519, plains, regions_unexplored:prairie, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-4520, plains, regions_unexplored:prairie, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 4521, plains, regions_unexplored:prairie, CREATURE, minecraft:pig, 30, 1, 1
 4522, plains, regions_unexplored:prairie, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 4523, plains, regions_unexplored:prairie, AMBIENT, minecraft:bat, 10, 8, 8
@@ -4607,8 +4557,6 @@
 4613, none, regions_unexplored:pumpkin_fields, CREATURE, earthmobsmod:albino_cow, 10, 3, 6
 4614, none, regions_unexplored:pumpkin_fields, CREATURE, earthmobsmod:cream_cow, 10, 3, 6
 4615, none, regions_unexplored:pumpkin_fields, CREATURE, earthmobsmod:teacup_pig, 10, 3, 6
-4616, none, regions_unexplored:pumpkin_fields, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-4617, none, regions_unexplored:pumpkin_fields, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 4618, none, regions_unexplored:pumpkin_fields, CREATURE, minecraft:pig, 30, 1, 1
 4619, none, regions_unexplored:pumpkin_fields, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 4620, none, regions_unexplored:pumpkin_fields, AMBIENT, minecraft:bat, 10, 8, 8
@@ -4789,7 +4737,7 @@
 4796, river, minecraft:river, AMBIENT, mythicmounts:dragon, 10, 1, 1
 4797, river, minecraft:river, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 4798, river, minecraft:river, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-4799, river, minecraft:river, WATER_CREATURE, minecraft:squid, 10, 1, 4
+4799, river, minecraft:river, WATER_CREATURE, minecraft:squid, 50, 1, 4
 4800, river, minecraft:river, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
 4801, river, minecraft:river, WATER_CREATURE, unusualfishmod:shockcat, 20, 1, 2
 4802, river, minecraft:river, WATER_AMBIENT, minecraft:salmon, 10, 1, 5
@@ -4833,8 +4781,6 @@
 4840, plains, regions_unexplored:rocky_meadow, CREATURE, earthmobsmod:albino_cow, 10, 3, 6
 4841, plains, regions_unexplored:rocky_meadow, CREATURE, earthmobsmod:cream_cow, 10, 3, 6
 4842, plains, regions_unexplored:rocky_meadow, CREATURE, earthmobsmod:teacup_pig, 10, 3, 6
-4843, plains, regions_unexplored:rocky_meadow, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-4844, plains, regions_unexplored:rocky_meadow, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 4845, plains, regions_unexplored:rocky_meadow, CREATURE, minecraft:pig, 30, 1, 1
 4846, plains, regions_unexplored:rocky_meadow, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 4847, plains, regions_unexplored:rocky_meadow, CREATURE, butterflies:morpho, 10, 1, 2
@@ -4892,7 +4838,7 @@
 4899, ocean, regions_unexplored:rocky_reef, AMBIENT, mythicmounts:dragon, 10, 1, 1
 4900, ocean, regions_unexplored:rocky_reef, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 4901, ocean, regions_unexplored:rocky_reef, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-4902, ocean, regions_unexplored:rocky_reef, WATER_CREATURE, minecraft:squid, 10, 1, 3
+4902, ocean, regions_unexplored:rocky_reef, WATER_CREATURE, minecraft:squid, 50, 1, 3
 4903, ocean, regions_unexplored:rocky_reef, WATER_CREATURE, minecraft:dolphin, 10, 1, 2
 4904, ocean, regions_unexplored:rocky_reef, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
 4905, ocean, regions_unexplored:rocky_reef, WATER_CREATURE, unusualfishmod:shockcat, 20, 1, 2
@@ -4926,7 +4872,6 @@
 4933, none, regions_unexplored:saguaro_desert, CREATURE, minecraft:donkey, 10, 1, 2
 4934, none, regions_unexplored:saguaro_desert, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 4935, none, regions_unexplored:saguaro_desert, CREATURE, mythicmounts:firebird, 10, 1, 1
-4936, none, regions_unexplored:saguaro_desert, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 4937, none, regions_unexplored:saguaro_desert, CREATURE, minecraft:pig, 30, 1, 1
 4938, none, regions_unexplored:saguaro_desert, AMBIENT, minecraft:bat, 10, 8, 8
 4939, none, regions_unexplored:saguaro_desert, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
@@ -5115,8 +5060,6 @@
 5122, none, regions_unexplored:shrubland, CREATURE, earthmobsmod:albino_cow, 10, 3, 6
 5123, none, regions_unexplored:shrubland, CREATURE, earthmobsmod:cream_cow, 10, 3, 6
 5124, none, regions_unexplored:shrubland, CREATURE, earthmobsmod:teacup_pig, 10, 3, 6
-5125, none, regions_unexplored:shrubland, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-5126, none, regions_unexplored:shrubland, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 5127, none, regions_unexplored:shrubland, CREATURE, minecraft:pig, 30, 1, 1
 5128, none, regions_unexplored:shrubland, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 5129, none, regions_unexplored:shrubland, AMBIENT, minecraft:bat, 10, 8, 8
@@ -5168,8 +5111,6 @@
 5175, forest, regions_unexplored:silver_birch_forest, CREATURE, mythicmounts:firebird, 10, 1, 1
 5176, forest, regions_unexplored:silver_birch_forest, CREATURE, earthmobsmod:wooly_cow, 10, 3, 6
 5177, forest, regions_unexplored:silver_birch_forest, CREATURE, earthmobsmod:umbra_cow, 10, 3, 6
-5178, forest, regions_unexplored:silver_birch_forest, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-5179, forest, regions_unexplored:silver_birch_forest, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 5180, forest, regions_unexplored:silver_birch_forest, CREATURE, minecraft:pig, 30, 1, 1
 5181, forest, regions_unexplored:silver_birch_forest, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 5182, forest, regions_unexplored:silver_birch_forest, CREATURE, butterflies:morpho, 10, 1, 2
@@ -5382,8 +5323,6 @@
 5389, icy, minecraft:snowy_plains, CREATURE, earthmobsmod:albino_cow, 10, 3, 6
 5390, icy, minecraft:snowy_plains, CREATURE, earthmobsmod:cream_cow, 10, 3, 6
 5391, icy, minecraft:snowy_plains, CREATURE, earthmobsmod:teacup_pig, 10, 3, 6
-5392, icy, minecraft:snowy_plains, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-5393, icy, minecraft:snowy_plains, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 5394, icy, minecraft:snowy_plains, CREATURE, minecraft:pig, 30, 1, 1
 5395, icy, minecraft:snowy_plains, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 5396, icy, minecraft:snowy_plains, AMBIENT, minecraft:bat, 10, 8, 8
@@ -5898,8 +5837,6 @@
 5906, none, minecraft:sunflower_plains, CREATURE, earthmobsmod:albino_cow, 10, 3, 6
 5907, none, minecraft:sunflower_plains, CREATURE, earthmobsmod:cream_cow, 10, 3, 6
 5908, none, minecraft:sunflower_plains, CREATURE, earthmobsmod:teacup_pig, 10, 3, 6
-5909, none, minecraft:sunflower_plains, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-5910, none, minecraft:sunflower_plains, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 5911, none, minecraft:sunflower_plains, CREATURE, minecraft:pig, 30, 1, 1
 5912, none, minecraft:sunflower_plains, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 5913, none, minecraft:sunflower_plains, CREATURE, butterflies:morpho, 10, 1, 2
@@ -6070,8 +6007,6 @@
 6078, forest, regions_unexplored:temperate_grove, CREATURE, eidolon:raven, 10, 2, 4
 6079, forest, regions_unexplored:temperate_grove, CREATURE, minecraft:cow, 10, 2, 3
 6080, forest, regions_unexplored:temperate_grove, CREATURE, mythicmounts:firebird, 10, 1, 1
-6081, forest, regions_unexplored:temperate_grove, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-6082, forest, regions_unexplored:temperate_grove, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 6083, forest, regions_unexplored:temperate_grove, CREATURE, minecraft:pig, 30, 1, 1
 6084, forest, regions_unexplored:temperate_grove, CREATURE, butterflies:morpho, 10, 1, 2
 6085, forest, regions_unexplored:temperate_grove, CREATURE, butterflies:forester, 10, 1, 2
@@ -6230,7 +6165,7 @@
 6238, river, regions_unexplored:tropical_river, AMBIENT, mythicmounts:dragon, 10, 1, 1
 6239, river, regions_unexplored:tropical_river, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 6240, river, regions_unexplored:tropical_river, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-6241, river, regions_unexplored:tropical_river, WATER_CREATURE, minecraft:squid, 10, 1, 4
+6241, river, regions_unexplored:tropical_river, WATER_CREATURE, minecraft:squid, 50, 1, 4
 6242, river, regions_unexplored:tropical_river, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
 6243, river, regions_unexplored:tropical_river, WATER_CREATURE, unusualfishmod:shockcat, 20, 1, 2
 6244, river, regions_unexplored:tropical_river, WATER_AMBIENT, minecraft:salmon, 10, 1, 5
@@ -6315,7 +6250,7 @@
 6323, ocean, minecraft:warm_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 6324, ocean, minecraft:warm_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 6325, ocean, minecraft:warm_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-6326, ocean, minecraft:warm_ocean, WATER_CREATURE, minecraft:squid, 10, 4, 4
+6326, ocean, minecraft:warm_ocean, WATER_CREATURE, minecraft:squid, 50, 4, 4
 6327, ocean, minecraft:warm_ocean, WATER_CREATURE, minecraft:dolphin, 10, 1, 2
 6328, ocean, minecraft:warm_ocean, WATER_CREATURE, unusualprehistory:palaeophis, 10, 1, 1
 6329, ocean, minecraft:warm_ocean, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -6386,8 +6321,6 @@
 6394, forest, regions_unexplored:willow_forest, CREATURE, eidolon:raven, 10, 2, 4
 6395, forest, regions_unexplored:willow_forest, CREATURE, minecraft:cow, 10, 2, 3
 6396, forest, regions_unexplored:willow_forest, CREATURE, mythicmounts:firebird, 10, 1, 1
-6397, forest, regions_unexplored:willow_forest, CREATURE, earthmobsmod:hyper_rabbit, 10, 3, 4
-6398, forest, regions_unexplored:willow_forest, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 6399, forest, regions_unexplored:willow_forest, CREATURE, minecraft:pig, 30, 1, 1
 6400, forest, regions_unexplored:willow_forest, CREATURE, butterflies:morpho, 10, 1, 2
 6401, forest, regions_unexplored:willow_forest, CREATURE, butterflies:forester, 10, 1, 2
@@ -6624,7 +6557,6 @@
 6632, badlands, minecraft:wooded_badlands, CREATURE, mythicmounts:firebird, 10, 1, 1
 6633, badlands, minecraft:wooded_badlands, CREATURE, species:limpet, 10, 1, 1
 6634, badlands, minecraft:wooded_badlands, CREATURE, earthmobsmod:horned_sheep, 10, 3, 6
-6635, badlands, minecraft:wooded_badlands, CREATURE, earthmobsmod:jumbo_rabbit, 10, 3, 4
 6636, badlands, minecraft:wooded_badlands, CREATURE, minecraft:pig, 30, 1, 1
 6637, badlands, minecraft:wooded_badlands, AMBIENT, minecraft:bat, 10, 8, 8
 6638, badlands, minecraft:wooded_badlands, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1

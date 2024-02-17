@@ -1,6 +1,7 @@
 {
 	"objectives": [
-		"plushie_objs"
+		"plushie_objs",
+		"_all_objs"
 	],
 	"rewards": [
 		"plushie_rews"

@@ -179,6 +179,11 @@
 					item: "nethersdelight:rich_soul_soil"
 					type: "item"
 				}
+				{
+					id: "6B76B50ACD55EAF0"
+					item: "abyssal_decor:bottomless_bag_of_netherrack"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			tasks: [{

@@ -36,6 +36,7 @@
 				}
 			}
 		}
+		{ item: "magnumtorch:diamond_magnum_torch", weight: 10.0f }
 	]
 	title: "Random Tier 1"
 }

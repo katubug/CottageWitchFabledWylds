@@ -786,6 +786,26 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    // Ooze Uses Tags
+    event.shapeless(
+        Item.of('unusualprehistory:organic_ooze', 3),
+        [
+            '#forge:slimeballs',
+            "minecraft:bone",
+            "#forge:grain"
+        ]
+    )
+    
+    // Lobster Roll
+    event.shapeless(
+        Item.of('unusualfishmod:lobster_roll'),
+        [
+            'unusualfishmod:cooked_lobster', 
+            'minecraft:bread', 
+            'candlelight:butter'
+        ]
+    )
+
     // Uncrafter Requires Nether
     event.shaped(
         Item.of('uncrafter:uncrafter'),

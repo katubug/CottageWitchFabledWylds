@@ -2127,7 +2127,9 @@
 				"- Players walking without crouching"
 				"- Quick movements such as turning quickly or falling down"
 				""
-				"&eArmadillos&r can be &atempted and bred using &bEggs&r. When Baby Armadillos grow up, they &adrop a &bScute&r, which can be used to craft &bArmor&r for your &bWolf&r!"
+				"&eArmadillos&r can be &atempted and bred using &bEggs&r. When Baby Armadillos grow up, they &adrop a &bScute&r, which can be used to craft &bArmor&r for your &bWolf&r!\\"
+				""
+				"&dBe aware that curled-up &eArmadillos&d can allow &eother animals&d to escape a pen by climbing it&r."
 			]
 			id: "40A9FF60E79ED869"
 			rewards: [{
@@ -2585,6 +2587,38 @@
 			}]
 			x: 10.5d
 			y: 6.5d
+		}
+		{
+			dependencies: ["6CD4F0A4650CBA2F"]
+			description: [
+				"Did you know that you can &6use &bShears&6 to liberate a &eSnow Golem&r from its &bPumpkin&r prison?"
+				""
+				"Do so, and you shall be rewarded!"
+			]
+			id: "4CEA87A9E500920A"
+			rewards: [{
+				id: "2A6AC5F2274A11A8"
+				item: "abyssal_decor:bottomless_bag_of_snow"
+				type: "item"
+			}]
+			tasks: [{
+				checkItem: true
+				entity: "minecraft:snow_golem"
+				id: "3DE6C46EDB3702A4"
+				item: {
+					Count: 1b
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:interaction"
+				value: 1L
+			}]
+			title: "Free the Snow Golem"
+			x: -6.0d
+			y: -3.5d
 		}
 	]
 	title: "Wildlife"

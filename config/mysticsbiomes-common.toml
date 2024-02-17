@@ -6,8 +6,13 @@
 	#Default: 4
 	"Biome Region Weight" = 4
 	#Determines if each biome will generate or not.
-	"Enable Strawberry Fields" = true
-	"Enable Bamboo Blossom Forest" = true
-	"Enable Lavender Meadow" = true
-	"Enable Autumnal Grove" = true
+	"Strawberry Fields" = true
+	"Bamboo Blossom Forest" = true
+	"Lavender Meadow" = true
+	"Autumnal Grove" = true
+
+["Animal Spawns"]
+	#Biomes an animal can spawn in.
+	#Values can include modded biomes and biome tags.
+	"Rainbow Chickens" = ["minecraft:plains", "minecraft:forest", "minecraft:flower_forest"]
 

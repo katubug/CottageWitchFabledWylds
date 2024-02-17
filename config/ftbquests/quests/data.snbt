@@ -18,6 +18,6 @@
 	}
 	pause_game: false
 	progression_mode: "flexible"
-	title: "Enchanted Wilds"
+	title: "Fabled Wylds"
 	version: 13
 }

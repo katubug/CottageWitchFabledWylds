@@ -100,7 +100,7 @@
 				}
 			]
 			title: "Differentiating Jars"
-			x: -3.0d
+			x: -2.5d
 			y: 6.0d
 		}
 		{
@@ -291,8 +291,8 @@
 				type: "item"
 			}]
 			title: "Not Exactly a Pet"
-			x: -4.5d
-			y: 2.5d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0AC47FF8FD45B289"]
@@ -314,8 +314,8 @@
 				type: "item"
 			}]
 			title: "Upgrade your Lugage"
-			x: -6.5d
-			y: 3.5d
+			x: -7.0d
+			y: 4.5d
 		}
 		{
 			id: "1836D76FCA8240F3"
@@ -417,7 +417,7 @@
 			}]
 			title: "Not Quite A Chest"
 			x: -4.5d
-			y: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3571AAEB58389A64"]

@@ -1,0 +1,33 @@
+{
+	id: "7D60C2D8FE0CCADB"
+	loot_size: 1
+	order_index: 41
+	rewards: [
+		{ item: "unusualprehistory:paleo_fossil", weight: 2.0f }
+		{ item: "unusualprehistory:mezo_fossil", weight: 2.0f }
+		{ item: "unusualprehistory:plant_fossil_item", weight: 2.0f }
+		{ item: "unusualprehistory:tar_fossil_item", weight: 3.0f }
+		{ item: "unusualprehistory:frozen_fossil_item", weight: 2.0f }
+		{ count: 5, item: "unusualprehistory:organic_ooze", weight: 5.0f }
+		{ count: 5, item: "minecraft:brick", weight: 7.0f }
+		{ item: "betterarcheology:artifact_shards" }
+		{
+			item: {
+				Count: 1b
+				id: "betterarcheology:iron_brush"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{ count: 10, item: "betterarcheology:rotten_log", weight: 6.0f }
+		{ count: 3, item: "philipsruins:broken_bone", weight: 5.0f }
+		{ item: "unusualprehistory:amber_fossil", weight: 2.0f }
+		{ item: "unusualprehistory:opal_chunk", weight: 4.0f }
+		{ count: 2, item: "unusualprehistory:insulator", weight: 4.0f }
+		{ count: 5, item: "unusualprehistory:flask", weight: 7.0f }
+		{ item: "ancient_manuscripts:ancient_manuscript" }
+	]
+	title: "Archaeology"
+}

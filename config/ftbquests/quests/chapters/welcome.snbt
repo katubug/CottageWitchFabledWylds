@@ -100,6 +100,7 @@
 				{
 					auto: "enabled"
 					command: "/say Hi, @p! Thanks for playing! Please check out your quests with the - key, or by opening your Quest Book!"
+					elevate_perms: true
 					id: "4B2B69209045245C"
 					team_reward: false
 					type: "command"
@@ -325,7 +326,7 @@
 				id: "7E4BBEB34174442D"
 				type: "advancement"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: 3.0d
 		}
 		{
@@ -336,9 +337,7 @@
 				""
 				"There's also a 50% chance to receive an &bEnchanted Grave Key&r, which you can &6hold right click&r to activate, and it will teleport you to your grave. These can also be &acrafted&r with your &bGrave Key&r and an &bEnder Pearl&r."
 				""
-				"Your &aexperience&r will be placed in an &bXP Catalyst&r, which can be collected separately from your grave by &6right clicking&r. You recover 100% of your experience this way."
-				""
-				"{image:enchanted_wilds:textures/questimages/graveexp.png width:200 height:200 align:1}"
+				"When you die, you receive &bKnowledge of Death&r, which can &agrant unique perks&r such as &aincreasing the time it takes for &ePhantoms&r to spawn nearby, as well as &aunlockable abilities&r. You can access these powers by &6pressing CTRL+T&r."
 			]
 			id: "47643C0C8D4BCBD9"
 			rewards: [
@@ -372,7 +371,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Handbook for the recently deceased"
+			subtitle: "handbook for the recently deceased"
 			tasks: [{
 				advancement: "tombstone:adventure/first_grave"
 				criterion: ""
@@ -422,7 +421,7 @@
 				title: "Get to know the mods"
 				type: "checkmark"
 			}]
-			x: 6.25d
+			x: 5.25d
 			y: 4.5d
 		}
 		{
@@ -617,8 +616,8 @@
 				type: "checkmark"
 			}]
 			title: "Eccentric Controls"
-			x: 7.5d
-			y: 4.0d
+			x: 6.0d
+			y: 5.5d
 		}
 		{
 			disable_toast: true
@@ -722,8 +721,72 @@
 				type: "checkmark"
 			}]
 			title: "Familiar Forms"
-			x: 8.0d
-			y: 5.0d
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Looking for a particular item in a nearby inventory?"
+				""
+				"Hover over the item in JEI or your inventory and &6press the Y key&r:"
+				"{image:enchanted_wilds:textures/questimages/findme1.png width:220 height:150 align:1}"
+				""
+				"Then, inventories containing that item will be highlighted with these little particle effects:"
+				""
+				"{image:enchanted_wilds:textures/questimages/findme2.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "5763626E3E3E440B"
+			rewards: [{
+				id: "2CF6D804BF74D6B0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4D969F11A701F8AA"
+				title: "I know how to find things now"
+				type: "checkmark"
+			}]
+			title: "Finding Items In Containers"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: [
+				"The &bAnkh of Prayer&r will allow you to &again more &bKnowledge of Death&r, without the need to continually die, yourself."
+				""
+				"Take this &bDecorative Grave&r, and use your &bAnkh&r to pray for the &eGoddess of Death&r to grant you further knowledge. You do this by &6holding the item and holding down right click to channel&r. Once you are finished, you will be notified in your chat."
+				""
+				"Remember to use &6CTRL+T&r to access your &bKnowledge of Death&r perks."
+			]
+			id: "28EF473316FAD44F"
+			rewards: [{
+				id: "5D70A6A09E81AFCB"
+				item: {
+					Count: 1b
+					id: "tombstone:decorative_grave_normal"
+					tag: {
+						model_texture: 1
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0FAB038EE90016C8"
+				item: {
+					Count: 1b
+					id: "tombstone:ankh_of_pray"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
 		}
 	]
 	title: "Welcome"

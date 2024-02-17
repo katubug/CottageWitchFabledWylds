@@ -1,0 +1,26 @@
+{
+  "replace": true,
+  "name": "hauntedharvest:abandoned_farm/field_patch",
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "features":[
+          {
+            "data": "hauntedharvest:corn_field",
+            "weight": 4
+          },
+          {
+            "data": "hauntedharvest:pumpkin_patch",
+            "weight": 2
+          }
+        ],
+        "projection": "rigid",
+        "element_type": "hauntedharvest:random_feature_pool_element"
+      }
+
+    }
+  ]
+}

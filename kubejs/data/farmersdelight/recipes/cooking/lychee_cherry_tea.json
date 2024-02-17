@@ -17,7 +17,7 @@
       "item": "fruitsdelight:lychee"
     },
     {
-      "item": "vinery:cherry"
+      "tag": "forge:fruits/cherry"
     },
     {
       "item": "minecraft:sugar"

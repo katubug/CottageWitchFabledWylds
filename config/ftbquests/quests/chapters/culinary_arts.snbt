@@ -92,6 +92,30 @@
 			x: -4.5d
 			y: 13.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "enchanted_wilds:textures/questui/bgbakery.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "enchanted_wilds:textures/questui/bgcandlelight.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -7.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -2739,8 +2763,8 @@
 					type: "advancement"
 				}
 			]
-			x: -1.0d
-			y: -8.0d
+			x: 2.5d
+			y: -6.5d
 		}
 		{
 			description: ["Drink a vial of &bJo's Special Mixture&r. But don't say we didn't warn you."]
@@ -2786,10 +2810,11 @@
 				id: "3C2D7531A049EB3C"
 				type: "advancement"
 			}]
-			x: -1.0d
-			y: -6.0d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
+			dependencies: ["6164AA637455604E"]
 			description: [
 				"How you eat is almost as important as what you eat! For example, food is far more satisfying when eaten off of a &bTable Set&r. Place down these 3 items on a surface, and then &6right click your meal onto the &bplate&r"
 				""
@@ -2821,10 +2846,11 @@
 				}
 			]
 			title: "Setting the Table"
-			x: -3.5d
-			y: -8.0d
+			x: -2.5d
+			y: -9.0d
 		}
 		{
+			dependencies: ["6164AA637455604E"]
 			description: ["Although it doesn't provide &amuch protection&r, this outfit will have you &aslingin' dishes&r and &aslicin' fishes&r like a pro!"]
 			id: "3801F3578406768D"
 			rewards: [
@@ -2895,8 +2921,8 @@
 				}
 			]
 			title: "Looking like a Cook"
-			x: -3.5d
-			y: -5.0d
+			x: -3.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4051209155C0D4C0"]
@@ -2958,21 +2984,57 @@
 				}
 			]
 			title: "Cooking with Copper"
-			x: -2.0d
-			y: -10.0d
+			x: 0.0d
+			y: -9.0d
 		}
 		{
+			description: ["This &bBrick Sink&r is a one-block &ainfinite water source&r! Simply &6right click it&r to turn on the faucet and &afill it with water&r, then &6right click it with a &bBucket&r or &bBottle&r to collect the water!"]
 			id: "4EAB1C3073616E17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "136E5BBB53667A17"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "everything AND the kitchen sink"
 			tasks: [{
 				id: "65EE14C0671388C0"
 				item: "bakery:kitchen_sink"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -11.5d
+			title: "Obtain a Sink"
+			x: 0.0d
+			y: -13.5d
 		}
 		{
+			description: [
+				"To begin with the delicious art of &aBakery&r, there are a few tools one will need. The &bBaking Station&r, the &bSmall Cooking Pot&r, and, of course, an &bOven&r."
+				""
+				"Each of these tools will allow you to do unique things."
+				""
+				"The &bSmall Cooking Pot&r allows you to create delectable &bJams&r and &bChocolate Spreads&r and such."
+				""
+				"The &bOven&r allows you to bake &bBlank Cakes&r and &adifferent types of &bBreads&r."
+				""
+				"The &bBaking Station&r is where you take those ingredients and &6combine them&r to make the final products!"
+			]
 			id: "207C60DC8889AC0F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63711A7967D1F8F5"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					id: "18524BD8EB175CC4"
+					item: "create:bar_of_chocolate"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [
 				{
 					id: "66430D234BFDE2B5"
@@ -2990,8 +3052,215 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -12.0d
+			title: "Baking Time"
+			x: -2.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["740C9D783E4018EC"]
+			description: [
+				"To make &bCakes&r, you'll first need to &ainvent the universe&r. Wait, no, that's pies. With cakes you just need a &bBlank Cake&r."
+				""
+				"&dA bug prevents these from showing in JEI&r. You can craft them in the &bOven&r using &bSweet Dough&r, &bYeast&r, and an &bEgg&r."
+			]
+			id: "52D7D562012B3B7C"
+			shape: "hexagon"
+			tasks: [{
+				id: "36BC001DD601416E"
+				item: "bakery:blank_cake"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["7C19407D0F55D3F5"]
+			id: "740C9D783E4018EC"
+			shape: "hexagon"
+			tasks: [{
+				id: "4EE7BB72D21FAD02"
+				item: "bakery:sweet_dough"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["207C60DC8889AC0F"]
+			id: "6E5DCE8167CB2932"
+			shape: "hexagon"
+			tasks: [{
+				id: "6FB9DA3EF6BFB103"
+				item: "bakery:chocolate_jam"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["207C60DC8889AC0F"]
+			id: "124F16ECDD4B26A2"
+			shape: "hexagon"
+			tasks: [{
+				id: "4906A64ECC5CE90F"
+				item: "bakery:strawberry_jam"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -16.5d
+		}
+		{
+			dependencies: [
+				"740C9D783E4018EC"
+				"124F16ECDD4B26A2"
+			]
+			id: "1BCBFB8A5AAE9E37"
+			shape: "hexagon"
+			tasks: [{
+				id: "1AEF518A7E511840"
+				item: "bakery:strawberry_cupcake"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"52D7D562012B3B7C"
+				"6E5DCE8167CB2932"
+			]
+			id: "5D37E0A2F297C49E"
+			shape: "hexagon"
+			tasks: [{
+				id: "299FAD27ED1A3E6A"
+				item: "bakery:chocolate_cake"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["207C60DC8889AC0F"]
+			id: "7C19407D0F55D3F5"
+			tasks: [{
+				id: "7C85A544CBE132E3"
+				item: "bakery:yeast"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5D37E0A2F297C49E"]
+			id: "737B48AA3FE651BD"
+			shape: "hexagon"
+			tasks: [{
+				id: "6A25CFD0AD2689ED"
+				item: "bakery:cake_stand"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["72214271B351A963"]
+			description: ["Have you ever had &bBolognese sauce&r? It's delicious even on its own! But don't eat it just yet, we have plans for it..."]
+			id: "737C3BF4A834D0CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BF18510604E48CA"
+				table_id: 8096229411196850122L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "451343685BB1DFF6"
+				item: "candlelight:bolognese"
+				type: "item"
+			}]
+			title: "Making the Sauce"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["737C3BF4A834D0CE"]
+			description: ["And you've done it! &aEnjoy the fruits&r - or, well, pasta - &aof your labor&r!"]
+			id: "16DE5B688A07CB3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "423F7416E83082EC"
+				table_id: 8096229411196850122L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "success!"
+			tasks: [{
+				id: "660CBC69EDCB7D41"
+				item: "candlelight:pasta_bolognese"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6164AA637455604E"]
+			description: ["&bSpaghetti Bolognese&r is a delicious and hearty treat. To make it, you'll need to gather and prepare the ingredients!"]
+			id: "72214271B351A963"
+			rewards: [{
+				count: 5
+				id: "5A32A4EC62AB10C3"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2F5E34E79BC45080"
+					item: "candlelight:mozzarella"
+					type: "item"
+				}
+				{
+					id: "60F692D2B1A192D8"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:pasta/raw_pasta"
+						}
+					}
+					title: "Any #forge:pasta/raw_pasta"
+					type: "item"
+				}
+				{
+					id: "3239B0B2F5C446B2"
+					item: "candlelight:tomato_soup"
+					type: "item"
+				}
+			]
+			title: "The Path to Bolognese"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6164AA637455604E"]
+			description: ["&bButter&r half of food's bread and butter! It's excellent on &bToast&r, &bLobster&r, and... really, basically anything."]
+			id: "0FF55F6D562796DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F21D82177D7292E"
+				table_id: 8096229411196850122L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "buttuh"
+			tasks: [{
+				id: "251B7002545A4AD7"
+				item: "candlelight:butter"
+				type: "item"
+			}]
+			title: "Obtain Butter"
+			x: 2.0d
+			y: -8.5d
 		}
 	]
 	title: "Culinary Arts"

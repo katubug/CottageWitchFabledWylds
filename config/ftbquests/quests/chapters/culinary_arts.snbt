@@ -124,19 +124,9 @@
 			description: [
 				"One feature of this modpack is that &aeating food grants you bonuses&r!"
 				""
-				"All foods have beneficial categories called &aEssences&r. Your body and soul are nourished by these Essences, so it's in your best interests to eat &asome of everything&r!"
+				"Most foods give a beneficial effect of Diversity. Your body and soul are nourished by eating a variety of foods, so it's in your best interests to eat &asome of everything&r!"
 				""
-				"Different food types will grant &adifferent Essences&r, and you can see what's in your food by &6hovering over it&r."
-				""
-				"{image:cottagewitch:textures/nutrition2.png width:100 height:60 align:1 fit:true}"
-				""
-				"Please click to view the next page."
-				"{@pagebreak}"
-				"The button with the bread and the stripes will &ashow you your current nourishment levels&r."
-				""
-				"{image:cottagewitch:textures/nutrition1.png width:180 height:200 align:1}"
-				"{@pagebreak}"
-				"{image:cottagewitch:textures/nutrition3.png width:100 height:60 align:1 fit:true}"
+				"Different food types will grant &adifferent levels of diversity&r, and you can see how your food ranks by &6hovering over it&r. The higher the diversity level, the more likely you are to notice benefits, such as &aextra hearts&r!"
 			]
 			id: "6EFFB8ED37DC8A47"
 			optional: true
@@ -1598,7 +1588,7 @@
 			dependencies: ["7D770ADEB3905EE0"]
 			description: [
 				"Although &bGrapes&r can be planted directly in the ground, you can get &agreater output&r by &6planting them on &bGrapevine Stems&r or &bGrapevine Lattices&r (for Jungle Grapes)."
-				"{image:cottagewitch:textures/grapevine.png width:100 height:80 align:1}"
+				"{image:enchanted_wilds:textures/questimages/grapevine.png width:100 height:80 align:1}"
 			]
 			id: "516F4B3499491907"
 			rewards: [
@@ -1610,8 +1600,8 @@
 				}
 				{
 					count: 5
-					id: "686263155CBFE623"
-					item: "vinery:grapevine_lattice"
+					id: "54FED3EB6C47DCE3"
+					item: "vinery:dark_oak_lattice"
 					type: "item"
 				}
 			]
@@ -1623,8 +1613,15 @@
 					type: "item"
 				}
 				{
-					id: "20AB931E2C84649B"
-					item: "vinery:grapevine_lattice"
+					id: "5F78A75F4DBD8906"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "vinery:lattice"
+						}
+					}
+					title: "Any #vinery:lattice"
 					type: "item"
 				}
 			]
@@ -1804,10 +1801,10 @@
 					type: "item"
 				}
 				{
-					id: "42AF7650C98BEC8B"
+					id: "241DA1ACB19CE704"
 					item: {
 						Count: 1b
-						id: "vinery:vinemaker_apron"
+						id: "vinery:winemaker_apron"
 						tag: {
 							Damage: 0
 						}
@@ -1815,10 +1812,10 @@
 					type: "item"
 				}
 				{
-					id: "3064436CE9D922C3"
+					id: "585F84684F58D82A"
 					item: {
 						Count: 1b
-						id: "vinery:vinemaker_leggings"
+						id: "vinery:winemaker_leggings"
 						tag: {
 							Damage: 0
 						}
@@ -1826,10 +1823,10 @@
 					type: "item"
 				}
 				{
-					id: "0893D25F3E801D1A"
+					id: "6337ACBEC2F5180B"
 					item: {
 						Count: 1b
-						id: "vinery:vinemaker_boots"
+						id: "vinery:winemaker_boots"
 						tag: {
 							Damage: 0
 						}

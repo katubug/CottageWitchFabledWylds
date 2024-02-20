@@ -69,5 +69,13 @@
     "initialCost": 100,
     "maxLevel": 10,
     "step": 100
+  },
+  "loot": {
+    "entries": {
+      "minecraft:chests/ancient_city": 0.075,
+      "[\\w]+:chests\\/[\\w_\\/]*(end|warp)[\\w_\\/]*": 0.075,
+      "minecraft:chests/ancient_city_ice_box": 0.075,
+      "[\\w]+:chests\\/[\\w_\\/]*(warden|sculk|echo)[\\w_\\/]*": 0.075
+    }
   }
 }

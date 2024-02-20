@@ -100,5 +100,12 @@
     "initialCost": 100,
     "maxLevel": 20,
     "step": 100
+  },
+  "loot": {
+    "entries": {
+      "minecraft:chests/ruined_portal": 0.075,
+      "[\\w]+:chests\\/[\\w_\\/]*(nether|hell|lava|magma|fire|burn|fortress)[\\w_\\/]*": 0.075,
+      "[\\w]+:chests\\/[\\w_\\/]*(bastion|piglin)[\\w_\\/]*": 0.075
+    }
   }
 }

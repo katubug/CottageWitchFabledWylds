@@ -115,5 +115,10 @@
     "initialCost": 100,
     "maxLevel": 20,
     "step": 100
+  },
+  "loot": {
+    "entries": {
+      "[\\w]+:chests\\/[\\w_\\/]*(jungle|temple)[\\w_\\/]*": 0.075
+    }
   }
 }

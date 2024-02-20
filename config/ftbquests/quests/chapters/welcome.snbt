@@ -256,10 +256,10 @@
 			id: "7232C9D413054886"
 			rewards: [
 				{
-					id: "59138A1AE98F4A94"
+					id: "146D300604AF13CC"
 					item: {
 						Count: 1b
-						id: "usefulslime:slime_boots"
+						id: "usefulslime:slime_sling"
 						tag: {
 							Damage: 0
 						}
@@ -267,10 +267,10 @@
 					type: "item"
 				}
 				{
-					id: "146D300604AF13CC"
+					id: "15CE6688B6EFC508"
 					item: {
 						Count: 1b
-						id: "usefulslime:slime_sling"
+						id: "usefulslime:slime_boots"
 						tag: {
 							Damage: 0
 						}

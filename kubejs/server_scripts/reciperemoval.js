@@ -104,6 +104,8 @@ ServerEvents.recipes(event => {
         {output: 'unusualfishmod:sea_boom'},
         {output: 'vegandelight:salt'},
         {output: 'reliquary:zombie_heart'},
+        {output: 'extra_compat:reinforced_gold_machete'},
+        {output: 'sophisticatedbackpacks:inception_upgrade'},
         //Replaced Recipes
         {output: 'mighty_mail:post_box'},
         {output: 'farmersdelight:wheat_dough'},

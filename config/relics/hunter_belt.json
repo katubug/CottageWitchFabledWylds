@@ -37,5 +37,10 @@
     "initialCost": 100,
     "maxLevel": 10,
     "step": 100
+  },
+  "loot": {
+    "entries": {
+      "[\\w]+:chests\\/[\\w_\\/]*village[\\w_\\/]*": 0.075
+    }
   }
 }

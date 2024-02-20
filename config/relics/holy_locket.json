@@ -30,5 +30,10 @@
     "initialCost": 100,
     "maxLevel": 10,
     "step": 200
+  },
+  "loot": {
+    "entries": {
+      "[\\w]+:chests\\/[\\w_\\/]*(desert|sand|pyramid)[\\w_\\/]*": 0.075
+    }
   }
 }

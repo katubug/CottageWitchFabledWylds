@@ -160,6 +160,8 @@ JEIEvents.hideItems(event => {
         'unusualfishmod:sea_boom',
         'vegandelight:salt',
         'reliquary:zombie_heart',
+        'extra_compat:reinforced_gold_machete',
+        'sophisticatedbackpacks:inception_upgrade',
 
     ];
     

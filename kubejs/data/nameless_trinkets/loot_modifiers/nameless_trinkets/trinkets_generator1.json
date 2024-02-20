@@ -1,0 +1,94 @@
+{
+  "type": "nameless_trinkets:trinkets_gen_1",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/spawn_bonus_chest"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/end_city_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/simple_dungeon"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/abandoned_mineshaft"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/nether_bridge"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/stronghold_library"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/stronghold_crossing"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/stronghold_corridor"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/desert_pyramid"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/jungle_temple"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/jungle_temple_dispenser"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/igloo_chest"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/woodland_mansion"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/shipwreck_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/bastion_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/bastion_other"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/bastion_bridge"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/bastion_hoglin_stable"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/ancient_city"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/ancient_city_ice_box"
+        }
+      ]
+    },
+    {
+      "condition": "random_chance",
+      "chance": 0.025
+    }
+  ]
+}

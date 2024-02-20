@@ -15,6 +15,14 @@ StartupEvents.registry('item', event => {
       item.burnTime = 100
     })
 
+    event.modify('usefulslime:slime_boots', item => {
+      item.maxDamage = 300
+    })
+
+    event.modify('usefulslime:slime_sling', item => {
+      item.maxDamage = 300
+    })
+
     event.modify('forbidden_arcanus:draco_arcanus_sword', item => {
       item.attackDamage = 9
       item.fireResistant = true

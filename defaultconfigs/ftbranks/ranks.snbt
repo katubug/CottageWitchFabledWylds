@@ -1,6 +1,6 @@
 {
 	member: {
-		name: "Member"
+		name: "Witch"
 		power: 1
 		condition: "always_active"
 		command.paintexport: true
@@ -8,6 +8,9 @@
 		command.paintimport: true
 		command.paintimport.name: true
 		command.ftbranks.add: true
+		command.wits: true
+		command.give: true
+		command.feedback: true
 	}
 	red: {
 		name: "red"

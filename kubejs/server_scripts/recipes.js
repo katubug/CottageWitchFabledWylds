@@ -49,6 +49,30 @@ ServerEvents.recipes(event => {
         }
     )
 
+    // Chest Fallback
+    event.shaped(
+        Item.of('minecraft:chest'),
+        [
+            'AAA',
+            'A A',
+            'AAA'
+        ], {
+            A: '#minecraft:planks'
+        }
+    )
+
+    // Boat Fallback
+    event.shaped(
+        Item.of('minecraft:oak_boat'),
+        [
+            '   ',
+            'A A',
+            'AAA'
+        ], {
+            A: '#minecraft:planks'
+        }
+    )
+
     //Recipe Replacements
     //Strawberries
     event.replaceInput({

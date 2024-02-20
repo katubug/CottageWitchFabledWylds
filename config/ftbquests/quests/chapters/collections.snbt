@@ -1502,76 +1502,10 @@
 			subtitle: "some very fine hats"
 			tasks: [
 				{
-					id: "46351DE52E129F65"
-					item: {
-						Count: 1b
-						id: "marbledsvillagerhats:fishermans_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "3CF1FC94488992EC"
 					item: {
 						Count: 1b
 						id: "quark:forgotten_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "16F36AAE97B36E0A"
-					item: {
-						Count: 1b
-						id: "marbledsvillagerhats:cartographers_monocle"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0D64478F040DD5AD"
-					item: {
-						Count: 1b
-						id: "marbledsvillagerhats:fletchers_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "39B875CF43A915B1"
-					item: {
-						Count: 1b
-						id: "marbledsvillagerhats:librarians_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5B8416AA1D59F37D"
-					item: {
-						Count: 1b
-						id: "marbledsvillagerhats:shepherds_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0BCFD703BE692076"
-					item: {
-						Count: 1b
-						id: "marbledsvillagerhats:weaponsmiths_eyepatch"
 						tag: {
 							Damage: 0
 						}
@@ -1588,17 +1522,6 @@
 					item: {
 						Count: 1b
 						id: "herbalbrews:witch_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "31575EB2E64A7171"
-					item: {
-						Count: 1b
-						id: "marbledsvillagerhats:witches_hat"
 						tag: {
 							Damage: 0
 						}
@@ -1628,10 +1551,10 @@
 					type: "item"
 				}
 				{
-					id: "76E69D94B0805177"
+					id: "32C727D2D399D60B"
 					item: {
 						Count: 1b
-						id: "marbledsvillagerhats:farmers_straw_hat"
+						id: "candlelight:cooking_hat"
 						tag: {
 							Damage: 0
 						}
@@ -1639,10 +1562,20 @@
 					type: "item"
 				}
 				{
-					id: "0C93D9FDC4137D7F"
+					id: "7273E1A2935D8663"
+					item: "wardrobe:cake_hat_helmet"
+					type: "item"
+				}
+				{
+					id: "100718F1E87582E4"
+					item: "wardrobe:book_hat"
+					type: "item"
+				}
+				{
+					id: "0BAF83AF31803B07"
 					item: {
 						Count: 1b
-						id: "marbledsvillagerhats:butchers_hat"
+						id: "wardrobe:fletchers_hat_helmet"
 						tag: {
 							Damage: 0
 						}
@@ -1650,10 +1583,42 @@
 					type: "item"
 				}
 				{
-					id: "674DA30513000F79"
+					id: "1E413E94F4097B83"
 					item: {
 						Count: 1b
-						id: "marbledsvillagerhats:armorers_goggles"
+						id: "wardrobe:farmers_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C432E5D038015F1"
+					item: "wardrobe:hat_helmet"
+					type: "item"
+				}
+				{
+					id: "62C048A393916216"
+					item: "wardrobe:leather_top_hat_helmet"
+					type: "item"
+				}
+				{
+					id: "54FBADC4E2F64D42"
+					item: {
+						Count: 1b
+						id: "wardrobe:fox_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54C44C09827B39E3"
+					item: {
+						Count: 1b
+						id: "wardrobe:snow_fox_hat_helmet"
 						tag: {
 							Damage: 0
 						}

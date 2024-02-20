@@ -6,7 +6,7 @@ ItemEvents.entityInteracted( event => {
     if (item.id == 'unusualprehistory:smilodon_embryo' && target.type == 'minecraft:ocelot') {
         //event.player.tell("Haha, you've been poisoned!");
         target.playSound('aether:block.water.evaporate')
-        let cmd = `/ftbquests change_progress ${player.username} complete 7D2C4EE140251790`
+        let cmd = `/ftbquests change_progress ${player.username} complete 2170FD93A7FBB5B5`
         console.log(cmd)
         event.server.runCommand(cmd)
     }

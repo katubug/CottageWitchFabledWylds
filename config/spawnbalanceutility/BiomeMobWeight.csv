@@ -60,7 +60,6 @@
 60, forest, regions_unexplored:alpha_grove, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 61, forest, regions_unexplored:alpha_grove, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 62, forest, regions_unexplored:alpha_grove, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
-63, forest, regions_unexplored:alpha_grove, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 64, forest, regions_unexplored:alpha_grove, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 65, forest, regions_unexplored:alpha_grove, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 66, forest, regions_unexplored:alpha_grove, CREATURE, minecraft:sheep, 12, 4, 4
@@ -268,7 +267,6 @@
 270, forest, regions_unexplored:autumnal_maple_forest, MONSTER, eidolon:zombie_brute, 60, 1, 3
 271, forest, regions_unexplored:autumnal_maple_forest, MONSTER, eidolon:wraith, 60, 1, 3
 272, forest, regions_unexplored:autumnal_maple_forest, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
-273, forest, regions_unexplored:autumnal_maple_forest, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 274, forest, regions_unexplored:autumnal_maple_forest, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 275, forest, regions_unexplored:autumnal_maple_forest, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 276, forest, regions_unexplored:autumnal_maple_forest, CREATURE, minecraft:sheep, 12, 4, 4
@@ -399,7 +397,6 @@
 405, forest, regions_unexplored:bamboo_forest, MONSTER, unusualfishmod:prawn, 20, 1, 1
 406, forest, regions_unexplored:bamboo_forest, MONSTER, eidolon:zombie_brute, 60, 1, 3
 407, forest, regions_unexplored:bamboo_forest, MONSTER, eidolon:wraith, 60, 1, 3
-408, forest, regions_unexplored:bamboo_forest, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 409, forest, regions_unexplored:bamboo_forest, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 410, forest, regions_unexplored:bamboo_forest, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 411, forest, regions_unexplored:bamboo_forest, CREATURE, minecraft:sheep, 12, 4, 4
@@ -710,7 +707,6 @@
 723, forest, minecraft:birch_forest, MONSTER, unusualfishmod:prawn, 20, 1, 1
 724, forest, minecraft:birch_forest, MONSTER, eidolon:zombie_brute, 60, 1, 3
 725, forest, minecraft:birch_forest, MONSTER, eidolon:wraith, 60, 1, 3
-726, forest, minecraft:birch_forest, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 727, forest, minecraft:birch_forest, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 728, forest, minecraft:birch_forest, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 729, forest, minecraft:birch_forest, CREATURE, minecraft:sheep, 12, 4, 4
@@ -1326,7 +1322,6 @@
 1343, forest, minecraft:dark_forest, MONSTER, eidolon:wraith, 60, 1, 3
 1344, forest, minecraft:dark_forest, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 1345, forest, minecraft:dark_forest, MONSTER, earthmobsmod:bone_spider, 10, 1, 1
-1346, forest, minecraft:dark_forest, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 1347, forest, minecraft:dark_forest, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1348, forest, minecraft:dark_forest, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 1349, forest, minecraft:dark_forest, CREATURE, minecraft:sheep, 12, 4, 4
@@ -1373,7 +1368,6 @@
 1392, forest, regions_unexplored:deciduous_forest, MONSTER, unusualfishmod:prawn, 20, 1, 1
 1393, forest, regions_unexplored:deciduous_forest, MONSTER, eidolon:zombie_brute, 60, 1, 3
 1394, forest, regions_unexplored:deciduous_forest, MONSTER, eidolon:wraith, 60, 1, 3
-1395, forest, regions_unexplored:deciduous_forest, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 1396, forest, regions_unexplored:deciduous_forest, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1397, forest, regions_unexplored:deciduous_forest, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 1398, forest, regions_unexplored:deciduous_forest, CREATURE, minecraft:sheep, 12, 4, 4
@@ -1535,7 +1529,6 @@
 1556, ocean, minecraft:deep_lukewarm_ocean, MONSTER, eidolon:zombie_brute, 60, 1, 3
 1557, ocean, minecraft:deep_lukewarm_ocean, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 1558, ocean, minecraft:deep_lukewarm_ocean, MONSTER, eidolon:wraith, 60, 1, 3
-1559, ocean, minecraft:deep_lukewarm_ocean, MONSTER, creeperoverhaul:ocean_creeper, 10, 1, 1
 1560, ocean, minecraft:deep_lukewarm_ocean, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1561, ocean, minecraft:deep_lukewarm_ocean, MONSTER, earthmobsmod:tropical_slime, 10, 1, 2
 1562, ocean, minecraft:deep_lukewarm_ocean, CREATURE, minecraft:pig, 20, 1, 4
@@ -1954,7 +1947,6 @@
 1977, none, regions_unexplored:flower_fields, CREATURE, earthmobsmod:teacup_pig, 10, 3, 6
 1980, none, regions_unexplored:flower_fields, CREATURE, minecraft:pig, 30, 1, 1
 1981, none, regions_unexplored:flower_fields, CREATURE, unusualprehistory:mammoth, 10, 3, 4
-1982, none, regions_unexplored:flower_fields, CREATURE, mysticsbiomes:rainbow_chicken, 30, 2, 5
 1983, none, regions_unexplored:flower_fields, CREATURE, butterflies:morpho, 10, 1, 2
 1984, none, regions_unexplored:flower_fields, CREATURE, butterflies:forester, 10, 1, 2
 1985, none, regions_unexplored:flower_fields, CREATURE, butterflies:common, 10, 1, 2
@@ -2001,7 +1993,6 @@
 2026, forest, minecraft:flower_forest, MONSTER, endermanoverhaul:flower_fields_enderman, 10, 1, 4
 2027, forest, minecraft:flower_forest, MONSTER, eidolon:wraith, 60, 1, 3
 2028, forest, minecraft:flower_forest, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
-2029, forest, minecraft:flower_forest, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 2030, forest, minecraft:flower_forest, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 2031, forest, minecraft:flower_forest, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 2032, forest, minecraft:flower_forest, CREATURE, minecraft:sheep, 12, 4, 4
@@ -2022,7 +2013,6 @@
 2048, forest, minecraft:flower_forest, CREATURE, earthmobsmod:moobloom, 10, 3, 4
 2049, forest, minecraft:flower_forest, CREATURE, earthmobsmod:moolip, 10, 3, 4
 2051, forest, minecraft:flower_forest, CREATURE, minecraft:pig, 30, 1, 1
-2052, forest, minecraft:flower_forest, CREATURE, mysticsbiomes:rainbow_chicken, 30, 2, 5
 2053, forest, minecraft:flower_forest, CREATURE, butterflies:morpho, 10, 1, 2
 2054, forest, minecraft:flower_forest, CREATURE, butterflies:forester, 10, 1, 2
 2055, forest, minecraft:flower_forest, CREATURE, butterflies:common, 10, 1, 2
@@ -2068,7 +2058,6 @@
 2095, forest, minecraft:forest, MONSTER, unusualfishmod:prawn, 20, 1, 1
 2096, forest, minecraft:forest, MONSTER, eidolon:zombie_brute, 60, 1, 3
 2097, forest, minecraft:forest, MONSTER, eidolon:wraith, 60, 1, 3
-2098, forest, minecraft:forest, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 2099, forest, minecraft:forest, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 2100, forest, minecraft:forest, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 2101, forest, minecraft:forest, CREATURE, minecraft:sheep, 12, 4, 4
@@ -2665,7 +2654,6 @@
 2697, forest, minecraft:grove, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 2698, forest, minecraft:grove, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 2699, forest, minecraft:grove, MONSTER, earthmobsmod:bouldering_zombie, 20, 4, 4
-2700, forest, minecraft:grove, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 2701, forest, minecraft:grove, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 2702, forest, minecraft:grove, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 2703, forest, minecraft:grove, CREATURE, minecraft:sheep, 12, 4, 4
@@ -3115,7 +3103,6 @@
 3151, none, mysticsbiomes:lavender_meadow, CREATURE, minecraft:rabbit, 10, 2, 3
 3152, none, mysticsbiomes:lavender_meadow, CREATURE, eidolon:slimy_slug, 10, 2, 3
 3153, none, mysticsbiomes:lavender_meadow, CREATURE, unusualprehistory:mammoth, 10, 3, 4
-3154, none, mysticsbiomes:lavender_meadow, CREATURE, mysticsbiomes:rainbow_chicken, 30, 2, 5
 3155, none, mysticsbiomes:lavender_meadow, CREATURE, butterflies:morpho, 10, 1, 2
 3156, none, mysticsbiomes:lavender_meadow, CREATURE, butterflies:forester, 10, 1, 2
 3157, none, mysticsbiomes:lavender_meadow, CREATURE, butterflies:common, 10, 1, 2
@@ -3190,7 +3177,6 @@
 3226, ocean, minecraft:lukewarm_ocean, MONSTER, eidolon:zombie_brute, 60, 1, 3
 3227, ocean, minecraft:lukewarm_ocean, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 3228, ocean, minecraft:lukewarm_ocean, MONSTER, eidolon:wraith, 60, 1, 3
-3229, ocean, minecraft:lukewarm_ocean, MONSTER, creeperoverhaul:ocean_creeper, 10, 1, 1
 3230, ocean, minecraft:lukewarm_ocean, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 3231, ocean, minecraft:lukewarm_ocean, MONSTER, earthmobsmod:tropical_slime, 10, 1, 2
 3232, ocean, minecraft:lukewarm_ocean, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
@@ -3278,7 +3264,6 @@
 3314, forest, regions_unexplored:magnolia_woodland, MONSTER, unusualfishmod:prawn, 20, 1, 1
 3315, forest, regions_unexplored:magnolia_woodland, MONSTER, eidolon:zombie_brute, 60, 1, 3
 3316, forest, regions_unexplored:magnolia_woodland, MONSTER, eidolon:wraith, 60, 1, 3
-3317, forest, regions_unexplored:magnolia_woodland, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 3318, forest, regions_unexplored:magnolia_woodland, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 3319, forest, regions_unexplored:magnolia_woodland, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 3320, forest, regions_unexplored:magnolia_woodland, CREATURE, minecraft:sheep, 12, 4, 4
@@ -3294,7 +3279,6 @@
 3330, forest, regions_unexplored:magnolia_woodland, CREATURE, minecraft:cow, 10, 2, 3
 3331, forest, regions_unexplored:magnolia_woodland, CREATURE, mythicmounts:firebird, 10, 1, 1
 3334, forest, regions_unexplored:magnolia_woodland, CREATURE, minecraft:pig, 30, 1, 1
-3335, forest, regions_unexplored:magnolia_woodland, CREATURE, mysticsbiomes:rainbow_chicken, 30, 2, 5
 3336, forest, regions_unexplored:magnolia_woodland, CREATURE, butterflies:morpho, 10, 1, 2
 3337, forest, regions_unexplored:magnolia_woodland, CREATURE, butterflies:forester, 10, 1, 2
 3338, forest, regions_unexplored:magnolia_woodland, CREATURE, butterflies:common, 10, 1, 2
@@ -3390,7 +3374,6 @@
 3429, forest, regions_unexplored:maple_forest, MONSTER, unusualfishmod:prawn, 20, 1, 1
 3430, forest, regions_unexplored:maple_forest, MONSTER, eidolon:zombie_brute, 60, 1, 3
 3431, forest, regions_unexplored:maple_forest, MONSTER, eidolon:wraith, 60, 1, 3
-3432, forest, regions_unexplored:maple_forest, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 3433, forest, regions_unexplored:maple_forest, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 3434, forest, regions_unexplored:maple_forest, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 3435, forest, regions_unexplored:maple_forest, CREATURE, minecraft:sheep, 12, 4, 4
@@ -3497,7 +3480,6 @@
 3538, forest, regions_unexplored:mauve_hills, MONSTER, unusualfishmod:prawn, 20, 1, 1
 3539, forest, regions_unexplored:mauve_hills, MONSTER, eidolon:zombie_brute, 60, 1, 3
 3540, forest, regions_unexplored:mauve_hills, MONSTER, eidolon:wraith, 60, 1, 3
-3541, forest, regions_unexplored:mauve_hills, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 3542, forest, regions_unexplored:mauve_hills, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 3543, forest, regions_unexplored:mauve_hills, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 3544, forest, regions_unexplored:mauve_hills, CREATURE, minecraft:sheep, 12, 4, 4
@@ -3581,7 +3563,6 @@
 3624, plains, minecraft:meadow, CREATURE, earthmobsmod:horned_sheep, 10, 3, 6
 3627, plains, minecraft:meadow, CREATURE, minecraft:pig, 30, 1, 1
 3628, plains, minecraft:meadow, CREATURE, unusualprehistory:mammoth, 10, 3, 4
-3629, plains, minecraft:meadow, CREATURE, mysticsbiomes:rainbow_chicken, 30, 2, 5
 3630, plains, minecraft:meadow, CREATURE, butterflies:morpho, 10, 1, 2
 3631, plains, minecraft:meadow, CREATURE, butterflies:forester, 10, 1, 2
 3632, plains, minecraft:meadow, CREATURE, butterflies:common, 10, 1, 2
@@ -3952,7 +3933,6 @@
 3997, forest, minecraft:old_growth_birch_forest, MONSTER, unusualfishmod:prawn, 20, 1, 1
 3998, forest, minecraft:old_growth_birch_forest, MONSTER, eidolon:zombie_brute, 60, 1, 3
 3999, forest, minecraft:old_growth_birch_forest, MONSTER, eidolon:wraith, 60, 1, 3
-4000, forest, minecraft:old_growth_birch_forest, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 4001, forest, minecraft:old_growth_birch_forest, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 4002, forest, minecraft:old_growth_birch_forest, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 4003, forest, minecraft:old_growth_birch_forest, CREATURE, minecraft:sheep, 12, 4, 4
@@ -4119,7 +4099,6 @@
 4166, forest, regions_unexplored:orchard, MONSTER, unusualfishmod:prawn, 20, 1, 1
 4167, forest, regions_unexplored:orchard, MONSTER, eidolon:zombie_brute, 60, 1, 3
 4168, forest, regions_unexplored:orchard, MONSTER, eidolon:wraith, 60, 1, 3
-4169, forest, regions_unexplored:orchard, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 4170, forest, regions_unexplored:orchard, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 4171, forest, regions_unexplored:orchard, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 4172, forest, regions_unexplored:orchard, CREATURE, minecraft:sheep, 12, 4, 4
@@ -4497,7 +4476,6 @@
 4553, none, regions_unexplored:prismachasm, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 4554, none, regions_unexplored:prismachasm, CREATURE, mythicmounts:firebird, 10, 1, 1
 4555, none, regions_unexplored:prismachasm, CREATURE, minecraft:pig, 30, 1, 1
-4556, none, regions_unexplored:prismachasm, CREATURE, mysticsbiomes:rainbow_chicken, 30, 2, 5
 4557, none, regions_unexplored:prismachasm, CREATURE, butterflies:rainbow, 10, 1, 2
 4558, none, regions_unexplored:prismachasm, AMBIENT, minecraft:bat, 10, 8, 8
 4559, none, regions_unexplored:prismachasm, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
@@ -5092,7 +5070,6 @@
 5156, forest, regions_unexplored:silver_birch_forest, MONSTER, eidolon:zombie_brute, 60, 1, 3
 5157, forest, regions_unexplored:silver_birch_forest, MONSTER, eidolon:wraith, 60, 1, 3
 5158, forest, regions_unexplored:silver_birch_forest, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
-5159, forest, regions_unexplored:silver_birch_forest, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 5160, forest, regions_unexplored:silver_birch_forest, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 5161, forest, regions_unexplored:silver_birch_forest, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 5162, forest, regions_unexplored:silver_birch_forest, CREATURE, minecraft:sheep, 12, 4, 4
@@ -5991,7 +5968,6 @@
 6062, forest, regions_unexplored:temperate_grove, MONSTER, unusualfishmod:prawn, 20, 1, 1
 6063, forest, regions_unexplored:temperate_grove, MONSTER, eidolon:zombie_brute, 60, 1, 3
 6064, forest, regions_unexplored:temperate_grove, MONSTER, eidolon:wraith, 60, 1, 3
-6065, forest, regions_unexplored:temperate_grove, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 6066, forest, regions_unexplored:temperate_grove, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 6067, forest, regions_unexplored:temperate_grove, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 6068, forest, regions_unexplored:temperate_grove, CREATURE, minecraft:sheep, 12, 4, 4
@@ -6236,7 +6212,6 @@
 6309, ocean, minecraft:warm_ocean, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 6310, ocean, minecraft:warm_ocean, MONSTER, eidolon:wraith, 60, 1, 3
 6311, ocean, minecraft:warm_ocean, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
-6312, ocean, minecraft:warm_ocean, MONSTER, creeperoverhaul:ocean_creeper, 10, 1, 1
 6313, ocean, minecraft:warm_ocean, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 6314, ocean, minecraft:warm_ocean, MONSTER, earthmobsmod:tropical_slime, 10, 1, 2
 6315, ocean, minecraft:warm_ocean, MONSTER, endermanoverhaul:coral_enderman, 10, 1, 2
@@ -6306,7 +6281,6 @@
 6379, forest, regions_unexplored:willow_forest, MONSTER, unusualfishmod:prawn, 20, 1, 1
 6380, forest, regions_unexplored:willow_forest, MONSTER, eidolon:zombie_brute, 60, 1, 3
 6381, forest, regions_unexplored:willow_forest, MONSTER, eidolon:wraith, 60, 1, 3
-6382, forest, regions_unexplored:willow_forest, MONSTER, earthmobsmod:lobber_zombie, 12, 3, 4
 6383, forest, regions_unexplored:willow_forest, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 6384, forest, regions_unexplored:willow_forest, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 6385, forest, regions_unexplored:willow_forest, CREATURE, minecraft:sheep, 12, 4, 4

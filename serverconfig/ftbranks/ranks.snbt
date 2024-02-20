@@ -9,7 +9,8 @@
 		command.paintimport.name: true
 		command.ftbranks.add: true
 		command.wits: true
-		command.give
+		command.give: true
+		command.feedback: true
 	}
 	red: {
 		name: "red"

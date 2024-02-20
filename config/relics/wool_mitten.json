@@ -46,5 +46,12 @@
     "initialCost": 100,
     "maxLevel": 10,
     "step": 100
+  },
+  "loot": {
+    "entries": {
+      "[\\w]+:chests\\/[\\w_\\/]*(frosz?|taiga|cold|winter|snow|icey?|glac)[\\w_\\/]*": 0.075,
+      "minecraft:chests/village/village_fletcher": 0.075,
+      "minecraft:chests/igloo_chest": 0.075
+    }
   }
 }

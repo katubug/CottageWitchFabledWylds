@@ -5,6 +5,19 @@
       "name": "HeyKatu",
       "uniqueId": "e5e2b89d-3884-4190-8b69-97863eb95bc6"
     },
+    "time": 1708288577782,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/nhIl6SEfFX"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "HeyKatu",
+      "uniqueId": "e5e2b89d-3884-4190-8b69-97863eb95bc6"
+    },
     "time": 1707165596622,
     "type": "Profiler (live)",
     "data": {

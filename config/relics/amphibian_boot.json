@@ -68,5 +68,11 @@
     "initialCost": 100,
     "maxLevel": 10,
     "step": 100
+  },
+  "loot": {
+    "entries": {
+      "[\\w]+:chests\\/[\\w_\\/]*(water|ocean|river|(?<!air)ship|aqua)[\\w_\\/]*": 0.075,
+      "minecraft:chests/buried_treasure": 0.075
+    }
   }
 }

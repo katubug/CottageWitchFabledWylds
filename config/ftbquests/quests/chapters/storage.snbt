@@ -291,8 +291,8 @@
 				type: "item"
 			}]
 			title: "Not Exactly a Pet"
-			x: -6.0d
-			y: 2.0d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0AC47FF8FD45B289"]
@@ -945,6 +945,31 @@
 			title: "Fully Upgraded"
 			x: -4.0d
 			y: -5.0d
+		}
+		{
+			description: [
+				"&bStorage Labels&r are a cheap and aesthetic way of &organizing your storage&r! They act similarly to item frames, but with some improvements:"
+				""
+				"- To apply an item to the &bLabel&r, &6shift right click&r the item onto the Label. This does not consume the item. To change it, simply shift-click with another item."
+				""
+				"- Additionally, you can easily &6click through&r labels to access your storage, without needing to avoid them."
+			]
+			id: "7108DE87AE8CB43A"
+			rewards: [{
+				count: 5
+				id: "7894C36F016FA758"
+				item: "labels:label"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4072F764D06D1939"
+				item: "labels:label"
+				type: "item"
+			}]
+			title: "Craft a Storage Label"
+			x: -4.5d
+			y: 4.0d
 		}
 	]
 	title: "Storage"

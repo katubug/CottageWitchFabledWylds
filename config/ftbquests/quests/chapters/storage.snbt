@@ -712,7 +712,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["0DDBFB778B945B97"]
 			description: [
 				"A &bDrawer&r is a storage item that can store &large amounts&r of single items, &astacking beyond the normal limit&r. A 1x1 drawer can hold a single item type. A 2x2 drawer can hold four item types, but less of each."
 				""
@@ -901,6 +900,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["511581BF899A9D1D"]
 			description: [
 				"The &bEnder Drawer&r allows you to access the same inventory from &amultiple locations&r. Very useful if you need to access the same blocks frequently in different workshops!"
 				""

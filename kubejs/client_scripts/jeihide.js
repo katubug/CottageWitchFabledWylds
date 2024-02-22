@@ -157,7 +157,6 @@ JEIEvents.hideItems(event => {
         'framedblocks:powered_framing_saw',
         'crabbersdelight:crab_spawn_egg',
         'crabbersdelight:crab_bucket',
-        'unusualfishmod:sea_boom',
         'vegandelight:salt',
         'reliquary:zombie_heart',
         'extra_compat:reinforced_gold_machete',

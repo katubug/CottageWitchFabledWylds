@@ -303,8 +303,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "5EAD7EF0C6D007D3"
-				item: "additionaladditions:trident_shard"
+				id: "2C0A35D9725B708D"
+				item: "bettertridents:trident_fragment"
 				type: "item"
 			}]
 			title: "Build a Trident"
@@ -703,42 +703,6 @@
 			y: 4.0d
 		}
 		{
-			description: [
-				"Although it is named &bHorse Flute&r, it can actually hold &aany kind of mount&r!"
-				""
-				"Simply &6right click it on your mount&r to stow it, and &6right click the ground&r to free them."
-			]
-			id: "5639488A5172F863"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "269A3AA3F9B3DF9C"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1438B1A20A96E484"
-				item: {
-					Count: 1b
-					id: "relics:horse_flute"
-					tag: {
-						abilities: {
-							heal: {
-								points: 0
-								stats: {
-									amount: 0.01307d
-								}
-							}
-						}
-					}
-				}
-				type: "item"
-			}]
-			title: "A Way to Transport Mounts"
-			x: -2.5d
-			y: -4.5d
-		}
-		{
 			description: ["Do you have an excess of &bTrinkets&r? You can &6right click them on &bAmethyst&r to convert them into &bUnknown Fragments&r. Once you have nine of them, you can &atrade them in here&r for a &brandom Trinket&r."]
 			id: "2336E01F3E73F4DD"
 			rewards: [{
@@ -759,74 +723,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3FD200068F50454E"]
-			id: "392922B523171D85"
-			tasks: [{
-				id: "579BB3B6694CEB11"
-				item: "relics:researching_table"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 2.5d
-		}
-		{
-			description: [
-				"The &lRelics&r mod adds in many different &bcurios&r and items with &aspecial functionality&r."
-				""
-				"In order to &afind out what each item does&r, however, you must &6research them&r using a &bRelic Researching Table&r. Who knows, perhaps they can even be enhanced!"
-				""
-				"- &bAmphibian Boot&r: Underwater Ruins, Shipwrecks"
-				"- &bAqua Walker&r: Underwater Ruins, Shipwrecks"
-				"- &bArrow Quiver&r: Fletcher Houses"
-				"- &bBastion Ring&r: Fortress Bridges, Bastions, Ruined Portals"
-				"- &bBlazing Flask&r: Fortress Bridges, Bastions, Ruined Portals"
-				"- &bChorus Inhibitor&r: End Cities"
-				"- &bDrowned Belt&r: Underwater Ruins, Shipwrecks"
-				"- &bElytra Booster&r: End Cities"
-				"- &bEnder's Hand&r: End Cities"
-				"- &bHoly Locket&r: Desert Temples, Desert Villages"
-				"- &bHorse Flute&r: Strongholds, Abandoned Mineshafts, Villages"
-				"- &bHunter Belt&r: Butcher Houses"
-				"- &bIce Breaker&r: Igloos, Snowy Villages"
-				"- &bIce Skates&r: Igloos, Snowy Villages"
-				"- &bJellyfish Necklace&r: Underwater Ruins, Shipwrecks"
-				"- &bLeather Belt&r: Strongholds, Abandoned Mineshafts"
-				"- &bMagic Mirror&r: Strongholds, Abandoned Mineshafts"
-				"- &bMagma Walker&r: Fortress Bridges, Bastions, Ruined Portals"
-				"- &bMidnight Robe&r: Strongholds, Abandoned Mineshafts"
-				"- &bRage Glove&r: Fortress Bridges, Bastions, Ruined Portals"
-				"- &bReflection Necklace&r: Fortress Bridges, Bastions, Ruined Portals"
-				"- &bRoller Skates&r: Strongholds, Abandoned Mineshafts"
-				"- &bSun Goddess' Traveler&r:  Fortress Bridges, Bastions, Ruined Portals"
-				"- &bJeweled Talisman&r: Strongholds, Abandoned Mineshafts"
-				"- &bSpore Sack&r: Jungle Temple"
-				"- &bWool Mitten&r: Igloos, Snowy Villages"
-			]
-			id: "3FD200068F50454E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "795740A2E4FC2AA5"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "3FD2547F1133B21A"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:relics"
-					}
-				}
-				title: "Any #forge:relics"
-				type: "item"
-			}]
-			title: "Obtain a Relic"
-			x: 4.0d
-			y: 1.5d
-		}
-		{
 			description: ["These delicate &bEthereal Wings&r allow the player to &afly and hover&r as if they were a deity. However, movement is &aincredibly slow&r. Still, it should be useful for building..."]
 			id: "5864262E17DC9BFE"
 			rewards: [{
@@ -843,92 +739,6 @@
 			}]
 			x: 2.5d
 			y: 2.5d
-		}
-		{
-			description: [
-				"Collect a whole set of &bRose Gold Tools&r to complete this quest."
-				""
-				"&bRose Gold&r has better strength and durability than regular &bgold&r, but retains gold's &ahighly enchantable properties&r."
-			]
-			id: "288EC6D43791AE1B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5955D9A20B32A2E8"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "3F30B6988D5B5E5A"
-					item: {
-						Count: 1b
-						id: "additionaladditions:rose_gold_sword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3F6B6EFF6440FA30"
-					item: {
-						Count: 1b
-						id: "additionaladditions:rose_gold_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "50CAE98A584151C8"
-					item: {
-						Count: 1b
-						id: "additionaladditions:rose_gold_axe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2AB5C33A68FB6F03"
-					item: {
-						Count: 1b
-						id: "additionaladditions:rose_gold_shovel"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "283C72386CA91263"
-					item: {
-						Count: 1b
-						id: "additionaladditions:rose_gold_hoe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "180CD8817C4FAE54"
-					item: {
-						Count: 1b
-						id: "delightful:rose_gold_knife"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "The Full Set: Rosegold Tools"
-			x: 4.0d
-			y: -4.0d
 		}
 		{
 			description: [
@@ -1447,8 +1257,8 @@
 				}
 			]
 			title: "The Full Set: Skyroot Tools"
-			x: 5.5d
-			y: -7.0d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -2377,83 +2187,6 @@
 		}
 		{
 			description: [
-				"Collect a whole set of &bRose Gold Armor&r to complete this quest."
-				""
-				"Rose Gold Armor is &aabout as strong as &bIron&r, but with the &aenchantability of &bGold&r!"
-			]
-			id: "6414F457952B1D90"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0F4E7E36CD346ECE"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					count: 5
-					id: "5A0694E5EE0D0F75"
-					item: "create:polished_rose_quartz"
-					type: "item"
-				}
-				{
-					id: "0DDC8A1278E89909"
-					item: "candlelight:rose"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "77CDAA96EC63A25E"
-					item: {
-						Count: 1b
-						id: "additionaladditions:rose_gold_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6B54A4CD5234FF8D"
-					item: {
-						Count: 1b
-						id: "additionaladditions:rose_gold_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "661A2C61B04A6F05"
-					item: {
-						Count: 1b
-						id: "additionaladditions:rose_gold_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6110D4CB4E7F7D7A"
-					item: {
-						Count: 1b
-						id: "additionaladditions:rose_gold_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "The Full Set: Rose Gold Armor"
-			x: -3.0d
-			y: 4.5d
-		}
-		{
-			description: [
 				"Collect a whole set of &bSilver Armor&r to complete this quest."
 				""
 				"Although this armor &ahas no special properties&r, you may as well collect it while you're doing everything else... right?"
@@ -3009,7 +2742,7 @@
 				}
 			]
 			title: "The Full Set: Fur Armor"
-			x: -2.0d
+			x: -3.0d
 			y: 4.5d
 		}
 		{

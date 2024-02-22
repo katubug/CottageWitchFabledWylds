@@ -1,0 +1,17 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "netherdepthsupgrade:eyeball_fish"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "netherdepthsupgrade:eyeball",
+        "count": 1
+      }
+    ]
+  }

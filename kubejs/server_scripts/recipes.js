@@ -819,16 +819,6 @@ ServerEvents.recipes(event => {
             "#forge:grain"
         ]
     )
-    
-    // Lobster Roll
-    event.shapeless(
-        Item.of('unusualfishmod:lobster_roll'),
-        [
-            'unusualfishmod:cooked_lobster', 
-            'minecraft:bread', 
-            'candlelight:butter'
-        ]
-    )
 
     // Uncrafter Requires Nether
     event.shaped(
@@ -1007,42 +997,11 @@ ServerEvents.recipes(event => {
         'plushies:endermite_plushie',
         'plushies:shulker_plushie',
         'plushies:dragon_plushie',
-        'practical_plushies_animals:allay_plushie',
-        'practical_plushies_animals:axolotl_plushie',
-        'practical_plushies_animals:bee_plushie',
-        'practical_plushies_animals:chicken_plushie',
         'plushies:wither_skeleton_plushie',
         'plushies:piglin_plushie',
         'plushies:piglin_brute_plushie',
         'plushies:zombiefied_piglin_plushie',
         'plushies:blaze_plushie',
-        'practical_plushies_animals:turtle_plushie',
-        'practical_plushies_animals:camel_plushie',
-        'practical_plushies_animals:horse_plushie',
-        'practical_plushies_animals:mooshroom_plushie',
-        'practical_plushies_mobs:enderman_plushie',
-        'practical_plushies_mobs:creeper_plushie',
-        'practical_plushies_animals:panda_plushie',
-        'practical_plushies_animals:dolphin_plushie',
-        'practical_plushies_animals:sniffer_plushie',
-        'practical_plushies_animals:wolf_plushie',
-        'practical_plushies_animals:cat_plushie',
-        'practical_plushies_animals:rabbit_plushie',
-        'practical_plushies_animals:frog_plushie',
-        'practical_plushies_mobs:ghast_plushie',
-        'practical_plushies_mobs:phantom_plushie',
-        'practical_plushies_mobs:skeleton_plushie',
-        'practical_plushies_mobs:spider_plushie',
-        'practical_plushies_mobs:witch_plushie',
-        'practical_plushies_mobs:wither_skeleton_plushie',
-        'practical_plushies_mobs:zoglin_plushie',
-        'practical_plushies_mobs:zombie_plushie',
-        'practical_plushies_mobs:skeleton_horse_plushie',
-        'practical_plushies_animals:cow_plushie',
-        'practical_plushies_animals:fox_plushie',
-        'practical_plushies_animals:parrot_plushie',
-        'practical_plushies_animals:pig_plushie',
-        'practical_plushies_animals:sheep_plushie',
         'plushies:ghast_plushie',
         'plushies:hoglin_plushie',
         'plushies:zoglin_plushie',

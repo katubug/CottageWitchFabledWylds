@@ -1080,6 +1080,14 @@
 					type: "questsadditions:break"
 					value: 1L
 				}
+				{
+					block: "farmersdelight:wild_tomatoes"
+					block_type: 0
+					checkItem: false
+					id: "04F07E3A87A9304A"
+					type: "questsadditions:break"
+					value: 1L
+				}
 			]
 			title: "Forage Wild Crops"
 			x: 1.0d

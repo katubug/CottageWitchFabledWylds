@@ -1147,6 +1147,11 @@
 					item: "minecraft:black_wool"
 					type: "item"
 				}
+				{
+					id: "5C1DE7C0D3631526"
+					item: "meadow:warped_wool"
+					type: "item"
+				}
 			]
 			title: "Obtain the Rainbow"
 			x: 2.5d

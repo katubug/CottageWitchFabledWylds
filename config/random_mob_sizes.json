@@ -1,122 +1,11 @@
 {
 	"keep_scaling_on_conversion": true,
+	"minecraft:bee": {
+		"type": "gaussian",
+		"min_scaling": 0.3,
+		"max_scaling": 1.5
+	},
 	"meadow:wooly_cow": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:beaked_herring": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"minecraft:mooshroom": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:copperflame": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:stout_bichir": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"minecraft:sheep": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"aether:flying_cow": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:amber_goby": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:blackcap_snail": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"minecraft:axolotl": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:forkfish": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:wizard_jelly": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:bark_angelfish": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"minecraft:bat": 0.75,
-	"unusualfishmod:brick_snail": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:celestial": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"minecraft:llama": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:spindlefish": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:rhino_tetra": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:gnasher": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"aether:aerbunny": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:zebra_cornetfish": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:eyelash": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"minecraft:chicken": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:sea_pancake": {
 		"type": "gaussian",
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
@@ -126,262 +15,7 @@
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
 	},
-	"the_bumblezone:rootmin": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:tribble": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:tiger_puffer": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:freshwater_mantis": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:duality_damselfish": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:porcupine_lobsta": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:circus": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:sea_mosquito": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:sailor_barb": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"spawn:hamster": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:pinkfin": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:mossthorn": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"aether:moa": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"snuffles:snuffle": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:demon_herring": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:drooping_gourami": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"aether:aerwhale": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:picklefish": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"mysticsbiomes:strawberry_cow": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"minecraft:squid": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"minecraft:bee": {
-		"type": "gaussian",
-		"min_scaling": 0.3,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:jungleshark": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"minecraft:trader_llama": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"whatareyouvotingfor:crab": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"meadow:brown_bear": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"spawn:snail": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:hatchet_fish": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:snowflaketail": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:muddytop": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:volt_angler": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"species:limpet": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:clownthorn_shark": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:blindsailfin": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:trumpet_squid": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:aero_mono": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:rootball": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:shockcat": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"whatareyouvotingfor:armadillo": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"minecraft:ocelot": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:spoon_shark": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"minecraft:panda": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"mysticsbiomes:red_panda": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:squoddle": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:sea_spider": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:triple_twirl_pleco": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"minecraft:turtle": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:ripper": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"mysticsbiomes:butterfly": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"whatareyouvotingfor:penguin": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"minecraft:pig": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:deep_crawler": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"meadow:water_buffalo": {
+	"minecraft:horse": {
 		"type": "gaussian",
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
@@ -391,7 +25,12 @@
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
 	},
-	"minecraft:cat": {
+	"meadow:water_buffalo": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"minecraft:pig": {
 		"type": "gaussian",
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
@@ -401,22 +40,12 @@
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
 	},
-	"minecraft:frog": {
+	"whatareyouvotingfor:armadillo": {
 		"type": "gaussian",
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
 	},
-	"minecraft:cow": {
-		"type": "uniform",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"minecraft:wolf": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:kalappa": {
+	"aether:flying_cow": {
 		"type": "gaussian",
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
@@ -426,12 +55,23 @@
 		"min_scaling": 0.75,
 		"max_scaling": 1.5
 	},
-	"unusualfishmod:blizzardfin": {
+	"minecraft:axolotl": {
 		"type": "gaussian",
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
 	},
-	"minecraft:horse": {
+	"minecraft:cat": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"aether:aerbunny": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"minecraft:bat": 0.75,
+	"minecraft:ocelot": {
 		"type": "gaussian",
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
@@ -441,17 +81,7 @@
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
 	},
-	"species:birt": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:coral_skrimp": {
-		"type": "gaussian",
-		"min_scaling": 0.5,
-		"max_scaling": 1.5
-	},
-	"unusualfishmod:roughback_guitarfish": {
+	"minecraft:sheep": {
 		"type": "gaussian",
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
@@ -461,12 +91,132 @@
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
 	},
-	"minecraft:fox": {
+	"mysticsbiomes:red_panda": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"minecraft:mooshroom": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"mysticsbiomes:strawberry_cow": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"snuffles:snuffle": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"aether:moa": {
 		"type": "gaussian",
 		"min_scaling": 0.5,
 		"max_scaling": 1.5
 	},
 	"minecraft:glow_squid": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"minecraft:panda": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"whatareyouvotingfor:crab": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"species:limpet": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"minecraft:fox": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"minecraft:squid": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"minecraft:trader_llama": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"aether:aerwhale": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"spawn:hamster": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"minecraft:llama": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"minecraft:turtle": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"whatareyouvotingfor:penguin": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"species:birt": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"mysticsbiomes:butterfly": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"meadow:brown_bear": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"minecraft:cow": {
+		"type": "uniform",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"minecraft:frog": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"the_bumblezone:rootmin": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"minecraft:wolf": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"minecraft:chicken": {
+		"type": "gaussian",
+		"min_scaling": 0.5,
+		"max_scaling": 1.5
+	},
+	"spawn:snail": {
 		"type": "gaussian",
 		"min_scaling": 0.5,
 		"max_scaling": 1.5

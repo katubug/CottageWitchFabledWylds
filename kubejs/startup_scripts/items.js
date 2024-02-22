@@ -231,27 +231,6 @@ event.modify('unusualprehistory:defrosted_frozen_fossil', item => {
   }
 });
 
-event.modify('unusualfishmod:strange_broth', item => {
-  item.foodProperties = food => {
-      food.hunger(7)
-      food.saturation(1.5)
-  }
-});
-
-event.modify('unusualfishmod:lobster_roll', item => {
-  item.foodProperties = food => {
-      food.hunger(6)
-      food.saturation(1.5)
-  }
-});
-
-event.modify('unusualfishmod:unusual_sandwich', item => {
-  item.foodProperties = food => {
-      food.hunger(7)
-      food.saturation(1.5)
-  }
-});
-
 })
 
 

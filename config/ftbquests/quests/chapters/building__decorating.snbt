@@ -225,18 +225,11 @@
 		{
 			description: ["Lanterns can now be placed on walls! That's it, that's the tweet."]
 			id: "567E7D29BF4EAEFA"
-			rewards: [
-				{
-					id: "1D88CB845EB3BADE"
-					item: "supplementaries:brass_lantern"
-					type: "item"
-				}
-				{
-					id: "7472D3C00F7BF112"
-					item: "chipped:wrought_iron_lantern"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4A0D079D28713974"
+				item: "reliquary:lantern_of_paranoia"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "I love lantern"
 			tasks: [{

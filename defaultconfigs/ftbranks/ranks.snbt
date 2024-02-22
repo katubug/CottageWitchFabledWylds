@@ -7,7 +7,6 @@
 		command.paintexport.name: true
 		command.paintimport: true
 		command.paintimport.name: true
-		command.ftbranks.add: true
 		command.wits: true
 		command.give: true
 		command.feedback: true
@@ -57,9 +56,14 @@
 		power: 2
 		ftbranks.name_format: "&d{name}"
 	}
-	greener: {
-		name: "greener"
+	gold: {
+		name: "gold"
 		power: 2
 		ftbranks.name_format: "&6{name}"
+	}
+	yellow: {
+		name: "yellow"
+		power: 2
+		ftbranks.name_format: "&e{name}"
 	}
 }

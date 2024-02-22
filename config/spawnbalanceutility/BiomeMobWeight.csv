@@ -80,8 +80,6 @@
 83, forest, regions_unexplored:alpha_grove, CREATURE, minecraft:pig, 30, 1, 1
 84, forest, regions_unexplored:alpha_grove, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 85, forest, regions_unexplored:alpha_grove, AMBIENT, minecraft:bat, 10, 8, 8
-86, forest, regions_unexplored:alpha_grove, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-87, forest, regions_unexplored:alpha_grove, AMBIENT, mythicmounts:dragon, 10, 1, 1
 88, forest, regions_unexplored:alpha_grove, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 89, forest, regions_unexplored:alpha_grove, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 90, forest, regions_unexplored:alpha_grove, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -184,8 +182,6 @@
 187, extreme_hills, regions_unexplored:arid_mountains, CREATURE, earthmobsmod:horned_sheep, 10, 3, 6
 188, extreme_hills, regions_unexplored:arid_mountains, CREATURE, minecraft:pig, 30, 1, 1
 189, extreme_hills, regions_unexplored:arid_mountains, AMBIENT, minecraft:bat, 10, 8, 8
-190, extreme_hills, regions_unexplored:arid_mountains, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-191, extreme_hills, regions_unexplored:arid_mountains, AMBIENT, mythicmounts:dragon, 10, 1, 1
 192, extreme_hills, regions_unexplored:arid_mountains, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 193, extreme_hills, regions_unexplored:arid_mountains, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 194, extreme_hills, regions_unexplored:arid_mountains, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -212,8 +208,6 @@
 215, none, regions_unexplored:ashen_woodland, CREATURE, mythicmounts:firebird, 10, 1, 1
 216, none, regions_unexplored:ashen_woodland, CREATURE, minecraft:pig, 30, 1, 1
 217, none, regions_unexplored:ashen_woodland, AMBIENT, minecraft:bat, 10, 8, 8
-218, none, regions_unexplored:ashen_woodland, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-219, none, regions_unexplored:ashen_woodland, AMBIENT, mythicmounts:dragon, 10, 1, 1
 220, none, regions_unexplored:ashen_woodland, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 221, none, regions_unexplored:ashen_woodland, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 222, none, regions_unexplored:ashen_woodland, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -303,8 +297,6 @@
 309, forest, regions_unexplored:autumnal_maple_forest, CREATURE, butterflies:clipper, 10, 1, 2
 310, forest, regions_unexplored:autumnal_maple_forest, CREATURE, butterflies:buckeye, 10, 1, 2
 311, forest, regions_unexplored:autumnal_maple_forest, AMBIENT, minecraft:bat, 10, 8, 8
-312, forest, regions_unexplored:autumnal_maple_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-313, forest, regions_unexplored:autumnal_maple_forest, AMBIENT, mythicmounts:dragon, 10, 1, 1
 314, forest, regions_unexplored:autumnal_maple_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 315, forest, regions_unexplored:autumnal_maple_forest, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 316, forest, regions_unexplored:autumnal_maple_forest, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -504,8 +496,6 @@
 517, savanna, regions_unexplored:baobab_savanna, CREATURE, unusualprehistory:brachi, 10, 3, 4
 518, savanna, regions_unexplored:baobab_savanna, CREATURE, whatareyouvotingfor:armadillo, 30, 1, 1
 519, savanna, regions_unexplored:baobab_savanna, AMBIENT, minecraft:bat, 10, 8, 8
-520, savanna, regions_unexplored:baobab_savanna, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-521, savanna, regions_unexplored:baobab_savanna, AMBIENT, mythicmounts:dragon, 10, 1, 1
 522, savanna, regions_unexplored:baobab_savanna, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 523, savanna, regions_unexplored:baobab_savanna, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 524, savanna, regions_unexplored:baobab_savanna, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -549,8 +539,6 @@
 564, none, regions_unexplored:barley_fields, CREATURE, minecraft:pig, 30, 1, 1
 565, none, regions_unexplored:barley_fields, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 566, none, regions_unexplored:barley_fields, AMBIENT, minecraft:bat, 10, 8, 8
-567, none, regions_unexplored:barley_fields, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-568, none, regions_unexplored:barley_fields, AMBIENT, mythicmounts:dragon, 10, 1, 1
 569, none, regions_unexplored:barley_fields, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 570, none, regions_unexplored:barley_fields, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 571, none, regions_unexplored:barley_fields, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -739,8 +727,6 @@
 758, forest, minecraft:birch_forest, CREATURE, butterflies:clipper, 10, 1, 2
 759, forest, minecraft:birch_forest, CREATURE, butterflies:buckeye, 10, 1, 2
 760, forest, minecraft:birch_forest, AMBIENT, minecraft:bat, 10, 8, 8
-761, forest, minecraft:birch_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-762, forest, minecraft:birch_forest, AMBIENT, mythicmounts:dragon, 10, 1, 1
 763, forest, minecraft:birch_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 764, forest, minecraft:birch_forest, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 765, forest, minecraft:birch_forest, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -796,8 +782,6 @@
 815, taiga, regions_unexplored:blackwood_taiga, CREATURE, minecraft:pig, 30, 1, 1
 816, taiga, regions_unexplored:blackwood_taiga, AMBIENT, minecraft:bat, 10, 8, 8
 817, taiga, regions_unexplored:blackwood_taiga, AMBIENT, endermanoverhaul:mushroom_fields_enderman, 10, 1, 2
-818, taiga, regions_unexplored:blackwood_taiga, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-819, taiga, regions_unexplored:blackwood_taiga, AMBIENT, mythicmounts:dragon, 10, 1, 1
 820, taiga, regions_unexplored:blackwood_taiga, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 821, taiga, regions_unexplored:blackwood_taiga, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 822, taiga, regions_unexplored:blackwood_taiga, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -885,8 +869,6 @@
 904, taiga, regions_unexplored:boreal_taiga, CREATURE, minecraft:pig, 30, 1, 1
 905, taiga, regions_unexplored:boreal_taiga, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 906, taiga, regions_unexplored:boreal_taiga, AMBIENT, minecraft:bat, 10, 8, 8
-907, taiga, regions_unexplored:boreal_taiga, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-908, taiga, regions_unexplored:boreal_taiga, AMBIENT, mythicmounts:dragon, 10, 1, 1
 909, taiga, regions_unexplored:boreal_taiga, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 910, taiga, regions_unexplored:boreal_taiga, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 911, taiga, regions_unexplored:boreal_taiga, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -958,8 +940,6 @@
 977, extreme_hills, minecraft:cherry_grove, CREATURE, mythicmounts:firebird, 10, 1, 1
 978, extreme_hills, minecraft:cherry_grove, CREATURE, minecraft:pig, 30, 1, 1
 979, extreme_hills, minecraft:cherry_grove, AMBIENT, minecraft:bat, 10, 8, 8
-980, extreme_hills, minecraft:cherry_grove, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-981, extreme_hills, minecraft:cherry_grove, AMBIENT, mythicmounts:dragon, 10, 1, 1
 982, extreme_hills, minecraft:cherry_grove, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 983, extreme_hills, minecraft:cherry_grove, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 984, extreme_hills, minecraft:cherry_grove, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -1050,8 +1030,6 @@
 1071, none, regions_unexplored:clover_plains, CREATURE, butterflies:clipper, 10, 1, 2
 1072, none, regions_unexplored:clover_plains, CREATURE, butterflies:buckeye, 10, 1, 2
 1073, none, regions_unexplored:clover_plains, AMBIENT, minecraft:bat, 10, 8, 8
-1074, none, regions_unexplored:clover_plains, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-1075, none, regions_unexplored:clover_plains, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1076, none, regions_unexplored:clover_plains, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1077, none, regions_unexplored:clover_plains, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 1078, none, regions_unexplored:clover_plains, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -1094,8 +1072,6 @@
 1115, icy, regions_unexplored:cold_boreal_taiga, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 1116, icy, regions_unexplored:cold_boreal_taiga, CREATURE, snuffles:snuffle, 10, 1, 3
 1117, icy, regions_unexplored:cold_boreal_taiga, AMBIENT, minecraft:bat, 10, 8, 8
-1118, icy, regions_unexplored:cold_boreal_taiga, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-1119, icy, regions_unexplored:cold_boreal_taiga, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1120, icy, regions_unexplored:cold_boreal_taiga, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1121, icy, regions_unexplored:cold_boreal_taiga, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 1122, icy, regions_unexplored:cold_boreal_taiga, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -1134,8 +1110,6 @@
 1155, none, regions_unexplored:cold_deciduous_forest, CREATURE, minecraft:pig, 30, 1, 1
 1156, none, regions_unexplored:cold_deciduous_forest, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 1157, none, regions_unexplored:cold_deciduous_forest, AMBIENT, minecraft:bat, 10, 8, 8
-1158, none, regions_unexplored:cold_deciduous_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-1159, none, regions_unexplored:cold_deciduous_forest, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1160, none, regions_unexplored:cold_deciduous_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1161, none, regions_unexplored:cold_deciduous_forest, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 1162, none, regions_unexplored:cold_deciduous_forest, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -1173,8 +1147,6 @@
 1194, ocean, minecraft:cold_ocean, CREATURE, minecraft:pig, 30, 1, 1
 1195, ocean, minecraft:cold_ocean, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 1196, ocean, minecraft:cold_ocean, AMBIENT, minecraft:bat, 10, 8, 8
-1197, ocean, minecraft:cold_ocean, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-1198, ocean, minecraft:cold_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1199, ocean, minecraft:cold_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1200, ocean, minecraft:cold_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 1201, ocean, minecraft:cold_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
@@ -1215,8 +1187,6 @@
 1236, river, regions_unexplored:cold_river, CREATURE, unusualprehistory:austroraptor, 10, 1, 1
 1237, river, regions_unexplored:cold_river, CREATURE, minecraft:pig, 30, 1, 1
 1238, river, regions_unexplored:cold_river, AMBIENT, minecraft:bat, 10, 8, 8
-1239, river, regions_unexplored:cold_river, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-1240, river, regions_unexplored:cold_river, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1241, river, regions_unexplored:cold_river, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1242, river, regions_unexplored:cold_river, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 1243, river, regions_unexplored:cold_river, WATER_CREATURE, minecraft:squid, 50, 1, 4
@@ -1340,8 +1310,6 @@
 1362, forest, minecraft:dark_forest, CREATURE, species:limpet, 10, 1, 1
 1365, forest, minecraft:dark_forest, CREATURE, minecraft:pig, 30, 1, 1
 1366, forest, minecraft:dark_forest, AMBIENT, minecraft:bat, 10, 8, 8
-1367, forest, minecraft:dark_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-1368, forest, minecraft:dark_forest, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1369, forest, minecraft:dark_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1370, forest, minecraft:dark_forest, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 1371, forest, minecraft:dark_forest, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -1383,8 +1351,6 @@
 1408, forest, regions_unexplored:deciduous_forest, CREATURE, mythicmounts:firebird, 10, 1, 1
 1411, forest, regions_unexplored:deciduous_forest, CREATURE, minecraft:pig, 30, 1, 1
 1412, forest, regions_unexplored:deciduous_forest, AMBIENT, minecraft:bat, 10, 8, 8
-1413, forest, regions_unexplored:deciduous_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-1414, forest, regions_unexplored:deciduous_forest, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1415, forest, regions_unexplored:deciduous_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1416, forest, regions_unexplored:deciduous_forest, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 1417, forest, regions_unexplored:deciduous_forest, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -1425,8 +1391,6 @@
 1452, ocean, minecraft:deep_cold_ocean, CREATURE, minecraft:pig, 30, 1, 1
 1453, ocean, minecraft:deep_cold_ocean, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 1454, ocean, minecraft:deep_cold_ocean, AMBIENT, minecraft:bat, 10, 8, 8
-1455, ocean, minecraft:deep_cold_ocean, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-1456, ocean, minecraft:deep_cold_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1457, ocean, minecraft:deep_cold_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1458, ocean, minecraft:deep_cold_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 1459, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
@@ -1450,25 +1414,6 @@
 1477, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, aquaculture:pink_salmon, 10, 1, 2
 1478, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, spawn:angler_fish, 10, 1, 5
 1479, ocean, minecraft:deep_cold_ocean, rascals, friendsandfoes:rascal, 10, 1, 1
-1480, none, minecraft:deep_dark, MONSTER, unusualfishmod:prawn, 20, 1, 1
-1481, none, minecraft:deep_dark, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-1482, none, minecraft:deep_dark, CREATURE, mythicmounts:firebird, 10, 1, 1
-1483, none, minecraft:deep_dark, CREATURE, minecraft:pig, 30, 1, 1
-1484, none, minecraft:deep_dark, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-1485, none, minecraft:deep_dark, AMBIENT, mythicmounts:dragon, 10, 1, 1
-1486, none, minecraft:deep_dark, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
-1487, none, minecraft:deep_dark, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
-1488, none, minecraft:deep_dark, WATER_CREATURE, unusualfishmod:shockcat, 20, 1, 2
-1489, none, minecraft:deep_dark, WATER_AMBIENT, unusualfishmod:hatchet_fish, 30, 1, 4
-1490, none, minecraft:deep_dark, WATER_AMBIENT, aquaculture:smallmouth_bass, 10, 1, 3
-1491, none, minecraft:deep_dark, WATER_AMBIENT, aquaculture:minnow, 18, 1, 5
-1492, none, minecraft:deep_dark, WATER_AMBIENT, aquaculture:catfish, 10, 1, 1
-1493, none, minecraft:deep_dark, WATER_AMBIENT, aquaculture:muskellunge, 10, 1, 1
-1494, none, minecraft:deep_dark, WATER_AMBIENT, aquaculture:carp, 10, 1, 3
-1495, none, minecraft:deep_dark, WATER_AMBIENT, aquaculture:perch, 20, 1, 6
-1496, none, minecraft:deep_dark, WATER_AMBIENT, aquaculture:gar, 10, 1, 2
-1497, none, minecraft:deep_dark, WATER_AMBIENT, aquaculture:brown_trout, 10, 1, 3
-1498, none, minecraft:deep_dark, WATER_AMBIENT, aquaculture:bluegill, 20, 1, 6
 1499, ocean, minecraft:deep_frozen_ocean, MONSTER, minecraft:spider, 80, 4, 4
 1500, ocean, minecraft:deep_frozen_ocean, MONSTER, minecraft:zombie, 80, 4, 4
 1501, ocean, minecraft:deep_frozen_ocean, MONSTER, minecraft:zombie_villager, 10, 1, 1
@@ -1495,8 +1440,6 @@
 1522, ocean, minecraft:deep_frozen_ocean, CREATURE, minecraft:pig, 30, 1, 1
 1523, ocean, minecraft:deep_frozen_ocean, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 1524, ocean, minecraft:deep_frozen_ocean, AMBIENT, minecraft:bat, 10, 8, 8
-1525, ocean, minecraft:deep_frozen_ocean, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-1526, ocean, minecraft:deep_frozen_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1527, ocean, minecraft:deep_frozen_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1528, ocean, minecraft:deep_frozen_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 1529, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
@@ -1538,8 +1481,6 @@
 1566, ocean, minecraft:deep_lukewarm_ocean, CREATURE, species:limpet, 10, 1, 1
 1567, ocean, minecraft:deep_lukewarm_ocean, CREATURE, minecraft:pig, 30, 1, 1
 1568, ocean, minecraft:deep_lukewarm_ocean, AMBIENT, minecraft:bat, 10, 8, 8
-1569, ocean, minecraft:deep_lukewarm_ocean, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-1570, ocean, minecraft:deep_lukewarm_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1571, ocean, minecraft:deep_lukewarm_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1572, ocean, minecraft:deep_lukewarm_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 1573, ocean, minecraft:deep_lukewarm_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
@@ -1578,8 +1519,6 @@
 1606, ocean, minecraft:deep_ocean, CREATURE, species:limpet, 10, 1, 1
 1607, ocean, minecraft:deep_ocean, CREATURE, minecraft:pig, 30, 1, 1
 1608, ocean, minecraft:deep_ocean, AMBIENT, minecraft:bat, 10, 8, 8
-1609, ocean, minecraft:deep_ocean, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-1610, ocean, minecraft:deep_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1611, ocean, minecraft:deep_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1612, ocean, minecraft:deep_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 1613, ocean, minecraft:deep_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
@@ -1634,7 +1573,6 @@
 1663, desert, minecraft:desert, CREATURE, minecraft:pig, 30, 1, 1
 1664, desert, minecraft:desert, AMBIENT, minecraft:bat, 10, 8, 8
 1665, desert, minecraft:desert, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-1666, desert, minecraft:desert, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1667, desert, minecraft:desert, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1668, desert, minecraft:desert, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 1669, desert, minecraft:desert, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -1687,8 +1625,6 @@
 1716, none, minecraft:dripstone_caves, CREATURE, species:limpet, 10, 1, 1
 1717, none, minecraft:dripstone_caves, CREATURE, minecraft:pig, 30, 1, 1
 1718, none, minecraft:dripstone_caves, AMBIENT, minecraft:bat, 10, 8, 8
-1719, none, minecraft:dripstone_caves, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-1720, none, minecraft:dripstone_caves, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1721, none, minecraft:dripstone_caves, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1722, none, minecraft:dripstone_caves, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 1723, none, minecraft:dripstone_caves, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -1842,8 +1778,6 @@
 1871, jungle, regions_unexplored:eucalyptus_forest, CREATURE, minecraft:pig, 30, 1, 1
 1873, jungle, regions_unexplored:eucalyptus_forest, CREATURE, minecraft:panda, 80, 1, 2
 1874, jungle, regions_unexplored:eucalyptus_forest, AMBIENT, minecraft:bat, 10, 8, 8
-1875, jungle, regions_unexplored:eucalyptus_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-1876, jungle, regions_unexplored:eucalyptus_forest, AMBIENT, mythicmounts:dragon, 10, 1, 1
 1877, jungle, regions_unexplored:eucalyptus_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 1878, jungle, regions_unexplored:eucalyptus_forest, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 1879, jungle, regions_unexplored:eucalyptus_forest, WATER_CREATURE, unusualfishmod:freshwater_mantis, 10, 1, 2
@@ -2030,8 +1964,6 @@
 2067, forest, minecraft:flower_forest, CREATURE, butterflies:clipper, 10, 1, 2
 2068, forest, minecraft:flower_forest, CREATURE, butterflies:buckeye, 10, 1, 2
 2069, forest, minecraft:flower_forest, AMBIENT, minecraft:bat, 10, 8, 8
-2070, forest, minecraft:flower_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2071, forest, minecraft:flower_forest, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2072, forest, minecraft:flower_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2073, forest, minecraft:flower_forest, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 2074, forest, minecraft:flower_forest, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -2076,8 +2008,6 @@
 2114, forest, minecraft:forest, CREATURE, species:limpet, 10, 1, 1
 2117, forest, minecraft:forest, CREATURE, minecraft:pig, 30, 1, 1
 2118, forest, minecraft:forest, AMBIENT, minecraft:bat, 10, 8, 8
-2119, forest, minecraft:forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2120, forest, minecraft:forest, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2121, forest, minecraft:forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2122, forest, minecraft:forest, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 2123, forest, minecraft:forest, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -2157,8 +2087,6 @@
 2197, ocean, minecraft:frozen_ocean, CREATURE, minecraft:pig, 30, 1, 1
 2198, ocean, minecraft:frozen_ocean, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 2199, ocean, minecraft:frozen_ocean, AMBIENT, minecraft:bat, 10, 8, 8
-2200, ocean, minecraft:frozen_ocean, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2201, ocean, minecraft:frozen_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2202, ocean, minecraft:frozen_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2203, ocean, minecraft:frozen_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 2204, ocean, minecraft:frozen_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
@@ -2209,8 +2137,6 @@
 2249, extreme_hills, minecraft:frozen_peaks, CREATURE, minecraft:pig, 30, 1, 1
 2250, extreme_hills, minecraft:frozen_peaks, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 2251, extreme_hills, minecraft:frozen_peaks, AMBIENT, minecraft:bat, 10, 8, 8
-2252, extreme_hills, minecraft:frozen_peaks, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2253, extreme_hills, minecraft:frozen_peaks, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2254, extreme_hills, minecraft:frozen_peaks, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2255, extreme_hills, minecraft:frozen_peaks, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 2256, extreme_hills, minecraft:frozen_peaks, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -2249,8 +2175,6 @@
 2289, none, regions_unexplored:frozen_pine_taiga, CREATURE, minecraft:pig, 30, 1, 1
 2290, none, regions_unexplored:frozen_pine_taiga, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 2291, none, regions_unexplored:frozen_pine_taiga, AMBIENT, minecraft:bat, 10, 8, 8
-2292, none, regions_unexplored:frozen_pine_taiga, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2293, none, regions_unexplored:frozen_pine_taiga, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2294, none, regions_unexplored:frozen_pine_taiga, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2295, none, regions_unexplored:frozen_pine_taiga, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 2296, none, regions_unexplored:frozen_pine_taiga, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -2291,8 +2215,6 @@
 2331, river, minecraft:frozen_river, CREATURE, minecraft:pig, 30, 1, 1
 2332, river, minecraft:frozen_river, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 2333, river, minecraft:frozen_river, AMBIENT, minecraft:bat, 10, 8, 8
-2334, river, minecraft:frozen_river, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2335, river, minecraft:frozen_river, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2336, river, minecraft:frozen_river, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2337, river, minecraft:frozen_river, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 2338, river, minecraft:frozen_river, WATER_CREATURE, minecraft:squid, 50, 1, 4
@@ -2338,8 +2260,6 @@
 2378, icy, regions_unexplored:frozen_tundra, CREATURE, minecraft:pig, 30, 1, 1
 2379, icy, regions_unexplored:frozen_tundra, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 2380, icy, regions_unexplored:frozen_tundra, AMBIENT, minecraft:bat, 10, 8, 8
-2381, icy, regions_unexplored:frozen_tundra, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2382, icy, regions_unexplored:frozen_tundra, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2383, icy, regions_unexplored:frozen_tundra, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2384, icy, regions_unexplored:frozen_tundra, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 2385, icy, regions_unexplored:frozen_tundra, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -2472,8 +2392,6 @@
 2512, taiga, regions_unexplored:golden_boreal_taiga, CREATURE, minecraft:pig, 30, 1, 1
 2513, taiga, regions_unexplored:golden_boreal_taiga, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 2514, taiga, regions_unexplored:golden_boreal_taiga, AMBIENT, minecraft:bat, 10, 8, 8
-2515, taiga, regions_unexplored:golden_boreal_taiga, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2516, taiga, regions_unexplored:golden_boreal_taiga, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2517, taiga, regions_unexplored:golden_boreal_taiga, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2518, taiga, regions_unexplored:golden_boreal_taiga, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 2519, taiga, regions_unexplored:golden_boreal_taiga, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -2561,8 +2479,6 @@
 2603, plains, regions_unexplored:grassland, CREATURE, minecraft:pig, 30, 1, 1
 2604, plains, regions_unexplored:grassland, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 2605, plains, regions_unexplored:grassland, AMBIENT, minecraft:bat, 10, 8, 8
-2606, plains, regions_unexplored:grassland, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2607, plains, regions_unexplored:grassland, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2608, plains, regions_unexplored:grassland, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2609, plains, regions_unexplored:grassland, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 2610, plains, regions_unexplored:grassland, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -2595,8 +2511,6 @@
 2638, beach, regions_unexplored:grassy_beach, CREATURE, minecraft:pig, 30, 1, 1
 2639, beach, regions_unexplored:grassy_beach, CREATURE, whatareyouvotingfor:crab, 10, 1, 2
 2640, beach, regions_unexplored:grassy_beach, AMBIENT, minecraft:bat, 10, 8, 8
-2641, beach, regions_unexplored:grassy_beach, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2642, beach, regions_unexplored:grassy_beach, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2643, beach, regions_unexplored:grassy_beach, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2644, beach, regions_unexplored:grassy_beach, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 2645, beach, regions_unexplored:grassy_beach, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -2627,8 +2541,6 @@
 2670, beach, regions_unexplored:gravel_beach, CREATURE, minecraft:pig, 30, 1, 1
 2671, beach, regions_unexplored:gravel_beach, CREATURE, whatareyouvotingfor:crab, 10, 1, 2
 2672, beach, regions_unexplored:gravel_beach, AMBIENT, minecraft:bat, 10, 8, 8
-2673, beach, regions_unexplored:gravel_beach, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2674, beach, regions_unexplored:gravel_beach, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2675, beach, regions_unexplored:gravel_beach, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2676, beach, regions_unexplored:gravel_beach, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 2677, beach, regions_unexplored:gravel_beach, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -2752,8 +2664,6 @@
 2798, plains, regions_unexplored:highland_fields, CREATURE, mythicmounts:firebird, 10, 1, 1
 2799, plains, regions_unexplored:highland_fields, CREATURE, minecraft:pig, 30, 1, 1
 2800, plains, regions_unexplored:highland_fields, AMBIENT, minecraft:bat, 10, 8, 8
-2801, plains, regions_unexplored:highland_fields, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2802, plains, regions_unexplored:highland_fields, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2803, plains, regions_unexplored:highland_fields, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2804, plains, regions_unexplored:highland_fields, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 2805, plains, regions_unexplored:highland_fields, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -2845,8 +2755,6 @@
 2891, ocean, regions_unexplored:hyacinth_deeps, CREATURE, minecraft:pig, 30, 1, 1
 2892, ocean, regions_unexplored:hyacinth_deeps, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 2893, ocean, regions_unexplored:hyacinth_deeps, AMBIENT, minecraft:bat, 10, 8, 8
-2894, ocean, regions_unexplored:hyacinth_deeps, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2895, ocean, regions_unexplored:hyacinth_deeps, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2896, ocean, regions_unexplored:hyacinth_deeps, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2897, ocean, regions_unexplored:hyacinth_deeps, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 2898, ocean, regions_unexplored:hyacinth_deeps, WATER_CREATURE, minecraft:squid, 50, 1, 4
@@ -2899,8 +2807,6 @@
 2945, none, minecraft:ice_spikes, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 2946, none, minecraft:ice_spikes, CREATURE, whatareyouvotingfor:penguin, 50, 3, 5
 2947, none, minecraft:ice_spikes, AMBIENT, minecraft:bat, 10, 8, 8
-2948, none, minecraft:ice_spikes, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2949, none, minecraft:ice_spikes, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2950, none, minecraft:ice_spikes, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2951, none, minecraft:ice_spikes, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 2952, none, minecraft:ice_spikes, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -2941,8 +2847,6 @@
 2987, extreme_hills, regions_unexplored:icy_heights, CREATURE, minecraft:pig, 30, 1, 1
 2988, extreme_hills, regions_unexplored:icy_heights, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 2989, extreme_hills, regions_unexplored:icy_heights, AMBIENT, minecraft:bat, 10, 8, 8
-2990, extreme_hills, regions_unexplored:icy_heights, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-2991, extreme_hills, regions_unexplored:icy_heights, AMBIENT, mythicmounts:dragon, 10, 1, 1
 2992, extreme_hills, regions_unexplored:icy_heights, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 2993, extreme_hills, regions_unexplored:icy_heights, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 2994, extreme_hills, regions_unexplored:icy_heights, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -2994,8 +2898,6 @@
 3040, extreme_hills, minecraft:jagged_peaks, CREATURE, minecraft:pig, 30, 1, 1
 3041, extreme_hills, minecraft:jagged_peaks, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 3042, extreme_hills, minecraft:jagged_peaks, AMBIENT, minecraft:bat, 10, 8, 8
-3043, extreme_hills, minecraft:jagged_peaks, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-3044, extreme_hills, minecraft:jagged_peaks, AMBIENT, mythicmounts:dragon, 10, 1, 1
 3045, extreme_hills, minecraft:jagged_peaks, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 3046, extreme_hills, minecraft:jagged_peaks, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 3047, extreme_hills, minecraft:jagged_peaks, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -3032,8 +2934,6 @@
 3078, desert, regions_unexplored:joshua_desert, CREATURE, mythicmounts:firebird, 10, 1, 1
 3080, desert, regions_unexplored:joshua_desert, CREATURE, minecraft:pig, 30, 1, 1
 3081, desert, regions_unexplored:joshua_desert, AMBIENT, minecraft:bat, 10, 8, 8
-3082, desert, regions_unexplored:joshua_desert, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-3083, desert, regions_unexplored:joshua_desert, AMBIENT, mythicmounts:dragon, 10, 1, 1
 3084, desert, regions_unexplored:joshua_desert, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 3085, desert, regions_unexplored:joshua_desert, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 3086, desert, regions_unexplored:joshua_desert, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -3184,8 +3084,6 @@
 3234, ocean, minecraft:lukewarm_ocean, CREATURE, species:limpet, 10, 1, 1
 3235, ocean, minecraft:lukewarm_ocean, CREATURE, minecraft:pig, 30, 1, 1
 3236, ocean, minecraft:lukewarm_ocean, AMBIENT, minecraft:bat, 10, 8, 8
-3237, ocean, minecraft:lukewarm_ocean, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-3238, ocean, minecraft:lukewarm_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 3239, ocean, minecraft:lukewarm_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 3240, ocean, minecraft:lukewarm_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 3241, ocean, minecraft:lukewarm_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 2
@@ -3296,7 +3194,6 @@
 3350, forest, regions_unexplored:magnolia_woodland, CREATURE, butterflies:clipper, 10, 1, 2
 3351, forest, regions_unexplored:magnolia_woodland, CREATURE, butterflies:buckeye, 10, 1, 2
 3352, forest, regions_unexplored:magnolia_woodland, AMBIENT, minecraft:bat, 10, 8, 8
-3353, forest, regions_unexplored:magnolia_woodland, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 3354, forest, regions_unexplored:magnolia_woodland, AMBIENT, mythicmounts:dragon, 10, 1, 1
 3355, forest, regions_unexplored:magnolia_woodland, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 3356, forest, regions_unexplored:magnolia_woodland, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
@@ -3406,7 +3303,6 @@
 3464, forest, regions_unexplored:maple_forest, CREATURE, butterflies:clipper, 10, 1, 2
 3465, forest, regions_unexplored:maple_forest, CREATURE, butterflies:buckeye, 10, 1, 2
 3466, forest, regions_unexplored:maple_forest, AMBIENT, minecraft:bat, 10, 8, 8
-3467, forest, regions_unexplored:maple_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 3468, forest, regions_unexplored:maple_forest, AMBIENT, mythicmounts:dragon, 10, 1, 1
 3469, forest, regions_unexplored:maple_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 3470, forest, regions_unexplored:maple_forest, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
@@ -3512,7 +3408,6 @@
 3573, forest, regions_unexplored:mauve_hills, CREATURE, butterflies:clipper, 10, 1, 2
 3574, forest, regions_unexplored:mauve_hills, CREATURE, butterflies:buckeye, 10, 1, 2
 3575, forest, regions_unexplored:mauve_hills, AMBIENT, minecraft:bat, 10, 8, 8
-3576, forest, regions_unexplored:mauve_hills, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 3577, forest, regions_unexplored:mauve_hills, AMBIENT, mythicmounts:dragon, 10, 1, 1
 3578, forest, regions_unexplored:mauve_hills, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 3579, forest, regions_unexplored:mauve_hills, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
@@ -3580,7 +3475,6 @@
 3644, plains, minecraft:meadow, CREATURE, butterflies:clipper, 10, 1, 2
 3645, plains, minecraft:meadow, CREATURE, butterflies:buckeye, 10, 1, 2
 3646, plains, minecraft:meadow, AMBIENT, minecraft:bat, 10, 8, 8
-3647, plains, minecraft:meadow, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 3648, plains, minecraft:meadow, AMBIENT, mythicmounts:dragon, 10, 1, 1
 3649, plains, minecraft:meadow, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 3650, plains, minecraft:meadow, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
@@ -3708,7 +3602,6 @@
 3772, extreme_hills, regions_unexplored:mountains, CREATURE, earthmobsmod:horned_sheep, 10, 3, 6
 3773, extreme_hills, regions_unexplored:mountains, CREATURE, minecraft:pig, 30, 1, 1
 3774, extreme_hills, regions_unexplored:mountains, AMBIENT, minecraft:bat, 10, 8, 8
-3775, extreme_hills, regions_unexplored:mountains, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 3776, extreme_hills, regions_unexplored:mountains, AMBIENT, mythicmounts:dragon, 10, 1, 1
 3777, extreme_hills, regions_unexplored:mountains, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 3778, extreme_hills, regions_unexplored:mountains, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
@@ -3744,8 +3637,6 @@
 3808, river, regions_unexplored:muddy_river, CREATURE, unusualprehistory:austroraptor, 10, 1, 1
 3809, river, regions_unexplored:muddy_river, CREATURE, minecraft:pig, 30, 1, 1
 3810, river, regions_unexplored:muddy_river, AMBIENT, minecraft:bat, 10, 8, 8
-3811, river, regions_unexplored:muddy_river, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-3812, river, regions_unexplored:muddy_river, AMBIENT, mythicmounts:dragon, 10, 1, 1
 3813, river, regions_unexplored:muddy_river, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 3814, river, regions_unexplored:muddy_river, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 3815, river, regions_unexplored:muddy_river, WATER_CREATURE, minecraft:squid, 50, 1, 4
@@ -3777,8 +3668,6 @@
 3841, none, minecraft:mushroom_fields, CREATURE, minecraft:pig, 30, 1, 1
 3842, none, minecraft:mushroom_fields, AMBIENT, minecraft:bat, 10, 8, 8
 3843, none, minecraft:mushroom_fields, AMBIENT, endermanoverhaul:mushroom_fields_enderman, 10, 1, 2
-3844, none, minecraft:mushroom_fields, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-3845, none, minecraft:mushroom_fields, AMBIENT, mythicmounts:dragon, 10, 1, 1
 3846, none, minecraft:mushroom_fields, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 3847, none, minecraft:mushroom_fields, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 3848, none, minecraft:mushroom_fields, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -3856,8 +3745,6 @@
 3920, ocean, minecraft:ocean, CREATURE, species:limpet, 10, 1, 1
 3921, ocean, minecraft:ocean, CREATURE, minecraft:pig, 30, 1, 1
 3922, ocean, minecraft:ocean, AMBIENT, minecraft:bat, 10, 8, 8
-3923, ocean, minecraft:ocean, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-3924, ocean, minecraft:ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 3925, ocean, minecraft:ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 3926, ocean, minecraft:ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 3927, ocean, minecraft:ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
@@ -3966,7 +3853,6 @@
 4033, forest, minecraft:old_growth_birch_forest, CREATURE, butterflies:clipper, 10, 1, 2
 4034, forest, minecraft:old_growth_birch_forest, CREATURE, butterflies:buckeye, 10, 1, 2
 4035, forest, minecraft:old_growth_birch_forest, AMBIENT, minecraft:bat, 10, 8, 8
-4036, forest, minecraft:old_growth_birch_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 4037, forest, minecraft:old_growth_birch_forest, AMBIENT, mythicmounts:dragon, 10, 1, 1
 4038, forest, minecraft:old_growth_birch_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 4039, forest, minecraft:old_growth_birch_forest, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
@@ -4021,7 +3907,6 @@
 4088, taiga, minecraft:old_growth_pine_taiga, CREATURE, minecraft:pig, 30, 1, 1
 4089, taiga, minecraft:old_growth_pine_taiga, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 4090, taiga, minecraft:old_growth_pine_taiga, AMBIENT, minecraft:bat, 10, 8, 8
-4091, taiga, minecraft:old_growth_pine_taiga, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 4092, taiga, minecraft:old_growth_pine_taiga, AMBIENT, mythicmounts:dragon, 10, 1, 1
 4093, taiga, minecraft:old_growth_pine_taiga, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 4094, taiga, minecraft:old_growth_pine_taiga, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
@@ -4071,7 +3956,6 @@
 4138, taiga, minecraft:old_growth_spruce_taiga, CREATURE, species:limpet, 10, 1, 1
 4139, taiga, minecraft:old_growth_spruce_taiga, CREATURE, minecraft:pig, 30, 1, 1
 4140, taiga, minecraft:old_growth_spruce_taiga, AMBIENT, minecraft:bat, 10, 8, 8
-4141, taiga, minecraft:old_growth_spruce_taiga, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 4142, taiga, minecraft:old_growth_spruce_taiga, AMBIENT, mythicmounts:dragon, 10, 1, 1
 4143, taiga, minecraft:old_growth_spruce_taiga, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 4144, taiga, minecraft:old_growth_spruce_taiga, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
@@ -4131,7 +4015,6 @@
 4201, forest, regions_unexplored:orchard, CREATURE, butterflies:clipper, 10, 1, 2
 4202, forest, regions_unexplored:orchard, CREATURE, butterflies:buckeye, 10, 1, 2
 4203, forest, regions_unexplored:orchard, AMBIENT, minecraft:bat, 10, 8, 8
-4204, forest, regions_unexplored:orchard, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 4205, forest, regions_unexplored:orchard, AMBIENT, mythicmounts:dragon, 10, 1, 1
 4206, forest, regions_unexplored:orchard, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 4207, forest, regions_unexplored:orchard, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
@@ -4206,7 +4089,6 @@
 4277, none, regions_unexplored:pine_slopes, CREATURE, earthmobsmod:horned_sheep, 10, 3, 6
 4278, none, regions_unexplored:pine_slopes, CREATURE, minecraft:pig, 30, 1, 1
 4279, none, regions_unexplored:pine_slopes, AMBIENT, minecraft:bat, 10, 8, 8
-4280, none, regions_unexplored:pine_slopes, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 4281, none, regions_unexplored:pine_slopes, AMBIENT, mythicmounts:dragon, 10, 1, 1
 4282, none, regions_unexplored:pine_slopes, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 4283, none, regions_unexplored:pine_slopes, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
@@ -4252,7 +4134,6 @@
 4323, taiga, regions_unexplored:pine_taiga, CREATURE, mythicmounts:firebird, 10, 1, 1
 4324, taiga, regions_unexplored:pine_taiga, CREATURE, minecraft:pig, 30, 1, 1
 4325, taiga, regions_unexplored:pine_taiga, AMBIENT, minecraft:bat, 10, 8, 8
-4326, taiga, regions_unexplored:pine_taiga, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 4327, taiga, regions_unexplored:pine_taiga, AMBIENT, mythicmounts:dragon, 10, 1, 1
 4328, taiga, regions_unexplored:pine_taiga, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 4329, taiga, regions_unexplored:pine_taiga, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
@@ -4318,8 +4199,6 @@
 4391, plains, minecraft:plains, CREATURE, minecraft:pig, 30, 1, 1
 4392, plains, minecraft:plains, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 4393, plains, minecraft:plains, AMBIENT, minecraft:bat, 10, 8, 8
-4394, plains, minecraft:plains, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-4395, plains, minecraft:plains, AMBIENT, mythicmounts:dragon, 10, 1, 1
 4396, plains, minecraft:plains, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 4397, plains, minecraft:plains, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 4398, plains, minecraft:plains, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -4399,8 +4278,6 @@
 4474, none, regions_unexplored:poppy_fields, CREATURE, minecraft:pig, 30, 1, 1
 4475, none, regions_unexplored:poppy_fields, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 4476, none, regions_unexplored:poppy_fields, AMBIENT, minecraft:bat, 10, 8, 8
-4477, none, regions_unexplored:poppy_fields, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-4478, none, regions_unexplored:poppy_fields, AMBIENT, mythicmounts:dragon, 10, 1, 1
 4479, none, regions_unexplored:poppy_fields, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 4480, none, regions_unexplored:poppy_fields, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 4481, none, regions_unexplored:poppy_fields, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -4538,8 +4415,6 @@
 4618, none, regions_unexplored:pumpkin_fields, CREATURE, minecraft:pig, 30, 1, 1
 4619, none, regions_unexplored:pumpkin_fields, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 4620, none, regions_unexplored:pumpkin_fields, AMBIENT, minecraft:bat, 10, 8, 8
-4621, none, regions_unexplored:pumpkin_fields, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-4622, none, regions_unexplored:pumpkin_fields, AMBIENT, mythicmounts:dragon, 10, 1, 1
 4623, none, regions_unexplored:pumpkin_fields, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 4624, none, regions_unexplored:pumpkin_fields, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 4625, none, regions_unexplored:pumpkin_fields, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -4672,8 +4547,6 @@
 4753, taiga, regions_unexplored:redwoods, CREATURE, mythicmounts:firebird, 10, 1, 1
 4754, taiga, regions_unexplored:redwoods, CREATURE, minecraft:pig, 30, 1, 1
 4755, taiga, regions_unexplored:redwoods, AMBIENT, minecraft:bat, 10, 8, 8
-4756, taiga, regions_unexplored:redwoods, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-4757, taiga, regions_unexplored:redwoods, AMBIENT, mythicmounts:dragon, 10, 1, 1
 4758, taiga, regions_unexplored:redwoods, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 4759, taiga, regions_unexplored:redwoods, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 4760, taiga, regions_unexplored:redwoods, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -4711,8 +4584,6 @@
 4792, river, minecraft:river, CREATURE, unusualprehistory:austroraptor, 10, 1, 1
 4793, river, minecraft:river, CREATURE, minecraft:pig, 30, 1, 1
 4794, river, minecraft:river, AMBIENT, minecraft:bat, 10, 8, 8
-4795, river, minecraft:river, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-4796, river, minecraft:river, AMBIENT, mythicmounts:dragon, 10, 1, 1
 4797, river, minecraft:river, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 4798, river, minecraft:river, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 4799, river, minecraft:river, WATER_CREATURE, minecraft:squid, 50, 1, 4
@@ -4812,8 +4683,6 @@
 4895, ocean, regions_unexplored:rocky_reef, CREATURE, mythicmounts:firebird, 10, 1, 1
 4896, ocean, regions_unexplored:rocky_reef, CREATURE, minecraft:pig, 30, 1, 1
 4897, ocean, regions_unexplored:rocky_reef, AMBIENT, minecraft:bat, 10, 8, 8
-4898, ocean, regions_unexplored:rocky_reef, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-4899, ocean, regions_unexplored:rocky_reef, AMBIENT, mythicmounts:dragon, 10, 1, 1
 4900, ocean, regions_unexplored:rocky_reef, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 4901, ocean, regions_unexplored:rocky_reef, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 4902, ocean, regions_unexplored:rocky_reef, WATER_CREATURE, minecraft:squid, 50, 1, 3
@@ -5107,8 +4976,6 @@
 5196, forest, regions_unexplored:silver_birch_forest, CREATURE, butterflies:clipper, 10, 1, 2
 5197, forest, regions_unexplored:silver_birch_forest, CREATURE, butterflies:buckeye, 10, 1, 2
 5198, forest, regions_unexplored:silver_birch_forest, AMBIENT, minecraft:bat, 10, 8, 8
-5199, forest, regions_unexplored:silver_birch_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-5200, forest, regions_unexplored:silver_birch_forest, AMBIENT, mythicmounts:dragon, 10, 1, 1
 5201, forest, regions_unexplored:silver_birch_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 5202, forest, regions_unexplored:silver_birch_forest, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 5203, forest, regions_unexplored:silver_birch_forest, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -5244,8 +5111,6 @@
 5333, beach, minecraft:snowy_beach, CREATURE, minecraft:pig, 30, 1, 1
 5334, beach, minecraft:snowy_beach, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 5335, beach, minecraft:snowy_beach, AMBIENT, minecraft:bat, 10, 8, 8
-5336, beach, minecraft:snowy_beach, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-5337, beach, minecraft:snowy_beach, AMBIENT, mythicmounts:dragon, 10, 1, 1
 5338, beach, minecraft:snowy_beach, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 5339, beach, minecraft:snowy_beach, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 5340, beach, minecraft:snowy_beach, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -5303,8 +5168,6 @@
 5394, icy, minecraft:snowy_plains, CREATURE, minecraft:pig, 30, 1, 1
 5395, icy, minecraft:snowy_plains, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 5396, icy, minecraft:snowy_plains, AMBIENT, minecraft:bat, 10, 8, 8
-5397, icy, minecraft:snowy_plains, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-5398, icy, minecraft:snowy_plains, AMBIENT, mythicmounts:dragon, 10, 1, 1
 5399, icy, minecraft:snowy_plains, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 5400, icy, minecraft:snowy_plains, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 5401, icy, minecraft:snowy_plains, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -5349,8 +5212,6 @@
 5440, extreme_hills, minecraft:snowy_slopes, CREATURE, minecraft:pig, 30, 1, 1
 5441, extreme_hills, minecraft:snowy_slopes, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 5442, extreme_hills, minecraft:snowy_slopes, AMBIENT, minecraft:bat, 10, 8, 8
-5443, extreme_hills, minecraft:snowy_slopes, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-5444, extreme_hills, minecraft:snowy_slopes, AMBIENT, mythicmounts:dragon, 10, 1, 1
 5445, extreme_hills, minecraft:snowy_slopes, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 5446, extreme_hills, minecraft:snowy_slopes, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 5447, extreme_hills, minecraft:snowy_slopes, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -5401,8 +5262,6 @@
 5492, taiga, minecraft:snowy_taiga, CREATURE, minecraft:pig, 30, 1, 1
 5493, taiga, minecraft:snowy_taiga, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 5494, taiga, minecraft:snowy_taiga, AMBIENT, minecraft:bat, 10, 8, 8
-5495, taiga, minecraft:snowy_taiga, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-5496, taiga, minecraft:snowy_taiga, AMBIENT, mythicmounts:dragon, 10, 1, 1
 5497, taiga, minecraft:snowy_taiga, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 5498, taiga, minecraft:snowy_taiga, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 5499, taiga, minecraft:snowy_taiga, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -5525,8 +5384,6 @@
 5616, jungle, regions_unexplored:sparse_rainforest, CREATURE, minecraft:pig, 30, 1, 1
 5618, jungle, regions_unexplored:sparse_rainforest, CREATURE, minecraft:panda, 80, 1, 2
 5619, jungle, regions_unexplored:sparse_rainforest, AMBIENT, minecraft:bat, 10, 8, 8
-5620, jungle, regions_unexplored:sparse_rainforest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-5621, jungle, regions_unexplored:sparse_rainforest, AMBIENT, mythicmounts:dragon, 10, 1, 1
 5622, jungle, regions_unexplored:sparse_rainforest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 5623, jungle, regions_unexplored:sparse_rainforest, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 5624, jungle, regions_unexplored:sparse_rainforest, WATER_CREATURE, unusualfishmod:freshwater_mantis, 10, 1, 2
@@ -5568,8 +5425,6 @@
 5660, taiga, regions_unexplored:sparse_redwoods, CREATURE, mythicmounts:firebird, 10, 1, 1
 5661, taiga, regions_unexplored:sparse_redwoods, CREATURE, minecraft:pig, 30, 1, 1
 5662, taiga, regions_unexplored:sparse_redwoods, AMBIENT, minecraft:bat, 10, 8, 8
-5663, taiga, regions_unexplored:sparse_redwoods, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-5664, taiga, regions_unexplored:sparse_redwoods, AMBIENT, mythicmounts:dragon, 10, 1, 1
 5665, taiga, regions_unexplored:sparse_redwoods, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 5666, taiga, regions_unexplored:sparse_redwoods, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 5667, taiga, regions_unexplored:sparse_redwoods, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -5604,7 +5459,6 @@
 5696, none, regions_unexplored:spires, CREATURE, mythicmounts:firebird, 10, 1, 1
 5697, none, regions_unexplored:spires, CREATURE, minecraft:pig, 30, 1, 1
 5698, none, regions_unexplored:spires, AMBIENT, minecraft:bat, 10, 8, 8
-5699, none, regions_unexplored:spires, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 5700, none, regions_unexplored:spires, AMBIENT, mythicmounts:dragon, 10, 1, 1
 5701, none, regions_unexplored:spires, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 5702, none, regions_unexplored:spires, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
@@ -5687,7 +5541,6 @@
 5779, extreme_hills, minecraft:stony_peaks, CREATURE, earthmobsmod:horned_sheep, 10, 3, 6
 5780, extreme_hills, minecraft:stony_peaks, CREATURE, minecraft:pig, 30, 1, 1
 5781, extreme_hills, minecraft:stony_peaks, AMBIENT, minecraft:bat, 10, 8, 8
-5782, extreme_hills, minecraft:stony_peaks, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 5783, extreme_hills, minecraft:stony_peaks, AMBIENT, mythicmounts:dragon, 10, 1, 1
 5784, extreme_hills, minecraft:stony_peaks, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 5785, extreme_hills, minecraft:stony_peaks, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
@@ -5717,8 +5570,6 @@
 5809, none, minecraft:stony_shore, CREATURE, minecraft:pig, 30, 1, 1
 5810, none, minecraft:stony_shore, CREATURE, whatareyouvotingfor:penguin, 50, 3, 5
 5811, none, minecraft:stony_shore, AMBIENT, minecraft:bat, 10, 8, 8
-5812, none, minecraft:stony_shore, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-5813, none, minecraft:stony_shore, AMBIENT, mythicmounts:dragon, 10, 1, 1
 5814, none, minecraft:stony_shore, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 5815, none, minecraft:stony_shore, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 5816, none, minecraft:stony_shore, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -5833,8 +5684,6 @@
 5927, none, minecraft:sunflower_plains, CREATURE, butterflies:clipper, 10, 1, 2
 5928, none, minecraft:sunflower_plains, CREATURE, butterflies:buckeye, 10, 1, 2
 5929, none, minecraft:sunflower_plains, AMBIENT, minecraft:bat, 10, 8, 8
-5930, none, minecraft:sunflower_plains, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-5931, none, minecraft:sunflower_plains, AMBIENT, mythicmounts:dragon, 10, 1, 1
 5932, none, minecraft:sunflower_plains, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 5933, none, minecraft:sunflower_plains, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 5934, none, minecraft:sunflower_plains, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -5940,8 +5789,6 @@
 6034, taiga, minecraft:taiga, CREATURE, minecraft:pig, 30, 1, 1
 6035, taiga, minecraft:taiga, CREATURE, unusualprehistory:mammoth, 10, 3, 4
 6036, taiga, minecraft:taiga, AMBIENT, minecraft:bat, 10, 8, 8
-6037, taiga, minecraft:taiga, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-6038, taiga, minecraft:taiga, AMBIENT, mythicmounts:dragon, 10, 1, 1
 6039, taiga, minecraft:taiga, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 6040, taiga, minecraft:taiga, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 6041, taiga, minecraft:taiga, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -6001,8 +5848,6 @@
 6098, forest, regions_unexplored:temperate_grove, CREATURE, butterflies:clipper, 10, 1, 2
 6099, forest, regions_unexplored:temperate_grove, CREATURE, butterflies:buckeye, 10, 1, 2
 6100, forest, regions_unexplored:temperate_grove, AMBIENT, minecraft:bat, 10, 8, 8
-6101, forest, regions_unexplored:temperate_grove, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-6102, forest, regions_unexplored:temperate_grove, AMBIENT, mythicmounts:dragon, 10, 1, 1
 6103, forest, regions_unexplored:temperate_grove, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 6104, forest, regions_unexplored:temperate_grove, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 6105, forest, regions_unexplored:temperate_grove, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -6100,7 +5945,6 @@
 6197, extreme_hills, regions_unexplored:towering_cliffs, CREATURE, mythicmounts:firebird, 10, 1, 1
 6198, extreme_hills, regions_unexplored:towering_cliffs, CREATURE, minecraft:pig, 30, 1, 1
 6199, extreme_hills, regions_unexplored:towering_cliffs, AMBIENT, minecraft:bat, 10, 8, 8
-6200, extreme_hills, regions_unexplored:towering_cliffs, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
 6201, extreme_hills, regions_unexplored:towering_cliffs, AMBIENT, mythicmounts:dragon, 10, 1, 1
 6202, extreme_hills, regions_unexplored:towering_cliffs, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 6203, extreme_hills, regions_unexplored:towering_cliffs, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
@@ -6137,8 +5981,6 @@
 6234, river, regions_unexplored:tropical_river, CREATURE, unusualprehistory:austroraptor, 10, 1, 1
 6235, river, regions_unexplored:tropical_river, CREATURE, minecraft:pig, 30, 1, 1
 6236, river, regions_unexplored:tropical_river, AMBIENT, minecraft:bat, 10, 8, 8
-6237, river, regions_unexplored:tropical_river, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-6238, river, regions_unexplored:tropical_river, AMBIENT, mythicmounts:dragon, 10, 1, 1
 6239, river, regions_unexplored:tropical_river, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 6240, river, regions_unexplored:tropical_river, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 6241, river, regions_unexplored:tropical_river, WATER_CREATURE, minecraft:squid, 50, 1, 4
@@ -6182,7 +6024,6 @@
 6279, none, regions_unexplored:tropics, CREATURE, minecraft:pig, 30, 1, 1
 6280, none, regions_unexplored:tropics, AMBIENT, minecraft:bat, 10, 8, 8
 6281, none, regions_unexplored:tropics, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-6282, none, regions_unexplored:tropics, AMBIENT, mythicmounts:dragon, 10, 1, 1
 6283, none, regions_unexplored:tropics, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 6284, none, regions_unexplored:tropics, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 6285, none, regions_unexplored:tropics, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -6219,10 +6060,7 @@
 6317, ocean, minecraft:warm_ocean, CREATURE, mythicmounts:firebird, 10, 1, 1
 6318, ocean, minecraft:warm_ocean, CREATURE, mythicmounts:nudibranch, 50, 3, 5
 6319, ocean, minecraft:warm_ocean, CREATURE, species:limpet, 10, 1, 1
-6320, ocean, minecraft:warm_ocean, CREATURE, minecraft:pig, 30, 1, 1
 6321, ocean, minecraft:warm_ocean, AMBIENT, minecraft:bat, 10, 8, 8
-6322, ocean, minecraft:warm_ocean, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-6323, ocean, minecraft:warm_ocean, AMBIENT, mythicmounts:dragon, 10, 1, 1
 6324, ocean, minecraft:warm_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 6325, ocean, minecraft:warm_ocean, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 6326, ocean, minecraft:warm_ocean, WATER_CREATURE, minecraft:squid, 50, 4, 4
@@ -6313,8 +6151,6 @@
 6414, forest, regions_unexplored:willow_forest, CREATURE, butterflies:clipper, 10, 1, 2
 6415, forest, regions_unexplored:willow_forest, CREATURE, butterflies:buckeye, 10, 1, 2
 6416, forest, regions_unexplored:willow_forest, AMBIENT, minecraft:bat, 10, 8, 8
-6417, forest, regions_unexplored:willow_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-6418, forest, regions_unexplored:willow_forest, AMBIENT, mythicmounts:dragon, 10, 1, 1
 6419, forest, regions_unexplored:willow_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 6420, forest, regions_unexplored:willow_forest, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 6421, forest, regions_unexplored:willow_forest, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -6355,8 +6191,6 @@
 6456, none, minecraft:windswept_forest, CREATURE, species:limpet, 10, 1, 1
 6457, none, minecraft:windswept_forest, CREATURE, minecraft:pig, 30, 1, 1
 6458, none, minecraft:windswept_forest, AMBIENT, minecraft:bat, 10, 8, 8
-6459, none, minecraft:windswept_forest, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-6460, none, minecraft:windswept_forest, AMBIENT, mythicmounts:dragon, 10, 1, 1
 6461, none, minecraft:windswept_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 6462, none, minecraft:windswept_forest, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 6463, none, minecraft:windswept_forest, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -6397,8 +6231,6 @@
 6498, none, minecraft:windswept_gravelly_hills, CREATURE, species:limpet, 10, 1, 1
 6499, none, minecraft:windswept_gravelly_hills, CREATURE, minecraft:pig, 30, 1, 1
 6500, none, minecraft:windswept_gravelly_hills, AMBIENT, minecraft:bat, 10, 8, 8
-6501, none, minecraft:windswept_gravelly_hills, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-6502, none, minecraft:windswept_gravelly_hills, AMBIENT, mythicmounts:dragon, 10, 1, 1
 6503, none, minecraft:windswept_gravelly_hills, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 6504, none, minecraft:windswept_gravelly_hills, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 6505, none, minecraft:windswept_gravelly_hills, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -6440,8 +6272,6 @@
 6541, none, minecraft:windswept_hills, CREATURE, species:limpet, 10, 1, 1
 6542, none, minecraft:windswept_hills, CREATURE, minecraft:pig, 30, 1, 1
 6543, none, minecraft:windswept_hills, AMBIENT, minecraft:bat, 10, 8, 8
-6544, none, minecraft:windswept_hills, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-6545, none, minecraft:windswept_hills, AMBIENT, mythicmounts:dragon, 10, 1, 1
 6546, none, minecraft:windswept_hills, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 6547, none, minecraft:windswept_hills, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 6548, none, minecraft:windswept_hills, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -6491,8 +6321,6 @@
 6592, savanna, minecraft:windswept_savanna, CREATURE, whatareyouvotingfor:armadillo, 30, 1, 1
 6593, savanna, minecraft:windswept_savanna, CREATURE, whatareyouvotingfor:armadillo, 30, 1, 1
 6594, savanna, minecraft:windswept_savanna, AMBIENT, minecraft:bat, 10, 8, 8
-6595, savanna, minecraft:windswept_savanna, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-6596, savanna, minecraft:windswept_savanna, AMBIENT, mythicmounts:dragon, 10, 1, 1
 6597, savanna, minecraft:windswept_savanna, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 6598, savanna, minecraft:windswept_savanna, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 6599, savanna, minecraft:windswept_savanna, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2
@@ -6533,8 +6361,6 @@
 6634, badlands, minecraft:wooded_badlands, CREATURE, earthmobsmod:horned_sheep, 10, 3, 6
 6636, badlands, minecraft:wooded_badlands, CREATURE, minecraft:pig, 30, 1, 1
 6637, badlands, minecraft:wooded_badlands, AMBIENT, minecraft:bat, 10, 8, 8
-6638, badlands, minecraft:wooded_badlands, AMBIENT, mythicmounts:geckotoalizard, 10, 1, 1
-6639, badlands, minecraft:wooded_badlands, AMBIENT, mythicmounts:dragon, 10, 1, 1
 6640, badlands, minecraft:wooded_badlands, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
 6641, badlands, minecraft:wooded_badlands, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 6642, badlands, minecraft:wooded_badlands, WATER_CREATURE, unusualfishmod:deep_crawler, 30, 1, 2

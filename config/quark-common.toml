@@ -642,7 +642,7 @@
 		#How many ticks it takes for a dog to want affection after being pet/tamed; leave -1 to disable
 		"Dogs Want Love" = -1
 		#Whether you can pet all mobs
-		"Pet All Mobs" = false
+		"Pet All Mobs" = true
 		#If `petAllMobs` is set, these mobs still can't be pet
 		"Pettable Denylist" = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:armor_stand"]
 		#Even if `petAllMobs` is not set, these mobs can be pet

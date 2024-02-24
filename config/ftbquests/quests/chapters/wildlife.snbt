@@ -17,7 +17,7 @@
 			image: "enchanted_wilds:textures/questui/bgtameable.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -9.0d
+			x: -4.5d
 			y: -5.5d
 		}
 		{
@@ -29,8 +29,8 @@
 			image: "enchanted_wilds:textures/questui/bgneutral.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 9.0d
-			y: -5.5d
+			x: 4.5d
+			y: 12.0d
 		}
 		{
 			click: ""
@@ -41,8 +41,8 @@
 			image: "enchanted_wilds:textures/questui/bgwyldhunts.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 9.0d
-			y: 4.5d
+			x: -4.5d
+			y: 12.0d
 		}
 		{
 			click: ""
@@ -53,7 +53,7 @@
 			image: "enchanted_wilds:textures/questui/bgpetslivestock.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 0.0d
+			x: 4.5d
 			y: -5.5d
 		}
 		{
@@ -65,8 +65,8 @@
 			image: "enchanted_wilds:textures/questui/bgmonsters.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 0.0d
-			y: 4.5d
+			x: 4.5d
+			y: 3.5d
 		}
 		{
 			click: ""
@@ -77,8 +77,8 @@
 			image: "enchanted_wilds:textures/questui/bgmythicmounts.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -9.0d
-			y: 4.5d
+			x: -4.5d
+			y: 3.5d
 		}
 	]
 	order_index: 2
@@ -111,8 +111,8 @@
 				type: "observation"
 			}]
 			title: "Meet a Snuffle!"
-			x: 10.5d
-			y: -4.0d
+			x: 6.0d
+			y: 13.5d
 		}
 		{
 			description: [
@@ -147,7 +147,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: 3.0d
 			y: -7.0d
 		}
 		{
@@ -211,7 +211,7 @@
 				id: "650E23F990D62E75"
 				type: "advancement"
 			}]
-			x: 2.5d
+			x: 7.0d
 			y: -4.0d
 		}
 		{
@@ -248,7 +248,7 @@
 				id: "24EAA163CD45072E"
 				type: "advancement"
 			}]
-			x: -2.5d
+			x: 2.0d
 			y: -4.0d
 		}
 		{
@@ -274,7 +274,7 @@
 				item: "domesticationinnovation:drum"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 4.0d
 			y: -7.0d
 		}
 		{
@@ -300,7 +300,7 @@
 				type: "item"
 			}]
 			title: "Get your Pet a Bed"
-			x: 0.5d
+			x: 5.0d
 			y: -7.0d
 		}
 		{
@@ -326,7 +326,7 @@
 				item: "domesticationinnovation:collar_tag"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 3.5d
 			y: -6.0d
 		}
 		{
@@ -343,7 +343,7 @@
 				item: "domesticationinnovation:deed_of_ownership"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -6.5d
 			y: -4.0d
 		}
 		{
@@ -364,7 +364,7 @@
 				item: "domesticationinnovation:wayward_lantern"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 2.5d
 			y: -6.0d
 		}
 		{
@@ -393,8 +393,8 @@
 				id: "016BADEBDA25900E"
 				type: "advancement"
 			}]
-			x: 9.0d
-			y: 7.0d
+			x: -4.5d
+			y: 14.5d
 		}
 		{
 			can_repeat: true
@@ -420,8 +420,8 @@
 					type: "item"
 				}
 				{
-					id: "0B9EFFBE3E5D2033"
-					item: "practical_plushies_mobs:skeleton_plushie"
+					id: "08998E9D0A6BEEC4"
+					item: "plushies:skeleton_plushie"
 					type: "item"
 				}
 			]
@@ -432,8 +432,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -3.0d
-			y: 3.5d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -454,8 +454,8 @@
 					type: "choice"
 				}
 				{
-					id: "569EEAC4338CA7CB"
-					item: "practical_plushies_mobs:creeper_plushie"
+					id: "70F5F4DE60AE7AD5"
+					item: "plushies:creeper_plushie"
 					type: "item"
 				}
 			]
@@ -554,8 +554,8 @@
 				}
 			]
 			title: "Creeper Collector"
-			x: -3.0d
-			y: 4.5d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
@@ -577,8 +577,8 @@
 					type: "item"
 				}
 				{
-					id: "7D77F88420FE18C0"
-					item: "practical_plushies_mobs:creeper_plushie"
+					id: "703E28C622BE435F"
+					item: "handcrafted:creeper_trophy"
 					type: "item"
 				}
 			]
@@ -589,8 +589,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -2.0d
-			y: 6.0d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7E36FAC9107093C2"]
@@ -623,8 +623,8 @@
 				type: "kill"
 				value: 500L
 			}]
-			x: -2.0d
-			y: 7.5d
+			x: 2.5d
+			y: 6.5d
 		}
 		{
 			can_repeat: true
@@ -650,8 +650,8 @@
 					type: "item"
 				}
 				{
-					id: "3F9CD9F2793404A3"
-					item: "practical_plushies_mobs:zombie_plushie"
+					id: "19DC5E00A3D1108C"
+					item: "plushies:zombie_plushie"
 					type: "item"
 				}
 			]
@@ -662,8 +662,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -1.0d
-			y: 6.5d
+			x: 3.5d
+			y: 5.5d
 		}
 		{
 			description: ["Defeat the &eIllusioner&r - if you can find him - and obtain his riches!"]
@@ -687,8 +687,8 @@
 				id: "1BBF8996270374EB"
 				type: "advancement"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: -6.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -702,13 +702,13 @@
 					type: "item"
 				}
 				{
-					id: "51AD9AA94596F130"
-					item: "practical_plushies_mobs:enderman_plushie"
+					id: "08825BC926858558"
+					item: "supplementaries:enderman_head"
 					type: "item"
 				}
 				{
-					id: "08825BC926858558"
-					item: "supplementaries:enderman_head"
+					id: "544D5B4855A2F126"
+					item: "plushies:enderman_plushie"
 					type: "item"
 				}
 			]
@@ -719,8 +719,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 1.0d
-			y: 6.5d
+			x: 5.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -741,8 +741,8 @@
 					type: "item"
 				}
 				{
-					id: "76A93C878B3B0A4B"
-					item: "practical_plushies_mobs:wither_skeleton_plushie"
+					id: "09A2A23CF71FFE73"
+					item: "plushies:wither_skeleton_plushie"
 					type: "item"
 				}
 			]
@@ -753,8 +753,8 @@
 				type: "kill"
 				value: 500L
 			}]
-			x: 2.0d
-			y: 7.5d
+			x: 6.5d
+			y: 6.5d
 		}
 		{
 			can_repeat: true
@@ -787,8 +787,8 @@
 				type: "kill"
 				value: 15L
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			can_repeat: true
@@ -820,8 +820,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 3.0d
-			y: 4.5d
+			x: 7.5d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
@@ -847,13 +847,13 @@
 					type: "item"
 				}
 				{
-					id: "3948038A99591515"
-					item: "additionaladditions:trident_shard"
+					id: "6651C84DD9677838"
+					item: "plushies:drowned_plushie"
 					type: "item"
 				}
 				{
-					id: "6651C84DD9677838"
-					item: "plushies:drowned_plushie"
+					id: "54A27E9947A9F12D"
+					item: "bettertridents:trident_fragment"
 					type: "item"
 				}
 			]
@@ -864,8 +864,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 3.0d
-			y: 3.5d
+			x: 7.5d
+			y: 2.5d
 		}
 		{
 			description: ["Kill all three &eIllager Magicians&r. Please."]
@@ -890,8 +890,8 @@
 				id: "39A1B59A1F5CD337"
 				type: "advancement"
 			}]
-			x: 9.0d
-			y: 5.0d
+			x: -4.5d
+			y: 12.5d
 		}
 		{
 			description: [
@@ -923,8 +923,8 @@
 				}
 			]
 			title: "First Swings of a Sword"
-			x: 0.0d
-			y: 3.5d
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -963,8 +963,8 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			description: ["He's just a good boi. Don't let him stay out in the sun too long."]
@@ -998,7 +998,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Snow Golem"
-			x: -6.0d
+			x: -1.5d
 			y: -5.0d
 		}
 		{
@@ -1036,8 +1036,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 0.0d
-			y: 7.5d
+			x: 4.5d
+			y: 6.5d
 		}
 		{
 			description: [
@@ -1062,7 +1062,7 @@
 				id: "5A01D74D65A58962"
 				type: "advancement"
 			}]
-			x: 1.0d
+			x: 5.5d
 			y: -6.0d
 		}
 		{
@@ -1083,7 +1083,7 @@
 				id: "66A0BD4051C658F5"
 				type: "advancement"
 			}]
-			x: 1.5d
+			x: 6.0d
 			y: -7.0d
 		}
 		{
@@ -1117,7 +1117,7 @@
 				id: "7A90C9C915A28458"
 				type: "advancement"
 			}]
-			x: -7.0d
+			x: -2.5d
 			y: -4.0d
 		}
 		{
@@ -1148,8 +1148,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Goat"
-			x: 7.5d
-			y: -6.0d
+			x: 3.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -1168,8 +1168,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -3.0d
-			y: 7.0d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1197,8 +1197,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 3.0d
-			y: 6.0d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
 			description: [
@@ -1240,7 +1240,7 @@
 				}
 			]
 			title: "Traveling Piggyback"
-			x: -1.5d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
@@ -1263,8 +1263,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Acencia"
-			x: -11.0d
-			y: 3.0d
+			x: -6.5d
+			y: 2.0d
 		}
 		{
 			description: ["Craft a &bSummoning Staff&r to bind to your mount (&6right click them with the staff&r). This will allow you to command them to sit, follow, or wander... and summon them to your side from anywhere! Be warned though: &aonly one mount can be bound to a staff&r."]
@@ -1282,8 +1282,8 @@
 				type: "item"
 			}]
 			title: "Craft a Summoning Staff"
-			x: -9.0d
-			y: 2.0d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			description: ["Archelon is ancient turtle from a prehistoric age, found in &cdeep lukewarm ocean&r habitats. &aTame one&r with &bcod&r or &bsalmon&r. What this mount lacks in land speed it more than makes up for in the water!"]
@@ -1305,8 +1305,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Archelon"
-			x: -11.0d
-			y: 4.5d
+			x: -6.5d
+			y: 3.5d
 		}
 		{
 			description: ["Found only in &cmushroom fields&r, they can &6be tamed&r with &bsugar&r, &bmushrooms&r, and all Vanilla &bflowers&r."]
@@ -1328,8 +1328,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Colelytra"
-			x: -9.0d
-			y: 5.0d
+			x: -4.5d
+			y: 4.0d
 		}
 		{
 			description: ["This vibrant and quick creature can be found in &cjungles&r. &6Approach with caution and offer&r &bsweet berries&r or &bmelon slices&r to win them over."]
@@ -1351,8 +1351,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Courier Bird"
-			x: -7.0d
-			y: 4.5d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			description: ["They aren't man's best friend... yet. &6Try offering one&r a &bbone&r. Find them in any type of &ctaiga biome&r."]
@@ -1374,8 +1374,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Dire Wolf"
-			x: -12.5d
-			y: 5.0d
+			x: -8.0d
+			y: 4.0d
 		}
 		{
 			description: ["Though rare, these beasts can sometimes be found in &cdeep caves&r. To befriend them, &6offer up your valuables&r... &bgold&r, &bdiamond&r, or &bemerald&r will do. But be careful... they can be quite &adangerous&r."]
@@ -1397,8 +1397,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Dragon"
-			x: -11.0d
-			y: 6.0d
+			x: -6.5d
+			y: 5.0d
 		}
 		{
 			description: ["These docile, gluttonous lizards love relaxing in &cmountain caves&r and slurpin' down &bpumpkins or anything that looks like one. &6Tame one&r with &bpumpkins&r, &bmelons&r, or &bhay blocks&r to have a lounge lizard friend of your very own."]
@@ -1420,8 +1420,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Geckotoa"
-			x: -7.0d
-			y: 3.0d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			description: ["Fragile, beautiful, and capable of carrying a rider in flight. These moths haunt the &cdark forest&r regions. &6Give them&r &bsugar&r or Vanilla &bflowers&r to earn their trust."]
@@ -1443,8 +1443,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Giant Moth"
-			x: -10.5d
-			y: 7.5d
+			x: -6.0d
+			y: 6.5d
 		}
 		{
 			description: ["These uncommon bird... mammal... things... are sometimes seen flying over &cmountaintops&r, feeding on &brabbit&r and &bmutton&r. They are a loyal partner when &6tamed&r, and will &adefend their owner&r. "]
@@ -1466,8 +1466,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Griffin"
-			x: -5.5d
-			y: 5.0d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			description: ["Look for these bats in the &cfungal forests of the nether&r. As omnivores, they'll eat all kinds of things, from &bmushrooms&r to &beggs&r to &bspider eyes&r... &amake sure you've come with treats&r, as they are &dhostile to players&r!"]
@@ -1489,8 +1489,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Nether Bat"
-			x: -9.0d
-			y: 6.5d
+			x: -4.5d
+			y: 5.5d
 		}
 		{
 			description: ["For an easy jaunt through the nether, find yourself a Nightmare! Located in &cSoul Sand Valleys&r and &cBasalt Deltas&r, this mount can &aliterally walk on lava&r. Befriend one with &bbones&r or &bcoal&r."]
@@ -1512,8 +1512,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Nightmare"
-			x: -7.0d
-			y: 6.0d
+			x: -2.5d
+			y: 5.0d
 		}
 		{
 			description: ["These friendly &ccoral reef&r dwellers are capable swimmers, and come in a wide variety of colors and patterns. Tame one with &bkelp&r for an aquatic mount!"]
@@ -1535,8 +1535,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Nudibranch"
-			x: -7.5d
-			y: 7.5d
+			x: -3.0d
+			y: 6.5d
 		}
 		{
 			description: ["This reptilian mount hunts &erabbits&r and &echickens&r in their native enviroment of the &cdesert&r and &cbadlands&r. Though &dhostile to players&r, offering some of their &bfavourite meat&r will make them a loyal friend."]
@@ -1558,8 +1558,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Riding Lizard"
-			x: -9.0d
-			y: 8.0d
+			x: -4.5d
+			y: 7.0d
 		}
 		{
 			description: ["An incredibly rare sight, the &eŻar-ptak&r can sometimes be seen flying near &cinhabited villages&r. They are said to have expensive tastes. &6Try offering them&r &bgolden apples&r for friendship."]
@@ -1581,8 +1581,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Żar-ptak"
-			x: -9.0d
-			y: 3.5d
+			x: -4.5d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -1613,8 +1613,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Snail"
-			x: 6.5d
-			y: -5.0d
+			x: 2.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["407BBCE05BCE9039"]
@@ -1632,7 +1632,7 @@
 				id: "729D77D2C5B6DF21"
 				type: "advancement"
 			}]
-			x: 2.5d
+			x: 7.0d
 			y: -2.5d
 		}
 		{
@@ -1654,7 +1654,7 @@
 				id: "45106B8C35A3B6D9"
 				type: "advancement"
 			}]
-			x: 1.5d
+			x: 6.0d
 			y: -3.0d
 		}
 		{
@@ -1682,8 +1682,8 @@
 				type: "item"
 			}]
 			title: "Catching Butterflies"
-			x: 10.5d
-			y: -6.0d
+			x: 6.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["6C7E1C6C0E2C8C64"]
@@ -1705,8 +1705,8 @@
 				id: "72D24DF4F709494F"
 				type: "advancement"
 			}]
-			x: 11.5d
-			y: -5.0d
+			x: 7.0d
+			y: 12.5d
 		}
 		{
 			description: [
@@ -1732,7 +1732,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Tuna"
-			x: -2.5d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -1761,8 +1761,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Angler Fish"
-			x: 7.5d
-			y: -4.0d
+			x: 3.0d
+			y: 13.5d
 		}
 		{
 			description: [
@@ -1790,7 +1790,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Hamster"
-			x: -12.0d
+			x: -7.5d
 			y: -5.0d
 		}
 		{
@@ -1820,7 +1820,7 @@
 				type: "observation"
 			}]
 			title: "The Noble Ant"
-			x: -9.0d
+			x: -4.5d
 			y: -8.0d
 		}
 		{
@@ -1844,7 +1844,7 @@
 				type: "biome"
 			}]
 			title: "Visit the Ant Gardens Biome"
-			x: -10.5d
+			x: -6.0d
 			y: -7.0d
 		}
 		{
@@ -1875,7 +1875,7 @@
 				type: "observation"
 			}]
 			title: "Encounter an Ant Mound"
-			x: -9.0d
+			x: -4.5d
 			y: -5.5d
 		}
 		{
@@ -1901,7 +1901,7 @@
 				type: "item"
 			}]
 			title: "Obtain an Ant Pupa"
-			x: -7.5d
+			x: -3.0d
 			y: -7.0d
 		}
 		{
@@ -1921,7 +1921,7 @@
 				type: "item"
 			}]
 			title: "Make an Ant Farm"
-			x: -7.5d
+			x: -3.0d
 			y: -5.5d
 		}
 		{
@@ -1950,7 +1950,7 @@
 				type: "structure"
 			}]
 			title: "Discover the Ant Mount"
-			x: -10.5d
+			x: -6.0d
 			y: -5.5d
 		}
 		{
@@ -1980,7 +1980,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Wraptor"
-			x: 0.0d
+			x: 4.5d
 			y: -2.5d
 		}
 		{
@@ -2011,8 +2011,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Birt"
-			x: 9.0d
-			y: -2.5d
+			x: 4.5d
+			y: 15.0d
 		}
 		{
 			description: [
@@ -2040,8 +2040,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Limpet"
-			x: 9.0d
-			y: -7.0d
+			x: 4.5d
+			y: 10.5d
 		}
 		{
 			description: [
@@ -2068,114 +2068,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Roombug"
-			x: -9.0d
+			x: -4.5d
 			y: -4.0d
-		}
-		{
-			description: [
-				"The noble &eCrab&r can be found in &cMangrove Swamps&r, or on &cBeaches&r. Similarly to spiders, they are able to &aclimb the sides of blocks&r."
-				""
-				"They have two &bClaws&r, one of which is significantly larger than the other. These claws &acontinue to grow&r over the creature's lifespan, and can be Small, Medium, or Large."
-				""
-				"Crabs occasionally &awave their dominant claws&r, and if a &eCrab&r has a &bLarge&r claw, there is a chance for &ait to drop off&r, revealing a smaller claw underneath. These discarded shells despawn after &done minute&r, so be quick if you want to get your hands on one!"
-				""
-				"The &bCrab Claw&r can be held to &aincrease block reach build distance by 2&r. Each use consumes durability, and &bClaws&r cannot be repaired."
-				""
-				"Crabs cannot be bred or tamed."
-			]
-			id: "0356686F0D027673"
-			rewards: [{
-				id: "4D44D164BB546709"
-				item: {
-					Count: 1b
-					id: "whatareyouvotingfor:crab_claw"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			shape: "heart"
-			subtitle: "waving at the waves"
-			tasks: [{
-				icon: "crabbersdelight:cooked_crab"
-				id: "50155B1ED0B23B6C"
-				observe_type: 5
-				timer: 0L
-				to_observe: "whatareyouvotingfor:crab"
-				type: "observation"
-			}]
-			title: "Meet the Crab"
-			x: 9.0d
-			y: -5.0d
-		}
-		{
-			description: [
-				"The &eArmadillo&r can be found in &cSavannah&r type biomes, and always spawns alone."
-				""
-				"They are easily frightened creatures, and when startled will &acurl up like a block&r, making them &amassively resistant to damage&r and also &aimmune to arrows&r. &eArmadillos&r are afraid of:"
-				""
-				"- Monsters"
-				"- Mobs that aren't monsters (although they will calm down if the animal remains nearby)"
-				"- Being hurt (frightens all nearby Armadillos also)"
-				"- Players walking without crouching"
-				"- Quick movements such as turning quickly or falling down"
-				""
-				"&eArmadillos&r can be &atempted and bred using &bEggs&r. When Baby Armadillos grow up, they &adrop a &bScute&r, which can be used to craft &bArmor&r for your &bWolf&r!\\"
-				""
-				"&dBe aware that curled-up &eArmadillos&d can allow &eother animals&d to escape a pen by climbing it&r."
-			]
-			id: "40A9FF60E79ED869"
-			rewards: [{
-				count: 4
-				id: "012B9088D4EC2C1B"
-				item: "minecraft:egg"
-				type: "item"
-			}]
-			shape: "heart"
-			subtitle: "what's the dealio, armadillio?"
-			tasks: [{
-				icon: "whatareyouvotingfor:armadillo_scute"
-				id: "7792E08C97EB12B8"
-				observe_type: 5
-				timer: 0L
-				to_observe: "whatareyouvotingfor:armadillo"
-				type: "observation"
-			}]
-			title: "Meet the Armadillo"
-			x: 0.0d
-			y: -6.0d
-		}
-		{
-			description: [
-				"&ePenguins&r are semi-aquatic birds which live on &cStony Shores&r and in &cIce Spikes&r."
-				""
-				"Although graceful in the water, these animals are &aclumsy on land&r, and may trip and fall. They are naturally curious and may approach you to watch for a while."
-				""
-				"They can be &abred&r using &bSalmon&r or &bCod&r. After breeding, the &ePenguin&r will lay an &bEgg&r on land, and sit on it until it hatches. &bPenguin Eggs&r do not hatch without being properly incubated by a &ePenguin&r. If an &bEgg&r is abandoned, nearby &ePenguins&r may adopt it as their own."
-				""
-				"When in a boat near &ePenguins&r, they will swim up to you and &agive you extra speed&r!"
-			]
-			id: "1E7014F43C19F95C"
-			rewards: [{
-				count: 4
-				id: "31EE4CD9502B253A"
-				item: "minecraft:cod"
-				type: "item"
-			}]
-			shape: "heart"
-			subtitle: "el pinguino"
-			tasks: [{
-				icon: "whatareyouvotingfor:penguin_egg"
-				id: "2495C4F792A2EFFB"
-				observe_type: 5
-				timer: 0L
-				to_observe: "whatareyouvotingfor:penguin"
-				type: "observation"
-			}]
-			title: "Meet the Penguin"
-			x: 0.0d
-			y: -8.0d
 		}
 		{
 			description: ["The &eAllay&r are kind and gentle creatures which are coveted for their &apropensity to collect items&r. Give them an item to hold, and they will &apick that item type from the ground&r and put it in a nearby inventory!"]
@@ -2195,8 +2089,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Allay"
-			x: 9.0d
-			y: -3.5d
+			x: 4.5d
+			y: 12.5d
 		}
 		{
 			description: [
@@ -2223,7 +2117,7 @@
 				type: "observation"
 			}]
 			title: "Meet a Baby Ghast"
-			x: -10.0d
+			x: -5.5d
 			y: -3.0d
 		}
 		{
@@ -2257,7 +2151,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Teacup Pig"
-			x: 2.0d
+			x: 6.5d
 			y: -6.0d
 		}
 		{
@@ -2290,8 +2184,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Duck"
-			x: 7.5d
-			y: -7.5d
+			x: 3.0d
+			y: 10.0d
 		}
 		{
 			description: [
@@ -2317,8 +2211,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Stoneling"
-			x: 10.5d
-			y: -7.5d
+			x: 6.0d
+			y: 10.0d
 		}
 		{
 			description: ["Just theoretically speaking... in a completely hypothetical situation...what would happen if you - or anyone, it doesn't have to be you - what would happen if someone were to (and understand, I'm not suggesting you do this or anything), but &awhat if someone were to throw a &bBirt Egg&r at the &eWarden&r?"]
@@ -2336,8 +2230,8 @@
 				id: "70729BC850B5B74E"
 				type: "advancement"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: -4.5d
+			y: 10.5d
 		}
 		{
 			description: ["The &eWither&r is a fearsome foe, but I have faith that you're a powerful enough witch to &6defeat one in combat&r."]
@@ -2364,8 +2258,8 @@
 				value: 1L
 			}]
 			title: "Defeat the Wither"
-			x: 7.5d
-			y: 3.5d
+			x: -6.0d
+			y: 11.0d
 		}
 		{
 			description: [
@@ -2389,7 +2283,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Capybara"
-			x: -8.0d
+			x: -3.5d
 			y: -3.0d
 		}
 		{
@@ -2415,7 +2309,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Red Panda"
-			x: -9.0d
+			x: -4.5d
 			y: -2.5d
 		}
 		{
@@ -2436,8 +2330,8 @@
 				value: 1L
 			}]
 			title: "Defeat the Necromancer"
-			x: 11.0d
-			y: 5.0d
+			x: -2.5d
+			y: 12.5d
 		}
 		{
 			description: [
@@ -2506,7 +2400,7 @@
 				id: "3BC9A58E2483968C"
 				type: "advancement"
 			}]
-			x: 0.0d
+			x: 4.5d
 			y: -4.5d
 		}
 		{
@@ -2526,8 +2420,8 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: 7.5d
-			y: 6.5d
+			x: -6.0d
+			y: 14.0d
 		}
 		{
 			description: [
@@ -2559,8 +2453,8 @@
 				value: 1L
 			}]
 			title: "Defeat the Berserker"
-			x: 10.5d
-			y: 3.5d
+			x: -3.0d
+			y: 11.0d
 		}
 		{
 			description: ["&eZombie Brutes&r can spawn in most places that regular ones can, they are just &amore rare&r. Slay 5 of them for this quest."]
@@ -2579,8 +2473,8 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: 10.5d
-			y: 6.5d
+			x: -3.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["6CD4F0A4650CBA2F"]
@@ -2611,7 +2505,7 @@
 				value: 1L
 			}]
 			title: "Free the Snow Golem"
-			x: -6.0d
+			x: -1.5d
 			y: -3.5d
 		}
 	]

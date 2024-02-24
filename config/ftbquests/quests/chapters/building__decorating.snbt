@@ -17,8 +17,8 @@
 			image: "enchanted_wilds:textures/questui/bgbuilding.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 5.0d
-			y: 0.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			click: ""
@@ -29,8 +29,8 @@
 			image: "enchanted_wilds:textures/questui/bgdecorating.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -5.0d
-			y: 0.0d
+			x: 0.0d
+			y: 4.5d
 		}
 	]
 	order_index: 1
@@ -57,8 +57,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Pedestal"
-			x: -6.5d
-			y: 2.0d
+			x: -1.5d
+			y: 6.5d
 		}
 		{
 			description: [
@@ -94,8 +94,8 @@
 				item: "fantasyfurniture:furniture_station"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.0d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -149,8 +149,8 @@
 				}
 			]
 			title: "Gadgets, Part 1"
-			x: 3.0d
-			y: -1.0d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1AFE0FBF887D22FD"]
@@ -194,8 +194,8 @@
 				}
 			]
 			title: "Gadgets, Part 2"
-			x: 3.0d
-			y: 1.0d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1184EA40A20DEB5D"]
@@ -219,8 +219,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.5d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			description: ["Lanterns can now be placed on walls! That's it, that's the tweet."]
@@ -238,8 +238,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Lantern"
-			x: -4.0d
-			y: 3.0d
+			x: 1.0d
+			y: 7.5d
 		}
 		{
 			description: [
@@ -329,8 +329,8 @@
 				}
 			]
 			title: "Flower Display Options"
-			x: -3.5d
-			y: 2.0d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			description: ["The Globe is a decorative item which is unique per world. When interacted with, or provided with Redstone signal, it will spin."]
@@ -354,8 +354,8 @@
 				item: "supplementaries:globe"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 2.0d
+			x: -0.5d
+			y: 6.5d
 		}
 		{
 			description: ["Similar to the &bDisplay Case&r, the &bPedestal&r is a way to decoratively display a single item. However, when stacked, it becomes a pillar."]
@@ -373,8 +373,8 @@
 				item: "supplementaries:pedestal"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 3.0d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			description: [
@@ -403,8 +403,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Hanging Sign"
-			x: -3.0d
-			y: 1.0d
+			x: 2.0d
+			y: 5.5d
 		}
 		{
 			description: [
@@ -433,8 +433,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Sign Post"
-			x: -4.5d
-			y: 2.0d
+			x: 0.5d
+			y: 6.5d
 		}
 		{
 			description: [
@@ -464,8 +464,8 @@
 				item: "supplementaries:blackboard"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.0d
+			x: 1.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7D82FBD000D41F84"]
@@ -499,8 +499,8 @@
 				type: "item"
 			}]
 			title: "Customize Your Bed"
-			x: -7.0d
-			y: -1.5d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["226368447EC1C9A9"]
@@ -538,8 +538,8 @@
 				}
 			]
 			title: "Make Your Bed"
-			x: -5.5d
-			y: -1.5d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["32DCF4F0C230C940"]
@@ -579,8 +579,8 @@
 				type: "item"
 			}]
 			title: "Trophy Unlocked"
-			x: -2.5d
-			y: -1.5d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			description: ["You can &6right click the &bHammer&r on Handcrafted blocks to &achange their appearance&r."]
@@ -593,8 +593,8 @@
 				type: "item"
 			}]
 			title: "Handcraft your Home"
-			x: -7.0d
-			y: 0.5d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["15781BD4547097E9"]
@@ -647,8 +647,8 @@
 				}
 			]
 			title: "Versatile Decorations"
-			x: -4.0d
-			y: -1.5d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			hide: true
@@ -681,8 +681,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.5d
+			x: -3.0d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -710,8 +710,8 @@
 				type: "stat"
 				value: 50
 			}]
-			x: -3.5d
-			y: 0.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -746,8 +746,8 @@
 				type: "item"
 			}]
 			title: "Flowering Lattices"
-			x: -2.5d
-			y: 2.0d
+			x: 2.5d
+			y: 6.5d
 		}
 		{
 			description: ["You can use a &bSnail Shell&r to create an attractive and useful &bSweet Berry Bush&r pot! These &bPotted Berry Bushes&r are not only cute, but they &ado not damage entities&r who happen to walk into them!"]
@@ -758,8 +758,8 @@
 				item: "spawn:potted_sweet_berries"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
+			x: 2.5d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -804,8 +804,8 @@
 				type: "item"
 			}]
 			title: "Decorative Carts"
-			x: -2.0d
-			y: 1.0d
+			x: 3.0d
+			y: 5.5d
 		}
 		{
 			description: [
@@ -826,8 +826,8 @@
 				item: "blockofsky:sky_block"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 3.0d
+			x: -2.0d
+			y: 7.5d
 		}
 		{
 			description: [
@@ -856,8 +856,8 @@
 				type: "item"
 			}]
 			title: "Wind Chimes"
-			x: -3.0d
-			y: 3.0d
+			x: 2.0d
+			y: 7.5d
 		}
 		{
 			description: [
@@ -874,8 +874,8 @@
 				type: "item"
 			}]
 			title: "Framed Blocks"
-			x: 6.75d
-			y: -1.5d
+			x: 1.75d
+			y: -6.0d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -886,8 +886,8 @@
 				item: "framedblocks:framing_saw"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -910,8 +910,8 @@
 				item: "framedblocks:framed_hammer"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -923,8 +923,8 @@
 				item: "framedblocks:framed_wrench"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.0d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -942,8 +942,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.0d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -955,8 +955,8 @@
 				item: "framedblocks:framed_key"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -972,8 +972,8 @@
 				item: "framedblocks:framed_screwdriver"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -985,8 +985,8 @@
 				item: "framedblocks:framed_reinforcement"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.0d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
 			description: ["The &bTrowel&r will place a random block from your hotbar when you &6right click with it&r. Perfect for easily &arandomizing your build's palette&r."]
@@ -1005,8 +1005,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Trowel"
-			x: 5.0d
-			y: -2.0d
+			x: 0.0d
+			y: -6.5d
 		}
 		{
 			description: [
@@ -1034,8 +1034,8 @@
 				type: "item"
 			}]
 			title: "Invisible Frames"
-			x: -6.0d
-			y: 3.0d
+			x: -1.0d
+			y: 7.5d
 		}
 	]
 	title: "Building \\& Decorating"

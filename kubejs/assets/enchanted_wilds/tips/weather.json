@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Witchy Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Hate the rain? Love thunderstorms? Change your clientside weather with the /clientweather command! Note that in singleplayer, this will change the ACTUAL weather."
+    }
+  }

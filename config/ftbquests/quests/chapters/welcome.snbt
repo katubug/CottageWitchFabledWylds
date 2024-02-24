@@ -17,8 +17,8 @@
 			image: "enchanted_wilds:textures/questui/logo.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -4.5d
-			y: -4.5d
+			x: 0.0d
+			y: -10.5d
 		}
 		{
 			click: "https://www.akliz.net/cottagewitch"
@@ -29,20 +29,20 @@
 			image: "enchanted_wilds:textures/questui/aklizbanner.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 0.5d
-			y: 8.0d
+			x: 1.0d
+			y: 18.0d
 		}
 		{
 			click: ""
 			corner: false
 			dev: false
-			height: 6.5d
+			height: 7.187759336099585d
 			hover: [ ]
 			image: "enchanted_wilds:textures/questui/questkey.png"
 			rotation: 0.0d
-			width: 11.5d
-			x: 5.0d
-			y: -3.5d
+			width: 13.0d
+			x: 0.5d
+			y: -3.0d
 		}
 		{
 			click: ""
@@ -53,8 +53,8 @@
 			image: "enchanted_wilds:textures/questui/bgfreebies.png"
 			rotation: 0.0d
 			width: 8.0d
-			x: 0.5d
-			y: 3.0d
+			x: -3.0d
+			y: 3.5d
 		}
 		{
 			click: ""
@@ -65,20 +65,20 @@
 			image: "enchanted_wilds:textures/questui/bgdeath.png"
 			rotation: 0.0d
 			width: 8.0d
-			x: -6.5d
-			y: 3.0d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			click: ""
 			corner: false
 			dev: false
-			height: 8.0d
+			height: 10.0d
 			hover: [ ]
 			image: "enchanted_wilds:textures/questui/tutorials.png"
 			rotation: 0.0d
-			width: 8.0d
-			x: 7.5d
-			y: 3.0d
+			width: 10.0d
+			x: 0.75d
+			y: 11.5d
 		}
 	]
 	order_index: 0
@@ -172,8 +172,8 @@
 				type: "dimension"
 			}]
 			title: "Begin your World"
-			x: -0.75d
-			y: 2.25d
+			x: -4.25d
+			y: 2.75d
 		}
 		{
 			description: [
@@ -214,8 +214,8 @@
 				title: "Build Me a House"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 2.5d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			can_repeat: true
@@ -248,8 +248,8 @@
 				type: "checkmark"
 			}]
 			title: "Mushroom Hat"
-			x: 2.0d
-			y: 4.0d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			description: ["Need to get somewhere in a hurry? Why not try &aslinging&r? The &bSlime Sling&r, when &6pointed at the ground and drawn&r, will shoot the player in the opposite direction upon release. You can achieve &aquite a bit of air time&r this way! And the &bSlime Boots&r make it so you...you know...&adon't die from fall damage&r. A winning combination!"]
@@ -284,8 +284,8 @@
 				title: "The Only Way to \"Fly\""
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -306,8 +306,8 @@
 				type: "checkmark"
 			}]
 			title: "Enchantment Identification"
-			x: -1.0d
-			y: 4.0d
+			x: -4.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["47643C0C8D4BCBD9"]
@@ -326,7 +326,7 @@
 				id: "7E4BBEB34174442D"
 				type: "advancement"
 			}]
-			x: -8.5d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -379,7 +379,7 @@
 				type: "advancement"
 			}]
 			title: "Baby's First Death"
-			x: -6.5d
+			x: 4.0d
 			y: 2.5d
 		}
 		{
@@ -399,7 +399,7 @@
 				value: 50
 			}]
 			title: "Die 50 Times"
-			x: -7.5d
+			x: 3.0d
 			y: 4.5d
 		}
 		{
@@ -421,8 +421,8 @@
 				title: "Get to know the mods"
 				type: "checkmark"
 			}]
-			x: 5.25d
-			y: 4.5d
+			x: -1.25d
+			y: 13.0d
 		}
 		{
 			description: [
@@ -439,8 +439,8 @@
 				type: "checkmark"
 			}]
 			title: "Extreme Sound Muffler"
-			x: 5.5d
-			y: 3.0d
+			x: -1.5d
+			y: 11.5d
 		}
 		{
 			description: [
@@ -472,8 +472,8 @@
 				type: "checkmark"
 			}]
 			title: "Chunk Loading"
-			x: 6.25d
-			y: 1.5d
+			x: -0.75d
+			y: 10.0d
 		}
 		{
 			dependencies: ["26D8EAD9D892805E"]
@@ -507,8 +507,8 @@
 				title: "Adding Allies"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: 1.0d
+			x: 0.5d
+			y: 9.5d
 		}
 		{
 			description: [
@@ -536,8 +536,8 @@
 				title: "Pin the Quest Categories"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: 2.0d
+			x: 2.25d
+			y: 11.0d
 		}
 		{
 			dependencies: ["51383D499E0DF0DA"]
@@ -561,8 +561,8 @@
 				type: "checkmark"
 			}]
 			title: "Pinning Other Things"
-			x: 10.0d
-			y: 3.0d
+			x: 3.25d
+			y: 12.0d
 		}
 		{
 			description: [
@@ -590,8 +590,8 @@
 				value: 1
 			}]
 			title: "Waystones 101"
-			x: 9.25d
-			y: 4.5d
+			x: 2.5d
+			y: 13.75d
 		}
 		{
 			description: [
@@ -616,8 +616,8 @@
 				type: "checkmark"
 			}]
 			title: "Eccentric Controls"
-			x: 6.0d
-			y: 5.5d
+			x: -0.5d
+			y: 14.0d
 		}
 		{
 			disable_toast: true
@@ -630,7 +630,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["47643C0C8D4BCBD9"]
@@ -661,7 +661,7 @@
 				value: 9999
 			}]
 			title: "Doling Death to Others"
-			x: -5.5d
+			x: 5.0d
 			y: 4.5d
 		}
 		{
@@ -693,8 +693,8 @@
 				type: "checkmark"
 			}]
 			title: "Do You Wanna Build a Scarecrow?"
-			x: 0.5d
-			y: 5.0d
+			x: -3.0d
+			y: 5.5d
 		}
 		{
 			description: [
@@ -721,8 +721,8 @@
 				type: "checkmark"
 			}]
 			title: "Familiar Forms"
-			x: 6.5d
-			y: 4.5d
+			x: 0.0d
+			y: 13.0d
 		}
 		{
 			description: [
@@ -749,8 +749,8 @@
 				type: "checkmark"
 			}]
 			title: "Finding Items In Containers"
-			x: 7.0d
-			y: 3.0d
+			x: 0.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["47643C0C8D4BCBD9"]
@@ -785,8 +785,53 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: 6.0d
 			y: 3.0d
+		}
+		{
+			description: [
+				"This modpack comes with &aa lot of resourcepacks&r for you to use! Most of them should be enabled by default thanks to &lResource Pack Overrides&r, but they don't always work perfectly. If you find yourself needing to do something manually - "
+				""
+				"We recommend enabling all of them, except for the following:"
+				"- Black Icons"
+				"- Mojang Textures (mooblooms)"
+				"- No Buds (mooblooms)"
+				"- No Grass Block (mooblooms)"
+				"- Aether 1.2.5 Textures"
+				"- Aether b.1.7.3 Textures"
+				"- Aether Colorblind Textures"
+				"- Classic Icons"
+				"- Create Legacy Copper"
+				"- Gray's Mob Overhaul (do not enable)"
+				"- Katu's Carpets"
+				"- Nature Revamp Beta (do not enable)"
+				"- Chests Reimagined (do not enable)"
+				"- High Contrast"
+				"- Aether: Lost Content"
+				"- RTX More Sniffer Flowers"
+				"- Meadow/Optifine Support"
+				"- Programmer Art"
+				"- Quark Programmer Art"
+				"- Darker Ropes"
+				"- Bumblezone Anti-Trypophobia"
+				"- White Icons"
+				""
+				"The order in which you enable the resourcepacks &ashould not matter&a, as they are &dedited to be compatible with one another&r. The resourcepacks marked \"&cdo not enable&r\" are included in order to give credit to the pack creators. &bEdited versions of these packs&r SHOULD be enabled."
+			]
+			id: "4B09C2508E25AD2B"
+			rewards: [{
+				id: "1A85B933DFDA69B5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2E65F74FAED6B7CD"
+				title: "Resource Pack Application"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 12.5d
 		}
 	]
 	title: "Welcome"

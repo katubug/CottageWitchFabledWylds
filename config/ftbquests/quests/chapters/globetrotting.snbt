@@ -17,8 +17,8 @@
 			image: "enchanted_wilds:textures/questui/bgexplorating.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -9.0d
-			y: -5.0d
+			x: 0.0d
+			y: 13.0d
 		}
 		{
 			click: ""
@@ -53,8 +53,8 @@
 			image: "enchanted_wilds:textures/questui/bgwaystones.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 9.5d
-			y: -5.0d
+			x: 0.0d
+			y: -13.5d
 		}
 	]
 	order_index: 0
@@ -82,8 +82,8 @@
 				value: 10
 			}]
 			title: "Unlucky or just Ignorant"
-			x: -7.5d
-			y: -4.0d
+			x: 1.5d
+			y: 14.0d
 		}
 		{
 			description: [
@@ -155,8 +155,8 @@
 				type: "advancement"
 			}]
 			title: "Visit all Vanilla Biomes"
-			x: -6.5d
-			y: -5.5d
+			x: 2.5d
+			y: 12.5d
 		}
 		{
 			description: ["Traverse all Nether biomes!"]
@@ -192,8 +192,8 @@
 				id: "2D416C15BC4F0576"
 				type: "advancement"
 			}]
-			x: -9.5d
-			y: -2.5d
+			x: -0.5d
+			y: 15.5d
 		}
 		{
 			description: [
@@ -284,8 +284,8 @@
 				type: "item"
 			}]
 			title: "Find Structures with the Explorer's Compass"
-			x: -11.5d
-			y: -5.5d
+			x: -2.5d
+			y: 12.5d
 		}
 		{
 			description: [
@@ -316,8 +316,8 @@
 				type: "item"
 			}]
 			title: "Find Biomes with the Nature's Compass"
-			x: -10.5d
-			y: -4.0d
+			x: -1.5d
+			y: 14.0d
 		}
 		{
 			id: "4E9CAB55113B5280"
@@ -358,8 +358,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Warp Plate"
-			x: 7.0d
-			y: -2.5d
+			x: -2.5d
+			y: -11.5d
 		}
 		{
 			description: [
@@ -386,8 +386,8 @@
 				item: "waystones:waystone"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -3.0d
+			x: 0.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
@@ -408,8 +408,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Bound Scroll"
-			x: 7.5d
-			y: -4.5d
+			x: -2.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
@@ -431,8 +431,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Warp Scroll"
-			x: 8.5d
-			y: -6.0d
+			x: -1.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
@@ -459,8 +459,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Warp Stone"
-			x: 10.5d
-			y: -6.0d
+			x: 1.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
@@ -477,8 +477,8 @@
 				item: "waystones:portstone"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -4.5d
+			x: 2.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
@@ -499,8 +499,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Sharestone"
-			x: 12.0d
-			y: -2.5d
+			x: 2.5d
+			y: -11.5d
 		}
 		{
 			description: ["Even the most honest witch needs to sneak around sometimes. But you...well, you've snuck around &3a lot&r."]
@@ -530,8 +530,8 @@
 				value: 99999
 			}]
 			title: "Sneaking Around"
-			x: -8.5d
-			y: -2.5d
+			x: 0.5d
+			y: 15.5d
 		}
 		{
 			description: [
@@ -553,8 +553,8 @@
 				id: "15A19A39523CAD26"
 				type: "advancement"
 			}]
-			x: -9.0d
-			y: -7.0d
+			x: 0.0d
+			y: 11.0d
 		}
 		{
 			description: [
@@ -602,8 +602,8 @@
 				id: "107172A8EAD35796"
 				type: "advancement"
 			}]
-			x: -9.0d
-			y: -5.0d
+			x: 0.0d
+			y: 13.0d
 		}
 		{
 			description: [

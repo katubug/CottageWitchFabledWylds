@@ -2324,6 +2324,7 @@
 					type: "item"
 				}
 			]
+			title: "Sending Letters"
 			x: -1.5d
 			y: 4.5d
 		}
@@ -3225,6 +3226,29 @@
 			title: "Obtain a Plushie"
 			x: 4.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["01B4B5ED88AEAC28"]
+			description: [
+				"Sending a &bPackage&r is very similar to sending a letter! &6Right click while holding a &bCardboard Box&r to access its interface. &6Place items inside&r, and &6select the \"Pack\" checkmark&r."
+				""
+				"Ta-da! You can now send a box full of items!"
+			]
+			id: "2A20841726DA3148"
+			rewards: [{
+				count: 3
+				id: "1CB1DE7875E5052C"
+				item: "wares:cardboard_box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EED604FAFF5F69C"
+				item: "wares:cardboard_box"
+				type: "item"
+			}]
+			title: "Sending Packages"
+			x: -1.5d
+			y: 6.0d
 		}
 	]
 	title: "Miscellaneous"

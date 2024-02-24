@@ -1518,11 +1518,6 @@
 					type: "item"
 				}
 				{
-					id: "7712DEE5ACE12A5B"
-					item: "reliquary:witch_hat"
-					type: "item"
-				}
-				{
 					id: "2A6EACC152673AB4"
 					item: {
 						Count: 1b

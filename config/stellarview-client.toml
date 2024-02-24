@@ -2,8 +2,6 @@
 ["Stellar View Client Config"]
 
 	["Stellar View Client Config".client]
-		#Replaces the Vanilla Overworld sky with Stellar View sky
-		replace_vanilla = true
 		#Removes Stars
 		disable_stars = false
 		#Stars will be visible during the day
@@ -43,4 +41,8 @@
 		#Specifies Milky Way Gamma rotation
 		#Range: 0 ~ 360
 		milky_way_z_axis_rotation = 90
+		#Replaces the Vanilla Overworld sky with Stellar View sky
+		replace_overworld = true
+		#Replaces the Vanilla End sky with Stellar View sky
+		replace_end = false
 

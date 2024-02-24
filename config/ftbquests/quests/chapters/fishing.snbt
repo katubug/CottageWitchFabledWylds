@@ -360,53 +360,6 @@
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
-			description: ["You did it! You &acaught an &bUnusual Fish&r. Now you can &6smelt it into an &bUnusual Filet&r, or &asee what else you can do with it&r..."]
-			id: "7B9BAC982DF2D54F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5380C1E3614E24BD"
-				table_id: 661030336235288770L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "52339BF7E4715092"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "unusualfishmod:raw_unusual_fish"
-					}
-				}
-				title: "Any #unusualfishmod:raw_unusual_fish"
-				type: "item"
-			}]
-			title: "Catch an Unusual Fish"
-			x: -2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7B9BAC982DF2D54F"]
-			description: ["This &bSmithing Template&r will allow you to craft &acertain unusual &bfish drops&r into &bunusual weapons&r!"]
-			id: "27FA4B47BD5F218F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4607D78A3631ABDD"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "751D61D1F9D515C3"
-				item: "unusualfishmod:ancient_weapon_smithing_template"
-				type: "item"
-			}]
-			title: "A Fishy Smithing Template"
-			x: 0.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["2E4D1699E2A7876B"]
 			description: ["Wow, you've caught 999 fish? That's bonkers."]
 			id: "1FDD653A3C13DFDF"
 			rewards: [
@@ -480,20 +433,6 @@
 				{
 					id: "3A0C38A5244D788B"
 					item: "minecraft:iron_block"
-					type: "item"
-				}
-				{
-					id: "2837E7001466631E"
-					item: {
-						Count: 1b
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "unusualfishmod:unusual_catch"
-								lvl: 1s
-							}]
-						}
-					}
 					type: "item"
 				}
 			]

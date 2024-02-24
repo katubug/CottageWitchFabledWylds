@@ -17,8 +17,8 @@
 			image: "enchanted_wilds:textures/questui/bgnetherdelight.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 10.0d
-			y: -5.0d
+			x: 0.0d
+			y: 48.5d
 		}
 		{
 			click: ""
@@ -29,8 +29,8 @@
 			image: "enchanted_wilds:textures/questui/bgteaandsundry.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -10.0d
-			y: -5.0d
+			x: 0.0d
+			y: 31.0d
 		}
 		{
 			click: ""
@@ -53,8 +53,8 @@
 			image: "enchanted_wilds:textures/questui/bgcookingpot.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -10.5d
-			y: 4.0d
+			x: 0.0d
+			y: 13.0d
 		}
 		{
 			click: ""
@@ -65,8 +65,8 @@
 			image: "enchanted_wilds:textures/questui/bgcheesemaking.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 10.5d
-			y: 4.0d
+			x: 0.0d
+			y: 39.75d
 		}
 		{
 			click: ""
@@ -77,8 +77,8 @@
 			image: "enchanted_wilds:textures/questui/bgenddelight.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 5.0d
-			y: 13.0d
+			x: 0.0d
+			y: 57.0d
 		}
 		{
 			click: ""
@@ -89,8 +89,8 @@
 			image: "enchanted_wilds:textures/questui/bgwinery.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -4.5d
-			y: 13.0d
+			x: 0.0d
+			y: 22.0d
 		}
 		{
 			click: ""
@@ -191,8 +191,8 @@
 				}
 			]
 			title: "Obtain Tea Blossoms"
-			x: -10.0d
-			y: -2.5d
+			x: 0.0d
+			y: 33.5d
 		}
 		{
 			description: [
@@ -231,8 +231,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Kettle"
-			x: -12.5d
-			y: -2.5d
+			x: -2.5d
+			y: 33.5d
 		}
 		{
 			dependencies: ["40C1DBE20E401EF9"]
@@ -266,8 +266,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Nether Fungus Colony"
-			x: 7.5d
-			y: -6.5d
+			x: -2.5d
+			y: 47.0d
 		}
 		{
 			dependencies: ["507ACD6D650DECA2"]
@@ -284,8 +284,8 @@
 				item: "nethersdelight:soul_compost"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -6.5d
+			x: -0.5d
+			y: 47.0d
 		}
 		{
 			dependencies: ["773834D44C436587"]
@@ -303,8 +303,8 @@
 				item: "nethersdelight:hoglin_hide"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -5.0d
+			x: -0.5d
+			y: 48.5d
 		}
 		{
 			dependencies: ["773834D44C436587"]
@@ -322,8 +322,8 @@
 				item: "nethersdelight:warped_moldy_meat"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.5d
+			x: 2.0d
+			y: 51.0d
 		}
 		{
 			description: ["By killing &eHoglins&r with your trusty &bKnife&r, you can gain &bHoglin Loin&r, &bHoglin Hide&r, and sometimes &bHam&r! These can be used in cooking recipes."]
@@ -343,8 +343,8 @@
 				item: "nethersdelight:hoglin_loin"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.5d
+			x: 0.0d
+			y: 51.0d
 		}
 		{
 			dependencies: ["773834D44C436587"]
@@ -363,8 +363,8 @@
 				item: "nethersdelight:strider_slice"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: -2.5d
+			y: 51.5d
 		}
 		{
 			dependencies: ["773834D44C436587"]
@@ -389,8 +389,8 @@
 				type: "item"
 			}]
 			title: "Stuff a Hoglin"
-			x: 7.5d
-			y: -3.5d
+			x: -2.5d
+			y: 50.0d
 		}
 		{
 			description: ["&bPropelplants&r can be found in the Nether. They look similar to Bamboo, but are black in color, with glowing globules at the top. &dBe careful when harvesting them&r! You'll need &bShears&r to obtain the &bPropelpearls&r."]
@@ -408,8 +408,8 @@
 				type: "item"
 			}]
 			title: "Obtain Some Propelpearls"
-			x: 12.0d
-			y: -4.0d
+			x: 2.0d
+			y: 49.5d
 		}
 		{
 			dependencies: ["76BB908C21246B36"]
@@ -433,8 +433,8 @@
 				item: "nethersdelight:magma_gelatin"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -5.5d
+			x: 1.0d
+			y: 48.0d
 		}
 		{
 			dependencies: ["76BB908C21246B36"]
@@ -454,8 +454,8 @@
 				item: "nethersdelight:propelplant_cane"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -5.5d
+			x: 3.0d
+			y: 48.0d
 		}
 		{
 			dependencies: ["236484A484723F55"]
@@ -493,8 +493,8 @@
 				}
 			]
 			title: "Carve the Stuffed Hoglin"
-			x: 7.5d
-			y: -5.0d
+			x: -2.5d
+			y: 48.5d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
@@ -529,8 +529,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Knife"
-			x: -12.5d
-			y: 2.5d
+			x: -2.0d
+			y: 11.5d
 		}
 		{
 			description: [
@@ -571,8 +571,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Cooking Pot"
-			x: -10.5d
-			y: 2.0d
+			x: 0.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
@@ -595,8 +595,8 @@
 				type: "item"
 			}]
 			title: "Create a Stove"
-			x: -8.0d
-			y: 3.5d
+			x: 2.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["7557E8749BF869DF"]
@@ -618,8 +618,8 @@
 				item: "farmersdelight:tree_bark"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 6.0d
+			x: -3.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["4F8BE51C9D3C16A2"]
@@ -641,8 +641,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Cutting Board"
-			x: -13.5d
-			y: 4.0d
+			x: -3.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
@@ -660,8 +660,8 @@
 				item: "farmersdelight:dog_food"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 3.5d
+			x: -1.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
@@ -687,8 +687,8 @@
 				type: "item"
 			}]
 			title: "Make Hearty Meals"
-			x: -11.5d
-			y: 5.5d
+			x: -1.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
@@ -708,8 +708,8 @@
 				type: "item"
 			}]
 			title: "Make Some Hot Cocoa"
-			x: -12.0d
-			y: 4.5d
+			x: -1.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
@@ -764,8 +764,8 @@
 				type: "item"
 			}]
 			title: "Make Placeable Meals"
-			x: -10.0d
-			y: 4.0d
+			x: 0.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
@@ -1032,8 +1032,8 @@
 				id: "0D13DAED0731D633"
 				type: "advancement"
 			}]
-			x: -11.5d
-			y: 7.0d
+			x: -1.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
@@ -1072,8 +1072,8 @@
 				id: "0E783661822CB045"
 				type: "advancement"
 			}]
-			x: -7.5d
-			y: 5.0d
+			x: 3.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["717B733896BBB2AA"]
@@ -1166,8 +1166,8 @@
 				}
 			]
 			title: "Placeable Meal Diversity"
-			x: -9.0d
-			y: 5.5d
+			x: 1.5d
+			y: 14.5d
 		}
 		{
 			description: [
@@ -1311,8 +1311,8 @@
 				type: "item"
 			}]
 			title: "A Different Dragon Egg"
-			x: 4.5d
-			y: 11.0d
+			x: -0.5d
+			y: 55.0d
 		}
 		{
 			dependencies: ["4264920573ADC879"]
@@ -1342,8 +1342,8 @@
 				type: "item"
 			}]
 			title: "An Eggshellent Bowl"
-			x: 4.5d
-			y: 12.5d
+			x: -0.5d
+			y: 56.5d
 		}
 		{
 			dependencies: ["16ECF08D421359AC"]
@@ -1364,8 +1364,8 @@
 				item: "ends_delight:dragon_meat_stew_block"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 12.5d
+			x: 2.0d
+			y: 56.5d
 		}
 		{
 			dependencies: ["16ECF08D421359AC"]
@@ -1382,8 +1382,8 @@
 				item: "ends_delight:steamed_dragon_egg_block"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 14.0d
+			x: 1.0d
+			y: 58.0d
 		}
 		{
 			dependencies: ["16ECF08D421359AC"]
@@ -1429,8 +1429,8 @@
 				id: "5A3136C711223B37"
 				type: "advancement"
 			}]
-			x: 2.5d
-			y: 12.5d
+			x: -2.5d
+			y: 56.5d
 		}
 		{
 			dependencies: [
@@ -1451,8 +1451,8 @@
 				id: "05A7CA3D3CBCBE10"
 				type: "advancement"
 			}]
-			x: 7.5d
-			y: 14.0d
+			x: 2.5d
+			y: 58.0d
 		}
 		{
 			description: ["Possibly the &amost helpful item&r in the &cShulkren Forest&r, this tea helpfully &aclears the Levitation effect&r! You may want to make... a few..."]
@@ -1469,8 +1469,8 @@
 				item: "ends_delight:chorus_flower_tea"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 16.0d
+			x: -0.5d
+			y: 60.0d
 		}
 		{
 			description: ["Not a fan of red bean paste? Why not try &bChorus Fruit&r in your &bRice Cakes&r instead?"]
@@ -1486,8 +1486,8 @@
 				item: "ends_delight:stuffed_rice_cake"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 15.0d
+			x: -2.0d
+			y: 59.0d
 		}
 		{
 			description: ["An uncommonly known fact is that &eShulkers&r are kind of like &bEggs&r! And, unsurprisingly, rather &ataste like them&r, too. As such, they make a delicious addition to your &abalanced diet&r."]
@@ -1503,8 +1503,8 @@
 				item: "ends_delight:grilled_shulker_block"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 16.0d
+			x: -2.5d
+			y: 60.0d
 		}
 		{
 			description: ["Although challenging to make, the &bDragon's Breath and Chorus Stew&r grants a number of effects that make it very worthwhile!"]
@@ -1520,8 +1520,8 @@
 				item: "ends_delight:dragon_breath_and_chorus_soup"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 15.0d
+			x: -1.0d
+			y: 59.0d
 		}
 		{
 			description: ["&bLiquid Dragon Egg&r. Sounds appealing, doesn't it? You &ocould&r eat this as is...but why not &acook it first&r?"]
@@ -1537,8 +1537,8 @@
 				item: "ends_delight:liquid_dragon_egg"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 16.0d
+			x: -1.5d
+			y: 60.0d
 		}
 		{
 			description: ["To obtain a &bDragon Tooth&r, one must &6kill the &eEnder Dragon&6 with a &bKnife&r."]
@@ -1554,8 +1554,8 @@
 				item: "ends_delight:dragon_tooth"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 15.0d
+			x: 0.0d
+			y: 59.0d
 		}
 		{
 			description: ["You can obtain &bGrape Seeds&r from &eWinemaker Villagers&r, whose job block is an &bApple Press&r. Grapes &acan be planted directly as bushes&r."]
@@ -1581,8 +1581,8 @@
 				type: "item"
 			}]
 			title: "Obtain Grape Seeds"
-			x: -6.0d
-			y: 11.5d
+			x: -1.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["7D770ADEB3905EE0"]
@@ -1626,8 +1626,8 @@
 				}
 			]
 			title: "Increase Your Output"
-			x: -4.0d
-			y: 10.5d
+			x: 0.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["7D770ADEB3905EE0"]
@@ -1653,8 +1653,8 @@
 				type: "item"
 			}]
 			title: "Cherry Good"
-			x: -7.0d
-			y: 14.0d
+			x: -2.5d
+			y: 23.0d
 		}
 		{
 			dependencies: ["7D770ADEB3905EE0"]
@@ -1677,8 +1677,8 @@
 				type: "item"
 			}]
 			title: "Pressing the Grapes"
-			x: -4.0d
-			y: 12.0d
+			x: 0.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["547C558385301BA9"]
@@ -1700,8 +1700,8 @@
 				type: "item"
 			}]
 			title: "Bottling the Wine"
-			x: -2.0d
-			y: 13.5d
+			x: 2.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["68B2EF977B115725"]
@@ -1729,8 +1729,8 @@
 				type: "item"
 			}]
 			title: "Fermentation"
-			x: -2.0d
-			y: 12.0d
+			x: 2.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["15CAD3A9477E400B"]
@@ -1765,8 +1765,8 @@
 				type: "item"
 			}]
 			title: "You Did Wine!"
-			x: -2.0d
-			y: 15.0d
+			x: 2.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["7D770ADEB3905EE0"]
@@ -1835,8 +1835,8 @@
 				}
 			]
 			title: "Winemaking Drip"
-			x: -6.0d
-			y: 15.5d
+			x: -1.5d
+			y: 24.5d
 		}
 		{
 			dependencies: ["6C75BE906A574DAE"]
@@ -1869,8 +1869,8 @@
 				}
 			]
 			title: "Rare Feasts - Nether"
-			x: -10.0d
-			y: 7.0d
+			x: 0.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6C75BE906A574DAE"]
@@ -1913,8 +1913,8 @@
 				}
 			]
 			title: "Rare Feasts - The End"
-			x: -8.5d
-			y: 7.0d
+			x: 2.0d
+			y: 16.0d
 		}
 		{
 			description: [
@@ -2054,8 +2054,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Cheese Wheel"
-			x: 12.5d
-			y: 5.0d
+			x: 2.0d
+			y: 40.75d
 		}
 		{
 			dependencies: ["4449135F7D10724F"]
@@ -2079,8 +2079,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Cheese Press"
-			x: 10.5d
-			y: 6.5d
+			x: 0.0d
+			y: 42.25d
 		}
 		{
 			dependencies: ["684AF61973DB643F"]
@@ -2101,8 +2101,8 @@
 				item: "meadow:rennet"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 5.0d
+			x: -2.0d
+			y: 40.75d
 		}
 		{
 			description: [
@@ -2134,8 +2134,8 @@
 				}
 			]
 			title: "Obtain a Rustic Cauldron"
-			x: 10.5d
-			y: 2.25d
+			x: 0.0d
+			y: 38.0d
 		}
 		{
 			dependencies: ["486FE1761F7E41E3"]
@@ -2163,8 +2163,8 @@
 				item: "meadow:fondue"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 3.0d
+			x: 2.0d
+			y: 38.75d
 		}
 		{
 			dependencies: ["4E4341D997F9AE98"]
@@ -2187,8 +2187,8 @@
 				type: "item"
 			}]
 			title: "Obtain Alpine Salt"
-			x: 8.5d
-			y: 3.0d
+			x: -2.0d
+			y: 38.75d
 		}
 		{
 			dependencies: ["4E4341D997F9AE98"]
@@ -2261,8 +2261,8 @@
 				}
 			]
 			title: "Many Milk Types!"
-			x: 10.5d
-			y: 4.0d
+			x: 0.0d
+			y: 39.75d
 		}
 		{
 			dependencies: ["7D770ADEB3905EE0"]
@@ -2331,8 +2331,8 @@
 				}
 			]
 			title: "Collect All Grapes"
-			x: -4.5d
-			y: 15.0d
+			x: 0.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["1266B799DAB9CCC7"]
@@ -2380,8 +2380,8 @@
 				}
 			]
 			title: "Drying Tea"
-			x: -10.0d
-			y: -4.5d
+			x: 0.0d
+			y: 31.5d
 		}
 		{
 			dependencies: ["34581095B797C667"]
@@ -2423,8 +2423,8 @@
 				}
 			]
 			title: "Plain Teas"
-			x: -13.0d
-			y: -5.0d
+			x: -3.0d
+			y: 31.0d
 		}
 		{
 			dependencies: ["34581095B797C667"]
@@ -2471,8 +2471,8 @@
 				}
 			]
 			title: "Herbal Teas"
-			x: -12.0d
-			y: -6.5d
+			x: -2.0d
+			y: 29.5d
 		}
 		{
 			dependencies: ["34581095B797C667"]
@@ -2520,8 +2520,8 @@
 				}
 			]
 			title: "Fruit Teas"
-			x: -8.0d
-			y: -6.5d
+			x: 2.0d
+			y: 29.5d
 		}
 		{
 			dependencies: ["34581095B797C667"]
@@ -2559,8 +2559,8 @@
 				}
 			]
 			title: "End Teas"
-			x: -7.0d
-			y: -5.0d
+			x: 3.0d
+			y: 31.0d
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
@@ -2621,8 +2621,8 @@
 				}
 			]
 			title: "Collect Nether Grapes"
-			x: -3.5d
-			y: 14.0d
+			x: 1.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["31CE923007EF1D03"]
@@ -2675,8 +2675,8 @@
 				}
 			]
 			title: "Collect All Cheeses"
-			x: 10.5d
-			y: 5.5d
+			x: 0.0d
+			y: 41.25d
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
@@ -2780,8 +2780,8 @@
 				type: "advancement"
 			}]
 			title: "An Unwise Decision"
-			x: -7.5d
-			y: 15.5d
+			x: -3.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["6A66ACC2ABDDB0E6"]
@@ -2948,8 +2948,8 @@
 				type: "item"
 			}]
 			title: "The Best Girl"
-			x: -3.0d
-			y: 16.0d
+			x: 1.5d
+			y: 25.0d
 		}
 		{
 			description: ["The &bCopper Cooking Pot&r and &bCopper Cooking Pan&r are new tools which will allow you to make &anew and unique dishes&r, such as &bPasta&r and &bPizza&r!"]

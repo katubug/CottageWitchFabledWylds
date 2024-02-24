@@ -63,7 +63,8 @@
     "pipe": true
   },
   "delightful": {
-    "crop_progress": true
+    "crop_progress": true,
+    "pie_icons": true
   },
   "reliquary": {
     "pedestal": true,

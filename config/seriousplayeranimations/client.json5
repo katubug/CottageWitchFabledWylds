@@ -1,0 +1,127 @@
+{
+	"animationSpeedMultiplier": 1.0,
+	"idleStanding": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"walking": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"walkingBackwards": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"running": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"turningStanding": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"idleSneaking": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"walkingSneak": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"walkingSneakBackwards": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"idleCreativeFlying": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"falling": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"idleCrawling": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"crawling": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"crawlingBackwards": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"climbing": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"forwardInWater": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"backwardsInWater": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"upInWater": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"idleInWater": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"swimming": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"minecartIdle": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"horseIdle": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"horseRunning": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"boat": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"elytra": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"swordAttack": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"bow": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"pickaxe": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"axe": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"shovel": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"sleeping": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"eating": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	}
+}

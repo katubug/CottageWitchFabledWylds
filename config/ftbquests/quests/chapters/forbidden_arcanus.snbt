@@ -913,19 +913,12 @@
 				"The &aMagnetized Modifier&r can only be used on &bBoots&r. When boots with this modifier are equipped, the &aitem pick-up range of the player will increase&r by one and a half blocks."
 			]
 			id: "34554B433FD5D820"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2283908DD52C9E76"
-					table_id: 8808494820591225409L
-					type: "random"
-				}
-				{
-					id: "615954FB413E20A9"
-					item: "additionaladditions:mysterious_bundle"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2283908DD52C9E76"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "51522F0934258817"

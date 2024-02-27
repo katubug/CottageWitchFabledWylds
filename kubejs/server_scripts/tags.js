@@ -38,6 +38,10 @@ ServerEvents.tags('item', event => {
     event.add('supplementaries:ropes',
     'farmersdelight:rope')
 
+    // Pearl Tags
+    event.add('forge:pearls',
+    'unusualprehistory:opalescent_pearl', 'abyssal_decor:white_pearl', 'crabbersdelight:pearl')
+
     // Eyes tags
     event.add('forge:eyes', 
     'endrem:evil_eye',

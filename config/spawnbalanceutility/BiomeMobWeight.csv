@@ -56,7 +56,6 @@
 56, forest, regions_unexplored:alpha_grove, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 57, forest, regions_unexplored:alpha_grove, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 58, forest, regions_unexplored:alpha_grove, MONSTER, eidolon:wraith, 60, 1, 3
-59, forest, regions_unexplored:alpha_grove, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 60, forest, regions_unexplored:alpha_grove, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 61, forest, regions_unexplored:alpha_grove, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 62, forest, regions_unexplored:alpha_grove, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
@@ -101,7 +100,6 @@
 101, none, regions_unexplored:ancient_delta, MONSTER, minecraft:witch, 5, 1, 1
 102, none, regions_unexplored:ancient_delta, MONSTER, eidolon:zombie_brute, 60, 1, 3
 103, none, regions_unexplored:ancient_delta, MONSTER, eidolon:wraith, 60, 1, 3
-104, none, regions_unexplored:ancient_delta, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 105, none, regions_unexplored:ancient_delta, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 106, none, regions_unexplored:ancient_delta, CREATURE, eidolon:slimy_slug, 10, 2, 3
 107, none, regions_unexplored:ancient_delta, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
@@ -219,7 +217,6 @@
 219, none, mysticsbiomes:autumnal_grove, MONSTER, minecraft:creeper, 80, 4, 4
 220, none, mysticsbiomes:autumnal_grove, MONSTER, minecraft:slime, 80, 4, 4
 221, none, mysticsbiomes:autumnal_grove, MONSTER, minecraft:witch, 5, 1, 1
-222, none, mysticsbiomes:autumnal_grove, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 223, none, mysticsbiomes:autumnal_grove, CREATURE, minecraft:fox, 32, 2, 5
 224, none, mysticsbiomes:autumnal_grove, CREATURE, eidolon:slimy_slug, 10, 2, 3
 225, none, mysticsbiomes:autumnal_grove, AMBIENT, minecraft:bat, 10, 8, 8
@@ -304,7 +301,6 @@
 304, badlands, minecraft:badlands, MONSTER, eidolon:zombie_brute, 60, 1, 3
 305, badlands, minecraft:badlands, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 306, badlands, minecraft:badlands, MONSTER, eidolon:wraith, 60, 1, 3
-307, badlands, minecraft:badlands, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 308, badlands, minecraft:badlands, MONSTER, endermanoverhaul:badlands_enderman, 10, 1, 4
 309, badlands, minecraft:badlands, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 310, badlands, minecraft:badlands, MONSTER, creeperoverhaul:badlands_creeper, 75, 2, 2
@@ -451,7 +447,6 @@
 451, savanna, regions_unexplored:baobab_savanna, MONSTER, eidolon:zombie_brute, 60, 1, 3
 452, savanna, regions_unexplored:baobab_savanna, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 453, savanna, regions_unexplored:baobab_savanna, MONSTER, eidolon:wraith, 60, 1, 3
-454, savanna, regions_unexplored:baobab_savanna, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 455, savanna, regions_unexplored:baobab_savanna, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 456, savanna, regions_unexplored:baobab_savanna, MONSTER, endermanoverhaul:savanna_enderman, 10, 1, 4
 457, savanna, regions_unexplored:baobab_savanna, MONSTER, creeperoverhaul:savannah_creeper, 75, 2, 2
@@ -542,7 +537,6 @@
 542, swamp, regions_unexplored:bayou, MONSTER, endermanoverhaul:swamp_enderman, 10, 1, 4
 543, swamp, regions_unexplored:bayou, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 544, swamp, regions_unexplored:bayou, MONSTER, eidolon:wraith, 60, 1, 3
-545, swamp, regions_unexplored:bayou, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 546, swamp, regions_unexplored:bayou, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 547, swamp, regions_unexplored:bayou, MONSTER, creeperoverhaul:swamp_creeper, 75, 2, 2
 548, swamp, regions_unexplored:bayou, CREATURE, minecraft:frog, 10, 2, 5
@@ -610,7 +604,6 @@
 610, none, regions_unexplored:bioshroom_caves, MONSTER, minecraft:creeper, 80, 4, 4
 611, none, regions_unexplored:bioshroom_caves, MONSTER, minecraft:slime, 80, 4, 4
 612, none, regions_unexplored:bioshroom_caves, MONSTER, minecraft:witch, 5, 1, 1
-613, none, regions_unexplored:bioshroom_caves, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 614, none, regions_unexplored:bioshroom_caves, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 615, none, regions_unexplored:bioshroom_caves, CREATURE, eidolon:slimy_slug, 10, 2, 3
 616, none, regions_unexplored:bioshroom_caves, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
@@ -710,7 +703,6 @@
 710, taiga, regions_unexplored:blackwood_taiga, MONSTER, creeperoverhaul:spruce_creeper, 75, 2, 2
 711, taiga, regions_unexplored:blackwood_taiga, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 712, taiga, regions_unexplored:blackwood_taiga, MONSTER, endermanoverhaul:dark_oak_enderman, 10, 1, 4
-713, taiga, regions_unexplored:blackwood_taiga, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 714, taiga, regions_unexplored:blackwood_taiga, MONSTER, earthmobsmod:bone_spider, 10, 1, 1
 715, taiga, regions_unexplored:blackwood_taiga, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 716, taiga, regions_unexplored:blackwood_taiga, CREATURE, minecraft:sheep, 12, 4, 4
@@ -869,7 +861,6 @@
 869, extreme_hills, minecraft:cherry_grove, MONSTER, eidolon:zombie_brute, 60, 1, 3
 870, extreme_hills, minecraft:cherry_grove, MONSTER, endermanoverhaul:flower_fields_enderman, 10, 1, 4
 871, extreme_hills, minecraft:cherry_grove, MONSTER, eidolon:wraith, 60, 1, 3
-872, extreme_hills, minecraft:cherry_grove, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 873, extreme_hills, minecraft:cherry_grove, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 874, extreme_hills, minecraft:cherry_grove, CREATURE, minecraft:pig, 10, 1, 2
 875, extreme_hills, minecraft:cherry_grove, CREATURE, minecraft:rabbit, 10, 2, 6
@@ -990,7 +981,6 @@
 990, icy, regions_unexplored:cold_boreal_taiga, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 991, icy, regions_unexplored:cold_boreal_taiga, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 992, icy, regions_unexplored:cold_boreal_taiga, MONSTER, eidolon:wraith, 60, 1, 3
-993, icy, regions_unexplored:cold_boreal_taiga, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 994, icy, regions_unexplored:cold_boreal_taiga, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 995, icy, regions_unexplored:cold_boreal_taiga, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 996, icy, regions_unexplored:cold_boreal_taiga, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
@@ -1026,7 +1016,6 @@
 1026, none, regions_unexplored:cold_deciduous_forest, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 1027, none, regions_unexplored:cold_deciduous_forest, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 1028, none, regions_unexplored:cold_deciduous_forest, MONSTER, eidolon:wraith, 60, 1, 3
-1029, none, regions_unexplored:cold_deciduous_forest, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 1030, none, regions_unexplored:cold_deciduous_forest, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 1031, none, regions_unexplored:cold_deciduous_forest, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 1032, none, regions_unexplored:cold_deciduous_forest, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
@@ -1208,7 +1197,6 @@
 1208, forest, minecraft:dark_forest, MONSTER, creeperoverhaul:dark_oak_creeper, 75, 2, 2
 1209, forest, minecraft:dark_forest, MONSTER, endermanoverhaul:dark_oak_enderman, 10, 1, 4
 1210, forest, minecraft:dark_forest, MONSTER, eidolon:wraith, 60, 1, 3
-1211, forest, minecraft:dark_forest, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 1212, forest, minecraft:dark_forest, MONSTER, earthmobsmod:bone_spider, 10, 1, 1
 1213, forest, minecraft:dark_forest, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1214, forest, minecraft:dark_forest, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
@@ -1470,7 +1458,6 @@
 1470, desert, minecraft:desert, MONSTER, creeperoverhaul:desert_creeper, 75, 2, 2
 1471, desert, minecraft:desert, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 1472, desert, minecraft:desert, MONSTER, eidolon:wraith, 60, 1, 3
-1473, desert, minecraft:desert, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 1474, desert, minecraft:desert, MONSTER, endermanoverhaul:desert_enderman, 10, 1, 4
 1475, desert, minecraft:desert, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1476, desert, minecraft:desert, CREATURE, minecraft:rabbit, 10, 2, 3
@@ -1522,7 +1509,6 @@
 1522, none, minecraft:dripstone_caves, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 1523, none, minecraft:dripstone_caves, MONSTER, creeperoverhaul:dripstone_creeper, 75, 2, 2
 1524, none, minecraft:dripstone_caves, MONSTER, eidolon:wraith, 60, 1, 3
-1525, none, minecraft:dripstone_caves, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 1526, none, minecraft:dripstone_caves, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1527, none, minecraft:dripstone_caves, MONSTER, earthmobsmod:bouldering_drowned, 20, 4, 4
 1528, none, minecraft:dripstone_caves, MONSTER, earthmobsmod:bouldering_zombie, 20, 4, 4
@@ -1553,7 +1539,6 @@
 1553, savanna, regions_unexplored:dry_bushland, MONSTER, eidolon:zombie_brute, 60, 1, 3
 1554, savanna, regions_unexplored:dry_bushland, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 1555, savanna, regions_unexplored:dry_bushland, MONSTER, eidolon:wraith, 60, 1, 3
-1556, savanna, regions_unexplored:dry_bushland, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 1557, savanna, regions_unexplored:dry_bushland, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1558, savanna, regions_unexplored:dry_bushland, MONSTER, endermanoverhaul:savanna_enderman, 10, 1, 4
 1559, savanna, regions_unexplored:dry_bushland, MONSTER, creeperoverhaul:savannah_creeper, 75, 2, 2
@@ -1616,7 +1601,6 @@
 1616, badlands, minecraft:eroded_badlands, MONSTER, eidolon:zombie_brute, 60, 1, 3
 1617, badlands, minecraft:eroded_badlands, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 1618, badlands, minecraft:eroded_badlands, MONSTER, eidolon:wraith, 60, 1, 3
-1619, badlands, minecraft:eroded_badlands, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 1620, badlands, minecraft:eroded_badlands, MONSTER, endermanoverhaul:badlands_enderman, 10, 1, 4
 1621, badlands, minecraft:eroded_badlands, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1622, badlands, minecraft:eroded_badlands, MONSTER, creeperoverhaul:badlands_creeper, 75, 2, 2
@@ -1691,7 +1675,6 @@
 1691, swamp, regions_unexplored:fen, MONSTER, endermanoverhaul:swamp_enderman, 10, 1, 4
 1692, swamp, regions_unexplored:fen, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 1693, swamp, regions_unexplored:fen, MONSTER, eidolon:wraith, 60, 1, 3
-1694, swamp, regions_unexplored:fen, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 1695, swamp, regions_unexplored:fen, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1696, swamp, regions_unexplored:fen, MONSTER, creeperoverhaul:swamp_creeper, 75, 2, 2
 1697, swamp, regions_unexplored:fen, CREATURE, minecraft:frog, 10, 2, 5
@@ -1809,7 +1792,6 @@
 1809, forest, minecraft:flower_forest, MONSTER, eidolon:zombie_brute, 60, 1, 3
 1810, forest, minecraft:flower_forest, MONSTER, endermanoverhaul:flower_fields_enderman, 10, 1, 4
 1811, forest, minecraft:flower_forest, MONSTER, eidolon:wraith, 60, 1, 3
-1812, forest, minecraft:flower_forest, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 1813, forest, minecraft:flower_forest, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1814, forest, minecraft:flower_forest, MONSTER, earthmobsmod:skeleton_wolf, 10, 3, 4
 1815, forest, minecraft:flower_forest, CREATURE, minecraft:sheep, 12, 4, 4
@@ -1947,7 +1929,6 @@
 1947, ocean, minecraft:frozen_ocean, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 1948, ocean, minecraft:frozen_ocean, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 1949, ocean, minecraft:frozen_ocean, MONSTER, eidolon:wraith, 60, 1, 3
-1950, ocean, minecraft:frozen_ocean, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 1951, ocean, minecraft:frozen_ocean, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 1952, ocean, minecraft:frozen_ocean, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 1953, ocean, minecraft:frozen_ocean, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
@@ -1991,7 +1972,6 @@
 1991, extreme_hills, minecraft:frozen_peaks, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 1992, extreme_hills, minecraft:frozen_peaks, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 1993, extreme_hills, minecraft:frozen_peaks, MONSTER, eidolon:wraith, 60, 1, 3
-1994, extreme_hills, minecraft:frozen_peaks, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 1995, extreme_hills, minecraft:frozen_peaks, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 1996, extreme_hills, minecraft:frozen_peaks, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 1997, extreme_hills, minecraft:frozen_peaks, MONSTER, earthmobsmod:bouldering_zombie, 20, 4, 4
@@ -2031,7 +2011,6 @@
 2031, none, regions_unexplored:frozen_pine_taiga, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 2032, none, regions_unexplored:frozen_pine_taiga, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 2033, none, regions_unexplored:frozen_pine_taiga, MONSTER, eidolon:wraith, 60, 1, 3
-2034, none, regions_unexplored:frozen_pine_taiga, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 2035, none, regions_unexplored:frozen_pine_taiga, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 2036, none, regions_unexplored:frozen_pine_taiga, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 2037, none, regions_unexplored:frozen_pine_taiga, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
@@ -2065,7 +2044,6 @@
 2065, river, minecraft:frozen_river, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 2066, river, minecraft:frozen_river, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 2067, river, minecraft:frozen_river, MONSTER, eidolon:wraith, 60, 1, 3
-2068, river, minecraft:frozen_river, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 2069, river, minecraft:frozen_river, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 2070, river, minecraft:frozen_river, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 2071, river, minecraft:frozen_river, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
@@ -2106,7 +2084,6 @@
 2106, icy, regions_unexplored:frozen_tundra, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 2107, icy, regions_unexplored:frozen_tundra, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 2108, icy, regions_unexplored:frozen_tundra, MONSTER, eidolon:wraith, 60, 1, 3
-2109, icy, regions_unexplored:frozen_tundra, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 2110, icy, regions_unexplored:frozen_tundra, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 2111, icy, regions_unexplored:frozen_tundra, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 2112, icy, regions_unexplored:frozen_tundra, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
@@ -2140,7 +2117,6 @@
 2140, swamp, regions_unexplored:fungal_fen, MONSTER, minecraft:witch, 5, 1, 1
 2141, swamp, regions_unexplored:fungal_fen, MONSTER, minecraft:slime, 10, 1, 1
 2142, swamp, regions_unexplored:fungal_fen, MONSTER, endermanoverhaul:swamp_enderman, 10, 1, 4
-2143, swamp, regions_unexplored:fungal_fen, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 2144, swamp, regions_unexplored:fungal_fen, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 2145, swamp, regions_unexplored:fungal_fen, CREATURE, minecraft:frog, 10, 2, 5
 2146, swamp, regions_unexplored:fungal_fen, CREATURE, minecraft:mooshroom, 10, 4, 8
@@ -2437,7 +2413,6 @@
 2437, forest, minecraft:grove, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 2438, forest, minecraft:grove, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 2439, forest, minecraft:grove, MONSTER, eidolon:wraith, 60, 1, 3
-2440, forest, minecraft:grove, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 2441, forest, minecraft:grove, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 2442, forest, minecraft:grove, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 2443, forest, minecraft:grove, MONSTER, earthmobsmod:bouldering_zombie, 20, 4, 4
@@ -2655,7 +2630,6 @@
 2655, none, minecraft:ice_spikes, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 2656, none, minecraft:ice_spikes, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 2657, none, minecraft:ice_spikes, MONSTER, eidolon:wraith, 60, 1, 3
-2658, none, minecraft:ice_spikes, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 2659, none, minecraft:ice_spikes, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 2660, none, minecraft:ice_spikes, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 2661, none, minecraft:ice_spikes, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
@@ -2692,7 +2666,6 @@
 2692, extreme_hills, regions_unexplored:icy_heights, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 2693, extreme_hills, regions_unexplored:icy_heights, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 2694, extreme_hills, regions_unexplored:icy_heights, MONSTER, eidolon:wraith, 60, 1, 3
-2695, extreme_hills, regions_unexplored:icy_heights, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 2696, extreme_hills, regions_unexplored:icy_heights, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 2697, extreme_hills, regions_unexplored:icy_heights, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 2698, extreme_hills, regions_unexplored:icy_heights, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
@@ -2737,7 +2710,6 @@
 2737, extreme_hills, minecraft:jagged_peaks, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 2738, extreme_hills, minecraft:jagged_peaks, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 2739, extreme_hills, minecraft:jagged_peaks, MONSTER, eidolon:wraith, 60, 1, 3
-2740, extreme_hills, minecraft:jagged_peaks, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 2741, extreme_hills, minecraft:jagged_peaks, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 2742, extreme_hills, minecraft:jagged_peaks, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 2743, extreme_hills, minecraft:jagged_peaks, MONSTER, earthmobsmod:bouldering_zombie, 20, 4, 4
@@ -2777,7 +2749,6 @@
 2777, desert, regions_unexplored:joshua_desert, MONSTER, creeperoverhaul:desert_creeper, 75, 2, 2
 2778, desert, regions_unexplored:joshua_desert, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 2779, desert, regions_unexplored:joshua_desert, MONSTER, eidolon:wraith, 60, 1, 3
-2780, desert, regions_unexplored:joshua_desert, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 2781, desert, regions_unexplored:joshua_desert, MONSTER, endermanoverhaul:desert_enderman, 10, 1, 4
 2782, desert, regions_unexplored:joshua_desert, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 2783, desert, regions_unexplored:joshua_desert, CREATURE, minecraft:sheep, 12, 4, 4
@@ -2846,7 +2817,6 @@
 2846, none, mysticsbiomes:lavender_meadow, MONSTER, minecraft:creeper, 80, 4, 4
 2847, none, mysticsbiomes:lavender_meadow, MONSTER, minecraft:slime, 80, 4, 4
 2848, none, mysticsbiomes:lavender_meadow, MONSTER, minecraft:witch, 5, 1, 1
-2849, none, mysticsbiomes:lavender_meadow, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 2850, none, mysticsbiomes:lavender_meadow, CREATURE, mysticsbiomes:butterfly, 10, 1, 3
 2851, none, mysticsbiomes:lavender_meadow, CREATURE, minecraft:sheep, 12, 4, 4
 2852, none, mysticsbiomes:lavender_meadow, CREATURE, minecraft:rabbit, 10, 2, 3
@@ -2955,7 +2925,6 @@
 2955, none, minecraft:lush_caves, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 2956, none, minecraft:lush_caves, MONSTER, creeperoverhaul:dripstone_creeper, 75, 2, 2
 2957, none, minecraft:lush_caves, MONSTER, eidolon:wraith, 60, 1, 3
-2958, none, minecraft:lush_caves, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 2959, none, minecraft:lush_caves, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 2960, none, minecraft:lush_caves, CREATURE, eidolon:slimy_slug, 10, 2, 3
 2961, none, minecraft:lush_caves, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
@@ -3049,7 +3018,6 @@
 3049, swamp, minecraft:mangrove_swamp, MONSTER, endermanoverhaul:swamp_enderman, 10, 1, 4
 3050, swamp, minecraft:mangrove_swamp, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 3051, swamp, minecraft:mangrove_swamp, MONSTER, eidolon:wraith, 60, 1, 3
-3052, swamp, minecraft:mangrove_swamp, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 3053, swamp, minecraft:mangrove_swamp, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 3054, swamp, minecraft:mangrove_swamp, MONSTER, creeperoverhaul:swamp_creeper, 75, 2, 2
 3055, swamp, minecraft:mangrove_swamp, CREATURE, minecraft:frog, 10, 2, 5
@@ -3147,7 +3115,6 @@
 3147, swamp, regions_unexplored:marsh, MONSTER, endermanoverhaul:swamp_enderman, 10, 1, 4
 3148, swamp, regions_unexplored:marsh, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 3149, swamp, regions_unexplored:marsh, MONSTER, eidolon:wraith, 60, 1, 3
-3150, swamp, regions_unexplored:marsh, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 3151, swamp, regions_unexplored:marsh, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 3152, swamp, regions_unexplored:marsh, MONSTER, creeperoverhaul:swamp_creeper, 75, 2, 2
 3153, swamp, regions_unexplored:marsh, CREATURE, minecraft:frog, 10, 2, 5
@@ -3245,7 +3212,6 @@
 3245, plains, minecraft:meadow, MONSTER, eidolon:zombie_brute, 60, 1, 3
 3246, plains, minecraft:meadow, MONSTER, endermanoverhaul:flower_fields_enderman, 10, 1, 4
 3247, plains, minecraft:meadow, MONSTER, eidolon:wraith, 60, 1, 3
-3248, plains, minecraft:meadow, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 3249, plains, minecraft:meadow, MONSTER, earthmobsmod:bouldering_zombie, 20, 4, 4
 3250, plains, minecraft:meadow, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 3251, plains, minecraft:meadow, CREATURE, minecraft:donkey, 10, 1, 2
@@ -3567,7 +3533,6 @@
 3567, swamp, regions_unexplored:old_growth_bayou, MONSTER, endermanoverhaul:swamp_enderman, 10, 1, 4
 3568, swamp, regions_unexplored:old_growth_bayou, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 3569, swamp, regions_unexplored:old_growth_bayou, MONSTER, eidolon:wraith, 60, 1, 3
-3570, swamp, regions_unexplored:old_growth_bayou, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 3571, swamp, regions_unexplored:old_growth_bayou, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 3572, swamp, regions_unexplored:old_growth_bayou, MONSTER, creeperoverhaul:swamp_creeper, 75, 2, 2
 3573, swamp, regions_unexplored:old_growth_bayou, CREATURE, minecraft:frog, 10, 2, 5
@@ -3818,7 +3783,6 @@
 3818, none, regions_unexplored:outback, MONSTER, creeperoverhaul:desert_creeper, 75, 2, 2
 3819, none, regions_unexplored:outback, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 3820, none, regions_unexplored:outback, MONSTER, eidolon:wraith, 60, 1, 3
-3821, none, regions_unexplored:outback, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 3822, none, regions_unexplored:outback, MONSTER, endermanoverhaul:desert_enderman, 10, 1, 4
 3823, none, regions_unexplored:outback, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 3824, none, regions_unexplored:outback, CREATURE, minecraft:sheep, 12, 4, 4
@@ -4266,7 +4230,6 @@
 4266, taiga, regions_unexplored:redwoods, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 4267, taiga, regions_unexplored:redwoods, MONSTER, endermanoverhaul:dark_oak_enderman, 10, 1, 4
 4268, taiga, regions_unexplored:redwoods, MONSTER, eidolon:wraith, 60, 1, 3
-4269, taiga, regions_unexplored:redwoods, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 4270, taiga, regions_unexplored:redwoods, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 4271, taiga, regions_unexplored:redwoods, CREATURE, minecraft:sheep, 12, 4, 4
 4272, taiga, regions_unexplored:redwoods, CREATURE, minecraft:pig, 10, 4, 4
@@ -4431,7 +4394,6 @@
 4431, none, regions_unexplored:saguaro_desert, MONSTER, creeperoverhaul:desert_creeper, 75, 2, 2
 4432, none, regions_unexplored:saguaro_desert, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 4433, none, regions_unexplored:saguaro_desert, MONSTER, eidolon:wraith, 60, 1, 3
-4434, none, regions_unexplored:saguaro_desert, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 4435, none, regions_unexplored:saguaro_desert, MONSTER, endermanoverhaul:desert_enderman, 10, 1, 4
 4436, none, regions_unexplored:saguaro_desert, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 4437, none, regions_unexplored:saguaro_desert, CREATURE, minecraft:sheep, 12, 4, 4
@@ -4462,7 +4424,6 @@
 4462, savanna, minecraft:savanna, MONSTER, eidolon:zombie_brute, 60, 1, 3
 4463, savanna, minecraft:savanna, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 4464, savanna, minecraft:savanna, MONSTER, eidolon:wraith, 60, 1, 3
-4465, savanna, minecraft:savanna, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 4466, savanna, minecraft:savanna, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 4467, savanna, minecraft:savanna, MONSTER, endermanoverhaul:savanna_enderman, 10, 1, 4
 4468, savanna, minecraft:savanna, MONSTER, creeperoverhaul:savannah_creeper, 75, 2, 2
@@ -4506,7 +4467,6 @@
 4506, savanna, minecraft:savanna_plateau, MONSTER, eidolon:zombie_brute, 60, 1, 3
 4507, savanna, minecraft:savanna_plateau, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 4508, savanna, minecraft:savanna_plateau, MONSTER, eidolon:wraith, 60, 1, 3
-4509, savanna, minecraft:savanna_plateau, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 4510, savanna, minecraft:savanna_plateau, MONSTER, earthmobsmod:bouldering_zombie, 20, 4, 4
 4511, savanna, minecraft:savanna_plateau, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 4512, savanna, minecraft:savanna_plateau, MONSTER, endermanoverhaul:savanna_enderman, 10, 1, 4
@@ -4795,7 +4755,6 @@
 4795, beach, minecraft:snowy_beach, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 4796, beach, minecraft:snowy_beach, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 4797, beach, minecraft:snowy_beach, MONSTER, eidolon:wraith, 60, 1, 3
-4798, beach, minecraft:snowy_beach, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 4799, beach, minecraft:snowy_beach, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 4800, beach, minecraft:snowy_beach, MONSTER, creeperoverhaul:beach_creeper, 75, 2, 2
 4801, beach, minecraft:snowy_beach, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
@@ -4845,7 +4804,6 @@
 4845, icy, minecraft:snowy_plains, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 4846, icy, minecraft:snowy_plains, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 4847, icy, minecraft:snowy_plains, MONSTER, eidolon:wraith, 60, 1, 3
-4848, icy, minecraft:snowy_plains, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 4849, icy, minecraft:snowy_plains, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 4850, icy, minecraft:snowy_plains, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 4851, icy, minecraft:snowy_plains, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
@@ -4885,7 +4843,6 @@
 4885, extreme_hills, minecraft:snowy_slopes, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 4886, extreme_hills, minecraft:snowy_slopes, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 4887, extreme_hills, minecraft:snowy_slopes, MONSTER, eidolon:wraith, 60, 1, 3
-4888, extreme_hills, minecraft:snowy_slopes, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 4889, extreme_hills, minecraft:snowy_slopes, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 4890, extreme_hills, minecraft:snowy_slopes, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 4891, extreme_hills, minecraft:snowy_slopes, MONSTER, earthmobsmod:bouldering_zombie, 20, 4, 4
@@ -4927,7 +4884,6 @@
 4927, taiga, minecraft:snowy_taiga, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 4928, taiga, minecraft:snowy_taiga, MONSTER, endermanoverhaul:snowy_enderman, 10, 1, 4
 4929, taiga, minecraft:snowy_taiga, MONSTER, eidolon:wraith, 60, 1, 3
-4930, taiga, minecraft:snowy_taiga, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 4931, taiga, minecraft:snowy_taiga, MONSTER, creeperoverhaul:snowy_creeper, 75, 2, 2
 4932, taiga, minecraft:snowy_taiga, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 4933, taiga, minecraft:snowy_taiga, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
@@ -5159,7 +5115,6 @@
 5159, savanna, regions_unexplored:steppe, MONSTER, eidolon:zombie_brute, 60, 1, 3
 5160, savanna, regions_unexplored:steppe, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 5161, savanna, regions_unexplored:steppe, MONSTER, eidolon:wraith, 60, 1, 3
-5162, savanna, regions_unexplored:steppe, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 5163, savanna, regions_unexplored:steppe, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 5164, savanna, regions_unexplored:steppe, MONSTER, endermanoverhaul:savanna_enderman, 10, 1, 4
 5165, savanna, regions_unexplored:steppe, MONSTER, creeperoverhaul:savannah_creeper, 75, 2, 2
@@ -5254,7 +5209,6 @@
 5254, none, mysticsbiomes:strawberry_fields, MONSTER, minecraft:creeper, 80, 4, 4
 5255, none, mysticsbiomes:strawberry_fields, MONSTER, minecraft:slime, 80, 4, 4
 5256, none, mysticsbiomes:strawberry_fields, MONSTER, minecraft:witch, 5, 1, 1
-5257, none, mysticsbiomes:strawberry_fields, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 5258, none, mysticsbiomes:strawberry_fields, CREATURE, mysticsbiomes:strawberry_cow, 16, 2, 4
 5259, none, mysticsbiomes:strawberry_fields, CREATURE, minecraft:rabbit, 10, 2, 3
 5260, none, mysticsbiomes:strawberry_fields, CREATURE, eidolon:slimy_slug, 10, 2, 3
@@ -5308,7 +5262,6 @@
 5308, none, minecraft:sunflower_plains, MONSTER, eidolon:zombie_brute, 60, 1, 3
 5309, none, minecraft:sunflower_plains, MONSTER, endermanoverhaul:flower_fields_enderman, 10, 1, 4
 5310, none, minecraft:sunflower_plains, MONSTER, eidolon:wraith, 60, 1, 3
-5311, none, minecraft:sunflower_plains, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 5312, none, minecraft:sunflower_plains, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 5313, none, minecraft:sunflower_plains, CREATURE, minecraft:sheep, 12, 4, 4
 5314, none, minecraft:sunflower_plains, CREATURE, minecraft:pig, 10, 4, 4
@@ -5368,7 +5321,6 @@
 5368, swamp, minecraft:swamp, MONSTER, endermanoverhaul:swamp_enderman, 10, 1, 4
 5369, swamp, minecraft:swamp, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 5370, swamp, minecraft:swamp, MONSTER, eidolon:wraith, 60, 1, 3
-5371, swamp, minecraft:swamp, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 5372, swamp, minecraft:swamp, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 5373, swamp, minecraft:swamp, MONSTER, creeperoverhaul:swamp_creeper, 75, 2, 2
 5374, swamp, minecraft:swamp, CREATURE, minecraft:sheep, 12, 4, 4
@@ -5687,7 +5639,6 @@
 5687, ocean, minecraft:warm_ocean, MONSTER, eidolon:zombie_brute, 60, 1, 3
 5688, ocean, minecraft:warm_ocean, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 5689, ocean, minecraft:warm_ocean, MONSTER, eidolon:wraith, 60, 1, 3
-5690, ocean, minecraft:warm_ocean, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 5691, ocean, minecraft:warm_ocean, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 5692, ocean, minecraft:warm_ocean, MONSTER, earthmobsmod:tropical_slime, 10, 1, 2
 5693, ocean, minecraft:warm_ocean, MONSTER, endermanoverhaul:coral_enderman, 10, 1, 2
@@ -5871,7 +5822,6 @@
 5871, none, minecraft:windswept_hills, MONSTER, endermanoverhaul:windswept_hills_enderman, 10, 1, 4
 5872, none, minecraft:windswept_hills, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 5873, none, minecraft:windswept_hills, MONSTER, eidolon:wraith, 60, 1, 3
-5874, none, minecraft:windswept_hills, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 5875, none, minecraft:windswept_hills, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 5876, none, minecraft:windswept_hills, MONSTER, creeperoverhaul:hills_creeper, 75, 2, 2
 5877, none, minecraft:windswept_hills, CREATURE, minecraft:sheep, 12, 4, 4
@@ -5907,7 +5857,6 @@
 5907, savanna, minecraft:windswept_savanna, MONSTER, eidolon:zombie_brute, 60, 1, 3
 5908, savanna, minecraft:windswept_savanna, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 5909, savanna, minecraft:windswept_savanna, MONSTER, eidolon:wraith, 60, 1, 3
-5910, savanna, minecraft:windswept_savanna, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 5911, savanna, minecraft:windswept_savanna, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 5912, savanna, minecraft:windswept_savanna, MONSTER, endermanoverhaul:savanna_enderman, 10, 1, 4
 5913, savanna, minecraft:windswept_savanna, MONSTER, creeperoverhaul:savannah_creeper, 75, 2, 2
@@ -5951,7 +5900,6 @@
 5951, badlands, minecraft:wooded_badlands, MONSTER, eidolon:zombie_brute, 60, 1, 3
 5952, badlands, minecraft:wooded_badlands, MONSTER, creeperoverhaul:cave_creeper, 75, 2, 2
 5953, badlands, minecraft:wooded_badlands, MONSTER, eidolon:wraith, 60, 1, 3
-5954, badlands, minecraft:wooded_badlands, MONSTER, endermanoverhaul:cave_enderman, 10, 1, 4
 5955, badlands, minecraft:wooded_badlands, MONSTER, endermanoverhaul:badlands_enderman, 10, 1, 4
 5956, badlands, minecraft:wooded_badlands, MONSTER, earthmobsmod:bouldering_zombie, 20, 4, 4
 5957, badlands, minecraft:wooded_badlands, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4

@@ -66,6 +66,6 @@
 	paper_bag = true
 	popcorn = true
 	carved_pumpkin = true
-	splattered_egg = true
+	splattered_egg = false
 	candy_corn = true
 

@@ -352,6 +352,14 @@
 	#
 	#Range: 0 ~ 1000000
 	continuityEssenceCooldown = 48000
+	# 
+	#-----------------------------------------------------
+	#
+	# How many rage levels there are and what level Strength effect each rage level gives.
+	# The list is in order of the effect levels that the player will get as they make highlighted kills.
+	# Adding or removing numbers will change the maximum number of rage tiers too.
+	#
+	ragingEssenceStrengthLevels = [1, 2, 3, 5, 8, 14, 20]
 
 ["Enchantments Options"]
 	# 

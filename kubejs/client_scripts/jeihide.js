@@ -155,12 +155,20 @@ JEIEvents.hideItems(event => {
         'regions_unexplored:salmonberry',
         'trashcans:energy_trash_can',
         'framedblocks:powered_framing_saw',
-        'crabbersdelight:crab_spawn_egg',
-        'crabbersdelight:crab_bucket',
         'vegandelight:salt',
         'reliquary:zombie_heart',
         'extra_compat:reinforced_gold_machete',
         'sophisticatedbackpacks:inception_upgrade',
+        'justoutdoorstuffs:garden_lawn_mower',
+        'justoutdoorstuffs:patio_bbq_grill',
+        'justoutdoorstuffs:patio_modern_planter_black',
+        'justoutdoorstuffs:garden_hose',
+        'justoutdoorstuffs:garden_bag_fertilizers',
+        'justoutdoorstuffs:patio_modern_planter_white',
+        'abyssal_decor:amaranth_1',
+        'abyssal_decor:amaranth_pinnacle',
+        'abyssal_decor:amaranth_crate',
+        'forbidden_arcanus:quantum_catcher'
 
     ];
     

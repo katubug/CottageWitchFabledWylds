@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Witchy Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Using a Warp Scroll or Warp Stone will cost EXP, but traveling from one Waystone to another is free! Waystones found in the wild cannot be obtained and relocated."
+    }
+  }

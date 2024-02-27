@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Witchy Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Looking for something like raw ingredients, light sources, or flowers in JEI? They are helpfully tooltipped, so you can just search 'ingredient' or 'glows' or 'flowers!'"
+    }
+  }

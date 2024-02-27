@@ -399,7 +399,7 @@
 				value: 50
 			}]
 			title: "Die 50 Times"
-			x: 3.0d
+			x: 2.5d
 			y: 4.5d
 		}
 		{
@@ -661,7 +661,7 @@
 				value: 9999
 			}]
 			title: "Doling Death to Others"
-			x: 5.0d
+			x: 5.5d
 			y: 4.5d
 		}
 		{
@@ -832,6 +832,26 @@
 			}]
 			x: 1.5d
 			y: 12.5d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["Congrats on surviving your first consecutive hour! Here's a cookie!"]
+			id: "0906699108A371A5"
+			rewards: [{
+				id: "65965ACE64F6D9C0"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "tombstone:adventure/strong_or_careful"
+				criterion: ""
+				id: "2835A2CDA96D6CF6"
+				type: "advancement"
+			}]
+			title: "Avoiding Death"
+			x: 4.0d
+			y: 5.5d
 		}
 	]
 	title: "Welcome"

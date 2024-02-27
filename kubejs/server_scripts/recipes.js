@@ -76,12 +76,28 @@ ServerEvents.recipes(event => {
     //Recipe Replacements
     //Strawberries
     event.replaceInput({
-            input: 'mysticsbiomes:strawberry'
-        }, // Arg 1: the filter
-        'mysticsbiomes:strawberry', // Arg 2: the item to replace
-        'bakery:strawberry' // Arg 3: the item to replace it with
-        // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
-    )
+        input: 'mysticsbiomes:strawberry'
+    }, // Arg 1: the filter
+    'mysticsbiomes:strawberry', // Arg 2: the item to replace
+    'bakery:strawberry' // Arg 3: the item to replace it with
+    // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
+)
+
+    //Pearls
+    event.replaceInput({
+        input: 'abyssal_decor:white_pearl'
+    }, // Arg 1: the filter
+    'abyssal_decor:white_pearl', // Arg 2: the item to replace
+    '#forge:pearls' // Arg 3: the item to replace it with
+)
+
+    //Pearls
+    event.replaceInput({
+        input: 'crabbersdelight:pearl'
+    }, // Arg 1: the filter
+    'crabbersdelight:pearl', // Arg 2: the item to replace
+    '#forge:pearls' // Arg 3: the item to replace it with
+)
 
 
     // Cheaper Post Box
@@ -208,6 +224,14 @@ ServerEvents.recipes(event => {
         Item.of('farmersdelight:wheat_dough'),
         [
             'bakery:dough'
+        ]
+    )
+
+    //Dough conversion 2
+    event.shapeless(
+        Item.of('farmersdelight:wheat_dough'),
+        [
+            'create:dough'
         ]
     )
 

@@ -1694,7 +1694,7 @@
 			y: -3.5d
 		}
 		{
-			description: ["These adorable pieces of gear, including &bCat Ears&r, &bDruid Horns&r, and a &bFrog&r you can wear o your head are &easy to obtain&r and have &aweak stats&r. You can use them with &lCosmetic Armor&r &aslots&r to apply their appearance even though your armor is still giving you its benefits!"]
+			description: ["These adorable pieces of gear, including &bCat Ears&r, &bDruid Horns&r, and a &bFrog&r you can wear on your head are &aeasy to obtain&r and have &aweak stats&r. You can use them with &lCosmetic Armor&r &aslots&r to apply their appearance even though your armor is still giving you its benefits!"]
 			id: "753BC713E94D53E1"
 			rewards: [{
 				exclude_from_claim_all: true

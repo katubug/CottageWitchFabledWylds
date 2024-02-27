@@ -26,15 +26,7 @@
 		{ item: "eidolon:music_disc_parousia" }
 		{ item: "species:music_disc_dial" }
 		{ item: "unusualprehistory:zulogae_disc" }
-		{ item: "venturer:music_disc_thaw" }
-		{ item: "doggytalents:disc_bwv_1080_fugue_11" }
-		{ item: "doggytalents:disc_bwv_849_fugue" }
-		{ item: "doggytalents:disc_okami_ryoshima_coast_arr" }
-		{ item: "doggytalents:disc_chopin_op64_no1" }
 		{ item: "spawn:music_disc_rot" }
-		{ item: "additionaladditions:music_disc_1507" }
-		{ item: "additionaladditions:music_disc_1007" }
-		{ item: "additionaladditions:music_disc_0308" }
 	]
 	title: "Music Disc Reward"
 }

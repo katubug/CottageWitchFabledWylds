@@ -1978,11 +1978,6 @@
 					type: "item"
 				}
 				{
-					id: "5179FC5A4A519249"
-					item: "additionaladditions:berry_pie"
-					type: "item"
-				}
-				{
 					id: "373E8141980FCE0A"
 					item: "bakery:chocolate_tart"
 					type: "item"

@@ -4,8 +4,6 @@ StartupEvents.registry('item', event => {
     // The texture for this item has to be placed in kubejs/assets/kubejs/textures/item/test_item.png
     // If you want a custom item model, you can create one in Blockbench and put it in kubejs/assets/kubejs/models/item/test_item.json
 
-    event.create('ticket')
-
   })
   
 
@@ -627,4 +625,34 @@ ItemEvents.modification(event =>{
     })
 
     
+})
+
+BlockEvents.modification(event => {
+
+  let starstone = [
+    'abyssal_decor:starstone_tiles',
+    'abyssal_decor:lapis_pillar',
+    'abyssal_decor:gilded_lapis_pillar',
+    'abyssal_decor:chiseled_starstone',
+    'abyssal_decor:chiseled_starstone',
+    'abyssal_decor:polished_starstone_wall',
+    'abyssal_decor:polished_starstone_slab',
+    'abyssal_decor:polished_starstone_stairs',
+    'abyssal_decor:polished_starstone',
+    'abyssal_decor:starstone_pillar',
+    'abyssal_decor:smooth_starstone',
+    'abyssal_decor:gilded_starstone',
+    'abyssal_decor:starstone'
+  ];
+
+  for (const stars of starstone) {
+    event.modify(stars, block => {
+      block.lightEmission = 10
+    })
+  }   
+
+    event.modify('abyssal_decor:starry_pearl_tiles', block => {
+      block.lightEmission = 5
+    })
+  
 })

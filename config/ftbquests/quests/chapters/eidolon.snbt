@@ -62,6 +62,12 @@
 				"12A877C525919485"
 			]
 			id: "13623C8B65A712A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33FDC5CA0D61FE97"
+				table_id: 5705869042914710822L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -85,8 +91,9 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: 0.0d
+			title: "Magical Plants"
+			x: -2.5d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -398,7 +405,7 @@
 				""
 				"Each line of the instructions is a different \"phase\" of the brewing. Between these phases, the brew will &achange color&r to let you know you can continue. It is important to &abrew quickly&r, as &dthe water can boil away, taking your items with it&r!"
 				""
-				"So for this recipe, you will first &6throw in 2 &bRedstone&6 and 2 &bNether Quartz&r. Then, wait for the brew to &achange color&r."
+				"So for this recipe, you will first &6throw in 2 &bRedstone&6 and 2 &bLapis Lazuli&r. Then, wait for the brew to &achange color&r."
 				""
 				"Once it changes, &6throw in 4 &bSoul Shards&r, and &6stir exactly twice&r (those icons indicate a stirring motion). Once again, it will &achange color&r."
 				""
@@ -508,7 +515,7 @@
 			tasks: [{
 				icon: "eidolon:raven_feather"
 				id: "03B7430D65EFC1CC"
-				observe_type: 0
+				observe_type: 5
 				timer: 0L
 				to_observe: "eidolon:raven"
 				type: "observation"
@@ -714,7 +721,7 @@
 		}
 		{
 			dependencies: ["35618FF7350BEA17"]
-			description: ["To worship the &eMoon Goddess&r , &6give your &bArs Ecclesia&a6to a &eWitch&r."]
+			description: ["To worship the &eMoon Goddess&r, &6give your &bArs Ecclesia&r to a &eWitch&r."]
 			id: "34548B38A1F9AD83"
 			tasks: [{
 				advancement: "eidolon:wicked_path"
@@ -727,7 +734,7 @@
 		}
 		{
 			dependencies: ["2E95BFDEACD38578"]
-			description: ["As you continue to learn, you will &aunlock chants&r which can be &aused on items dropped on the ground&r. One of the most basic and useful ones is used on &bPewter Inlay&r, which can be transformed into either &bHoly Symbols&r or &bUnholy Symbols&r. These same &aChants&r can sometimes have other effects, so be sure to &6try them out&r."]
+			description: ["As you continue to learn, you will &aunlock chants&r which can be &aused on items dropped on the ground&r. One of the most basic and useful ones is used on &bPewter Inlay&r, which can be transformed into &bUnholy Symbols&r, and gold into &bHoly Symbols&r. These same &aChants&r can sometimes have other effects, so be sure to &6try them out&r."]
 			id: "2F69D6FB70A2ACC4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -751,6 +758,11 @@
 						}
 					}
 					title: "Any #eidolon:patron_symbol"
+					type: "item"
+				}
+				{
+					id: "5863608A89EC31BC"
+					item: "eidolon:gold_inlay"
 					type: "item"
 				}
 			]

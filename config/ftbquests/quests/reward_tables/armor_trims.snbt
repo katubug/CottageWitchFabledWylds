@@ -20,9 +20,7 @@
 		{ item: "minecraft:rib_armor_trim_smithing_template" }
 		{ item: "minecraft:eye_armor_trim_smithing_template" }
 		{ item: "minecraft:spire_armor_trim_smithing_template" }
-		{ item: "unusualfishmod:ancient_weapon_smithing_template" }
 		{ item: "moresnifferflowers:aroma_armor_trim_smithing_table" }
-		{ item: "additionaladditions:rose_gold_upgrade" }
 		{ item: "forbidden_arcanus:darkstone_upgrade_smithing_template" }
 		{ item: "lost_aether_content:noble_armor_trim_smithing_template" }
 		{ item: "galosphere:silver_upgrade_smithing_template" }

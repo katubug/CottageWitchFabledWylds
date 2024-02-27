@@ -67,16 +67,6 @@
 				Count: 1b
 				id: "reliquary:mob_charm_fragment"
 				tag: {
-					entity: "unusualfishmod:prawn"
-				}
-			}
-			weight: 25.0f
-		}
-		{
-			item: {
-				Count: 1b
-				id: "reliquary:mob_charm_fragment"
-				tag: {
 					entity: "minecraft:vex"
 				}
 			}

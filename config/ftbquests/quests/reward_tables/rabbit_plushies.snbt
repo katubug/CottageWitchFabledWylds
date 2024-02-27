@@ -3,7 +3,6 @@
 	loot_size: 1
 	order_index: 40
 	rewards: [
-		{ item: "practical_plushies_animals:rabbit_plushie" }
 		{ item: "plushies:salt_rabbit_plushie" }
 		{ item: "plushies:brown_rabbit_plushie" }
 		{ item: "plushies:white_splotched_rabbit_plushie" }

@@ -22,7 +22,6 @@
 			weight: 5.0f
 		}
 		{ count: 10, item: "betterarcheology:rotten_log", weight: 6.0f }
-		{ count: 3, item: "philipsruins:broken_bone", weight: 5.0f }
 		{ item: "unusualprehistory:amber_fossil", weight: 2.0f }
 		{ item: "unusualprehistory:opal_chunk", weight: 4.0f }
 		{ count: 2, item: "unusualprehistory:insulator", weight: 4.0f }

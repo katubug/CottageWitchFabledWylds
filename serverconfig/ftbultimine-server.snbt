@@ -26,6 +26,7 @@
 	# Default: ["minecraft:base_stone_overworld", "c:*_ores", "forge:ores/*"]
 	merge_tags: [
 		"minecraft:base_stone_overworld"
+		"forge:stone"
 		"c:*_ores"
 		"forge:ores/*"
 	]

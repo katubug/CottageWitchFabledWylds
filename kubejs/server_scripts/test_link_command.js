@@ -14,7 +14,7 @@
 
 ServerEvents.commandRegistry(event => {
     const FEEDBACK_COMMAND_NAME = "feedback"
-    const FEEDBACK_URL = "https://forms.gle/TGzn8gMH3ttNQzM59"
+    const FEEDBACK_URL = "https://discord.com/channels/1076365835284787220/1211739023333265459"
 
     const {commands: Commands} = event;
 

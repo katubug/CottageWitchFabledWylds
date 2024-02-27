@@ -1,0 +1,17 @@
+{
+    "modId": "convivium",
+    "silent": true,
+    "group": {
+      "name": "Convivium Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+      {
+        "output": "convivium:camellia_seeds"
+      }
+    ]
+  }

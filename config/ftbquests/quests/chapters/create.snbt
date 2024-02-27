@@ -724,6 +724,12 @@
 				"&bDeployers&r are used to automate &bCasings&r, craft &bPrecision Mechanisms&r, and to &agenerally simulate right or left clicks&r. This allows the &bDeployer&r to automate things which &lArs Nouveau&r cannot."
 				""
 				"It can use tools like shears, buckets, swords, or axes. It can plant crops, saplings, or harvest coffee, apply bonemeal, or even &alight fires&r if provided with a &bFlint and Steel&r."
+				""
+				"Note that &din order for Deployers to work in claimed chunks&r, you have to &6allow Fake Player access&r via FTB Teams. Press E and click on \"My Team\" in the top left. Then click the gear in the top right, and you'll see this menu:"
+				""
+				"{image:enchanted_wilds:textures/questimages/fakeplayers.png width:871 height:342 align:1 fit:true}"
+				""
+				"Set \"Allow All Fake Players\" to true."
 			]
 			id: "244FE0B3FC20D15C"
 			rewards: [

@@ -1308,7 +1308,7 @@
 				"Is Blacklist" = false
 
 [mobs]
-	Crabs = true
+	Crabs = false
 	Forgotten = true
 	Foxhound = true
 	Shiba = true
@@ -1317,11 +1317,11 @@
 	Wraith = true
 
 	[mobs.crabs]
-		"Enable Brewing" = true
+		"Enable Brewing" = false
 		#Whether Resilience should be required for 'How Did We Get Here?' and (if brewing is enabled) 'A Furious Cocktail'.
 		#Keep this on when brewing is disabled if your pack adds an alternative source for the effect.
-		"Resilience Required For All Effects" = true
-		"Add Crab Leg To Fisherman Trades" = true
+		"Resilience Required For All Effects" = false
+		"Add Crab Leg To Fisherman Trades" = false
 
 		[mobs.crabs.spawn_config]
 			#Allowed values: (0,)

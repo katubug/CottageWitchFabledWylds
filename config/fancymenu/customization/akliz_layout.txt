@@ -1,0 +1,208 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = akliz
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1709057536896
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:9869089a-2729-48a6-80d6-f4ae9cd3ebb8-1709056484123] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/menubg.png
+  slide = false
+  repeat_texture = true
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  interactable = true
+  source = If you'd like to host a multiplayer server, you can also support the modpack by signing up with our partner, Akliz!%n%%n%Akliz offers excellent performance for a reasonable price, and you can save 20% off your first month by choosing one of the buttons below, which will open a link in a web browser window.
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = d8e15e80-e9dc-4296-a35d-f05e529e57eb-1709056516843
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -153
+  y = -151
+  width = 306
+  height = 135
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = add88ec5-6a32-4bc5-927b-3860eb4beab6-1709056516843
+  [loading_requirement_container_meta:add88ec5-6a32-4bc5-927b-3860eb4beab6-1709056516843] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = cc00e83c-6775-4950-8af6-3c6dd979a383-1709056937636
+  [executable_action_instance:ac4f2e62-492c-4722-9092-b99ef1335aa7-1709057144805][action_type:openlink] = https://www.akliz.net/cottagewitch
+  [executable_block:cc00e83c-6775-4950-8af6-3c6dd979a383-1709056937636][type:generic] = [executables:ac4f2e62-492c-4722-9092-b99ef1335aa7-1709057144805;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/hoverbutton.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/inactivebutton.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  description = If you are in or nearest to North America, click here!
+  label = North America
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 9b8c4eee-bb78-4444-a6e0-f5f65ba5f0e0-1709056937636
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -50
+  y = -10
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = df8d6b47-3080-41d8-a073-eea933d472bf-1709056937636
+  [loading_requirement_container_meta:df8d6b47-3080-41d8-a073-eea933d472bf-1709056937636] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = cc00e83c-6775-4950-8af6-3c6dd979a383-1709056937636
+  [executable_action_instance:a51927c9-e10c-453b-9571-b4fd150d1048-1709057247522][action_type:openlink] = https://www.akliz.net/cottagewitch-oce
+  [executable_block:cc00e83c-6775-4950-8af6-3c6dd979a383-1709056937636][type:generic] = [executables:a51927c9-e10c-453b-9571-b4fd150d1048-1709057247522;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/hoverbutton.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/inactivebutton.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  description = If you live in Australia/NZ or SEA, choose this option!
+  label = Oceania
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 877b9bcc-98e9-405d-8b5c-28602d07fb13-1709056972888
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -153
+  y = -10
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = df8d6b47-3080-41d8-a073-eea933d472bf-1709056937636
+  [loading_requirement_container_meta:df8d6b47-3080-41d8-a073-eea933d472bf-1709056937636] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = cc00e83c-6775-4950-8af6-3c6dd979a383-1709056937636
+  [executable_action_instance:b13d6e36-6cf2-48d6-87c2-052c22e6f4ac-1709057285123][action_type:openlink] = https://www.akliz.net/cottagewitch-eu
+  [executable_block:cc00e83c-6775-4950-8af6-3c6dd979a383-1709056937636][type:generic] = [executables:b13d6e36-6cf2-48d6-87c2-052c22e6f4ac-1709057285123;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/hoverbutton.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/inactivebutton.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  description = If you live in or near Europe, choose this option!
+  label = Europe
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 07bef375-9855-45eb-be75-3d0ee0d0b869-1709056977954
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 53
+  y = -10
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = df8d6b47-3080-41d8-a073-eea933d472bf-1709056937636
+  [loading_requirement_container_meta:df8d6b47-3080-41d8-a073-eea933d472bf-1709056937636] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = c0f4733d-7e19-4f11-9ef5-e6e9f0067560-1709057438962
+  [executable_action_instance:ec1618ca-e545-4dd6-b1fb-3ec1c9fa2f6f-1709057493384][action_type:closegui] = 
+  [executable_block:c0f4733d-7e19-4f11-9ef5-e6e9f0067560-1709057438962][type:generic] = [executables:ec1618ca-e545-4dd6-b1fb-3ec1c9fa2f6f-1709057493384;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/hoverbutton.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/inactivebutton.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Go Back
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 5f725980-5a2d-4bda-bafd-a9b2d3880fab-1709057438962
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -105
+  y = 17
+  width = 206
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 0e2b05c1-59e9-457e-bd09-4a6426373200-1709057438962
+  [loading_requirement_container_meta:0e2b05c1-59e9-457e-bd09-4a6426373200-1709057438962] = [groups:][instances:]
+}
+

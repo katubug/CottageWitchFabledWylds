@@ -1,23 +1,22 @@
 {
-    "modId": "minecraft",
-    "group": {
-      "name": "Let's Do Saplings",
-      "enabledByDefault": true,
-      "defaultPayment": {
-        "item": "minecraft:diamond"
-      },
-      "defaultCategory": "farmingforblockheads:saplings"
+  "modId": "minecraft",
+  "group": {
+    "name": "Let's Do Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:diamond"
     },
-    "customEntries": [
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+      {
+          "output": "vinery:cherry_sapling"
+        },
+  {
+          "output": "vinery:apple_tree_sapling"
+        },
         {
-            "output": "vinery:cherry_sapling"
-          },
-    {
-            "output": "vinery:apple_tree_sapling"
-          },
-          {
-            "output": "meadow:pine_sapling"
-      }
-    ]
-  }
-  
+          "output": "meadow:pine_sapling"
+    }
+  ]
+}

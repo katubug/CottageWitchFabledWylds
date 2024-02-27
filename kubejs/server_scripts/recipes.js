@@ -324,6 +324,12 @@ ServerEvents.recipes(event => {
         )
         */
 
+
+
+
+
+
+        /* HEYKATU
     // Building Gadgets
 
     //Building Gadget
@@ -414,6 +420,7 @@ ServerEvents.recipes(event => {
             D: 'minecraft:lapis_lazuli'
         }
     )
+    */
 
 
     // Easy Mob Farm Upgrades
@@ -859,6 +866,15 @@ ServerEvents.recipes(event => {
             E: 'minecraft:crying_obsidian'
         }
     )
+    //Convivium Book
+    event.shapeless(
+        Item.of('patchouli:guide_book', '{"patchouli:book":"convivium:book"}'),
+        [
+            'minecraft:book',
+            "minecraft:bone"
+        ]
+    )
+    
 
 
     //Stonecutter recipes for Xerca Woods

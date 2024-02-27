@@ -487,6 +487,12 @@
 				"{image:enchanted_wilds:textures/questimages/createaparty.png width:100 height:75 align:1 fit:true}"
 				""
 				"{image:enchanted_wilds:textures/questimages/manageallies.png width:200 height:150 align:1}"
+				""
+				"Note that &din order for Deployers and such to work in claimed chunks&r, you have to &6allow Fake Player access&r via FTB Teams. Press E and click on \"My Team\" in the top left. Then click the gear in the top right, and you'll see this menu:"
+				""
+				"{image:enchanted_wilds:textures/questimages/fakeplayers.png width:871 height:342 align:1 fit:true}"
+				""
+				"Set \"Allow All Fake Players\" to true."
 			]
 			id: "20F9C02AF5CBE665"
 			rewards: [

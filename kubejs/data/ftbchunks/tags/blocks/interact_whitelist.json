@@ -3,6 +3,8 @@
 	"values": [
 		"minecraft:crafting_table",
 		"minecraft:bell",
+		"#minecraft:doors",
+		"#minecraft:trapdoors",
 		{
 			"id": "#tombstone:graves",
 			"required": false

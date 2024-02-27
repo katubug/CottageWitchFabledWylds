@@ -1,0 +1,23 @@
+{
+    "modId": "brewery",
+    "silent": true,
+    "group": {
+      "name": "Let's Do Brewery Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        {
+        "output": "brewery:hops_seeds"
+        },
+        {
+        "output": "brewery:barley_seeds"
+        },
+        {
+        "output": "brewery:corn_seeds"
+        }
+    ]
+  }

@@ -168,7 +168,35 @@ JEIEvents.hideItems(event => {
         'abyssal_decor:amaranth_1',
         'abyssal_decor:amaranth_pinnacle',
         'abyssal_decor:amaranth_crate',
-        'forbidden_arcanus:quantum_catcher'
+        'forbidden_arcanus:quantum_catcher',
+        'tanukidecor:neon_club_sign',
+        'tanukidecor:neon_diamond_sign',
+        'tanukidecor:neon_heart_sign',
+        'tanukidecor:neon_spade_sign',
+        'tanukidecor:orange_science_pod',
+        'tanukidecor:green_rocket_lamp',
+        'tanukidecor:purple_rocket_lamp',
+        'tanukidecor:pink_rocket_lamp',
+        'tanukidecor:red_rocket_lamp',
+        'tanukidecor:turquoise_rocket_lamp',
+        'tanukidecor:yellow_rocket_lamp',
+        'tanukidecor:blue_rocket_lamp',
+        'tanukidecor:minimalist_table',
+        'tanukidecor:red_science_pod',
+        'tanukidecor:orange_science_pod',
+        'tanukidecor:blue_science_pod',
+        'tanukidecor:green_science_pod',
+        'tanukidecor:minimalist_dresser',
+        'tanukidecor:minimalist_mirror',
+        'tanukidecor:minimalist_wardrobe',
+        'tanukidecor:regal_armoire',
+        'tanukidecor:minimalist_stool',
+        'tanukidecor:minimalist_clock',
+        'tanukidecor:minimalist_chair',
+        'tanukidecor:minimalist_couch',
+        'tanukidecor:minimalist_bed',
+        'tanukidecor:minimalist_lamp',
+        'tanukidecor:minimalist_small_table'
 
     ];
     
@@ -176,13 +204,3 @@ JEIEvents.hideItems(event => {
       event.hide(hide);
   }
 })
-/*
-JEIEvents.addItems(event => {
-    event.add(
-        'buildinggadgets2:gadget_building', '{energy:500000,uuid:[I;-263423233,125847530,-2089373063,1330860108]}'))
-    event.add(Item.of('buildinggadgets2:gadget_exchanging', '{energy:500000,uuid:[I;2068449905,-191871022,-1763510008,-1044204975]}'))
-    event.add(Item.of('buildinggadgets2:gadget_copy_paste', '{energy:1000000}'))
-    event.add(Item.of('buildinggadgets2:gadget_cut_paste', '{energy:5000000,pastereplace:1b}'))
-    event.add(Item.of('buildinggadgets2:gadget_destruction', '{energy:1000000}'))
-})
-*/

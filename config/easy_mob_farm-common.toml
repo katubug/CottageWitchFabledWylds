@@ -289,7 +289,7 @@
 		#Defines the sound which is played when a loot drop is performed.
 		goldOceanFarmDropSound = "minecraft:entity.fish.swim"
 		#Supported Mobs for the ocean farm. (Use empty list to allow all mobs.)
-		goldOceanFarmAllowedMobs = ["creeperoverhaul:ocean_creeper", "endermanoverhaul:coral_enderman", "spawn:angler_fish", "spawn:tuna", "earthmobsmod:bouldering_drowned", "earthmobsmod:lobber_drowned","deep_aether:aerglow_fish", "minecraft:cod", "minecraft:salmon", "aquaculture:pacific_halibut", "aquaculture:pink_salmon", "aquaculture:atlantic_herring", "minecraft:squid", "aquaculture:atlantic_halibut", "aquaculture:blackfish", "minecraft:glow_squid", "aquaculture:pollock", "aquaculture:rainbow_trout", "minecraft:drowned", "aquaculture:atlantic_cod"]
+		goldOceanFarmAllowedMobs = ["creeperoverhaul:ocean_creeper", "endermanoverhaul:coral_enderman", "spawn:angler_fish", "spawn:tuna", "earthmobsmod:bouldering_drowned", "earthmobsmod:lobber_drowned", "deep_aether:aerglow_fish", "minecraft:cod", "minecraft:salmon", "aquaculture:pacific_halibut", "aquaculture:pink_salmon", "aquaculture:atlantic_herring", "minecraft:squid", "aquaculture:atlantic_halibut", "aquaculture:blackfish", "minecraft:glow_squid", "aquaculture:pollock", "aquaculture:rainbow_trout", "minecraft:drowned", "aquaculture:atlantic_cod"]
 		#Denied Mobs for the ocean farm.
 		goldOceanFarmDeniedMobs = []
 

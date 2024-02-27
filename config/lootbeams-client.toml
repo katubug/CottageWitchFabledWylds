@@ -5,11 +5,13 @@
 	render_name_color = true
 	#If beams should be colored the same as the Items rarity.
 	render_rarity_color = true
-	#How close the player has to be to see the beam. (note: ItemEntities stop rendering at 24 blocks, so that is the limit for beams)
-	#Range: 0.0 ~ 24.0
+	#How close the player has to be to see the beam. (note: in vanill ItemEntities stop rendering at 24 blocks.)
+	#Range: 0.0 ~ 1024.0
 	render_distance = 24.0
 	#Overrides an item's beam color with hex color. Must follow the specific format: (registryname=hexcolor) Or (#tagname=hexcolor). Example: "minecraft:stone=0xFFFFFF". This also accepts modids.
 	color_overrides = []
+	#If the rarity should be rendered under the nametag.
+	render_rarity = true
 
 	#Beam Configuration
 	["Loot Beams".Beam]

@@ -5,6 +5,6 @@
     "percentageExtraAttackSpeed": 120.0,
     "percentageExtraAttackKnockback": 120.0,
     "percentageExtraMaxHealth": 120.0,
-    "isEnable": true
+    "isEnable": false
   }
 }

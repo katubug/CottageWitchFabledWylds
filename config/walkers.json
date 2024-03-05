@@ -5,7 +5,7 @@
   "hostilesIgnoreHostileShapedPlayer": true,
   "hostilesForgetNewHostileShapedPlayer": false,
   "wolvesAttack2ndShapedPrey": true,
-  "ownedwolvesAttack2ndShapedPrey": false,
+  "ownedWolvesAttack2ndShapedPrey": false,
   "villagersRunFrom2ndShapes": true,
   "foxesAttack2ndShapedPrey": true,
   "useShapeSounds": true,
@@ -27,7 +27,7 @@
   "flySpeed": 0.05,
   "wardenIsBlinded": true,
   "wardenBlindsNearby": false,
-  "unlockOveridesCurrentShape": true,
+  "unlockOverridesCurrentShape": false,
   "unlockTimer": 60.0,
   "specialShapeIsThirdShape": false,
   "abilityCooldownMap": {
@@ -55,5 +55,7 @@
     "minecraft:horse": 40,
     "minecraft:evoker": 10
   },
-  "playerUUIDBlacklist": []
+  "abilityBlacklist": [],
+  "playerUUIDBlacklist": [],
+  "playerBlacklistIsWhitelist": false
 }

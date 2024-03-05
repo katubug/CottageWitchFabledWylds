@@ -2625,13 +2625,13 @@
 			id: "70B1F4C0D65D12D1"
 			rewards: [
 				{
-					id: "5C6040394DBFB91C"
-					item: "practical_plushies_animals:sheep_plushie"
+					id: "62472CE10CCECE37"
+					item: "plushies:cow_plushie"
 					type: "item"
 				}
 				{
-					id: "62472CE10CCECE37"
-					item: "plushies:cow_plushie"
+					id: "112353829A6BCEF1"
+					item: "plushies:sheep_plushie"
 					type: "item"
 				}
 			]

@@ -2,9 +2,12 @@
   "logModelCreationData": false,
   "debugOnRightClick": false,
   "renderModeChoice": "NORMAL",
-  "vanillaModelHologramRenderMode": "Off",
+  "vanillaModelHologramRenderMode_2": "OFF",
   "attemptRevertingEntityModelsAlteredByAnotherMod": false,
-  "logUnknownOrModdedEntityModels": "NONE",
+  "modelExportMode": "NONE",
   "attemptPhysicsModPatch_2": "CUSTOM",
-  "modelUpdateFrequency": "Average"
+  "modelUpdateFrequency": "Average",
+  "allowEBEModConfigModify": true,
+  "animationLODDistance": 20,
+  "retainDetailOnLowFps": true
 }

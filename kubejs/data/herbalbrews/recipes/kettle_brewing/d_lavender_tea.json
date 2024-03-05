@@ -1,0 +1,18 @@
+{
+    "type": "herbalbrews:kettle_brewing",
+    "experience": 0.8,
+    "ingredients": [
+      {
+        "item": "herbalbrews:lavender_blossom"
+      },
+      {
+        "item": "minecraft:water_bucket"
+      },
+      {
+        "item": "minecraft:sugar"
+      }
+    ],
+    "result": {
+      "item": "delightful:lavender_tea"
+    }
+  }

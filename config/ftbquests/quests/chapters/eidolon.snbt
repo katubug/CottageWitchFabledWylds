@@ -61,6 +61,17 @@
 				"405E2E0B8B109BC2"
 				"12A877C525919485"
 			]
+			description: [
+				"There are several magical plants to be found in this mod."
+				""
+				"&bMerammer Root&r can be used to make &bMerammer Resin&r, an important incense ingredient."
+				""
+				"Another incense addition is the &bFlowering Oanna&r."
+				""
+				"The &bSildrian Seed&r is used in making the &bEnervating Ring&r."
+				""
+				"Currently, the &bSprig of Avenna&r is &ddecorative only&r."
+			]
 			id: "13623C8B65A712A5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -92,8 +103,8 @@
 				}
 			]
 			title: "Magical Plants"
-			x: -2.5d
-			y: -7.0d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -136,6 +147,7 @@
 				"34548B38A1F9AD83"
 				"5D4B36377BC469D4"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Every good witch needs &aan Altar&r. You can combine &bAltar&r blocks to make a larger one, which can fit more upgrades."
 				""
@@ -216,7 +228,7 @@
 			description: [
 				"You can use the &bPlanter&r to display &aarcane plants&r such as the &bSprig of Avenna&r or &bFlowering Oanna&r. This will allow you to &aobtain more of these&r, as occasionally when &6you break the mature plant with left click&r, you will receive 2 of them."
 				""
-				"These plants can &abe used in &bCrucible&a or other recipes&r."
+				"These plants can &abe used in the &bCrucible&a or other recipes&r."
 			]
 			id: "405E2E0B8B109BC2"
 			rewards: [{
@@ -260,6 +272,8 @@
 				""
 				"In order to use it, you need to &6place it over a heat source&r such as a &bCampfire&r or &bStove&r, and then &6fill it with water&r. Make sure to have an infinite water source such as a &bSink&r nearby, as you'll be &ausing it a lot&r!"
 				""
+				"If you have difficulty using the Crucible, try using a &bHopper&r and &bWooden Chute&r to put in the items you'll need! Keep in mind that you have &d10 seconds&r to perform each phase of the brewing recipe."
+				""
 				"Why don't we start off by making a &bLesser Soul Gem&r?"
 			]
 			id: "6C5F3C1E50DE0082"
@@ -273,6 +287,16 @@
 				{
 					id: "33704C14F91DD52E"
 					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "541D33276FF40855"
+					item: "quark:chute"
+					type: "item"
+				}
+				{
+					id: "6226D8EEF204E62C"
+					item: "minecraft:hopper"
 					type: "item"
 				}
 			]
@@ -297,7 +321,7 @@
 				""
 				"{image:enchanted_wilds:textures/questimages/soulenchanter.png width:300 height:130 align:1}"
 				""
-				"&dEach item can only be enchanted in this way 5 times&r, so choose wisely! You can &areroll enchantments&r on a given item by &aenchanting another item&r."
+				"&dEach item can only be enchanted in this way 8 times&r, so choose wisely! You can &areroll enchantments&r on a given item by &aenchanting another item&r."
 			]
 			id: "3C9030840D8880FC"
 			rewards: [
@@ -394,10 +418,13 @@
 			}]
 			title: "Soul Shards"
 			x: 1.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["6C5F3C1E50DE0082"]
+			dependencies: [
+				"6C5F3C1E50DE0082"
+				"577CA2909E86DB8C"
+			]
 			description: [
 				"To make a &bLesser Soul Gem&r in your &bCrucible&r, you'll require both &aingredients&r and &ainstructions&r. You can find both in your &bArs Ecclesia&r:"
 				""
@@ -410,6 +437,10 @@
 				"Once it changes, &6throw in 4 &bSoul Shards&r, and &6stir exactly twice&r (those icons indicate a stirring motion). Once again, it will &achange color&r."
 				""
 				"Finally, &6throw in a &bNether Quartz&r, and the &bLesser Soul Gem&r should pop out after a moment!"
+				"{@pagebreak}"
+				"&dA note about accessibility&r: The &bCrucible&r is slightly unfriendly to people with memory issues or dexterity issues. This modpack has doubled the amount of time allowed between Crucible steps from 100 ticks (5 seconds assuming no lag) to 200. Additionally, we have added alternative recipes using the &lCreate&r &bMechanical Mixer&r."
+				""
+				"We recommend using the &bCrucible&r if you're able, as it's the most fun. However, there are other options if needed."
 			]
 			id: "2261C0D9C4FB9D4B"
 			rewards: [
@@ -526,7 +557,7 @@
 		}
 		{
 			dependencies: ["405E2E0B8B109BC2"]
-			description: ["The &bResin&r of the &bMerammer Root&r is an important ingredient in &bIncense Offerings&r."]
+			description: ["The &bResin&r of the &bMerammer Root&r is an important ingredient in &bIncense Offerings&r, which can be used in place of &ahuman sacrifice&r."]
 			id: "0AFF5C9C0E070D35"
 			rewards: [{
 				id: "2E334949714A9CCB"
@@ -576,7 +607,14 @@
 		}
 		{
 			dependencies: ["405E2E0B8B109BC2"]
+			description: ["The &bEnervating Ring&r is a curio which, when worn in the &aring slot&r, will grant a modest &barmor toughness&r bonus, but more importantly - will allow you to &6chant 50% faster&r than without it!"]
 			id: "0E9A8623FD40B312"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2116F39400B80721"
+				table_id: 5705869042914710822L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "2EDCF152FC17F458"
@@ -591,7 +629,7 @@
 			description: [
 				"The &bAthame&r is a ceremonial dagger which will &adeals extra damage to &eEnder Mobs&r, and gives increased chances of &aimproved drops&r. It also functions as a &aFarmer's Delight Knife&r."
 				""
-				"Additionally, it will allow you to &acollect unusual plants&r. Use the &bAthame&r on plants such as &bJungle Leaves&r, &bLilypads&r, &bFerns&r, and &bWhite Flowers&r."
+				"Additionally, it will allow you to &acollect unusual plants&r. Use the &bAthame&r on plants such as &bJungle Leaves&r, &bLilypads&r, &bFerns&r, and &bWhite Flowers&r. Note that as of now, &donly vanilla white flowers count&r."
 			]
 			id: "12A877C525919485"
 			rewards: [{
@@ -611,12 +649,19 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
+			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6BAEED9E017F5838"]
+			description: ["Embrace this transformative &bcloak&r, which unfolds into majestic wings - allowing multiple mid-air jumps, short and quick elytra glides, or serene slow falls. These actions cost &bMana&r, which must be recharged between traversals."]
 			id: "2AF2FECBE66460C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34EDCBB335AD472B"
+				table_id: 5705869042914710822L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "6700BF1DC96E303E"
@@ -780,6 +825,12 @@
 				"The &bWarlock's Boots&r will make you nimble. &aMovement hindrances such as &bSoul Sand&r or &bCobwebs&r will be mitigated by half! Additionally, the wearer becomes &aimmune to the slowness effect&r."
 			]
 			id: "5F632622E0D1DCB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "381A18D1A73DDDAD"
+				table_id: 5705869042914710822L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "45EC5E65496BC9A9"

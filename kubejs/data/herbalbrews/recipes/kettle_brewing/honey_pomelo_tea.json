@@ -1,0 +1,17 @@
+{
+  "type": "herbalbrews:kettle_brewing",
+  "ingredients": [
+    {
+      "tag": "forge:fruits/pomelo"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "fruitfulfun:honey_pomelo_tea"
+  }
+}

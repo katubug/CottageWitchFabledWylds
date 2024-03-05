@@ -1,11 +1,11 @@
 {
-  "version": "4.0.6",
-  "prevVersion": "4.0.5",
+  "version": "4.0.7",
+  "prevVersion": "4.0.6",
   "generatedBy": "b59f5994-6629-4582-a038-08453e07912c",
   "hashes": {
     "Default/servers.dat": "B55446DD4B729DA4C89E50FE267D2C28",
-    "Default/keys.txt": "2B72773B67B19B15E6313977276FA002",
-    "Default/options.txt": "358954EC7CF943E1A3F1439C93A18764"
+    "Default/keys.txt": "7F3ACA90EA2FE17C2DB0B408CC90B3DC",
+    "Default/options.txt": "64AD5AE7E41F6878D9E26B9B7917A198"
   },
   "mainProfile": "Default",
   "initially_created": "13.12.2023 14:53:06"

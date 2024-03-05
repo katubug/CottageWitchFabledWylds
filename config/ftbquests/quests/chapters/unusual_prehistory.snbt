@@ -731,11 +731,18 @@
 			description: ["Oh it makes noise! Dead things usually don't. Good on you for maintaining a healthy curiosity."]
 			id: "06CF2660008A53B9"
 			invisible: true
-			rewards: [{
-				id: "71D3D4285FC27C24"
-				item: "practical_plushies_animals:sheep_plushie"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7F9FF6094D3087C2"
+					item: "earthmobsmod:horn"
+					type: "item"
+				}
+				{
+					id: "41572EE4CB41FCAD"
+					item: "minecraft:sheep_spawn_egg"
+					type: "item"
+				}
+			]
 			secret: true
 			shape: "hexagon"
 			tasks: [{
@@ -830,5 +837,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Unusual Prehistory"
+	title: "Ancient Roots"
 }

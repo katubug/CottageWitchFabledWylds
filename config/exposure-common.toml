@@ -32,3 +32,9 @@
 			#Fluid spouting sequence required to develop black and white film.
 			BlackAndWhiteFilmSequence = ["{FluidName:\"minecraft:water\",Amount:250}"]
 
+[Photographs]
+	#How many photographs can be stacked in Stacked Photographs item. Default: 16.
+	#Larger numbers may cause errors. Use at your own risk.
+	#Range: 2 ~ 64
+	StackedPhotographsMaxSize = 16
+

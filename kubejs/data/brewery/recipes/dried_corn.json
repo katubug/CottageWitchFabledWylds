@@ -1,0 +1,11 @@
+{
+  "type": "brewery:drying",
+  "ingredients": [
+    {
+      "item": "hauntedharvest:corn"
+    }
+  ],
+  "output": {
+    "item": "brewery:dried_corn"
+  }
+}

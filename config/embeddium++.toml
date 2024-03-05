@@ -5,7 +5,7 @@
 		#Configure FPS Display mode
 		#Complete mode gives you min FPS count and average count
 		#Allowed Values: OFF, SIMPLE, ADVANCED
-		fpsDisplay = "ADVANCED"
+		fpsDisplay = "OFF"
 		#Shows GPU and memory usage onto FPS display
 		#Allowed Values: OFF, ON, GPU, RAM
 		fpsDisplaySystem = "OFF"
@@ -37,7 +37,7 @@
 		#Toggles Minecraft Fonts shadows
 		#Depending of the case may increase performance
 		#Gives a flat style text
-		fontShadows = false
+		fontShadows = true
 
 		[embeddiumplus.performance.distanceCulling]
 

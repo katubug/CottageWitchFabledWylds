@@ -87,7 +87,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["The &bNether Eye&r once belonged to a demon, who lost it in a might battle between the Aether and Nether. It can be found in chests inside - you guessed it - &dNether Fortresses&r."]
+			description: ["The &bNether Eye&r once belonged to a demon, who lost it in a mighty battle between the Aether and Nether. It can be found in chests inside - you guessed it - &dNether Fortresses&r."]
 			id: "2C24C18C174AD842"
 			rewards: [{
 				exclude_from_claim_all: true

@@ -292,6 +292,8 @@
 				"You might notice that the &bEnchanted Items&r you find in the world are a little harder to understand. Enchantments are ancient magic which requires &aresearch&r to discern."
 				""
 				"You can use the codex in these &bScrolls of Identification&r by &6right clicking them onto items in your inventory&r. You can also &6right click the &bEnchanted Item&r on a &bEnchanting Table&r."
+				""
+				"However, you can also &6equip enchanted &bArmor&r to &aeasily identify the enchantments&r - and curses."
 			]
 			id: "065DC59360A84A58"
 			rewards: [{
@@ -671,7 +673,7 @@
 			y: 4.5d
 		}
 		{
-			description: ["Would you like an adorable &bScarecrow&r to look over your fields? Well look no further! Simply claim this quest reward, &6place down the &bItem Frame&r on the ground (it will be invisible) and &6display your &bScarecrow&r."]
+			description: ["Would you like an adorable &bScarecrow&r to look over your fields? Well look no further! Simply claim this quest reward, &6place down the &bGlass Item Frame&r on the ground (it will be invisible once filled) and &6display your &bScarecrow&r."]
 			id: "2E1F1E4415C20577"
 			rewards: [
 				{
@@ -688,8 +690,8 @@
 					type: "item"
 				}
 				{
-					id: "1046A9750580CC7C"
-					item: "minecraft:item_frame"
+					id: "36C3BD60B0A7ADD6"
+					item: "quark:glass_item_frame"
 					type: "item"
 				}
 			]

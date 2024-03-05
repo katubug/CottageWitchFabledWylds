@@ -248,6 +248,10 @@ ServerEvents.tags('item', event => {
         'practical_plushies_mobs:zombie_plushie',
     )
 
+    //Strawberry tagging
+    event.add('forge:strawberries',
+    'mysticsbiomes:sweet_strawberry', 'bakery:strawberry')
+
     //===Tags for FTB Quests===
     //Mailboxes
     event.add(

@@ -197,11 +197,6 @@
 					table_id: 2534339319169675056L
 					type: "random"
 				}
-				{
-					id: "3481FA348F86A932"
-					item: "practical_plushies_animals:cow_plushie"
-					type: "item"
-				}
 			]
 			shape: "octagon"
 			subtitle: "IDK, my BFF Cow?"
@@ -228,11 +223,6 @@
 					id: "5CA33382BFD28B72"
 					table_id: 2534339319169675056L
 					type: "random"
-				}
-				{
-					id: "05DACFCFD497AD27"
-					item: "practical_plushies_animals:parrot_plushie"
-					type: "item"
 				}
 				{
 					id: "67BDC665D33CD841"
@@ -1068,14 +1058,22 @@
 		{
 			description: [
 				"Axolotls are cute lil guys, but they're also &astrong&r and &avicious&r. If you tame one, it will &afight alongside you&r should you decide to take on an underwater threat."
+				""
 				"They'll also sometimes &agive you Regeneration&r, and once they do so, you'll know that you are &dbest friends 5ever&r."
 			]
 			id: "232A8F9F6388C377"
-			rewards: [{
-				id: "6E71D838286067FF"
-				item: "practical_plushies_animals:axolotl_plushie"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1F8B8C29CCFA1F21"
+					item: "plushies:axolotl_plushie"
+					type: "item"
+				}
+				{
+					id: "360E9B2A1CF33049"
+					item: "minecraft:axolotl_bucket"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				advancement: "minecraft:husbandry/kill_axolotl_target"
@@ -1097,11 +1095,6 @@
 				{
 					id: "557522426CDED42B"
 					item: "perfectplushies:frog_plushie"
-					type: "item"
-				}
-				{
-					id: "069A6E3B40860E8F"
-					item: "practical_plushies_animals:frog_plushie"
 					type: "item"
 				}
 				{
@@ -1207,19 +1200,12 @@
 				"No, that's it, that's the whole sentence."
 			]
 			id: "7E2641B15D6AF49E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6660D36094752F9E"
-					table_id: 7049021818423122779L
-					type: "choice"
-				}
-				{
-					id: "67C0A696E0A4057D"
-					item: "practical_plushies_animals:pig_plushie"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6660D36094752F9E"
+				table_id: 7049021818423122779L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "16CAC410F6BBE772"
@@ -1643,8 +1629,9 @@
 			]
 			id: "407BBCE05BCE9039"
 			rewards: [{
-				id: "4A0EDA6B8CC6D8C1"
-				item: "practical_plushies_animals:sniffer_plushie"
+				count: 5
+				id: "1D2F770EF519FA37"
+				item: "minecraft:moss_block"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -2507,6 +2494,28 @@
 			title: "Free the Snow Golem"
 			x: -1.5d
 			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			description: ["This quest is repeatable."]
+			id: "3345FC1A378395B0"
+			rewards: [{
+				count: 4
+				id: "13EAB4DE5F67C808"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:phantom"
+				icon: "minecraft:phantom_membrane"
+				id: "284C99A55CC9DC4B"
+				type: "kill"
+				value: 3L
+			}]
+			x: 4.5d
+			y: 1.0d
 		}
 	]
 	title: "Wildlife"

@@ -118,13 +118,13 @@
 	#Item nametags
 	["Loot Beams".Nametags]
 		#If vanilla tooltips should be rendered on items in world.
-		advanced_tooltips = true
+		advanced_tooltips = false
 		#If tooltips should be rendered in world.
-		worldspace_tooltips = true
+		worldspace_tooltips = false
 		#Render nametags as bordered. Set to false for flat nametag with background.
-		borders = true
+		borders = false
 		#If Item nametags should be rendered.
-		render_nametags = true
+		render_nametags = false
 		#If Item nametags should be rendered when looking at items.
 		render_nametags_onlook = true
 		#If the count of item's should also be shown in the nametag.
@@ -160,7 +160,7 @@
 	#Sounds
 	["Loot Beams".Sounds]
 		#If sounds should be played when items are dropped up.
-		play_sounds = true
+		play_sounds = false
 		#The volume of the sound.
 		#Range: 0.0 ~ 1.0
 		sound_volume = 1.0

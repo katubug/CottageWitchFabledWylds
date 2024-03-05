@@ -1,0 +1,15 @@
+
+#This category holds configs for the butterflies mod.
+["Butterfly Options"]
+	#Defines the chance a butterfly has double the eggs.
+	#Range: 0.0 ~ 1.0
+	double_egg_chance = 0.0625
+	#Defines how many eggs each butterfly can lay.
+	#Range: 0 ~ 1024
+	egg_limit = 1
+	#Defines how many butterflies can be in a 32x32x32 region before breeding is disabled. If set to zero, this is ignored.
+	#Range: 0 ~ 1024
+	max_density = 16
+	#If set to TRUE butterflies will die naturally.
+	enable_lifespan = true
+

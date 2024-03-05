@@ -79,8 +79,23 @@ ServerEvents.recipes(event => {
         input: 'mysticsbiomes:strawberry'
     }, // Arg 1: the filter
     'mysticsbiomes:strawberry', // Arg 2: the item to replace
-    'bakery:strawberry' // Arg 3: the item to replace it with
-    // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
+    '#forge:strawberries' // Arg 3: the item to replace it with
+)
+
+    //Strawberries 2
+    event.replaceInput({
+        input: 'bakery:strawberry'
+    }, // Arg 1: the filter
+    'bakery:strawberry', // Arg 2: the item to replace
+    '#forge:strawberries' // Arg 3: the item to replace it with
+)
+
+    //Corn in case we need it
+    event.replaceInput({
+        input: 'brewery:corn'
+    }, // Arg 1: the filter
+    'brewery:corn', // Arg 2: the item to replace
+    'hauntedharvest' // Arg 3: the item to replace it with
 )
 
     //Pearls
@@ -932,6 +947,8 @@ ServerEvents.recipes(event => {
     event.stonecutting('kubejs:carved_dark_oak_6', 'minecraft:stripped_dark_oak_log')
     event.stonecutting('kubejs:carved_dark_oak_7', 'minecraft:stripped_dark_oak_log')
     event.stonecutting('kubejs:carved_dark_oak_8', 'minecraft:stripped_dark_oak_log')
+
+    event.stonecutting('abyssal_decor:cinnamon_shingles', 'abyssal_decor:cinnamon_wood')
 
     // Blast 1 iron ingot into 10 nuggets in a Blast Furnace: 
     event.blasting('create:zinc_block', 'create:raw_zinc_block')

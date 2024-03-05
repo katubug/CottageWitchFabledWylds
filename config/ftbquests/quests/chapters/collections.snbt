@@ -1178,11 +1178,6 @@
 					item: "perfectplushies:cat_plushie"
 					type: "item"
 				}
-				{
-					id: "16A1947C3A98B3B5"
-					item: "practical_plushies_animals:cat_plushie"
-					type: "item"
-				}
 			]
 			shape: "octagon"
 			tasks: [{

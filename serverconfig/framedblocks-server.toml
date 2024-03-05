@@ -1,6 +1,6 @@
 
 [general]
-	#Whether blocks with block entities can be placed in Framed Blocks
+	#Whether blocks with block entities can be placed in framed blocks
 	allowBlockEntities = false
 	#Enables the intangbility feature. Disabling this also prevents moving through blocks that are already marked as intangible
 	enableIntangibleFeature = false
@@ -10,4 +10,7 @@
 	oneWayWindowOwnable = true
 	#If true, applying a camo will consume the item and removing the camo will drop it again
 	consumeCamoItem = true
+	#The light level to emit when glowstone dust is applied to a framed block
+	#Range: 0 ~ 15
+	glowstoneLightLevel = 15
 

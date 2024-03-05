@@ -1094,7 +1094,7 @@ ItemEvents.tooltip(e => {
         'the_bumblezone:super_candle_white',
         'the_bumblezone:super_candle_yellow'
         ],
-        'Lamp/Lantern/Light/Glows')
+        'Gives Light/Glows')
 
     // Flowers
     e.add([

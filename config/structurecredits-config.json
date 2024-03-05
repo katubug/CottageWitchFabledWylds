@@ -1,0 +1,10 @@
+{
+  "active": true,
+  "showOnlyOneTime": true,
+  "cooldown": 30,
+  "dontShowAll": [
+    "dimdungeons:"
+  ],
+  "dontShow": [
+  ]
+}

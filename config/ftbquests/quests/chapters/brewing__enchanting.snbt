@@ -603,7 +603,7 @@
 			description: [
 				"As you might know, the &bEnchanting Table&r is a device which is used to &aimbue your gear with magic&r, and requires the power of &bKnowledge&r, both in &bBookshelf&r and &bExperience&r form."
 				""
-				"Unlike in vanilla, however, this &bEnchanting Table&r will allow you to &6reroll enchantments&r at a cost of &bEXP and Lapis&r, without needing to &aenchant anything else&r."
+				"Unlike in vanilla, however, this &bEnchanting Table&r has a chance to &apply Curses&r to your gear in addition to beneficial enchantments. In order to navigate this new challenge, it's encouraged to check out options such as &6disenchantment&r, or the &bSoul Enchanter&r from Eidolon. "
 			]
 			id: "54F9B41F96399DE6"
 			rewards: [{
@@ -615,10 +615,14 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "24085DDCAF270921"
-				item: "minecraft:enchanting_table"
-				type: "item"
+				icon: "minecraft:enchanting_table"
+				id: "2D98166BD5C0B70F"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:enchanting_table"
+				type: "observation"
 			}]
+			title: "Challenging Enchanting"
 			x: 0.0d
 			y: -4.0d
 		}

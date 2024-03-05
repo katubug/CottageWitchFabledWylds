@@ -170,33 +170,6 @@
 			y: 3.5d
 		}
 		{
-			description: ["The &bSleeping Bag&r is an item which will allow you to &apass the night without setting spawn&r. Simply carry it with you and &6right click it on the ground&r to place it."]
-			id: "34E82F6EBE6762A3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "326FAD6DC787DFAD"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			subtitle: "Sleep under the stars!"
-			tasks: [{
-				id: "51BFB66C5A869E3B"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "comforts:sleeping_bags"
-					}
-				}
-				title: "Any Sleeping Bag"
-				type: "item"
-			}]
-			title: "Roughing It"
-			x: 3.0d
-			y: 5.5d
-		}
-		{
 			dependencies: ["70C4F17973F6492E"]
 			description: [
 				"Villagers who have &abeen zombified and then cured&r will offer &asignificant discounts&r."
@@ -654,8 +627,8 @@
 				id: "3A8AB0F1F2EAB075"
 				type: "advancement"
 			}]
-			x: 3.5d
-			y: 6.5d
+			x: 3.0d
+			y: 5.5d
 		}
 		{
 			description: [

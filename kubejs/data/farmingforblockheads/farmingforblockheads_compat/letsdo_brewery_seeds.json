@@ -15,9 +15,6 @@
         },
         {
         "output": "brewery:barley_seeds"
-        },
-        {
-        "output": "brewery:corn_seeds"
         }
     ]
   }

@@ -59,7 +59,7 @@
 	#Duration in ticks for an undeployed capsule to remain activated (preview displayed) when right clicking. 20 ticks = 1 second.
 	#Default value: 120.
 	#Range: > 0
-	previewDisplayDuration = 120
+	previewDisplayDuration = 200
 	#Number of upgrades an empty capsule can get to improve capacity. If <= 0, the capsule won't be able to upgrade.
 	#Range: > 0
 	capsuleUpgradesLimit = 10

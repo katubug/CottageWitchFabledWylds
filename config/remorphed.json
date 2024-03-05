@@ -2,5 +2,9 @@
   "killToUnlock": 1,
   "autoTransform": false,
   "lockTransform": false,
-  "unlockFriendlyNormal": false
+  "unlockFriendlyNormal": false,
+  "killToUnlockByType": {
+    "minecraft:wither": 2,
+    "minecraft:ender_dragon": 2
+  }
 }

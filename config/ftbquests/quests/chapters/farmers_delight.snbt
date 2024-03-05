@@ -917,6 +917,8 @@
 				"&bCoffee&r and &bHibiscus&r can both be found in &cJungles&r."
 				""
 				"&bRooibos&r can be found growing in &cSavannah&r."
+				""
+				"Note that to obtain the &dproducts of these plants&r, you must &6left click them with &bShears&r. You cannot right click to harvest."
 			]
 			id: "14A010F870E73911"
 			rewards: [{

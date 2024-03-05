@@ -2,6 +2,7 @@
   "schema_version": "2",
   "failed_reloads_per_session": 100,
   "default_packs": [
+    "file/FreshAnimations_v1.8.1.zip",
     "file/Nature Revamp Beta v1.14 [1.20].zip",
     "file/Angel's_Weather_v1.3.zip",
     "file/corality-1-0-3.zip",
@@ -26,7 +27,6 @@
     "file/liet-custom-armors.zip",
     "file/floweryladder.zip",
     "file/fancy-beacon.zip",
-    "file/elytra-luna-moth-16x.zip",
     "file/different-dyes.zip",
     "file/cubic-sun-moon-vb-1-7-2-b.zip",
     "file/coral-cobblestone-1569592297.zip",
@@ -48,7 +48,6 @@
     "file/3d-woodfire-furnace.zip",
     "file/3d-sweet-berry-bush-1-16.zip",
     "file/3d-blast-furnace-e1920.zip",
-    "file/mushroom-slimes.zip",
     "file/fortune-cat-totem.zip",
     "file/dr-zhark-horse-armor-revamped.zip",
     "file/Cute Turtle Helmet.zip",
@@ -91,9 +90,6 @@
     "file/Invisible-Item-Frames-V5.zip",
     "file/Silver-Rats.zip",
     "file/fat-cat-1-18-2.zip",
-    "file/Gray's Villager Overhaul.zip",
-    "file/Gray's Guardian Overhaul.zip",
-    "file/Gray's Boss Overhaul.zip",
     "iseelava:translucent_lava",
     "file/scarecrow-e720.zip",
     "file/octopussypart2.zip",
@@ -119,8 +115,12 @@
     "file/ctov-domestication-innovation-add-on-v2-0.zip",
     "file/better-candeles.zip",
     "file/[DEMO] Azalea boats 1.19 (optifine).zip",
-    "file/\u00A7aChests\u00A78-\u00A7aReimagined\u00A70_\u00A78Edited\u00A70.zip",
-    "file/hearty-harvest-EditedByKatu.zip"
+    "file/hearty-harvest-EditedByKatu.zip",
+    "file/waystones_1.20.zip",
+    "file/Slightly-Improved-Font-1.1.3.zip",
+    "builtin/deep_aether_additional_assets",
+    "builtin/overrides_pack",
+    "file/Sludgy Slimes.zip"
     ],
   "default_overrides": {
     "force_compatible": true

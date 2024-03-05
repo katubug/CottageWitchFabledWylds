@@ -703,6 +703,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["03A71394322AFF28"]
 			description: ["Do you have an excess of &bTrinkets&r? You can &6right click them on &bAmethyst&r to convert them into &bUnknown Fragments&r. Once you have nine of them, you can &atrade them in here&r for a &brandom Trinket&r."]
 			id: "2336E01F3E73F4DD"
 			rewards: [{
@@ -738,7 +739,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -3272,15 +3273,15 @@
 			id: "4918B7871C3246B4"
 			rewards: [
 				{
-					id: "0149BBEAFD66549D"
-					item: "practical_plushies_animals:bee_plushie"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "11D4C35A65632F8D"
 					table_id: 5651126569320430640L
 					type: "loot"
+				}
+				{
+					id: "7FF72D516CBBF42A"
+					item: "plushies:bee_plushie"
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -3509,6 +3510,38 @@
 			}]
 			x: -4.5d
 			y: -4.5d
+		}
+		{
+			description: [
+				"&lNameless Trinkets&r adds a number of useful &bcurios&r to benefit your character!"
+				""
+				"Unfortunately, not all of these trinkets are enabled - and as of now, &dit is not possible to prevent disabled trinkets from appearing as loot&r."
+				""
+				"If you receive an unwanted trinket, &6check the connected quest&r to find out how to trade it in for a chance at a &bbetter one&r!"
+			]
+			id: "03A71394322AFF28"
+			rewards: [{
+				count: 6
+				id: "5FBF3D9D8DF9125F"
+				item: "nameless_trinkets:unknown_fragment"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5D2FB752DC439EE5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "nameless_trinkets:trinkets"
+					}
+				}
+				title: "Any #nameless_trinkets:trinkets"
+				type: "item"
+			}]
+			title: "Obtain a Trinket"
+			x: 1.5d
+			y: 3.0d
 		}
 	]
 	title: "Equipment \\& Gear"

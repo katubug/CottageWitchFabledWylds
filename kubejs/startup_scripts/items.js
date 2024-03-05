@@ -84,6 +84,13 @@ StartupEvents.registry('item', event => {
     item.addAttribute("generic.attack_damage", attribute.id, attribute.name, attribute.amount + boost, attribute.operation)
 });
 
+  event.modify('aquamirae:coral_lance', item => {
+    let boost = -2
+    let attribute = item.getAttributes("generic.attack_damage").get(0)
+    item.removeAttribute("generic.attack_damage", attribute.id)
+    item.addAttribute("generic.attack_damage", attribute.id, attribute.name, attribute.amount + boost, attribute.operation)
+  });
+
 event.modify('unusualprehistory:warpick', item => {
   let boost = -1
   let attribute = item.getAttributes("generic.attack_damage").get(0)

@@ -1,0 +1,9 @@
+type = panorama
+
+panorama-meta {
+  name = lavender_field
+  speed = 1.25
+  fov = 85.0
+  angle = 15.0
+  start_rotation = 0
+}

@@ -3,14 +3,19 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1709058667320
+  last_edited_time = 1709406163462
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   universal_layout_whitelist = level_loading_screen;receiving_level_screen;connect_screen;progress_screen;generic_dirt_message_screen;
-  [loading_requirement_container_meta:9dd2c2c7-059c-4196-b34b-cd24f0dfbf88-1709058629706] = [groups:][instances:]
+  [loading_requirement_container_meta:a13dd680-d3e8-4a2c-95c9-e419f33da10c-1709405970400] = [groups:][instances:]
+}
+
+menu_background {
+  panorama_name = lavender_field
+  background_type = panorama
 }
 
 customization {
@@ -73,5 +78,29 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 7fe4213d-7086-472e-91de-6ef75bc069d8-1709057981532
   [loading_requirement_container_meta:7fe4213d-7086-472e-91de-6ef75bc069d8-1709057981532] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/transcorner.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = c5c529bc-39a1-491d-b6c2-97e07aa003cb-1709405511605
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-left
+  x = -9
+  y = -113
+  width = 406
+  height = 121
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2463c321-5b45-4ac0-9f50-d2c36901aef1-1709405511605
+  [loading_requirement_container_meta:2463c321-5b45-4ac0-9f50-d2c36901aef1-1709405511605] = [groups:][instances:]
 }
 

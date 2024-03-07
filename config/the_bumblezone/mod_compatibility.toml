@@ -258,3 +258,11 @@
 		#
 		allowBeekeeperTradesCompat = true
 
+	["Mod Compatibility Options"."Lootr Options"]
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow loot Cocoons to have compat with Lootr
+		#
+		allowLootrCompat = true
+

@@ -240,12 +240,12 @@
 				sunroot = true
 
 			[general.types.wood_type.aether_redux]
-				fieldsprout = true
 				blightwillow = true
 				cloudcap = true
-				springshroom = true
 				crystal = true
 				glacia = true
+				fieldsprout = true
+				springshroom = true
 
 			[general.types.wood_type.thaumon]
 				greatwood = true

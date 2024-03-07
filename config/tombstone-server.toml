@@ -64,6 +64,8 @@
 	tablet_cooldown = 300
 	#Always enchant Grave's Key [false/true|default:false]
 	always_enchant_grave_key = false
+	#Prevents to craft Enchanted Grave Key [false/true|default:false]
+	disable_enchanted_grave_key_recipe = false
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]
@@ -143,6 +145,8 @@
 	allow_book_of_scribe = true
 	#Prayer Stone [false/true|default:true]
 	allow_prayer_stone = true
+	#Guardian Stone [false/true|default:true]
+	allow_guardian_stone = true
 
 #Allows to enable some features related to others mods
 [compatibility]

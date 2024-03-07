@@ -1,0 +1,16 @@
+{
+    "replace":false,
+    "entries":
+    [
+        "farmersdelight:straw_from_ashen_grass",
+        "farmersdelight:straw_from_bladed_grass",
+        "farmersdelight:straw_from_bladed_tall_grass",
+        "farmersdelight:straw_from_frozen_grass",
+        "farmersdelight:straw_from_medium_grass",
+        "farmersdelight:straw_from_mycotoxic_grass",
+        "farmersdelight:straw_from_sandy_grass",
+        "farmersdelight:straw_from_steppe_grass",
+        "farmersdelight:straw_from_steppe_tall_grass",
+        "farmersdelight:straw_from_windswept_grass"
+    ]
+}

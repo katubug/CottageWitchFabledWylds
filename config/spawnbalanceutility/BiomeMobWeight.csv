@@ -68,8 +68,7 @@
 68, forest, regions_unexplored:alpha_grove, CREATURE, unusualprehistory:kentrosaurus, 10, 3, 4
 69, forest, regions_unexplored:alpha_grove, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 70, forest, regions_unexplored:alpha_grove, CREATURE, eidolon:slimy_slug, 10, 2, 3
-71, forest, regions_unexplored:alpha_grove, CREATURE, unusualprehistory:smilodon, 10, 2, 4
-72, forest, regions_unexplored:alpha_grove, CREATURE, eidolon:slimy_slug, 10, 2, 5
+71, forest, regions_unexplored:alpha_grove, CREATURE, unusualprehistory:smilodon, 10, 2, 
 73, forest, regions_unexplored:alpha_grove, CREATURE, meadow:wooly_cow, 10, 2, 3
 74, forest, regions_unexplored:alpha_grove, CREATURE, eidolon:raven, 10, 2, 4
 75, forest, regions_unexplored:alpha_grove, CREATURE, minecraft:cow, 10, 2, 3
@@ -257,7 +256,6 @@
 257, forest, regions_unexplored:autumnal_maple_forest, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 258, forest, regions_unexplored:autumnal_maple_forest, CREATURE, eidolon:slimy_slug, 10, 2, 3
 259, forest, regions_unexplored:autumnal_maple_forest, CREATURE, unusualprehistory:smilodon, 10, 2, 4
-260, forest, regions_unexplored:autumnal_maple_forest, CREATURE, eidolon:slimy_slug, 10, 2, 5
 261, forest, regions_unexplored:autumnal_maple_forest, CREATURE, meadow:wooly_cow, 10, 2, 3
 262, forest, regions_unexplored:autumnal_maple_forest, CREATURE, eidolon:raven, 10, 2, 4
 263, forest, regions_unexplored:autumnal_maple_forest, CREATURE, minecraft:cow, 10, 2, 3
@@ -426,7 +424,6 @@
 426, jungle, minecraft:bamboo_jungle, CREATURE, unusualprehistory:kentrosaurus, 10, 3, 4
 427, jungle, minecraft:bamboo_jungle, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 428, jungle, minecraft:bamboo_jungle, CREATURE, mythicmounts:courierbird, 20, 2, 4
-429, jungle, minecraft:bamboo_jungle, CREATURE, eidolon:slimy_slug, 10, 2, 5
 430, jungle, minecraft:bamboo_jungle, CREATURE, unusualprehistory:gigantopithicus, 10, 1, 2
 431, jungle, minecraft:bamboo_jungle, CREATURE, aquaculture:arrau_turtle, 10, 1, 2
 432, jungle, minecraft:bamboo_jungle, CREATURE, unusualprehistory:majunga, 10, 1, 1
@@ -590,7 +587,6 @@
 590, beach, minecraft:beach, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 591, beach, minecraft:beach, CREATURE, minecraft:turtle, 10, 2, 5
 592, beach, minecraft:beach, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-593, beach, minecraft:beach, CREATURE, eidolon:slimy_slug, 10, 2, 5
 594, beach, minecraft:beach, CREATURE, mythicmounts:firebird, 10, 1, 1
 595, beach, minecraft:beach, CREATURE, species:limpet, 10, 1, 1
 596, beach, minecraft:beach, CREATURE, unusualprehistory:ulughbegsaurus, 10, 1, 1
@@ -727,8 +723,6 @@
 727, taiga, regions_unexplored:blackwood_taiga, CREATURE, unusualprehistory:pachy, 10, 1, 2
 728, taiga, regions_unexplored:blackwood_taiga, CREATURE, unusualprehistory:rex, 10, 1, 1
 729, taiga, regions_unexplored:blackwood_taiga, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-730, taiga, regions_unexplored:blackwood_taiga, CREATURE, eidolon:slimy_slug, 10, 2, 3
-731, taiga, regions_unexplored:blackwood_taiga, CREATURE, eidolon:slimy_slug, 10, 2, 5
 732, taiga, regions_unexplored:blackwood_taiga, CREATURE, meadow:wooly_cow, 10, 2, 3
 733, taiga, regions_unexplored:blackwood_taiga, CREATURE, minecraft:cow, 10, 2, 3
 734, taiga, regions_unexplored:blackwood_taiga, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -812,7 +806,6 @@
 812, taiga, regions_unexplored:boreal_taiga, CREATURE, unusualprehistory:pachy, 10, 1, 2
 813, taiga, regions_unexplored:boreal_taiga, CREATURE, unusualprehistory:rex, 10, 1, 1
 814, taiga, regions_unexplored:boreal_taiga, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-815, taiga, regions_unexplored:boreal_taiga, CREATURE, eidolon:slimy_slug, 10, 2, 3
 816, taiga, regions_unexplored:boreal_taiga, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 817, taiga, regions_unexplored:boreal_taiga, CREATURE, minecraft:cow, 10, 2, 3
 818, taiga, regions_unexplored:boreal_taiga, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -1004,7 +997,6 @@
 1004, icy, regions_unexplored:cold_boreal_taiga, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1005, icy, regions_unexplored:cold_boreal_taiga, CREATURE, minecraft:rabbit, 10, 2, 3
 1006, icy, regions_unexplored:cold_boreal_taiga, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-1007, icy, regions_unexplored:cold_boreal_taiga, CREATURE, eidolon:slimy_slug, 10, 2, 3
 1008, icy, regions_unexplored:cold_boreal_taiga, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 1009, icy, regions_unexplored:cold_boreal_taiga, CREATURE, mythicmounts:firebird, 10, 1, 1
 1010, icy, regions_unexplored:cold_boreal_taiga, CREATURE, earthmobsmod:wooly_cow, 10, 3, 6
@@ -1040,7 +1032,6 @@
 1040, none, regions_unexplored:cold_deciduous_forest, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1041, none, regions_unexplored:cold_deciduous_forest, CREATURE, minecraft:rabbit, 10, 2, 3
 1042, none, regions_unexplored:cold_deciduous_forest, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-1043, none, regions_unexplored:cold_deciduous_forest, CREATURE, eidolon:slimy_slug, 10, 2, 3
 1044, none, regions_unexplored:cold_deciduous_forest, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 1045, none, regions_unexplored:cold_deciduous_forest, CREATURE, mythicmounts:firebird, 10, 1, 1
 1046, none, regions_unexplored:cold_deciduous_forest, CREATURE, earthmobsmod:wooly_cow, 10, 3, 6
@@ -1071,7 +1062,6 @@
 1071, ocean, minecraft:cold_ocean, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 1072, ocean, minecraft:cold_ocean, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1073, ocean, minecraft:cold_ocean, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-1074, ocean, minecraft:cold_ocean, CREATURE, eidolon:slimy_slug, 10, 2, 3
 1075, ocean, minecraft:cold_ocean, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 1076, ocean, minecraft:cold_ocean, CREATURE, mythicmounts:firebird, 10, 1, 1
 1077, ocean, minecraft:cold_ocean, CREATURE, species:limpet, 10, 1, 1
@@ -1301,7 +1291,6 @@
 1301, ocean, minecraft:deep_cold_ocean, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 1302, ocean, minecraft:deep_cold_ocean, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1303, ocean, minecraft:deep_cold_ocean, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-1304, ocean, minecraft:deep_cold_ocean, CREATURE, eidolon:slimy_slug, 10, 2, 3
 1305, ocean, minecraft:deep_cold_ocean, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 1306, ocean, minecraft:deep_cold_ocean, CREATURE, mythicmounts:firebird, 10, 1, 1
 1307, ocean, minecraft:deep_cold_ocean, CREATURE, species:limpet, 10, 1, 1
@@ -1362,7 +1351,6 @@
 1362, ocean, minecraft:deep_frozen_ocean, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 1363, ocean, minecraft:deep_frozen_ocean, CREATURE, minecraft:polar_bear, 10, 1, 2
 1364, ocean, minecraft:deep_frozen_ocean, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-1365, ocean, minecraft:deep_frozen_ocean, CREATURE, eidolon:slimy_slug, 10, 2, 3
 1366, ocean, minecraft:deep_frozen_ocean, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 1367, ocean, minecraft:deep_frozen_ocean, CREATURE, mythicmounts:firebird, 10, 1, 1
 1368, ocean, minecraft:deep_frozen_ocean, CREATURE, species:limpet, 10, 1, 1
@@ -1668,7 +1656,6 @@
 1668, jungle, regions_unexplored:eucalyptus_forest, CREATURE, eidolon:slimy_slug, 10, 2, 3
 1669, jungle, regions_unexplored:eucalyptus_forest, CREATURE, unusualprehistory:kentrosaurus, 10, 3, 4
 1670, jungle, regions_unexplored:eucalyptus_forest, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-1671, jungle, regions_unexplored:eucalyptus_forest, CREATURE, eidolon:slimy_slug, 10, 2, 5
 1672, jungle, regions_unexplored:eucalyptus_forest, CREATURE, aquaculture:arrau_turtle, 10, 1, 2
 1673, jungle, regions_unexplored:eucalyptus_forest, CREATURE, unusualprehistory:majunga, 10, 1, 1
 1674, jungle, regions_unexplored:eucalyptus_forest, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -1958,7 +1945,6 @@
 1958, ocean, minecraft:frozen_ocean, CREATURE, minecraft:polar_bear, 10, 1, 2
 1959, ocean, minecraft:frozen_ocean, CREATURE, minecraft:pig, 30, 1, 2
 1960, ocean, minecraft:frozen_ocean, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-1961, ocean, minecraft:frozen_ocean, CREATURE, eidolon:slimy_slug, 10, 2, 3
 1962, ocean, minecraft:frozen_ocean, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 1963, ocean, minecraft:frozen_ocean, CREATURE, mythicmounts:firebird, 10, 1, 1
 1964, ocean, minecraft:frozen_ocean, CREATURE, species:limpet, 10, 1, 1
@@ -2000,7 +1986,6 @@
 2000, extreme_hills, minecraft:frozen_peaks, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 2001, extreme_hills, minecraft:frozen_peaks, CREATURE, minecraft:goat, 10, 1, 3
 2002, extreme_hills, minecraft:frozen_peaks, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-2003, extreme_hills, minecraft:frozen_peaks, CREATURE, eidolon:slimy_slug, 10, 2, 3
 2004, extreme_hills, minecraft:frozen_peaks, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 2005, extreme_hills, minecraft:frozen_peaks, CREATURE, minecraft:sheep, 10, 2, 3
 2006, extreme_hills, minecraft:frozen_peaks, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -2039,7 +2024,6 @@
 2039, none, regions_unexplored:frozen_pine_taiga, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 2040, none, regions_unexplored:frozen_pine_taiga, CREATURE, minecraft:rabbit, 10, 2, 3
 2041, none, regions_unexplored:frozen_pine_taiga, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-2042, none, regions_unexplored:frozen_pine_taiga, CREATURE, eidolon:slimy_slug, 10, 2, 3
 2043, none, regions_unexplored:frozen_pine_taiga, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 2044, none, regions_unexplored:frozen_pine_taiga, CREATURE, mythicmounts:firebird, 10, 1, 1
 2045, none, regions_unexplored:frozen_pine_taiga, CREATURE, earthmobsmod:wooly_cow, 10, 3, 6
@@ -2073,7 +2057,6 @@
 2073, river, minecraft:frozen_river, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 2074, river, minecraft:frozen_river, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 2075, river, minecraft:frozen_river, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-2076, river, minecraft:frozen_river, CREATURE, eidolon:slimy_slug, 10, 2, 3
 2077, river, minecraft:frozen_river, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 2078, river, minecraft:frozen_river, CREATURE, mythicmounts:firebird, 10, 1, 1
 2079, river, minecraft:frozen_river, CREATURE, species:limpet, 10, 1, 1
@@ -2115,7 +2098,6 @@
 2115, icy, regions_unexplored:frozen_tundra, CREATURE, minecraft:rabbit, 10, 2, 3
 2116, icy, regions_unexplored:frozen_tundra, CREATURE, minecraft:polar_bear, 10, 1, 2
 2117, icy, regions_unexplored:frozen_tundra, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-2118, icy, regions_unexplored:frozen_tundra, CREATURE, eidolon:slimy_slug, 10, 2, 3
 2119, icy, regions_unexplored:frozen_tundra, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 2120, icy, regions_unexplored:frozen_tundra, CREATURE, mythicmounts:firebird, 10, 1, 1
 2121, icy, regions_unexplored:frozen_tundra, CREATURE, earthmobsmod:wooly_cow, 10, 3, 6
@@ -2276,7 +2258,6 @@
 2276, taiga, regions_unexplored:golden_boreal_taiga, CREATURE, unusualprehistory:pachy, 10, 1, 2
 2277, taiga, regions_unexplored:golden_boreal_taiga, CREATURE, unusualprehistory:rex, 10, 1, 1
 2278, taiga, regions_unexplored:golden_boreal_taiga, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-2279, taiga, regions_unexplored:golden_boreal_taiga, CREATURE, eidolon:slimy_slug, 10, 2, 3
 2280, taiga, regions_unexplored:golden_boreal_taiga, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 2281, taiga, regions_unexplored:golden_boreal_taiga, CREATURE, minecraft:cow, 10, 2, 3
 2282, taiga, regions_unexplored:golden_boreal_taiga, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -2460,7 +2441,6 @@
 2460, forest, minecraft:grove, CREATURE, minecraft:fox, 10, 2, 4
 2461, forest, minecraft:grove, CREATURE, unusualprehistory:kentrosaurus, 10, 3, 4
 2462, forest, minecraft:grove, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-2463, forest, minecraft:grove, CREATURE, eidolon:slimy_slug, 10, 2, 3
 2464, forest, minecraft:grove, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 2465, forest, minecraft:grove, CREATURE, eidolon:slimy_slug, 10, 2, 5
 2466, forest, minecraft:grove, CREATURE, mythicmounts:acencia, 15, 2, 3
@@ -2623,7 +2603,6 @@
 2623, ocean, regions_unexplored:hyacinth_deeps, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 2624, ocean, regions_unexplored:hyacinth_deeps, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 2625, ocean, regions_unexplored:hyacinth_deeps, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-2626, ocean, regions_unexplored:hyacinth_deeps, CREATURE, eidolon:slimy_slug, 10, 2, 3
 2627, ocean, regions_unexplored:hyacinth_deeps, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 2628, ocean, regions_unexplored:hyacinth_deeps, CREATURE, mythicmounts:firebird, 10, 1, 1
 2629, ocean, regions_unexplored:hyacinth_deeps, CREATURE, earthmobsmod:wooly_cow, 10, 3, 6
@@ -2668,7 +2647,6 @@
 2668, none, minecraft:ice_spikes, CREATURE, minecraft:rabbit, 10, 2, 3
 2669, none, minecraft:ice_spikes, CREATURE, minecraft:polar_bear, 10, 1, 2
 2670, none, minecraft:ice_spikes, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-2671, none, minecraft:ice_spikes, CREATURE, eidolon:slimy_slug, 10, 2, 3
 2672, none, minecraft:ice_spikes, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 2673, none, minecraft:ice_spikes, CREATURE, snuffles:snuffle, 10, 4, 4
 2674, none, minecraft:ice_spikes, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -2704,7 +2682,6 @@
 2704, extreme_hills, regions_unexplored:icy_heights, MONSTER, creeperoverhaul:hills_creeper, 75, 2, 2
 2705, extreme_hills, regions_unexplored:icy_heights, CREATURE, minecraft:rabbit, 10, 2, 3
 2706, extreme_hills, regions_unexplored:icy_heights, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-2707, extreme_hills, regions_unexplored:icy_heights, CREATURE, eidolon:slimy_slug, 10, 2, 3
 2708, extreme_hills, regions_unexplored:icy_heights, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 2709, extreme_hills, regions_unexplored:icy_heights, CREATURE, minecraft:sheep, 10, 2, 3
 2710, extreme_hills, regions_unexplored:icy_heights, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -2751,7 +2728,6 @@
 2751, extreme_hills, minecraft:jagged_peaks, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 2752, extreme_hills, minecraft:jagged_peaks, CREATURE, minecraft:goat, 10, 1, 3
 2753, extreme_hills, minecraft:jagged_peaks, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-2754, extreme_hills, minecraft:jagged_peaks, CREATURE, eidolon:slimy_slug, 10, 2, 3
 2755, extreme_hills, minecraft:jagged_peaks, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 2756, extreme_hills, minecraft:jagged_peaks, CREATURE, mythicmounts:griffon, 10, 1, 1
 2757, extreme_hills, minecraft:jagged_peaks, CREATURE, minecraft:sheep, 10, 2, 3
@@ -2831,7 +2807,6 @@
 2831, jungle, minecraft:jungle, CREATURE, unusualprehistory:kentrosaurus, 10, 3, 4
 2832, jungle, minecraft:jungle, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 2833, jungle, minecraft:jungle, CREATURE, mythicmounts:courierbird, 20, 2, 4
-2834, jungle, minecraft:jungle, CREATURE, eidolon:slimy_slug, 10, 2, 5
 2835, jungle, minecraft:jungle, CREATURE, aquaculture:arrau_turtle, 10, 1, 2
 2836, jungle, minecraft:jungle, CREATURE, unusualprehistory:majunga, 10, 1, 1
 2837, jungle, minecraft:jungle, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -2971,7 +2946,6 @@
 2971, none, minecraft:lush_caves, CREATURE, eidolon:slimy_slug, 10, 2, 3
 2972, none, minecraft:lush_caves, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 2973, none, minecraft:lush_caves, CREATURE, unusualprehistory:talpanas, 10, 2, 4
-2974, none, minecraft:lush_caves, CREATURE, eidolon:slimy_slug, 10, 2, 5
 2975, none, minecraft:lush_caves, CREATURE, mythicmounts:firebird, 10, 1, 1
 2976, none, minecraft:lush_caves, CREATURE, species:limpet, 10, 1, 1
 2977, none, minecraft:lush_caves, CREATURE, minecraft:pig, 30, 1, 1
@@ -3694,7 +3668,6 @@
 3694, taiga, minecraft:old_growth_pine_taiga, CREATURE, unusualprehistory:pachy, 10, 1, 2
 3695, taiga, minecraft:old_growth_pine_taiga, CREATURE, unusualprehistory:rex, 10, 1, 1
 3696, taiga, minecraft:old_growth_pine_taiga, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-3697, taiga, minecraft:old_growth_pine_taiga, CREATURE, eidolon:slimy_slug, 10, 2, 3
 3698, taiga, minecraft:old_growth_pine_taiga, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 3699, taiga, minecraft:old_growth_pine_taiga, CREATURE, mythicmounts:direwolf, 20, 2, 4
 3700, taiga, minecraft:old_growth_pine_taiga, CREATURE, spawn:snail, 12, 1, 3
@@ -3746,7 +3719,6 @@
 3746, taiga, minecraft:old_growth_spruce_taiga, CREATURE, unusualprehistory:pachy, 10, 1, 2
 3747, taiga, minecraft:old_growth_spruce_taiga, CREATURE, unusualprehistory:rex, 10, 1, 1
 3748, taiga, minecraft:old_growth_spruce_taiga, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-3749, taiga, minecraft:old_growth_spruce_taiga, CREATURE, eidolon:slimy_slug, 10, 2, 3
 3750, taiga, minecraft:old_growth_spruce_taiga, CREATURE, mythicmounts:direwolf, 20, 2, 4
 3751, taiga, minecraft:old_growth_spruce_taiga, CREATURE, spawn:snail, 12, 1, 3
 3752, taiga, minecraft:old_growth_spruce_taiga, CREATURE, unusualprehistory:antarctopelta, 10, 1, 2
@@ -3915,7 +3887,6 @@
 3915, taiga, regions_unexplored:pine_taiga, CREATURE, unusualprehistory:pachy, 10, 1, 2
 3916, taiga, regions_unexplored:pine_taiga, CREATURE, unusualprehistory:rex, 10, 1, 1
 3917, taiga, regions_unexplored:pine_taiga, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-3918, taiga, regions_unexplored:pine_taiga, CREATURE, eidolon:slimy_slug, 10, 2, 3
 3919, taiga, regions_unexplored:pine_taiga, CREATURE, minecraft:cow, 10, 2, 3
 3920, taiga, regions_unexplored:pine_taiga, CREATURE, mythicmounts:firebird, 10, 1, 1
 3921, taiga, regions_unexplored:pine_taiga, CREATURE, minecraft:pig, 30, 1, 1
@@ -4223,7 +4194,6 @@
 4223, jungle, regions_unexplored:rainforest, CREATURE, eidolon:slimy_slug, 10, 2, 3
 4224, jungle, regions_unexplored:rainforest, CREATURE, unusualprehistory:kentrosaurus, 10, 3, 4
 4225, jungle, regions_unexplored:rainforest, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-4226, jungle, regions_unexplored:rainforest, CREATURE, eidolon:slimy_slug, 10, 2, 5
 4227, jungle, regions_unexplored:rainforest, CREATURE, aquaculture:arrau_turtle, 10, 1, 2
 4228, jungle, regions_unexplored:rainforest, CREATURE, unusualprehistory:majunga, 10, 1, 1
 4229, jungle, regions_unexplored:rainforest, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -4304,7 +4274,6 @@
 4304, taiga, regions_unexplored:redwoods, CREATURE, unusualprehistory:rex, 10, 1, 1
 4305, taiga, regions_unexplored:redwoods, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 4306, taiga, regions_unexplored:redwoods, CREATURE, eidolon:slimy_slug, 10, 2, 3
-4307, taiga, regions_unexplored:redwoods, CREATURE, eidolon:slimy_slug, 10, 2, 5
 4308, taiga, regions_unexplored:redwoods, CREATURE, meadow:wooly_cow, 10, 2, 3
 4309, taiga, regions_unexplored:redwoods, CREATURE, minecraft:cow, 10, 2, 3
 4310, taiga, regions_unexplored:redwoods, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -4678,7 +4647,6 @@
 4678, forest, regions_unexplored:silver_birch_forest, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 4679, forest, regions_unexplored:silver_birch_forest, CREATURE, eidolon:slimy_slug, 10, 2, 3
 4680, forest, regions_unexplored:silver_birch_forest, CREATURE, unusualprehistory:smilodon, 10, 2, 4
-4681, forest, regions_unexplored:silver_birch_forest, CREATURE, eidolon:slimy_slug, 10, 2, 5
 4682, forest, regions_unexplored:silver_birch_forest, CREATURE, meadow:wooly_cow, 10, 2, 3
 4683, forest, regions_unexplored:silver_birch_forest, CREATURE, eidolon:raven, 10, 2, 4
 4684, forest, regions_unexplored:silver_birch_forest, CREATURE, minecraft:cow, 10, 2, 3
@@ -4826,7 +4794,6 @@
 4826, beach, minecraft:snowy_beach, MONSTER, earthmobsmod:stray_bone_spider, 10, 1, 1
 4827, beach, minecraft:snowy_beach, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 4828, beach, minecraft:snowy_beach, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-4829, beach, minecraft:snowy_beach, CREATURE, eidolon:slimy_slug, 10, 2, 3
 4830, beach, minecraft:snowy_beach, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 4831, beach, minecraft:snowy_beach, CREATURE, mythicmounts:firebird, 10, 1, 1
 4832, beach, minecraft:snowy_beach, CREATURE, species:limpet, 10, 1, 1
@@ -4877,7 +4844,6 @@
 4877, icy, minecraft:snowy_plains, CREATURE, minecraft:rabbit, 10, 2, 3
 4878, icy, minecraft:snowy_plains, CREATURE, minecraft:polar_bear, 10, 1, 2
 4879, icy, minecraft:snowy_plains, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-4880, icy, minecraft:snowy_plains, CREATURE, eidolon:slimy_slug, 10, 2, 3
 4881, icy, minecraft:snowy_plains, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 4882, icy, minecraft:snowy_plains, CREATURE, snuffles:snuffle, 10, 4, 4
 4883, icy, minecraft:snowy_plains, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -4917,7 +4883,6 @@
 4917, extreme_hills, minecraft:snowy_slopes, CREATURE, minecraft:rabbit, 10, 2, 3
 4918, extreme_hills, minecraft:snowy_slopes, CREATURE, minecraft:goat, 10, 1, 3
 4919, extreme_hills, minecraft:snowy_slopes, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-4920, extreme_hills, minecraft:snowy_slopes, CREATURE, eidolon:slimy_slug, 10, 2, 3
 4921, extreme_hills, minecraft:snowy_slopes, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 4922, extreme_hills, minecraft:snowy_slopes, CREATURE, mythicmounts:griffon, 10, 1, 1
 4923, extreme_hills, minecraft:snowy_slopes, CREATURE, minecraft:sheep, 10, 2, 3
@@ -4968,7 +4933,6 @@
 4968, taiga, minecraft:snowy_taiga, CREATURE, unusualprehistory:pachy, 10, 1, 2
 4969, taiga, minecraft:snowy_taiga, CREATURE, unusualprehistory:rex, 10, 1, 1
 4970, taiga, minecraft:snowy_taiga, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-4971, taiga, minecraft:snowy_taiga, CREATURE, eidolon:slimy_slug, 10, 2, 3
 4972, taiga, minecraft:snowy_taiga, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 4973, taiga, minecraft:snowy_taiga, CREATURE, mythicmounts:acencia, 15, 2, 3
 4974, taiga, minecraft:snowy_taiga, CREATURE, minecraft:cow, 10, 2, 3
@@ -5052,7 +5016,6 @@
 5052, jungle, minecraft:sparse_jungle, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 5053, jungle, minecraft:sparse_jungle, CREATURE, mythicmounts:courierbird, 20, 2, 4
 5054, jungle, minecraft:sparse_jungle, CREATURE, unusualprehistory:barinasuchus, 10, 2, 4
-5055, jungle, minecraft:sparse_jungle, CREATURE, eidolon:slimy_slug, 10, 2, 5
 5056, jungle, minecraft:sparse_jungle, CREATURE, aquaculture:arrau_turtle, 10, 1, 2
 5057, jungle, minecraft:sparse_jungle, CREATURE, unusualprehistory:majunga, 10, 1, 1
 5058, jungle, minecraft:sparse_jungle, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -5093,7 +5056,6 @@
 5093, jungle, regions_unexplored:sparse_rainforest, CREATURE, eidolon:slimy_slug, 10, 2, 3
 5094, jungle, regions_unexplored:sparse_rainforest, CREATURE, unusualprehistory:kentrosaurus, 10, 3, 4
 5095, jungle, regions_unexplored:sparse_rainforest, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-5096, jungle, regions_unexplored:sparse_rainforest, CREATURE, eidolon:slimy_slug, 10, 2, 5
 5097, jungle, regions_unexplored:sparse_rainforest, CREATURE, aquaculture:arrau_turtle, 10, 1, 2
 5098, jungle, regions_unexplored:sparse_rainforest, CREATURE, unusualprehistory:majunga, 10, 1, 1
 5099, jungle, regions_unexplored:sparse_rainforest, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -5134,7 +5096,6 @@
 5134, taiga, regions_unexplored:sparse_redwoods, CREATURE, unusualprehistory:rex, 10, 1, 1
 5135, taiga, regions_unexplored:sparse_redwoods, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 5136, taiga, regions_unexplored:sparse_redwoods, CREATURE, eidolon:slimy_slug, 10, 2, 3
-5137, taiga, regions_unexplored:sparse_redwoods, CREATURE, eidolon:slimy_slug, 10, 2, 5
 5138, taiga, regions_unexplored:sparse_redwoods, CREATURE, minecraft:cow, 10, 2, 3
 5139, taiga, regions_unexplored:sparse_redwoods, CREATURE, mythicmounts:firebird, 10, 1, 1
 5140, taiga, regions_unexplored:sparse_redwoods, CREATURE, minecraft:pig, 30, 1, 1
@@ -5464,7 +5425,6 @@
 5464, taiga, minecraft:taiga, CREATURE, unusualprehistory:pachy, 10, 1, 2
 5465, taiga, minecraft:taiga, CREATURE, unusualprehistory:rex, 10, 1, 1
 5466, taiga, minecraft:taiga, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
-5467, taiga, minecraft:taiga, CREATURE, eidolon:slimy_slug, 10, 2, 3
 5468, taiga, minecraft:taiga, CREATURE, unusualprehistory:smilodon, 10, 2, 4
 5469, taiga, minecraft:taiga, CREATURE, spawn:snail, 12, 1, 3
 5470, taiga, minecraft:taiga, CREATURE, minecraft:cow, 10, 2, 3

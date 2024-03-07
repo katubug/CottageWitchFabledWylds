@@ -248,6 +248,11 @@ ServerEvents.tags('item', event => {
         'practical_plushies_mobs:zombie_plushie',
     )
 
+    //Fish Fillets are bait
+    event.add('crabbersdelight:crab_trap_bait',
+        'aquaculture:fish_fillet_raw'
+    )
+
     //Strawberry tagging
     event.add('forge:strawberries',
     'mysticsbiomes:sweet_strawberry', 'bakery:strawberry')

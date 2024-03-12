@@ -234,7 +234,12 @@ JEIEvents.hideItems(event => {
         'everycomp:mcf/abyssal_decor/flowering_cinnamon_hedge', 
         'everycomp:mcf/vinery/apple_hedge', 
         'everycomp:mcf/meadow/pine_hedge',
-        'nameless_trinkets:gods_crown'
+        'nameless_trinkets:gods_crown',
+        'everycomp:mcf/aether_redux/purple_glacia_hedge',
+        'everycomp:q/abyssal_decor/hollow_blackwood_log',
+        'everycomp:q/abyssal_decor/hollow_white_wood_log',
+        'sophisticatedbackpacks:smoking_upgrade',
+        'sophisticatedbackpacks:auto_smoking_upgrade'
 
     ];
     

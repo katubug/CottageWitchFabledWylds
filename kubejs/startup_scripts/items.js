@@ -10,6 +10,10 @@ StartupEvents.registry('item', event => {
 
   ItemEvents.modification(event => {
 
+    event.modify('vegandelight:soymilk_bottle', item => {
+      item.maxStackSize = 16
+    })
+
     event.modify('unusualprehistory:zuloagae', item => {
       item.burnTime = 100
     })

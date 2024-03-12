@@ -15,6 +15,7 @@
 		{ count: 2, item: "eidolon:arcane_gold_nugget", weight: 5.0f }
 		{ item: "eidolon:raven_feather", weight: 9.0f }
 		{ count: 5, item: "eidolon:elder_brick", weight: 10.0f }
+		{ count: 10, item: "minecraft:redstone", weight: 10.0f }
 	]
 	title: "Eidolon"
 }

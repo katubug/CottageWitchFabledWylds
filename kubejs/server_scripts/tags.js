@@ -40,7 +40,9 @@ ServerEvents.tags('item', event => {
 
     // Pearl Tags
     event.add('forge:pearls',
-    'unusualprehistory:opalescent_pearl', 'abyssal_decor:white_pearl', 'crabbersdelight:pearl')
+    'unusualprehistory:opalescent_pearl',
+    'abyssal_decor:white_pearl',
+    'crabbersdelight:pearl')
 
     // Eyes tags
     event.add('forge:eyes', 
@@ -272,6 +274,19 @@ ServerEvents.tags('item', event => {
         'mighty_mail:crimson_mail_box', 
         'mighty_mail:warped_mail_box'
     )
+
+    //Beehives
+    event.add("forge:special_beehives",
+    'betterbeekeeping:oak_beehive',
+    'betterbeekeeping:mangrove_beehive',
+    'betterbeekeeping:cherry_beehive',
+    'betterbeekeeping:bamboo_beehive',
+    'betterbeekeeping:birch_beehive',
+    'betterbeekeeping:dark_oak_beehive',
+    'betterbeekeeping:jungle_beehive',
+    'betterbeekeeping:acacia_beehive',
+    'betterbeekeeping:crimson_beehive',
+    'betterbeekeeping:warped_beehive')
 
     //Grape Seeds
     event.add('forge:grape_seeds',

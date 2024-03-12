@@ -182,6 +182,10 @@ ServerEvents.recipes(event => {
         {output: 'everycomp:mcf/vinery/apple_hedge'}, 
         {output: 'everycomp:mcf/meadow/pine_hedge'},
         {output: 'nameless_trinkets:gods_crown'},
+        {output: 'everycomp:q/abyssal_decor/hollow_blackwood_log'},
+        {output: 'everycomp:q/abyssal_decor/hollow_white_wood_log'},
+        {output: 'sophisticatedbackpacks:smoking_upgrade'},
+        {output: 'sophisticatedbackpacks:auto_smoking_upgrade'},
         //Replaced Recipes
         {output: 'mighty_mail:post_box'},
         {output: 'farmersdelight:wheat_dough'},

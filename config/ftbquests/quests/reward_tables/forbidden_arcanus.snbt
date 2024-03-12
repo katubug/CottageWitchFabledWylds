@@ -16,6 +16,8 @@
 		{ item: "forbidden_arcanus:purifying_soap", weight: 40.0f }
 		{ item: "minecraft:experience_bottle", weight: 30.0f }
 		{ count: 10, item: "forbidden_arcanus:darkstone", weight: 40.0f }
+		{ count: 10, item: "minecraft:redstone", weight: 40.0f }
+		{ count: 5, item: "minecraft:phantom_membrane", weight: 30.0f }
 	]
 	title: "Forbidden Arcanus"
 }

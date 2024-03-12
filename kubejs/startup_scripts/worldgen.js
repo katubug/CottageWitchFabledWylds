@@ -14,4 +14,10 @@
         )    
     })
   })
-  */
+  
+
+  WorldgenEvents.remove(event => {
+    //event.printFeatures("vegetal_decoration");
+    event.removeFeatureById("abyssal_decor:amaranth_structure_feature", ["abyssal_decor:amaranthstructure"]);
+});
+*/

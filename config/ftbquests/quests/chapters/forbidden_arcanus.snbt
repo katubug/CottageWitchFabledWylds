@@ -205,12 +205,14 @@
 				""
 				"{@pagebreak}"
 				""
-				"&dA note of warning&r: If you break your &bHephaestus Forge&r, you will lose everything in it:"
+				"&dA note of warning&r: If you break your &bHephaestus Forge&r, you will lose everything:"
 				"- Any &bEssences&r"
 				"- Any &bEnhancer Relics&r"
-				"- All your &bupgrades&r"
+				"- All your &btier upgrades&r!"
 				""
 				"If you do need to move or rebuild your Forge, you can make a &bBlueprint Capsule&r by &6crafting one &bDarkstone&r with &bany Capsule&r. The blueprint will build the structure for you with the items in your inventory."
+				""
+				"&dTo move your &bForge&d without breaking it&r: &6shift right click the &lside&r of the Forge to carry it."
 			]
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "15D03A310865D50C"
@@ -1012,7 +1014,24 @@
 			y: -11.0d
 		}
 		{
+			dependencies: ["15D03A310865D50C"]
+			description: [
+				"To upgrade your &bHephaestus Forge&r to the second tier, you'll need &b4 Arcane Crystals&r and &b4 Spawner Scraps&r, which are obtained by mining spawners."
+				""
+				"You'll also need:"
+				""
+				"- 3 levels of &bExperience"
+				"- 500 &bAureal&r"
+				"- 10 &bSouls&r"
+				"- 6,000 &bBlood&r."
+			]
 			id: "63CC92769528F8EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AB1E6087BBED12C"
+				table_id: 2797019701616015075L
+				type: "random"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -1028,11 +1047,26 @@
 				}
 			]
 			title: "Upgrading Your Forge  - Tier 2"
-			x: -3.0d
-			y: -5.5d
+			x: -3.5d
+			y: -11.0d
 		}
 		{
+			dependencies: ["63CC92769528F8EA"]
+			description: [
+				"To upgrade to the &athird tier&r, you'll need &b4 Arcane Crystals&r and &b4Deorum Ingots&r, as well as "
+				""
+				"- 5 levels of &bExperience&r"
+				"- 1,000 &bAureal&r"
+				"- 50 &bSouls&r"
+				"- 9,000 &bBlood&r"
+			]
 			id: "251DEA97C995786A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36F7225BD3E8DA28"
+				table_id: 2797019701616015075L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -1048,11 +1082,26 @@
 				}
 			]
 			title: "Upgrading Your Forge - Tier 3"
-			x: -1.5d
-			y: -5.5d
+			x: -3.5d
+			y: -10.0d
 		}
 		{
+			dependencies: ["251DEA97C995786A"]
+			description: [
+				"To upgrade to the &afourth tier&r, first collect &b4 Runes&r and &b4 Stellarite&r. You'll also need:"
+				""
+				"- 10 levels of &bExperience&r"
+				"- 2,000 &bAureal&r"
+				"- 100 &bSouls&r"
+				"- 12,000 &bBlood&r"
+			]
 			id: "7023E76F4A5697C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1749E168E45735FC"
+				table_id: 2797019701616015075L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -1068,8 +1117,49 @@
 				}
 			]
 			title: "Upgrading Your Forge - Tier 4"
-			x: 0.0d
-			y: -5.5d
+			x: -3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7023E76F4A5697C8"]
+			description: [
+				"The &afifth and final tier&r of the &bHephaestus Forge&r requires you to have &b4 Sculk Catalysts&r, &b2 Dark Nether Stars&r, and &b2 Dragon Scales&r (&dthese must be from Forbidden and Arcanus - other scales will not work&r. You'll also need:"
+				""
+				"- 30 levels of &bExperience&r"
+				"- 5,000 &bAureal&r"
+				"- 500 &bSouls&r"
+				"- 20,000 &bBlood&r"
+			]
+			id: "3F4A2A62518B00BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46720863C3EDE3C9"
+				table_id: 2797019701616015075L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "41CBED73B7CFB593"
+					item: { Count: 2b, id: "forbidden_arcanus:dragon_scale" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1FCECCE94545029E"
+					item: { Count: 2b, id: "forbidden_arcanus:dark_nether_star" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0CC568101A650C9B"
+					item: { Count: 4b, id: "minecraft:sculk_catalyst" }
+					type: "item"
+				}
+			]
+			title: "Upgrading Your Forge - Tier 5"
+			x: -3.5d
+			y: -8.0d
 		}
 	]
 	title: "Forbidden \\& Arcanus"

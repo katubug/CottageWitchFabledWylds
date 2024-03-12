@@ -781,8 +781,8 @@
 				type: "structure"
 			}]
 			title: "Tall Witch Hut"
-			x: 3.0d
-			y: 4.5d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
 			description: ["A tower... it seems abandoned! What sort of treasures - and what sort of dangers - might it have in it's &abasement&r?"]
@@ -801,8 +801,8 @@
 				type: "structure"
 			}]
 			title: "Find a Stone Tower"
-			x: 4.0d
-			y: 3.0d
+			x: 5.5d
+			y: 7.0d
 		}
 		{
 			description: ["Ah, a familiar sight, yet somehow new! A &cWitch's Hut&r, home to one of your kin and their cat. Perhaps it would be nice to &astop in and say hello&r?"]
@@ -996,6 +996,199 @@
 			title: "The Elder's Temple"
 			x: 2.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["371753C4355AF39C"]
+			description: ["Be careful... this ship is chock full of &epillagers&r! They don't look too happy to see you. Here are some &barrows&r so you can &6pick some off at a distance&r."]
+			id: "560833C904FD3A9E"
+			rewards: [
+				{
+					id: "7DE3A868D6884CEF"
+					item: {
+						Count: 1b
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\\n\\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Logbook"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4A619FE6647E6E69"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			subtitle: "a ship in trouble"
+			tasks: [{
+				icon: "aquamirae:treasure_pouch"
+				id: "6EDAAC20C60B4AF5"
+				structure: "aquamirae:ship"
+				type: "structure"
+			}]
+			title: "Locate the Ship"
+			x: -2.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["371753C4355AF39C"]
+			description: ["This ship-turned-fortress is well-guarded. Get to the top to find the best loot!"]
+			id: "26B4F28DD5979B1B"
+			rewards: [
+				{
+					id: "6822A2023CFA3A7E"
+					item: {
+						Count: 1b
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #34\\n\\nThese beasts from the depths prowl for someone to devour… One of those critters has already eaten our midshipman… Swallowed him whole along with his crossbow.\"}"
+								"{\"text\":\"Entry #35\\n\\nWe are waiting in vain for rescue… No one will come to help us, we have to survive on our own. Today the construction of the fort from parts of the ship was completed. In any case, she could no longer plow the seas ever again.\"}"
+								"{\"extra\":[{\"text\":\"Entry #36\\n\\nWe are no longer able to heat the fort, resources are running out. \"},{\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[{\"text\":\"ↈ \"},{\"color\":\"green\",\"text\":\"Underground shelter\"},{\"text\":\"\\n   There are more structures\\n   underneath the ice... Looks\\n   like I have to go down to\\n   these terrible fish...\"}],\"text\":\"\"}},\"text\":\"[Part of the crew began to dig a shelter underground]\"},{\"text\":\". It is the only way we have a chance not to freeze to death.\"}],\"text\":\"\"}"
+								"{\"text\":\"Entry #37\\n\\nWe hid our supplies and valuable cargo underground. But Poseidon cursed us, and during the storm the lieutenant washed away into the sea… Along with master keys.\"}"
+								"{\"extra\":[{\"text\":\"The hope remains that we could possibly find \"},{\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[{\"text\":\"ↈ \"},{\"color\":\"green\",\"text\":\"Сargo keys\"},{\"text\":\"\\n   Without the keys, I will not\\n   be able to receive the\\n   most valuable cargo. I need\\n   to find other ships nearby.\"}],\"text\":\"\"}},\"text\":\"[similar keys on other ships of our fleet]\"},{\"text\":\", which have suffered the same fate as us.\"}],\"text\":\"\"}"
+							]
+							resolved: 1b
+							title: "Logbook"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22D8F88A4B9312E2"
+					type: "loot"
+				}
+			]
+			subtitle: "the survivors"
+			tasks: [{
+				icon: "aquamirae:esca"
+				id: "438F0B491F482DA9"
+				structure: "aquamirae:outpost"
+				type: "structure"
+			}]
+			title: "Locate the Outpost"
+			x: 2.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["371753C4355AF39C"]
+			description: [
+				"So this is where the rest of the crew escaped to. Take caution before entering- getting back out may not be so easy!"
+				""
+				"You may find some of the structure below waterlogged with freezing waters- take these &bsponges&r to help you clear a path."
+				""
+				"To unlock the frozen chest and receive the most valuable loot, you'll need a &bFrozen Key&r. There's only one way to get that... &6take it from the last person who held it&r- &eCaptain Cornelia&r herself."
+			]
+			id: "4F3025A543B1E6D4"
+			rewards: [
+				{
+					id: "5B3D60375750AB5C"
+					item: {
+						Count: 1b
+						id: "minecraft:written_book"
+						tag: {
+							OBSData: { }
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #41\\n\\nIn these cursed lands there you can’t find shelter even under the ice and the thickness of the earth... Some creatures that look like eels crawled out of the depths of the underworld, depriving us of the opportunity \"}"
+								"{\"text\":\"to return back to the surface.\\n\\nOnly the mistress of the moon knows how long shall we last... At all events, our hopes of seeing sunlight had all but vanished. This place will become our grave, our eternal tomb. For us and that damned rune...\"}"
+								"{\"text\":\"Last Entry\\n\\nIt whispers to me, whispers inside my head the secrets of ice and snow... Ice... Now we are chained in ice forever...\\n\\nI suppose a similar fate awaits the crew that set out in search of the fire rune... I wonder if they made it\"}"
+								"{\"text\":\"to the Great Dark Forest valley. Though it doesn't really matter now…\"}"
+							]
+							resolved: 1b
+							title: "Logbook"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E0EEACB4CDCF9CB"
+					type: "loot"
+				}
+				{
+					count: 5
+					id: "33090CC2FF0B5D8A"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+			]
+			subtitle: "a frozen prison"
+			tasks: [{
+				icon: "aquamirae:frozen_chest"
+				id: "0042BCDD7565790F"
+				structure: "aquamirae:shelter"
+				type: "structure"
+			}]
+			title: "Locate the Shelter"
+			x: 0.0d
+			y: 21.5d
+		}
+		{
+			description: [
+				"The &l&1Aquamirae&r mod transforms the &cDeep Frozen Ocean&r into its own adventure. Discover what happened to the crew of these abandoned ships, the fate of the mysterious &eCaptain Cornelia&r, and what lurks in the icy depths below. Speaking of the icy depths- &afrozen water now causes freezing damage&r. "
+				""
+				"While the story progression suggests that you &6visit the ship, followed by the outpost, and then the shelter&r, these structures are not progress-locked. But be aware that they do get &aprogressively more difficult!&r"
+				""
+				"These quests will also reward you with the &blogbook&r that can be found at each structure- just in case the one there is missing or taken."
+			]
+			id: "371753C4355AF39C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72E9896F3AEE1438"
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "The Haunted Deeps"
+			tasks: [{
+				biome: "minecraft:deep_frozen_ocean"
+				icon: "aquamirae:spinefish"
+				id: "0E9221830EE86881"
+				type: "biome"
+			}]
+			title: "Aquamirae"
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["371753C4355AF39C"]
+			description: [
+				"&eCaptain Cornelia&r has been taken by the deep... and what she has become is both powerful and terrifying. If you want to take her on, there's a few things you must know."
+				""
+				"To find the &bShell Horn&r: this item is naturally dropped by one of the pillagers on &cThe Ship&r. This modpack also adds it as a drop from the &eEel&r, which is found in the &cShelter&r or spawned by using &bEel Bait&r on snow."
+				""
+				"To summon the Captain: &6Blow the&r &bShell Horn&r &6while standing near the water&r in the &cDeep Frozen Ocean.&r"
+				" "
+				"To defeat the Captain: dealing damage is just part of the equation. To defeat &eCornelia&r, first &6lower her health until she begins regeneration&r. At this point, &aregular damage will no longer be effective&r. To finish her off you'll need a &bSplash Potion of Weakness&r. Alternatively, the incredible crit damage of the &bTerrible Sword&r has the potential to &aovercome her regen&r."
+			]
+			id: "184B416049E51293"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A091662FF100902"
+				type: "loot"
+			}]
+			subtitle: "summon the spectre of Captain Cornelia"
+			tasks: [{
+				id: "15DE2AEEF40D817C"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			title: "Ghost of a Chance"
+			x: 0.0d
+			y: 23.0d
 		}
 	]
 	title: "Globetrotting"

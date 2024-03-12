@@ -123,8 +123,7 @@
 				glacia = true
 				gilded_oak = true
 				blighted_skyroot = true
-				chromatic = true
-				chromatic_berry = true
+				purple_glacia = true
 
 			[general.types.leaves_type.thaumon]
 				greatwood = true
@@ -244,8 +243,8 @@
 				cloudcap = true
 				crystal = true
 				glacia = true
-				fieldsprout = true
-				springshroom = true
+				fieldsproot = true
+				jellyshroom = true
 
 			[general.types.wood_type.thaumon]
 				greatwood = true

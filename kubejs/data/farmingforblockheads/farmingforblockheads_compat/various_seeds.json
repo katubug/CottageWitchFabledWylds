@@ -99,6 +99,15 @@
           
           {
             "output": "vinery:savanna_grape_seeds_red"
-        }
+          },
+          {
+            "output": "vegandelight:soybean"
+          },
+          {
+            "output": "fruitsdelight:blueberry"
+          },
+          {
+            "output": "fruitsdelight:cranberry"
+          }
     ]
   }

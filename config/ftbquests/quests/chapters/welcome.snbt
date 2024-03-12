@@ -187,23 +187,23 @@
 			]
 			id: "21AD64E594528F4D"
 			rewards: [{
-				id: "07AB79215628538C"
+				id: "524E7A99FC31E368"
 				item: {
 					Count: 1b
 					id: "capsule:capsule"
 					tag: {
-						author: "Katubug"
+						author: "Emmulah"
 						canRotate: 0b
-						color: 6196919
+						color: 4869306
 						display: {
-							color: 14714914
+							color: 6196919
 						}
 						isReward: 1b
-						label: "Witch House"
+						label: "witchyhouse"
 						oneUse: 1b
 						size: 23
 						state: 5
-						structureName: "minecraft:config/capsule/rewards/witchhouse"
+						structureName: "minecraft:config/capsule/rewards/witchyhouse"
 					}
 				}
 				type: "item"

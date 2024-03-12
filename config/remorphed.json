@@ -3,7 +3,7 @@
   "killToUnlock": 1,
   "autoTransform": false,
   "lockTransform": false,
-  "unlockFriendlyNormal": false,
+  "unlockFriendlyNormal": true,
   "killToUnlockByType": {
     "minecraft:wither": 2,
     "minecraft:ender_dragon": 2

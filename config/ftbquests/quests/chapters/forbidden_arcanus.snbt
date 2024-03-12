@@ -202,6 +202,15 @@
 				"The center slot is for the &bCatalyst&r of the ritual you're trying to perform. And you can add &bEnhancer Relics&r to the four surrounding slots (three of which need to &abe unlocked&r with forge tier upgrades)."
 				""
 				"{image:enchanted_wilds:textures/questimages/hephaestusui.png width:100 height:75 align:1 fit:true}"
+				""
+				"{@pagebreak}"
+				""
+				"&dA note of warning&r: If you break your &bHephaestus Forge&r, you will lose everything in it:"
+				"- Any &bEssences&r"
+				"- Any &bEnhancer Relics&r"
+				"- All your &bupgrades&r"
+				""
+				"If you do need to move or rebuild your Forge, you can make a &bBlueprint Capsule&r by &6crafting one &bDarkstone&r with &bany Capsule&r. The blueprint will build the structure for you with the items in your inventory."
 			]
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "15D03A310865D50C"
@@ -1001,6 +1010,66 @@
 			title: "Meet a Lost Soul"
 			x: 2.0d
 			y: -11.0d
+		}
+		{
+			id: "63CC92769528F8EA"
+			tasks: [
+				{
+					count: 4L
+					id: "35F9F808D6B1650F"
+					item: { Count: 4b, id: "forbidden_arcanus:arcane_crystal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "30CE0D68A85E0403"
+					item: { Count: 4b, id: "forbidden_arcanus:spawner_scrap" }
+					type: "item"
+				}
+			]
+			title: "Upgrading Your Forge  - Tier 2"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			id: "251DEA97C995786A"
+			tasks: [
+				{
+					count: 4L
+					id: "3E9AA5A6C355ADE5"
+					item: { Count: 4b, id: "forbidden_arcanus:arcane_crystal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "45477552EDB3D962"
+					item: { Count: 4b, id: "forbidden_arcanus:deorum_ingot" }
+					type: "item"
+				}
+			]
+			title: "Upgrading Your Forge - Tier 3"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			id: "7023E76F4A5697C8"
+			tasks: [
+				{
+					count: 4L
+					id: "0AC0A5052B5E788A"
+					item: "forbidden_arcanus:rune"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "04EA3EAEF5077447"
+					item: { Count: 4b, id: "forbidden_arcanus:stellarite_piece" }
+					type: "item"
+				}
+			]
+			title: "Upgrading Your Forge - Tier 4"
+			x: 0.0d
+			y: -5.5d
 		}
 	]
 	title: "Forbidden \\& Arcanus"

@@ -76,43 +76,43 @@ ServerEvents.recipes(event => {
     //Recipe Replacements
     //Strawberries
     event.replaceInput({
-        input: 'mysticsbiomes:strawberry'
-    }, // Arg 1: the filter
-    'mysticsbiomes:strawberry', // Arg 2: the item to replace
-    '#forge:strawberries' // Arg 3: the item to replace it with
-)
+            input: 'mysticsbiomes:strawberry'
+        }, // Arg 1: the filter
+        'mysticsbiomes:strawberry', // Arg 2: the item to replace
+        '#forge:strawberries' // Arg 3: the item to replace it with
+    )
 
     //Strawberries 2
     event.replaceInput({
-        input: 'bakery:strawberry'
-    }, // Arg 1: the filter
-    'bakery:strawberry', // Arg 2: the item to replace
-    '#forge:strawberries' // Arg 3: the item to replace it with
-)
+            input: 'bakery:strawberry'
+        }, // Arg 1: the filter
+        'bakery:strawberry', // Arg 2: the item to replace
+        '#forge:strawberries' // Arg 3: the item to replace it with
+    )
 
     //Corn in case we need it
     event.replaceInput({
-        input: 'brewery:corn'
-    }, // Arg 1: the filter
-    'brewery:corn', // Arg 2: the item to replace
-    'hauntedharvest' // Arg 3: the item to replace it with
-)
+            input: 'brewery:corn'
+        }, // Arg 1: the filter
+        'brewery:corn', // Arg 2: the item to replace
+        'hauntedharvest' // Arg 3: the item to replace it with
+    )
 
     //Pearls
     event.replaceInput({
-        input: 'abyssal_decor:white_pearl'
-    }, // Arg 1: the filter
-    'abyssal_decor:white_pearl', // Arg 2: the item to replace
-    '#forge:pearls' // Arg 3: the item to replace it with
-)
+            input: 'abyssal_decor:white_pearl'
+        }, // Arg 1: the filter
+        'abyssal_decor:white_pearl', // Arg 2: the item to replace
+        '#forge:pearls' // Arg 3: the item to replace it with
+    )
 
     //Pearls
     event.replaceInput({
-        input: 'crabbersdelight:pearl'
-    }, // Arg 1: the filter
-    'crabbersdelight:pearl', // Arg 2: the item to replace
-    '#forge:pearls' // Arg 3: the item to replace it with
-)
+            input: 'crabbersdelight:pearl'
+        }, // Arg 1: the filter
+        'crabbersdelight:pearl', // Arg 2: the item to replace
+        '#forge:pearls' // Arg 3: the item to replace it with
+    )
 
 
     // Cheaper Post Box
@@ -342,9 +342,7 @@ ServerEvents.recipes(event => {
 
 
 
-
-
-        /* HEYKATU
+    /* HEYKATU
     // Building Gadgets
 
     //Building Gadget
@@ -921,7 +919,113 @@ ServerEvents.recipes(event => {
             C: '#forge:rods/wooden'
         }
     )
-    
+
+
+    //Create Deco Bricks with Dye
+    event.shaped(
+        Item.of('createdeco:dean_bricks', 4),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ], {
+            A: 'minecraft:brick',
+            B: 'minecraft:orange_dye'
+        }
+    )
+
+    event.shaped(
+        Item.of('createdeco:blue_bricks', 4),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ], {
+            A: 'minecraft:brick',
+            B: 'minecraft:blue_dye'
+        }
+    )
+
+    event.shaped(
+        Item.of('createdeco:dusk_bricks', 4),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ], {
+            A: 'minecraft:brick',
+            B: 'minecraft:black_dye'
+        }
+    )
+
+    event.shaped(
+        Item.of('createdeco:verdant_bricks', 4),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ], {
+            A: 'minecraft:brick',
+            B: 'minecraft:green_dye'
+        }
+    )
+
+    event.shaped(
+        Item.of('createdeco:scarlet_bricks', 4),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ], {
+            A: 'minecraft:brick',
+            B: 'minecraft:red_dye'
+        }
+    )
+
+    event.shaped(
+        Item.of('createdeco:umber_bricks'),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ], {
+            A: 'minecraft:brick',
+            B: 'minecraft:brown_dye'
+        }
+    )
+
+    event.shaped(
+        Item.of('createdeco:pearl_bricks'),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ], {
+            A: 'minecraft:brick',
+            B: 'minecraft:white_dye'
+        }
+    )
+
+    //Hephaestus Forge Capsule Recipe
+    event.shapeless(
+        Item.of('capsule:capsule', '{color:16777215,display:{color:3949738},label:"Hephaestusforge",size:9,sourceInventory:{},state:3,structureName:"b-4-config_capsule_rewards_hephaestusforge",upgraded:0}'),
+        [
+            'forbidden_arcanus:darkstone',
+            'capsule:capsule'
+        ]
+    )
+
+    //Eel Bait
+    event.shapeless(
+        Item.of('kubejs:eel_bait'),
+        [
+            '#minecraft:foodstuffs/raw',
+            'aquamirae:spinefish',
+            '#forge:salt'
+        ]
+    )
+
+
 
 
     //Stonecutter recipes for Xerca Woods

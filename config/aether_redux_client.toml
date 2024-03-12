@@ -45,7 +45,7 @@
 
 [Internal]
 	#Value used to track the version of the Aether: Redux most recently used.
-	"Version ID" = "2.0.2"
+	"Version ID" = "2.0.6"
 	#Internal value to decide if it is the first startup. DO NOT EDIT THIS VALUE, unless you want things to break!
 	"First Startup?" = false
 

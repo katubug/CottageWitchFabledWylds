@@ -351,7 +351,7 @@
 			description: [
 				"In order to complete &aRituals&r, you'll need a &bBrazier&r to light, and two &aItem Receptacles&r - let's begin with the &bStone Hands&r. Later on, you'll upgrade, but these are a fine and stylish choice for now!"
 				""
-				"Now let's try our first ritual, the &aCrystallization Ritual&r! If you look in your &bArs Ecclesia&r you will see that it requires &bRedstone Dust&r and &bBone Meal&r. You'll also need &esome undead&r, such as &eZombies, Skeletons, or Wraiths&r, because the ritual needs to &aconsume their corporeal forms&r and &bconvert their souls to &bSoul Shards&r."
+				"Now let's try our first ritual, the &aCrystallization Ritual&r! If you look in your &bArs Ecclesia&r you will see that it requires &bRedstone Dust&r and &bBone Meal&r. You'll also need &esome undead&r, such as &eZombies, Skeletons, or Wights&r, because the ritual needs to &aconsume their corporeal forms&r and &bconvert their souls to &bSoul Shards&r."
 				""
 				"{image:enchanted_wilds:textures/questimages/crystallizationritual.png width:100 height:55 align:1 fit:true}"
 				""
@@ -657,7 +657,7 @@
 		}
 		{
 			dependencies: ["6BAEED9E017F5838"]
-			description: ["Embrace this transformative &bcloak&r, which unfolds into majestic wings - allowing multiple mid-air jumps, short and quick elytra glides, or serene slow falls. These actions cost &bMana&r, which must be recharged between traversals."]
+			description: ["Embrace this transformative &bcloak&r, which unfolds into majestic wings - allowing multiple mid-air jumps, short and quick elytra glides, or serene slow falls. You can \"flap\" &aup to 10 times&r, after which you must land to recharge."]
 			id: "2AF2FECBE66460C7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -677,9 +677,11 @@
 		{
 			dependencies: ["35618FF7350BEA17"]
 			description: [
-				"When a spirit wanders too long forgotten, it becomes a &eWraith&r, and its spectral heart turns vengeful. "
+				"When a spirit wanders too long forgotten, it becomes a &eWight&r, and its spectral heart turns vengeful. "
 				""
 				"These beings are &apowerful undead&r and should be &aexterminated on sight&r. Once dispatched, they drop &bTattered Cloth&r, which is an important ingredient for certain &acrafts and rituals&r. Rarely, they can also drop &btheir hearts&r."
+				""
+				"&dA note: The mod named these \"Wraiths\" but this pack renames them \"wight\" to differentiate from the passive &lQuark&r&d &eWraiths&r."
 			]
 			id: "1F7B573C8CEC7C4A"
 			rewards: [{
@@ -696,7 +698,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat a Wraith"
+			title: "Defeat a Wight"
 			x: 6.0d
 			y: -1.5d
 		}

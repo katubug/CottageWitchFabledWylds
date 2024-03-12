@@ -1155,11 +1155,10 @@
 			}]
 			shape: "square"
 			tasks: [{
-				entity: "eidolon:wraith"
-				icon: "eidolon:tattered_cloth"
-				id: "67167BE721C1C831"
+				entity: "quark:wraith"
+				id: "686E1C8662679767"
 				type: "kill"
-				value: 10L
+				value: 50L
 			}]
 			x: 1.5d
 			y: 6.0d

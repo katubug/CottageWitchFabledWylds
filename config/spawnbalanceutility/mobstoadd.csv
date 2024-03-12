@@ -1,21 +1,28 @@
-quark:forgotten, MONSTER
-quark:toretoise, CREATURE
-quark:wraith, MONSTER
+aquamirae:golden_moth, AMBIENT
+aquamirae:maw, MONSTER
+aquamirae:anglerfish, WATER_CREATURE
+aquamirae:maze_mother, MONSTER
+aquamirae:captain_cornelia, MONSTER
+aquamirae:pillagers_patrol, MONSTER
+aquamirae:tortured_soul, MONSTER
+aquamirae:eel, MONSTER
+aquamirae:spinefish, WATER_AMBIENT
+aquamirae:luminous_jelly, WATER_AMBIENT
 
 
 
 
-mythicmounts:acencia
-mythicmounts:archelon
-mythicmounts:colelytra
-mythicmounts:courierbird
-mythicmounts:direwolf
-mythicmounts:griffon
-mythicmounts:moth
-mythicmounts:netherbat
-mythicmounts:nightmare
-mythicmounts:nudibranch
-mythicmounts:ridinglizard
+
+
+1350, ocean, minecraft:deep_frozen_ocean, aquamirae:anglerfish, 20, 1, 3
+1944, ocean, minecraft:frozen_ocean,
+
+
+
+
+
+
+
 
 4929, taiga, minecraft:snowy_taiga, CREATURE, mythicmounts:acencia, 15, 2, 3
 49, forest, regions_unexplored:alpha_grove, CREATURE, mythicmounts:acencia, 15, 2, 3

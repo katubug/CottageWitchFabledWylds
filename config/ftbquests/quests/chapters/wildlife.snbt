@@ -2217,7 +2217,7 @@
 				type: "advancement"
 			}]
 			x: -4.5d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			description: ["The &eWither&r is a fearsome foe, but I have faith that you're a powerful enough witch to &6defeat one in combat&r."]
@@ -2515,6 +2515,58 @@
 			}]
 			x: 4.5d
 			y: 1.0d
+		}
+		{
+			description: [
+				"This fearsome spectre was once the Captain of a great ship which &aran afoul in the &cDeep Frozen Ocean&r."
+				""
+				"&eCaptain Cornelia&r can only be summoned by the sound of a &bShell Horn&r blown near the water."
+			]
+			id: "5C37E472011FC8F4"
+			rewards: [{
+				count: 4
+				id: "6837140F10D0A6B8"
+				item: "aquamirae:abyssal_amethyst"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1b
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "72028C6B5ECBA7E1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Captain Cornelia"
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			description: ["The &eMother of the Maze&r is a hulking beast with &arare crystals growing from its back&r. Defeat it to make the &cDeep Frozen Ocean&r a little safer."]
+			id: "38314689A6A42253"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B0063AC51D6FC6C"
+				table_id: 8897154971538635124L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: "aquamirae:maze_mother_spawn_egg"
+				id: "710290BA9F1E2BD0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Mother of the Maze"
+			x: -3.5d
+			y: 10.5d
 		}
 	]
 	title: "Wildlife"

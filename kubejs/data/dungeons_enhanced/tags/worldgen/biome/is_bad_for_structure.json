@@ -1,0 +1,13 @@
+{
+  "replace":true,
+  "values": [
+    "#dungeons_enhanced:is_shore",
+    "#forge:is_cave",
+    "#forge:is_mountain",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_savanna",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:deep_frozen_ocean"
+  ]
+}

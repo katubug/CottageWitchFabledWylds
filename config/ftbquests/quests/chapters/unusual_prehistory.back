@@ -1,0 +1,1148 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "unusual_prehistory"
+	group: "181D7A6A92948264"
+	icon: "unusualprehistory:mezo_fossil"
+	id: "166D3820236F493E"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 11.25d
+			hover: [ ]
+			image: "enchanted_wilds:textures/questui/bgarchaeology.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 12.0d
+			hover: [ ]
+			image: "enchanted_wilds:textures/questui/orpheusbg.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Fossil ores can be found in many places. Dig them up to get started on your very own John Hammond adventure!"]
+			id: "3E34B77AD020E0C4"
+			rewards: [{
+				count: 10
+				id: "7C8CAE5F07D28A4C"
+				item: "unusualprehistory:flask"
+				type: "item"
+			}]
+			subtitle: "can you dig it?"
+			tasks: [
+				{
+					id: "75CD4F40175AD71C"
+					item: "unusualprehistory:amber_fossil"
+					type: "item"
+				}
+				{
+					id: "6AA02524EA12295D"
+					item: "unusualprehistory:paleo_fossil"
+					type: "item"
+				}
+				{
+					id: "148AF88303D20115"
+					item: "unusualprehistory:mezo_fossil"
+					type: "item"
+				}
+				{
+					id: "3BAC4EFE6EFE6090"
+					item: "unusualprehistory:tar_fossil_item"
+					type: "item"
+				}
+				{
+					id: "40CBA9D6CFBCADF9"
+					item: "unusualprehistory:plant_fossil_item"
+					type: "item"
+				}
+				{
+					id: "7931E85CC89AFE0D"
+					item: "unusualprehistory:frozen_fossil_item"
+					type: "item"
+				}
+				{
+					id: "7A09F5BFE7670813"
+					item: "unusualprehistory:opal_fossil"
+					type: "item"
+				}
+			]
+			title: "Collect Every Fossil Type"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E1FF1F69377DCE7"]
+			description: [
+				"The first step on the road to your own Jurassic Park begins with an &banalyser&r... let's &afigure out what's in those fossils&r! Make sure you have lots of &bFlasks&r handy to hold any DNA extracted."
+				""
+				"The next thing you'll need is a &bCultivator&r, which requires &bOrganic Ooze&r to craft and operate. We've given you some as a reward, but from here on out you'll have to craft your own."
+			]
+			id: "72A4E5BB867448A3"
+			rewards: [{
+				count: 5
+				id: "5B34A2FC08C325C3"
+				item: "unusualprehistory:organic_ooze"
+				type: "item"
+			}]
+			subtitle: "i just took a dna test"
+			tasks: [{
+				id: "7E2CA4D70AEC0728"
+				item: "unusualprehistory:analyzer"
+				type: "item"
+			}]
+			title: "Craft an Analyser"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["72A4E5BB867448A3"]
+			description: [
+				"Time to take that &bDNA flask&r to the next step! The &bCultivator&r will allow you to &a process DNA into plants, eggs, or embryos.&r"
+				""
+				"To get started,&6 right click the lower half of the Cultivator to open the GUI. Add your DNA flasks in the left slot, and your Organic Ooze in the bottom slot.&r As each flask is processed, excess flasks will be returned to you in the bottom right slot. "
+			]
+			id: "61C4929AA6D7A489"
+			rewards: [{
+				count: 2
+				id: "1DD9723471FD964F"
+				item: "unusualprehistory:insulator"
+				type: "item"
+			}]
+			subtitle: "cultivator? i 'hardly know 'er"
+			tasks: [{
+				id: "49C9324E48141609"
+				item: "unusualprehistory:cultivator"
+				type: "item"
+			}]
+			title: "Craft a Cultivator"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"61C4929AA6D7A489"
+				"72A4E5BB867448A3"
+			]
+			description: [
+				"From eggs and seeds you've revived ancient plants, fish, birds, reptiles... but what about mammals? Without a surrogate to carry the embryo, you're gonna want to build your own."
+				""
+				"Crafting your first incubator will require &bArcane Gold ingots&r, which can be &6smelted in a crucible&r. "
+				""
+				"Incubators are a one-time use deal, so choose your embryo carefully!"
+			]
+			id: "7196DAE4F6B0ED10"
+			rewards: [{
+				id: "5DC2EED90641FE49"
+				item: "unusualprehistory:incubator"
+				type: "item"
+			}]
+			subtitle: "test tube babes"
+			tasks: [{
+				id: "525C8417F6E6EC07"
+				item: "unusualprehistory:incubator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E1FF1F69377DCE7"]
+			description: [
+				"&eSmilodons&r are one of the few prehistoric creatures which actually have a &amodern-day relative&r. "
+				""
+				"&6Right-click a &bsmilodon embryo&r on an &eOcelot&r to initiate the surrogacy, and soon you'll have your own (ocelot coloured) sabre-tooth cat."
+			]
+			icon: "unusualprehistory:smilodon_embryo"
+			id: "2170FD93A7FBB5B5"
+			subtitle: "it's a purr-ogate pregnancy"
+			tasks: [{
+				icon: "unusualprehistory:smilodon_embryo"
+				id: "61BD69CEEA16567A"
+				type: "custom"
+			}]
+			title: "Implant a Smilodon Embryo in an Ocelot"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C25F07248AC8170"]
+			description: [
+				"You found your first &bfossil&r! Time to embark on your quest to &aresurrect some ancient lifeforms&r, through the magic of &bScience&r! "
+				""
+				"To &aprocess your fossils&r and uncover what rests inside, your next step will be crafting an &bAnalyser&r."
+			]
+			id: "2E1FF1F69377DCE7"
+			rewards: [{
+				count: 3
+				id: "1A436D98F160E109"
+				item: "unusualprehistory:flask"
+				type: "item"
+			}]
+			subtitle: "an adventure 65 millions years in the making"
+			tasks: [{
+				advancement: "minecraft:main/fossil"
+				criterion: ""
+				icon: "unusualprehistory:mezo_fossil"
+				id: "5399FACBBD55F49F"
+				type: "advancement"
+			}]
+			title: "My First Fossil"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Dig up (or revive) one of every prehistoric plant. "
+				""
+				"And one coral. I know it's not a plant."
+			]
+			id: "5FECAFEB23BFBF20"
+			subtitle: "a bunch of old plants"
+			tasks: [
+				{
+					id: "2BD1A19A30604BC7"
+					item: "unusualprehistory:horsetail"
+					type: "item"
+				}
+				{
+					id: "36035F284BC7978B"
+					item: "unusualprehistory:leefructus"
+					type: "item"
+				}
+				{
+					id: "39589DA28C53DCE8"
+					item: "unusualprehistory:tall_horsetail"
+					type: "item"
+				}
+				{
+					id: "3948556D0D3910AD"
+					item: "unusualprehistory:archaeos"
+					type: "item"
+				}
+				{
+					id: "664E508E97B67FEC"
+					item: "unusualprehistory:sarracenia"
+					type: "item"
+				}
+				{
+					id: "61B36911C406417B"
+					item: "unusualprehistory:zuloagae"
+					type: "item"
+				}
+				{
+					id: "14ECC2B6C594A179"
+					item: "unusualprehistory:archaefructus"
+					type: "item"
+				}
+				{
+					id: "6A6B0842CFBA2DE5"
+					item: "unusualprehistory:foxii_sapling"
+					type: "item"
+				}
+				{
+					id: "47932DDA3D127181"
+					item: "unusualprehistory:nelumbites"
+					type: "item"
+				}
+				{
+					id: "22C9B5F53CACA08D"
+					item: "unusualprehistory:quereuxia"
+					type: "item"
+				}
+				{
+					id: "11FFA9497567E555"
+					item: "unusualprehistory:raiguenrayun"
+					type: "item"
+				}
+				{
+					id: "269B0EFE07F5A8BC"
+					item: "unusualprehistory:dryo_sapling"
+					type: "item"
+				}
+				{
+					id: "702C353FEF2B154D"
+					item: "unusualprehistory:ginkgo_sapling"
+					type: "item"
+				}
+				{
+					id: "16EB4693C73BF6A7"
+					item: "unusualprehistory:bennett"
+					type: "item"
+				}
+				{
+					id: "11103F5663CBBEAD"
+					item: "unusualprehistory:clathrodictyon"
+					type: "item"
+				}
+				{
+					id: "458840C9A66F1FED"
+					item: "minecraft:torchflower_seeds"
+					type: "item"
+				}
+				{
+					id: "114EF5DF78E89D3C"
+					item: "minecraft:pitcher_pod"
+					type: "item"
+				}
+				{
+					id: "0724CA2551876AC7"
+					item: "moresnifferflowers:dawnberry_vine_seeds"
+					type: "item"
+				}
+				{
+					id: "1D13126F7957B5E9"
+					item: "moresnifferflowers:ambush_seeds"
+					type: "item"
+				}
+				{
+					id: "02C17C09122BC618"
+					item: "moresnifferflowers:caulorflower"
+					type: "item"
+				}
+			]
+			title: "The Garden of Eden"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Gigantopithicus has a love of fruits, and trading! Holding a Zuloagea in front of an adult will prompt them to hold a fruit box if they have one to trade. Right click to make the trade, and open up your very first fruit loot box!"
+				""
+				"Inside you will find fruit scraps and other goodies. Rarer boxes mean rarer goodies! Combine the fruit scraps to make more desireable fruits, and Gigantos you have traded with before will offer you better fruit boxes in exchange. "
+			]
+			id: "78E33B14CA1B8469"
+			subtitle: "don't call him a monkey"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "unusualprehistory:fruit_loot_box"
+					tag: {
+						CustomModelData: 2
+						color: 3975347
+						display: {
+							Name: "{\"color\":\"white\",\"translate\":\"unusualprehistory.fruit_loot_box.exotic\"}"
+						}
+						tradeItem: {
+							Count: 1b
+							id: "unusualprehistory:zuloagae"
+						}
+						translationKey: "unusualprehistory.fruit_loot_box.exotic"
+					}
+				}
+				id: "2AE6090754B1911B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "unusualprehistory:gigantopithicus"
+				type: "observation"
+			}]
+			title: "Meet the Gigantopithicus"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			description: ["Bait an adult Majungasaurus into ramming your shield to get them to drop scutes. Save up 5, and craft your own Majunga Helmet!"]
+			id: "25E658E5D27AC8DC"
+			subtitle: "majunga dunga dunga"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "unusualprehistory:majunga_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5433BF950C188137"
+				observe_type: 5
+				timer: 0L
+				to_observe: "unusualprehistory:majunga"
+				type: "observation"
+			}]
+			title: "Meet the Majungasaurus"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Coty can be raised for their meat, but are coveted for their Grog! Simply feed an adult a handful of sweet berries, and then use a flak to collect the grog from... somewhere. "
+				""
+				"Caution: Grog does cause the dizzy effect when consumed."
+			]
+			id: "15C9F01589B7BCBC"
+			subtitle: "a groggy memory"
+			tasks: [{
+				icon: "unusualprehistory:grog"
+				id: "2F972389A45AA2A5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "unusualprehistory:coty"
+				type: "observation"
+			}]
+			title: "Meet the Cotylorhynchus"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "22ECD917EB584573"
+			subtitle: "put them back together"
+			tasks: [
+				{
+					id: "4FC5DCD9DA8D7B5C"
+					item: "betterarcheology:creeper_fossil"
+					type: "item"
+				}
+				{
+					id: "0ED795497B9BAB0C"
+					item: "betterarcheology:villager_fossil"
+					type: "item"
+				}
+				{
+					id: "76FD289AA94C7715"
+					item: "betterarcheology:chicken_fossil"
+					type: "item"
+				}
+				{
+					id: "17FAA674E19B940F"
+					item: "betterarcheology:sheep_fossil"
+					type: "item"
+				}
+				{
+					id: "22A4F674E97A38E6"
+					item: "betterarcheology:ocelot_fossil"
+					type: "item"
+				}
+				{
+					id: "2F056A5220CF74A4"
+					item: "betterarcheology:wolf_fossil"
+					type: "item"
+				}
+				{
+					id: "5C5FF4D490227442"
+					item: "betterarcheology:guardian_fossil"
+					type: "item"
+				}
+			]
+			title: "Completed Fossils"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			description: ["The &eEryon&r is a decapod crustacean which can &adig up fossils&r! Collect one of each type."]
+			id: "1404ADC27F7691FB"
+			subtitle: "keep calm and eryon"
+			tasks: [
+				{
+					id: "4B57F13F23F26E53"
+					item: "unusualprehistory:coty_fossil"
+					type: "item"
+				}
+				{
+					id: "5E451E99D8106B4D"
+					item: "unusualprehistory:stetha_fossil"
+					type: "item"
+				}
+				{
+					id: "0670B21C546F8359"
+					item: "unusualprehistory:anuro_fossil"
+					type: "item"
+				}
+				{
+					id: "5430550DD948B937"
+					item: "unusualprehistory:scau_fossil"
+					type: "item"
+				}
+				{
+					id: "1DFB938463137FDE"
+					item: "unusualprehistory:beelze_fossil"
+					type: "item"
+				}
+				{
+					id: "5C4296D2E95039D7"
+					item: "unusualprehistory:brachi_fossil"
+					type: "item"
+				}
+				{
+					id: "7CC18A4A759C6BAD"
+					item: "unusualprehistory:dunk_fossil"
+					type: "item"
+				}
+				{
+					id: "498E75BD857B234B"
+					item: "unusualprehistory:majunga_fossil"
+					type: "item"
+				}
+				{
+					id: "0A237BCC85CAC962"
+					item: "unusualprehistory:veloci_fossil"
+					type: "item"
+				}
+				{
+					id: "6936EC3D626156CB"
+					item: "unusualprehistory:eryon_fossil"
+					type: "item"
+				}
+				{
+					id: "6958A936194BF10F"
+					item: "unusualprehistory:ulugh_fossil"
+					type: "item"
+				}
+				{
+					id: "236FE24A433C4C17"
+					item: "unusualprehistory:kentro_fossil"
+					type: "item"
+				}
+				{
+					id: "0C9F0A25E41A28A1"
+					item: "unusualprehistory:antarcto_fossil"
+					type: "item"
+				}
+				{
+					id: "2A3FE31531E3AA03"
+					item: "unusualprehistory:hwacha_fossil"
+					type: "item"
+				}
+				{
+					id: "48906A2A2859DFCF"
+					item: "unusualprehistory:austro_fossil"
+					type: "item"
+				}
+				{
+					id: "7D3B9020C3A7432F"
+					item: "unusualprehistory:pachy_fossil"
+					type: "item"
+				}
+			]
+			title: "Collect Eryon Fossils"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"One of the best things about &adeath&r is that you can &atake someone else's bones&r and &6wear them&r! What do you mean, \"that's messed up?\""
+				""
+				"Anyway, collect the &bSkulls&r of creatures you can find in the world, and you'll be rewarded!"
+			]
+			id: "26B485810BD4A066"
+			subtitle: "somebody stop me!"
+			tasks: [
+				{
+					id: "18C2CDE0FFCF41DA"
+					item: "bonezone:spinal_skull_deer"
+					type: "item"
+				}
+				{
+					id: "41E51902DA9A86B5"
+					item: "bonezone:spinal_skull_goat"
+					type: "item"
+				}
+				{
+					id: "01CD21930AFD6BD5"
+					item: "bonezone:spinal_skull_bird"
+					type: "item"
+				}
+				{
+					id: "2A83B5518F1AE9A3"
+					item: "bonezone:spinal_skull_bull"
+					type: "item"
+				}
+			]
+			title: "The Mask"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Combine "
+				"{image:enchanted_wilds:textures/questimages/potterysherd.png width:205 height:200 align:1}"
+			]
+			id: "75794697E256EFCC"
+			subtitle: "its pronounced \"shERRds\""
+			tasks: [{
+				id: "3112D060075ED019"
+				item: "minecraft:decorated_pot"
+				type: "item"
+			}]
+			title: "Combine Four Pottery Sherds"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "7479B7E981C0EA93"
+			subtitle: "a heavy sense of gild"
+			tasks: [{
+				id: "6C9CDE8D85A6C7B3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "gildedsherds:gilded_sherds"
+					}
+				}
+				title: "Any #gildedsherds:gilded_sherds"
+				type: "item"
+			}]
+			title: "Shiny Sherds"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C25F07248AC8170"]
+			description: [
+				"You've found your first &bArtifact Shard&r! Collect 9 of these and combine them in a crafting table to &arestore an &bUnidentified Artifact&r."
+				""
+				"Take this &bArcheology Table&r, you'll need it for the next step."
+			]
+			id: "53AE00DAF3CD587F"
+			rewards: [{
+				id: "162067ECF93D854B"
+				item: "betterarcheology:archeology_table"
+				type: "item"
+			}]
+			subtitle: "it's pronounced \"shAHHrds\""
+			tasks: [{
+				id: "0ACE9C5AA7473801"
+				item: "betterarcheology:artifact_shards"
+				type: "item"
+			}]
+			title: "Find Your First Shard!"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53AE00DAF3CD587F"]
+			description: [
+				"Now that you've got your artifact, the next step is to &aidentify the spell&r! &6Right clicking your artifact&r on an &bArcheology Table&r will complete this quest - though to actually identify, just &6insert your new artifact&r into the &bTable&r along with a &bBrush&r, and all the hard work is done for you!"
+				""
+				"Your enchantment is now identified and ready to use. If you'd like to translate its name, you can simply &6right-click your &bIdentified Artifact&r onto an &bEnchantment table&r, just like any other book!"
+			]
+			id: "1F389C8E9F4CFB59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "771DFF00D1EDFA24"
+				table_id: 9034435089736190683L
+				type: "random"
+			}]
+			subtitle: "zoom in. zoom in. enhance. "
+			tasks: [{
+				block: "betterarcheology:archeology_table"
+				block_type: 0
+				checkItem: true
+				icon: "betterarcheology:unidentified_artifact"
+				id: "68E487C9B494B632"
+				isItemInteraction: false
+				item: "betterarcheology:unidentified_artifact"
+				type: "questsadditions:use"
+				value: 1L
+			}]
+			title: "Identify an Artifact"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: ["There are many different historical locations where &atraps&r, &bfossils&r, &bloot&r, and more can be found! Visit the &athree most prominent&r ones and see what you're able to dig up!"]
+			id: "6246E8289C638CCE"
+			subtitle: "Indiana Jones' dream"
+			tasks: [
+				{
+					icon: "betterarcheology:vase_creeper"
+					id: "4C95BB438E558893"
+					structure: "betterarcheology:catacombs"
+					title: "Catacombs"
+					type: "structure"
+				}
+				{
+					icon: "betterarcheology:vase"
+					id: "3A1CDFBCBFDAFF44"
+					structure: "betterarcheology:light_temple"
+					title: "Light Temple"
+					type: "structure"
+				}
+				{
+					icon: "betterarcheology:vase_green"
+					id: "140A0B01D0A736C0"
+					structure: "betterarcheology:temple_jungle"
+					title: "Jungle Temple"
+					type: "structure"
+				}
+			]
+			title: "Remnants of the Past"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Monsters will occasionally drop these &bcharm fragments&r on death. Collect 6 from one mob (and some string and leather) to craft a &bMob Charm&r! &bMob Charms&r will completely conceal you from that type of monster- even if you hit them! "
+				""
+				"Be careful though, &aMob Charms do have durability and will break over time&r."
+			]
+			id: "79E6711262027491"
+			subtitle: "how charming"
+			tasks: [{
+				id: "0410516876EDD498"
+				item: {
+					Count: 1b
+					id: "reliquary:mob_charm_fragment"
+					tag: {
+						entity: "minecraft:skeleton"
+					}
+				}
+				match_nbt: false
+				title: "Mob Charm Fragment"
+				type: "item"
+			}]
+			title: "Charm Fragments"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79E6711262027491"]
+			description: [
+				"Now that you've got your charm, you just need a fashionable &bbelt&r to attach it to."
+				""
+				"Craft a &bbelt&r using five charm fragments of any flavour, and three leather. &6By right-clicking with the belt in your hand,&r you can equip as many charms as you'd like!"
+			]
+			id: "346AD14E27A84B57"
+			rewards: [{
+				count: 3
+				id: "1495FDA30A8244A6"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			subtitle: "its JOHN CEENNNAAAA"
+			tasks: [{
+				id: "27224224B5A34F0A"
+				item: {
+					Count: 1b
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "minecraft:skeleton"
+					}
+				}
+				match_nbt: false
+				title: "Mob Charm"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Oh it makes noise! Dead things usually don't. Good on you for maintaining a healthy curiosity."]
+			id: "06CF2660008A53B9"
+			invisible: true
+			rewards: [
+				{
+					id: "7F9FF6094D3087C2"
+					item: "earthmobsmod:horn"
+					type: "item"
+				}
+				{
+					id: "41572EE4CB41FCAD"
+					item: "minecraft:sheep_spawn_egg"
+					type: "item"
+				}
+			]
+			secret: true
+			shape: "hexagon"
+			tasks: [{
+				block: "betterarcheology:sheep_fossil"
+				block_type: 0
+				checkItem: false
+				id: "0805F8488B60E1B1"
+				isItemInteraction: false
+				type: "questsadditions:use"
+				value: 1L
+			}]
+			title: "An Unexpected Sound"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "1109A266D4045ABD"
+			tasks: [{
+				id: "2192837B4F9D20A8"
+				structure: "betterarcheology:villager_grave"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Although the two are not commonly thought of together, &bwitchcraft&r and &barchaeology&r are actually well interwoven. Both revere the bones of our ancestors, both emphasize a respect for the natural world, and both are deeply interested in &aancient ways&r."
+				""
+				"Anthropology and archaeology are excellent fields of study for witches who want to uncover and deciper ancient mysteries. So why not get yourself started with a &bBrush&r?"
+			]
+			id: "6C25F07248AC8170"
+			rewards: [{
+				id: "1EBA2186692E1ECA"
+				item: {
+					Count: 1b
+					id: "capsule:capsule"
+					tag: {
+						author: "?"
+						canRotate: 0b
+						color: 16777215
+						display: {
+							color: 13421772
+						}
+						isReward: 1b
+						label: "digsite"
+						oneUse: 1b
+						size: 7
+						state: 5
+						structureName: "minecraft:config/capsule/rewards/digsite"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "48EC70B224DC350C"
+				item: {
+					Count: 1b
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Anthropology 101"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "58F9F0CC133CC7F7"
+			tasks: [{
+				id: "2966A9419C73617E"
+				structure: "betterarcheology:buried_ruins_sand"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			id: "3EA8305BE1FE9B75"
+			secret: true
+			tasks: [{
+				id: "4093E37E2FE96DFE"
+				item: "ftbquests:barrier"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70536099A2F36385"]
+			description: [
+				"The &bOrpheus Lyre&r. The reason you've come so far - the item which will grant you &aa kept inventory on death&r."
+				""
+				"Legend has it that the &bApollo's Son&r has transformative powers, so long as you stand atop a &bMythos Block&r! But something is still missing."
+				""
+				"When you look down at the &bMythos Block&r at your feet - the pattern reminds you of something. Is that &bLava&r within? What do these cracks remind you of?"
+				""
+				"Perhaps you need to surround yourself, as you did with the &bFlowers&r, and &6bend in prayer&r while holding the item."
+			]
+			id: "5992585885C2276A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BDD8E140937FCD4"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			subtitle: "strings of fate"
+			tasks: [{
+				id: "690CC77FB6FC8FCA"
+				item: "orpheus:orpheus_lyre"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"6FCC4B72CE315CDE"
+				"6F774FC01017DBB6"
+				"3AD50136E5930EE8"
+			]
+			description: ["You are nearing the end of your journey! The item &bApollo's Son&r is crafted from the &aprevious three items&r, as well as &b2 Shulker Shells&r, and must be &ataken to the &cNether&r for the final step in the process!"]
+			id: "70536099A2F36385"
+			rewards: [
+				{
+					count: 4
+					id: "02C917213A0AF3C1"
+					item: "orpheus:pegasus_feather"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E00FDD3736F7AE4"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0446D5ED387D2B00"
+				item: "orpheus:apollos_son"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["105580B061FC7F11"]
+			description: ["Your next step is to craft a &bLyre&r. This cannot be played like a traditional instrument, but rather is an &aimportant crafting ingredient&r for the &bApollo's Son&r."]
+			id: "3AD50136E5930EE8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F97AA913DF4B796"
+				table_id: 4047851789943958644L
+				type: "random"
+			}]
+			subtitle: "what'd you call me?"
+			tasks: [{
+				id: "60980443E3AF9AF6"
+				item: "orpheus:lyre"
+				type: "item"
+			}]
+			title: "A Basic Lyre"
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6EE905589F1D8BBA"]
+			description: ["The next item you'll need to collect is &bPlain String&r, which is made from &bCow Gut&r. You can probably guess that this is a &arandom drop from &eCows&r."]
+			id: "105580B061FC7F11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63D9AF722FF0D2F1"
+				table_id: 4047851789943958644L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0A1C6D80CC84051E"
+					item: "orpheus:cow_gut"
+					type: "item"
+				}
+				{
+					id: "7B8CB5D9F9391E68"
+					item: "orpheus:plain_string"
+					type: "item"
+				}
+			]
+			title: "Obtain Plain String"
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			description: [
+				"The mod &lOrpheus&r allows players to embark on a &amagical, historical journey&r, the destination of which &agrants the quester the ability to &bkeep their full inventory on death&r."
+				""
+				"To begin with, you'll need an &bEpiphany Table&r, which a villager can then use to become a &ePhilosopher&r. You'll need to trade with them for &amany important items&r."
+				""
+				"They accept payment in &bHellenic Fragments&r, which can be found in &aspecial Village chests&r and &aIllager Outposts&r."
+			]
+			id: "6EE905589F1D8BBA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "319856664C6FD470"
+				table_id: 4047851789943958644L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "0A80BA120BC61F0D"
+				item: "orpheus:epiphany_table"
+				type: "item"
+			}]
+			title: "The Beginning of an Epic"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6EE905589F1D8BBA"]
+			description: ["One of the things you'll need to pick up are the &bTears of Hades&r, an ore which is used to craft a powerful &bBow&r, and coincidentally also makes a very fine &adecoration block&r."]
+			id: "071060BA5550F65E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69CDDBCBB7A95CDC"
+				table_id: 4047851789943958644L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "437736BA37E83B3B"
+				item: "orpheus:tears_of_hades"
+				type: "item"
+			}]
+			title: "Collect Tears"
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["071060BA5550F65E"]
+			description: ["This &bBow&r, made of the &bTears of Hades&r, is unique in that it &afires more directly&r at its target, requiring less aim adjustment than a traditional &bBow&r. It is also used in crafting the &bApollo's Son&r."]
+			id: "6FCC4B72CE315CDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EB30A3B3E9CDE61"
+				table_id: 4047851789943958644L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "26957D1B168937B1"
+				item: {
+					Count: 1b
+					id: "orpheus:tears_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"2622DDCE3A1B5071"
+				"4196B52375563DCE"
+			]
+			description: ["To obtain &bCalliope's Love&r, you must first &6offer her worship from atop a &bMythos Block&r. Make sure you are &asurrounded by beautiful blooms&r, to appease her poetic soul."]
+			id: "6F774FC01017DBB6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66BEE9A5D32A6F7B"
+				table_id: 4047851789943958644L
+				type: "random"
+			}]
+			tasks: [{
+				id: "227C93E3C52E8762"
+				item: "orpheus:calliopes_love"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6EE905589F1D8BBA"]
+			description: ["The &bHellenic Codex&r is made by combining &aeach type of &bFragment&r into one big text. Once you obtain this &bCodex&r, you'll need to surround yourself with &bnature's most beautiful colors&r, and stand upon a &bMythos Block&r. Once you &6bow in reverence&r, you will be &agranted progression&r."]
+			id: "2622DDCE3A1B5071"
+			rewards: [
+				{
+					count: 3
+					id: "6FD2B3D0B8381019"
+					item: "minecraft:cornflower"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "656E8BA3AE34AAEC"
+					item: "minecraft:lilac"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1213FD22BEDED3BA"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "661F4ACEB6D26EF9"
+				item: "orpheus:hellenic_codex"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6EE905589F1D8BBA"]
+			description: [
+				"The &bNectar Seed&r can be obtained from &ePhilosophers&r, and can be planted like any other crop. Once mature, &6harvest it with a &bHoney Bottle&r."
+				""
+				"&dNote: This feature is currently bugged&r."
+			]
+			id: "7341FE2D22A809F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F6755B219A7A8A6"
+				table_id: 4047851789943958644L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2B96813E463305A0"
+				item: "orpheus:nectar_seed"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6EE905589F1D8BBA"]
+			description: ["You'll need to trade for &bMoly Herbs&r and &bPegasus Feathers&r in order to progress to the next step of your journey. You only need &b2 Herbs&r, but you'll need &b16 feathers&r."]
+			id: "7902E0D960BE5C63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BD236023D986CF8"
+				table_id: 4047851789943958644L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "7CC293C5BC05FDC4"
+					item: "orpheus:moly_herb"
+					type: "item"
+				}
+				{
+					id: "72EA09CC20EE2225"
+					item: "orpheus:pegasus_feather"
+					type: "item"
+				}
+			]
+			title: "Collecting Materials"
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7902E0D960BE5C63"]
+			description: ["Once you have collected the materials, you can &6craft a &bMythos Block&r. You won't use it until you have the &bHellenic Codex&r, and later, the &bApollo's Son&r - you'll need &atwo total&r - but keep it in your storage, as it becomes crucial at a later step."]
+			id: "4196B52375563DCE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "445B301A2BB1D305"
+				table_id: 4047851789943958644L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2C6BB4D0434D2887"
+				item: "orpheus:mythos_block"
+				type: "item"
+			}]
+			title: "The Mythos Block"
+			x: 2.5d
+			y: 11.5d
+		}
+	]
+	title: "Ancient Roots"
+}

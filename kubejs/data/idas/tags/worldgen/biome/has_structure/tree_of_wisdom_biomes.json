@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#idas:collections/idastaigas",
-    "#idas:collections/idasgiant_taigas",
-    "#idas:collections/idasspooky_forests",
-    "#idas:collections/idasgiant_trees"
-  ]
-}

@@ -1,7 +1,7 @@
 
 ["Allowed Experience Fluids"]
 	#Add IDs of fluids you want the obelisk to support here in the form mod_id:fluid_name. Fluids have to be tagged forge:experience.
-	AllowedFluids = ["mob_grinding_utils:fluid_xp", "cofh_core:experience", "industrialforegoing:essence", "sophisticatedcore:xp_still", "enderio:xp_juice"]
+	AllowedFluids = ["mob_grinding_utils:fluid_xp", "cofh_core:experience", "industrialforegoing:essence", "sophisticatedcore:xp_still", "enderio:xp_juice", "reliquary:xp_juice_still"]
 
 ["Experience Obelisk Capacity"]
 	#The fluid capacity of the obelisk in mB. Default = 100000000. This is ~1072 levels' worth.

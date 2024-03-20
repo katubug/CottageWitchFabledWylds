@@ -6,6 +6,7 @@
     "item_storage.show_name_amount": 5,
     "furnace": true,
     "harvest_tool.show_unbreakable": false,
+    "travelerscompass": true,
     "animal_owner": true,
     "animal_owner.fetch_names": true,
     "harvest_tool.effective_tool": true,

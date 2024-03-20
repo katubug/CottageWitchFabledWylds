@@ -359,7 +359,7 @@
 		"Item Quality" = 2
 		"Normal Upgrade Cost" = 10
 		"Limit Break Upgrade Cost" = 30
-		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
+		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing", "farmersdelight:backstabbing"]
 		"Overleveled Books Glow Rainbow" = true
 		#When enabled, Efficiency VI Diamond and Netherite pickaxes can instamine Deepslate when under Haste 2
 		"Deepslate Tweak" = true
@@ -1685,7 +1685,7 @@
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
-		"Nerf Mending" = true
+		"Nerf Mending" = false
 		#Makes Mending II still work even if mending is nerfed.
 		#If you want Mending II, disable the sanity check on Ancient Tomes and add minecraft:mending to the tomes.
 		"No Nerf for Mending II" = false
@@ -1696,7 +1696,7 @@
 		#Makes Boats not glide on ice
 		"Disable Ice Roads" = true
 		#Makes Sheep not drop Wool when killed
-		"Disable Wool Drops" = true
+		"Disable Wool Drops" = false
 		#Disables mob griefing for only specific entities
 		"Enable Selective Mob Griefing" = true
 		#Force Elytra to only work in specific dimensions

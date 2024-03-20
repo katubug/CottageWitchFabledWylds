@@ -17,7 +17,7 @@
 			image: "enchanted_wilds:textures/questui/bgexplorating.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 0.0d
+			x: 5.0d
 			y: 13.0d
 		}
 		{
@@ -29,8 +29,8 @@
 			image: "enchanted_wilds:textures/questui/bgdungeons.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 0.0d
-			y: -5.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			click: ""
@@ -53,8 +53,20 @@
 			image: "enchanted_wilds:textures/questui/bgwaystones.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 0.0d
-			y: -13.5d
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "enchanted_wilds:textures/questui/aquamiraebg.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -4.5d
+			y: 13.0d
 		}
 	]
 	order_index: 0
@@ -82,7 +94,7 @@
 				value: 10
 			}]
 			title: "Unlucky or just Ignorant"
-			x: 1.5d
+			x: 6.5d
 			y: 14.0d
 		}
 		{
@@ -155,7 +167,7 @@
 				type: "advancement"
 			}]
 			title: "Visit all Vanilla Biomes"
-			x: 2.5d
+			x: 7.5d
 			y: 12.5d
 		}
 		{
@@ -192,7 +204,7 @@
 				id: "2D416C15BC4F0576"
 				type: "advancement"
 			}]
-			x: -0.5d
+			x: 4.5d
 			y: 15.5d
 		}
 		{
@@ -284,7 +296,7 @@
 				type: "item"
 			}]
 			title: "Find Structures with the Explorer's Compass"
-			x: -2.5d
+			x: 2.5d
 			y: 12.5d
 		}
 		{
@@ -316,7 +328,7 @@
 				type: "item"
 			}]
 			title: "Find Biomes with the Nature's Compass"
-			x: -1.5d
+			x: 3.5d
 			y: 14.0d
 		}
 		{
@@ -334,6 +346,7 @@
 			dependencies: ["722C9A16509E524B"]
 			description: [
 				"&bWarp Plates&r function alongside &bAttuned Shards&r to teleport you between two defined places. Once placed and right clicked, a Warp Plate will create an Attuned Shard which is bound to that Warp Plate. The Shard will be &ainscribed with unique runes&r that match those in the Plate's GUI upper right corner."
+				""
 				"In you &6insert the shard into another Warp Plate&r, it will now teleport you to the Plate inscribed on that stone. You can create multiple Shards with &bFlint&r and &bWarp Dust&r."
 			]
 			id: "06DC33669C98F5A4"
@@ -358,12 +371,13 @@
 				type: "item"
 			}]
 			title: "Obtain a Warp Plate"
-			x: -2.5d
-			y: -11.5d
+			x: -7.0d
+			y: -2.5d
 		}
 		{
 			description: [
 				"&bWaystones&r are a method for fast travel between places in the world. Once a Waystone has been &aactivated&r, it can be ported to from any other Waystone, or using other methods."
+				""
 				"&bWaystones&r generate naturally in &dVillages&r, but they can also be crafted."
 			]
 			id: "722C9A16509E524B"
@@ -386,13 +400,14 @@
 				item: "waystones:waystone"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -12.0d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
 			description: [
 				"The &bBound Scroll&r is a single-use item which can teleport to you &aa Waystone to which it is bound&r. Simply &6crouch and right click&r the Waystone to bind the scroll. Each scroll must be bound individually. However, you can craft &bReturn Scrolls&r and bind an entire stack at once."
+				""
 				"Simply &6hold right click with it in your hand&r in order to activate it. If you take damage or let go while it is charging, &dthe warp will cancel&r."
 			]
 			id: "133D48874069E59B"
@@ -408,15 +423,15 @@
 				type: "item"
 			}]
 			title: "Obtain a Bound Scroll"
-			x: -2.0d
-			y: -13.5d
+			x: -6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
 			description: [
 				"The &bWarp Scroll&r is a one-time use item which can &awarp to any Waystone from anywhere in the world&r. It does not have a cooldown, but the item is consumed upon use."
+				""
 				"Simply &6hold right click with it in your hand&r in order to activate it. If you take damage or let go while it is charging, &dthe warp will cancel&r."
-				"These should not be confused with the &bWarp Scrolls&r from &dArs Nouveau&r, which have the same name but a different function."
 			]
 			id: "7527E0A9EF5C3697"
 			rewards: [{
@@ -431,8 +446,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Warp Scroll"
-			x: -1.0d
-			y: -15.0d
+			x: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
@@ -459,8 +474,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Warp Stone"
-			x: 1.0d
-			y: -15.0d
+			x: -3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
@@ -477,14 +492,15 @@
 				item: "waystones:portstone"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -13.5d
+			x: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
 			description: [
 				"&bSharestones&r allow for travel &aonly within their colored network&r. From a Red Sharestone, you can teleport to any other Red Sharestone. However, you cannot do so from an Orange Sharestone."
-				"This makes them very useful for having private or separate networks of travel. They cannot be access from &bWarp Stones&r or any &bScrolls&r."
+				""
+				"This makes them very useful for having private or separate networks of travel. They cannot be accessed from &bWarp Stones&r or any &bScrolls&r."
 			]
 			id: "2E07A04D5589B674"
 			rewards: [{
@@ -499,8 +515,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Sharestone"
-			x: 2.5d
-			y: -11.5d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			description: ["Even the most honest witch needs to sneak around sometimes. But you...well, you've snuck around &3a lot&r."]
@@ -530,7 +546,7 @@
 				value: 99999
 			}]
 			title: "Sneaking Around"
-			x: 0.5d
+			x: 5.5d
 			y: 15.5d
 		}
 		{
@@ -553,7 +569,7 @@
 				id: "15A19A39523CAD26"
 				type: "advancement"
 			}]
-			x: 0.0d
+			x: 5.0d
 			y: 11.0d
 		}
 		{
@@ -578,8 +594,8 @@
 				type: "structure"
 			}]
 			title: "Discover the Catacombs"
-			x: -1.5d
-			y: -6.0d
+			x: 3.0d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -602,7 +618,7 @@
 				id: "107172A8EAD35796"
 				type: "advancement"
 			}]
-			x: 0.0d
+			x: 5.0d
 			y: 13.0d
 		}
 		{
@@ -702,8 +718,8 @@
 				type: "structure"
 			}]
 			title: "Find a Skeleton Dungeon"
-			x: 2.5d
-			y: -4.5d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -904,8 +920,8 @@
 				type: "structure"
 			}]
 			title: "Enhanced Desert Temple"
-			x: -2.5d
-			y: -4.5d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			description: ["Deep in the Ocean, the &cSunken Shrine&r houses &ethe Drowned&r, but also &atreasure&r. The ancients who built these Shrines were notorious for &asetting out decoys to hide their true bounty&r."]
@@ -924,8 +940,8 @@
 				type: "structure"
 			}]
 			title: "The Sunken Shrine"
-			x: 1.5d
-			y: -6.0d
+			x: 6.0d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -948,8 +964,8 @@
 				type: "structure"
 			}]
 			title: "Deep Crypt"
-			x: 0.0d
-			y: -7.0d
+			x: 4.5d
+			y: -6.5d
 		}
 		{
 			description: ["Although no one knows who was &aburied in these aged structures&r, one thing about them is clear: there is more going on than meets the eye."]
@@ -974,8 +990,8 @@
 				type: "structure"
 			}]
 			title: "The Desert Tomb"
-			x: -2.0d
-			y: -3.0d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			description: ["Located in the depths of the ocean, the &cElder Temple&r is a bounty of &bSponges&r, &bCopper&r, &bCoral Blocks&r, and, of course: &eGuardians&r. Look for the &aBubble Columns&r throughout the structure which can help you &6catch your breath&r."]
@@ -994,8 +1010,8 @@
 				type: "structure"
 			}]
 			title: "The Elder's Temple"
-			x: 2.0d
-			y: -3.0d
+			x: 6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["371753C4355AF39C"]
@@ -1035,8 +1051,8 @@
 				type: "structure"
 			}]
 			title: "Locate the Ship"
-			x: -2.5d
-			y: 19.0d
+			x: -7.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["371753C4355AF39C"]
@@ -1066,20 +1082,21 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "22D8F88A4B9312E2"
+					id: "082FAE02AB4FE1FB"
+					table_id: 8897154971538635124L
 					type: "loot"
 				}
 			]
 			subtitle: "the survivors"
 			tasks: [{
-				icon: "aquamirae:esca"
+				icon: "aquamirae:dead_sea_scroll"
 				id: "438F0B491F482DA9"
 				structure: "aquamirae:outpost"
 				type: "structure"
 			}]
 			title: "Locate the Outpost"
-			x: 2.5d
-			y: 19.0d
+			x: -2.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["371753C4355AF39C"]
@@ -1114,15 +1131,16 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "3E0EEACB4CDCF9CB"
-					type: "loot"
-				}
-				{
 					count: 5
 					id: "33090CC2FF0B5D8A"
 					item: "minecraft:sponge"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29ABE19ADCF4F824"
+					table_id: 8897154971538635124L
+					type: "loot"
 				}
 			]
 			subtitle: "a frozen prison"
@@ -1133,23 +1151,46 @@
 				type: "structure"
 			}]
 			title: "Locate the Shelter"
-			x: 0.0d
-			y: 21.5d
+			x: -4.5d
+			y: 14.0d
 		}
 		{
 			description: [
-				"The &l&1Aquamirae&r mod transforms the &cDeep Frozen Ocean&r into its own adventure. Discover what happened to the crew of these abandoned ships, the fate of the mysterious &eCaptain Cornelia&r, and what lurks in the icy depths below. Speaking of the icy depths- &afrozen water now causes freezing damage&r. "
+				"The &l&1Aquamirae&r mod transforms the &cDeep Frozen Ocean&r into its own adventure. Discover what happened to the crew of these abandoned ships, the fate of the mysterious &eCaptain Cornelia&r, and what lurks in the icy depths below. Speaking of the icy depths- &afrozen water now causes freezing damage&r."
+				""
+				"To survive the freezing waters of the arctic, do as the villagers do! &6Equip a full set of &bTaiga clothes&r from the &lWardrobe mod&r to stay warm even while wet."
 				""
 				"While the story progression suggests that you &6visit the ship, followed by the outpost, and then the shelter&r, these structures are not progress-locked. But be aware that they do get &aprogressively more difficult!&r"
 				""
 				"These quests will also reward you with the &blogbook&r that can be found at each structure- just in case the one there is missing or taken."
 			]
 			id: "371753C4355AF39C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "72E9896F3AEE1438"
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "350F4104BCB15910"
+					table_id: 8897154971538635124L
+					type: "loot"
+				}
+				{
+					count: 5
+					id: "4CF5870B0CDC65C1"
+					item: "minecraft:brown_wool"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "074B53AD9ACA357B"
+					item: "minecraft:black_wool"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "68ACF5323C845F14"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "The Haunted Deeps"
@@ -1160,8 +1201,8 @@
 				type: "biome"
 			}]
 			title: "Aquamirae"
-			x: 0.0d
-			y: 19.0d
+			x: -4.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["371753C4355AF39C"]
@@ -1177,7 +1218,8 @@
 			id: "184B416049E51293"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2A091662FF100902"
+				id: "6AE6815569B3A79A"
+				table_id: 8897154971538635124L
 				type: "loot"
 			}]
 			subtitle: "summon the spectre of Captain Cornelia"
@@ -1187,8 +1229,27 @@
 				type: "item"
 			}]
 			title: "Ghost of a Chance"
-			x: 0.0d
-			y: 23.0d
+			x: -4.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["371753C4355AF39C"]
+			description: ["&eAnglerfish&r. These underwater beasts have a ravenous appetite for flesh! However, they frequently drop &auseful and important items&r, so it's a good idea to kill a few of them. This &bMagnet&r should make picking up their leavings easier."]
+			id: "559C7501A4CDC5EF"
+			rewards: [{
+				id: "64B9D3D53EC2FD58"
+				item: "nameless_trinkets:broken_magnet"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aquamirae:anglerfish"
+				icon: "aquamirae:esca"
+				id: "5DA2482D80D84A4B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 13.0d
 		}
 	]
 	title: "Globetrotting"

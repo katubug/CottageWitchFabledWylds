@@ -257,7 +257,8 @@ ServerEvents.tags('item', event => {
 
     //Strawberry tagging
     event.add('forge:strawberries',
-    'mysticsbiomes:sweet_strawberry', 'bakery:strawberry')
+    'mysticsbiomes:sweet_strawberry',
+    'bakery:strawberry')
 
     //===Tags for FTB Quests===
     //Mailboxes
@@ -309,6 +310,21 @@ ServerEvents.tags('item', event => {
     //Tropical Ball is Slime
     event.add('forge:slimeballs',
     'earthmobsmod:tropical_ball')
+
+    //Corn and Maize
+    event.add('forge:crops/corn',
+        'dawnoftimebuilder:maize'
+    )
+
+    //Corn and Maize
+    event.add('forge:vegetables/corn',
+        'dawnoftimebuilder:maize'
+    )
+
+    //Corn and Maize
+    event.add('forge:vegetables',
+        'dawnoftimebuilder:maize'
+    )
 
     //Ancient Manuscript Binding Tables
     event.add(
@@ -756,6 +772,142 @@ ServerEvents.tags('item', event => {
     'chimes:copper_chimes',
     'chimes:glass_bells')
 
+    // Caupona Tagging
+
+    // Dolium
+    event.add('forge:dolium',
+    'caupona:mud_counter_with_dolium',
+    'caupona:stone_brick_counter_with_dolium',
+    'caupona:brick_counter_with_dolium',
+    'caupona:opus_latericium_counter_with_dolium',
+    'caupona:opus_incertum_counter_with_dolium')
+
+    //Pans
+    event.add('forge:fryingpans',
+    'caupona:copper_frying_pan',
+    'caupona:iron_frying_pan',
+    'caupona:lead_frying_pan'
+    )
+
+
+    // Sophisticated Backpack Tags
+    // utility upgrades
+    event.add('forge:sophb_utility',
+    'sophisticatedbackpacks:smelting_upgrade', 
+    'sophisticatedbackpacks:auto_smelting_upgrade', 
+    'sophisticatedbackpacks:blasting_upgrade', 
+    'sophisticatedbackpacks:auto_blasting_upgrade', 
+    'sophisticatedbackpacks:crafting_upgrade', 
+    'sophisticatedbackpacks:stonecutter_upgrade', 
+    'sophisticatedbackpacks:anvil_upgrade'
+    )
+
+    // Inventory Management Upgrades
+
+    event.add('forge:sophb_inventory',
+    'sophisticatedbackpacks:advanced_compacting_upgrade', 
+    'sophisticatedbackpacks:compacting_upgrade', 
+    'sophisticatedbackpacks:stack_upgrade_tier_1', 
+    'sophisticatedbackpacks:stack_upgrade_starter_tier'
+    )
+
+    // Quick Access Upgrades
+
+    event.add('forge:sophb_quick',
+    'sophisticatedbackpacks:advanced_feeding_upgrade', 
+    'sophisticatedbackpacks:advanced_restock_upgrade', 
+    'sophisticatedbackpacks:advanced_refill_upgrade', 
+    'sophisticatedbackpacks:advanced_tool_swapper_upgrade', 
+    'sophisticatedbackpacks:tool_swapper_upgrade', 
+    'sophisticatedbackpacks:refill_upgrade', 
+    'sophisticatedbackpacks:restock_upgrade', 
+    'sophisticatedbackpacks:feeding_upgrade'
+    )
+
+    // Environmental Upgrade
+
+    event.add('forge:sophb_environmental',
+    'sophisticatedbackpacks:jukebox_upgrade', 
+    'sophisticatedbackpacks:magnet_upgrade', 
+    'sophisticatedbackpacks:pickup_upgrade', 
+    'sophisticatedbackpacks:advanced_pickup_upgrade', 
+    'sophisticatedbackpacks:advanced_magnet_upgrade'
+    )
+
+// Exp Fluid Upgrades
+
+event.add('forge:sophb_fluid',
+'sophisticatedbackpacks:tank_upgrade',
+'sophisticatedbackpacks:xp_pump_upgrade')
+
+// aquaculture fish
+event.add('forge:aquafish',
+        'aquaculture:arapaima', 
+        'aquaculture:atlantic_cod', 
+        'aquaculture:atlantic_halibut', 
+        'aquaculture:atlantic_herring', 
+        'aquaculture:bayad', 
+        'aquaculture:blackfish', 
+        'aquaculture:bluegill', 
+        'aquaculture:boulti', 
+        'aquaculture:brown_shrooma',
+        'aquaculture:brown_trout', 
+        'aquaculture:capitaine', 
+        'aquaculture:carp', 
+        'aquaculture:catfish', 
+        'aquaculture:gar', 
+        'aquaculture:jellyfish', 
+        'aquaculture:minnow', 
+        'aquaculture:muskellunge', 
+        'aquaculture:pacific_halibut', 
+        'aquaculture:perch', 
+        'aquaculture:pink_salmon', 
+        'aquaculture:piranha', 
+        'aquaculture:pollock', 
+        'aquaculture:rainbow_trout', 
+        'aquaculture:red_grouper', 
+        'aquaculture:red_shrooma', 
+        'aquaculture:smallmouth_bass', 
+        'aquaculture:synodontis', 
+        'aquaculture:tambaqui'
+)
+
+        // Cook with Dino
+        event.add('forge:eggs',
+        'unusualprehistory:brachi_egg',
+        'unusualprehistory:talpanas_egg',
+        'unusualprehistory:megala_eggs',
+        'unusualprehistory:trike_eggs', 
+        'unusualprehistory:rex_eggs', 
+        'unusualprehistory:majunga_eggs', 
+        'unusualprehistory:coty_eggs', 
+        'unusualprehistory:antarcto_eggs', 
+        'unusualprehistory:ulugh_eggs', 
+        'unusualprehistory:kentro_eggs', 
+        'unusualprehistory:hwacha_eggs', 
+        'unusualprehistory:barina_eggs', 
+        'unusualprehistory:pachy_eggs', 
+        'unusualprehistory:raptor_eggs', 
+        'unusualprehistory:austro_eggs',
+        'unusualprehistory:anuro_eggs'
+        )
+
+})
+
+ServerEvents.tags('entity_type', event => {
+    event.add('forge:baby_dinos',
+        'unusualprehistory:baby_barina',
+        'unusualprehistory:baby_brachi',
+        'unusualprehistory:baby_dunk',
+        'unusualprehistory:baby_giganto',
+        'unusualprehistory:baby_mammoth',
+        'unusualprehistory:baby_megalania',
+        'unusualprehistory:baby_megatherium',
+        'unusualprehistory:baby_palaophis',
+        'unusualprehistory:baby_paracer',
+        'unusualprehistory:baby_rex',
+        'unusualprehistory:baby_smilodon'
+    )
 })
 
 ServerEvents.tags('block', event => {
@@ -800,6 +952,11 @@ ServerEvents.tags('block', event => {
     'meadow:stove_tiles_wood',
     'minecraft:magma_block',
     'nethersdelight:blackstone_stove',
+    'caupona:mud_kitchen_stove',
+    'caupona:stone_brick_kitchen_stove',
+    'caupona:brick_kitchen_stove',
+    'caupona:opus_incertum_kitchen_stove',
+    'caupona:opus_latericium_kitchen_stove'
     )
 
     //Meadow
@@ -841,6 +998,11 @@ ServerEvents.tags('block', event => {
     'meadow:stove_tiles_wood',
     'minecraft:magma_block',
     'nethersdelight:blackstone_stove',
+    'caupona:mud_kitchen_stove',
+    'caupona:stone_brick_kitchen_stove',
+    'caupona:brick_kitchen_stove',
+    'caupona:opus_incertum_kitchen_stove',
+    'caupona:opus_latericium_kitchen_stove'
     )
 
     //Candlelight
@@ -882,6 +1044,11 @@ ServerEvents.tags('block', event => {
     'meadow:stove_tiles_wood',
     'minecraft:magma_block',
     'nethersdelight:blackstone_stove',
+    'caupona:mud_kitchen_stove',
+    'caupona:stone_brick_kitchen_stove',
+    'caupona:brick_kitchen_stove',
+    'caupona:opus_incertum_kitchen_stove',
+    'caupona:opus_latericium_kitchen_stove'
     )
 
     //Bakery
@@ -923,6 +1090,11 @@ ServerEvents.tags('block', event => {
     'meadow:stove_tiles_wood',
     'minecraft:magma_block',
     'nethersdelight:blackstone_stove',
+    'caupona:mud_kitchen_stove',
+    'caupona:stone_brick_kitchen_stove',
+    'caupona:brick_kitchen_stove',
+    'caupona:opus_incertum_kitchen_stove',
+    'caupona:opus_latericium_kitchen_stove'
     )
 
     //Herbal Brews
@@ -964,6 +1136,11 @@ ServerEvents.tags('block', event => {
     'meadow:stove_tiles_wood',
     'minecraft:magma_block',
     'nethersdelight:blackstone_stove',
+    'caupona:mud_kitchen_stove',
+    'caupona:stone_brick_kitchen_stove',
+    'caupona:brick_kitchen_stove',
+    'caupona:opus_incertum_kitchen_stove',
+    'caupona:opus_latericium_kitchen_stove'
     )
 
     //Eidolon
@@ -1005,6 +1182,57 @@ ServerEvents.tags('block', event => {
     'meadow:stove_tiles_wood',
     'minecraft:magma_block',
     'nethersdelight:blackstone_stove',
+    'caupona:mud_kitchen_stove',
+    'caupona:stone_brick_kitchen_stove',
+    'caupona:brick_kitchen_stove',
+    'caupona:opus_incertum_kitchen_stove',
+    'caupona:opus_latericium_kitchen_stove'
+    )
+
+    //Caupona
+    event.add('caupona:stoves', 
+    'bakery:brick_stove',
+    'bakery:cobblestone_stove',
+    'bakery:deepslate_stove',
+    'bakery:end_stove',
+    'bakery:granite_stove',
+    'bakery:mud_stove',
+    'bakery:quartz_stove',
+    'bakery:red_nether_bricks_stove',
+    'bakery:sandstone_stove',
+    'bakery:stone_bricks_stove',
+    'candlelight:bamboo_stove',
+    'candlelight:basalt_stove',
+    'candlelight:cobblestone_stove',
+    'candlelight:deepslate_stove',
+    'candlelight:end_stove',
+    'candlelight:granite_stove',
+    'candlelight:mud_stove',
+    'candlelight:quartz_stove',
+    'candlelight:red_nether_bricks_stove',
+    'candlelight:sandstone_stove',
+    'candlelight:stone_bricks_stove',
+    'create:blaze_burner',
+    'ends_delight:end_stove',
+    'fantasyfurniture:bone/skeleton/oven',
+    'fantasyfurniture:bone/wither/oven',
+    'fantasyfurniture:necrolord/oven',
+    'fantasyfurniture:nordic/oven',
+    'fantasyfurniture:royal/oven',
+    'fantasyfurniture:venthyr/oven',
+    'farmersdelight:stove',
+    'handcrafted:oven',
+    'herbalbrews:stove',
+    'meadow:stove_tiles',
+    'meadow:stove_tiles_lid',
+    'meadow:stove_tiles_wood',
+    'minecraft:magma_block',
+    'nethersdelight:blackstone_stove',
+    'caupona:mud_kitchen_stove',
+    'caupona:stone_brick_kitchen_stove',
+    'caupona:brick_kitchen_stove',
+    'caupona:opus_incertum_kitchen_stove',
+    'caupona:opus_latericium_kitchen_stove'
     )
 
 })

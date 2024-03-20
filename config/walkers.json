@@ -19,8 +19,6 @@
   "scalingHealth": true,
   "percentScalingHealth": true,
   "maxHealth": 30,
-  "scalingAttackDamage": true,
-  "maxAttackDamage": 4.0,
   "endermanAbilityTeleportDistance": 32,
   "showPlayerNametag": true,
   "logCommands": true,

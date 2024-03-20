@@ -5,7 +5,20 @@
 	default_quest_shape: ""
 	filename: "beekeeping"
 	group: "33A91E268D63CB12"
+	icon: "minecraft:honeycomb_block"
 	id: "7E34B9AE8D33CE08"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 11.25d
+		hover: [ ]
+		image: "enchanted_wilds:textures/questui/beekeepingbg.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 0.0d
+		y: 0.5d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -39,8 +52,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Bee"
-			x: 0.0d
-			y: -2.5d
+			x: -6.5d
+			y: -0.5d
 		}
 		{
 			id: "45CD0B9CE3D9E566"
@@ -69,8 +82,8 @@
 				item: "fruitfulfun:inspector"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -0.5d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2B75FF565B1C193F"]
@@ -92,8 +105,8 @@
 				type: "questsadditions:interaction"
 				value: 1L
 			}]
-			x: -2.0d
-			y: 1.5d
+			x: -6.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -113,8 +126,8 @@
 				type: "item"
 			}]
 			title: "Fireless Smoke"
-			x: 2.5d
-			y: -3.5d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5B6C14BE4C6318DB"]
@@ -138,8 +151,8 @@
 				type: "item"
 			}]
 			title: "Special Beehives"
-			x: 2.5d
-			y: -2.0d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["367C23BE5CAEF485"]
@@ -162,8 +175,8 @@
 				type: "item"
 			}]
 			title: "Special Honeys"
-			x: 3.0d
-			y: 0.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["62A4710B05D8A115"]
@@ -219,7 +232,7 @@
 				}
 			]
 			title: "Obtain All Honey Types"
-			x: 3.5d
+			x: -0.5d
 			y: 1.5d
 		}
 		{
@@ -236,8 +249,8 @@
 				value: 2L
 			}]
 			title: "Breed Two Bees"
-			x: -3.0d
-			y: -2.5d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5B6C14BE4C6318DB"]
@@ -255,8 +268,8 @@
 				type: "item"
 			}]
 			title: "Get a Pitcher Plant"
-			x: -2.5d
-			y: -4.5d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3E165F11BBE2D279"]
@@ -273,8 +286,8 @@
 				type: "item"
 			}]
 			title: "Brew a Mutagen"
-			x: -4.0d
-			y: -5.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			id: "574670637CE2B7D0"
@@ -287,8 +300,8 @@
 				type: "questsadditions:interaction"
 				value: 1L
 			}]
-			x: -5.5d
-			y: -1.5d
+			x: -3.0d
+			y: 0.0d
 		}
 	]
 	title: "Beekeeping"

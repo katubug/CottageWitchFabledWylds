@@ -2251,7 +2251,18 @@
 			y: 2.5d
 		}
 		{
+			description: [
+				"Collect a whole set of &bBone Paladin Armor&r to complete this quest."
+				""
+				"This set offers good protection, and also looks super cool!"
+			]
 			id: "0629675C9C5E1AA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "600A967773445124"
+				table_id: 5705869042914710822L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2289,8 +2300,8 @@
 				}
 			]
 			title: "The Full Set: Bone Paladin Armor"
-			x: -7.5d
-			y: 9.0d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -2891,59 +2902,6 @@
 			y: 1.5d
 		}
 		{
-			id: "782DCE75380C539C"
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "48B128E732C13609"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:mortem_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4EFA183B7E584163"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:mortem_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4E38690FF9348D37"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:mortem_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A61CC02159FE11E"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:mortem_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "The Full Set: Mortem Armor"
-			x: -9.0d
-			y: 8.0d
-		}
-		{
 			description: [
 				"Collect a whole set of &bObsidian Armor&r to complete this quest."
 				""
@@ -3022,6 +2980,20 @@
 				"This set offers a bonus to &aswim speed&r!"
 			]
 			id: "03B7B6D5B037F086"
+			rewards: [{
+				id: "4CD135123E79CF10"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:aqua_affinity"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -3070,8 +3042,8 @@
 				}
 			]
 			title: "The Full Set: Shedscale Armor"
-			x: -8.0d
-			y: 8.0d
+			x: -6.0d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -3202,7 +3174,18 @@
 			y: 5.5d
 		}
 		{
+			description: [
+				"Collect a whole set of &bSterling Armor&r to complete this quest."
+				""
+				"This set offers &aresistance against Illagers&r."
+			]
 			id: "74C9CC2C5A5D1E3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FCDB3FE476C7C42"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -3251,8 +3234,8 @@
 				}
 			]
 			title: "The Full Set: Sterling Armor"
-			x: -8.5d
-			y: 9.0d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -3542,6 +3525,70 @@
 			title: "Obtain a Trinket"
 			x: 1.5d
 			y: 3.0d
+		}
+		{
+			description: [
+				"Collect a whole set of &bShedscale Armor&r to complete this quest."
+				""
+				"This set offers a bonus that gives you &aFire Resistance&r!"
+			]
+			id: "2AD4E2DBDC90F28C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "367D72095EAA0EEC"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "73205DC076975ACC"
+					item: {
+						Count: 1b
+						id: "orpheus:hephaestus_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01AC82429FC65ADD"
+					item: {
+						Count: 1b
+						id: "orpheus:hephaestus_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D0838AC16EF2CB7"
+					item: {
+						Count: 1b
+						id: "orpheus:hephaestus_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DF9F1B4C481AA82"
+					item: {
+						Count: 1b
+						id: "orpheus:hephaestus_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Hephaestus Armor"
+			x: -2.0d
+			y: 4.5d
 		}
 	]
 	title: "Equipment \\& Gear"

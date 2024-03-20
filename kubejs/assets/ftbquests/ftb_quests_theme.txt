@@ -7,7 +7,7 @@ text_color:          #CFE4DE
 hover_text_color:    #FFFFFF
 disabled_text_color: #999999
 
-widget_border:     #482D6D
+widget_border:     #7480a1
 widget_background: #6B4A8EFF
 symbol_in:         #9BC600
 symbol_out:        #408300

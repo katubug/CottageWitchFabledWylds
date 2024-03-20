@@ -1,0 +1,14 @@
+{
+	id: "382CDBC1AB09EC74"
+	loot_size: 3
+	order_index: 43
+	rewards: [
+		{ item: "orpheus:calliope_poem_fragment" }
+		{ item: "orpheus:homers_the_iliad_scroll_fragment" }
+		{ item: "orpheus:homers_the_odyssey_scroll_fragment" }
+		{ item: "orpheus:platos_republic_scroll_fragment" }
+		{ item: "orpheus:aristotles_nicomachean_ethics_scroll_fragment" }
+		{ item: "orpheus:thucydides_peloponnesian_war_scroll_fragment" }
+	]
+	title: "Orpheus Fragments"
+}

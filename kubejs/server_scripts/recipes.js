@@ -289,7 +289,7 @@ ServerEvents.recipes(event => {
             D: 'eidolon:enchanted_ash'
         }
     )
-    /*
+    
         // Lead Doors
         event.shaped(
             Item.of('dramaticdoors:short_lead_door'),
@@ -337,9 +337,6 @@ ServerEvents.recipes(event => {
                 A: 'eidolon:silver_ingot',
             }
         )
-        */
-
-
 
 
     /* HEYKATU
@@ -818,11 +815,51 @@ ServerEvents.recipes(event => {
         }
     )
 
+    //Calcite to Marble
+    event.shapeless(
+        Item.of('tombstone:white_marble', 8),
+        [
+            '8x minecraft:calcite',
+            'eidolon:enchanted_ash'
+        ]
+    )
+    
+    //Epiphany Table Craftable
+    event.shaped(
+        Item.of('orpheus:epiphany_table'),
+        [
+            ' A ',
+            'BBB',
+            'CCC'
+        ], {
+            A: 'supplementaries:gold_trapdoor',
+            B: 'tombstone:white_marble',
+            C: 'minecraft:glowstone_dust'
+        }
+    )
+
+    //Apollo's Son Requires End
+    event.shaped(
+        Item.of('orpheus:apollos_son'),
+        [
+            ' A ',
+            'BCD',
+            ' A '
+        ], {
+            A: 'minecraft:shulker_shell',
+            B: 'orpheus:tears_bow',
+            C: 'orpheus:lyre',
+            D: 'orpheus:calliopes_love'
+        }
+    )
+
     //Insulator
     event.shapeless(
         Item.of('unusualprehistory:insulator'),
         [
-            'minecraft:light_blue_wool', 'minecraft:magma_cream', 'minecraft:light_gray_wool'
+            'minecraft:light_blue_wool',
+            'minecraft:magma_cream',
+            'minecraft:light_gray_wool'
         ]
     )
 
@@ -1025,8 +1062,24 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    // New EXP Pump Upgrade 
+    event.shaped(
+        Item.of('sophisticatedbackpacks:xp_pump_upgrade'),
+        [
+            'BCB',
+            'DAD',
+            'BCB'
+        ], {
+            A: 'sophisticatedbackpacks:upgrade_base',
+            B: 'minecraft:redstone',
+            C: 'minecraft:ender_eye',
+            D: 'minecraft:experience_bottle'
+        }
+    )
 
-
+    //Smelting Recipe DNA to Ooze
+    event.smelting('unusualprehistory:organic_ooze', '#unusualprehistory:dna_flasks')
+    
 
     //Stonecutter recipes for Xerca Woods
 
@@ -1276,6 +1329,48 @@ ServerEvents.recipes(event => {
                 B: sherd
             }
         )
+    }
+
+    // Aquaculture Fishies
+    let aquaFish = [
+        'aquaculture:arapaima', 
+        'aquaculture:atlantic_cod', 
+        'aquaculture:atlantic_halibut', 
+        'aquaculture:atlantic_herring', 
+        'aquaculture:bayad', 
+        'aquaculture:blackfish', 
+        'aquaculture:bluegill', 
+        'aquaculture:boulti', 
+        'aquaculture:brown_shrooma',
+        'aquaculture:brown_trout', 
+        'aquaculture:capitaine', 
+        'aquaculture:carp', 
+        'aquaculture:catfish', 
+        'aquaculture:gar', 
+        'aquaculture:jellyfish', 
+        'aquaculture:minnow', 
+        'aquaculture:muskellunge', 
+        'aquaculture:pacific_halibut', 
+        'aquaculture:perch', 
+        'aquaculture:pink_salmon', 
+        'aquaculture:piranha', 
+        'aquaculture:pollock', 
+        'aquaculture:rainbow_trout', 
+        'aquaculture:red_grouper', 
+        'aquaculture:red_shrooma', 
+        'aquaculture:smallmouth_bass', 
+        'aquaculture:synodontis', 
+        'aquaculture:tambaqui', 
+        'aquaculture:tuna'
+    ];
+
+    for (const fish of aquaFish) {
+        event.shapeless(
+            Item.of(fish+'_bucket'),
+            [
+                fish, 'minecraft:water_bucket'
+            ]
+        ).replaceIngredient('minecraft:water_bucket', Item.empty)
     }
 
 })

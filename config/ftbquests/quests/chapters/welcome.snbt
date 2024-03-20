@@ -579,8 +579,6 @@
 				"- It costs xp to travel to Waystones using a &bWarp Stone&r or &bWarp Scroll&r."
 				""
 				"- Traveling &afrom one Waystone to another&r costs no exp."
-				""
-				"- You can use a &abutton in your inventory&r to travel to the nearest &bWaystone&r."
 			]
 			id: "7AD175287E3F0B68"
 			rewards: [{

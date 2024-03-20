@@ -2,6 +2,8 @@
   "active": true,
   "showOnlyOneTime": true,
   "cooldown": 30,
+  "chatMessage": true,
+  "infoMessageSent": true,
   "dontShowAll": [
     "dimdungeons:"
   ],

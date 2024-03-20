@@ -44,6 +44,18 @@
 			x: -4.5d
 			y: 4.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "enchanted_wilds:textures/questui/backpacksbg.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 12.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -970,6 +982,221 @@
 			title: "Craft a Storage Label"
 			x: -4.5d
 			y: 4.0d
+		}
+		{
+			description: [
+				"This backpack is no kid's toy - this thing is multipurpose and heavy duty! With access to a &aplethora of unique upgrades to equip&r and the ability to improve the backpack's storage by &6crafting it with increasingly expensive ingots&r, this is truly an endgame storage solution for on-the-go witches."
+				""
+				"You can place this backpack down/pick it up by &6shift right clicking&r it. You can &aopen it with &6b&r and &aequip it in your &bBack curio slot&r to free up inventory space."
+				""
+				"Caution: although you can block other players from opening your backpack while you wear it, &dthere is no way to protect against this backpack being stolen if you set it down or put it in a chest.&r"
+			]
+			id: "3D7070B95990779A"
+			rewards: [{
+				id: "41C2820AD0027446"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "its ~sophisticated~"
+			tasks: [{
+				id: "035A455B33963FD7"
+				title: "Hex yes to backpacks!"
+				type: "checkmark"
+			}]
+			title: "Backpack For The Discerning Gentlewitch"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3D7070B95990779A"]
+			description: [
+				"These upgrades allow your backpack to operate outside the confines of its leather!"
+				""
+				"- &6Pickup Upgrade&r will reroute any items you pick up to enter your backpack instead of your inventory. "
+				"- &6Magnet Upgrade&r will draw items to your backpack from a distance! "
+				"- &6Jukebox Upgrade&r will allow you to be that one hiker who always brings their bluetooth speaker with them to bless the entire trail with the soothing tunes of Nicki Minaj."
+				""
+				"To get the most of these upgrades, we suggest &6checking out the settings tab&r for each one. "
+				""
+				"Your settings will be saved for each upgrade &aeven if you remove it.&r"
+			]
+			id: "724475964CA8B68D"
+			shape: "hexagon"
+			subtitle: "let 'em know you're coming"
+			tasks: [{
+				id: "01CCDB4E123F14E5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sophb_environmental"
+					}
+				}
+				title: "Any #forge:sophb_environmental"
+				type: "item"
+			}]
+			title: "Environmental Upgrades"
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3D7070B95990779A"]
+			description: [
+				"Don't you get tired of having to &aopen your backpack to get things&r? Isn't it annoying to have to &aput food in your mouth&r every time you're hungry? Who has time to &aswitch between their axe and pickaxe&r when harvesting materials?"
+				""
+				"Get yourself a backpack that does it all with these upgrades. No more wasted time &agrabbing the next stack of blocks&r or even &aopening your backpack to refill it.&r You're busy and have more important matters to attend to."
+				""
+				"To get the most of these upgrades, we suggest &6checking out the settings tab&r for each one. "
+				""
+				"Your settings will be saved for each upgrade &aeven if you remove it.&r"
+			]
+			id: "393CF105AAFA6CF0"
+			shape: "hexagon"
+			subtitle: "\"i don't like to do anything\" - Docm77"
+			tasks: [{
+				id: "6ABD4445F56588FE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sophb_quick"
+					}
+				}
+				title: "Any #forge:sophb_quick"
+				type: "item"
+			}]
+			title: "Shortcut Upgrades"
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3D7070B95990779A"]
+			description: [
+				"These upgrades will help you take your workshop with you. Each one does what it says on the tin... &bcrafting tables&r, &banvils&r, &bstonecutters&r... who needs a base? You can live the life of a true adventurer."
+				""
+				"To get the most of these upgrades, we suggest &6checking out the settings tab&r for each one. "
+				""
+				"Your settings will be saved for each upgrade &aeven if you remove it.&r"
+			]
+			id: "7EE75A2EC8609271"
+			shape: "hexagon"
+			subtitle: "live out of your backpack"
+			tasks: [{
+				id: "30FEE4ACC7F65B84"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sophb_utility"
+					}
+				}
+				title: "Any #forge:sophb_utility"
+				type: "item"
+			}]
+			title: "Utility Upgrades"
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3D7070B95990779A"]
+			description: [
+				"Collecting lots of water or lava but don't want to carry all those buckets? The &bTank Upgrade&r allows you to &6add and remove buckets of fluid from the tank&r, storing far more while only sacrificing a few slots of the backpack. &bStack Upgrades&r also increase your tank size."
+				""
+				"Going on a deep mining trip with your mending tools? Consider equipping the tank alongside an &bExperience Pump&r to store exp and dish it out as needed. Keep in mind, you will need to &dfully empty the previous fluid&r before using the pump."
+				""
+				"To get the most of these upgrades, we suggest &6checking out the settings tab&r for each one. "
+				""
+				"Your settings will be saved for each upgrade &aeven if you remove it.&r"
+			]
+			id: "1B36681F6C07B478"
+			shape: "hexagon"
+			subtitle: "baby got camelback"
+			tasks: [{
+				id: "165E728B29A9BA19"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sophb_fluid"
+					}
+				}
+				title: "Any #forge:sophb_fluid"
+				type: "item"
+			}]
+			title: "Fluid On The Go"
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3D7070B95990779A"]
+			description: [
+				"As you improve your backpack, you will unlock upgrade slots. Just like with &lSophisticated Storage&r, you can use those slots to &aincrease stack size&r with the &bStack Upgrades&r or &aautomatically compact items&r with the &bCompacting Upgrade&r to maximize storage space."
+				""
+				"To get the most of these upgrades, we suggest &6checking out the settings tab&r for each one. "
+				""
+				"Your settings will be saved for each upgrade &aeven if you remove it.&r"
+			]
+			id: "0AC22F22CD346EEB"
+			shape: "hexagon"
+			subtitle: "mary poppins got nothing on this"
+			tasks: [{
+				id: "0808AD513B23A1AF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sophb_inventory"
+					}
+				}
+				title: "Any #forge:sophb_inventory"
+				type: "item"
+			}]
+			title: "Inventory Management"
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3D7070B95990779A"]
+			description: [
+				"You did it. You made the Perfect Backpack. a lever of infinite size could not pry this backpack from reality. "
+				""
+				"&dJust don't lose it somewhere.&r"
+			]
+			id: "67D148EB436BE069"
+			shape: "hexagon"
+			tasks: [{
+				id: "67177520BFE3C685"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3D7070B95990779A"]
+			description: [
+				"Should you wish to have &amore storage&r, you can &aupgrade your backpack&r to higher tiers by &6crafting it with the materials you wish to upgrade to&r."
+				""
+				"Here is an example of upgrading &bIron&r to &bGold&r:"
+				""
+				"{image:enchanted_wilds:textures/questimages/backpackupgrade.png width:100 height:50 align:1 fit:true}"
+			]
+			id: "4B879A11C0823832"
+			rewards: [{
+				count: 8
+				id: "67441AA52B0F8FA3"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71D8DB66FFBA29DA"
+				title: "Upgrade Your Backpack"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 13.5d
 		}
 	]
 	title: "Storage"

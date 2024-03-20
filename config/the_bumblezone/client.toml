@@ -12,12 +12,6 @@ playWrathOfHiveEffectMusic = true
 playSempiternalSanctumMusic = true
 # 
 #-----------------------------------------------------
-#
-# Whether to show the item on the Bee Queen that the Queen wants for Bonus Trades.
-#
-renderBeeQueenBonusTradeItem = true
-# 
-#-----------------------------------------------------
 #  Whether to not render the shader for Essence Blocks.
 #  Will default to normal block textures instead.
 #
@@ -160,4 +154,18 @@ disableEssenceBlockShaders = false
 	#
 	#Range: 0.0 ~ 100.0
 	essenceItemHUDVisualEffectSpeed = 1.0
+
+["Entity Model/Renderer configs"]
+	# 
+	#-----------------------------------------------------
+	#
+	# Turn this on if Variant Bee's model is messed up by another mod or resourcepack. Requires restart.
+	#
+	useBackupModelForVariantBee = false
+	# 
+	#-----------------------------------------------------
+	#
+	# Whether to show the item on the Bee Queen that the Queen wants for Bonus Trades.
+	#
+	renderBeeQueenBonusTradeItem = true
 

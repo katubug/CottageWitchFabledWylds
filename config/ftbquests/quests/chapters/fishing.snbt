@@ -419,8 +419,6 @@
 				"At first glance, they don't seem all that different, but &dobtain a Tackle Box&r and you'll get more perspective on how much better these &bFishing Rods&r can be."
 				""
 				"They are &aalso enchantable&r."
-				""
-				"This quest also grants you a &bBook of Unusual Catch&r, an enchantment which allows you to &6reel in bizarre and unique fish&r."
 			]
 			id: "2E4D1699E2A7876B"
 			rewards: [
@@ -1193,6 +1191,45 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: [
+				"Where are all the fish...? &lAquaculture&r fish &ado not spawn in the world&r, you can only &6fish them up&r. "
+				""
+				"Don't worry though, they aren't dead- only sleeping! &6Combine that fish with a water bucket&r to wake them right up."
+			]
+			id: "4D378D05627139B3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F89B433B8A0693F"
+					table_id: 8161559185986793228L
+					type: "choice"
+				}
+				{
+					id: "7DF112971351D6F5"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "wake them up inside"
+			tasks: [{
+				id: "646C8D91D469E6CA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:aquafish"
+					}
+				}
+				title: "Any #forge:aquafish"
+				type: "item"
+			}]
+			title: "Bring Them To Life"
+			x: 1.0d
+			y: -1.5d
 		}
 	]
 	title: "Fishing"

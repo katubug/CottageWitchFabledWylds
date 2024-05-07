@@ -242,7 +242,7 @@ New Contributors
 ============================  
 // Friday, February 9th, 2024 // 11:00AM EST // v3.1.6  
 ============================  
-***requires terrablender 3.0.1.4**  
+*  **requires terrablender 3.0.1.4**  
  updated mods.toml terrablender dependency version.  
  fixed server crash when rainbow chickens breed.  
  added config for rainbow chicken biome spawns.  
@@ -258,7 +258,7 @@ New Contributors
 ============================  
 // Friday, December 29th, 2023 // 4:55PM EST // v3.1.5  
 ============================  
-***requires terrablender 3.0.0.169**  
+* **requires terrablender 3.0.0.169**  
  fixed leaves not decaying properly.  
  axes now lose durability from stripping mb wood.  
  refreshed butterfly model & textures.  
@@ -329,7 +329,7 @@ New Contributors
 ============================  
 // Friday, June 9th, 2023 // 3:00:PM EST // v3.1.0.0  
 ============================  
-***biomes do not yet generate in the overworld!**  
+* **biomes do not yet generate in the overworld!**  
  1.20 port  
  added hanging signs
 

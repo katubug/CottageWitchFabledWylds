@@ -1,0 +1,11 @@
+#A list of items to allow being gambled with, you can have a max total of 9 different items!
+valid_gambling_items = ["minecraft:emerald"]
+#Percentage that 2 of the same will occur in the slot machine [0.1 = 10%, 1.0 = 100%] (Range: 0.0 - 1.0)
+double_win_chance = 0.2
+#Percentage that 3 of the same will occur in the slot machine [0.1 = 10%, 1.0 = 100%] (Range: 0.0 - 1.0)
+triple_win_chance = 0.1
+#Set the amount of items you return when you have 2 of the same in the slots machine. (Valid Range: 1 - 8)
+double_payout_amount = 2
+#Set the amount of items you return when you have 3 of the same in the slots machine. Note that setting this will prevent spinning the slot machine when the output slot + this value is more then the stack limit! Also keep this value higher than double_payout_amount (Valid Range: 1 - 16)
+triple_payout_amount = 3
+

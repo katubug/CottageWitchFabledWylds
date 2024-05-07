@@ -1,3 +1,5 @@
 {
-  "enableVersionChecking": true
+  "enableVersionChecking": false,
+  "savePatreonsLocal": false,
+  "localPatreonsList": []
 }

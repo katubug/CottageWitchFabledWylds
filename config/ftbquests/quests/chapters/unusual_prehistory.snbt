@@ -8,11 +8,7 @@
 	id: "166D3820236F493E"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 11.25d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgarchaeology.png"
 			rotation: 0.0d
 			width: 20.0d
@@ -20,11 +16,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 12.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/orpheusbg.png"
 			rotation: 0.0d
 			width: 12.0d
@@ -1178,11 +1170,7 @@
 		}
 		{
 			dependencies: ["6EE905589F1D8BBA"]
-			description: [
-				"The &bNectar Seed&r can be obtained from &ePhilosophers&r, and can be planted like any other crop. Once mature, &6harvest it with a &bHoney Bottle&r."
-				""
-				"&dNote: This feature is currently bugged&r."
-			]
+			description: ["The &bNectar Seed&r can be obtained from &ePhilosophers&r, and can be planted like any other crop. Once mature, &6harvest it with a &bHoney Bottle&r."]
 			id: "7341FE2D22A809F4"
 			rewards: [{
 				exclude_from_claim_all: true

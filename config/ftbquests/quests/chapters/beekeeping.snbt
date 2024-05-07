@@ -8,11 +8,7 @@
 	icon: "minecraft:honeycomb_block"
 	id: "7E34B9AE8D33CE08"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 11.25d
-		hover: [ ]
 		image: "enchanted_wilds:textures/questui/beekeepingbg.png"
 		rotation: 0.0d
 		width: 20.0d
@@ -52,8 +48,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Bee"
-			x: -6.5d
-			y: -0.5d
+			x: -6.0d
+			y: 1.0d
 		}
 		{
 			id: "45CD0B9CE3D9E566"
@@ -67,46 +63,6 @@
 			}]
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["5B6C14BE4C6318DB"]
-			description: ["Wanna know the genetic make-up of your bee(s)? This handy tool will help you with that!"]
-			id: "2B75FF565B1C193F"
-			rewards: [{
-				id: "5859A614D3508E3E"
-				item: "minecraft:writable_book"
-				type: "item"
-			}]
-			tasks: [{
-				id: "278B1AA84364F041"
-				item: "fruitfulfun:inspector"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2B75FF565B1C193F"]
-			description: [
-				"&6Right click and hold&r with the &bInspector&r in your hand while looking at a &eBee&r to learn their Genes, Traits, or know the current pollen they are carrying."
-				""
-				"Holding a &bbook and quill&r in your off-hand while inspecting a bee will &arecord their Pollen, Genes, and Traits&r within the book."
-				""
-				"For this quest, you must &6analyze a free-flying &eBee&r, but in the future you can make it easier by &acapturing them in &bJars&r or &bCages&r and using the &bInspector&r on those when placed in the world!"
-			]
-			id: "6422E24B3B05053F"
-			subtitle: "FBI - federal bee inspector"
-			tasks: [{
-				checkItem: true
-				entity: "minecraft:bee"
-				id: "162539536E7159F8"
-				item: "fruitfulfun:inspector"
-				nbt: { }
-				type: "questsadditions:interaction"
-				value: 1L
-			}]
-			x: -6.5d
-			y: 3.0d
 		}
 		{
 			description: [
@@ -126,8 +82,8 @@
 				type: "item"
 			}]
 			title: "Fireless Smoke"
-			x: -4.5d
-			y: 3.0d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5B6C14BE4C6318DB"]
@@ -152,7 +108,7 @@
 			}]
 			title: "Special Beehives"
 			x: -4.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["367C23BE5CAEF485"]
@@ -175,8 +131,8 @@
 				type: "item"
 			}]
 			title: "Special Honeys"
-			x: -3.0d
-			y: 1.5d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["62A4710B05D8A115"]
@@ -233,11 +189,11 @@
 			]
 			title: "Obtain All Honey Types"
 			x: -0.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5B6C14BE4C6318DB"]
-			description: ["Using the &bPoppies&r you got from the last quest (or, if you've used those already, find two more), &ainteract with two adults &eBees&r so they make a bay-bee!"]
+			description: ["Using the &bPoppies&r you got from the last quest (or, if you've used those already, find two more), &ainteract with two adult &eBees&r so they make a bay-bee!"]
 			id: "314290463FBFB5DC"
 			tasks: [{
 				checkItem: true
@@ -249,8 +205,8 @@
 				value: 2L
 			}]
 			title: "Breed Two Bees"
-			x: -4.5d
-			y: 0.0d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5B6C14BE4C6318DB"]
@@ -268,40 +224,8 @@
 				type: "item"
 			}]
 			title: "Get a Pitcher Plant"
-			x: -4.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["3E165F11BBE2D279"]
-			description: [
-				"Put a &bpitcher plant&r in a &bBrewing Stand&r with plain &bWater Bottles&r to get a Random Bee Mutagen. Using a Bee Mutagen on a bee before breeding it &awill make the chance of mutation higher&r. "
-				""
-				"&dWarning, this does NOT guaranteee a mutation&r."
-			]
-			id: "08DCB226FCED5BE7"
-			subtitle: "bumble bumble, toil and trumble"
-			tasks: [{
-				id: "248857A89B927DF8"
-				item: "fruitfulfun:mutagen"
-				type: "item"
-			}]
-			title: "Brew a Mutagen"
-			x: -3.0d
-			y: -1.5d
-		}
-		{
-			id: "574670637CE2B7D0"
-			tasks: [{
-				checkItem: true
-				entity: "minecraft:bee"
-				id: "3A3BED55C9103EF3"
-				item: "minecraft:saddle"
-				nbt: { }
-				type: "questsadditions:interaction"
-				value: 1L
-			}]
-			x: -3.0d
-			y: 0.0d
+			x: -4.0d
+			y: -1.0d
 		}
 	]
 	title: "Beekeeping"

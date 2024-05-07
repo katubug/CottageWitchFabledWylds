@@ -9,11 +9,7 @@
 	id: "4DB925317B421272"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgtameable.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -21,11 +17,7 @@
 			y: -5.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgneutral.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -33,11 +25,7 @@
 			y: 12.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgwyldhunts.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -45,11 +33,7 @@
 			y: 12.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgpetslivestock.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -57,11 +41,7 @@
 			y: -5.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgmonsters.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -69,11 +49,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgmythicmounts.png"
 			rotation: 0.0d
 			width: 10.0d

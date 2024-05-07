@@ -9,11 +9,7 @@
 	id: "0B597438B33910F1"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgbrewing.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -21,11 +17,7 @@
 			y: 4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 13.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgenchanting.png"
 			rotation: 0.0d
 			width: 13.0d

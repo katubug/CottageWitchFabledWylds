@@ -162,11 +162,6 @@
 		# 
 		#-----------------------------------------------------
 		#
-		# Allow what Productive Bees bees should be able to spawn in Bumblezone. 
-		blacklistedBees = ["productivebees:diamond", "productivebees:iron", "productivebees:coal", "productivebees:redstone", "productivebees:copper", "productivebees:lapis", "productivebees:gold", "productivebees:emerald", "productivebees:obsidian", "productivebees:experience", "productivebees:magmatic", "productivebees:amethyst", "productivebees:prismarine", "productivebees:crystalline", "productivebees:sugarbag", "productivebees:glowing", "productivebees:frosty", "productivebees:slimy", "productivebees:silky", "productivebees:blazing", "productivebees:ender", "productivebees:skeletal", "productivebees:ghostly", "productivebees:zombie"]
-		# 
-		#-----------------------------------------------------
-		#
 		# Allow Bee Cages with bees inside to turn Empty Honeycomb Brood blocks into 
 		# a regular Honeycomb Brood Block with a larva inside! 
 		#
@@ -199,6 +194,11 @@
 		#
 		#Range: 0.0 ~ 1.0
 		PBOreHoneycombSpawnRateSpiderBeeDungeon = 0.25
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow what Productive Bees bees should be able to spawn in Bumblezone. 
+		allowedBees = ["productivebees:iron", "productivebees:coal", "productivebees:redstone", "productivebees:copper", "productivebees:lapis", "productivebees:gold", "productivebees:emerald", "productivebees:obsidian", "productivebees:experience", "productivebees:magmatic", "productivebees:amethyst", "productivebees:prismarine", "productivebees:crystalline", "productivebees:sugarbag", "productivebees:glowing", "productivebees:frosty", "productivebees:slimy", "productivebees:silky", "productivebees:blazing", "productivebees:ender", "productivebees:skeletal", "productivebees:ghostly", "productivebees:zombie"]
 
 	["Mod Compatibility Options"."Friends and Foes Options"]
 		# 

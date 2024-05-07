@@ -14,11 +14,7 @@
 	}
 	id: "404A724A4F9629B6"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 11.25d
-		hover: [ ]
 		image: "enchanted_wilds:textures/questui/bgfishing.png"
 		rotation: 0.0d
 		width: 20.0d

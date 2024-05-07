@@ -23,10 +23,6 @@
 			#Allowed Values: toes, talons
 			"Moa Foot Type" = "toes"
 
-	[Rendering."Shader FX"]
-		#Enables a post processing effect for the Shroom Ring's adrenaline ability. Only works with Fabulous graphics, and will cause issues when underwater (even when the ability is not active)
-		"Enable Adrenaline Post Processing Effect" = false
-
 	[Rendering.GUI]
 		#Cycles between Redux's menus.
 		"Cycle Menu" = false
@@ -47,7 +43,7 @@
 
 [Internal]
 	#Value used to track the version of the Aether: Redux most recently used.
-	"Version ID" = "2.0.7"
+	"Version ID" = "2.0.12b"
 	#Internal value to do menu changes. Set this to false in modpacks if you want to use your own menu.
 	"First Startup - Menu Setup" = false
 	#Internal value to change an Aether config, giving a nicer lightmap in the dimension.

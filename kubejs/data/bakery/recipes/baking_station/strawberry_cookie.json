@@ -1,0 +1,14 @@
+{
+  "type": "bakery:baking_station",
+  "ingredients": [
+    {
+      "item": "farmersdelight:honey_cookie"
+    },
+    {
+      "item": "bakery:strawberry_jam"
+    }
+  ],
+  "result": {
+    "item": "bakery:strawberry_glazed_cookie"
+  }
+}

@@ -672,8 +672,8 @@
 884, extreme_hills, minecraft:cherry_grove, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 40, 4, 6
 885, extreme_hills, minecraft:cherry_grove, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 895, extreme_hills, minecraft:cherry_grove, rascals, friendsandfoes:rascal, 10, 1, 1
-905, none, aether_redux:cloudcaps, MONSTER, quark:stoneling, 80, 1, 1
-906, none, aether_redux:cloudcaps, MONSTER, quark:toretoise, 80, 2, 4
+905, none, aether_redux:cloudcaps, CREATURE, quark:stoneling, 80, 1, 1
+906, none, aether_redux:cloudcaps, CREATURE, quark:toretoise, 80, 2, 4
 907, none, aether_redux:cloudcaps, CREATURE, aether_redux:shimmercow, 18, 2, 5
 908, none, aether_redux:cloudcaps, CREATURE, aether_redux:mykapod, 16, 1, 3
 918, none, aether_redux:cloudcaps, AETHER_SURFACE_MONSTER, aether:aechor_plant, 10, 1, 1
@@ -982,8 +982,8 @@
 1307, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, minecraft:salmon, 15, 1, 5
 1318, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, spawn:angler_fish, 10, 1, 5
 1319, ocean, minecraft:deep_cold_ocean, rascals, friendsandfoes:rascal, 10, 1, 1
-1320, none, minecraft:deep_dark, MONSTER, quark:stoneling, 80, 1, 1
-1321, none, minecraft:deep_dark, MONSTER, quark:toretoise, 80, 2, 4
+1320, none, minecraft:deep_dark, CREATURE, quark:stoneling, 80, 1, 1
+1321, none, minecraft:deep_dark, CREATURE, quark:toretoise, 80, 2, 4
 1322, none, minecraft:deep_dark, MONSTER, unusualprehistory:encrusted, 10, 1, 2
 1323, none, minecraft:deep_dark, CREATURE, forbidden_arcanus:lost_soul, 35, 1, 3
 1324, none, minecraft:deep_dark, CREATURE, mythicmounts:firebird, 10, 1, 1
@@ -1602,8 +1602,8 @@
 2121, swamp, regions_unexplored:fungal_fen, WATER_AMBIENT, minecraft:tropical_fish, 25, 8, 8
 2122, swamp, regions_unexplored:fungal_fen, WATER_AMBIENT, unusualprehistory:beelz_tadpole, 10, 3, 6
 2134, swamp, regions_unexplored:fungal_fen, rascals, friendsandfoes:rascal, 10, 1, 1
-2135, none, aether_redux:gilded_grasslands, MONSTER, quark:stoneling, 80, 1, 1
-2136, none, aether_redux:gilded_grasslands, MONSTER, quark:toretoise, 80, 2, 4
+2135, none, aether_redux:gilded_grasslands, CREATURE, quark:stoneling, 80, 1, 1
+2136, none, aether_redux:gilded_grasslands, CREATURE, quark:toretoise, 80, 2, 4
 2137, none, aether_redux:gilded_grasslands, CREATURE, aether:phyg, 12, 3, 4
 2138, none, aether_redux:gilded_grasslands, CREATURE, aether:sheepuff, 10, 3, 4
 2139, none, aether_redux:gilded_grasslands, CREATURE, aether:flying_cow, 17, 2, 5
@@ -1630,8 +1630,8 @@
 2178, none, aether_redux:gilded_groves, AETHER_DARKNESS_MONSTER, aether:cockatrice, 10, 1, 1
 2179, none, aether_redux:gilded_groves, AETHER_SKY_MONSTER, aether:zephyr, 20, 1, 1
 2180, none, aether_redux:gilded_groves, AETHER_AERWHALE, aether:aerwhale, 10, 1, 1
-2181, none, aether_redux:glacial_tundra, MONSTER, quark:stoneling, 80, 1, 1
-2182, none, aether_redux:glacial_tundra, MONSTER, quark:toretoise, 80, 2, 4
+2181, none, aether_redux:glacial_tundra, CREATURE, quark:stoneling, 80, 1, 1
+2182, none, aether_redux:glacial_tundra, CREATURE, quark:toretoise, 80, 2, 4
 2183, none, aether_redux:glacial_tundra, CREATURE, aether:phyg, 11, 3, 4
 2184, none, aether_redux:glacial_tundra, CREATURE, aether:sheepuff, 17, 3, 4
 2185, none, aether_redux:glacial_tundra, CREATURE, aether:flying_cow, 10, 2, 5
@@ -1651,8 +1651,8 @@
 2208, none, quark:glimmering_weald, MONSTER, minecraft:creeper, 80, 4, 4
 2209, none, quark:glimmering_weald, MONSTER, minecraft:slime, 80, 4, 4
 2210, none, quark:glimmering_weald, MONSTER, minecraft:witch, 5, 1, 1
-2211, none, quark:glimmering_weald, MONSTER, quark:stoneling, 80, 1, 1
-2212, none, quark:glimmering_weald, MONSTER, quark:toretoise, 80, 2, 4
+2211, none, quark:glimmering_weald, CREATURE, quark:stoneling, 80, 1, 1
+2212, none, quark:glimmering_weald, CREATURE, quark:toretoise, 80, 2, 4
 2213, none, quark:glimmering_weald, MONSTER, earthmobsmod:bouldering_zombie, 20, 4, 4
 2214, none, quark:glimmering_weald, MONSTER, earthmobsmod:zombified_rabbit, 12, 3, 4
 2215, none, quark:glimmering_weald, CREATURE, quark:stoneling, 80, 1, 4
@@ -3517,8 +3517,8 @@
 4583, forest, regions_unexplored:silver_birch_forest, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 40, 4, 6
 4584, forest, regions_unexplored:silver_birch_forest, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 4594, forest, regions_unexplored:silver_birch_forest, rascals, friendsandfoes:rascal, 10, 1, 1
-4595, none, aether_redux:skyfields, MONSTER, quark:stoneling, 80, 1, 1
-4596, none, aether_redux:skyfields, MONSTER, quark:toretoise, 80, 2, 4
+4595, none, aether_redux:skyfields, CREATURE, quark:stoneling, 80, 1, 1
+4596, none, aether_redux:skyfields, CREATURE, quark:toretoise, 80, 2, 4
 4597, none, aether_redux:skyfields, CREATURE, aether:phyg, 10, 3, 4
 4598, none, aether_redux:skyfields, CREATURE, aether:sheepuff, 14, 3, 4
 4599, none, aether_redux:skyfields, CREATURE, aether:flying_cow, 10, 2, 5
@@ -3571,8 +3571,8 @@
 4682, none, aether:skyroot_meadow, AETHER_DARKNESS_MONSTER, aether:cockatrice, 10, 1, 1
 4683, none, aether:skyroot_meadow, AETHER_SKY_MONSTER, aether:zephyr, 20, 1, 1
 4684, none, aether:skyroot_meadow, AETHER_AERWHALE, aether:aerwhale, 10, 1, 1
-4685, none, aether_redux:skyroot_shrublands, MONSTER, quark:stoneling, 80, 1, 1
-4686, none, aether_redux:skyroot_shrublands, MONSTER, quark:toretoise, 80, 2, 4
+4685, none, aether_redux:skyroot_shrublands, CREATURE, quark:stoneling, 80, 1, 1
+4686, none, aether_redux:skyroot_shrublands, CREATURE, quark:toretoise, 80, 2, 4
 4687, none, aether_redux:skyroot_shrublands, CREATURE, aether:phyg, 13, 3, 4
 4688, none, aether_redux:skyroot_shrublands, CREATURE, aether:sheepuff, 11, 3, 4
 4689, none, aether_redux:skyroot_shrublands, CREATURE, aether:flying_cow, 10, 2, 5
@@ -3747,7 +3747,7 @@
 4922, nether, minecraft:soul_sand_valley, MONSTER, endermanoverhaul:soulsand_valley_enderman, 10, 1, 2
 4923, nether, minecraft:soul_sand_valley, MONSTER, earthmobsmod:skeleton_wolf, 30, 2, 3
 4924, nether, minecraft:soul_sand_valley, MONSTER, earthmobsmod:wither_skeleton_wolf, 20, 2, 3
-4925, nether, minecraft:soul_sand_valley, MONSTER, forbidden_arcanus:lost_soul, 60, 1, 4
+4925, nether, minecraft:soul_sand_valley, CREATURE, forbidden_arcanus:lost_soul, 60, 1, 4
 4926, nether, minecraft:soul_sand_valley, MONSTER, minecraft:zombified_piglin, 10, 1, 4
 4927, nether, minecraft:soul_sand_valley, CREATURE, minecraft:strider, 60, 1, 2
 4928, nether, minecraft:soul_sand_valley, CREATURE, quark:foxhound, 10, 1, 1
@@ -4185,7 +4185,7 @@
 5451, forest, regions_unexplored:temperate_grove, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 40, 4, 6
 5452, forest, regions_unexplored:temperate_grove, UNDERGROUND_WATER_CREATURE, species:deepfish, 80, 4, 6
 5462, forest, regions_unexplored:temperate_grove, rascals, friendsandfoes:rascal, 10, 1, 1
-5463, none, aether_redux:the_blight, CREATURE, aether:cockatrice, 10, 2, 5
+5463, none, aether_redux:the_blight, AETHER_DARKNESS_MONSTER, aether:cockatrice, 10, 2, 5
 5473, none, aether_redux:the_blight, AETHER_SURFACE_MONSTER, aether:aechor_plant, 10, 1, 1
 5474, none, aether_redux:the_blight, AETHER_SURFACE_MONSTER, aether:blue_swet, 10, 1, 1
 5475, none, aether_redux:the_blight, AETHER_SURFACE_MONSTER, aether:golden_swet, 10, 1, 1

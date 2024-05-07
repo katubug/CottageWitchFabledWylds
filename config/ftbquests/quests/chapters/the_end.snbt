@@ -8,11 +8,7 @@
 	icon: "minecraft:ender_eye"
 	id: "5CD8650A590340E5"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 10.0d
-		hover: [ ]
 		image: "enchanted_wilds:textures/questui/bgtheend.png"
 		rotation: 0.0d
 		width: 20.0d

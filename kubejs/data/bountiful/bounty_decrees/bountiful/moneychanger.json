@@ -1,0 +1,11 @@
+{
+	"objectives": [
+		"_all_objs",
+        "money_objs",
+		"hunter_objs"
+	],
+	"rewards": [
+		"money_rews"
+	],
+	"name": "Moneychanger"
+}

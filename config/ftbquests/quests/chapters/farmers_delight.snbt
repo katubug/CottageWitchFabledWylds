@@ -8,11 +8,7 @@
 	icon: "farmersdelight:cooking_pot"
 	id: "1E6C7DB3D27545CE"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 10.0d
-		hover: [ ]
 		image: "enchanted_wilds:textures/questui/bgfarming.png"
 		rotation: 0.0d
 		width: 20.0d
@@ -596,7 +592,7 @@
 				}
 				{
 					id: "4B66FA5A5B0F2983"
-					item: "vinery:apple_crate"
+					item: "vinery:apple_bag"
 					type: "item"
 				}
 				{
@@ -822,17 +818,17 @@
 			tasks: [
 				{
 					id: "2B013BA1F90E7A39"
-					item: "vinery:red_grape_crate"
+					item: "vinery:red_grape_bag"
 					type: "item"
 				}
 				{
 					id: "50EA8453703AE091"
-					item: "vinery:white_grape_crate"
+					item: "vinery:white_grape_bag"
 					type: "item"
 				}
 				{
 					id: "35D815CD7FF0DD34"
-					item: "vinery:cherry_crate"
+					item: "vinery:cherry_bag"
 					type: "item"
 				}
 				{

@@ -262,10 +262,22 @@ JEIEvents.hideItems(event => {
         'farmingforblockheads:red_fertilizer',
         'farmingforblockheads:yellow_fertilizer',
         'unusualprehistory:amber_button',
+        'dawnoftimebuilder:camellia_leaves',
+        'dawnoftimebuilder:camellia_seeds',
+        'dawnoftimebuilder:grape',
+        'dawnoftimebuilder:grape_seeds',
+        'dawnoftimebuilder:maize',
+        'dawnoftimebuilder:rice',
+        'dawnoftimebuilder:wild_grape',
+        'dawnoftimebuilder:wild_maize',
+        'abyssal_decor:fever_blossom_crop_1',
+        'abyssal_decor:fever_blossom',
+        'abyssal_decor:fever_blossom_tea',
+        'galosphere:spectre_flare'
 
-    ];
+      ];
     
-    for (const hide of toHide) {
-      event.hide(hide);
-  }
+      for (const hide of toHide) {
+        event.hide(hide);
+    }
 })

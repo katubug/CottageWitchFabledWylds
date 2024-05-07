@@ -1,0 +1,12 @@
+{
+  "type": "abyssal_decor:muckroot_structure_feature",
+  "config": {
+    "structure": "abyssal_decor:muckrootstructure",
+    "ignored_blocks": "minecraft:structure_block"
+  },
+  "placement": [
+    {
+    "count": 0
+    }
+  ]
+}

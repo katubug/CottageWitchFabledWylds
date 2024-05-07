@@ -153,4 +153,10 @@
 	stuffed_cantaloupe = true
 	stuffed_cantaloupe_block = true
 	wrapped_cantaloupe = true
+	bastion_fruit_crate = true
+	bombegranate_crate = true
+	frostaya_crate = true
+	matcha_milkshake = true
+	mendosteen_crate = true
+	salmonberry_milkshake = true
 

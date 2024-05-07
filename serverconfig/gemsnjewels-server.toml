@@ -1,0 +1,18 @@
+
+#Server configuration settings
+[server]
+	#Set this to true to allow players to change the currency villagers accept
+	villagerCanChangeCurrency = true
+	#Set this to true to allow players to tax villagers
+	villagerCanBeTaxed = true
+	#Set this to true to allow players to bribe villagers
+	villagerCanBeBribed = true
+	#Chance that a magic ring will spawn in a dungeon/desert pyramid/jungle temple/buried treasure chest
+	#Range: 0.0 ~ 1.0
+	magicRingSpawnChance = 0.5
+	#Set this to true to allow rings to have random upgrade stats when crafted
+	randomStatsOnRings = false
+	#Chance that a zombie or skeleton will spawn as an elite version with more hp and special abilities
+	#Range: 0.0 ~ 1.0
+	eliteMobSpawnChance = 0.0
+

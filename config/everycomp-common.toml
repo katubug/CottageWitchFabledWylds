@@ -108,16 +108,6 @@
 				holiday = true
 				decorated_holiday = true
 
-			[general.types.leaves_type.deep_aether]
-				roseroot = true
-				flowering_roseroot = true
-				blue_roseroot = true
-				flowering_blue_roseroot = true
-				yagroot = true
-				cruderoot = true
-				conberry = true
-				sunroot = true
-
 			[general.types.leaves_type.aether_redux]
 				blightwillow = true
 				glacia = true
@@ -216,6 +206,7 @@
 				cherry = true
 				jacaranda = true
 				maple = true
+				citrus = true
 
 			[general.types.wood_type.betterarcheology]
 				rotten = true
@@ -233,13 +224,6 @@
 
 			[general.types.wood_type.aether]
 				skyroot = true
-
-			[general.types.wood_type.deep_aether]
-				roseroot = true
-				yagroot = true
-				cruderoot = true
-				conberry = true
-				sunroot = true
 
 			[general.types.wood_type.aether_redux]
 				blightwillow = true
@@ -313,6 +297,10 @@
 			[general.types.wood_type.forbidden_arcanus]
 				aurum = true
 				edelwood = true
+
+			[general.types.wood_type.dawnoftimebuilder]
+				waxed_oak = true
+				charred_spruce = true
 
 	#Disables specific entries
 	[general.entries]
@@ -400,4 +388,25 @@
 				support = true
 				seat = true
 				palisade = true
+
+			[general.entries.wood_type.dawnoftimebuilder]
+				planks_edge = true
+				wall = true
+				couch = true
+				planks_plate = true
+				support_beam = true
+				legless_chair = true
+				low_table = true
+				support_slab = true
+				fancy_fence = true
+				lattice = true
+				beam = true
+				footstool = true
+				pergola = true
+
+			[general.entries.wood_type.mighty_mail]
+				mail_box = true
+
+			[general.entries.wood_type.regions_unexplored]
+				branch = true
 

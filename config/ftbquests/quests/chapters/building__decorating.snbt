@@ -9,11 +9,7 @@
 	id: "3E1D90FE6819501F"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgbuilding.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -21,11 +17,7 @@
 			y: -4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgdecorating.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -33,7 +25,7 @@
 			y: 4.5d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -304,22 +296,22 @@
 				}
 				{
 					id: "47C365C78A8E989E"
-					item: "vinery:flower_pot"
+					item: "vinery:flower_pot_big"
 					type: "item"
 				}
 				{
 					id: "02BFA6E00CC24E92"
-					item: "meadow:flower_pot_big"
+					item: "meadow:wooden_flower_pot_big"
 					type: "item"
 				}
 				{
 					id: "268575337C28A532"
-					item: "meadow:wooden_flower_pot"
+					item: "meadow:wooden_flower_pot_small"
 					type: "item"
 				}
 				{
 					id: "320433F743DDE084"
-					item: "meadow:flower_box"
+					item: "meadow:wooden_flower_box"
 					type: "item"
 				}
 				{

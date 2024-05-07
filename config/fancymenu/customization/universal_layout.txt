@@ -3,19 +3,21 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1709406163462
+  last_edited_time = 1714424707370
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   universal_layout_whitelist = level_loading_screen;receiving_level_screen;connect_screen;progress_screen;generic_dirt_message_screen;
-  [loading_requirement_container_meta:a13dd680-d3e8-4a2c-95c9-e419f33da10c-1709405970400] = [groups:][instances:]
+  [loading_requirement_container_meta:734c6aa1-ae8f-4e17-9a4b-95feee2deb42-1714424682096] = [groups:][instances:]
 }
 
 menu_background {
-  panorama_name = lavender_field
-  background_type = panorama
+  image_path = [source:local]/config/fancymenu/assets/loadingbg.png
+  slide = false
+  repeat_texture = false
+  background_type = image
 }
 
 customization {

@@ -1,0 +1,524 @@
+{
+	autofocus_id: "5F1A290810B22633"
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "beginnings"
+	group: "6B4E114EC6CDE8EE"
+	icon: "minecraft:grass_block"
+	id: "1FB034D3C485D4C2"
+	images: [
+		{
+			height: 8.0d
+			image: "enchanted_wilds:textures/questui/bgfreebies.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			height: 8.0d
+			image: "enchanted_wilds:textures/questui/bgdeath.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 3.5d
+			y: -0.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You might notice that the &bEnchanted Items&r you find in the world are a little harder to understand. Enchantments are ancient magic which requires &aresearch&r to discern."
+				""
+				"You can use the codex in these &bScrolls of Identification&r by &6right clicking them onto items in your inventory&r. You can also &6right click the &bEnchanted Item&r on a &bEnchanting Table&r."
+				""
+				"However, you can also &6equip enchanted &bArmor&r to &aeasily identify the enchantments&r - and curses."
+			]
+			id: "065DC59360A84A58"
+			rewards: [{
+				count: 3
+				id: "217A27BE7B881243"
+				item: "irons_rpg_tweaks:identification_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E81775B3B389373"
+				title: "Scroll Identification"
+				type: "checkmark"
+			}]
+			title: "Enchantment Identification"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Congratulations on entering the Overworld for the first time! It's good to have you here. You can &6use these quests as a sort of guide&r to help you through mods you might not be familiar with!"
+				""
+				"This quest grants you an &bEccentric Tome&r, which contains guidebooks to mods in the pack."
+				""
+				"&lIf you ever lose your Eccentric Tome&r, you can easily &6craft a new one&r with a &bBook&r and a &bStick&r."
+				""
+				"Your most useful tool is &lJEI&r, a mod that appears on the right of your inventory screen. It will let you view all the items in the modpack, and their recipes. &6Please explore this to see what is on offer&r!"
+			]
+			icon: "minecraft:grass_block"
+			id: "6C6635F6D9644BB7"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/say Hi, @p! Thanks for playing! Please check out your quests with the - key, or by opening your Quest Book!"
+					elevate_perms: true
+					id: "4B2B69209045245C"
+					team_reward: false
+					type: "command"
+				}
+				{
+					id: "03343966A677ADE8"
+					item: {
+						Count: 1b
+						id: "eccentrictome:tome"
+						tag: {
+							"eccentrictome:mods": {
+								aether: {
+									0: {
+										Count: 1b
+										id: "aether:book_of_lore"
+									}
+								}
+								eidolon: {
+									0: {
+										Count: 1b
+										id: "eidolon:codex"
+									}
+								}
+								fdcookbook: {
+									0: {
+										Count: 1b
+										id: "fdcookbook:fd_cookbook"
+									}
+								}
+								ftbquests: {
+									0: {
+										Count: 1b
+										id: "ftbquests:book"
+									}
+								}
+								lexicon: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "lexicon:lexicon"
+										}
+									}
+								}
+								solonion: {
+									0: {
+										Count: 1b
+										id: "solonion:food_book"
+									}
+								}
+								unusualprehistory: {
+									0: {
+										Count: 1b
+										id: "unusualprehistory:encyclopedia"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/ftbquests open_book"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "4E92684965F31076"
+					silent: true
+					team_reward: false
+					title: "Open Quest Book"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Welcome in!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "732E6FD9F7F8662E"
+				type: "dimension"
+			}]
+			title: "Begin your World"
+			x: -4.75d
+			y: -1.25d
+		}
+		{
+			description: ["Need to get somewhere in a hurry? Why not try &aslinging&r? The &bSlime Sling&r, when &6pointed at the ground and drawn&r, will shoot the player in the opposite direction upon release. You can achieve &aquite a bit of air time&r this way! And the &bSlime Boots&r make it so you...you know...&adon't die from fall damage&r. A winning combination!"]
+			id: "7232C9D413054886"
+			rewards: [
+				{
+					id: "146D300604AF13CC"
+					item: {
+						Count: 1b
+						id: "usefulslime:slime_sling"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15CE6688B6EFC508"
+					item: {
+						Count: 1b
+						id: "usefulslime:slime_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "slimy transport"
+			tasks: [{
+				id: "474CE1AAC07815BD"
+				title: "The Only Way to \"Fly\""
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Let's face it, sometimes you want to live somewhere cute right away. And in survival, you rarely have the resources to do so."
+				""
+				"So, if you'd like a &aprefabricated starter house&r, then &6tick off this quest&r and &6redeem the reward&r. If not, you can safely ignore this! Both methods are perfectly valid. :)"
+				""
+				"This house will require a &aflat piece of land 20x24 blocks&r in dimension. To place it, &6right click the capsule&r to activate it. Then, &6right click on the center of the desired area&r to place it. It is &done-time-use only&r, so make sure you're ready to commit!"
+				""
+				"The house will be &afacing north&r and cannot be rotated, so keep this in mind also."
+			]
+			id: "21AD64E594528F4D"
+			rewards: [{
+				id: "524E7A99FC31E368"
+				item: {
+					Count: 1b
+					id: "capsule:capsule"
+					tag: {
+						author: "Emmulah"
+						canRotate: 0b
+						color: 4869306
+						display: {
+							color: 6196919
+						}
+						isReward: 1b
+						label: "witchyhouse"
+						oneUse: 1b
+						size: 23
+						state: 5
+						structureName: "minecraft:config/capsule/rewards/witchyhouse"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Cute house starter pack"
+			tasks: [{
+				id: "76B325FD29C28A89"
+				title: "Build Me a House"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Would you like a Mushroom Hat? Cool! Click the box above."
+				""
+				"Be careful, because if you place it on the ground &dit will turn into a pumpkin&r. And it doesn't even need to be midnight."
+			]
+			id: "3DFB7EF14F053582"
+			rewards: [{
+				command: "/give @p carved_pumpkin{CustomModelData:1,display:{Name:'[{\"text\":\"Mushroom Hat\",\"italic\":false,\"color\":\"yellow\"}]',Lore:['[{\"text\":\"A sweet lil mushroom hat.\",\"italic\":false}]']}} 1"
+				elevate_perms: true
+				icon: {
+					Count: 1b
+					id: "minecraft:carved_pumpkin"
+					tag: {
+						CustomModelData: 1
+						display: {
+							Lore: ["[{\"text\":\"A sweet lil mushroom hat.\",\"italic\":false}]"]
+							Name: "[{\"text\":\"Mushroom Hat\",\"italic\":false,\"color\":\"yellow\"}]"
+						}
+					}
+				}
+				id: "66564731E9B2D42D"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5D42AEB901AE8033"
+				title: "I want a mushroom hat!!"
+				type: "checkmark"
+			}]
+			title: "Mushroom Hat"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			description: ["Would you like an adorable &bScarecrow&r to look over your fields? Well look no further! Simply claim this quest reward, &6place down the &bGlass Item Frame&r on the ground (it will be invisible once filled) and &6display your &bScarecrow&r."]
+			id: "2E1F1E4415C20577"
+			rewards: [
+				{
+					id: "11D206DBB7A76FD6"
+					item: {
+						Count: 1b
+						id: "minecraft:carved_pumpkin"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Scarecrow\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36C3BD60B0A7ADD6"
+					item: "quark:glass_item_frame"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48FE16D6A1E00A6D"
+				title: "Yes I want a Scarecrow!"
+				type: "checkmark"
+			}]
+			title: "Do You Wanna Build a Scarecrow?"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["50 deaths, and you're just getting started! Congrats...I guess? Anyway, here &6take this Totem&r, it seems like you need it."]
+			id: "3FAE926346F1E576"
+			rewards: [{
+				id: "7338219FAAA9587F"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			subtitle: "YOU DIED"
+			tasks: [{
+				id: "08BCF1C0F17EF916"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 50
+			}]
+			title: "Die 50 Times"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["Congratulations on cheating death! Sorry about your totem, though."]
+			id: "76D5DB6E94816C80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A03B2AB64A80391"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:adventure/totem_of_undying"
+				criterion: ""
+				id: "7E4BBEB34174442D"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"So, you died. It happens to us all, eventually! Don't worry, all your items are safe in a &agrave&r marking your last resting place."
+				""
+				"You can use your &bGrave Key&r to locate your last death, as well as the &aminimap marker&r that's automatically placed there. Then, &6right click on your grave&r to recover all your items and gear."
+				""
+				"There's also a 50% chance to receive an &bEnchanted Grave Key&r, which you can &6hold right click&r to activate, and it will teleport you to your grave. These can also be &acrafted&r with your &bGrave Key&r and an &bEnder Pearl&r."
+				""
+				"When you die, you receive &bKnowledge of Death&r, which can &agrant unique perks&r such as &aincreasing the time it takes for &ePhantoms&r to spawn nearby, as well as &aunlockable abilities&r. You can access these powers by &6pressing CTRL+T&r."
+			]
+			id: "47643C0C8D4BCBD9"
+			rewards: [
+				{
+					id: "78AFDC62398091E8"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29BB4C4A6EF50D42"
+					item: {
+						Count: 1b
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35DE3AC735BE5DC2"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "handbook for the recently deceased"
+			tasks: [{
+				advancement: "tombstone:adventure/first_grave"
+				criterion: ""
+				id: "55533D1D77C4F3CD"
+				type: "advancement"
+			}]
+			title: "Baby's First Death"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: [
+				"The &bAnkh of Prayer&r will allow you to &again more &bKnowledge of Death&r, without the need to continually die, yourself."
+				""
+				"Take this &bDecorative Grave&r, and use your &bAnkh&r to pray for the &eGoddess of Death&r to grant you further knowledge. You do this by &6holding the item and holding down right click to channel&r. Once you are finished, you will be notified in your chat."
+				""
+				"Remember to use &6CTRL+T&r to access your &bKnowledge of Death&r perks."
+			]
+			id: "28EF473316FAD44F"
+			rewards: [{
+				id: "5D70A6A09E81AFCB"
+				item: {
+					Count: 1b
+					id: "tombstone:decorative_grave_normal"
+					tag: {
+						model_texture: 1
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0FAB038EE90016C8"
+				item: {
+					Count: 1b
+					id: "tombstone:ankh_of_pray"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: [
+				"An important part of &aDeath&r is to share it with others.* Now that you've dealt an obscene amount of damage, probably at least some of those things have died."
+				""
+				""
+				"* for legal reasons, this is a joke"
+			]
+			id: "112917940415A7B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D6E1BE59126F53A"
+				table_id: 5161092699925703455L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "forbidden_arcanus:reinforced_deorum_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "414353BDA200C879"
+				stat: "minecraft:damage_dealt"
+				type: "stat"
+				value: 9999
+			}]
+			title: "Doling Death to Others"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["Congrats on surviving your first consecutive hour! Here's a cookie!"]
+			id: "0906699108A371A5"
+			rewards: [{
+				id: "65965ACE64F6D9C0"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "tombstone:adventure/strong_or_careful"
+				criterion: ""
+				id: "2835A2CDA96D6CF6"
+				type: "advancement"
+			}]
+			title: "Avoiding Death"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "5F1A290810B22633"
+			invisible: true
+			secret: true
+			tasks: [{
+				id: "15F14A6C629F34AE"
+				item: "ftbquests:barrier"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&bWaystones&r allow you to quickly traverse your world along a network of invisible &aleylines&r. You can find more information about &athe different kinds of Waystones&r in the &dGlobetrotting&r quest category. But here's some basic info:"
+				""
+				"- It costs xp to travel to Waystones using a &bWarp Stone&r or &bWarp Scroll&r."
+				""
+				"- Traveling &afrom one Waystone to another&r costs no exp."
+			]
+			id: "7AD175287E3F0B68"
+			rewards: [{
+				id: "647BD7A181C2E88D"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				icon: "waystones:sandy_waystone"
+				id: "0897C669F0BCBDB8"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 1
+			}]
+			title: "Waystones 101"
+			x: -3.5d
+			y: 0.0d
+		}
+	]
+	title: "Beginnings"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "abyssal_decor:spidercorn_structure_feature",
+  "config": {
+    "structure": "abyssal_decor:spidercornstructure",
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  },
+  "placement": [
+    {
+    "count": 0
+    }
+  ]
+}

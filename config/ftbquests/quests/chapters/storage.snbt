@@ -9,11 +9,7 @@
 	id: "20C131FAFAF3F980"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 15.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgstoragenetwork.png"
 			rotation: 0.0d
 			width: 15.0d
@@ -21,11 +17,7 @@
 			y: -6.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 9.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgitemstransport.png"
 			rotation: 0.0d
 			width: 9.0d
@@ -33,11 +25,7 @@
 			y: 4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 9.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgmiscpurple.png"
 			rotation: 0.0d
 			width: 9.0d
@@ -45,11 +33,7 @@
 			y: 4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/backpacksbg.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -57,7 +41,7 @@
 			y: 12.5d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

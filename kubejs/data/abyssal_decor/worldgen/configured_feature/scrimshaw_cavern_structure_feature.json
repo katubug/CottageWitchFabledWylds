@@ -1,0 +1,14 @@
+{
+  "type": "abyssal_decor:structure_feature",
+  "config": {
+    "structure": "abyssal_decor:scrimshaw_cave",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block"
+  },
+  "placement": [
+    {
+    "count": 0
+    }
+  ]
+}

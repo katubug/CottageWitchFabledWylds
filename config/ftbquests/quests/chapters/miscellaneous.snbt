@@ -9,11 +9,7 @@
 	id: "0F5FCDF7AD60349B"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 9.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgcommerce.png"
 			rotation: 0.0d
 			width: 9.0d
@@ -21,11 +17,7 @@
 			y: -4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 9.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgautomation.png"
 			rotation: 0.0d
 			width: 9.0d
@@ -33,11 +25,7 @@
 			y: -4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 11.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgmiscteal.png"
 			rotation: 0.0d
 			width: 11.0d
@@ -597,8 +585,8 @@
 				type: "item"
 			}]
 			title: "Multiplayer Bartering"
-			x: 6.5d
-			y: -2.5d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			description: [

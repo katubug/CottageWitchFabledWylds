@@ -1,0 +1,9 @@
+{
+	"objectives": [
+		"hunter_objs"
+	],
+	"rewards": [
+		"_all_rews"
+	],
+	"name": "Monster Hunter"
+}

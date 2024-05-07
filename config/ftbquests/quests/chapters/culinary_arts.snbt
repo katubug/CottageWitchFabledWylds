@@ -9,11 +9,7 @@
 	id: "305A3D4D3A205E4A"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgnetherdelight.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -21,11 +17,7 @@
 			y: 48.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgteaandsundry.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -33,11 +25,7 @@
 			y: 31.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 13.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgspiceoflife.png"
 			rotation: 0.0d
 			width: 13.0d
@@ -45,11 +33,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgcookingpot.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -57,11 +41,7 @@
 			y: 13.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgcheesemaking.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -69,11 +49,7 @@
 			y: 39.75d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgenddelight.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -81,11 +57,7 @@
 			y: 57.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgwinery.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -93,11 +65,7 @@
 			y: 22.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgbakery.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -105,11 +73,7 @@
 			y: -16.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgcandlelight.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -117,11 +81,7 @@
 			y: -7.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgcaupona.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -134,28 +94,24 @@
 	quests: [
 		{
 			description: [
-				"One feature of this modpack is that &aeating food grants you bonuses&r!"
+				"The &lSpice Of Life&r is a mod which rewards you for eating a &adiverse diet of well-balanced foods&r. While you can survive on nothing but &bBread&r and &bGolden Carrots&r, you'll find that you thrive if you make and eat more rewarding foods - which this pack offers a LOT of."
 				""
-				"Most foods give a beneficial effect of Diversity. Your body and soul are nourished by eating a variety of foods, so it's in your best interests to eat &asome of everything&r!"
+				"You can view the benefits in your &bFood Book&r in your &bEccentric Tome&r."
 				""
-				"Different food types will grant &adifferent levels of diversity&r, and you can see how your food ranks by &6hovering over it&r. The higher the diversity level, the more likely you are to notice benefits, such as &aextra hearts&r!"
+				"When you hover over a piece of food, you'll be able to see its &adiversity value&r, and the &aamount of diversity it will add to your score&r (in parentheses). If you have a high diversity score and eat something of low diversity, it will &alower your average diversity&r and the number will show in red instead of green."
+				""
+				"{image:enchanted_wilds:textures/questimages/spiceoflife1.png width:180 height:180 align:1}"
+				""
+				"Additionally, &aeating the same food repeatedly&r will not improve your diversity score. But wait, you say, I can't go carrying around that much food! I'm a witch, not a pack mule! To this I reply: go to the next quest."
 			]
 			id: "6EFFB8ED37DC8A47"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1454EE401EB2C400"
-					table_id: 8096229411196850122L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5220020A4433CE51"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1454EE401EB2C400"
+				table_id: 8096229411196850122L
+				type: "loot"
+			}]
 			shape: "rsquare"
 			size: 2.5d
 			subtitle: "(psst, it's variety)"
@@ -781,7 +737,7 @@
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
-			description: ["With &bAcorns&r you can make &bNut Butter&r. Combine that with some fresh-reduced &bJelly&r and some &bBread&r and you've got yourself a nutritionally sound, delicious lunch."]
+			description: ["With &bAcorns&r or &bWalnuts&r, you can make &bNut Butter&r. Combine that with some fresh-reduced &bJelly&r and some &bBread&r and you've got yourself a nutritionally sound, delicious lunch."]
 			id: "1F80DCFD23DD5592"
 			rewards: [
 				{
@@ -817,7 +773,7 @@
 			]
 			title: "PBJ Deliciousness"
 			x: -1.0d
-			y: -0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1556BE457F25FA9F"]
@@ -928,13 +884,14 @@
 				item: "delightful:berry_matcha_latte"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
 			description: [
 				"Step one on your journey to the ultimate burger is this: the humble &bHamburger&r."
+				""
 				"The humbleburger, if you will. Hambumble? I don't know."
 			]
 			id: "717B733896BBB2AA"
@@ -1010,6 +967,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			tasks: [{
 				id: "23C5964D9AF61295"
 				stat: "minecraft:eat_cake_slice"
@@ -1150,7 +1108,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["717B733896BBB2AA"]
+			dependencies: ["5A740B6BFD3DF940"]
 			description: ["Vegetarian? No worries, we got you covered! Why not make some delicious &avegetarian dishes?&r"]
 			id: "181F5C00C8DE417B"
 			rewards: [
@@ -1178,10 +1136,30 @@
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
 				}
+				{
+					id: "3CF3884111E238FD"
+					item: "bakery:vegetable_sandwich"
+					type: "item"
+				}
+				{
+					id: "715AA1F7C0A3AEF8"
+					item: "candlelight:veggie_plate"
+					type: "item"
+				}
+				{
+					id: "61955C12FD5759D9"
+					item: "youkaishomecoming:stinky_tofu"
+					type: "item"
+				}
+				{
+					id: "590F684F55A894E4"
+					item: "youkaishomecoming:tofu_burger"
+					type: "item"
+				}
 			]
 			title: "Delicious Veggies"
-			x: -4.0d
-			y: 5.5d
+			x: 1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5F2C26D1C6302016"]
@@ -1283,11 +1261,6 @@
 					type: "item"
 				}
 				{
-					id: "4B187CA85D05FA2D"
-					item: "meadow:cheesecake"
-					type: "item"
-				}
-				{
 					id: "3E1FBBA95B86F4ED"
 					item: "bakery:bundt_cake"
 					type: "item"
@@ -1315,6 +1288,41 @@
 				{
 					id: "7FF3E097FF196F8E"
 					item: "create:blaze_cake"
+					type: "item"
+				}
+				{
+					id: "1FD79A36D703CDE9"
+					item: "youkaishomecoming:red_velvet_cake"
+					type: "item"
+				}
+				{
+					id: "0ED65B99CB7C990C"
+					item: "mysticsbiomes:purple_frosted_cake"
+					type: "item"
+				}
+				{
+					id: "1FABE802B0CEEEAC"
+					item: "mysticsbiomes:cyan_frosted_cake"
+					type: "item"
+				}
+				{
+					id: "0892451B0D561043"
+					item: "mysticsbiomes:lime_frosted_cake"
+					type: "item"
+				}
+				{
+					id: "686BEB159B4F80DD"
+					item: "mysticsbiomes:yellow_frosted_cake"
+					type: "item"
+				}
+				{
+					id: "6A9B61B5AED81EBB"
+					item: "mysticsbiomes:orange_frosted_cake"
+					type: "item"
+				}
+				{
+					id: "2AD5659029D8FF21"
+					item: "mysticsbiomes:pink_frosted_cake"
 					type: "item"
 				}
 			]
@@ -1710,7 +1718,7 @@
 			rewards: [
 				{
 					id: "2482C0C68C722C08"
-					item: "vinery:cherry_sapling"
+					item: "vinery:dark_cherry_sapling"
 					type: "item"
 				}
 				{
@@ -2193,7 +2201,7 @@
 			tasks: [
 				{
 					id: "07A4D60B8F66A320"
-					item: "meadow:cooking_pot"
+					item: "meadow:cooking_cauldron"
 					type: "item"
 				}
 				{
@@ -2636,7 +2644,7 @@
 			description: [
 				"Vegetarianism! Regardless of why you might wish to avoid meat, you can now do so with the advent of &bTofu&r!"
 				""
-				"Many foods which would otherwise require &bmeat&r or &bleather&r can now be bypassed, allowing you to save a few more animals than you might otherwise have done!"
+				"Many foods which would otherwise require &bmeat&r or &bleather&r can now be bypassed, allowing you to save a few more animals than you might otherwise have done! &bApplesauce&r can be substituted for &bEggs&r."
 			]
 			id: "5A740B6BFD3DF940"
 			rewards: [{
@@ -2645,7 +2653,6 @@
 				table_id: 8096229411196850122L
 				type: "loot"
 			}]
-			shape: "hexagon"
 			tasks: [
 				{
 					id: "019E7D711C943011"
@@ -2657,10 +2664,15 @@
 					item: "vegandelight:leather_substitute"
 					type: "item"
 				}
+				{
+					id: "019D7D7DE54AD069"
+					item: "vegandelight:applesauce"
+					type: "item"
+				}
 			]
 			title: "Vegetarian Options"
-			x: 2.0d
-			y: 1.0d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7D770ADEB3905EE0"]
@@ -3070,20 +3082,20 @@
 				type: "item"
 			}]
 			title: "Obtain a Sink"
-			x: 0.0d
-			y: -13.5d
+			x: 1.0d
+			y: -14.5d
 		}
 		{
 			description: [
-				"To begin with the delicious art of &aBakery&r, there are a few tools one will need. The &bBaking Station&r, the &bSmall Cooking Pot&r, and, of course, an &bOven&r."
+				"To begin with the delicious art of &aBakery&r, there are a few tools one will need. The &bCaking Station&r, the &bSmall Cooking Pot&r, and, of course, an &bOven&r."
 				""
 				"Each of these tools will allow you to do unique things."
 				""
 				"The &bSmall Cooking Pot&r allows you to create delectable &bJams&r and &bChocolate Spreads&r and such."
 				""
-				"The &bOven&r allows you to bake &bBlank Cakes&r and &adifferent types of &bBreads&r."
+				"The &bOven&r allows you to bake &bBreads&r, &bBuns&r, &bTarts&r, and &bmore&r!"
 				""
-				"The &bBaking Station&r is where you take those ingredients and &6combine them&r to make the final products!"
+				"The &bCaking Station&r is for the creation of &bCakes&r, &bCookies&r, and &bCupcakes&r!"
 			]
 			id: "207C60DC8889AC0F"
 			rewards: [
@@ -3109,7 +3121,13 @@
 				}
 				{
 					id: "48DF3C6839DAEE2A"
-					item: "bakery:small_cooking_pot"
+					item: {
+						Count: 1b
+						id: "bakery:small_cooking_pot"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
@@ -3123,37 +3141,57 @@
 			y: -18.0d
 		}
 		{
-			dependencies: ["740C9D783E4018EC"]
-			description: [
-				"To make &bCakes&r, you'll first need to &ainvent the universe&r. Wait, no, that's pies. With cakes you just need a &bBlank Cake&r."
-				""
-				"&dA bug prevents these from showing in JEI&r. You can craft them in the &bOven&r using &bSweet Dough&r, &bYeast&r, and an &bEgg&r."
-			]
+			dependencies: ["4D65AA1353AA0E1D"]
+			description: ["To make &bCakes&r, you'll first need to &ainvent the universe&r. Wait, no, that's pies. With cakes you just need &bCake Dough&r."]
 			id: "52D7D562012B3B7C"
-			shape: "hexagon"
-			tasks: [{
-				id: "36BC001DD601416E"
-				item: "bakery:blank_cake"
+			rewards: [{
+				id: "4F446D725938C800"
+				item: "bakery:cake_dough"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -15.0d
+			shape: "hexagon"
+			tasks: [{
+				id: "211E725A65D0D81D"
+				item: "bakery:cake_dough"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -16.0d
 		}
 		{
-			dependencies: ["7C19407D0F55D3F5"]
+			dependencies: ["4D65AA1353AA0E1D"]
+			description: ["&bSweet Dough&r is the basis for many delicious pastries. The aspiring Kitchen Witch would do well to familiarize themself with its recipe!"]
 			id: "740C9D783E4018EC"
+			rewards: [{
+				count: 5
+				id: "2E12B72E0A546C81"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
 			shape: "hexagon"
+			subtitle: "sweet, dough!"
 			tasks: [{
 				id: "4EE7BB72D21FAD02"
 				item: "bakery:sweet_dough"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -14.0d
+			x: -1.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["207C60DC8889AC0F"]
+			description: [
+				"Hmm, looks like a &bJar of Chocolate Spread&r is exactly what we're going to need for the next recipe."
+				""
+				"Well, don't just stand there looking at me. &6Get cooking&r!"
+			]
 			id: "6E5DCE8167CB2932"
+			rewards: [{
+				count: 3
+				id: "023FEB112CF08CD4"
+				item: "minecraft:egg"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "6FB9DA3EF6BFB103"
@@ -3161,7 +3199,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -19.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["207C60DC8889AC0F"]
@@ -3172,7 +3210,7 @@
 				item: "bakery:strawberry_jam"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.5d
 			y: -16.5d
 		}
 		{
@@ -3180,53 +3218,87 @@
 				"740C9D783E4018EC"
 				"124F16ECDD4B26A2"
 			]
+			description: ["A &bStrawberry Cupcake&r is one of many things you can make with &bSweet Dough&r, and also uses the delicious &bStrawberry Jam&r you made in the last quest!"]
 			id: "1BCBFB8A5AAE9E37"
+			rewards: [{
+				id: "171CB1572A0ACDB8"
+				item: "mysticsbiomes:sweet_strawberry"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "1AEF518A7E511840"
 				item: "bakery:strawberry_cupcake"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -16.0d
+			x: -2.5d
+			y: -15.0d
 		}
 		{
 			dependencies: [
 				"52D7D562012B3B7C"
 				"6E5DCE8167CB2932"
 			]
+			description: [
+				"Ah, here we are! Combine the &bChocolate Spread&r and &bCake Dough&r you made in a &bBaking Station&r."
+				""
+				"An indulgent treat, this &bChocolate Cake&r should keep you sated for a while!"
+				""
+				"Or, if you're so inclined, you could &aprogress to the next quest&r and &afind a way to &6display it&r! Actually, here, take these two &bCake Slices&r. That way you can &aeat your cake, and have it, too&r."
+				""
+				"Yes, I know that's now how the phrase goes. But if you think about it, it really makes more sense this way."
+			]
 			id: "5D37E0A2F297C49E"
+			rewards: [{
+				count: 2
+				id: "0270569DCD65A3E0"
+				item: "bakery:chocolate_cake_slice"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "299FAD27ED1A3E6A"
 				item: "bakery:chocolate_cake"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -18.0d
-		}
-		{
-			dependencies: ["207C60DC8889AC0F"]
-			id: "7C19407D0F55D3F5"
-			tasks: [{
-				id: "7C85A544CBE132E3"
-				item: "bakery:yeast"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -15.5d
+			x: 2.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["5D37E0A2F297C49E"]
+			description: ["You can &adisplay your delicious &bpastries&r using a &bCake Stand&r, &bCupcake Display&r, or &bCake Display&r."]
 			id: "737B48AA3FE651BD"
-			shape: "hexagon"
-			tasks: [{
-				id: "6A25CFD0AD2689ED"
-				item: "bakery:cake_stand"
+			rewards: [{
+				id: "1B03BFA8D7C37647"
+				item: "minecraft:cake"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -17.5d
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6A25CFD0AD2689ED"
+					item: "bakery:cake_stand"
+					type: "item"
+				}
+				{
+					id: "4889A71CD6739882"
+					item: "bakery:cupcake_display"
+					type: "item"
+				}
+				{
+					id: "4A418C6CFA46ED20"
+					item: "bakery:tray"
+					type: "item"
+				}
+				{
+					id: "1ADDD8A49740F7C4"
+					item: "bakery:breadbox"
+					type: "item"
+				}
+			]
+			title: "Displaying Your Pastries"
+			x: 2.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["72214271B351A963"]
@@ -3757,6 +3829,92 @@
 			}]
 			x: -2.0d
 			y: -24.0d
+		}
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: [
+				"The solution to your food-carrying woes is the &bLunch Box&r! Oh, of course, you could make a &bLunchbag&r instead, but we are witches and we love a sturdier option when we can find one."
+				""
+				"The &bLunch Box&r, and its fancier sibling, the &bGolden Lunch Box&r, will hold your food like a Shulker Box. You can then &6hold the &bLunch Box&r and &aeat it as you would do any other food&r, by &6holding right click&r. If you have a &bShield&r in your offhand, &dyou'll need to hold right click longer&r, because it's a fussier process to eat one-handed!"
+				""
+				"To &afill your &bLunch Box&r, you can &6shift right click&r in the air to &aopen its interface&r."
+				""
+				"&dA Warning&r: If you switch game modes, food in your &bLunch Box&r will be lost. But you wouldn't do that anyway... right? ;)"
+			]
+			id: "1EA26C716D479D14"
+			rewards: [{
+				id: "7C0EDD872D5E84F0"
+				item: "bakery:vegetable_sandwich"
+				type: "item"
+			}]
+			tasks: [{
+				id: "657D823A218F0EFA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+					id: "solonion:lunchbox"
+				}
+				type: "item"
+			}]
+			title: "Portable Lunch"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["207C60DC8889AC0F"]
+			description: ["The &bCrafting Bowl&r is a ubiquitous kitchen tool used to &amix together ingredients&r for things such as &bDough&r."]
+			id: "4D65AA1353AA0E1D"
+			rewards: [{
+				count: 4
+				id: "51555FBF9D240D0D"
+				item: "create:wheat_flour"
+				type: "item"
+			}]
+			subtitle: "get crafty"
+			tasks: [{
+				id: "256808643F65253F"
+				item: "bakery:crafting_bowl"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -16.0d
+		}
+		{
+			description: ["The &bWall Bread Display&r can be used to show off your &bBreads&r from the &lBakery&r mod!"]
+			id: "73DC7CDFA4B7E09A"
+			tasks: [{
+				id: "0940F81383673337"
+				item: "bakery:wall_display"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -19.0d
+		}
+		{
+			description: ["This &bItem Display&r will allow you to, well, display any &bitems&r, &das long as they don't have a &aBlock form&r. For example, you can display a &bCupcake&r or a &bPickaxe&r, but not a &bCake&r or a &bDiamond Block&r."]
+			id: "60E911F7FF96F190"
+			tasks: [{
+				id: "2E63BD408343B9FB"
+				item: "bakery:cake_display"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -17.5d
+		}
+		{
+			id: "7AEAE90589665D88"
+			tasks: [{
+				id: "0E867D4508059B0C"
+				item: "bakery:bread_crate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -16.0d
 		}
 	]
 	title: "Culinary Arts"

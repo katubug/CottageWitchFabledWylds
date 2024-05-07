@@ -8,11 +8,7 @@
 	icon: "aether:aether_portal_frame"
 	id: "140E739794BE895E"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 11.25d
-		hover: [ ]
 		image: "enchanted_wilds:textures/questui/bgaether.png"
 		rotation: 0.0d
 		width: 20.0d

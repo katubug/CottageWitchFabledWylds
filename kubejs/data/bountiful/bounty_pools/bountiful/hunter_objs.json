@@ -1,0 +1,441 @@
+{
+	"content": {
+
+        "hunter_obj_valkyrie": {
+            "type": "entity",
+            "timeMult": 6.0,
+            "content": "aether:valkyrie",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 275,
+            "weightMult": 0.2
+        },
+
+        "hunter_obj_endermen": {
+            "type": "entity",
+            "timeMult": 7.0,
+            "content": "minecraft:enderman",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 550,
+            "weightMult": 0.2
+        },
+        
+        "hunter_obj_zombie": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "minecraft:zombie",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 250,
+			"weightMult": 0.2
+		},
+        
+        "hunter_obj_hoglin": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "minecraft:hoglin",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 250
+		},
+        
+        "hunter_obj_husk": {
+			"type": "entity",
+			"timeMult": 8.0,
+			"content": "minecraft:husk",
+            "rarity": "UNCOMMON",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 400
+		},
+        
+        "hunter_obj_magma_cube": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "minecraft:magma_cube",
+            "rarity": "UNCOMMON",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 300
+		},
+        
+        "hunter_obj_phantom": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "minecraft:phantom",
+            "rarity": "UNCOMMON",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 500
+		},
+        
+        "hunter_obj_pig": {
+			"type": "entity",
+			"timeMult": 3.0,
+			"content": "minecraft:pig",
+            "rarity": "UNCOMMON",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 50
+		},
+        
+        "hunter_obj_piglin_brute": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "minecraft:piglin_brute",
+            "rarity": "RARE",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 600
+		},
+        
+        "hunter_obj_pillager": {
+			"type": "entity",
+			"timeMult": 8.0,
+			"content": "minecraft:pillager",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 250
+		},
+        
+        "hunter_obj_rabbit": {
+			"type": "entity",
+			"timeMult": 9.0,
+			"content": "minecraft:rabbit",
+            "rarity": "RARE",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 70
+		},
+        
+        "hunter_obj_ravager": {
+			"type": "entity",
+			"timeMult": 9.0,
+			"content": "minecraft:ravager",
+            "rarity": "EPIC",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000
+		},
+        
+        "hunter_obj_sheep": {
+			"type": "entity",
+			"timeMult": 3.0,
+			"content": "minecraft:sheep",
+            "rarity": "UNCOMMON",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 50
+		},
+        
+        "hunter_obj_shulker": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "minecraft:shulker",
+            "rarity": "RARE",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 700
+		},
+        
+        "hunter_obj_slime": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "minecraft:slime",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 400
+		},
+        
+        "hunter_obj_stray": {
+			"type": "entity",
+			"timeMult": 9.0,
+			"content": "minecraft:stray",
+            "rarity": "UNCOMMON",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 400
+		},
+        
+        "hunter_obj_wither_skeleton": {
+			"type": "entity",
+			"timeMult": 9.0,
+			"content": "minecraft:wither_skeleton",
+            "rarity": "UNCOMMON",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 500
+		},
+        
+        "hunter_obj_bat": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "minecraft:bat",
+            "rarity": "RARE",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800
+		},
+        
+        "hunter_obj_blaze": {
+			"type": "entity",
+			"timeMult": 9.0,
+			"content": "minecraft:blaze",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 600
+		},
+        
+        "hunter_obj_chicken": {
+			"type": "entity",
+			"timeMult": 3.0,
+			"content": "minecraft:chicken",
+            "rarity": "UNCOMMON",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 50
+		},
+        
+        "hunter_obj_cow": {
+			"type": "entity",
+			"timeMult": 3.0,
+			"content": "minecraft:cow",
+            "rarity": "UNCOMMON",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 50
+		},
+        
+        "hunter_obj_drowned": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "minecraft:drowned",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 300
+		},
+        
+        "hunter_obj_guardian": {
+			"type": "entity",
+			"timeMult": 8.0,
+			"content": "minecraft:guardian",
+            "rarity": "RARE",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 250
+		},
+        
+        "hunter_obj_ghast": {
+			"type": "entity",
+			"timeMult": 10.0,
+			"content": "minecraft:ghast",
+            "rarity": "RARE",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 600
+		},
+        
+        "hunter_obj_vanilla_swet": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "aether_redux:vanilla_swet",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 300
+		},
+        
+        "hunter_obj_evil_whirlwind": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "aether:evil_whirlwind",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 500
+		},
+        
+        "hunter_obj_cockatrice": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "aether:cockatrice",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 600
+		},
+        
+        "hunter_obj_blue_swet": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "aether:blue_swet",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 300
+		},
+        
+        "hunter_obj_golden_swet": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "aether:golden_swet",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 300
+		},
+        
+        "hunter_obj_aechor_plant": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "aether:aechor_plant",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 400
+		},
+        
+        "hunter_obj_phyg": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "aether:phyg",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 100
+		},
+        
+        "hunter_obj_sheepuff": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "aether:sheepuff",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 100
+		},
+        
+        "hunter_obj_flying_cow": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "aether:flying_cow",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 100
+		},
+        
+        "hunter_obj_honey_slime": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "the_bumblezone:honey_slime",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 300
+		},
+        
+        "hunter_obj_maw": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "aquamirae:maw",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 300
+		},
+        
+        "hunter_obj_anglerfish": {
+			"type": "entity",
+			"timeMult": 10.0,
+			"content": "aquamirae:anglerfish",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 500
+		},
+        
+        "hunter_obj_maze_mother": {
+			"type": "entity",
+			"timeMult": 10.0,
+			"content": "aquamirae:maze_mother",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 900
+		},
+        
+        "hunter_obj_eel": {
+			"type": "entity",
+			"timeMult": 10.0,
+			"content": "aquamirae:eel",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 900
+		}
+    }
+}

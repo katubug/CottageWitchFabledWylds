@@ -8,11 +8,7 @@
 	icon: "minecraft:honeycomb"
 	id: "5AD825CF5F17FD1D"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 11.25d
-		hover: [ ]
 		image: "enchanted_wilds:textures/questui/bgbumblezone.png"
 		rotation: 0.0d
 		width: 20.0d

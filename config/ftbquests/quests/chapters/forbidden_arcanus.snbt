@@ -7,11 +7,7 @@
 	icon: "forbidden_arcanus:arcane_crystal"
 	id: "28D81A0777D8ADD7"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 11.25d
-		hover: [ ]
 		image: "enchanted_wilds:textures/questui/bgforbiddenarcanus.png"
 		rotation: 0.0d
 		width: 20.0d

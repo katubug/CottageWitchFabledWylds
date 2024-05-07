@@ -9,11 +9,7 @@
 	id: "5775D7E4FB7F551A"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgexplorating.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -21,11 +17,7 @@
 			y: 13.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgdungeons.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -33,11 +25,7 @@
 			y: -4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgstructures.png"
 			rotation: 0.0d
 			width: 17.0d
@@ -45,11 +33,7 @@
 			y: 4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/bgwaystones.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -57,11 +41,7 @@
 			y: -4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "enchanted_wilds:textures/questui/aquamiraebg.png"
 			rotation: 0.0d
 			width: 10.0d

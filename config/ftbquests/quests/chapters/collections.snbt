@@ -8,11 +8,7 @@
 	icon: "minecraft:bundle"
 	id: "5A00BD04AD81F733"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 7.0d
-		hover: [ ]
 		image: "enchanted_wilds:textures/questui/bgcollections.png"
 		rotation: 0.0d
 		width: 11.0d
@@ -620,18 +616,8 @@
 					type: "item"
 				}
 				{
-					id: "752EDFBD96661C4E"
-					item: "aether_redux:sweetblossom"
-					type: "item"
-				}
-				{
 					id: "276C0C1666CAD0C1"
 					item: "deep_aether:echaisy"
-					type: "item"
-				}
-				{
-					id: "62E86D1210E59C94"
-					item: "aether_redux:frosted_purple_flower"
 					type: "item"
 				}
 				{
@@ -749,11 +735,6 @@
 				{
 					id: "57899B57853C1B04"
 					item: "aether_redux:iridia"
-					type: "item"
-				}
-				{
-					id: "0BC036029A6DA647"
-					item: "aether_redux:fieldsprout_petals"
 					type: "item"
 				}
 			]
@@ -879,11 +860,6 @@
 					item: "regions_unexplored:tassel"
 					type: "item"
 				}
-				{
-					id: "68736E9DECE51AEB"
-					item: "aether_redux:gilded_white_flower"
-					type: "item"
-				}
 			]
 			title: "Flower Picking: Black and White"
 			x: -1.0d
@@ -975,11 +951,6 @@
 					type: "item"
 				}
 				{
-					id: "4FDE78ADB3F9A756"
-					item: "aether_redux:blighted_fungi"
-					type: "item"
-				}
-				{
 					id: "73A0748C55A74491"
 					item: "deep_aether:lightcap_mushrooms"
 					type: "item"
@@ -987,16 +958,6 @@
 				{
 					id: "17AA08DC7CBF21D4"
 					item: "aether_redux:cloudcap_mushling"
-					type: "item"
-				}
-				{
-					id: "32BECBABDB7A92F7"
-					item: "aether_redux:tall_cloudcap"
-					type: "item"
-				}
-				{
-					id: "1B6BB31B6D5E317B"
-					item: "aether_redux:firecap"
 					type: "item"
 				}
 			]

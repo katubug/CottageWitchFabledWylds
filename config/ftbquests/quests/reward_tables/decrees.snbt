@@ -102,6 +102,42 @@
 				}
 			}
 		}
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"lepidopterist\"]}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"moneychanger\"]}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"monster_hunter\"]}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{\"ids\":[\"plushies\"]}"
+				}
+			}
+		}
 	]
 	title: "Decrees"
 }

@@ -1,3 +1,4 @@
+/*
 EntityEvents.hurt(event => {
     const {entity, source,level} = event
     if(!entity.isPlayer()) return
@@ -36,3 +37,4 @@ EntityEvents.hurt(event => {
         })
     }
 })
+*/

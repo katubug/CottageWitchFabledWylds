@@ -892,6 +892,30 @@ event.add('forge:aquafish',
         'unusualprehistory:anuro_eggs'
         )
 
+    //Creeper Drop Music Discs
+    event.add('minecraft:creeper_drop_music_discs',
+    'the_bumblezone:music_disc_knowing_renren',
+    'the_bumblezone:music_disc_bee_ware_of_the_temple',
+    'the_bumblezone:music_disc_bee_laxing_with_the_hom_bees',
+    'the_bumblezone:music_disc_la_bee_da_loca',
+    'the_bumblezone:music_disc_honey_bee_rat_faced_boy',
+    'the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov',
+    'aether_redux:slider_music_disc',
+    'spawn:music_disc_rot',
+    'eidolon:music_disc_parousia',
+    'create_connected:music_disc_interlude',
+    'create_connected:music_disc_elevator',
+    'deep_aether:music_disc_nabooru',
+    'deep_aether:music_disc_a_morning_wish',
+    'aquamirae:music_disc_forsaken_drownage',
+    'aquamirae:music_disc_horizon',
+    'quark:music_disc_endermosh',
+    'the_bumblezone:music_disc_a_last_first_last',
+    'the_bumblezone:music_disc_life_renren',
+    'the_bumblezone:music_disc_radiance_renren',
+    'species:music_disc_dial'
+    )
+
 })
 
 ServerEvents.tags('entity_type', event => {
@@ -908,6 +932,15 @@ ServerEvents.tags('entity_type', event => {
         'unusualprehistory:baby_rex',
         'unusualprehistory:baby_smilodon'
     )
+
+    event.add('forge:special_creepers',
+    'creeperoverhaul:badlands_creeper'
+    )
+
+    event.add('forge:special_endermen',
+    'endermanoverhaul:badlands_enderman',
+    'endermanoverhaul:coral_enderman'
+    )
 })
 
 ServerEvents.tags('block', event => {
@@ -915,6 +948,52 @@ ServerEvents.tags('block', event => {
     //Hot Blocks
     //Farmer's Delight
     event.add('farmersdelight:heat_sources', 
+    'bakery:brick_stove',
+    'bakery:cobblestone_stove',
+    'bakery:deepslate_stove',
+    'bakery:end_stove',
+    'bakery:granite_stove',
+    'bakery:mud_stove',
+    'bakery:quartz_stove',
+    'bakery:red_nether_bricks_stove',
+    'bakery:sandstone_stove',
+    'bakery:stone_bricks_stove',
+    'candlelight:bamboo_stove',
+    'candlelight:basalt_stove',
+    'candlelight:cobblestone_stove',
+    'candlelight:deepslate_stove',
+    'candlelight:end_stove',
+    'candlelight:granite_stove',
+    'candlelight:mud_stove',
+    'candlelight:quartz_stove',
+    'candlelight:red_nether_bricks_stove',
+    'candlelight:sandstone_stove',
+    'candlelight:stone_bricks_stove',
+    'create:blaze_burner',
+    'ends_delight:end_stove',
+    'fantasyfurniture:bone/skeleton/oven',
+    'fantasyfurniture:bone/wither/oven',
+    'fantasyfurniture:necrolord/oven',
+    'fantasyfurniture:nordic/oven',
+    'fantasyfurniture:royal/oven',
+    'fantasyfurniture:venthyr/oven',
+    'farmersdelight:stove',
+    'handcrafted:oven',
+    'herbalbrews:stove',
+    'meadow:stove_tiles',
+    'meadow:stove_tiles_lid',
+    'meadow:stove_tiles_wood',
+    'minecraft:magma_block',
+    'nethersdelight:blackstone_stove',
+    'caupona:mud_kitchen_stove',
+    'caupona:stone_brick_kitchen_stove',
+    'caupona:brick_kitchen_stove',
+    'caupona:opus_incertum_kitchen_stove',
+    'caupona:opus_latericium_kitchen_stove'
+    )
+
+    //Create
+    event.add('create:passive_boiler_heaters', 
     'bakery:brick_stove',
     'bakery:cobblestone_stove',
     'bakery:deepslate_stove',

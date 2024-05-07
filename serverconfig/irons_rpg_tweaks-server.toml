@@ -74,4 +74,8 @@
 	splashPotionCooldown = 0.5
 	#Item Cooldown in seconds when throwing a lingering potion. Default: 1.5
 	lingeringPotionCooldown = 1.5
+	#Multiplier to the time taken to eat food. Default: 1.2
+	eatTimeMultiplier = 1.2
+	#Multiplier to the time taken to drink potions. Default: 0.8
+	potionDrinkTimeMultiplier = 0.8
 

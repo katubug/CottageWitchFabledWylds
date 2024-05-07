@@ -3,7 +3,7 @@
     "entries": [],
     "isWhitelist": false
   },
-  "trackCount": 32,
+  "trackCount": 51,
   "resetOnDeath": true,
   "limitProgressionToSurvival": false,
   "minFoodsToActivate": 0,
@@ -18,8 +18,8 @@
     {
       "threshold": 5,
       "benefit": {
-        "effect": "minecraft:strength",
-        "value": 0
+        "attribute": "minecraft:generic.max_health",
+        "value": 0.2
       }
     },
     {
@@ -46,22 +46,29 @@
     {
       "threshold": 18,
       "benefit": {
-        "effect": "minecraft:strength",
-        "value": 1
+        "attribute": "minecraft:generic.max_health",
+        "value": 4
       }
     },
     {
       "threshold": 25,
       "benefit": {
         "attribute": "minecraft:generic.max_health",
-        "value": 4
+        "value": 6
       }
     },
     {
       "threshold": 31,
       "benefit": {
         "attribute": "minecraft:generic.max_health",
-        "value": 6
+        "value": 10
+      }
+    },
+    {
+      "threshold": 47,
+      "benefit": {
+        "attribute": "minecraft:generic.max_health",
+        "value": 12
       }
     }
   ],

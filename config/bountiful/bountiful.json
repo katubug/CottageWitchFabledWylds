@@ -9,6 +9,6 @@
         "bounty_decrees/other/*"
     ],
     "objectiveModifier": 0,
-    "maxNumRewards": 2,
+    "maxNumRewards": 3,
     "showCompletionToast": true
 }

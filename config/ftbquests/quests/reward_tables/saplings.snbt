@@ -11,7 +11,7 @@
 		{ item: "minecraft:oak_sapling" }
 		{ item: "minecraft:mangrove_propagule" }
 		{ item: "vinery:apple_tree_sapling" }
-		{ item: "vinery:cherry_sapling" }
+		{ item: "vinery:dark_cherry_sapling" }
 		{ item: "mysticsbiomes:jacaranda_sapling" }
 		{ item: "mysticsbiomes:yellow_maple_sapling" }
 		{ item: "mysticsbiomes:orange_maple_sapling" }

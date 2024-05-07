@@ -1,0 +1,62 @@
+{
+	"content": {
+
+		"all_rew_sun_reward": {
+			"type": "item",
+			"content": "numismatics:sun",
+            "rarity": "LEGENDARY",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 64000
+		},
+		"all_rew_crown_reward": {
+			"type": "item",
+			"content": "numismatics:crown",
+            "rarity": "RARE",
+			"amount": {
+				"min": 2,
+				"max": 16
+			},
+			"unitWorth": 8000
+		},
+		"all_rew_cog_reward": {
+			"type": "item",
+			"content": "numismatics:cog",
+			"amount": {
+				"min": 4,
+				"max": 32
+			},
+			"unitWorth": 1000
+		},
+		"all_rew_sprocket_reward": {
+			"type": "item",
+			"content": "numismatics:sprocket",
+			"amount": {
+				"min": 4,
+				"max": 32
+			},
+			"unitWorth": 250
+		},
+		"all_rew_bevel_reward": {
+			"type": "item",
+			"content": "numismatics:bevel",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 125
+		},
+		"all_rew_spur_reward": {
+			"type": "item",
+			"content": "numismatics:spur",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 64
+		}
+
+	}
+}

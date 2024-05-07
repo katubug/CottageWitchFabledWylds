@@ -1,0 +1,12 @@
+{
+  "type": "abyssal_decor:starfish_structure_feature",
+  "config": {
+    "structure": "abyssal_decor:starfishstructure",
+    "ignored_blocks": "minecraft:structure_block"
+  },
+  "placement": [
+    {
+    "count": 0
+    }
+  ]
+}

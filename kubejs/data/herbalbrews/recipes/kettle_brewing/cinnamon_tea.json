@@ -1,0 +1,23 @@
+{
+    "type": "herbalbrews:kettle_brewing",
+    "experience": 0.8,
+    "ingredients": [
+      {
+        "item": "herbalbrews:dried_black_tea"
+      },
+      {
+        "item": "minecraft:water_bucket"
+      },
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "abyssal_decor:cinnamon_stick"
+      }
+    ],
+    "result": {
+      "item": "abyssal_decor:cinnamon_tea"
+    }
+  }
+
+  

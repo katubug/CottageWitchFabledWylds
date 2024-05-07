@@ -1,0 +1,9 @@
+{
+  "type": "abyssal_decor:clam_pearl_structure_feature",
+  "config": {
+    "structure": "abyssal_decor:clamstructure",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block"
+  }
+}

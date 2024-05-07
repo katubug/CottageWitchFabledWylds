@@ -41,7 +41,7 @@
 	end_day = 31
 
 [trick_or_treating_time]
-	#Nota that all these configs will not take effect until the game is reloaded
+	#Note that all these configs will not take effect until the game is reloaded
 	#Time of day at which baby villagers will start trick-or-treating
 	#Range: 0 ~ 24000
 	start_time = 12000

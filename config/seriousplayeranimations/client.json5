@@ -123,5 +123,13 @@
 	"eating": {
 		"enabled": true,
 		"speedMultiplier": 1.0
+	},
+	"shield": {
+		"enabled": true,
+		"speedMultiplier": 1.0
+	},
+	"trident": {
+		"enabled": true,
+		"speedMultiplier": 1.0
 	}
 }

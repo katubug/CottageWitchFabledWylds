@@ -8,11 +8,7 @@
 	icon: "eidolon:codex"
 	id: "3772B68D6D8DD690"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 14.0625d
-		hover: [ ]
 		image: "enchanted_wilds:textures/questui/bgeidolon.png"
 		rotation: 0.0d
 		width: 25.0d

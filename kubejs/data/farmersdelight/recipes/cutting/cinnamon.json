@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "abyssal_decor:cinnamon_bush"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "abyssal_decor:cinnamon_stick",
+      "count": 2
+    }
+  ]
+}

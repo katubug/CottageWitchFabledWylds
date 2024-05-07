@@ -1,0 +1,10 @@
+{
+	"objectives": [
+		"_all_objs",
+        "butterfly_objs"
+	],
+	"rewards": [
+		"butterfly_rews"
+	],
+	"name": "Lepidopterist"
+}

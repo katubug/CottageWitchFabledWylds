@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "crittersandcompanions:pearl_necklace_1"
+        },
+        {
+            "tag": "forge:pearls"
+        },
+        {
+            "item": "minecraft:heart_of_the_sea"
+        }
+    ],
+    "result": {
+        "item": "crittersandcompanions:pearl_necklace_2",
+        "count": 1
+    }
+}

@@ -91,8 +91,6 @@ ServerEvents.recipes(event => {
         {output: 'galosphere:raw_silver'},
         {output: 'galosphere:silver_block'},
         {output: 'galosphere:raw_silver_block'},
-        {output: 'earthmobsmod:ruby_block'},
-        {output: 'ruby_exchange:ruby_ore'},
         {output: 'functionalstorage:armory_cabinet'},
         {output: 'delightful:jelly_bottle'},
         {output: 'delightful:glow_jelly_bottle'},
@@ -226,8 +224,6 @@ ServerEvents.recipes(event => {
         {output: 'delightful:deluxe_cheeseburger'},
         {output: 'luphieclutteredmod:luphie_mermaid_pearl'},
         {output: 'meadow:oil_lantern'},
-        //{output: 'buildinggadgets:template_manager'},
-        //{output: 'charginggadgets:charging_station'},
         {output: 'beautify:hanging_pot'},
         {output: 'pipez:item_pipe'},
         {output: 'tarotcards:tarot_deck'},
@@ -261,6 +257,10 @@ ServerEvents.recipes(event => {
         {output: 'dawnoftimebuilder:maize_flower_pot'},
         {id: 'abyssal_decor:cinnamon_tea_recipe'},
         {output: 'minecraft:cake'},
+        {output: 'sophisticatedbackpacks:feeding_upgrade'}, 
+        {output: 'sophisticatedbackpacks:advanced_feeding_upgrade'},
+        //{output: 'buildinggadgets:template_manager'},
+        //{output: 'charginggadgets:charging_station'},
         
     ];
     

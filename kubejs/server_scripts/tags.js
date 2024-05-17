@@ -916,6 +916,15 @@ event.add('forge:aquafish',
     'species:music_disc_dial'
     )
 
+    // Pearl tagging
+    event.add('forge:pearls',
+    'crittersandcompanions:pearl'
+    )
+
+    //Remove Quark Rope Tags
+    event.removeAllTagsFrom('quark:rope')
+    event.removeAllTagsFrom('supplementaries:rope')
+
 })
 
 ServerEvents.tags('entity_type', event => {

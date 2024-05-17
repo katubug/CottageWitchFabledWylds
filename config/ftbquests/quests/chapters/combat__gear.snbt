@@ -3583,6 +3583,8 @@
 				"The very talented witch may even find that they can &afly under the water&r for a time. Although there's no telling what happens to a soggy broom."
 				""
 				"To &amount your broom&r, &6right click to place it&r and then &6right click to hop on&r. You can move upwards with &6Spacebar&r, downwards with &6the s key&r, and dismount with &6left shift&r. To &apick up your broom&r again, &6shift and right click it&r."
+				""
+				"&dWarning: This item does not work well in multiplayer!&r The controls malfunction and it's difficult to move at all."
 			]
 			id: "4F6D540C081BE329"
 			rewards: [{

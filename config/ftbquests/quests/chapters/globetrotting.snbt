@@ -830,8 +830,8 @@
 			description: ["Visiting different cities will enrich you, both as a person and financially."]
 			id: "3DA0BA730A8040BE"
 			rewards: [{
-				id: "19CB10B4675EC48A"
-				item: "ruby_exchange:ruby_block"
+				id: "2E6210A5B62156DA"
+				item: "numismatics:crown"
 				type: "item"
 			}]
 			shape: "octagon"

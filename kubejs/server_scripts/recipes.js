@@ -1261,6 +1261,36 @@ ServerEvents.recipes(event => {
             }
     )
 
+    //Feeding Upgrades
+    event.shaped(
+        Item.of('sophisticatedbackpacks:advanced_feeding_upgrade'),
+            [
+                ' A ',
+                'BCB',
+                'DDD'
+            ], {
+                A: 'minecraft:diamond',
+                B: 'minecraft:gold_ingot',
+                C: 'sophisticatedbackpacks:feeding_upgrade',
+                D: 'minecraft:redstone_block'
+            }
+    )
+
+    event.shaped(
+        Item.of('sophisticatedbackpacks:feeding_upgrade'),
+            [
+                ' A ',
+                'BCD',
+                ' E '
+            ], {
+                A: 'minecraft:golden_carrot',
+                B: 'minecraft:enchanted_golden_apple',
+                C: 'solonion:golden_lunchbox',
+                D: '#forge:ender_pearls',
+                E: 'minecraft:glistering_melon_slice'
+            }
+    )
+
     //Smelting Recipe DNA to Ooze
     event.smelting('unusualprehistory:organic_ooze', '#unusualprehistory:dna_flasks')
     event.smelting('brewery:dried_corn', '#forge:crops/corn')
@@ -1327,7 +1357,7 @@ ServerEvents.recipes(event => {
     // Blast 1 iron ingot into 10 nuggets in a Blast Furnace: 
     event.blasting('create:zinc_block', 'create:raw_zinc_block')
 
-    // All Recipe Removal
+    // Plushie Duplication
     let plushDupe = [
         'perfectplushies:rabbit_plushie',
         'perfectplushies:frog_plushie',

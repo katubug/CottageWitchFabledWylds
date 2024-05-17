@@ -7,7 +7,7 @@
 	["Tarot Cards".Loot]
 		#Chance a tarot card appears in default loot (0.75 = 75%)(1.0 = there will always be a single tarot card in chests)
 		#Range: 0.0 ~ 1.0
-		default_loot_chance = 0.2
+		default_loot_chance = 0.1
 		#If Tarot Cards should be added to the default loot tables specified in data
 		do_loot_generation = true
 
@@ -17,46 +17,46 @@
 		death_damagebonus = 0.2
 		#Percentage chance of dealing double damage (0.5 = 50%)
 		#Range: 0.0 ~ 1.0
-		judgement_damagechance = 0.15
+		judgement_damagechance = 0.1
 		#Percentage of fall damage negated (0.5 = 50%)
 		#Range: 0.0 ~ 1.0
-		the_tower_damagenegation = 1.0
+		the_tower_damagenegation = 0.75
 		#Percentage of damage returned to the attacker (1.0 = 100%)
 		#Range: 0.0 ~ 100.0
 		justice_damagemultiplier = 0.25
 		#Amplifier for effect (1 = II)
 		#Range: 0 ~ 20
-		strength_amplifier = 1
+		strength_amplifier = 0
 		#Multiplier for hunger gained (0.5 = -50%, 0 = no change)
 		#Range: 0.0 ~ 1.0
-		temperance_reduction = 0.25
+		temperance_reduction = 0.2
 		#Percentage increase of base speed (0.5 = +50%)
 		#Range: 0.0 ~ 100.0
-		the_chariot_speedboost = 0.2
+		the_chariot_speedboost = 0.3
 		#Amplifier for effect (1 = II)
 		#Range: 0 ~ 20
-		the_devil_weaknessamplifier = 2
+		the_devil_weaknessamplifier = 0
 		#Amplifier for effect (1 = II)
 		#Range: 0 ~ 20
-		the_emperpor_heroofvillagebonus = 2
+		the_emperpor_heroofvillagebonus = 0
 		#How close animals need to be to set lovemode
 		#Range: 0.0 ~ 256.0
-		the_empress_range = 3.0
+		the_empress_range = 2.0
 		#Amplifier for effect (2 = III)
 		#Range: 0 ~ 100
-		the_fool_jumpboost = 2
+		the_fool_jumpboost = 1
 		#How much of the damage is converted to experience
 		#Range: 0.0 ~ 1.0
-		the_hanged_man_xpratio = 0.5
+		the_hanged_man_xpratio = 0.2
 		#How far away the player must be from allies to activate
 		#Range: 0.0 ~ 256.0
 		the_hermit_allyrange = 10.0
 		#How much armor is added when away from allies
 		#Range: 0.0 ~ 100.0
-		the_hermit_armorbonus = 10.0
+		the_hermit_armorbonus = 5.0
 		#Percentage increase of experience (2 = +200%)
 		#Range: 1.0 ~ 100.0
-		the_hierophant_xpboost = 1.5
+		the_hierophant_xpboost = 1.0
 		#Stops upgrading enchantment books when they are at max level
 		the_highpriestess_capenchants = true
 		#How much each level of enchantment costs to upgrade (cost = enchantment_level * this_config)
@@ -67,7 +67,7 @@
 		the_lovers_range = 5.0
 		#Amplifier for effect (1 = II)
 		#Range: 0 ~ 20
-		the_lovers_regenamplifier = 2
+		the_lovers_regenamplifier = 0
 		#Percentage increase of reach distance (0.5 = +50%)
 		#Range: 0.0 ~ 100.0
 		the_star_reachboost = 0.5
@@ -76,11 +76,14 @@
 		the_sun_healthboost = 0.25
 		#How close non-allies need to be to apply slowness
 		#Range: 0.0 ~ 256.0
-		the_world_range = 3.0
+		the_world_range = 2.0
 		#Amplifier for effect (9 = X)
 		#Range: 0 ~ 20
-		the_world_slownessamplifier = 3
+		the_world_slownessamplifier = 0
 		#How much luck (not fortune) is added to the player
 		#Range: 0.0 ~ 100.0
-		wheel_of_fortune_luckbonus = 3.0
+		wheel_of_fortune_luckbonus = 1.5
+		#Max amount of experience that can be obtained from an instance of damage
+		#Range: > 0
+		the_hanged_man_xpcap = 25
 

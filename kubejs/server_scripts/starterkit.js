@@ -11,5 +11,10 @@ PlayerEvents.loggedIn(event => {
       event.player.give(Item.of('reliquary:mob_charm', '{Damage:0,entity:"minecraft:witch"}'))
       event.player.give('reliquary:witch_hat')
       event.player.give('comforts:sleeping_bag_cyan')
-       }
+      /*event.server.scheduleInTicks(20 * 20, callback => {
+        let cmd = `/ftbquests open_book`
+        console.log(cmd)
+        event.player.runCommand(cmd)
+    })*/
+      }
   })

@@ -130,17 +130,6 @@
 					}
 					type: "item"
 				}
-				{
-					auto: "no_toast"
-					command: "/ftbquests open_book"
-					elevate_perms: true
-					icon: "ftbquests:book"
-					id: "4E92684965F31076"
-					silent: true
-					team_reward: false
-					title: "Open Quest Book"
-					type: "command"
-				}
 			]
 			shape: "rsquare"
 			size: 1.5d

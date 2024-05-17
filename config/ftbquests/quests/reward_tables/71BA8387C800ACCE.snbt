@@ -1,0 +1,25 @@
+{
+	id: "71BA8387C800ACCE"
+	loot_size: 1
+	order_index: 45
+	rewards: [
+		{ item: "numismatics:cyan_card" }
+		{ item: "numismatics:purple_card" }
+		{ item: "numismatics:blue_card" }
+		{ item: "numismatics:brown_card" }
+		{ item: "numismatics:green_card" }
+		{ item: "numismatics:red_card" }
+		{ item: "numismatics:black_card" }
+		{ item: "numismatics:black_card" }
+		{ item: "numismatics:light_gray_card" }
+		{ item: "numismatics:white_card" }
+		{ item: "numismatics:orange_card" }
+		{ item: "numismatics:magenta_card" }
+		{ item: "numismatics:light_blue_card" }
+		{ item: "numismatics:yellow_card" }
+		{ item: "numismatics:lime_card" }
+		{ item: "numismatics:pink_card" }
+		{ item: "numismatics:gray_card" }
+	]
+	title: "Cards"
+}

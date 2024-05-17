@@ -131,7 +131,6 @@ JEIEvents.hideItems(event => {
         'perfectplushies:sirjain_plushie_rare',
         'relics:shadow_glaive',
         'relics:infinity_ham',
-        'earthmobsmod:ruby',
         'easy_villagers:iron_farm',
         'moblassos:emerald_lasso',
         'moblassos:contract',
@@ -144,7 +143,6 @@ JEIEvents.hideItems(event => {
         'galosphere:raw_silver',
         'galosphere:silver_block',
         'galosphere:raw_silver_block',
-        'earthmobsmod:ruby_block',
         'functionalstorage:armory_cabinet',
         'delightful:jelly_bottle',
         'delightful:glow_jelly_bottle',
@@ -273,7 +271,8 @@ JEIEvents.hideItems(event => {
         'abyssal_decor:fever_blossom_crop_1',
         'abyssal_decor:fever_blossom',
         'abyssal_decor:fever_blossom_tea',
-        'galosphere:spectre_flare'
+        'galosphere:spectre_flare',
+        'supplementaries:rope'
 
       ];
     

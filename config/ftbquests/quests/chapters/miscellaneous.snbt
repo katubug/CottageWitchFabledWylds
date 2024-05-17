@@ -114,8 +114,8 @@
 					type: "choice"
 				}
 				{
-					id: "0C1984AA729F6517"
-					item: "plushies:white_fox"
+					id: "102CFE028AB35D45"
+					item: "plushies:white_fox_plushie"
 					type: "item"
 				}
 			]
@@ -199,7 +199,7 @@
 			description: [
 				"&bEmeralds&r! These are the bread and butter of the &eVillagers&r which live in your world. You will need these to obtain rare items such as the new &bEnd Portal Eyes&r."
 				"To find a &alist of all villager professions and their job blocks&r, hover over an &bEmerald&r and &6press \"u\"&r, then &6choose the top tab with a villager face&r."
-				"{image:cottagewitch:textures/villagers.png width:200 height:200 align:1}"
+				"{image:enchanted_wilds:textures/questimages/villagers.png width:200 height:200 align:1}"
 			]
 			id: "70C4F17973F6492E"
 			rewards: [
@@ -210,10 +210,9 @@
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "193851DBE5D9BA6B"
-					table_id: 6941837675484043489L
-					type: "loot"
+					id: "78BE98CC45DEE6DF"
+					item: "create:precision_mechanism"
+					type: "item"
 				}
 			]
 			shape: "rsquare"
@@ -558,35 +557,57 @@
 		{
 			dependencies: ["70C4F17973F6492E"]
 			description: [
-				"The &bRuby&r is an item which can be used as a currency on multiplayer servers."
+				"The &bVendor&r is a block which allows players to &atrade items for currency&r in multiplayer."
 				""
-				"The &bExchange Block&r allows you to select an item to be sold and for how many Rubies. Once placed, &6shift click&r once to claim the block. Then, &6shift click again&r to access its interface."
+				"You can &6right click the vendor&r to buy the contents, as long as you have either &bexact change&r or a &bCard&r in your inventory. Look at the tooltip to determine &awhat you're buying and how much it costs&r."
 				""
-				"You &dcannot use the tangible &bRuby&r item at an &bExchange Block&r, however. It needs to be converted to currency by &6holding a &bRuby Card&6 and right clicking. All &bRubies&r in your inventory will be added to your account! Then you can spend them. You can also &awithdraw Rubies&r from the card by &6shift right clicking&r while holding it."
+				"{image:enchanted_wilds:textures/questimages/numibuy.png width:100 height:90 align:1 fit:true}"
 				""
-				"Don't worry if you lose your card! Your &bRubies&r are &atied to your player data&r, and the card just allows you to access them easily. You can &aview your balance&r by &6holding the Card&r and looking in the &abottom right hand side&r of your screen."
+				"See the next page to view how to &aset up your &bVendor&r to buy or sell!"
+				"{@pagebreak}"
+				"{image:enchanted_wilds:textures/questimages/numivendor.png width:100 height:80 align:1 fit:true}"
+				""
+				"&eA&r: These sections allow you to determine the price of the item you're selling. For example, something could cost 1 &bCrown&r and 2 &bSpurs&r."
+				""
+				"&bB&r: This section is where your profits will go if you don't have a card inserted to transfer your profits directly to your bank."
+				""
+				"&cC&r: This box determines what you're selling. You can place up to a stack of items in this slot. This slot will &adisplay the item&r, but it will show as &dout of stock if slot E isn't filled&r. If you wish to sell a bundle of items, you can put it inside a &bShulker Box&r. If you use a &bSack&r or similar, the &dcontents will not be displayed to your customers&r."
+				""
+				"&9D&r: You can place a &blinked Card&r in this slot to have all profits deposit straight into your &bBank Account&r."
+				""
+				"&dE&r: This section is where you place your &ainventory of items&r to sell."
+				""
+				"&aF&r: This section determines whether you are &abuying or selling&r. "
 			]
 			id: "5C5768D4346FD3FE"
 			rewards: [
 				{
-					id: "7D1A90BCF6757E2D"
-					item: "ruby_exchange:exchange_block"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "627DA67DC0656753"
+					table_id: 8195007091153349838L
+					type: "choice"
 				}
 				{
-					id: "054DEDBAFB3ECBEF"
-					item: "ruby_exchange:ruby_card"
+					id: "4587C4D3AEE2CA2B"
+					item: {
+						Count: 1b
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"moneychanger\"]}"
+						}
+					}
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [{
-				id: "31ADB892314E413F"
-				item: "ruby_exchange:ruby"
+				id: "26DD428F3FBAA537"
+				item: "numismatics:vendor"
 				type: "item"
 			}]
 			title: "Multiplayer Bartering"
-			x: 10.0d
-			y: 2.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -3213,6 +3234,28 @@
 			title: "Sending Packages"
 			x: -1.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["5C5768D4346FD3FE"]
+			description: [
+				"The &bBank Terminal&r is a block which allows you to keep a &abank account&r. Once placed, it will automatically be &abound to the user&r. When using a linked &bCard&r, it will &awithdraw and deposit currency&r automatically."
+				"{image:enchanted_wilds:textures/questimages/numibanker.png width:100 height:80 align:1 fit:true}"
+			]
+			id: "39AD0DDC4695E2D4"
+			rewards: [{
+				count: 5
+				id: "477C018B8C382B55"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58E48F98C3E22B3E"
+				item: "numismatics:bank_terminal"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
 		}
 	]
 	title: "Miscellaneous"

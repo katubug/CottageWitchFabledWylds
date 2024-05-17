@@ -1,0 +1,5 @@
+
+[logbegone]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Failed loading villager", "Exception caught when registering villager", "missing model for variant", "Expected name to be an item", "Missing textures in model", "Could not apply pet overlays layer"]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels "]
+

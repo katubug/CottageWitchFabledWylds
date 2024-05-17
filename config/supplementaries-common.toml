@@ -104,7 +104,7 @@
 		#Makes sliding down ropes as fast as free falling, still negating fall damage
 		slide_on_fall = true
 		#In case you want to disable supplementaries ropes you can specify here another mod rope and they will be used for rope arrows and in mineshafts instead
-		rope_override = "supplementaries:rope"
+		rope_override = "farmersdelight:rope"
 		#Enables horizontal placement of ropes
 		horizontal_ropes = true
 

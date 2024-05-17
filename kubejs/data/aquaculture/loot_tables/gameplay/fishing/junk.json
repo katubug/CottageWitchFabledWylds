@@ -48,7 +48,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "ruby_exchange:ruby",
+          "name": "numismatics:cog",
           "conditions": [
             {
               "condition": "minecraft:weather_check",

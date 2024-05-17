@@ -1,8 +1,11 @@
 {
-  "configVersion": 1,
-  "maxNbOfEffects": 3,
-  "brewingTime": 140,
-  "normalPotionIngredient": "minecraft:nether_wart",
-  "splashPotionIngredient": "minecraft:gunpowder",
-  "lingeringPotionIngredient": "minecraft:dragon_breath"
+  "configVersion": 3,
+  "cauldronInventorySize": 4,
+  "litItems": [
+    "minecraft:flint_and_steel",
+    "minecraft:fire_charge"
+  ],
+  "dowsingItems": [
+    "minecraft:water_bucket"
+  ]
 }

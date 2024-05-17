@@ -112,11 +112,6 @@
 					item: "deep_aether:sky_tulips"
 					type: "item"
 				}
-				{
-					id: "6A481E91246BA8FA"
-					item: "bovinesandbuttercups:freesia"
-					type: "item"
-				}
 			]
 			title: "Flower Picking: Red"
 			x: -3.0d
@@ -176,11 +171,6 @@
 				{
 					id: "32BBD7CA6C249C5D"
 					item: "meadow:fire_lily"
-					type: "item"
-				}
-				{
-					id: "69F330C0CE0907B8"
-					item: "bovinesandbuttercups:bird_of_paradise"
 					type: "item"
 				}
 				{
@@ -361,11 +351,6 @@
 					type: "item"
 				}
 				{
-					id: "2F8D8A1CDB98309A"
-					item: "bovinesandbuttercups:buttercup"
-					type: "item"
-				}
-				{
 					id: "25854DCD30FD7877"
 					item: "deep_aether:golden_flower"
 					type: "item"
@@ -399,11 +384,6 @@
 				{
 					id: "35FFD1D149C9A9C2"
 					item: "regions_unexplored:brown_snowbelle"
-					type: "item"
-				}
-				{
-					id: "069FA964DCB4B5C6"
-					item: "bovinesandbuttercups:limelight"
 					type: "item"
 				}
 			]
@@ -495,11 +475,6 @@
 				{
 					id: "59CB2F84C58E6115"
 					item: "regions_unexplored:cobalt_earlight"
-					type: "item"
-				}
-				{
-					id: "2B244079E5DAB200"
-					item: "bovinesandbuttercups:chargelily"
 					type: "item"
 				}
 				{
@@ -618,11 +593,6 @@
 				{
 					id: "276C0C1666CAD0C1"
 					item: "deep_aether:echaisy"
-					type: "item"
-				}
-				{
-					id: "3041A0709B5C630C"
-					item: "bovinesandbuttercups:hyacinth"
 					type: "item"
 				}
 				{

@@ -1,0 +1,63 @@
+[Config and Script Changes]:
+
+- better fps render distance now uses a stretch rate of 1 instead of 2. (Thanks, Xaiiki!)
+- DoesPotatoTick will no longer show a message on login. If your farms break, check its config.
+- Deleted some broken quest rewards and objectives.
+- Began replacing the Ruby Exchange quests with Create Numismatics.
+- Added a ton of spam to Log Begone
+- Zombies will no longer target Turtle eggs
+- Configured Servercore (Thanks, Juanko!)
+- End Endermen are no longer allowed to spawn, because they suck!
+- Spawn's Ants have had their spawn rate reduced by 10.
+- Mobs should now correctly spawn in Mystic's Biomes Lush Oasis.
+- Mystic's Biomes Rainbow Chickens can now spawn. Their Strawberry Cows can spawn in more biomes now, as well.
+- Added spawn rates and biomes for Critters and Companions creatures.
+- Swampier Swamps' Dragonflies no longer spawn, in favor of the ones from Critters and Companions.
+- Aerwhales can now spawn in the end.
+- Trimmed down what ropes will appear in the world, in favor of Farmer's Delight ropes.
+- [Tarot Cards are now in line with the mods of the previous CW packs]:
+- Tarot cards will now drop slightly more rarely.
+- The Judgment Card now deals 10% damage instead of 15%
+- The Tower's Fall Damage Negation has been changed from 100% to 75%
+- The Strength's bonus will now grant Strength I instead of II.
+- The Chariot's Speed bonus has been buffed from 20% to 30%
+- The Devil's Weakness amplifier has been changed from III to I.
+- The Emperor's Hero of the Village bonus has been changed from III to I.
+- The Empress's range has been reduced from 3 to 2.
+- The Fool's Jump boost has been changed from 2 to 1.
+- The Hanged Man's XP Ratio is now 0.2 instead of 0.5.
+- The Hermit's armor bonus is changed from 10 to 5.
+- The Hierophant's XP Boost is changed from 1.5 to 1.0.
+- The Lovers Regen is now Regen I instead of III.
+- The World's Range has been reduced from 3 to 2, because it affects allies. The weakness amplifier is reduced from IV to I.
+- The Wheel of Fortune Luck Bonus has been reduced from 3.0 to 1.5.
+- Testers should now have access to the /fly command.
+- Beautify's Rope is now called Decorative Rope.
+- Brewery's Rope is now called Hanging Rope.
+- We've switched out the resource packs for Farmer's Delight.
+- Galosphere's Spectre Flares can now no longer be crafted. They can still be found as loot and idk why.
+- Instead of fishing up Rubies randomly, you will now fish up Cogs
+- Pearl Necklaces from the Critters and Companions mod now use multiple pearl types.
+- Earth Mobs Mod's Rubies have been un-disabled.
+- FTB Chunks should now allow users to interact with all waystones, graves, and lootr containers in claimed chunks.
+- Made some scripts a little less janky.
+- Sophisticated Feeding upgrades now require SoL's lunchboxes to craft.
+- Deleted the Beekeeping chapter page and moved all those quests to the Farming & Gardening page.
+- Edited the Eccentric Tome given for the first quest to now only contain valid books.
+- Added a Collection quest to obtain gems.
+- Finalized Bakery Quests and moved them into their graphic.
+- Removed references to Youkai's Homecoming, which we removed.
+- Edited some Soph Backpack quest text to recommend players check the config.
+- Added plushies as quest rewards for many quests.
+- Removed a broken reward from the End questline.
+- Added a quest to explain that vanilla Ender Eyes cannot be used.
+- Added a Sniffer quest to Archaeology page. (thanks, ZephyrWindSpirit!)
+- Made the Red Panda quest point to the correct panda.
+- Added quests to defeat Strays and Blazes.
+- Enabled ServerCore breeding limits.
+- Spice of Life will now grant Luck instead of Regen.
+- Tombstone's enchantments Blessing and Curse of Bones have been disabled for stability.
+- Many more redstone blocks can now be easily picked up with the Create Wrench.
+- Bumblezone bees can now be fed special honey types.
+- Regions Unexplored Chalk can now be converted into Chalk from the Chalk mod (thanks, Furby1311!)
+- Players now receive a regular Backpack instead of an Iron one to begin with, to allow for more upgrade potential.

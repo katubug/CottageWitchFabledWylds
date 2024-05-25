@@ -29,7 +29,7 @@
 		{ count: 3, item: "candlelight:butter", weight: 10.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{}"

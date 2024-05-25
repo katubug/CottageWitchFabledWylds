@@ -1,0 +1,139 @@
+{
+  "replace": false,
+  "values": [
+    "the_bumblezone:bee_bread",
+    "minecraft:honey_bottle",
+    "the_bumblezone:sugar_water_bottle",
+    "the_bumblezone:royal_jelly_bottle",
+    "#the_bumblezone:buckets/honey",
+    "#the_bumblezone:buckets/royal_jelly",
+    {
+      "id": "bk:royal_jelly",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:honey_apple",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:honey_bread",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:honey_porkchop",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:honey_lime_chicken",
+      "required": false
+    },
+    {
+      "id": "create:honeyed_apple",
+      "required": false
+    },
+    {
+      "id": "create:honey_candy",
+      "required": false
+    },
+    {
+      "id": "createaddition:honey_cake",
+      "required": false
+    },
+    {
+      "id": "cyclic:apple_honey",
+      "required": false
+    },
+    {
+      "id": "delightful:honey_glazed_walnut",
+      "required": false
+    },
+    {
+      "id": "delightful:ender_nectar",
+      "required": false
+    },
+    {
+      "id": "expandeddelight:peanut_honey_soup",
+      "required": false
+    },
+    {
+      "id": "expandeddelight:peanut_butter_honey_sandwich",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:honey_cookie",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:honey_glazed_ham",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:honey_glazed_ham_block",
+      "required": false
+    },
+    {
+      "id": "feywild:honeycomb",
+      "required": false
+    },
+    {
+      "id": "feywild:magical_honey_cookie",
+      "required": false
+    },
+    {
+      "id": "oceandelight:honey_fried_kelp",
+      "required": false
+    },
+    {
+      "id": "productivebees:honey_treat",
+      "required": false
+    },
+    {
+      "id": "productivebees:sugarbag_honeycomb",
+      "required": false
+    },
+    {
+      "id": "twilightdelight:honey_113",
+      "required": false
+    },
+    {
+      "id": "valleycraft:crystallized_honeydrop",
+      "required": false
+    },
+    {
+      "id": "valleycraft:honeyed_apple",
+      "required": false
+    },
+    {
+      "id": "valleycraft:honey_glazed_crepe",
+      "required": false
+    },
+    {
+      "id": "valleycraft:syrupy_honeycomb",
+      "required": false
+    },
+    {
+      "id": "betterbeekeeping:spicy_honey_bottle",
+      "required": false
+    },
+    {
+      "id": "betterbeekeeping:warm_honey_bottle",
+      "required": false
+    },
+    {
+      "id": "betterbeekeeping:bright_honey_bottle",
+      "required": false
+    },
+    {
+      "id": "betterbeekeeping:lively_honey_bottle",
+      "required": false
+    },
+    {
+      "id": "betterbeekeeping:cool_honey_bottle",
+      "required": false
+    },
+    {
+      "id": "betterbeekeeping:strange_honey_bottle",
+      "required": false
+    }
+  ]
+}

@@ -83,7 +83,7 @@
 				{
 					id: "2F6411DAFA91B723"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_fire_resistance"
@@ -236,7 +236,7 @@
 			tasks: [{
 				id: "415DEAB4DE37D7FF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "aether:moa_eggs"
@@ -334,7 +334,7 @@
 			tasks: [{
 				id: "084F9E93191AEE95"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aether:golden_parachute"
 					tag: {
 						Damage: 0
@@ -396,7 +396,7 @@
 		{
 			dependencies: ["73B0AD309B893DA1"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "deep_aether:slider_eye"
 				tag: {
 					Damage: 0
@@ -414,7 +414,7 @@
 				{
 					entity: "aether:slider"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "aether:holystone_pickaxe"
 						tag: {
 							Damage: 0
@@ -428,7 +428,7 @@
 				{
 					id: "0DC5E9A05CD86CC8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:slider_eye"
 						tag: {
 							Damage: 0
@@ -591,7 +591,7 @@
 			shape: "heart"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "lost_aether_content:swetty_mask"
 					tag: {
 						Damage: 0
@@ -621,7 +621,7 @@
 			tasks: [{
 				id: "4DFE76B30C72B0A0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:gummy_swets"
@@ -641,7 +641,7 @@
 			rewards: [{
 				id: "66747B79C320D879"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:healing"

@@ -88,7 +88,7 @@
 				{
 					id: "04993EB520479A71"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticsbiomes:glass_jar"
 						tag: { }
 					}
@@ -280,7 +280,7 @@
 			tasks: [{
 				id: "37E8405F8CFB4AB9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "luggage:luggage"
 					tag: { }
 				}
@@ -497,7 +497,7 @@
 			rewards: [{
 				id: "6E1CAA9D134DDC34"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:void_upgrade"
 					tag: {
 						shouldVoidOverflow: 0b
@@ -511,7 +511,7 @@
 			tasks: [{
 				id: "17B41092A4227E3F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:void_upgrade"
 					tag: {
 						filters: {
@@ -541,7 +541,7 @@
 			tasks: [{
 				id: "482E2FA219FCFEBD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:inventory_upgrades"
@@ -573,7 +573,7 @@
 			tasks: [{
 				id: "7A44E7B075704DDF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:stack_upgrades"
@@ -604,7 +604,7 @@
 				{
 					id: "3FBDA3D604C0CF21"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "sophisticatedstorage:storage_tool"
 						tag: {
 							controllerPos: 378506886991939L
@@ -634,7 +634,7 @@
 			rewards: [{
 				id: "5E9F53A618EA2966"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:packing_tape"
 					tag: {
 						Damage: 0
@@ -646,7 +646,7 @@
 			tasks: [{
 				id: "350D291765AE698A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:packing_tape"
 					tag: {
 						Damage: 0
@@ -726,7 +726,7 @@
 			tasks: [{
 				id: "240308FF27702A91"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "functionalstorage:drawer"
@@ -795,7 +795,7 @@
 				{
 					id: "619BF29FD4665D8E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "functionalstorage:linking_tool"
 						tag: { }
 					}
@@ -973,7 +973,7 @@
 				""
 				"You can place this backpack down/pick it up by &6shift right clicking&r it. You can &aopen it with &6b&r and &aequip it in your &bBack curio slot&r to free up inventory space."
 				""
-				"Caution: although you can block other players from opening your backpack while you wear it, &dthere is no way to protect against this backpack being stolen if you set it down or put it in a chest.&r"
+				"Caution: although you can block other players from opening your backpack while you wear it (&6check the mod's config&r!), &dthere is no way to protect against this backpack being stolen if you set it down or put it in a chest.&r"
 			]
 			id: "3D7070B95990779A"
 			rewards: [{
@@ -1012,7 +1012,7 @@
 			tasks: [{
 				id: "01CCDB4E123F14E5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:sophb_environmental"
@@ -1042,7 +1042,7 @@
 			tasks: [{
 				id: "6ABD4445F56588FE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:sophb_quick"
@@ -1070,7 +1070,7 @@
 			tasks: [{
 				id: "30FEE4ACC7F65B84"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:sophb_utility"
@@ -1100,7 +1100,7 @@
 			tasks: [{
 				id: "165E728B29A9BA19"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:sophb_fluid"
@@ -1128,7 +1128,7 @@
 			tasks: [{
 				id: "0808AD513B23A1AF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:sophb_inventory"

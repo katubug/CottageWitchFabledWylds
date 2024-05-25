@@ -925,6 +925,14 @@ event.add('forge:aquafish',
     event.removeAllTagsFrom('quark:rope')
     event.removeAllTagsFrom('supplementaries:rope')
 
+    //Crown Tags
+    event.add('forge:crowns',
+    'gemsnjewels:jeweled_gold_circlet',
+    'gemsnjewels:jeweled_gold_crown',
+    'gemsnjewels:jeweled_gold_comb',
+    'gemsnjewels:jeweled_gold_tiara'
+    )
+
 })
 
 ServerEvents.tags('entity_type', event => {

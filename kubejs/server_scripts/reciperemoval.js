@@ -217,6 +217,10 @@ ServerEvents.recipes(event => {
         {output: 'abyssal_decor:fever_blossom'},
         {output: 'abyssal_decor:fever_blossom_tea'},
         {output: 'galosphere:spectre_flare'},
+        {output: 'gemsnjewels:jeweled_gold_circlet'},
+        {output: 'gemsnjewels:jeweled_gold_crown'},
+        {output: 'gemsnjewels:jeweled_gold_comb' },
+        {output: 'gemsnjewels:jeweled_gold_tiara'},
         //Replaced Recipes
         {output: 'mighty_mail:post_box'},
         {output: 'farmersdelight:wheat_dough'},

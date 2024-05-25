@@ -115,7 +115,7 @@
 			tasks: [{
 				id: "784E27A136920288"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "supplementaries:flute"
 					tag: {
 						Damage: 0
@@ -139,7 +139,7 @@
 				{
 					id: "15995D321F1A2FA3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
@@ -173,6 +173,11 @@
 					table_id: 2534339319169675056L
 					type: "random"
 				}
+				{
+					id: "5D25B7D734E61892"
+					item: "plushie_buddies:plushie_cow"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			subtitle: "IDK, my BFF Cow?"
@@ -203,6 +208,11 @@
 				{
 					id: "67BDC665D33CD841"
 					item: "plushies:bat_plushie"
+					type: "item"
+				}
+				{
+					id: "1F4C7CAC08EA3307"
+					item: "plushie_buddies:plushie_parrot"
 					type: "item"
 				}
 			]
@@ -256,7 +266,7 @@
 			tasks: [{
 				id: "226678EE9D1503C6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:petbeds"
@@ -272,20 +282,27 @@
 		{
 			description: ["&bCollars&r can be used to name your pets, but they can also be &aenchanted&r to give your pet special abilities."]
 			id: "09827E9E92823643"
-			rewards: [{
-				id: "6802714240042850"
-				item: {
-					Count: 1b
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "domesticationinnovation:herding"
-							lvl: 2s
-						}]
+			rewards: [
+				{
+					id: "6802714240042850"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "domesticationinnovation:herding"
+								lvl: 2s
+							}]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "626B1BFDBE5A0252"
+					item: "plushie_buddies:plushie_chicken"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "50B6AC73D9257351"
@@ -793,7 +810,7 @@
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:trident"
 				tag: {
 					Damage: 0
@@ -901,7 +918,7 @@
 				{
 					id: "57AEF83E18326ED4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "endrem:guardian_eye"
 						tag: {
 							Damage: 0
@@ -993,6 +1010,11 @@
 					item: "plushies:cave_spider_plushie"
 					type: "item"
 				}
+				{
+					id: "4E20F05931DA961F"
+					item: "plushie_buddies:plushie_spider"
+					type: "item"
+				}
 			]
 			shape: "square"
 			tasks: [{
@@ -1015,11 +1037,18 @@
 				"You win!"
 			]
 			id: "114EFE7EF75B22F3"
-			rewards: [{
-				id: "3350AB70B6803167"
-				item: "plushies:goat_plushie"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3350AB70B6803167"
+					item: "plushies:goat_plushie"
+					type: "item"
+				}
+				{
+					id: "1BC05D53D242E426"
+					item: "plushie_buddies:plushie_goat"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "captainsparklez intensifies"
 			tasks: [{
@@ -1047,6 +1076,11 @@
 				{
 					id: "360E9B2A1CF33049"
 					item: "minecraft:axolotl_bucket"
+					type: "item"
+				}
+				{
+					id: "1972967C68DF49D6"
+					item: "plushie_buddies:plushie_axolotl"
 					type: "item"
 				}
 			]
@@ -1104,7 +1138,7 @@
 			shape: "heart"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:goat_horn"
 					tag: {
 						instrument: "minecraft:ponder_goat_horn"
@@ -1191,7 +1225,7 @@
 				{
 					id: "4F6C803E22B3FF71"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:carrot_on_a_stick"
 						tag: {
 							Damage: 0
@@ -1637,7 +1671,7 @@
 			tasks: [{
 				id: "59223D090752C450"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "butterflies:butterfly_net"
 					tag: { }
 				}
@@ -1819,7 +1853,7 @@
 			rewards: [{
 				id: "5E7D92DF4421CB64"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:brush"
 					tag: {
 						Damage: 0
@@ -2036,11 +2070,18 @@
 		{
 			description: ["The &eAllay&r are kind and gentle creatures which are coveted for their &apropensity to collect items&r. Give them an item to hold, and they will &apick that item type from the ground&r and put it in a nearby inventory!"]
 			id: "4BE2F61081D4D690"
-			rewards: [{
-				id: "22F5B2CC2471499D"
-				item: "plushies:allay_plushie"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "22F5B2CC2471499D"
+					item: "plushies:allay_plushie"
+					type: "item"
+				}
+				{
+					id: "654868DC56FB47AF"
+					item: "plushie_buddies:plushie_allay"
+					type: "item"
+				}
+			]
 			shape: "heart"
 			tasks: [{
 				icon: "minecraft:allay_spawn_egg"
@@ -2094,7 +2135,7 @@
 			rewards: [{
 				id: "51ABCD21C17332A6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:carrot_on_a_stick"
 					tag: {
 						Damage: 0
@@ -2267,7 +2308,7 @@
 				id: "6D904C85DC5492DA"
 				observe_type: 5
 				timer: 0L
-				to_observe: "ydms_redpanda:redpanda"
+				to_observe: "crittersandcompanions:red_panda"
 				type: "observation"
 			}]
 			title: "Meet the Red Panda"
@@ -2352,6 +2393,11 @@
 					item: "plushies:cold_frog_plushie"
 					type: "item"
 				}
+				{
+					id: "233C7619C02B5216"
+					item: "plushie_buddies:plushie_frog"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "squad goals"
@@ -2404,7 +2450,7 @@
 			tasks: [{
 				entity: "galosphere:berserker"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "galosphere:preserved_flesh"
 					tag: {
 						Damage: 0
@@ -2456,7 +2502,7 @@
 				entity: "minecraft:snow_golem"
 				id: "3DE6C46EDB3702A4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:shears"
 					tag: {
 						Damage: 0
@@ -2509,7 +2555,7 @@
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "aquamirae:three_bolt_helmet"
 					tag: {
 						Damage: 0
@@ -2543,6 +2589,44 @@
 			title: "Defeat Mother of the Maze"
 			x: -3.5d
 			y: 10.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			id: "67716A2F0AEDC9A7"
+			rewards: [{
+				id: "404F2B803E64E56E"
+				item: "plushie_buddies:plushie_stray"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:stray"
+				icon: "plushie_buddies:plushie_stray"
+				id: "32D2F803859EFBFA"
+				type: "kill"
+				value: 100L
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			id: "4B0AA843233D3541"
+			rewards: [{
+				id: "4E3B93DAF46F8498"
+				item: "plushie_buddies:plushie_blaze"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: "minecraft:blaze_rod"
+				id: "730F8DB2D22C64BF"
+				type: "kill"
+				value: 100L
+			}]
+			x: 2.5d
+			y: 4.0d
 		}
 	]
 	title: "Wildlife"

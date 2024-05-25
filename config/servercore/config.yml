@@ -64,7 +64,7 @@ dynamic:
 # A special mobcap that only affects the breeding of animals and villagers.
 breeding-cap:
   # Enables breeding caps.
-  enabled: false
+  enabled: true
   # The breeding cap for villagers.
   # ► limit = The limit of mobs of the same type within range. Setting this to negative will disable the breeding cap.
   # ► range = The range it will check for entities of the same type.

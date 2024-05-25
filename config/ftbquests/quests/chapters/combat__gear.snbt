@@ -6,7 +6,7 @@
 	filename: "combat__gear"
 	group: "6B4E114EC6CDE8EE"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "minecraft:diamond_chestplate"
 		tag: {
 			Damage: 0
@@ -107,7 +107,7 @@
 				{
 					id: "5FA2D7EE7493AAD2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_sword"
 						tag: {
 							Damage: 0
@@ -118,7 +118,7 @@
 				{
 					id: "677A9FDF825367EA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_shovel"
 						tag: {
 							Damage: 0
@@ -129,7 +129,7 @@
 				{
 					id: "24F596423DD63897"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_pickaxe"
 						tag: {
 							Damage: 0
@@ -140,7 +140,7 @@
 				{
 					id: "27B0A1C92FB6158C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_axe"
 						tag: {
 							Damage: 0
@@ -151,7 +151,7 @@
 				{
 					id: "0C16903F22815CD8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_hoe"
 						tag: {
 							Damage: 0
@@ -162,7 +162,7 @@
 				{
 					id: "4B6AD6E118B09EB4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "farmersdelight:diamond_knife"
 						tag: {
 							Damage: 0
@@ -197,7 +197,7 @@
 				{
 					id: "3E7F57706F13DB80"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:netherite_sword"
 						tag: {
 							Damage: 0
@@ -208,7 +208,7 @@
 				{
 					id: "57F7EB2544598AD8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:netherite_shovel"
 						tag: {
 							Damage: 0
@@ -219,7 +219,7 @@
 				{
 					id: "5740CE80997782D8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:netherite_pickaxe"
 						tag: {
 							Damage: 0
@@ -230,7 +230,7 @@
 				{
 					id: "048B165BDB027012"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:netherite_axe"
 						tag: {
 							Damage: 0
@@ -241,7 +241,7 @@
 				{
 					id: "3602A1F61BB59C3C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:netherite_hoe"
 						tag: {
 							Damage: 0
@@ -252,7 +252,7 @@
 				{
 					id: "25F3749D794D7F62"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "farmersdelight:netherite_knife"
 						tag: {
 							Damage: 0
@@ -309,7 +309,7 @@
 				{
 					id: "1A963A3A00CDCB9E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_sword"
 						tag: {
 							Damage: 0
@@ -320,7 +320,7 @@
 				{
 					id: "7D155EC73A5FA616"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_shovel"
 						tag: {
 							Damage: 0
@@ -331,7 +331,7 @@
 				{
 					id: "1AA659C76DB35CC8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_pickaxe"
 						tag: {
 							Damage: 0
@@ -342,7 +342,7 @@
 				{
 					id: "70B72C634AB9F7BF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_axe"
 						tag: {
 							Damage: 0
@@ -353,7 +353,7 @@
 				{
 					id: "3189EC4EF05E0F79"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_hoe"
 						tag: {
 							Damage: 0
@@ -364,7 +364,7 @@
 				{
 					id: "2252548D200A9F04"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "farmersdelight:iron_knife"
 						tag: {
 							Damage: 0
@@ -391,7 +391,7 @@
 				{
 					id: "4C91596CF36B309D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_helmet"
 						tag: {
 							Damage: 0
@@ -402,7 +402,7 @@
 				{
 					id: "1D7478CEBC011BDD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_chestplate"
 						tag: {
 							Damage: 0
@@ -413,7 +413,7 @@
 				{
 					id: "06DD8593134C5160"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_leggings"
 						tag: {
 							Damage: 0
@@ -424,7 +424,7 @@
 				{
 					id: "592BB6112C0AA480"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_boots"
 						tag: {
 							Damage: 0
@@ -455,7 +455,7 @@
 				{
 					id: "69117BF9195BCB02"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:golden_sword"
 						tag: {
 							Damage: 0
@@ -466,7 +466,7 @@
 				{
 					id: "4E8B34A475718BA8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:golden_shovel"
 						tag: {
 							Damage: 0
@@ -477,7 +477,7 @@
 				{
 					id: "4EDBB90D229A9112"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:golden_pickaxe"
 						tag: {
 							Damage: 0
@@ -488,7 +488,7 @@
 				{
 					id: "559CE8AB53CB8345"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:golden_axe"
 						tag: {
 							Damage: 0
@@ -499,7 +499,7 @@
 				{
 					id: "77CB6B7159A743CA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:golden_hoe"
 						tag: {
 							Damage: 0
@@ -526,7 +526,7 @@
 				{
 					id: "266F1E81111F0488"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_helmet"
 						tag: {
 							Damage: 0
@@ -537,7 +537,7 @@
 				{
 					id: "5C5B71E86C05CB1D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_chestplate"
 						tag: {
 							Damage: 0
@@ -548,7 +548,7 @@
 				{
 					id: "2B7DCAEF00E69306"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_leggings"
 						tag: {
 							Damage: 0
@@ -559,7 +559,7 @@
 				{
 					id: "1A894EF10AC95B18"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_boots"
 						tag: {
 							Damage: 0
@@ -597,7 +597,7 @@
 			tasks: [{
 				id: "7EEC79529BBFE411"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "tarotcards:tarot_cards"
@@ -607,8 +607,8 @@
 				type: "item"
 			}]
 			title: "Obtain Tarot Cards"
-			x: 5.0d
-			y: 5.0d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["66BFC51EB4E7FDFB"]
@@ -624,7 +624,7 @@
 			tasks: [{
 				id: "274933D9ACA40CD2"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -635,8 +635,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 5.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			id: "5161948053596F24"
@@ -673,7 +673,7 @@
 				count: 2L
 				id: "6C6CC6A2E015B887"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "tarotcards:tarot_cards"
@@ -683,8 +683,8 @@
 				type: "item"
 			}]
 			title: "Tarot Trading"
-			x: 6.0d
-			y: 4.0d
+			x: 5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["03A71394322AFF28"]
@@ -700,11 +700,11 @@
 			tasks: [{
 				count: 9L
 				id: "0B662955A4DC2D7B"
-				item: { Count: 9b, id: "nameless_trinkets:unknown_fragment" }
+				item: { Count: 9, id: "nameless_trinkets:unknown_fragment" }
 				type: "item"
 			}]
 			title: "Trinket Fragments"
-			x: 2.5d
+			x: 3.5d
 			y: 4.5d
 		}
 		{
@@ -743,7 +743,7 @@
 				{
 					id: "67471740B9A0288D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether_redux:veridium_sword"
 						tag: {
 							Damage: 0
@@ -754,7 +754,7 @@
 				{
 					id: "2BA36F86595AF640"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether_redux:veridium_pickaxe"
 						tag: {
 							Damage: 0
@@ -765,7 +765,7 @@
 				{
 					id: "379F66E331312CFE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether_redux:veridium_axe"
 						tag: {
 							Damage: 0
@@ -776,7 +776,7 @@
 				{
 					id: "075D31B63E0E4C91"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether_redux:veridium_shovel"
 						tag: {
 							Damage: 0
@@ -787,7 +787,7 @@
 				{
 					id: "35290CF4DE337375"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether_redux:veridium_hoe"
 						tag: {
 							Damage: 0
@@ -798,7 +798,7 @@
 				{
 					id: "40B12159601F43D6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "delightful:veridium_knife"
 						tag: {
 							Damage: 0
@@ -829,7 +829,7 @@
 				{
 					id: "6A5B0C1444895357"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:skyjade_sword"
 						tag: {
 							Damage: 0
@@ -840,7 +840,7 @@
 				{
 					id: "7CFA70E0DE92BF7D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:skyjade_pickaxe"
 						tag: {
 							Damage: 0
@@ -851,7 +851,7 @@
 				{
 					id: "3716ACD4D01386AC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:skyjade_axe"
 						tag: {
 							Damage: 0
@@ -862,7 +862,7 @@
 				{
 					id: "454518CAA3A49318"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:skyjade_shovel"
 						tag: {
 							Damage: 0
@@ -873,7 +873,7 @@
 				{
 					id: "7867C5C068B58DCC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:skyjade_hoe"
 						tag: {
 							Damage: 0
@@ -884,7 +884,7 @@
 				{
 					id: "4FBF04C305004E09"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "delightful:skyjade_knife"
 						tag: {
 							Damage: 0
@@ -915,7 +915,7 @@
 				{
 					id: "3077ABC8A57F541A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether_redux:infused_veridium_sword"
 						tag: {
 							Damage: 0
@@ -927,7 +927,7 @@
 				{
 					id: "0525468E61F37FEB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether_redux:infused_veridium_pickaxe"
 						tag: {
 							Damage: 0
@@ -939,7 +939,7 @@
 				{
 					id: "00AAE35C70263299"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether_redux:infused_veridium_axe"
 						tag: {
 							Damage: 0
@@ -951,7 +951,7 @@
 				{
 					id: "4512DBE21F90DBCD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether_redux:infused_veridium_shovel"
 						tag: {
 							Damage: 0
@@ -963,7 +963,7 @@
 				{
 					id: "49661EA2AAA3C4C7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether_redux:infused_veridium_hoe"
 						tag: {
 							Damage: 0
@@ -975,7 +975,7 @@
 				{
 					id: "7DE33B6F3AD18CCE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "delightful:infused_veridium_knife"
 						tag: {
 							Damage: 0
@@ -1006,7 +1006,7 @@
 				{
 					id: "2ED796C6C7641B41"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:zanite_sword"
 						tag: {
 							Damage: 0
@@ -1017,7 +1017,7 @@
 				{
 					id: "386816D63667CDAF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:zanite_pickaxe"
 						tag: {
 							Damage: 0
@@ -1028,7 +1028,7 @@
 				{
 					id: "34F556A120D13266"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:zanite_axe"
 						tag: {
 							Damage: 0
@@ -1039,7 +1039,7 @@
 				{
 					id: "16BB563723D8A89B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:zanite_shovel"
 						tag: {
 							Damage: 0
@@ -1050,7 +1050,7 @@
 				{
 					id: "5186670292DA82BA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:zanite_hoe"
 						tag: {
 							Damage: 0
@@ -1061,7 +1061,7 @@
 				{
 					id: "061E0CFCB861DAC4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "delightful:zanite_knife"
 						tag: {
 							Damage: 0
@@ -1092,7 +1092,7 @@
 				{
 					id: "62B22ABAAC4F757F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "phantasm:crystalline_sword"
 						tag: {
 							Damage: 0
@@ -1103,7 +1103,7 @@
 				{
 					id: "78526E4DE174E381"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "phantasm:crystalline_pickaxe"
 						tag: {
 							Damage: 0
@@ -1114,7 +1114,7 @@
 				{
 					id: "032047B54B72A7AD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "phantasm:crystalline_axe"
 						tag: {
 							Damage: 0
@@ -1125,7 +1125,7 @@
 				{
 					id: "4D33C881462F0416"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "phantasm:crystalline_shovel"
 						tag: {
 							Damage: 0
@@ -1136,7 +1136,7 @@
 				{
 					id: "535D8C440485C766"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "phantasm:crystalline_hoe"
 						tag: {
 							Damage: 0
@@ -1147,7 +1147,7 @@
 				{
 					id: "3B9832336DB1217B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "delightful:crystalline_knife"
 						tag: {
 							Damage: 0
@@ -1177,7 +1177,7 @@
 				{
 					id: "3AE6CE1D803831EC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:skyroot_sword"
 						tag: {
 							Damage: 0
@@ -1188,7 +1188,7 @@
 				{
 					id: "3FFA996C35C18453"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:skyroot_pickaxe"
 						tag: {
 							Damage: 0
@@ -1199,7 +1199,7 @@
 				{
 					id: "778132D7BC853CBC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:skyroot_axe"
 						tag: {
 							Damage: 0
@@ -1210,7 +1210,7 @@
 				{
 					id: "634FDC9A68A278DE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:skyroot_shovel"
 						tag: {
 							Damage: 0
@@ -1221,7 +1221,7 @@
 				{
 					id: "4C2D8B0B473E3436"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:skyroot_hoe"
 						tag: {
 							Damage: 0
@@ -1232,7 +1232,7 @@
 				{
 					id: "2CC5B119C8A87F09"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "delightful:skyroot_knife"
 						tag: {
 							Damage: 0
@@ -1263,7 +1263,7 @@
 				{
 					id: "6DE55AD38978627F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:holystone_sword"
 						tag: {
 							Damage: 0
@@ -1274,7 +1274,7 @@
 				{
 					id: "1F432BB4EE0A67C3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:holystone_pickaxe"
 						tag: {
 							Damage: 0
@@ -1285,7 +1285,7 @@
 				{
 					id: "104CCE34CCED8E8B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:holystone_axe"
 						tag: {
 							Damage: 0
@@ -1296,7 +1296,7 @@
 				{
 					id: "1B51EB2C640B21DB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:holystone_shovel"
 						tag: {
 							Damage: 0
@@ -1307,7 +1307,7 @@
 				{
 					id: "190EF2E1F233500D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:holystone_hoe"
 						tag: {
 							Damage: 0
@@ -1318,7 +1318,7 @@
 				{
 					id: "4AD5B2A80F4A1467"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "delightful:holystone_knife"
 						tag: {
 							Damage: 0
@@ -1348,7 +1348,7 @@
 				{
 					id: "69B8A92D1B4B78E8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:stratus_sword"
 						tag: {
 							Damage: 0
@@ -1359,7 +1359,7 @@
 				{
 					id: "7C5D40E960A1D4E6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:stratus_pickaxe"
 						tag: {
 							Damage: 0
@@ -1370,7 +1370,7 @@
 				{
 					id: "0C3AA76C04DCC723"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:stratus_axe"
 						tag: {
 							Damage: 0
@@ -1381,7 +1381,7 @@
 				{
 					id: "0909B8BC324C97AA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:stratus_shovel"
 						tag: {
 							Damage: 0
@@ -1392,7 +1392,7 @@
 				{
 					id: "049116966F1FF198"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:stratus_hoe"
 						tag: {
 							Damage: 0
@@ -1403,7 +1403,7 @@
 				{
 					id: "5E8955ED193B4AFA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "delightful:stratus_knife"
 						tag: {
 							Damage: 0
@@ -1434,7 +1434,7 @@
 				{
 					id: "20607BDAE84944F6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "lost_aether_content:phoenix_sword"
 						tag: {
 							Damage: 0
@@ -1445,7 +1445,7 @@
 				{
 					id: "75543321D1F7BB30"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "lost_aether_content:phoenix_pickaxe"
 						tag: {
 							Damage: 0
@@ -1456,7 +1456,7 @@
 				{
 					id: "32E0B089E32419A7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "lost_aether_content:phoenix_axe"
 						tag: {
 							Damage: 0
@@ -1467,7 +1467,7 @@
 				{
 					id: "558947386A2B5E50"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "lost_aether_content:phoenix_shovel"
 						tag: {
 							Damage: 0
@@ -1478,7 +1478,7 @@
 				{
 					id: "7C837C7AF7CAD782"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "lost_aether_content:phoenix_hoe"
 						tag: {
 							Damage: 0
@@ -1509,7 +1509,7 @@
 				{
 					id: "6B68F39C40633C15"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_sword"
 						tag: {
 							Damage: 0
@@ -1520,7 +1520,7 @@
 				{
 					id: "567EC8E86598B44E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_pickaxe"
 						tag: {
 							Damage: 0
@@ -1531,7 +1531,7 @@
 				{
 					id: "522168E6F5065736"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_axe"
 						tag: {
 							Damage: 0
@@ -1542,7 +1542,7 @@
 				{
 					id: "4C0E030847620B65"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_shovel"
 						tag: {
 							Damage: 0
@@ -1553,7 +1553,7 @@
 				{
 					id: "2C00E3B8D58F17B3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_hoe"
 						tag: {
 							Damage: 0
@@ -1564,7 +1564,7 @@
 				{
 					id: "32885868C4B5A3C8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "delightful:gravitite_knife"
 						tag: {
 							Damage: 0
@@ -1595,7 +1595,7 @@
 				{
 					id: "4FE0B109E16037AB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:valkyrie_lance"
 						tag: {
 							Damage: 0
@@ -1606,7 +1606,7 @@
 				{
 					id: "55E69ACEFCE2E0E0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:valkyrie_pickaxe"
 						tag: {
 							Damage: 0
@@ -1617,7 +1617,7 @@
 				{
 					id: "07DE7DEF7BC6F02F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:valkyrie_axe"
 						tag: {
 							Damage: 0
@@ -1628,7 +1628,7 @@
 				{
 					id: "53A44B5DB965441F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:valkyrie_shovel"
 						tag: {
 							Damage: 0
@@ -1639,7 +1639,7 @@
 				{
 					id: "485BB691983B6A87"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:valkyrie_hoe"
 						tag: {
 							Damage: 0
@@ -1666,7 +1666,7 @@
 			tasks: [{
 				id: "6D452DB6697F64CB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "travelboots:basic_travel_boots_boots"
 					tag: {
 						Damage: 0
@@ -1691,7 +1691,7 @@
 			tasks: [{
 				id: "0998C5542C32C227"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "witchywearables:witchywearables"
@@ -1722,7 +1722,7 @@
 				{
 					id: "03D3546F4BE54CF7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_sword"
 						tag: {
 							Damage: 0
@@ -1733,7 +1733,7 @@
 				{
 					id: "422A23D37E4A0A18"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_pickaxe"
 						tag: {
 							Damage: 0
@@ -1744,7 +1744,7 @@
 				{
 					id: "716E10497FDB6E47"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_axe"
 						tag: {
 							Damage: 0
@@ -1755,7 +1755,7 @@
 				{
 					id: "2AE9BF1057B83F46"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_shovel"
 						tag: {
 							Damage: 0
@@ -1766,7 +1766,7 @@
 				{
 					id: "06A1D8A33D108684"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_hoe"
 						tag: {
 							Damage: 0
@@ -1777,7 +1777,7 @@
 				{
 					id: "53D2E84C291641F0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "delightful:draco_arcanus_knife"
 						tag: {
 							Damage: 0
@@ -1814,7 +1814,7 @@
 				{
 					id: "115D883F2096D316"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquaculture:neptunium_fishing_rod"
 						tag: {
 							Damage: 0
@@ -1825,7 +1825,7 @@
 				{
 					id: "09FF60A0FFD072CA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquaculture:neptunium_pickaxe"
 						tag: {
 							Damage: 0
@@ -1837,7 +1837,7 @@
 				{
 					id: "02BAE54881F6E627"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquaculture:neptunium_hoe"
 						tag: {
 							Damage: 0
@@ -1848,7 +1848,7 @@
 				{
 					id: "111CCFC11A529438"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquaculture:neptunium_shovel"
 						tag: {
 							Damage: 0
@@ -1884,7 +1884,7 @@
 				{
 					id: "59C0F66D6350D9D6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "experienceobelisk:cognitive_sword"
 						tag: {
 							Damage: 0
@@ -1895,7 +1895,7 @@
 				{
 					id: "10B6B3266A5C51EB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "experienceobelisk:cognitive_pickaxe"
 						tag: {
 							Damage: 0
@@ -1906,7 +1906,7 @@
 				{
 					id: "29111436972FD511"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "experienceobelisk:cognitive_axe"
 						tag: {
 							Damage: 0
@@ -1917,7 +1917,7 @@
 				{
 					id: "5ABFEF63373C2124"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "experienceobelisk:cognitive_shovel"
 						tag: {
 							Damage: 0
@@ -1928,7 +1928,7 @@
 				{
 					id: "43B5B79F3EF575D6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "experienceobelisk:cognitive_hoe"
 						tag: {
 							Damage: 0
@@ -1959,7 +1959,7 @@
 				{
 					id: "61B7B8563B031421"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eidolon:silver_sword"
 						tag: {
 							Damage: 0
@@ -1970,7 +1970,7 @@
 				{
 					id: "7AF3FE579D1CC7E6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eidolon:silver_pickaxe"
 						tag: {
 							Damage: 0
@@ -1981,7 +1981,7 @@
 				{
 					id: "68BFE4051325BC13"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eidolon:silver_axe"
 						tag: {
 							Damage: 0
@@ -1992,7 +1992,7 @@
 				{
 					id: "6C2EF0B36D139ED3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eidolon:silver_shovel"
 						tag: {
 							Damage: 0
@@ -2003,7 +2003,7 @@
 				{
 					id: "17816CF4EC4D21BE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eidolon:silver_hoe"
 						tag: {
 							Damage: 0
@@ -2014,7 +2014,7 @@
 				{
 					id: "68E7D74A82347E7E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "delightful:silver_knife"
 						tag: {
 							Damage: 0
@@ -2045,7 +2045,7 @@
 				{
 					id: "13FF0FDD6871F9D1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:golden_helmet"
 						tag: {
 							Damage: 0
@@ -2056,7 +2056,7 @@
 				{
 					id: "7DCCA3F69ED2EA42"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:golden_chestplate"
 						tag: {
 							Damage: 0
@@ -2067,7 +2067,7 @@
 				{
 					id: "50F5DCB623C0C5AB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:golden_leggings"
 						tag: {
 							Damage: 0
@@ -2078,7 +2078,7 @@
 				{
 					id: "3DE5F10AB823FDD7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:golden_boots"
 						tag: {
 							Damage: 0
@@ -2124,7 +2124,7 @@
 				{
 					id: "0246F59B6004C025"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "usefulslime:slime_helmet"
 						tag: {
 							Damage: 0
@@ -2135,7 +2135,7 @@
 				{
 					id: "74CA2988B6D58B6F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "usefulslime:slime_chestplate"
 						tag: {
 							Damage: 0
@@ -2146,7 +2146,7 @@
 				{
 					id: "269F616D3D9DD393"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "usefulslime:slime_leggings"
 						tag: {
 							Damage: 0
@@ -2157,7 +2157,7 @@
 				{
 					id: "4DEB784DAD6BE521"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "usefulslime:slime_boots"
 						tag: {
 							Damage: 0
@@ -2188,7 +2188,7 @@
 				{
 					id: "101E6DC94E6D1FD8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eidolon:silver_helmet"
 						tag: {
 							Damage: 0
@@ -2199,7 +2199,7 @@
 				{
 					id: "1EC81476D21A067F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eidolon:silver_chestplate"
 						tag: {
 							Damage: 0
@@ -2210,7 +2210,7 @@
 				{
 					id: "075949E250E158B9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eidolon:silver_leggings"
 						tag: {
 							Damage: 0
@@ -2221,7 +2221,7 @@
 				{
 					id: "41A3D8391531F187"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eidolon:silver_boots"
 						tag: {
 							Damage: 0
@@ -2252,7 +2252,7 @@
 				{
 					id: "53602C50BEE37C8F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eidolon:bonelord_helm"
 						tag: {
 							Damage: 0
@@ -2263,7 +2263,7 @@
 				{
 					id: "2E484295F7F4CEB8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eidolon:bonelord_chestplate"
 						tag: {
 							Damage: 0
@@ -2274,7 +2274,7 @@
 				{
 					id: "7CBAA5C7BAC95CC7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eidolon:bonelord_greaves"
 						tag: {
 							Damage: 0
@@ -2305,7 +2305,7 @@
 				{
 					id: "6C2F5EEB9240E818"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_helmet"
 						tag: {
 							Damage: 0
@@ -2316,7 +2316,7 @@
 				{
 					id: "07EAA3260709FDDD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_chestplate"
 						tag: {
 							Damage: 0
@@ -2327,7 +2327,7 @@
 				{
 					id: "17EC54AB5F1BC7D4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_leggings"
 						tag: {
 							Damage: 0
@@ -2338,7 +2338,7 @@
 				{
 					id: "6B05482C9642F8D3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_boots"
 						tag: {
 							Damage: 0
@@ -2349,7 +2349,7 @@
 				{
 					id: "4D364AD9CBCCBACC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_gloves"
 						tag: {
 							Damage: 0
@@ -2388,7 +2388,7 @@
 				{
 					id: "205966251CB9EB3B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:phoenix_helmet"
 						tag: {
 							Damage: 0
@@ -2399,7 +2399,7 @@
 				{
 					id: "7B85BA14AF64D138"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:phoenix_chestplate"
 						tag: {
 							Damage: 0
@@ -2410,7 +2410,7 @@
 				{
 					id: "07F65B4CFA301E72"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:phoenix_leggings"
 						tag: {
 							Damage: 0
@@ -2421,7 +2421,7 @@
 				{
 					id: "286C625D9FB1D221"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:phoenix_boots"
 						tag: {
 							Damage: 0
@@ -2432,7 +2432,7 @@
 				{
 					id: "44CB55F7ED31443B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:phoenix_gloves"
 						tag: {
 							Damage: 0
@@ -2463,7 +2463,7 @@
 				{
 					id: "45909A295EF85508"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:valkyrie_helmet"
 						tag: {
 							Damage: 0
@@ -2474,7 +2474,7 @@
 				{
 					id: "0CE8696172DF92C4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:valkyrie_chestplate"
 						tag: {
 							Damage: 0
@@ -2485,7 +2485,7 @@
 				{
 					id: "45DAF6F34A422859"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:valkyrie_leggings"
 						tag: {
 							Damage: 0
@@ -2496,7 +2496,7 @@
 				{
 					id: "7C2909C6C83337EC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:valkyrie_boots"
 						tag: {
 							Damage: 0
@@ -2507,7 +2507,7 @@
 				{
 					id: "01514D439C1982D9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:valkyrie_gloves"
 						tag: {
 							Damage: 0
@@ -2538,7 +2538,7 @@
 				{
 					id: "03C817560F68ED54"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:zanite_helmet"
 						tag: {
 							Damage: 0
@@ -2549,7 +2549,7 @@
 				{
 					id: "3F20AC22418C1127"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:zanite_chestplate"
 						tag: {
 							Damage: 0
@@ -2560,7 +2560,7 @@
 				{
 					id: "53E1ED1CEBCF989E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:zanite_leggings"
 						tag: {
 							Damage: 0
@@ -2571,7 +2571,7 @@
 				{
 					id: "3F5CC6829718740C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:zanite_boots"
 						tag: {
 							Damage: 0
@@ -2582,7 +2582,7 @@
 				{
 					id: "3742159688CF1DAE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:zanite_gloves"
 						tag: {
 							Damage: 0
@@ -2620,7 +2620,7 @@
 				{
 					id: "3364F5268DA5245A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:neptune_helmet"
 						tag: {
 							Damage: 0
@@ -2631,7 +2631,7 @@
 				{
 					id: "5551F03E08730FB9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:neptune_chestplate"
 						tag: {
 							Damage: 0
@@ -2642,7 +2642,7 @@
 				{
 					id: "5D9454A32A738EC3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:neptune_leggings"
 						tag: {
 							Damage: 0
@@ -2653,7 +2653,7 @@
 				{
 					id: "3DEC94F0C9F0A4A1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:neptune_boots"
 						tag: {
 							Damage: 0
@@ -2664,7 +2664,7 @@
 				{
 					id: "0253B4E2D9BD492B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:neptune_gloves"
 						tag: {
 							Damage: 0
@@ -2695,7 +2695,7 @@
 				{
 					id: "51A6F4E1CDDE13CA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "meadow:fur_helmet"
 						tag: {
 							Damage: 0
@@ -2706,7 +2706,7 @@
 				{
 					id: "527003760C03C340"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "meadow:fur_chestplate"
 						tag: {
 							Damage: 0
@@ -2717,7 +2717,7 @@
 				{
 					id: "5372D70D8F98EABE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "meadow:fur_leggings"
 						tag: {
 							Damage: 0
@@ -2728,7 +2728,7 @@
 				{
 					id: "18021B7C8379E38C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "meadow:fur_boots"
 						tag: {
 							Damage: 0
@@ -2767,7 +2767,7 @@
 				{
 					id: "22291AB47B6CFDF2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_helmet"
 						tag: {
 							Damage: 0
@@ -2778,7 +2778,7 @@
 				{
 					id: "34940D1FC4A1B2CA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_chestplate"
 						tag: {
 							Damage: 0
@@ -2789,7 +2789,7 @@
 				{
 					id: "57B0CE8B649BBD4E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_leggings"
 						tag: {
 							Damage: 0
@@ -2800,7 +2800,7 @@
 				{
 					id: "4584F139E317F564"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_boots"
 						tag: {
 							Damage: 0
@@ -2839,7 +2839,7 @@
 				{
 					id: "6491AACF48004691"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:tyr_helmet"
 						tag: {
 							Damage: 0
@@ -2850,7 +2850,7 @@
 				{
 					id: "7FD1F4B8CBBA670B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:tyr_chestplate"
 						tag: {
 							Damage: 0
@@ -2861,7 +2861,7 @@
 				{
 					id: "4989316E4EFFAAC7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:tyr_leggings"
 						tag: {
 							Damage: 0
@@ -2872,7 +2872,7 @@
 				{
 					id: "10F3560CDA892B54"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:tyr_boots"
 						tag: {
 							Damage: 0
@@ -2911,7 +2911,7 @@
 				{
 					id: "0D493FC8787F819F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:obsidian_helmet"
 						tag: {
 							Damage: 0
@@ -2922,7 +2922,7 @@
 				{
 					id: "69097E13A6EEB765"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:obsidian_chestplate"
 						tag: {
 							Damage: 0
@@ -2933,7 +2933,7 @@
 				{
 					id: "0D904664B2F6625A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:obsidian_leggings"
 						tag: {
 							Damage: 0
@@ -2944,7 +2944,7 @@
 				{
 					id: "45FFB02B171B7335"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:obsidian_boots"
 						tag: {
 							Damage: 0
@@ -2967,7 +2967,7 @@
 			rewards: [{
 				id: "4CD135123E79CF10"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -2983,7 +2983,7 @@
 				{
 					id: "0A1302991FC421D7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "unusualprehistory:shedscale_helmet"
 						tag: {
 							Damage: 0
@@ -2994,7 +2994,7 @@
 				{
 					id: "31BDA9FD67B54C70"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "unusualprehistory:shedscale_chestplate"
 						tag: {
 							Damage: 0
@@ -3005,7 +3005,7 @@
 				{
 					id: "08843CFFA11CC540"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "unusualprehistory:shedscale_leggings"
 						tag: {
 							Damage: 0
@@ -3016,7 +3016,7 @@
 				{
 					id: "3E788D74C6F24D3C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "unusualprehistory:shedscale_boots"
 						tag: {
 							Damage: 0
@@ -3047,7 +3047,7 @@
 				{
 					id: "084F0886D91F2EFA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:stratus_helmet"
 						tag: {
 							Damage: 0
@@ -3058,7 +3058,7 @@
 				{
 					id: "641E314EA05DFAED"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:stratus_chestplate"
 						tag: {
 							Damage: 0
@@ -3069,7 +3069,7 @@
 				{
 					id: "35B3A1383D1158FC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:stratus_leggings"
 						tag: {
 							Damage: 0
@@ -3080,7 +3080,7 @@
 				{
 					id: "79F1379F30571E45"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:stratus_boots"
 						tag: {
 							Damage: 0
@@ -3111,7 +3111,7 @@
 				{
 					id: "5BC9DFD12D30575A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:skyjade_helmet"
 						tag: {
 							Damage: 0
@@ -3122,7 +3122,7 @@
 				{
 					id: "27EF38018CFDC5E6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:skyjade_chestplate"
 						tag: {
 							Damage: 0
@@ -3133,7 +3133,7 @@
 				{
 					id: "185873D2316D4E8A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:skyjade_leggings"
 						tag: {
 							Damage: 0
@@ -3144,7 +3144,7 @@
 				{
 					id: "506242B9D7D90674"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:skyjade_boots"
 						tag: {
 							Damage: 0
@@ -3175,7 +3175,7 @@
 				{
 					id: "55B557CD188B3EC4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "galosphere:sterling_helmet"
 						tag: {
 							Damage: 0
@@ -3186,7 +3186,7 @@
 				{
 					id: "0BE3F53F33A96FE5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "galosphere:sterling_chestplate"
 						tag: {
 							Damage: 0
@@ -3197,7 +3197,7 @@
 				{
 					id: "1354A39692D976B2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "galosphere:sterling_leggings"
 						tag: {
 							Damage: 0
@@ -3208,7 +3208,7 @@
 				{
 					id: "6AA3750E1849AA01"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "galosphere:sterling_boots"
 						tag: {
 							Damage: 0
@@ -3256,7 +3256,7 @@
 				{
 					id: "761062473F3F3AB0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "the_bumblezone:stingless_bee_helmet_1"
 						tag: {
 							Damage: 0
@@ -3267,7 +3267,7 @@
 				{
 					id: "102FB98DFD602215"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "the_bumblezone:bumble_bee_chestplate_1"
 						tag: {
 							Damage: 0
@@ -3278,7 +3278,7 @@
 				{
 					id: "339A587CF6F14143"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "the_bumblezone:honey_bee_leggings_1"
 						tag: {
 							Damage: 0
@@ -3290,7 +3290,7 @@
 				{
 					id: "41B8266D76384128"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "the_bumblezone:carpenter_bee_boots_1"
 						tag: {
 							Damage: 0
@@ -3339,7 +3339,7 @@
 				{
 					id: "371535024E2DD6F7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "the_bumblezone:stingless_bee_helmet_2"
 						tag: {
 							Damage: 0
@@ -3350,7 +3350,7 @@
 				{
 					id: "251A8B1913E04DAE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "the_bumblezone:bumble_bee_chestplate_2"
 						tag: {
 							Damage: 0
@@ -3361,7 +3361,7 @@
 				{
 					id: "535F83F2909F9834"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "the_bumblezone:honey_bee_leggings_2"
 						tag: {
 							Damage: 0
@@ -3373,7 +3373,7 @@
 				{
 					id: "07EC67CA50DADC83"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "the_bumblezone:carpenter_bee_boots_2"
 						tag: {
 							Damage: 0
@@ -3424,7 +3424,7 @@
 			tasks: [{
 				id: "6669EF98E54CE5AD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "quark:pickarang"
 					tag: {
 						Damage: 0
@@ -3449,7 +3449,7 @@
 			tasks: [{
 				id: "663A12DFC8EE8F64"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "quark:flamerang"
 					tag: {
 						Damage: 0
@@ -3497,7 +3497,7 @@
 			tasks: [{
 				id: "5D2FB752DC439EE5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "nameless_trinkets:trinkets"
@@ -3507,7 +3507,7 @@
 				type: "item"
 			}]
 			title: "Obtain a Trinket"
-			x: 1.5d
+			x: 2.5d
 			y: 3.0d
 		}
 		{
@@ -3528,7 +3528,7 @@
 				{
 					id: "73205DC076975ACC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "orpheus:hephaestus_helmet"
 						tag: {
 							Damage: 0
@@ -3539,7 +3539,7 @@
 				{
 					id: "01AC82429FC65ADD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "orpheus:hephaestus_chestplate"
 						tag: {
 							Damage: 0
@@ -3550,7 +3550,7 @@
 				{
 					id: "5D0838AC16EF2CB7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "orpheus:hephaestus_leggings"
 						tag: {
 							Damage: 0
@@ -3561,7 +3561,7 @@
 				{
 					id: "0DF9F1B4C481AA82"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "orpheus:hephaestus_boots"
 						tag: {
 							Damage: 0

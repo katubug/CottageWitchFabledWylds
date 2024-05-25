@@ -350,7 +350,7 @@
 			subtitle: "don't call him a monkey"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "unusualprehistory:fruit_loot_box"
 					tag: {
 						CustomModelData: 2
@@ -389,7 +389,7 @@
 			subtitle: "majunga dunga dunga"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "unusualprehistory:majunga_helmet"
 					tag: {
 						Damage: 0
@@ -757,7 +757,7 @@
 			tasks: [{
 				id: "0410516876EDD498"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "reliquary:mob_charm_fragment"
 					tag: {
 						entity: "minecraft:skeleton"
@@ -790,7 +790,7 @@
 			tasks: [{
 				id: "27224224B5A34F0A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "reliquary:mob_charm"
 					tag: {
 						Damage: 0
@@ -865,7 +865,7 @@
 			rewards: [{
 				id: "1EBA2186692E1ECA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "capsule:capsule"
 					tag: {
 						author: "?"
@@ -889,7 +889,7 @@
 			tasks: [{
 				id: "48EC70B224DC350C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:brush"
 					tag: {
 						Damage: 0
@@ -917,7 +917,7 @@
 				{
 					id: "122426918B974D5F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "quark:forgotten_hat"
 						tag: {
 							Damage: 0
@@ -1105,7 +1105,7 @@
 			tasks: [{
 				id: "26957D1B168937B1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "orpheus:tears_bow"
 					tag: {
 						Damage: 0
@@ -1253,7 +1253,7 @@
 				consume_items: true
 				id: "764830660051F345"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "unusualprehistory:fossils"
@@ -1306,7 +1306,7 @@
 			subtitle: "an unstoppable force"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "unusualprehistory:trike_shield"
 					tag: {
 						Damage: 0
@@ -1340,7 +1340,7 @@
 			subtitle: "judge, jury, and executioner"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "unusualprehistory:primal_macuahuitl"
 					tag: {
 						Damage: 0
@@ -1446,7 +1446,7 @@
 			tasks: [{
 				id: "40CDAD85A6DA5E8D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:decorated_pot_sherds"
@@ -1458,6 +1458,64 @@
 			title: "Obtain A Sherd"
 			x: 4.5d
 			y: 0.5d
+		}
+		{
+			description: [
+				"The &eSniffer&r is an ancient being with a &avery developed sense of smell&r. They love to &adig up ancient seeds&r not available anywhere else!"
+				""
+				"In this modpack, there's an increased amount of &aitems they can find&r, and their functionality is also expanded! For example, you can now &6saddle and ride&r them, and even &6attach chests&r to them, which will allow them to &astore the items they sniff up&r!"
+			]
+			id: "4F3616F8CE8F6F2B"
+			rewards: [
+				{
+					id: "4EF74D6966EAA997"
+					item: "plushie_buddies:plushie_sniffer"
+					type: "item"
+				}
+				{
+					id: "132B130FBCEDE09B"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1383088259
+									-940030622
+									-1307834190
+									-16019236
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdhZDkyMGE2NmUzOGNjMzQyNmE1YmZmMDg0NjY3ZTg3NzIxMTY5MTVlMjk4MDk4NTY3YzEzOWYyMjJlMmM0MiJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Lore: [
+									"{\"text\":\"Custom Head ID: 60697\",\"color\":\"gray\",\"italic\":false}"
+									"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+								]
+								Name: "{\"text\":\"Sniffer\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "sniffa"
+			tasks: [{
+				icon: "plushie_buddies:plushie_sniffer"
+				id: "4A6779B347550A39"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:sniffer"
+				type: "observation"
+			}]
+			title: "Meet a Sniffer"
+			x: 4.5d
+			y: 3.5d
 		}
 	]
 	title: "Ancient Roots"

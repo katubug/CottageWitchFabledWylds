@@ -678,7 +678,7 @@ ServerEvents.recipes(event => {
 
     //Eccentric Tome
     event.shapeless(
-        Item.of('eccentrictome:tome', '{"eccentrictome:mods":{aether:{0:{Count:1b,id:"aether:book_of_lore"}},eidolon:{0:{Count:1b,id:"eidolon:codex"}},fdcookbook:{0:{Count:1b,id:"fdcookbook:fd_cookbook"}},ftbquests:{0:{Count:1b,id:"ftbquests:book"}},lexicon:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"lexicon:lexicon"}}},solonion:{0:{Count:1b,id:"solonion:food_book"}},unusualprehistory:{0:{Count:1b,id:"unusualprehistory:encyclopedia"}}}}'), [
+        Item.of('eccentrictome:tome', '{"eccentrictome:mods":{aether:{0:{Count:1b,id:"aether:book_of_lore"}},caupona:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"caupona:book"}}},eidolon:{0:{Count:1b,id:"eidolon:codex"}},ftbquests:{0:{Count:1b,id:"ftbquests:book"}},solonion:{0:{Count:1b,id:"solonion:food_book"}},unusualprehistory:{0:{Count:1b,id:"unusualprehistory:encyclopedia"}}},"eccentrictome:version":1}'), [
             'minecraft:book',
             'minecraft:stick'
         ]
@@ -1094,6 +1094,35 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    //Chalk crafting
+    let dyeColor =[
+        "red",
+        "orange",
+        "yellow",
+        "green",
+        "lime",
+        "light_blue",
+        "cyan",
+        "blue",
+        "pink",
+        "magenta",
+        "purple",
+        "gray",
+        "light_gray",
+        "black",
+        "brown"
+    ];
+
+    for (const color of dyeColor) {
+        event.shapeless(
+            Item.of('chalk:'+color+'_chalk'),
+            [
+                'regions_unexplored:chalk',
+                'minecraft:'+color+'_dye'
+            ]
+        )
+    }
+
     event.shaped(
         Item.of('abyssal_decor:scrimshaw_cave'),
             [
@@ -1466,7 +1495,67 @@ ServerEvents.recipes(event => {
         'plushies:ghast_plushie',
         'plushies:hoglin_plushie',
         'plushies:zoglin_plushie',
-        'plushies:strider_plushie'
+        'plushies:strider_plushie',
+        'plushie_buddies:plushie_cow',
+        'plushie_buddies:plushie_chicken',
+        'plushie_buddies:plushie_cat',
+        'plushie_buddies:plushie_camel',
+        'plushie_buddies:plushie_blaze',
+        'plushie_buddies:plushie_axolotl',
+        'plushie_buddies:plushie_allay',
+        'plushie_buddies:plushie_bat',
+        'plushie_buddies:plushie_bee',
+        'plushie_buddies:plushie_wither',
+        'plushie_buddies:plushie_witch',
+        'plushie_buddies:plushie_wandering_trader',
+        'plushie_buddies:plushie_warden',
+        'plushie_buddies:plushie_vindicator',
+        'plushie_buddies:plushie_villager',
+        'plushie_buddies:plushie_vex',
+        'plushie_buddies:plushie_zombified_piglin',
+        'plushie_buddies:plushie_zombie_villager',
+        'plushie_buddies:plushie_zombie',
+        'plushie_buddies:plushie_zoglin',
+        'plushie_buddies:plushie_wolf',
+        'plushie_buddies:plushie_wither_skeleton',
+        'plushie_buddies:plushie_turtle',
+        'plushie_buddies:plushie_trader_lama',
+        'plushie_buddies:plushie_ravanger',
+        'plushie_buddies:plushie_rabbit',
+        'plushie_buddies:plushie_pillager',
+        'plushie_buddies:plushie_pufferfish',
+        'plushie_buddies:plushie_polar_bear',
+        'plushie_buddies:plushie_piglin_brute',
+        'plushie_buddies:plushie_piglin',
+        'plushie_buddies:plushie_pig',
+        'plushie_buddies:plushie_phantom',
+        'plushie_buddies:plushie_ghast',
+        'plushie_buddies:plushie_goat',
+        'plushie_buddies:plushie_horse',
+        'plushie_buddies:plushie_hoglin',
+        'plushie_buddies:plushie_husk',
+        'plushie_buddies:plushie_magma_cube',
+        'plushie_buddies:plushie_mooshroom',
+        'plushie_buddies:plushie_panda',
+        'plushie_buddies:plushie_parrot',
+        'plushie_buddies:plushie_frog',
+        'plushie_buddies:plushie_fox',
+        'plushie_buddies:plushie_evoker',
+        'plushie_buddies:plushie_enderman',
+        'plushie_buddies:plushie_enderdragon',
+        'plushie_buddies:plushie_drowned',
+        'plushie_buddies:plushie_donkey',
+        'plushie_buddies:plushie_dolphin',
+        'plushie_buddies:plushie_creeper',
+        'plushie_buddies:plushie_sheep',
+        'plushie_buddies:plushie_skeleton',
+        'plushie_buddies:plushie_skeleton_horse',
+        'plushie_buddies:plushie_spider',
+        'plushie_buddies:plushie_squid',
+        'plushie_buddies:plushie_stray',
+        'plushie_buddies:plushie_strider',
+        'plushie_buddies:plushie_iron_golem',
+        'plushie_buddies:plushie_sniffer'
     ];
 
     for (const plush of plushDupe) {

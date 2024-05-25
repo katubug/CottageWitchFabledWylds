@@ -162,7 +162,7 @@
 			tasks: [{
 				count: 6L
 				id: "05589C9F97548AAA"
-				item: { Count: 6b, id: "eidolon:wooden_altar" }
+				item: { Count: 6, id: "eidolon:wooden_altar" }
 				type: "item"
 			}]
 			title: "A Multiblock Altar"
@@ -363,7 +363,7 @@
 				{
 					id: "72977F6FD91E7C11"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:flint_and_steel"
 						tag: {
 							Damage: 0
@@ -381,7 +381,7 @@
 				{
 					count: 2L
 					id: "01910939785178FF"
-					item: { Count: 2b, id: "eidolon:stone_hand" }
+					item: { Count: 2, id: "eidolon:stone_hand" }
 					type: "item"
 				}
 			]
@@ -468,7 +468,7 @@
 			tasks: [{
 				id: "4E211766F4BD57C1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "eidolon:reaper_scythe"
 					tag: {
 						Damage: 0
@@ -487,7 +487,7 @@
 			tasks: [{
 				id: "2033BE6BDB9D0823"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "eidolon:reversal_pick"
 					tag: {
 						Damage: 0
@@ -640,7 +640,7 @@
 			tasks: [{
 				id: "7DFF3AEAAE0FED8E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "eidolon:athame"
 					tag: {
 						Damage: 0
@@ -797,7 +797,7 @@
 				{
 					id: "2B64C2026C950E4D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "eidolon:patron_symbol"
@@ -836,7 +836,7 @@
 				{
 					id: "45EC5E65496BC9A9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eidolon:warlock_hat"
 						tag: {
 							Damage: 0
@@ -847,7 +847,7 @@
 				{
 					id: "776B412F88068411"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eidolon:warlock_cloak"
 						tag: {
 							Damage: 0
@@ -858,7 +858,7 @@
 				{
 					id: "42FD8B3EDB4FA49B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eidolon:warlock_boots"
 						tag: {
 							Damage: 0
@@ -983,7 +983,7 @@
 				count: 3
 				id: "76620C630687F54C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:water"

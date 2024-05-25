@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{\"ids\":[\"librarian\"]}"
@@ -14,7 +14,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{\"ids\":[\"fletcher\"]}"
@@ -23,7 +23,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{\"ids\":[\"inventor\"]}"
@@ -32,7 +32,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{\"ids\":[\"armorer\"]}"
@@ -41,7 +41,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{\"ids\":[\"leatherer\"]}"
@@ -50,7 +50,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{\"ids\":[\"toolsmith\"]}"
@@ -59,7 +59,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{\"ids\":[\"mapper\"]}"
@@ -68,7 +68,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{\"ids\":[\"shepherd\"]}"
@@ -77,7 +77,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{\"ids\":[\"butcher\"]}"
@@ -86,7 +86,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{\"ids\":[\"farmer\"]}"
@@ -95,7 +95,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{\"ids\":[\"cleric\"]}"
@@ -104,7 +104,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{\"ids\":[\"lepidopterist\"]}"
@@ -113,7 +113,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{\"ids\":[\"moneychanger\"]}"
@@ -122,7 +122,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{\"ids\":[\"monster_hunter\"]}"
@@ -131,7 +131,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "bountiful:decree"
 				tag: {
 					"bountiful:decree_data": "{\"ids\":[\"plushies\"]}"

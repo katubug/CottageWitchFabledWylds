@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:neptune_helmet"
 				tag: {
 					Damage: 0
@@ -15,7 +15,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:neptune_chestplate"
 				tag: {
 					Damage: 0
@@ -25,7 +25,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:neptune_leggings"
 				tag: {
 					Damage: 0
@@ -35,7 +35,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:neptune_boots"
 				tag: {
 					Damage: 0
@@ -45,7 +45,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:neptune_gloves"
 				tag: {
 					Damage: 0
@@ -55,7 +55,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:valkyrie_lance"
 				tag: {
 					Damage: 0
@@ -65,7 +65,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:hammer_of_kingbdogz"
 				tag: {
 					Damage: 0
@@ -75,7 +75,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:sentry_boots"
 				tag: {
 					Damage: 0
@@ -85,7 +85,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:zanite_helmet"
 				tag: {
 					Damage: 0
@@ -95,7 +95,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:zanite_chestplate"
 				tag: {
 					Damage: 0
@@ -105,7 +105,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:zanite_leggings"
 				tag: {
 					Damage: 0
@@ -115,7 +115,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:zanite_boots"
 				tag: {
 					Damage: 0
@@ -125,7 +125,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:zanite_gloves"
 				tag: {
 					Damage: 0
@@ -135,7 +135,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:zanite_ring"
 				tag: {
 					Damage: 0
@@ -145,7 +145,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:zanite_pendant"
 				tag: {
 					Damage: 0
@@ -155,7 +155,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:shield_of_repulsion"
 				tag: {
 					Damage: 0
@@ -165,7 +165,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:cloud_staff"
 				tag: {
 					Damage: 0
@@ -175,7 +175,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:phoenix_bow"
 				tag: {
 					Damage: 0
@@ -185,7 +185,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:flaming_sword"
 				tag: {
 					Damage: 0

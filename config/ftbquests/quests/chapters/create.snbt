@@ -385,7 +385,7 @@
 			dependencies: ["3136D906C98A2243"]
 			description: ["This is just the basics of what you can do with the magic of engineering. Explore on your own and see what kind of &amystical machines&r you can craft."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "supplementaries:wrench"
 				tag: {
 					Damage: 0
@@ -555,7 +555,7 @@
 			tasks: [{
 				count: 4L
 				id: "1DE2F99870386DC6"
-				item: { Count: 4b, id: "create:bar_of_chocolate" }
+				item: { Count: 4, id: "create:bar_of_chocolate" }
 				type: "item"
 			}]
 			title: "Liquid to Solid via Compaction"
@@ -1094,7 +1094,7 @@
 			tasks: [{
 				id: "24D3B975ED330FBA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:copycat_blocks"
@@ -1170,7 +1170,7 @@
 			tasks: [{
 				id: "1ADAAC50223C4DFC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:create_doors"

@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "reliquary:mob_charm_fragment"
 				tag: {
 					entity: "eidolon:wraith"
@@ -15,7 +15,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "reliquary:mob_charm_fragment"
 				tag: {
 					entity: "minecraft:warden"
@@ -24,7 +24,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "reliquary:mob_charm_fragment"
 				tag: {
 					entity: "minecraft:silverfish"
@@ -34,7 +34,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "reliquary:mob_charm_fragment"
 				tag: {
 					entity: "minecraft:shulker"
@@ -44,7 +44,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "reliquary:mob_charm_fragment"
 				tag: {
 					entity: "minecraft:piglin_brute"
@@ -54,7 +54,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "reliquary:mob_charm_fragment"
 				tag: {
 					entity: "minecraft:ravager"
@@ -64,7 +64,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "reliquary:mob_charm_fragment"
 				tag: {
 					entity: "minecraft:vex"

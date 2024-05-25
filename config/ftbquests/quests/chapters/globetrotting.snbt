@@ -58,7 +58,7 @@
 			rewards: [{
 				id: "6C4AA9B8014AE3F0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:splash_potion"
 					tag: {
 						Potion: "minecraft:strong_healing"
@@ -88,7 +88,7 @@
 			rewards: [{
 				id: "3B3D522C46A95BE8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:player_head"
 					tag: {
 						SkullOwner: {
@@ -197,7 +197,7 @@
 			rewards: [{
 				id: "474AE26E907CEE13"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:player_head"
 					tag: {
 						SkullOwner: {
@@ -245,7 +245,7 @@
 				{
 					id: "2DEE2C92B67779A6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "capsule:capsule"
 						tag: {
 							author: "HeyKatu"
@@ -269,7 +269,7 @@
 			tasks: [{
 				id: "628297917BCB66ED"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "explorerscompass:explorerscompass"
 					tag: { }
 				}
@@ -301,7 +301,7 @@
 			tasks: [{
 				id: "0AA5D5B5891F4838"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "naturescompass:naturescompass"
 					tag: { }
 				}
@@ -445,7 +445,7 @@
 			tasks: [{
 				id: "27EF600DF7DC0004"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "waystones:warp_stone"
 					tag: {
 						Damage: 0
@@ -514,7 +514,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:leather_boots"
 					tag: {
 						Damage: 0
@@ -726,7 +726,7 @@
 			tasks: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "tombstone:decorative_grave_simple"
 						tag: {
 							model_texture: 0
@@ -738,7 +738,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "tombstone:decorative_grave_cross"
 						tag: {
 							model_texture: 1
@@ -750,7 +750,7 @@
 				}
 			]
 			title: "The Final Resting Places"
-			x: 3.5d
+			x: 4.0d
 			y: 6.5d
 		}
 		{
@@ -766,7 +766,7 @@
 			shape: "octagon"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "fairylights:witch_light"
 					tag: {
 						color: 3949738
@@ -777,8 +777,8 @@
 				type: "structure"
 			}]
 			title: "Tall Witch Hut"
-			x: 2.5d
-			y: 5.0d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
 			description: ["A tower... it seems abandoned! What sort of treasures - and what sort of dangers - might it have in it's &abasement&r?"]
@@ -797,8 +797,8 @@
 				type: "structure"
 			}]
 			title: "Find a Stone Tower"
-			x: 5.5d
-			y: 7.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			description: ["Ah, a familiar sight, yet somehow new! A &cWitch's Hut&r, home to one of your kin and their cat. Perhaps it would be nice to &astop in and say hello&r?"]
@@ -812,7 +812,7 @@
 			shape: "octagon"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "endrem:witch_eye"
 					tag: {
 						Damage: 0
@@ -959,7 +959,7 @@
 			shape: "octagon"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:golden_pickaxe"
 					tag: {
 						Damage: 0
@@ -1001,7 +1001,7 @@
 				{
 					id: "7DE3A868D6884CEF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:written_book"
 						tag: {
 							author: "Unknown"
@@ -1042,7 +1042,7 @@
 				{
 					id: "6822A2023CFA3A7E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:written_book"
 						tag: {
 							author: "Unknown"
@@ -1092,7 +1092,7 @@
 				{
 					id: "5B3D60375750AB5C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:written_book"
 						tag: {
 							OBSData: { }

@@ -49,7 +49,7 @@
 			rewards: [{
 				id: "0A72326B7983EADD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:splash_potion"
 					tag: {
 						CustomPotionColor: 15490372
@@ -224,7 +224,7 @@
 				{
 					id: "267CF8D693C41335"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ancient_manuscripts:enchanted_book_glue"
 						tag: {
 							Damage: 0
@@ -235,7 +235,7 @@
 				{
 					id: "306E8339F7DE0BC6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:binding_tables"
@@ -332,7 +332,7 @@
 			tasks: [{
 				id: "420B44603C4A70A3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "experienceobelisk:experience_obelisk"
 					tag: { }
 				}
@@ -485,7 +485,7 @@
 			tasks: [{
 				id: "352976B249F104A4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "experienceobelisk:enlightened_amulet"
 					tag: { }
 				}
@@ -657,7 +657,7 @@
 				count: 3
 				id: "78F146A88614B46D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:harming"
@@ -716,7 +716,7 @@
 			tasks: [{
 				id: "64C6D76FB614019E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "davespotioneering:rudimentary_gauntlet"
 					tag: {
 						Damage: 0
@@ -740,7 +740,7 @@
 			tasks: [{
 				id: "7918C142154DCE3C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "davespotioneering:netherite_gauntlet"
 					tag: {
 						Damage: 0
@@ -775,7 +775,7 @@
 				{
 					id: "27BDD2F278AF879A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "davespotioneering:potioneer_gauntlet"
 						tag: { }
 					}

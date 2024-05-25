@@ -10,7 +10,7 @@
 		{ item: "minecraft:heart_of_the_sea" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "waystones:warp_stone"
 				tag: {
 					Damage: 0

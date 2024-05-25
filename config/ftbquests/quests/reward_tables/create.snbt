@@ -8,7 +8,7 @@
 		{ count: 5, item: "create:rose_quartz", weight: 15.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "create:sand_paper"
 				tag: {
 					Damage: 0

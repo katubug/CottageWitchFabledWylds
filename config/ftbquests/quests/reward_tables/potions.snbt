@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:night_vision"
@@ -14,7 +14,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:invisibility"
@@ -23,7 +23,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:leaping"
@@ -32,7 +32,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:fire_resistance"
@@ -41,7 +41,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:swiftness"
@@ -50,7 +50,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:slowness"
@@ -59,7 +59,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:water_breathing"
@@ -68,7 +68,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:healing"
@@ -77,7 +77,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:harming"
@@ -86,7 +86,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:poison"
@@ -95,7 +95,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:regeneration"
@@ -104,7 +104,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:strength"
@@ -113,7 +113,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:weakness"
@@ -122,7 +122,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:slow_falling"
@@ -131,7 +131,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "ars_nouveau:mana_regen_potion"

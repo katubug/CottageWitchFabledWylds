@@ -61,7 +61,7 @@
 			tasks: [{
 				id: "2B71420D0C290C59"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tiab:time_in_a_bottle"
 					tag: {
 						storedTime: 3520
@@ -146,7 +146,7 @@
 			tasks: [{
 				id: "7AFEDB990D121E9E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "supplementaries:wrench"
 					tag: {
 						Damage: 0
@@ -590,7 +590,7 @@
 				{
 					id: "4587C4D3AEE2CA2B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bountiful:decree"
 						tag: {
 							"bountiful:decree_data": "{\"ids\":[\"moneychanger\"]}"
@@ -627,7 +627,7 @@
 				advancement: "minecraft:nether/all_effects"
 				criterion: ""
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:leaping"
@@ -659,7 +659,7 @@
 			tasks: [{
 				id: "03BCF6954B5954F4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:magnum_torches"
@@ -771,7 +771,7 @@
 			tasks: [{
 				id: "3FCD8D8009D39246"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "exposure:camera"
 					tag: {
 						Active: 0b
@@ -836,7 +836,7 @@
 				{
 					id: "327EEBE907B5E132"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "xercapaint:item_canvas"
 						tag: {
 							author: "Katubug"
@@ -1109,7 +1109,7 @@
 				{
 					id: "1995D8E0DF2FFB97"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "xercapaint:item_canvas_large"
 						tag: {
 							author: "Katubug"
@@ -2180,7 +2180,7 @@
 			rewards: [{
 				id: "7862B917BD12A048"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bountiful:decree"
 					tag: {
 						"bountiful:decree_data": "{}"
@@ -2258,7 +2258,7 @@
 			tasks: [{
 				id: "42C56EC373D5D101"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:mailboxes"
@@ -2291,7 +2291,7 @@
 				{
 					id: "316D5BBF1B764AF6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:typewriters"
@@ -2380,7 +2380,7 @@
 			tasks: [{
 				id: "73748512473776F6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "travelerscompass:travelerscompass"
 					tag: {
 						foundPos: { }
@@ -2406,7 +2406,7 @@
 				{
 					id: "7BA174D02F378746"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "exposure:photograph"
 						tag: {
 							Biome: "minecraft:plains"
@@ -2484,7 +2484,7 @@
 					count: 2
 					id: "1FE36B05678F71E6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:thick"
@@ -2496,7 +2496,7 @@
 					count: 2
 					id: "5F931581D96A28E6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:mundane"
@@ -2508,7 +2508,7 @@
 					count: 2
 					id: "61398267ED10E965"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:awkward"
@@ -2521,7 +2521,7 @@
 				{
 					id: "246CF319B613D4EE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:thick"
@@ -2532,7 +2532,7 @@
 				{
 					id: "57E0032108F0660C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:mundane"
@@ -2543,7 +2543,7 @@
 				{
 					id: "51D93A5325DD5F2E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:awkward"
@@ -2574,7 +2574,7 @@
 				{
 					id: "3C3DABB67B7489C9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "comforts:hammocks"
@@ -2687,7 +2687,7 @@
 			rewards: [{
 				id: "35B8980AB6FC50B2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "easy_mob_farm:collar_small"
 					tag: {
 						AbsorptionAmount: 0.0f
@@ -3057,7 +3057,7 @@
 				{
 					id: "3E1AE85C3383B966"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
@@ -3187,7 +3187,7 @@
 			rewards: [{
 				id: "71CFF588AECD9697"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bountiful:decree"
 					tag: {
 						"bountiful:decree_data": "{\"ids\":[\"plushies\"]}"
@@ -3199,7 +3199,7 @@
 			tasks: [{
 				id: "1B78390A0008A99B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:plushies"

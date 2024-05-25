@@ -13,7 +13,7 @@
 		{ item: "betterarcheology:artifact_shards" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "betterarcheology:iron_brush"
 				tag: {
 					Damage: 0

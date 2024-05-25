@@ -189,7 +189,7 @@
 			tasks: [{
 				id: "622600E3F1AD966D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:kettles"
@@ -224,7 +224,7 @@
 			tasks: [{
 				id: "219A3EABFF62B73B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:funguscolony"
@@ -386,7 +386,7 @@
 			rewards: [{
 				id: "6D0B8699A4DE9B38"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "netherdepthsupgrade:lava_vision"
@@ -487,7 +487,7 @@
 			tasks: [{
 				id: "1013400BF2BCA148"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "farmersdelight:tools/knives"
@@ -700,7 +700,7 @@
 				{
 					id: "6EC2D8A548A17C8B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
@@ -793,7 +793,7 @@
 				{
 					id: "428C119B85669349"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
@@ -943,7 +943,7 @@
 				{
 					id: "4349E09114B69DB5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
@@ -1014,7 +1014,7 @@
 				{
 					id: "705EAF175398F230"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "candlelight:chefs_jacket"
 						tag: {
 							Damage: 0
@@ -1025,7 +1025,7 @@
 				{
 					id: "2FEC8444078B8FCE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "candlelight:cooking_hat"
 						tag: {
 							Damage: 0
@@ -1036,7 +1036,7 @@
 				{
 					id: "38FFEDF3FBF6AFF0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "candlelight:chefs_pants"
 						tag: {
 							Damage: 0
@@ -1047,7 +1047,7 @@
 				{
 					id: "357A70FB8C187511"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "candlelight:chefs_boots"
 						tag: {
 							Damage: 0
@@ -1074,7 +1074,7 @@
 			rewards: [{
 				id: "62A1E505361F41BF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:player_head"
 					tag: {
 						SkullOwner: {
@@ -1146,16 +1146,6 @@
 					item: "candlelight:veggie_plate"
 					type: "item"
 				}
-				{
-					id: "61955C12FD5759D9"
-					item: "youkaishomecoming:stinky_tofu"
-					type: "item"
-				}
-				{
-					id: "590F684F55A894E4"
-					item: "youkaishomecoming:tofu_burger"
-					type: "item"
-				}
 			]
 			title: "Delicious Veggies"
 			x: 1.0d
@@ -1175,7 +1165,7 @@
 				{
 					id: "6F880DBA7486C95D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "vinery:solaris_wine"
 						tag: {
 							Year: 0
@@ -1291,11 +1281,6 @@
 					type: "item"
 				}
 				{
-					id: "1FD79A36D703CDE9"
-					item: "youkaishomecoming:red_velvet_cake"
-					type: "item"
-				}
-				{
 					id: "0ED65B99CB7C990C"
 					item: "mysticsbiomes:purple_frosted_cake"
 					type: "item"
@@ -1362,7 +1347,7 @@
 			tasks: [{
 				id: "3A0EBB76C04A0C8A"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: { }
 					}
@@ -1480,7 +1465,7 @@
 				{
 					id: "6A8F38155FA4D447"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
@@ -1653,7 +1638,7 @@
 			tasks: [{
 				id: "6E421AB16B8FAE63"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:grape_seeds"
@@ -1697,7 +1682,7 @@
 				{
 					id: "5F78A75F4DBD8906"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "vinery:lattice"
@@ -1838,7 +1823,7 @@
 			tasks: [{
 				id: "26FAD9AEB5512CC2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "vinery:noir_wine"
 					tag: {
 						Year: 0
@@ -1874,7 +1859,7 @@
 				{
 					id: "6D94E84FC752293A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "vinery:straw_hat"
 						tag: {
 							Damage: 0
@@ -1885,7 +1870,7 @@
 				{
 					id: "241DA1ACB19CE704"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "vinery:winemaker_apron"
 						tag: {
 							Damage: 0
@@ -1896,7 +1881,7 @@
 				{
 					id: "585F84684F58D82A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "vinery:winemaker_leggings"
 						tag: {
 							Damage: 0
@@ -1907,7 +1892,7 @@
 				{
 					id: "6337ACBEC2F5180B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "vinery:winemaker_boots"
 						tag: {
 							Damage: 0
@@ -2096,7 +2081,7 @@
 				{
 					id: "7D76B9B0F996A207"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "vinery:clark_wine"
 						tag: {
 							Year: 0
@@ -2121,7 +2106,7 @@
 			tasks: [{
 				id: "075CFC19D7C57F9C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "meadow:cheese_blocks"
@@ -2355,7 +2340,7 @@
 				{
 					id: "459E314EA3A709DA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "vinery:straw_hat"
 						tag: {
 							Damage: 0
@@ -2783,7 +2768,7 @@
 			rewards: [{
 				id: "4C977859DBE5905D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:mushroom_stew"
 					tag: {
 						display: {
@@ -2956,7 +2941,7 @@
 				{
 					id: "739BACBEC59B3B1B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "candlelight:cooking_hat"
 						tag: {
 							Damage: 0
@@ -2967,7 +2952,7 @@
 				{
 					id: "5D1B228F5F683746"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "candlelight:chefs_jacket"
 						tag: {
 							Damage: 0
@@ -2978,7 +2963,7 @@
 				{
 					id: "38B77D35D27BE8EC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "candlelight:chefs_pants"
 						tag: {
 							Damage: 0
@@ -2989,7 +2974,7 @@
 				{
 					id: "022F4C0EFBD2CE6D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "candlelight:chefs_boots"
 						tag: {
 							Damage: 0
@@ -3020,7 +3005,7 @@
 			tasks: [{
 				id: "667E746FC263FEEB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "vinery:jellie_wine"
 					tag: {
 						Year: 0
@@ -3052,7 +3037,7 @@
 				{
 					id: "42E38A6303137616"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "candlelight:cooking_pan"
 						tag: {
 							Damage: 0
@@ -3122,7 +3107,7 @@
 				{
 					id: "48DF3C6839DAEE2A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bakery:small_cooking_pot"
 						tag: {
 							Damage: 0
@@ -3360,7 +3345,7 @@
 				{
 					id: "60F692D2B1A192D8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:pasta/raw_pasta"
@@ -3437,7 +3422,7 @@
 			tasks: [{
 				id: "427BE39DCDDE6B14"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "caupona:book"
@@ -3474,7 +3459,7 @@
 			tasks: [{
 				id: "2E1AE323277DD37D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:dolium"
@@ -3503,7 +3488,7 @@
 			tasks: [{
 				id: "0DCE05B5A5DE587F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "caupona:vinegar_spice_jar"
 					tag: {
 						Damage: 0
@@ -3539,7 +3524,7 @@
 			tasks: [{
 				id: "75757D05BCC7E450"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "caupona:stoves"
@@ -3568,7 +3553,7 @@
 			tasks: [{
 				id: "3255E415A5C4A376"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:fryingpans"
@@ -3595,7 +3580,7 @@
 			rewards: [{
 				id: "69568BC3B08EC771"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "caupona:gravy_boat"
 					tag: {
 						Damage: 0
@@ -3606,7 +3591,7 @@
 			tasks: [{
 				id: "1041CE8989E60A0E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "caupona:gravy_boat"
 					tag: {
 						Damage: 0
@@ -3673,7 +3658,7 @@
 			tasks: [{
 				id: "1C8103B17EAECD54"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "caupona:borscht"
 					tag: {
 						"caupona:fluid": {
@@ -3721,7 +3706,7 @@
 				{
 					id: "7A02ABECEA695684"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "caupona:water"
 						tag: {
 							"caupona:fluid": {
@@ -3757,7 +3742,7 @@
 			rewards: [{
 				id: "7CA34AE8098F793E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "caupona:sauteed_roots"
 					tag: {
 						dish: {
@@ -3814,7 +3799,7 @@
 			tasks: [{
 				id: "3E79A04A68A13867"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "caupona:sauteed_roots"
 					tag: {
 						display: {
@@ -3850,7 +3835,7 @@
 			tasks: [{
 				id: "657D823A218F0EFA"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -3887,34 +3872,38 @@
 		{
 			description: ["The &bWall Bread Display&r can be used to show off your &bBreads&r from the &lBakery&r mod!"]
 			id: "73DC7CDFA4B7E09A"
+			rewards: [{
+				count: 5
+				id: "79068F1A7616A422"
+				item: "bakery:oat_seeds"
+				type: "item"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "0940F81383673337"
 				item: "bakery:wall_display"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -19.0d
+			x: 0.0d
+			y: -13.5d
 		}
 		{
 			description: ["This &bItem Display&r will allow you to, well, display any &bitems&r, &das long as they don't have a &aBlock form&r. For example, you can display a &bCupcake&r or a &bPickaxe&r, but not a &bCake&r or a &bDiamond Block&r."]
 			id: "60E911F7FF96F190"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75795A258B8B822B"
+				table_id: 8096229411196850122L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "2E63BD408343B9FB"
 				item: "bakery:cake_display"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -17.5d
-		}
-		{
-			id: "7AEAE90589665D88"
-			tasks: [{
-				id: "0E867D4508059B0C"
-				item: "bakery:bread_crate"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -16.0d
+			x: 2.0d
+			y: -13.5d
 		}
 	]
 	title: "Culinary Arts"

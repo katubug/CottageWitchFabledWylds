@@ -43,7 +43,7 @@
 			tasks: [{
 				id: "0328F21C5C6D8DB7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:eyes"
@@ -70,7 +70,7 @@
 			tasks: [{
 				id: "0AB9F107629AD0F7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:old_eye"
 					tag: {
 						Damage: 0
@@ -95,7 +95,7 @@
 			tasks: [{
 				id: "1F5C79ECEC9F9E1D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:nether_eye"
 					tag: {
 						Damage: 0
@@ -120,7 +120,7 @@
 			tasks: [{
 				id: "3D5D03F3351D90DA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:cold_eye"
 					tag: {
 						Damage: 0
@@ -145,7 +145,7 @@
 			tasks: [{
 				id: "58361D1901173A62"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:rogue_eye"
 					tag: {
 						Damage: 0
@@ -170,7 +170,7 @@
 			tasks: [{
 				id: "1FBCA3F2D130D48F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:black_eye"
 					tag: {
 						Damage: 0
@@ -195,7 +195,7 @@
 			tasks: [{
 				id: "6F5AB50C27E984E7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:magical_eye"
 					tag: {
 						Damage: 0
@@ -220,7 +220,7 @@
 			tasks: [{
 				id: "6EB8191E6422D6E8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:lost_eye"
 					tag: {
 						Damage: 0
@@ -245,7 +245,7 @@
 			tasks: [{
 				id: "21DFE47B30E241A4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:corrupted_eye"
 					tag: {
 						Damage: 0
@@ -270,7 +270,7 @@
 			tasks: [{
 				id: "277FB00BFBEBAC58"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:guardian_eye"
 					tag: {
 						Damage: 0
@@ -295,7 +295,7 @@
 			tasks: [{
 				id: "64CC7ACA72208D69"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:witch_eye"
 					tag: {
 						Damage: 0
@@ -320,7 +320,7 @@
 			tasks: [{
 				id: "168060C4F3E854E7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:cursed_eye"
 					tag: {
 						Damage: 0
@@ -345,7 +345,7 @@
 			tasks: [{
 				id: "5CC3D5714841ADDB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:evil_eye"
 					tag: {
 						Damage: 0
@@ -370,7 +370,7 @@
 			tasks: [{
 				id: "1698112600C02176"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:undead_eye"
 					tag: {
 						Damage: 0
@@ -395,7 +395,7 @@
 			tasks: [{
 				id: "34B655A1388E1E57"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:exotic_eye"
 					tag: {
 						Damage: 0
@@ -424,7 +424,7 @@
 				{
 					id: "25C3E0834F07B31B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
@@ -468,11 +468,18 @@
 			dependencies: ["2499CAE3934539A8"]
 			description: ["You killed the Dragon twice? Well, my goodness."]
 			id: "73EAABCF703B9DC9"
-			rewards: [{
-				id: "531F56AEE724EECA"
-				item: "minecraft:dragon_egg"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "531F56AEE724EECA"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "378D3C383C1BDFF3"
+					item: "plushie_buddies:plushie_enderdragon"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			subtitle: "Well that's just excessive"
 			tasks: [{
@@ -500,11 +507,6 @@
 					id: "7AABD5828ADFB215"
 					table_id: 223398162038636868L
 					type: "loot"
-				}
-				{
-					id: "6A721EF4CA363444"
-					item: "end_respawn_anchor:end_respawn_anchor"
-					type: "item"
 				}
 			]
 			subtitle: "Haha, get it? \"The End\"?"
@@ -641,6 +643,28 @@
 			title: "Visit The Hallow"
 			x: 1.0d
 			y: -2.0d
+		}
+		{
+			description: [
+				"The &bEye of Ender&r was once used to find the &cStrongholds&r of old. However, these no longer function the way they once did."
+				""
+				"To locate the &cStronghold&r, the modern witch uses an &bExplorer's Compass&r! You can also throw &bEyes&r from &lEnd Remastered&r, but as they are harder to come by, this is not advised."
+			]
+			id: "5D1EFA0ECBE9891C"
+			rewards: [{
+				count: 4
+				id: "58896531B8FF1891"
+				item: "minecraft:cobweb"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58AC8A0AD0C246B4"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
 		}
 	]
 	title: "The End"

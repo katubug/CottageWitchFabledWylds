@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:valkyrie_helmet"
 				tag: {
 					Damage: 0
@@ -15,7 +15,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:valkyrie_chestplate"
 				tag: {
 					Damage: 0
@@ -25,7 +25,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:valkyrie_leggings"
 				tag: {
 					Damage: 0
@@ -35,7 +35,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:valkyrie_boots"
 				tag: {
 					Damage: 0
@@ -45,7 +45,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:valkyrie_gloves"
 				tag: {
 					Damage: 0
@@ -55,7 +55,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:valkyrie_pickaxe"
 				tag: {
 					Damage: 0
@@ -65,7 +65,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:valkyrie_axe"
 				tag: {
 					Damage: 0
@@ -75,7 +75,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:valkyrie_shovel"
 				tag: {
 					Damage: 0
@@ -85,7 +85,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:valkyrie_hoe"
 				tag: {
 					Damage: 0
@@ -99,7 +99,7 @@
 		{ item: "aether:regeneration_stone", weight: 5.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:lightning_sword"
 				tag: {
 					Damage: 0
@@ -108,7 +108,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:holy_sword"
 				tag: {
 					Damage: 0

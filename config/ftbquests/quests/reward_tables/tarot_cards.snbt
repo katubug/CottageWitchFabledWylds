@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:death"
 				tag: { }
 			}
@@ -13,7 +13,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:judgement"
 				tag: { }
 			}
@@ -21,14 +21,14 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:justice"
 				tag: { }
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:strength"
 				tag: { }
 			}
@@ -36,7 +36,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:temperance"
 				tag: { }
 			}
@@ -44,7 +44,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:the_chariot"
 				tag: { }
 			}
@@ -52,7 +52,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:the_devil"
 				tag: { }
 			}
@@ -60,14 +60,14 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:the_emperor"
 				tag: { }
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:the_moon"
 				tag: { }
 			}
@@ -75,7 +75,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:the_magician"
 				tag: { }
 			}
@@ -83,7 +83,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:the_lovers"
 				tag: { }
 			}
@@ -91,14 +91,14 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:the_high_priestess"
 				tag: { }
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:the_hierophant"
 				tag: { }
 			}
@@ -106,7 +106,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:the_hermit"
 				tag: { }
 			}
@@ -114,7 +114,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:the_hanged_man"
 				tag: { }
 			}
@@ -122,7 +122,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:the_fool"
 				tag: { }
 			}
@@ -130,7 +130,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:the_star"
 				tag: { }
 			}
@@ -138,7 +138,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:the_sun"
 				tag: { }
 			}
@@ -146,21 +146,21 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:the_tower"
 				tag: { }
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:the_world"
 				tag: { }
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "tarotcards:wheel_of_fortune"
 				tag: { }
 			}

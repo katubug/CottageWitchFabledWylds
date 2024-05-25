@@ -1,20 +1,24 @@
 // Listen to player login event
 PlayerEvents.loggedIn(event => {
+  const { player, server } = event;
     // Check if player doesn't have "starting_items" stage yet
     if (!event.player.stages.has('starting_items')) {
       // Add the stage
       event.player.stages.add('starting_items')
+      // Open Book
+      event.server.scheduleInTicks(2 * 20, callback => {
+        let cmd = `/ftbquests open_book`
+        console.log("running "+cmd+" for player...")
+        event.player.runCommand(cmd)
+    })
       // Give some items to player
+      console.log("Giving starting items...")
       event.player.give('ftbquests:book')
-      event.player.give(Item.of('farmersdelight:flint_knife', '{Damage:0}'))
-      event.player.give(Item.of('sophisticatedbackpacks:iron_backpack', '{contentsUuid:[I;-2077438053,-1252441876,-1532526952,1627684290],inventorySlots:81,renderInfo:{upgradeItems:[{Count:1b,id:"minecraft:air"},{Count:1b,id:"minecraft:air"},{Count:1b,id:"minecraft:air"}]},upgradeSlots:3}'))
+      event.player.give(Item.of('farmersdelight:flint_knife'))
+      event.player.give(Item.of('sophisticatedbackpacks:backpack', '{contentsUuid:[I;98057394,206196373,-1409877456,995316285],inventorySlots:27,renderInfo:{upgradeItems:[{Count:1b,id:"minecraft:air"}]},upgradeSlots:1}'))
       event.player.give(Item.of('reliquary:mob_charm', '{Damage:0,entity:"minecraft:witch"}'))
       event.player.give('reliquary:witch_hat')
       event.player.give('comforts:sleeping_bag_cyan')
-      /*event.server.scheduleInTicks(20 * 20, callback => {
-        let cmd = `/ftbquests open_book`
-        console.log(cmd)
-        event.player.runCommand(cmd)
-    })*/
+      
       }
   })

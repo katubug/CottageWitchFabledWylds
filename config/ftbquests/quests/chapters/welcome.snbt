@@ -6,7 +6,7 @@
 	filename: "welcome"
 	group: "6B4E114EC6CDE8EE"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "herbalbrews:witch_hat"
 		tag: {
 			Damage: 0

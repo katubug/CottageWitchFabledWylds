@@ -215,7 +215,7 @@
 			rewards: [{
 				id: "3597B1BD7C289F24"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "capsule:capsule"
 					tag: {
 						canRotate: 1b
@@ -297,7 +297,7 @@
 			tasks: [{
 				id: "7E84953CAE77D32A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "forbidden_arcanus:soul_extractor"
 					tag: {
 						Damage: 0
@@ -334,7 +334,7 @@
 			tasks: [{
 				id: "11CE935435D68B6F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "forbidden_arcanus:mystical_dagger"
 					tag: {
 						Damage: 0
@@ -413,7 +413,7 @@
 				{
 					count: 2L
 					id: "58F3A78128CD3FDE"
-					item: { Count: 2b, id: "forbidden_arcanus:arcane_polished_darkstone" }
+					item: { Count: 2, id: "forbidden_arcanus:arcane_polished_darkstone" }
 					type: "item"
 				}
 				{
@@ -590,7 +590,7 @@
 			tasks: [{
 				id: "5346BC6EBBADB829"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "forbidden_arcanus:spectral_eye_amulet"
 					tag: { }
 				}
@@ -715,7 +715,7 @@
 			tasks: [{
 				id: "2CCECADBEF2775D0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "forbidden_arcanus:eternal_stella"
 					tag: { }
 				}
@@ -742,7 +742,7 @@
 				{
 					id: "60B01F90FE47450F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "nethervinery:blazewine_pinot"
 						tag: {
 							Year: 0
@@ -755,7 +755,7 @@
 			tasks: [{
 				id: "7B1343B65287D48C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "forbidden_arcanus:smelter_prism"
 					tag: {
 						Damage: 0
@@ -970,7 +970,7 @@
 			tasks: [{
 				id: "504A704BE2690541"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forbidden_arcanus:blacksmith_gavel"
@@ -1032,13 +1032,13 @@
 				{
 					count: 4L
 					id: "35F9F808D6B1650F"
-					item: { Count: 4b, id: "forbidden_arcanus:arcane_crystal" }
+					item: { Count: 4, id: "forbidden_arcanus:arcane_crystal" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "30CE0D68A85E0403"
-					item: { Count: 4b, id: "forbidden_arcanus:spawner_scrap" }
+					item: { Count: 4, id: "forbidden_arcanus:spawner_scrap" }
 					type: "item"
 				}
 			]
@@ -1067,13 +1067,13 @@
 				{
 					count: 4L
 					id: "3E9AA5A6C355ADE5"
-					item: { Count: 4b, id: "forbidden_arcanus:arcane_crystal" }
+					item: { Count: 4, id: "forbidden_arcanus:arcane_crystal" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "45477552EDB3D962"
-					item: { Count: 4b, id: "forbidden_arcanus:deorum_ingot" }
+					item: { Count: 4, id: "forbidden_arcanus:deorum_ingot" }
 					type: "item"
 				}
 			]
@@ -1108,7 +1108,7 @@
 				{
 					count: 4L
 					id: "04EA3EAEF5077447"
-					item: { Count: 4b, id: "forbidden_arcanus:stellarite_piece" }
+					item: { Count: 4, id: "forbidden_arcanus:stellarite_piece" }
 					type: "item"
 				}
 			]
@@ -1137,19 +1137,19 @@
 				{
 					count: 2L
 					id: "41CBED73B7CFB593"
-					item: { Count: 2b, id: "forbidden_arcanus:dragon_scale" }
+					item: { Count: 2, id: "forbidden_arcanus:dragon_scale" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "1FCECCE94545029E"
-					item: { Count: 2b, id: "forbidden_arcanus:dark_nether_star" }
+					item: { Count: 2, id: "forbidden_arcanus:dark_nether_star" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "0CC568101A650C9B"
-					item: { Count: 4b, id: "minecraft:sculk_catalyst" }
+					item: { Count: 4, id: "minecraft:sculk_catalyst" }
 					type: "item"
 				}
 			]

@@ -15,7 +15,7 @@
 		{ item: "create:blaze_cake", weight: 30.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "waystones:warp_stone"
 				tag: {
 					Damage: 0

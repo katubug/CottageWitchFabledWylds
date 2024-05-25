@@ -6,7 +6,7 @@
 	filename: "fishing"
 	group: "33A91E268D63CB12"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "minecraft:fishing_rod"
 		tag: {
 			Damage: 0
@@ -131,7 +131,7 @@
 				{
 					id: "4C40E329E6BC61CC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquaculture:minnow"
 						tag: {
 							Damage: 0
@@ -263,7 +263,7 @@
 			tasks: [{
 				id: "4B09404FC3251283"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "netherdepthsupgrade:lava_fishing_rod"
 					tag: {
 						Damage: 0
@@ -341,7 +341,7 @@
 				count: 32L
 				id: "68C6E45464091E53"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:fishes"
@@ -368,7 +368,7 @@
 				{
 					id: "445F1FD2D5596AB0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
@@ -436,7 +436,7 @@
 			tasks: [{
 				id: "12209A4177B4DF50"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:fishing_rods"
@@ -743,7 +743,7 @@
 			tasks: [{
 				id: "095E6212BC3A01F3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquaculture:neptunium_fishing_rod"
 					tag: {
 						Damage: 0
@@ -808,7 +808,7 @@
 			rewards: [{
 				id: "7B908755691BDED7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquaculture:leech"
 					tag: {
 						Damage: 0
@@ -853,7 +853,7 @@
 			tasks: [{
 				id: "2A1BB7D954DF3CCE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:upgraded_hooks"
@@ -916,7 +916,7 @@
 			tasks: [{
 				id: "5B6DEDB1DA476DFA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:niche_hooks"
@@ -976,7 +976,7 @@
 				{
 					id: "292F78CEA9BECD3E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
@@ -1120,7 +1120,7 @@
 				{
 					id: "71A30F003C396099"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "crabbersdelight:bucket_of_crab_chum"
 						tag: {
 							Damage: 0
@@ -1214,7 +1214,7 @@
 			tasks: [{
 				id: "646C8D91D469E6CA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:aquafish"

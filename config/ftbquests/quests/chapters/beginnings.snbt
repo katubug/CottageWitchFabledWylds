@@ -74,9 +74,9 @@
 					type: "command"
 				}
 				{
-					id: "03343966A677ADE8"
+					id: "5590ABD0A23B51BB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eccentrictome:tome"
 						tag: {
 							"eccentrictome:mods": {
@@ -86,31 +86,25 @@
 										id: "aether:book_of_lore"
 									}
 								}
+								caupona: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "caupona:book"
+										}
+									}
+								}
 								eidolon: {
 									0: {
 										Count: 1b
 										id: "eidolon:codex"
 									}
 								}
-								fdcookbook: {
-									0: {
-										Count: 1b
-										id: "fdcookbook:fd_cookbook"
-									}
-								}
 								ftbquests: {
 									0: {
 										Count: 1b
 										id: "ftbquests:book"
-									}
-								}
-								lexicon: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "lexicon:lexicon"
-										}
 									}
 								}
 								solonion: {
@@ -126,6 +120,7 @@
 									}
 								}
 							}
+							"eccentrictome:version": 1
 						}
 					}
 					type: "item"
@@ -150,7 +145,7 @@
 				{
 					id: "146D300604AF13CC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "usefulslime:slime_sling"
 						tag: {
 							Damage: 0
@@ -161,7 +156,7 @@
 				{
 					id: "15CE6688B6EFC508"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "usefulslime:slime_boots"
 						tag: {
 							Damage: 0
@@ -193,7 +188,7 @@
 			rewards: [{
 				id: "524E7A99FC31E368"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "capsule:capsule"
 					tag: {
 						author: "Emmulah"
@@ -233,7 +228,7 @@
 				command: "/give @p carved_pumpkin{CustomModelData:1,display:{Name:'[{\"text\":\"Mushroom Hat\",\"italic\":false,\"color\":\"yellow\"}]',Lore:['[{\"text\":\"A sweet lil mushroom hat.\",\"italic\":false}]']}} 1"
 				elevate_perms: true
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:carved_pumpkin"
 					tag: {
 						CustomModelData: 1
@@ -262,7 +257,7 @@
 				{
 					id: "11D206DBB7A76FD6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:carved_pumpkin"
 						tag: {
 							display: {
@@ -342,7 +337,7 @@
 				{
 					id: "78AFDC62398091E8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:stone_sword"
 						tag: {
 							Damage: 0
@@ -353,7 +348,7 @@
 				{
 					id: "29BB4C4A6EF50D42"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:shield"
 						tag: {
 							Damage: 0
@@ -393,7 +388,7 @@
 			rewards: [{
 				id: "5D70A6A09E81AFCB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tombstone:decorative_grave_normal"
 					tag: {
 						model_texture: 1
@@ -405,7 +400,7 @@
 			tasks: [{
 				id: "0FAB038EE90016C8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tombstone:ankh_of_pray"
 					tag: {
 						Damage: 0
@@ -433,7 +428,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "forbidden_arcanus:reinforced_deorum_sword"
 					tag: {
 						Damage: 0

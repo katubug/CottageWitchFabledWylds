@@ -25,7 +25,7 @@
     {
       "threshold": 7,
       "benefit": {
-        "effect": "minecraft:regeneration",
+        "effect": "minecraft:luck",
         "value": 0
       }
     },

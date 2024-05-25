@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "lost_aether_content:phoenix_sword"
 				tag: {
 					Damage: 0
@@ -15,7 +15,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "lost_aether_content:phoenix_shovel"
 				tag: {
 					Damage: 0
@@ -25,7 +25,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "lost_aether_content:phoenix_pickaxe"
 				tag: {
 					Damage: 0
@@ -35,7 +35,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "lost_aether_content:phoenix_axe"
 				tag: {
 					Damage: 0
@@ -45,7 +45,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "lost_aether_content:phoenix_hoe"
 				tag: {
 					Damage: 0
@@ -55,7 +55,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aether:cloud_staff"
 				tag: {
 					Damage: 0
@@ -73,7 +73,7 @@
 		{ item: "aether:life_shard", weight: 7.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "lost_aether_content:shield_of_emile"
 				tag: {
 					Damage: 0
@@ -83,7 +83,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "lost_aether_content:power_gloves"
 				tag: {
 					Damage: 0
@@ -93,7 +93,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "lost_aether_content:phoenix_cape"
 				tag: {
 					Damage: 0
@@ -103,7 +103,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "lost_aether_content:invincibility_gem"
 				tag: {
 					Damage: 0
@@ -112,7 +112,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "lost_aether_content:sentry_shield"
 				tag: {
 					Damage: 0
@@ -122,7 +122,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "lost_aether_content:agility_boots"
 				tag: {
 					Damage: 0
@@ -132,7 +132,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "lost_aether_content:flaming_gemstone"
 				tag: {
 					Damage: 0
@@ -142,7 +142,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "lost_aether_content:swetty_mask"
 				tag: {
 					Damage: 0

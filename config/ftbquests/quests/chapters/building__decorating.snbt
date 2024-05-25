@@ -108,7 +108,7 @@
 				{
 					id: "4060C5FB1511ED4E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "buildinggadgets2:gadget_building"
 						tag: {
 							energy: 500000
@@ -125,7 +125,7 @@
 				{
 					id: "518D12073E1E0981"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "buildinggadgets2:gadget_exchanging"
 						tag: {
 							energy: 500000
@@ -171,7 +171,7 @@
 				{
 					id: "329EA864CDCD816B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "buildinggadgets2:gadget_copy_paste"
 						tag: {
 							energy: 1000000
@@ -203,7 +203,7 @@
 			tasks: [{
 				id: "6E1F006DF7BBCF80"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "buildinggadgets2:gadget_destruction"
 					tag: {
 						energy: 1000000
@@ -385,7 +385,7 @@
 			tasks: [{
 				id: "6CDC566DF6303032"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:hanging_signs"
@@ -415,7 +415,7 @@
 			tasks: [{
 				id: "644B3E0D6B13C8D4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "supplementaries:sign_posts"
@@ -481,7 +481,7 @@
 			tasks: [{
 				id: "08B5B6F8E5C51649"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "handcrafted:fancy_beds"
@@ -507,7 +507,7 @@
 				{
 					id: "70062585A7E762AE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "handcrafted:cushions"
@@ -519,7 +519,7 @@
 				{
 					id: "1F4D43CDA2388E85"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "handcrafted:sheets"
@@ -561,7 +561,7 @@
 			tasks: [{
 				id: "63B16A64CB3AE4F8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "handcrafted:trophies"
@@ -616,7 +616,7 @@
 				{
 					id: "1C4700C1B44DA255"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "handcrafted:tables"
@@ -628,7 +628,7 @@
 				{
 					id: "37260AF156A4F444"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "handcrafted:chairs"
@@ -667,7 +667,7 @@
 			tasks: [{
 				id: "5EE45AA279FC7F22"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "charginggadgets:charging_station"
 					tag: { }
 				}
@@ -728,7 +728,7 @@
 			tasks: [{
 				id: "232C9643DDF46F70"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:lattices"
@@ -838,7 +838,7 @@
 			tasks: [{
 				id: "388CB6543BEDA841"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:wind_chimes"
@@ -926,7 +926,7 @@
 			tasks: [{
 				id: "574AAB47BA4BDEAE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "framedblocks:framed_blueprint"
 					tag: {
 						blueprint_data: { }

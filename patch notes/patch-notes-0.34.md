@@ -1,3 +1,18 @@
+# **Config and Script Changes**
+- Blacklisted Brewery's Brewing Stations and Pagan Imbuing Cauldrons from being carryon'd.
+- Removed missing item from Cookie scavenger hunt quest.
+- Added a reference to DoesPotatoTick in the chunk claiming quest.
+- Mentioned that the FindMe keybinding needs to be set per player.
+- Removed missing item from Armor Trims reward table.
+- Added corn kernels to seed reward table.
+- Disabled Mystic Biome's Lagoon to prevent worldgen crashes.
+- Mythic Mounts can now fly in 3rd person.
+- Mythic Mounts are now immune to friendly fire.
+- Removed broken Farmer's Delight textures.
+- Disabled a dummy book.
+- Tombstone's Seed Pouches no longer drop OP stuff.
+- Quark's Myalite and Dusky Myalite are now obtainable.
+
 # **New Mods**
 ## Modonomicon
 [CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/modonomicon)

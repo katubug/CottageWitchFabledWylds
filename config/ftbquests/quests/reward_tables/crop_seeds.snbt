@@ -31,6 +31,7 @@
 		{ count: 2, item: "nethervinery:warped_grape_seeds" }
 		{ count: 3, item: "fruitsdelight:hamimelon_seeds" }
 		{ count: 3, item: "fruitsdelight:lemon_seeds" }
+		{ count: 3, item: "hauntedharvest:kernels" }
 	]
 	title: "Crop Seeds"
 }

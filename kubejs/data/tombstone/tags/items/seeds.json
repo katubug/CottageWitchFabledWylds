@@ -1,0 +1,125 @@
+{
+  "replace": true,
+  "values": [
+	{
+      "id": "minecraft:cocoa_beans",
+      "required": true
+    },
+	{
+      "id": "mysticalagriculture:seeds",
+      "required": false
+    },
+    {
+      "id": "bakery:strawberry_seeds",
+      "required": false
+        },
+        {
+          "id": "spawn:sunflower_seeds",
+      "required": false
+        },
+    {
+      "id": "vinery:jungle_grape_seeds_white",
+      "required": false
+        },
+        {
+          "id": "vinery:jungle_grape_seeds_red",
+      "required": false
+        },
+        {
+          "id": "vinery:taiga_grape_seeds_white",
+      "required": false
+        },
+        {
+          "id": "vinery:taiga_grape_seeds_red",
+      "required": false
+        },
+        {
+          "id": "vinery:savanna_grape_seeds_white",
+      "required": false
+        },
+        {
+          "id": "aether_redux:wyndsprout_seeds",
+      "required": false
+        },
+        {
+          "id": "supplementaries:flax_seeds",
+      "required": false
+        },
+        {
+          "id": "farmersdelight:cabbage_seeds",
+      "required": false
+        },
+        {
+          "id": "farmersdelight:tomato_seeds",
+      "required": false
+        },
+        {
+          "id": "fruitsdelight:durian_sapling",
+      "required": false
+        },
+        {
+          "id": "fruitsdelight:lemon_seeds",
+      "required": false
+        },
+        {
+          "id": "fruitsdelight:hamimelon_seeds",
+      "required": false
+        },
+        {
+          "id": "delightful:cantaloupe_seeds",
+      "required": false
+        },
+        {
+          "id": "deep_aether:golden_grass_seeds",
+      "required": false
+        },
+        {
+          "id": "deep_aether:squash_seeds",
+      "required": false
+        },
+        {
+          "id": "minecraft:beetroot_seeds",
+      "required": false
+        },
+        {
+          "id": "minecraft:melon_seeds",
+      "required": false
+        },
+        {
+          "id": "minecraft:pumpkin_seeds",
+      "required": false
+        },
+        {
+          "id": "vinery:savanna_grape_seeds_red",
+      "required": false
+        },
+        {
+          "id": "vinery:white_grape_seeds",
+      "required": false
+        },
+        {
+          "id": "vinery:red_grape_seeds",
+      "required": false
+        },
+        {
+          "id": "nethervinery:warped_grape_seeds",
+      "required": false
+        },
+        {
+          "id": "nethervinery:crimson_grape_seeds",
+      "required": false
+        },
+        {
+          "id": "brewery:barley_seeds",
+      "required": false
+        },
+        {
+          "id": "brewery:hops_seeds",
+      "required": false
+        },
+        {
+          "id": "bakery:oat_seeds",
+    "required": false
+      }
+  ]
+}

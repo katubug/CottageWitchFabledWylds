@@ -85,6 +85,11 @@
 				"This will let you view how to make anything in the game!"
 			]
 			id: "226D1B09B2958EFC"
+			rewards: [{
+				id: "2F283F7FB47A65D3"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "gear"
 			size: 1.0d
 			subtitle: "Take a little look-see"
@@ -116,7 +121,7 @@
 		}
 		{
 			description: [
-				"If you want your base to stay active even when you're not there, you want &achunk loading&r."
+				"If you want your base to stay active even when you're not there, you want &achunk loading&r. This will also help if you &ahave a vanilla-style mob farm&r. The mod &lDoesPotatoTick&r &daffects the way these farms work when chunks are unclaimed&r."
 				""
 				"Open your inventory and look at the top left of your screen. The &amap icon&r will lead you to the &aFTB Chunks&r screen."
 				""
@@ -313,7 +318,7 @@
 			description: [
 				"Looking for a particular item in a nearby inventory?"
 				""
-				"Hover over the item in JEI or your inventory and &6press the Y key&r:"
+				"Hover over the item in JEI or your inventory and &6press the keybind&r. This &dneeds to be bound by the user&r, so find a key you like and change it in your &akeybindings menu&r."
 				"{image:enchanted_wilds:textures/questimages/findme1.png width:220 height:150 align:1}"
 				""
 				"Then, inventories containing that item will be highlighted with these little particle effects:"

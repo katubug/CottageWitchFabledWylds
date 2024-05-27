@@ -146,11 +146,6 @@
 					type: "item"
 				}
 				{
-					id: "74D424DD9551F89F"
-					item: "mysticsbiomes:pumpkin_cookie"
-					type: "item"
-				}
-				{
 					id: "4E88AA295F899E23"
 					item: "fruitsdelight:persimmon_cookie"
 					type: "item"

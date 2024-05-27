@@ -402,6 +402,12 @@
 				"In order to generate &aAureal&r, they must be placed &aon top of the &bArcane Chiseled Polished Darkstone&r surrounding the &bForge&r. Do keep in mind &dthis is a very slow process&r. It can be sped up with &bTime in a Bottle&r, but it's recommended that you have this running in &aloaded chunks&r so it will continue working even while you're away from your base!"
 			]
 			id: "3A914FA86A9CA7E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47513412E73E4904"
+				table_id: 2797019701616015075L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -573,7 +579,7 @@
 				item: "forbidden_arcanus:deorum_ingot"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: -9.0d
 		}
 		{
@@ -596,7 +602,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: -7.5d
 		}
 		{

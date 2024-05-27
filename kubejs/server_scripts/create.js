@@ -42,6 +42,9 @@ ServerEvents.recipes(e => {
     //Sinister Carrot haunting
     e.recipes.create.haunting('domesticationinnovation:sinister_carrot', 'minecraft:golden_carrot')
 
+    //Make Myalite via haunting
+    e.recipes.create.haunting('quark:myalite', 'minecraft:packed_mud')
+
     //Eidolon Crucible Recipes
     //Magic Ink
     e.recipes.create.mixing('2x eidolon:magic_ink', [Fluid.water(300), '2x eidolon:silver_nugget', 'minecraft:glass_bottle', '2x #forge:dyes/black', '#forge:dyes/blue', 'minecraft:glow_ink_sac']).heated()

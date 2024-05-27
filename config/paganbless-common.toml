@@ -1,0 +1,3 @@
+#A blacklist for mobs that should not be captured by the pentacle on sacrifice
+pentacle_blacklisted = ["minecraft:wither", "minecraft:warden", "minecraft:ender_dragon"]
+

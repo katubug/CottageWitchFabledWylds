@@ -279,4 +279,6 @@ JEIEvents.hideItems(event => {
       for (const hide of toHide) {
         event.hide(hide);
     }
+
+    event.hide(Item.of('modonomicon:modonomicon', '{"modonomicon:book_id":"modonomicon:demo"}'));
 })

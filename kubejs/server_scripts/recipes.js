@@ -1386,6 +1386,32 @@ ServerEvents.recipes(event => {
     // Blast 1 iron ingot into 10 nuggets in a Blast Furnace: 
     event.blasting('create:zinc_block', 'create:raw_zinc_block')
 
+    //Dusky Myalite obtainable
+    event.shaped(
+        Item.of('quark:dusky_myalite', 8),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ], {
+            A: 'quark:myalite',
+            B: 'tombstone:grave_dust'
+        }
+    )
+
+    //Myalite Crystals obtainable
+    event.shaped(
+        Item.of('quark:myalite_crystal', 8),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ], {
+            A: '#quark:corundum',
+            B: 'forbidden_arcanus:arcane_crystal_dust'
+        }
+    )
+
     // Plushie Duplication
     let plushDupe = [
         'perfectplushies:rabbit_plushie',

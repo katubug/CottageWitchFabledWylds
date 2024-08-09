@@ -1,7 +1,7 @@
 {
 	id: "3593DCF20E6E228E"
 	loot_size: 1
-	order_index: 30
+	order_index: 31
 	rewards: [
 		{ item: "nameless_trinkets:wooden_stick" }
 		{ item: "nameless_trinkets:moon_stone" }

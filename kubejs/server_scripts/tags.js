@@ -933,6 +933,25 @@ event.add('forge:aquafish',
     'gemsnjewels:jeweled_gold_tiara'
     )
 
+    //Brewing Stations
+    event.add('forge:brewing_station',
+    'brewery:wooden_brewingstation', 
+    'brewery:copper_brewingstation', 
+    'brewery:netherite_brewingstation'
+    )
+
+    //Barley
+    event.add('forge:crops/barley',
+    'regions_unexplored:barley'
+    )
+
+    //Dried Grain
+    event.add('forge:dried_grain',
+        'brewery:dried_wheat', 
+        'brewery:dried_barley', 
+        'brewery:dried_corn'
+    )
+
 })
 
 ServerEvents.tags('entity_type', event => {

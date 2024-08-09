@@ -1,7 +1,7 @@
 {
 	id: "066A6FFC43304127"
 	loot_size: 3
-	order_index: 38
+	order_index: 40
 	rewards: [
 		{ count: 2, item: "aether:ambrosium_shard", weight: 10.0f }
 		{ count: 3, item: "aether:swet_ball", weight: 10.0f }

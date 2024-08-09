@@ -8,5 +8,6 @@
     "dimdungeons:"
   ],
   "dontShow": [
+    "ctov:medium/village_mountain"
   ]
 }

@@ -1,7 +1,7 @@
 {
 	id: "031F5BCBAAF45399"
 	loot_size: 1
-	order_index: 44
+	order_index: 46
 	rewards: [
 		{ item: "unusualprehistory:majunga_scute", weight: 2.0f }
 		{ item: "unusualprehistory:rex_scale", weight: 0.5f }

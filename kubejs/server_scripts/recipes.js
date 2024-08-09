@@ -76,11 +76,20 @@ ServerEvents.recipes(event => {
     //Recipe Replacements
     //Strawberries
     event.replaceInput({
-            input: 'mysticsbiomes:strawberry'
-        }, // Arg 1: the filter
-        'mysticsbiomes:strawberry', // Arg 2: the item to replace
-        '#forge:strawberries' // Arg 3: the item to replace it with
-    )
+        input: 'mysticsbiomes:strawberry'
+    }, // Arg 1: the filter
+    'mysticsbiomes:strawberry', // Arg 2: the item to replace
+    '#forge:strawberries' // Arg 3: the item to replace it with
+)
+
+    //Recipe Replacements
+    //Strawberries
+    event.replaceInput({
+        input: 'create:wheat_flour'
+    }, // Arg 1: the filter
+    'create:wheat_flour', // Arg 2: the item to replace
+    '#forge:flour' // Arg 3: the item to replace it with
+)
 
     //Strawberries 2
     event.replaceInput({
@@ -147,8 +156,8 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('minecraft:slime_ball'),
         [{
-                tag: 'forge:dyes/lime'
-            },
+            tag: 'forge:dyes/lime'
+        },
             'farmersdelight:wheat_dough'
         ]
     )
@@ -158,10 +167,14 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('farmersdelight:wheat_dough', 3),
         [
-            'create:wheat_flour',
-            'create:wheat_flour',
+            {
+                tag: 'forge:flour'
+            },
+            {
+                tag: 'forge:flour'
+            },
             'minecraft:water_bucket',
-            'bakery:yeast'
+            'farm_and_charm:yeast'
         ]
     )
 
@@ -220,7 +233,7 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('farmersdelight:wheat_dough'),
         [
-            'bakery:dough'
+            'farm_and_charm:dough'
         ]
     )
 
@@ -232,6 +245,14 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    //Dough conversion 3
+    event.shapeless(
+        Item.of('farmersdelight:wheat_dough'),
+        [
+            'cornexpansion:corn_dough'
+        ]
+    )
+
     //Sunflower conversion
     event.shapeless(
         Item.of('minecraft:sunflower'),
@@ -239,6 +260,15 @@ ServerEvents.recipes(event => {
             'spawn:sunflower'
         ]
     )
+
+    //Raw Pasta conversion
+    event.shapeless(
+        Item.of('farmersdelight:raw_pasta'),
+        [
+            'farm_and_charm:raw_pasta'
+        ]
+    )
+    
 
     //Magical Gold Conversions
     event.shapeless(
@@ -1322,7 +1352,6 @@ ServerEvents.recipes(event => {
 
     //Smelting Recipe DNA to Ooze
     event.smelting('unusualprehistory:organic_ooze', '#unusualprehistory:dna_flasks')
-    event.smelting('brewery:dried_corn', '#forge:crops/corn')
     
 
     //Stonecutter recipes for Xerca Woods

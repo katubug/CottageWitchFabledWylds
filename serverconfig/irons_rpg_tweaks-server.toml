@@ -32,6 +32,14 @@
 	durabilityLostOnDeath = 0.15
 	#An additional constant amount of damage taken on death. This makes items with a high max durability degrade relatively slower. Set to 0 to disable. Default: 25
 	additionalDurabilityLostOnDeath = 25
+	#If specified, the only items or item tags to take vanilla durability damage
+	vanillaDurabilityWhitelist = []
+	#If specified, these items or item tags never take vanilla durability damage
+	vanillaDurabilityBlacklist = []
+	#If specified, the only items or item tags to take durability damage on death
+	deathDurabilityWhitelist = []
+	#If specified, these items or item tags never take durability damage on death
+	deathDurabilityBlacklist = []
 
 [XP-Module]
 	#The purpose of the xp module is to rework how experience is dropped on a player's death by creating a souls-like xp catalyst instead. Disabling will nullify every feature listed under this module.

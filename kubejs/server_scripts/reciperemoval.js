@@ -221,9 +221,23 @@ ServerEvents.recipes(event => {
         {output: 'gemsnjewels:jeweled_gold_crown'},
         {output: 'gemsnjewels:jeweled_gold_comb' },
         {output: 'gemsnjewels:jeweled_gold_tiara'},
+        {output: 'farm_and_charm:plow'},
+        {output: 'farm_and_charm:supply_cart'},
+        {output: 'farm_and_charm:fertilized_soil'},
+        {output: 'farm_and_charm:fertilized_farmland'},
+        {output: 'farm_and_charm:carrot_bag'},
+        {output: 'farm_and_charm:potato_bag'},
+        {output: 'farm_and_charm:beetroot_bag'},
+        {output: 'farm_and_charm:lamb_ham'},
+        {output: 'farm_and_charm:flour'},
+        {output: 'farm_and_charm:bacon'},
+        {output: 'farm_and_charm:raw_pasta'},
+        {output: 'farm_and_charm:minced_beef'},
+        {output: 'farm_and_charm:chicken_parts'},
         //Replaced Recipes
         {output: 'mighty_mail:post_box'},
-        {output: 'farmersdelight:wheat_dough'},
+        {id: 'farmersdelight:wheat_dough_from_water'},
+        {id: 'farmersdelight:wheat_dough_from_eggs'},
         {output: 'delightful:cheeseburger'},
         {output: 'delightful:deluxe_cheeseburger'},
         {output: 'luphieclutteredmod:luphie_mermaid_pearl'},
@@ -265,6 +279,9 @@ ServerEvents.recipes(event => {
         {output: 'sophisticatedbackpacks:advanced_feeding_upgrade'},
         //{output: 'buildinggadgets:template_manager'},
         //{output: 'charginggadgets:charging_station'},
+        {id:'brewery:dried_corn'},
+        {id:'brewery:dried_wheat'},
+        {id:'brewery:dried_barley'}
         
     ];
     

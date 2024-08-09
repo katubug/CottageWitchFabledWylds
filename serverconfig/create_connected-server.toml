@@ -5,6 +5,18 @@ schematicsNestingDepth = 5
 #.
 #Enable the fix that gives remaining items after manual application
 applicationRemainingItemFix = true
+#.
+#Modify the stress output when a Fluid Vessel is used as a boiler
+#Range: 0.0 ~ 3.4028234663852886E38
+vesselBoilerStressMultiplier = 0.8125
+#.
+#Modify the heat level when a Fluid Vessel is used as a boiler
+#Range: 0.0 ~ 3.4028234663852886E38
+vesselHeatMultiplier = 0.5
+#.
+#Limit the max boiler level achievable with a Fluid Vessel
+#Range: 0 ~ 18
+vesselMaxLevel = 18
 
 [stressValues]
 
@@ -32,4 +44,11 @@ applicationRemainingItemFix = true
 			freewheel_clutch = 0.0
 			brass_gearbox = 0.0
 			shear_pin = 0.0
+
+		#.
+		#[in Stress Units]
+		#Configure how much stress a source can accommodate for.
+		[stressValues.v2.capacity]
+			crank_wheel = 8.0
+			large_crank_wheel = 8.0
 

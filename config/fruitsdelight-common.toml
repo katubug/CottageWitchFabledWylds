@@ -27,4 +27,6 @@ peachDecayChance = 0.1
 #Effect application range for Alienating effect
 #Range: 0 ~ 64
 alienatingEffectRange = 12
+#Enable Thirst Compat
+enableThirstCompat = true
 

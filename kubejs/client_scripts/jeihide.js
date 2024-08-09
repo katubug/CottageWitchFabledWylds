@@ -44,12 +44,6 @@ JEIEvents.hideItems(event => {
         'minecraft:light', 
         'minecraft:jigsaw', 
         'minecraft:structure_block',
-        'candlelight:tomato_seeds', 
-        'candlelight:tomato', 
-        'candlelight:lettuce_seeds', 
-        'candlelight:lettuce',
-        'candlelight:tomato_crate', 
-        'candlelight:lettuce_crate',
         'nameless_trinkets:missing_page', 
         'nameless_trinkets:what_magnet', 
         'nameless_trinkets:explosion_proof_jacket', 
@@ -89,11 +83,8 @@ JEIEvents.hideItems(event => {
         'reliquary:rending_gale',
         'mysticsbiomes:strawberry',
         'mysticsbiomes:strawberry_jam',
-        'bakery:dough',
-        'candlelight:dough',
         'create:dough',
         'farmingforblockheads:feeding_trough',
-        'sleep_tight:bedbug_eggs',
         'reliquary:midas_touchstone', 
         'reliquary:pyromancer_staff', 
         'reliquary:rod_of_lyssa',
@@ -272,7 +263,32 @@ JEIEvents.hideItems(event => {
         'abyssal_decor:fever_blossom',
         'abyssal_decor:fever_blossom_tea',
         'galosphere:spectre_flare',
-        'supplementaries:rope'
+        'supplementaries:rope',
+        'farm_and_charm:plow',
+        'farm_and_charm:supply_cart',
+        'farm_and_charm:wild_onions',
+        'farm_and_charm:onion_bag',
+        'farm_and_charm:onion',
+        'farm_and_charm:tomato_bag',
+        'farm_and_charm:wild_tomatoes',
+        'farm_and_charm:rotten_tomato',
+        'farm_and_charm:tomato',
+        'farm_and_charm:tomato_seeds',
+        'farm_and_charm:fertilized_soil', 
+        'farm_and_charm:fertilized_farmland',
+        'farm_and_charm:carrot_bag',
+        'farm_and_charm:potato_bag',
+        'farm_and_charm:beetroot_bag',
+        'cornexpansion:corn_dough',
+        'farm_and_charm:dough',
+        'farm_and_charm:strawberry_tea_cup',
+        'farm_and_charm:nettle_tea_cup', 
+        'farm_and_charm:ribwort_tea_cup',
+        'farm_and_charm:lamb_ham',
+        'farm_and_charm:bacon',
+        'farm_and_charm:raw_pasta',
+        'farm_and_charm:minced_beef',
+        'farm_and_charm:chicken_parts'
 
       ];
     
@@ -280,5 +296,6 @@ JEIEvents.hideItems(event => {
         event.hide(hide);
     }
 
-    event.hide(Item.of('modonomicon:modonomicon', '{"modonomicon:book_id":"modonomicon:demo"}'));
+    event.hide(Item.of('modonomicon:modonomicon',
+      '{"modonomicon:book_id":"modonomicon:demo"}'));
 })

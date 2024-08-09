@@ -49,7 +49,7 @@
 			y: -11.0d
 		}
 		{
-			click: "https://discord.gg/Y9yCbhC4e2"
+			click: "https://discord.gg/zvFNa7kyXm"
 			height: 1.0d
 			hover: ["Click here to join our Discord!"]
 			image: "supplementaries:textures/gui/book/icon/discord.png"

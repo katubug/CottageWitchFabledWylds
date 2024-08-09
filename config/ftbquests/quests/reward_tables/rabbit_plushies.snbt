@@ -1,7 +1,7 @@
 {
 	id: "260520A69D2AE5D2"
 	loot_size: 1
-	order_index: 40
+	order_index: 42
 	rewards: [
 		{ item: "plushies:salt_rabbit_plushie" }
 		{ item: "plushies:brown_rabbit_plushie" }

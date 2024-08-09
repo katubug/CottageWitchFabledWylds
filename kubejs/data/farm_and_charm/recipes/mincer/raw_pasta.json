@@ -1,0 +1,12 @@
+{
+  "replace":true,
+  "type": "farm_and_charm:mincer",
+  "ingredient": {
+    "tag": "farm_and_charm:dough"
+  },
+  "recipe_type": "STONE",
+  "result": {
+    "item": "farmersdelight:raw_pasta",
+    "count": 2
+  }
+}

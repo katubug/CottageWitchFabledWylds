@@ -21,14 +21,6 @@
           },
           
           {
-            "output": "bakery:strawberry_seeds"
-          },
-          
-          {
-            "output": "bakery:oat_seeds"
-          },
-          
-          {
             "output": "nethervinery:crimson_grape_seeds",
             "payment": {
                 "item": "minecraft:blaze_powder",
@@ -50,10 +42,6 @@
           
           {
             "output": "vinery:white_grape_seeds"
-          },
-          
-          {
-            "output": "hauntedharvest:kernels"
           },
           
           {

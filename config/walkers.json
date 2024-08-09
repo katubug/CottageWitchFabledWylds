@@ -54,6 +54,10 @@
   },
   "multiVectorVariants": 2,
   "abilityBlacklist": [],
+  "entityBlacklist": [],
+  "entityBlacklistIsWhitelist": false,
   "playerUUIDBlacklist": [],
-  "playerBlacklistIsWhitelist": false
+  "playerBlacklistIsWhitelist": false,
+  "blacklistPreventsUnlocking": true,
+  "blacklistPreventsMorphing": true
 }

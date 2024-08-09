@@ -55,7 +55,8 @@
     "chiseled_bookshelf": true
   },
   "exposure": {
-    "lightroom": true
+    "lightroom": true,
+    "photograph_frame": true
   },
   "tombstone": {
     "graves": true
@@ -70,7 +71,8 @@
   },
   "delightful": {
     "crop_progress": true,
-    "pie_icons": true
+    "pie_icons": true,
+    "mushroom_colony": true
   },
   "reliquary": {
     "pedestal": true,

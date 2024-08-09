@@ -42,6 +42,10 @@
 		#Makes blockstate conversion sounds (ambrosium, swet ball) better
 		"Better Conversion Sounds" = true
 
+	["Gameplay Changes".Loot]
+		#Enables the Valkyrie Ring as a drop from Valkyries
+		"Valkyrie Ring" = true
+
 [Worldgen]
 
 	[Worldgen."Additional Features"]
@@ -51,8 +55,8 @@
 		"Enable Enchanted and Gilded Vines" = true
 		#Enables roots made of logs and log walls on the sides of Large Cloudcap mushrooms and Blightwillow trees.
 		"Wall Roots on Blightwillows and Large Cloudcaps" = true
-		#Uses an alternate Gilded Oak shape, more like vanilla Oak trees and Skyroots, for the Gilded biomes.
-		"Alternate Gilded Trees" = false
+		#Uses the legacy design for the gilded groves, instead of the new one added in 2.0.17 that is an inbetween of 2.0 and 2.1's designs
+		"Legacy Gilded Groves Design" = false
 
 		[Worldgen."Additional Features"."Cloud Layer"]
 			#Replaces the Aether's large cloud features with a new and improved noise-based cloud layer.
@@ -68,15 +72,8 @@
 		#Adds dungeon mobs from the Aether: Genesis to the spawners added to the Bronze Dungeon if it is installed
 		#Allowed Values: sentry_only, all, no_golems
 		"Genesis Mobs in Spawners" = "all"
-		#Which type of Bronze Dungeon Boss Room to use
-		#Allowed Values: classic, catwalks, open, vault
-		"Bronze Boss Room Type" = "vault"
-		#Which type of Bronze Dungeon Chest Room to use
-		#Allowed Values: classic, genesis, open, pillars
-		"Bronze Chest Room Type" = "pillars"
-		#Which type of Bronze Dungeon Lobby Room to use
-		#Allowed Values: classic, doors, two_story
-		"Bronze Lobby Type" = "doors"
+		#Upgrades the Bronze Dungeon structure with new blocks and more depth
+		"Bronze Dungeon Upgrade" = true
 
 	[Worldgen.Biomes]
 		#When enabled, any biome value config changes will be reset. It is recommended that you disable this if you want to keep any custom biome parameters you may have set.
@@ -99,8 +96,8 @@
 		"Enable Skyroot Shrublands" = true
 		#Uses Enchanted Aether Grass for the ground in the Gilded Groves. May require a Minecraft restart.
 		"Enchanted Gilded Grass" = true
-		#Changes the Aether's sky color to one slightly more consistent with the overworld, making the fog lighter than the rest of the sky
-		"Alternate Sky Color" = false
+		#Alters the sky colors of the Aether, to be a bit more in line with vanilla. Also adds some new unique colors as well to some of Redux's new biomes
+		"Alternate Sky Colors" = true
 
 [Internal]
 	#Internal value, used to decide if the Aeroblender configs should be changed

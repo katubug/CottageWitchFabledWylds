@@ -1,0 +1,23 @@
+{
+  "replace": true,
+  "type": "herbalbrews:kettle_brewing",
+  "experience": 0.8,
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "farm_and_charm:strawberry"
+    },
+    {
+      "item": "farm_and_charm:strawberry"
+    }
+  ],
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "result": {
+    "item": "farm_and_charm:strawberry_tea",
+    "count": 1
+  }
+}

@@ -11,15 +11,18 @@
 	#How often experience will be spent for using the compass?
 	#Range: > 1
 	xp_drain_rate = 270
-	#Block search radius (in blocks). Large values may result in lag issues.
+	#Maximum search radius of blocks (in blocks). Large values may result in lag issues.
 	#Range: > 1
-	blocks_search_radius = 25
-	#Containers search radius (in blocks). Large values may result in lag issues.
+	blockSearchRadiusLimit = 100
+	#Maximum search radius of containers (in blocks). Large values may result in lag issues.
 	#Range: > 1
-	containers_search_radius = 25
-	#Mobs search radius (in blocks).
+	containersSearchRadiusLimit = 100
+	#Maximum radius of search for entities
 	#Range: > 1
-	entities_search_radius = 65
+	entitySearchRadiusLimit = 200
+	#Maximum wide search radius (in blocks). Large values may result in serious lag issues.
+	#Range: > 1
+	wideSearchRadiusLimit = 200
 
 [compass-functions]
 	#Allows players to search for blocks.
@@ -34,8 +37,6 @@
 	villager_search = true
 	#Allows players to search for items lying on the ground.
 	item_entity_search = true
-	#Allows players to search for fluids based on their buckets.
-	mob_fluid_search = true
 	#Allows players to search for spawners.
 	mob_spawner_search = true
 	#Allows players to search for entities based on their inventories.
@@ -60,6 +61,10 @@
 	#Anything related to the mods in the list below will (not) be searched by compass.
 	#Example: ["alexscaves", "ae2", "minecraft"]
 	mods_filter = []
+	#Allows the player to use a search function that has a wider search radius.
+	enableWiderSearch = true
+	#Allows players to search for fluids based on their buckets.
+	fluid_search = true
 
 [compass-compatibility]
 	#JEI/REI interaction -> drag and drop items from the JEI/REI panel to the compass inventory

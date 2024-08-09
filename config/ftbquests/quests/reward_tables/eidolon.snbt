@@ -1,7 +1,7 @@
 {
 	id: "4F2F51A9DDD45526"
 	loot_size: 3
-	order_index: 28
+	order_index: 29
 	rewards: [
 		{ item: "eidolon:zombie_heart" }
 		{ item: "eidolon:tattered_cloth", weight: 4.0f }

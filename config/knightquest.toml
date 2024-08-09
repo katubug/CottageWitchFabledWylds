@@ -1,0 +1,100 @@
+
+["Config file for Knight Quest"]
+	#
+	#Eld Knight entity configuration
+	"Poison passive attack" = true
+	#Range: 0 ~ 6
+	"Number of Eld Bombs generated" = 3
+	#Range: 0.0 ~ 20.0
+	"Quantity of healing each 4 seconds" = 3.0
+	#
+	#Drop chance configuration
+	#Range: 0.0 ~ 1.0
+	"Drop chance for small essence" = 0.15
+	#Range: 0.0 ~ 1.0
+	"Drop chance for ratman eye" = 0.4
+	#Range: 0.0 ~ 1.0
+	"Drop chance for lizzy scale" = 0.3
+	#
+	#Range: 0.0 ~ 25.0
+	"Ghosty invulnerability radius" = 7.0
+	#
+	#Armor Passives
+	#
+	#Enable Deepslate Set Passive
+	enableDeepslateSet = true
+	#Enable Evoker Set Passive
+	enableEvokerSet = true
+	#Enable Squire Set Passive
+	enableSquireSet = true
+	#Enable Blaze Set Passive
+	enableBlazeSet = true
+	#Enable Dragon Set Passive
+	enableDragonSet = true
+	#Enable Bamboo Set Green Passive
+	enableBambooSetGreen = true
+	#Enable Shinobi Set Passive
+	enableShinobi = true
+	#Enable Bamboo Set Passive
+	enableBambooSet = true
+	#Enable Path Set Passive
+	enablePathSet = true
+	#Enable Bow Set Passive
+	enableBowSet = true
+	#Enable Bat Set Passive
+	enableBatSet = true
+	#Enable Shield Set Passive
+	enableShieldSet = true
+	#Enable Phantom Set Passive
+	enablePhantomSet = true
+	#Enable Horn Set Passive
+	enableHornSet = true
+	#Enable Sea Set Passive
+	enableSeaSet = true
+	#Enable Pirate Set Passive
+	enablePirateSet = true
+	#Enable Spider Set Passive
+	enableSpiderSet = true
+	#Enable Nether Set Passive
+	enableNetherSet = true
+	#Enable Skulk Passive
+	enableSkulk = true
+	#Enable Straw Hat Set Passive
+	enableStrawHatSet = true
+	#Enable Enderman Set Passive
+	enableEndermanSet = true
+	#Enable Veteran Set Passive
+	enableVeteranSet = true
+	#Enable Forze Set Passive
+	enableForzeSet = true
+	#Enable Creeper Set Passive
+	enableCreeperSet = true
+	#Enable Polar Passive
+	enablePolar = true
+	#Enable Silver Set Passive
+	enableSilverSet = true
+	#Enable Hollow Set Passive
+	enableHollowSet = true
+	#Enable Wither Set Passive
+	enableWitherSet = true
+	#Enable Apple Set Passive
+	enableAppleSet = true
+	#Enable Conquistador Set Passive
+	enableConquistadorSet = true
+	#Enable Witch Passive
+	enableWitch = true
+	#Enable Tengu Helmet Passive
+	enableTenguHelmet = true
+	#Enable Husk Set Passive
+	enableHuskSet = true
+	#Enable Bamboo Set Blue Passive
+	enableBambooSetBlue = true
+	#Enable Warlord Set Passive
+	enableWarlordSet = true
+	#Enable Zombie Set Passive
+	enableZombieSet = true
+	#Enable Silverfish Set Passive
+	enableSilverfishSet = true
+	#Enable Skeleton Set Passive
+	enableSkeletonSet = true
+

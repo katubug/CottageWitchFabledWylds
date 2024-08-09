@@ -3574,37 +3574,6 @@
 			x: -2.0d
 			y: 4.5d
 		}
-		{
-			description: [
-				"Using the incredible &afloatation power&r of the &ePhantom&r, and the &asheer power&r of the &eBlaze&r, you can craft your very own &bFlying Broom&r."
-				""
-				"These &bBrooms&r control much like an &bElytra&r, in that they will go in the direction you point them. However, unlike Elytra, they &acan hover&r, making them a little less frightening to control."
-				""
-				"The very talented witch may even find that they can &afly under the water&r for a time. Although there's no telling what happens to a soggy broom."
-				""
-				"To &amount your broom&r, &6right click to place it&r and then &6right click to hop on&r. You can move upwards with &6Spacebar&r, downwards with &6the s key&r, and dismount with &6left shift&r. To &apick up your broom&r again, &6shift and right click it&r."
-				""
-				"&dWarning: This item does not work well in multiplayer!&r The controls malfunction and it's difficult to move at all."
-			]
-			id: "4F6D540C081BE329"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1757CF18567A49FE"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			shape: "rsquare"
-			size: 1.5d
-			subtitle: "every witch needs a broom"
-			tasks: [{
-				id: "642E5DE5423FDCD8"
-				item: "mizs_broom:broom_item"
-				type: "item"
-			}]
-			title: "The Best Way To Fly"
-			x: -3.0d
-			y: -6.0d
-		}
 	]
 	title: "Equipment \\& Gear"
 }

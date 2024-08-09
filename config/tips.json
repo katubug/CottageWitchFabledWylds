@@ -69,5 +69,13 @@
     "aether:the_game",
     "aether:altar_repairing",
     "aether:ambrosium_shard_fuel"
-  ]
+  ],
+  "hideUnlocalizedTips": false,
+  "tipRenderWidthPercent": 0.35,
+  "defaultTitle": {
+    "bold": true,
+    "underlined": true,
+    "color": "yellow",
+    "translate": "tipsmod.title.default"
+  }
 }

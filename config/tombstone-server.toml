@@ -152,8 +152,6 @@
 
 #Allows to enable some features related to others mods
 [compatibility]
-	#fix the custom name with anvil when the string is empty [false/true|default:true]
-	fix_anvil_custom_name = true
 	#fix the RepairCost:0 added by the anvil & grindstone in nbt preventing theses items to stack [false/true|default:true]
 	fix_repair_cost_zero = true
 

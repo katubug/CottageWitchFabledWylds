@@ -1142,8 +1142,28 @@
 					type: "item"
 				}
 				{
-					id: "715AA1F7C0A3AEF8"
-					item: "candlelight:veggie_plate"
+					id: "57E4F06B60AA672C"
+					item: "candlelight:beetroot_salad"
+					type: "item"
+				}
+				{
+					id: "0B30B01227010ADA"
+					item: "candlelight:salad"
+					type: "item"
+				}
+				{
+					id: "30E9F5678A35321E"
+					item: "candlelight:tomato_mozzarella_salad"
+					type: "item"
+				}
+				{
+					id: "15298EF4652BD7D1"
+					item: "candlelight:harvest_plate"
+					type: "item"
+				}
+				{
+					id: "28427EBBA27FB4A1"
+					item: "candlelight:fresh_garden_salad"
 					type: "item"
 				}
 			]

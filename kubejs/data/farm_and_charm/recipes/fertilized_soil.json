@@ -1,0 +1,18 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "farm_and_charm:fertilizer"
+    }
+  },
+  "result": {
+    "item": "farmersdelight:rich_soil",
+    "count": 1
+  }
+}

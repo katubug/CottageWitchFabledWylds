@@ -1608,8 +1608,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Snail"
-			x: 2.0d
-			y: 12.5d
+			x: 6.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["407BBCE05BCE9039"]
@@ -1652,57 +1652,6 @@
 			}]
 			x: 6.0d
 			y: -3.0d
-		}
-		{
-			description: [
-				"Commonly associated with the &eFey&r, &eButterflies&r are a beautiful and mystical natural phenomenon. Said to be beings of great power - who can &acause typhoons with a single flap of their wings&r, they are also symbols of &atransformation and rebirth&r."
-				""
-				"&6Capture these creatures by left clicking&r using a &bButterfly Net&r. They can then be &arelocated&r, transferred to a &bGlass Bottle&r (which can be &aplaced down with &6shift right click&r), or &6preserved in a &bBook&r."
-				""
-				"When making &bButterfly Scrolls&r, &dbe careful not to shift+click the craft&r or you'll end up with a &astack of unusable empty sheets&r."
-			]
-			id: "6C7E1C6C0E2C8C64"
-			rewards: [{
-				id: "1B47B8B0E3F1EF78"
-				item: "butterflies:monarch_egg"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "59223D090752C450"
-				item: {
-					Count: 1
-					id: "butterflies:butterfly_net"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Catching Butterflies"
-			x: 6.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["6C7E1C6C0E2C8C64"]
-			description: [
-				"Your dedication to &acollecting &bPreserved Butterflies&r is impressive and laudable!"
-				""
-				"Take this reward and &6fly as they do&r."
-			]
-			id: "273CD6FDC0A73F35"
-			rewards: [{
-				id: "242046B5BCE34376"
-				item: "nameless_trinkets:ethereal_wings"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				advancement: "butterflies:butterfly/fill_butterfly_book"
-				criterion: ""
-				id: "72D24DF4F709494F"
-				type: "advancement"
-			}]
-			x: 7.0d
-			y: 12.5d
 		}
 		{
 			description: [

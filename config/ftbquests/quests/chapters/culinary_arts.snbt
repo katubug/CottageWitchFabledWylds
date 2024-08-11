@@ -2196,9 +2196,8 @@
 			]
 			id: "4E4341D997F9AE98"
 			rewards: [{
-				count: 6
-				id: "002A656D91256D87"
-				item: "meadow:raw_bear_meat"
+				id: "07D53CBD22C282A8"
+				item: "meadow:water_buffalo_spawn_egg"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -2913,11 +2912,6 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "149F6345F6566A63"
-					item: "candlelight:table_set"
-					type: "item"
-				}
-				{
 					id: "4078CE01E5FE45F8"
 					item: "candlelight:napkin"
 					type: "item"
@@ -2925,6 +2919,11 @@
 				{
 					id: "3D70553D07947553"
 					item: "candlelight:glass"
+					type: "item"
+				}
+				{
+					id: "4A8899C4FAFBA63A"
+					item: "candlelight:plate"
 					type: "item"
 				}
 			]
@@ -2945,14 +2944,14 @@
 				}
 				{
 					count: 5
-					id: "3782D5434616BC76"
-					item: "candlelight:butter"
+					id: "41807D1F177E3A4B"
+					item: "meadow:alpine_salt"
 					type: "item"
 				}
 				{
 					count: 5
-					id: "41807D1F177E3A4B"
-					item: "meadow:alpine_salt"
+					id: "48107E0E04EF45E3"
+					item: "farm_and_charm:butter"
 					type: "item"
 				}
 			]
@@ -3136,8 +3135,8 @@
 					type: "item"
 				}
 				{
-					id: "146FC370305552E7"
-					item: "bakery:brick_stove"
+					id: "4CDCF19CD239EB1F"
+					item: "farm_and_charm:stove"
 					type: "item"
 				}
 			]
@@ -3208,7 +3207,13 @@
 		}
 		{
 			dependencies: ["207C60DC8889AC0F"]
+			description: ["Using the tools you just acquired, you can now make &bStrawberry Jam!&r"]
 			id: "124F16ECDD4B26A2"
+			rewards: [{
+				id: "074162C5E0BE02E1"
+				item: "farm_and_charm:strawberry_tea"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "4906A64ECC5CE90F"
@@ -3338,8 +3343,14 @@
 			shape: "hexagon"
 			subtitle: "success!"
 			tasks: [{
-				id: "660CBC69EDCB7D41"
-				item: "candlelight:pasta_bolognese"
+				id: "50E838488969247F"
+				item: {
+					Count: 1
+					id: "candlelight:pasta_with_bolognese"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
 				type: "item"
 			}]
 			x: -1.5d
@@ -3397,8 +3408,8 @@
 			shape: "hexagon"
 			subtitle: "buttuh"
 			tasks: [{
-				id: "251B7002545A4AD7"
-				item: "candlelight:butter"
+				id: "5A8D1D23B2445237"
+				item: "farm_and_charm:butter"
 				type: "item"
 			}]
 			title: "Obtain Butter"
@@ -3876,14 +3887,14 @@
 			id: "4D65AA1353AA0E1D"
 			rewards: [{
 				count: 4
-				id: "51555FBF9D240D0D"
-				item: "create:wheat_flour"
+				id: "78608CEE4B07318E"
+				item: "farm_and_charm:flour"
 				type: "item"
 			}]
 			subtitle: "get crafty"
 			tasks: [{
-				id: "256808643F65253F"
-				item: "bakery:crafting_bowl"
+				id: "68DC207ADBC8566B"
+				item: "farm_and_charm:crafting_bowl"
 				type: "item"
 			}]
 			x: -0.5d
@@ -3893,9 +3904,9 @@
 			description: ["The &bWall Bread Display&r can be used to show off your &bBreads&r from the &lBakery&r mod!"]
 			id: "73DC7CDFA4B7E09A"
 			rewards: [{
-				count: 5
-				id: "79068F1A7616A422"
-				item: "bakery:oat_seeds"
+				count: 4
+				id: "7BD4B5D198EC7F19"
+				item: "farm_and_charm:oat_seeds"
 				type: "item"
 			}]
 			shape: "hexagon"

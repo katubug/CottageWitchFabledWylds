@@ -502,12 +502,12 @@
 			description: ["Even the most honest witch needs to sneak around sometimes. But you...well, you've snuck around &3a lot&r."]
 			id: "38285B9280444C60"
 			rewards: [{
-				id: "38E09DED192D360D"
+				id: "156F25E0D2811912"
 				item: {
-					Count: 1b
-					id: "environmental:thief_hood"
+					Count: 1
+					id: "minecraft:potion"
 					tag: {
-						Damage: 0
+						Potion: "goblintraders:extended_invisibility"
 					}
 				}
 				type: "item"

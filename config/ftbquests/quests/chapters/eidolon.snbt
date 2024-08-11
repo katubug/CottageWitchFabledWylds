@@ -523,6 +523,8 @@
 				"&eRavens&r are proud and noble corvids which live in &cForests&r."
 				""
 				"They &adrop &btheir Feathers&r periodically, and can be bred with &bBeetroot Seeds&r. These feathers are &auseful in crafting&r."
+				""
+				"Check your &bArs Ecclesia&r for a summoning ritual for them!"
 			]
 			id: "6BAEED9E017F5838"
 			rewards: [
@@ -723,6 +725,8 @@
 				"Slugs are &aclear signs of the left-behind &eGreat Ones&r, their invertebrate bodies remniscient of the deep knowledge of old."
 				""
 				"They are also very cute! They can be fed &bPumpkin Seeds&r and drop &bSlime Balls&r."
+				""
+				"Check your &bArs Ecclesia&r for a summoning ritual for them!"
 			]
 			id: "08F491A19A8246B7"
 			rewards: [

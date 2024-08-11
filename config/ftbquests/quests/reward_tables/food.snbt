@@ -7,7 +7,6 @@
 		{ count: 5, item: "minecraft:sweet_berries" }
 		{ item: "minecraft:mushroom_stew" }
 		{ count: 5, item: "meadow:alpine_salt" }
-		{ count: 3, item: "candlelight:butter" }
 		{ count: 4, item: "minecraft:beef" }
 		{ count: 3, item: "farmersdelight:milk_bottle" }
 		{ count: 3, item: "minecraft:kelp" }
@@ -24,6 +23,7 @@
 		{ count: 5, item: "minecraft:egg" }
 		{ count: 3, item: "minecraft:mutton" }
 		{ count: 2, item: "minecraft:rabbit" }
+		{ count: 3, item: "farm_and_charm:butter" }
 	]
 	title: "Food"
 }

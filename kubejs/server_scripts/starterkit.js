@@ -15,7 +15,6 @@ PlayerEvents.loggedIn(event => {
       console.log("Giving starting items...")
       event.player.give('ftbquests:book')
       event.player.give(Item.of('farmersdelight:flint_knife'))
-      event.player.give(Item.of('sophisticatedbackpacks:backpack', '{contentsUuid:[I;98057394,206196373,-1409877456,995316285],inventorySlots:27,renderInfo:{upgradeItems:[{Count:1b,id:"minecraft:air"}]},upgradeSlots:1}'))
       event.player.give(Item.of('reliquary:mob_charm', '{Damage:0,entity:"minecraft:witch"}'))
       event.player.give('reliquary:witch_hat')
       event.player.give('comforts:sleeping_bag_cyan')

@@ -275,8 +275,8 @@
 					type: "item"
 				}
 				{
-					id: "210BD760139220F7"
-					item: "hauntedharvest:corn_crate"
+					id: "5126D0836B72E09E"
+					item: "farm_and_charm:corn_bag"
 					type: "item"
 				}
 			]
@@ -332,21 +332,6 @@
 					type: "item"
 				}
 				{
-					id: "2DA25EE755D85A5C"
-					item: "hauntedharvest:corn"
-					type: "item"
-				}
-				{
-					id: "7146147F7299D5E9"
-					item: "bakery:oat"
-					type: "item"
-				}
-				{
-					id: "0CA9A8C25665C056"
-					item: "bakery:strawberry"
-					type: "item"
-				}
-				{
 					id: "2CC257E0F2FBF493"
 					item: "delightful:salmonberries"
 					type: "item"
@@ -354,6 +339,26 @@
 				{
 					id: "07E0C6422AFA5B4A"
 					item: "vegandelight:soybean"
+					type: "item"
+				}
+				{
+					id: "0BD7A6CEF3F6B63E"
+					item: "farm_and_charm:corn"
+					type: "item"
+				}
+				{
+					id: "652808E991B7EBEE"
+					item: "farm_and_charm:oat"
+					type: "item"
+				}
+				{
+					id: "4F9D7325DBD23437"
+					item: "farm_and_charm:lettuce"
+					type: "item"
+				}
+				{
+					id: "020F47CA57F316AE"
+					item: "farm_and_charm:barley"
 					type: "item"
 				}
 			]
@@ -524,18 +529,6 @@
 				}
 				{
 					count: 10L
-					id: "5AE7758AC5D86AA5"
-					item: "hauntedharvest:corn_crate"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "37C77AEC3CECE483"
-					item: "bakery:strawberry_crate"
-					type: "item"
-				}
-				{
-					count: 10L
 					id: "28597237443B3B16"
 					item: "farmersdelight:rice_bag"
 					type: "item"
@@ -544,6 +537,18 @@
 					count: 10L
 					id: "55F02BCB172E8D8C"
 					item: "delightful:salmonberry_sack"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "233047787B0AEDB1"
+					item: { Count: 10, id: "farm_and_charm:corn_bag" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1B06156C4AB3701F"
+					item: { Count: 10, id: "farm_and_charm:strawberry_bag" }
 					type: "item"
 				}
 			]
@@ -591,16 +596,6 @@
 					type: "item"
 				}
 				{
-					id: "38FE66C53F81A1E0"
-					item: "bakery:strawberry_crate"
-					type: "item"
-				}
-				{
-					id: "2E3B99FC059E987A"
-					item: "bakery:oat_crate"
-					type: "item"
-				}
-				{
 					id: "4B66FA5A5B0F2983"
 					item: "vinery:apple_bag"
 					type: "item"
@@ -608,6 +603,11 @@
 				{
 					id: "2C05CCABCF69D255"
 					item: "herbalbrews:tea_leaf_crate"
+					type: "item"
+				}
+				{
+					id: "075F95D4BAE955E3"
+					item: "farm_and_charm:strawberry_bag"
 					type: "item"
 				}
 			]
@@ -1137,8 +1137,8 @@
 					type: "item"
 				}
 				{
-					id: "70BBE0F5CAC35CA4"
-					item: "bakery:strawberry"
+					id: "5CDFB8881FB905FE"
+					item: "farm_and_charm:strawberry"
 					type: "item"
 				}
 			]
@@ -1226,11 +1226,6 @@
 				{
 					id: "02B607079847F248"
 					item: "fruitsdelight:pineapple"
-					type: "item"
-				}
-				{
-					id: "55C2DBB2A6E3FDC0"
-					item: "bakery:strawberry"
 					type: "item"
 				}
 			]

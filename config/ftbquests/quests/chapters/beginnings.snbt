@@ -125,6 +125,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "07119348D322D51B"
+					item: "sophisticatedbackpacks:copper_backpack"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d

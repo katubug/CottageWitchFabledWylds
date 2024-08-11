@@ -1,8 +1,0 @@
-{
-	icon: "minecraft:chest"
-	id: "1AFC8CABAE783E48"
-	loot_size: 1
-	order_index: 48
-	rewards: [ ]
-	title: "Gems"
-}

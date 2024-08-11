@@ -952,6 +952,13 @@ event.add('forge:aquafish',
         'brewery:dried_corn'
     )
 
+    //Brooms
+    event.add('forge:brooms',
+        'hexerei:mahogany_broom', 
+        'hexerei:willow_broom', 
+        'hexerei:witch_hazel_broom'
+    )
+
 })
 
 ServerEvents.tags('entity_type', event => {

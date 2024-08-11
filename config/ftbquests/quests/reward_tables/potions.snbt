@@ -129,15 +129,6 @@
 				}
 			}
 		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:potion"
-				tag: {
-					Potion: "ars_nouveau:mana_regen_potion"
-				}
-			}
-		}
 	]
 	title: "Potions"
 }

@@ -25,13 +25,13 @@
 		{ count: 3, item: "vinery:jungle_grape_seeds_red" }
 		{ count: 3, item: "vinery:jungle_grape_seeds_white" }
 		{ count: 3, item: "delightful:salmonberry_pips" }
-		{ count: 3, item: "bakery:strawberry_seeds" }
-		{ count: 3, item: "bakery:oat_seeds" }
 		{ count: 2, item: "nethervinery:crimson_grape_seeds" }
 		{ count: 2, item: "nethervinery:warped_grape_seeds" }
 		{ count: 3, item: "fruitsdelight:hamimelon_seeds" }
 		{ count: 3, item: "fruitsdelight:lemon_seeds" }
-		{ count: 3, item: "hauntedharvest:kernels" }
+		{ count: 3, item: "farm_and_charm:strawberry_seeds" }
+		{ count: 3, item: "farm_and_charm:oat_seeds" }
+		{ count: 3, item: "farm_and_charm:kernels" }
 	]
 	title: "Crop Seeds"
 }

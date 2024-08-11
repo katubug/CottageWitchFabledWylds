@@ -1,0 +1,10 @@
+{
+    "type": "malum:favor_of_the_void",
+    "input": {
+      "count": 1,
+      "item": "supplementaries:sconce"
+    },
+    "output": {
+      "item": "supplementaries:sconce_soul"
+    }
+  }

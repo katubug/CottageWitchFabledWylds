@@ -31,7 +31,6 @@
 		{ item: "aquaculture:red_shrooma_bucket" }
 		{ item: "aquaculture:jellyfish_bucket" }
 		{ item: "aquaculture:red_grouper_bucket" }
-		{ item: "aquaculture:tuna_bucket" }
 	]
 	title: "Aquaculture Buckets"
 }

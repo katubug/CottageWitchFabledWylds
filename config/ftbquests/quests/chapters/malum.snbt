@@ -238,7 +238,7 @@
 			description: [
 				"Hidden away in the trunks of &bRunewood Trees&r, you can find &asmall veins of thrumming sap&r. These can be revealed by &6stripping the wood with an axe&r."
 				""
-				"The &bHoly Sap&b can then be collected with a &bGlass Bottle&r. You can then use it to craft &bSap Balls&r or &bHoly Syrup&r, which can be applied to &bPancakes&r, among other things."
+				"The &bRunic or Cursed Sap&b can then be collected with a &bGlass Bottle&r. You can then use it to craft &bSap Balls&r or &bSap Blocks&r."
 			]
 			icon: "malum:exposed_runewood_log"
 			id: "630B7753CC69E3A3"
@@ -250,8 +250,13 @@
 					type: "random"
 				}
 				{
-					id: "736169F2630F1FA5"
-					item: "malum:holy_syrup"
+					id: "5712867FE0B49E68"
+					item: "malum:runic_sap"
+					type: "item"
+				}
+				{
+					id: "1ECF4D92FB0C13E7"
+					item: "malum:cursed_sap"
 					type: "item"
 				}
 			]
@@ -628,41 +633,6 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 0.5d
-		}
-		{
-			description: ["By &6smelting syrup&r, you can get a new type of food: &bCaramels&r! These are a tasty little snack, although they do not have any special properties."]
-			id: "5C6F1DCF4A28B526"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1857F92C7976389C"
-					table_id: 8096229411196850122L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "473BC5F4BF398340"
-					table_id: 6054817748364199186L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "who knew candy was so magical?"
-			tasks: [
-				{
-					id: "3E6669B255EE5326"
-					item: "malum:holy_caramel"
-					type: "item"
-				}
-				{
-					id: "1E729AA9DF7A049F"
-					item: "malum:unholy_caramel"
-					type: "item"
-				}
-			]
-			title: "Delicious Caramels"
-			x: -0.5d
 			y: 0.5d
 		}
 	]

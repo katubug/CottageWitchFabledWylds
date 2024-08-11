@@ -24,9 +24,7 @@
 		{ count: 4, item: "forbidden_arcanus:arcane_crystal_dust", weight: 10.0f }
 		{ count: 3, item: "eidolon:lead_ingot", weight: 12.0f }
 		{ count: 5, item: "farmersdelight:ham", weight: 10.0f }
-		{ count: 3, item: "bakery:yeast", weight: 5.0f }
 		{ count: 5, item: "meadow:alpine_salt", weight: 10.0f }
-		{ count: 3, item: "candlelight:butter", weight: 10.0f }
 		{
 			item: {
 				Count: 1
@@ -37,6 +35,8 @@
 			}
 		}
 		{ item: "magnumtorch:diamond_magnum_torch", weight: 10.0f }
+		{ count: 3, item: "farm_and_charm:yeast" }
+		{ count: 3, item: "farm_and_charm:butter" }
 	]
 	title: "Random Tier 1"
 }

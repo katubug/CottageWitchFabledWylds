@@ -281,7 +281,8 @@ ServerEvents.recipes(event => {
         //{output: 'charginggadgets:charging_station'},
         {id:'brewery:dried_corn'},
         {id:'brewery:dried_wheat'},
-        {id:'brewery:dried_barley'}
+        {id:'brewery:dried_barley'},
+        {output:'eidolon:wooden_altar'}
         
     ];
     

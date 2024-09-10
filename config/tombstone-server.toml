@@ -47,6 +47,10 @@
 	plague_bringer_combining_magic_siphon = false
 	#Allows Frostbite to combine with Fire Aspect [false/true|default:false]
 	frostbite_combining_fire_aspect = true
+	#Enables the enchantment Spectral Conjurer [false/true|default:true]
+	enable_enchantment_spectral_conjurer = true
+	#Allows Spectral Conjurer at enchanting table [false/true|default:false]
+	spectral_conjurer_enchanting_table = false
 
 #For settings related to magic items
 [magic_item]
@@ -207,7 +211,7 @@
 	#Defines the level max of the perk Witch Doctor [1..5|default:5]
 	#Range: 1 ~ 5
 	level_max_witch_doctor = 5
-	#The cooldown in minutes to reset the perks with the ankh of Pray [20..1440|default:120]
+	#The cooldown in minutes to reset the perks with the ankh of Prayer [20..1440|default:120]
 	#Range: 20 ~ 1440
 	cooldown_reset_perk = 120
 	#Allows the perk Gladiator [false/true|default:true]

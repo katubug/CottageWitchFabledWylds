@@ -403,10 +403,10 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "0FAB038EE90016C8"
+				id: "31E2C94924B2C12F"
 				item: {
 					Count: 1
-					id: "tombstone:ankh_of_pray"
+					id: "tombstone:ankh_of_prayer"
 					tag: {
 						Damage: 0
 					}

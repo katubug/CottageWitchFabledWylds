@@ -1,0 +1,29 @@
+{
+    "modId": "farm_and_charm",
+    "silent": true,
+    "group": {
+      "name": "Farm and Charm Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+      {
+        "output": "farm_and_charm:barley_seeds"
+      },
+      {
+        "output": "farm_and_charm:kernels"
+      },
+      {
+        "output": "farm_and_charm:oat_seeds"
+      },
+      {
+        "output": "farm_and_charm:strawberry_seeds"
+      },
+      {
+        "output": "farm_and_charm:lettuce_seeds"
+      }
+    ]
+  }

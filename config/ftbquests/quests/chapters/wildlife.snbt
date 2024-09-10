@@ -2361,7 +2361,12 @@
 			y: -4.5d
 		}
 		{
-			description: ["&eGiant Skeletons&r are hostile beings which can be found in &lEidolon's&r &cCatacombs&r. Defeat 5 of them to complete this quest."]
+			can_repeat: true
+			description: [
+				"&eGiant Skeletons&r are hostile beings which can be found in &lEidolon's&r &cCatacombs&r. Defeat 5 of them to complete this quest."
+				""
+				"&dThis quest is repeatable&r."
+			]
 			id: "398BB6F24F13BBB3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2414,7 +2419,12 @@
 			y: 11.0d
 		}
 		{
-			description: ["&eZombie Brutes&r can spawn in most places that regular ones can, they are just &amore rare&r. Slay 5 of them for this quest."]
+			can_repeat: true
+			description: [
+				"&eZombie Brutes&r can spawn in most places that regular ones can, they are just &amore rare&r. Slay 5 of them for this quest."
+				""
+				"&dThis quest is repeatable&r."
+			]
 			id: "2E1689CD059947AF"
 			rewards: [{
 				exclude_from_claim_all: true

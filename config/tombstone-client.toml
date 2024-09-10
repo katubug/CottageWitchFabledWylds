@@ -75,4 +75,10 @@
 	show_tooltip_combine = true
 	#Prevent night vision from flashing when less than 5 seconds left [false/true|default:true]
 	no_blinking_nightvision = true
+	#Display or not the messages of earned of points in Alignment [false/true|default:true]
+	display_alignment_message = true
+	#Equips shield in priority when recovering your lost items [false/true|default:false]
+	equip_shield_in_priority = false
+	#Sorts the inventory by filling the last slots first [false/true|default:false]
+	reverse_inventory_sorting = false
 

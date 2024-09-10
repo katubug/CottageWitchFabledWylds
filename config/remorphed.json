@@ -1,6 +1,7 @@
 {
   "creativeUnlockAll": true,
   "killToUnlock": 1,
+  "killToUnlockPlayers": 2,
   "autoTransform": false,
   "lockTransform": false,
   "unlockFriendlyNormal": true,

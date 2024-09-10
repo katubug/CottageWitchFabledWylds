@@ -11,25 +11,40 @@
     "customEntries": [
       {
         "output": "mysticsbiomes:strawberry_sapling"
-          },
-    {
-            "output": "mysticsbiomes:pink_cherry_blossom_sapling"
-          },
-    {
-            "output": "mysticsbiomes:white_cherry_blossom_sapling"
-          },
-    {
-            "output": "mysticsbiomes:maple_sapling"
-          },
-    {
-            "output": "mysticsbiomes:orange_maple_sapling"
-          },
-    {
-            "output": "mysticsbiomes:yellow_maple_sapling"
-          },
-    {
-            "output": "mysticsbiomes:jacaranda_sapling"
-          }
+      },
+      {
+        "output": "mysticsbiomes:pink_cherry_blossom_sapling"
+      },
+      {
+        "output": "mysticsbiomes:white_cherry_blossom_sapling"
+      },
+      {
+        "output": "mysticsbiomes:maple_sapling"
+      },
+      {
+        "output": "mysticsbiomes:orange_maple_sapling"
+      },
+      {
+        "output": "mysticsbiomes:yellow_maple_sapling"
+      },
+      {
+        "output": "mysticsbiomes:jacaranda_sapling"
+      },
+      {
+        "output": "mysticsbiomes:peony_bush"
+      },
+      {
+        "output": "mysticsbiomes:peach_sapling"
+      },
+      {
+        "output": "mysticsbiomes:sea_shrub"
+      },
+      {
+        "output": "mysticsbiomes:tropical_sapling"
+      },
+      {
+        "output": "mysticsbiomes:hydrangea_bush"
+      }
     ]
   }
   

@@ -1,0 +1,30 @@
+
+#Content Toggles
+[content]
+	#Should Excessive Building's items be placed in vanilla's tabs? (default: true)
+	enableEBTabs = true
+	#Should there be a custom creative tab for Excessive Building? (default: true)
+	enableCustomTab = true
+	#Should sniffers be able to dig up new unique items? (default: true)
+	enableSnifferDrops = true
+	#Should Excessive Building's new biomes generate if Terrablender is installed (default: true)
+	enableEBBiomes = true
+
+#Balance Toggles
+[balancing]
+	#Should players be able to apply a speed paste to asphalt? (default: true)?
+	allow_swift_asphalt = true
+	#Should soul magma act as both upwards and downwards bubble columns? (default: true)?
+	allow_redstone_bubble_columns = true
+	#Should all decorative shelves grant an enchantment bonus or only potion shelves (default: false)?
+	decorativeVariantPower = true
+	#Level of enchantment power decorative shelves should grant? (default: 1)
+	#Range: 0 ~ 30
+	decorativeEnchantBonus = 1
+	#Should reaching potions be craftable? (default: true)
+	enableReachingPotions = true
+	#Should villagers have new unique offers? (default: true)
+	enableEBVillagerTrades = true
+	#Should wandering traders have new unique offers? (default: true)
+	enableEBWanderingTrades = true
+

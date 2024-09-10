@@ -2256,15 +2256,14 @@
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				id: "42C56EC373D5D101"
+				id: "7C68FF3080E98DCC"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:mailboxes"
+						"ftbfiltersystem:filter": "or(item(mighty_mail:warped_mail_box)item(mighty_mail:oak_mail_box)item(mighty_mail:spruce_mail_box)item(mighty_mail:acacia_mail_box)item(mighty_mail:jungle_mail_box)item(mighty_mail:birch_mail_box)item(mighty_mail:dark_oak_mail_box)item(mighty_mail:crimson_mail_box)item(mighty_mail:mangrove_mail_box)item(mighty_mail:cherry_mail_box))"
 					}
 				}
-				title: "Any Mailbox"
 				type: "item"
 			}]
 			x: -3.0d
@@ -2289,20 +2288,19 @@
 			}]
 			tasks: [
 				{
-					id: "316D5BBF1B764AF6"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:typewriters"
-						}
-					}
-					title: "Any Typewriter"
+					id: "57A79B8DE445C47C"
+					item: "candlelight:note_paper"
 					type: "item"
 				}
 				{
-					id: "57A79B8DE445C47C"
-					item: "candlelight:note_paper"
+					id: "60F34EAB2DED0488"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(candlelight:typewriter_iron)item(candlelight:typewriter_copper))"
+						}
+					}
 					type: "item"
 				}
 			]
@@ -2572,21 +2570,20 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "3C3DABB67B7489C9"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "comforts:hammocks"
-						}
-					}
-					title: "Any #comforts:hammocks"
-					type: "item"
-				}
-				{
 					count: 2L
 					id: "0A760BA85460BE9C"
 					item: "comforts:rope_and_nail"
+					type: "item"
+				}
+				{
+					id: "5C4308B193BE07D9"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(comforts:hammock_gray)item(comforts:hammock_pink)item(comforts:hammock_lime)item(comforts:hammock_yellow)item(comforts:hammock_orange)item(comforts:hammock_white)item(comforts:hammock_magenta)item(comforts:hammock_light_blue)item(comforts:hammock_light_gray)item(comforts:hammock_cyan)item(comforts:hammock_purple)item(comforts:hammock_blue)item(comforts:hammock_brown)item(comforts:hammock_green)item(comforts:hammock_red)item(comforts:hammock_black))"
+						}
+					}
 					type: "item"
 				}
 			]

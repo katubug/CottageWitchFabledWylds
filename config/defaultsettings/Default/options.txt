@@ -32,7 +32,7 @@ damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
 renderDistance:10
-simulationDistance:8
+simulationDistance:10
 entityDistanceScaling:0.75
 guiScale:2
 particles:1
@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","file/3d-blast-furnace-e1920.zip","file/3d-sweet-berry-bush-1-16.zip","file/3d-woodfire-furnace.zip","file/Better+SpyGlass+v2.2.zip","file/Botany\u0027s+3D+Mushrooms.zip","file/Brewing Guide.zip","file/Charging Gadgets + Create.zip","file/Cute Turtle Helmet.zip","file/EnderEyes_1.20.1_v3.zip","file/Endhanced Frames.zip","file/FragrantFlowers.zip","file/Henry\u0027s+Pots+and+Plants.zip","file/Kubban\u0027s Saplings.zip","file/LowOnFire_1.20.1.zip","file/MagitechPipez-1-20.zip","file/Os\u0027 3D Iron Bars.zip","file/Os\u0027 Carved Wood+Double Slabs.zip","file/Os\u0027 Cleaner Signs.zip","file/Os\u0027 Colorful Grasses (Short).zip","file/Os\u0027 Variated Glow Lichen.zip","file/OsShulkerboxescolorblindfriendly.zip","file/Pluvia\u0027s Doors (1.18.1).zip","file/PolyStashAllFences.zip","file/Recreated containers free version.zip","file/Redesgined Dragon Egg.zip","file/Reinforced Deepslate Chest.zip","file/Sludgy Slimes.zip","file/SuperSimple3DdripstoneV1.3.zip","file/Tarot Cards Colorized 1.20.zip","file/VanillaTweaks_r816257.zip","file/[1.4] Enhanced Boss Bars.zip","file/_6Breadier Breads_8[v1].zip","file/astraliyte-s-animated-textures-1-3.zip","file/better-chorus-16x-e1691.zip","file/better-cobblestone-e1630.zip","file/better-crops-3d-16x.zip","file/better-fungus-e1460.zip","file/better-stations.zip","file/betterphantoms-e1670.zip","file/cherryhearts.zip","file/chiseled-prismarine-pack.zip","file/coral-cobblestone-1569592297.zip","file/cubic-sun-moon-vb-1-7-2-b.zip","file/different-dyes.zip","file/enchant icons 1.20 v1.3.zip","file/fancy-beacon.zip","file/floweryladder.zip","file/liet-custom-armors.zip","file/metal_valve_handles.zip","file/mushroomwitch-e3600.zip","file/pmc-mob-pack-shulker_white_multicolored-shulker.zip","file/prettier-glowstone-e3640.zip","file/rainbow-quartz-v2.zip","file/scarecrow-e720.zip","file/stefansarmoranditems.zip","file/sugrcube-s-paintings.zip","file/uniqueshulkerskins.zip","file/v2_REFRESH_Building_Gadgets_Create_Like.zip","file/viavens-paintings.zip","file/warped-roots-3d-e2240.zip","file/wrapped-moss-carpet.zip","file/xksp-hollow-shulker.zip","file/xksp-lush-flowers.zip","file/xksp-lush-plants-e1510.zip","file/xksp-naturalize.zip","file/Nature Revamp Beta Edited.zip","file/FormidableFoxes.zip","file/better-flowers-e1940.zip","file/ctov-farmers-delight-add-on-v2-1a.zip","file/ctov-friends-and-foes-add-on-v2-0.zip","file/ctov-villager-plus-add-on-v2-0.zip","file/ctov-wares-add-on-v1-0a.zip","file/hearty-harvest-EditedByKatu.zip","file/FreshAnimations_v1.8.1.zip","builtin/DAGoldenSwetBallFixClient","fabric","builtin/overrides_pack","better_leaves","builtin/deep_aether_additional_assets","file/A-YoJos-LushPacc!V10.zip","file/Angel\u0027s_Weather_v1.3.zip","file/Better-Leaves-7.2-1.19+.zip","file/Enchanting Table.zip","file/Kubban\u0027s Flowers.zip","file/Kubban\u0027s Saplings New.zip","file/Lopy-Create-Sophisticated-Backpacks.zip","file/Silver-Rats.zip","file/Simple Grass Flowers v1.6.0.zip","file/Slightly-Improved-Font-1.1.3.zip","file/[DEMO] Azalea boats 1.19 (optifine).zip","file/better-bookshelf-e3500.zip","file/better-candeles.zip","file/bowl-e1450.zip","file/corality-1-0-3.zip","file/cutepumpkins.zip","file/dr-zhark-horse-armor-revamped.zip","file/dynamic-beehives-beenests.zip","file/fat-cat-1-18-2.zip","file/formidable-frogs.zip","file/fortune-cat-totem.zip","file/newdiorite-granite.zip","file/nice-compass.zip","file/nongko\u0027s_Bows_To_Staves_v1.7.zip","file/octopussypart2.zip","file/updated_aquaculture-1.0.zip","file/warm-smoke.zip","file/waystones_1.20.zip","green_stove","builtin/aether_tips","file/mushroom-cap-hat.zip","create_central_kitchen:create_styled","file/Mythical Forest.zip","bushy_leaves"]
+resourcePacks:["vanilla","mod_resources","file/Nature Revamp Beta v1.14 [1.20].zip","file/dynamic-beehives-beenests.zip","green_stove","file/xksp-naturalize.zip","file/xksp-lush-plants-e1510.zip","file/xksp-lush-flowers.zip","file/xksp-hollow-shulker.zip","file/uniqueshulkerskins.zip","file/pmc-mob-pack-shulker_white_multicolored-shulker.zip","file/mushroomwitch-e3600.zip","file/OsShulkerboxescolorblindfriendly.zip","file/FragrantFlowers.zip","file/3d-woodfire-furnace.zip","file/3d-blast-furnace-e1920.zip","file/Brewing Guide.zip","file/VanillaTweaks_r816257.zip","bushy_leaves","better_leaves","create_central_kitchen:create_styled","file/A-YoJos-LushPacc!V10.zip","file/fat-cat-1-18-2.zip","file/astraliyte-s-animated-textures-1-3.zip","file/Os\u0027 Cleaner Signs.zip","file/Os\u0027 3D Iron Bars.zip","file/ctov-wares-add-on-v1-0a.zip","file/ctov-villager-plus-add-on-v2-0.zip","file/ctov-friends-and-foes-add-on-v2-0.zip","file/better-candeles.zip","file/[DEMO] Azalea boats 1.19 (optifine).zip","Moonlight Mods Dynamic Assets","builtin/overrides/golden_swet_ball/DAGoldenSwetBallFixClient","builtin/resource/overrides_pack","builtin/resource/redux_tips","builtin/aether_tips","file/Adventurer\u0027sChest_v2[Lootr].zip","file/Angel\u0027s_Weather_v1.4.zip","file/Better-Leaves-8.0-1.20+.zip","file/Fancy, GUI Overhaul v0.1.2.8 (Dark).zip","file/FreshAnimations_v1.9.2.zip","file/FA+All_Extensions-v1.4.zip","file/Splendous Sniffers.zip","file/clovers.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -76,7 +76,7 @@ skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
-hideBundleTutorial:false
+hideBundleTutorial:true
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true

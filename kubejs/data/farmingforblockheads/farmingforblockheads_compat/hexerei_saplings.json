@@ -1,0 +1,23 @@
+{
+    "modId": "hexerei",
+    "silent": true,
+    "group": {
+      "name": "Hexerei Saplings",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:diamond"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+        {
+            "output": "hexerei:mahogany_sapling"
+        },
+        {
+            "output": "hexerei:willow_sapling"
+        },
+        {
+            "output": "hexerei:witch_hazel_sapling"
+        }
+    ]
+  }

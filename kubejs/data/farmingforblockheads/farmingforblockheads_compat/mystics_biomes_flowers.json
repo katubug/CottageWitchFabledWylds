@@ -1,0 +1,41 @@
+{
+    "modId": "mysticsbiomes",
+    "group": {
+      "name": "Mystic's Biomes Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+      {
+        "output": "mysticsbiomes:lavender"
+      },
+      {
+        "output": "mysticsbiomes:jacaranda_blossoms"
+      },
+      {
+        "output": "mysticsbiomes:white_cherry_blossoms"
+      },
+      {
+        "output": "mysticsbiomes:hydrangea_leaves"
+      },
+      {
+        "output": "mysticsbiomes:strawberry_blossoms"
+      },
+      {
+        "output": "mysticsbiomes:pink_cherry_blossoms"
+      },
+      {
+        "output": "mysticsbiomes:milkweed"
+      },
+      {
+        "output": "mysticsbiomes:wildflower"
+      },
+      {
+        "output": "mysticsbiomes:budding_peony_leaves"
+      }
+    ]
+  }
+  

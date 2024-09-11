@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
 	event.shapeless(
 		Item.of('dawnoftimebuilder:camellia_flower_pot'),
 		[
-			'herbalbrews:tea_plant',
+			'farmersrespite:tea_seeds',
 			'minecraft:flower_pot'
 		]
 	)

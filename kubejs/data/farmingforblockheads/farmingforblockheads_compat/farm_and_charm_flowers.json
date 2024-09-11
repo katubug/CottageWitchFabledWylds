@@ -1,0 +1,35 @@
+{
+    "modId": "farm_and_charm",
+    "silent": true,
+    "group": {
+      "name": "Farm and Charm Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+      {
+        "output": "farm_and_charm:wild_emmer",
+        "payment": {
+          "item": "minecraft:diamond",
+          "count": 4
+        }
+      },
+      {
+        "output": "farm_and_charm:wild_ribwort",
+        "payment": {
+          "item": "minecraft:diamond",
+          "count": 4
+        }
+      },
+      {
+        "output": "farm_and_charm:wild_nettle",
+        "payment": {
+          "item": "minecraft:diamond",
+          "count": 4
+        }
+      }
+    ]
+  }

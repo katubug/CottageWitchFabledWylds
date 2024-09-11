@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
 			input: 'mysticsbiomes:strawberry'
 		}, // Arg 1: the filter
 		'mysticsbiomes:strawberry', // Arg 2: the item to replace
-		'#forge:strawberries' // Arg 3: the item to replace it with
+		'#forge:fruits/strawberries' // Arg 3: the item to replace it with
 	)
 
 	//Recipe Replacements
@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
 			input: 'bakery:strawberry'
 		}, // Arg 1: the filter
 		'bakery:strawberry', // Arg 2: the item to replace
-		'#forge:strawberries' // Arg 3: the item to replace it with
+		'#forge:fruits/strawberries' // Arg 3: the item to replace it with
 	)
 
 	//Corn in case we need it

@@ -1,0 +1,17 @@
+{
+    "modId": "candlelight",
+    "silent": true,
+    "group": {
+      "name": "Candlelight Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+      {
+        "output": "candlelight:rose"
+      }
+    ]
+  }

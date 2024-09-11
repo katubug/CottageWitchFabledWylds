@@ -1,0 +1,37 @@
+{
+    "modId": "meadow",
+    "group": {
+      "name": "Meadow Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+        {
+            "output": "meadow:small_fir"
+        },
+        {
+            "output": "meadow:fire_lily"
+        },
+        {
+            "output": "meadow:alpine_poppy"
+        },
+        {
+            "output": "meadow:saxifrage"
+        },
+        {
+            "output": "meadow:enzian"
+        },
+        {
+            "output": "meadow:eriophorum"
+        },
+        {
+            "output": "meadow:delphinium"
+        },
+        {
+            "output": "meadow:eriophorum_tall"
+        }
+    ]
+  }

@@ -1,0 +1,27 @@
+{
+    "modId": "nethervinery",
+    "group": {
+      "name": "Nether Vinery Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:diamond"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        {
+            "output": "nethervinery:crimson_grape_seeds",
+            "payment": {
+              "item": "minecraft:blaze_powder",
+              "count": 1
+            }
+          },
+          {
+            "output": "nethervinery:warped_grape_seeds",
+            "payment": {
+              "item": "minecraft:blaze_powder",
+              "count": 1
+            }
+          }
+    ]
+  }

@@ -35,15 +35,15 @@
 	#To Lower the chance of getting a capsule at all, insert an empty folder here and configure its weight accordingly.
 	[[loot.lootTemplatesPaths]]
 		path = "config/capsule/loot/common"
-		weight = 5
+		weight = 0
 
 	[[loot.lootTemplatesPaths]]
 		path = "config/capsule/loot/uncommon"
-		weight = 3
+		weight = 0
 
 	[[loot.lootTemplatesPaths]]
 		path = "config/capsule/loot/rare"
-		weight = 1
+		weight = 0
 
 #enchants settings
 [enchants]

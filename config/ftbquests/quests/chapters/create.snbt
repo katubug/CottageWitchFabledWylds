@@ -1092,15 +1092,14 @@
 			shape: "hexagon"
 			subtitle: "Meow ~ woeM"
 			tasks: [{
-				id: "24D3B975ED330FBA"
+				id: "0E1F78A54255F20A"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:copycat_blocks"
+						"ftbfiltersystem:filter": "or(item(create_connected:copycat_fence_gate)item(create_connected:copycat_fence)item(create_connected:copycat_stairs)item(create_connected:copycat_vertical_step)item(create_connected:copycat_beam)item(create_connected:copycat_slab)item(create:copycat_step)item(create:copycat_panel)item(create_connected:copycat_block)item(create_connected:copycat_wall)item(create_connected:copycat_board)item(create_connected:copycat_box)item(create_connected:copycat_catwalk))"
 					}
 				}
-				title: "Any Copycat Block"
 				type: "item"
 			}]
 			title: "Copycat Blocks"
@@ -1168,15 +1167,14 @@
 			shape: "hexagon"
 			subtitle: "...or exit"
 			tasks: [{
-				id: "1ADAAC50223C4DFC"
+				id: "6B66B5D5595F9EB5"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:create_doors"
+						"ftbfiltersystem:filter": "or(item(create:andesite_door)item(create:brass_door)item(create:copper_door)item(create:train_door)item(create:framed_glass_door))"
 					}
 				}
-				title: "Any Create Door"
 				type: "item"
 			}]
 			title: "A-door-able Entrance"

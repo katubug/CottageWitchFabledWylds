@@ -3,7 +3,7 @@
   "silent": true,
   "group": {
     "name": "Farmers Delight Wild Crops",
-    "enabledByDefault": true,
+    "enabledByDefault": false,
     "defaultPayment": {
       "item": "minecraft:diamond"
     },

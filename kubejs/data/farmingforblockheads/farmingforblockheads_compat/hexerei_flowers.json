@@ -1,0 +1,26 @@
+{
+    "modId": "hexerei",
+    "silent": true,
+    "group": {
+      "name": "Hexerei Plants",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:diamond"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+        {
+            "output": "hexerei:mandrake_plant"
+        },
+        {
+            "output": "hexerei:belladonna_plant"
+        },
+        {
+            "output": "hexerei:mugwort_bush"
+        },
+        {
+            "output": "hexerei:yellow_dock_bush"
+        }
+    ]
+  }

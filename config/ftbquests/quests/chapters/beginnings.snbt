@@ -74,7 +74,12 @@
 					type: "command"
 				}
 				{
-					id: "5590ABD0A23B51BB"
+					id: "07119348D322D51B"
+					item: "sophisticatedbackpacks:copper_backpack"
+					type: "item"
+				}
+				{
+					id: "3636308873785F8F"
 					item: {
 						Count: 1
 						id: "eccentrictome:tome"
@@ -84,15 +89,6 @@
 									0: {
 										Count: 1b
 										id: "aether:book_of_lore"
-									}
-								}
-								caupona: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "caupona:book"
-										}
 									}
 								}
 								eidolon: {
@@ -105,6 +101,24 @@
 									0: {
 										Count: 1b
 										id: "ftbquests:book"
+									}
+								}
+								hexerei: {
+									0: {
+										Count: 1b
+										id: "hexerei:book_of_shadows"
+										tag: {
+											bookmarks: { }
+											chapter: 0
+											opened: 0b
+											page: 0
+										}
+									}
+								}
+								malum: {
+									0: {
+										Count: 1b
+										id: "malum:encyclopedia_arcana"
 									}
 								}
 								solonion: {
@@ -123,11 +137,6 @@
 							"eccentrictome:version": 1
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "07119348D322D51B"
-					item: "sophisticatedbackpacks:copper_backpack"
 					type: "item"
 				}
 			]

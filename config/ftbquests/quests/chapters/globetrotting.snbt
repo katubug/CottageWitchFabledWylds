@@ -13,7 +13,7 @@
 			image: "enchanted_wilds:textures/questui/bgexplorating.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 5.0d
+			x: 0.0d
 			y: 13.0d
 		}
 		{
@@ -39,14 +39,6 @@
 			width: 10.0d
 			x: -4.5d
 			y: -4.5d
-		}
-		{
-			height: 10.0d
-			image: "enchanted_wilds:textures/questui/aquamiraebg.png"
-			rotation: 0.0d
-			width: 10.0d
-			x: -4.5d
-			y: 13.0d
 		}
 	]
 	order_index: 0
@@ -74,7 +66,7 @@
 				value: 10
 			}]
 			title: "Unlucky or just Ignorant"
-			x: 6.5d
+			x: 1.5d
 			y: 14.0d
 		}
 		{
@@ -147,7 +139,7 @@
 				type: "advancement"
 			}]
 			title: "Visit all Vanilla Biomes"
-			x: 7.5d
+			x: 2.5d
 			y: 12.5d
 		}
 		{
@@ -184,7 +176,7 @@
 				id: "2D416C15BC4F0576"
 				type: "advancement"
 			}]
-			x: 4.5d
+			x: -0.5d
 			y: 15.5d
 		}
 		{
@@ -276,7 +268,7 @@
 				type: "item"
 			}]
 			title: "Find Structures with the Explorer's Compass"
-			x: 2.5d
+			x: -2.5d
 			y: 12.5d
 		}
 		{
@@ -308,7 +300,7 @@
 				type: "item"
 			}]
 			title: "Find Biomes with the Nature's Compass"
-			x: 3.5d
+			x: -1.5d
 			y: 14.0d
 		}
 		{
@@ -376,8 +368,14 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "6016BBE0CBC4141C"
-				item: "waystones:waystone"
+				id: "7EC380E3947C3B45"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(waystones:waystones))"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.5d
@@ -490,8 +488,14 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "4E45F31FA018D542"
-				item: "waystones:sharestone"
+				id: "07B009CB820A898A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(waystones:sharestone))"
+					}
+				}
 				type: "item"
 			}]
 			title: "Obtain a Sharestone"
@@ -526,7 +530,7 @@
 				value: 99999
 			}]
 			title: "Sneaking Around"
-			x: 5.5d
+			x: 0.5d
 			y: 15.5d
 		}
 		{
@@ -549,7 +553,7 @@
 				id: "15A19A39523CAD26"
 				type: "advancement"
 			}]
-			x: 5.0d
+			x: 0.0d
 			y: 11.0d
 		}
 		{
@@ -568,7 +572,7 @@
 			shape: "octagon"
 			subtitle: "don't give up, skeleton!"
 			tasks: [{
-				icon: "createdeco:decal_skull"
+				icon: "minecraft:skeleton_skull"
 				id: "6486EBC90BF85C21"
 				structure: "eidolon:catacomb"
 				type: "structure"
@@ -598,7 +602,7 @@
 				id: "107172A8EAD35796"
 				type: "advancement"
 			}]
-			x: 5.0d
+			x: 0.0d
 			y: 13.0d
 		}
 		{
@@ -992,244 +996,6 @@
 			title: "The Elder's Temple"
 			x: 6.5d
 			y: -2.5d
-		}
-		{
-			dependencies: ["371753C4355AF39C"]
-			description: ["Be careful... this ship is chock full of &epillagers&r! They don't look too happy to see you. Here are some &barrows&r so you can &6pick some off at a distance&r."]
-			id: "560833C904FD3A9E"
-			rewards: [
-				{
-					id: "7DE3A868D6884CEF"
-					item: {
-						Count: 1
-						id: "minecraft:written_book"
-						tag: {
-							author: "Unknown"
-							generation: 3
-							pages: [
-								"{\"text\":\"Entry #12\\n\\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
-								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
-							]
-							resolved: 1b
-							title: "Logbook"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 10
-					id: "4A619FE6647E6E69"
-					item: "minecraft:arrow"
-					type: "item"
-				}
-			]
-			subtitle: "a ship in trouble"
-			tasks: [{
-				icon: "aquamirae:treasure_pouch"
-				id: "6EDAAC20C60B4AF5"
-				structure: "aquamirae:ship"
-				type: "structure"
-			}]
-			title: "Locate the Ship"
-			x: -7.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["371753C4355AF39C"]
-			description: ["This ship-turned-fortress is well-guarded. Get to the top to find the best loot!"]
-			id: "26B4F28DD5979B1B"
-			rewards: [
-				{
-					id: "6822A2023CFA3A7E"
-					item: {
-						Count: 1
-						id: "minecraft:written_book"
-						tag: {
-							author: "Unknown"
-							generation: 3
-							pages: [
-								"{\"text\":\"Entry #34\\n\\nThese beasts from the depths prowl for someone to devour… One of those critters has already eaten our midshipman… Swallowed him whole along with his crossbow.\"}"
-								"{\"text\":\"Entry #35\\n\\nWe are waiting in vain for rescue… No one will come to help us, we have to survive on our own. Today the construction of the fort from parts of the ship was completed. In any case, she could no longer plow the seas ever again.\"}"
-								"{\"extra\":[{\"text\":\"Entry #36\\n\\nWe are no longer able to heat the fort, resources are running out. \"},{\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[{\"text\":\"ↈ \"},{\"color\":\"green\",\"text\":\"Underground shelter\"},{\"text\":\"\\n   There are more structures\\n   underneath the ice... Looks\\n   like I have to go down to\\n   these terrible fish...\"}],\"text\":\"\"}},\"text\":\"[Part of the crew began to dig a shelter underground]\"},{\"text\":\". It is the only way we have a chance not to freeze to death.\"}],\"text\":\"\"}"
-								"{\"text\":\"Entry #37\\n\\nWe hid our supplies and valuable cargo underground. But Poseidon cursed us, and during the storm the lieutenant washed away into the sea… Along with master keys.\"}"
-								"{\"extra\":[{\"text\":\"The hope remains that we could possibly find \"},{\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[{\"text\":\"ↈ \"},{\"color\":\"green\",\"text\":\"Сargo keys\"},{\"text\":\"\\n   Without the keys, I will not\\n   be able to receive the\\n   most valuable cargo. I need\\n   to find other ships nearby.\"}],\"text\":\"\"}},\"text\":\"[similar keys on other ships of our fleet]\"},{\"text\":\", which have suffered the same fate as us.\"}],\"text\":\"\"}"
-							]
-							resolved: 1b
-							title: "Logbook"
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "082FAE02AB4FE1FB"
-					table_id: 8897154971538635124L
-					type: "loot"
-				}
-			]
-			subtitle: "the survivors"
-			tasks: [{
-				icon: "aquamirae:dead_sea_scroll"
-				id: "438F0B491F482DA9"
-				structure: "aquamirae:outpost"
-				type: "structure"
-			}]
-			title: "Locate the Outpost"
-			x: -2.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["371753C4355AF39C"]
-			description: [
-				"So this is where the rest of the crew escaped to. Take caution before entering- getting back out may not be so easy!"
-				""
-				"You may find some of the structure below waterlogged with freezing waters- take these &bsponges&r to help you clear a path."
-				""
-				"To unlock the frozen chest and receive the most valuable loot, you'll need a &bFrozen Key&r. There's only one way to get that... &6take it from the last person who held it&r- &eCaptain Cornelia&r herself."
-			]
-			id: "4F3025A543B1E6D4"
-			rewards: [
-				{
-					id: "5B3D60375750AB5C"
-					item: {
-						Count: 1
-						id: "minecraft:written_book"
-						tag: {
-							OBSData: { }
-							author: "Unknown"
-							generation: 3
-							pages: [
-								"{\"text\":\"Entry #41\\n\\nIn these cursed lands there you can’t find shelter even under the ice and the thickness of the earth... Some creatures that look like eels crawled out of the depths of the underworld, depriving us of the opportunity \"}"
-								"{\"text\":\"to return back to the surface.\\n\\nOnly the mistress of the moon knows how long shall we last... At all events, our hopes of seeing sunlight had all but vanished. This place will become our grave, our eternal tomb. For us and that damned rune...\"}"
-								"{\"text\":\"Last Entry\\n\\nIt whispers to me, whispers inside my head the secrets of ice and snow... Ice... Now we are chained in ice forever...\\n\\nI suppose a similar fate awaits the crew that set out in search of the fire rune... I wonder if they made it\"}"
-								"{\"text\":\"to the Great Dark Forest valley. Though it doesn't really matter now…\"}"
-							]
-							resolved: 1b
-							title: "Logbook"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "33090CC2FF0B5D8A"
-					item: "minecraft:sponge"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "29ABE19ADCF4F824"
-					table_id: 8897154971538635124L
-					type: "loot"
-				}
-			]
-			subtitle: "a frozen prison"
-			tasks: [{
-				icon: "aquamirae:frozen_chest"
-				id: "0042BCDD7565790F"
-				structure: "aquamirae:shelter"
-				type: "structure"
-			}]
-			title: "Locate the Shelter"
-			x: -4.5d
-			y: 14.0d
-		}
-		{
-			description: [
-				"The &l&1Aquamirae&r mod transforms the &cDeep Frozen Ocean&r into its own adventure. Discover what happened to the crew of these abandoned ships, the fate of the mysterious &eCaptain Cornelia&r, and what lurks in the icy depths below. Speaking of the icy depths- &afrozen water now causes freezing damage&r."
-				""
-				"To survive the freezing waters of the arctic, do as the villagers do! &6Equip a full set of &bTaiga clothes&r from the &lWardrobe mod&r to stay warm even while wet."
-				""
-				"While the story progression suggests that you &6visit the ship, followed by the outpost, and then the shelter&r, these structures are not progress-locked. But be aware that they do get &aprogressively more difficult!&r"
-				""
-				"These quests will also reward you with the &blogbook&r that can be found at each structure- just in case the one there is missing or taken."
-			]
-			id: "371753C4355AF39C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "350F4104BCB15910"
-					table_id: 8897154971538635124L
-					type: "loot"
-				}
-				{
-					count: 5
-					id: "4CF5870B0CDC65C1"
-					item: "minecraft:brown_wool"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "074B53AD9ACA357B"
-					item: "minecraft:black_wool"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "68ACF5323C845F14"
-					item: "minecraft:white_wool"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			size: 2.0d
-			subtitle: "The Haunted Deeps"
-			tasks: [{
-				biome: "minecraft:deep_frozen_ocean"
-				icon: "aquamirae:spinefish"
-				id: "0E9221830EE86881"
-				type: "biome"
-			}]
-			title: "Aquamirae"
-			x: -4.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["371753C4355AF39C"]
-			description: [
-				"&eCaptain Cornelia&r has been taken by the deep... and what she has become is both powerful and terrifying. If you want to take her on, there's a few things you must know."
-				""
-				"To find the &bShell Horn&r: this item is naturally dropped by one of the pillagers on &cThe Ship&r. This modpack also adds it as a drop from the &eEel&r, which is found in the &cShelter&r or spawned by using &bEel Bait&r on snow."
-				""
-				"To summon the Captain: &6Blow the&r &bShell Horn&r &6while standing near the water&r in the &cDeep Frozen Ocean.&r"
-				" "
-				"To defeat the Captain: dealing damage is just part of the equation. To defeat &eCornelia&r, first &6lower her health until she begins regeneration&r. At this point, &aregular damage will no longer be effective&r. To finish her off you'll need a &bSplash Potion of Weakness&r. Alternatively, the incredible crit damage of the &bTerrible Sword&r has the potential to &aovercome her regen&r."
-			]
-			id: "184B416049E51293"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6AE6815569B3A79A"
-				table_id: 8897154971538635124L
-				type: "loot"
-			}]
-			subtitle: "summon the spectre of Captain Cornelia"
-			tasks: [{
-				id: "15DE2AEEF40D817C"
-				item: "aquamirae:shell_horn"
-				type: "item"
-			}]
-			title: "Ghost of a Chance"
-			x: -4.5d
-			y: 16.0d
-		}
-		{
-			dependencies: ["371753C4355AF39C"]
-			description: ["&eAnglerfish&r. These underwater beasts have a ravenous appetite for flesh! However, they frequently drop &auseful and important items&r, so it's a good idea to kill a few of them. This &bMagnet&r should make picking up their leavings easier."]
-			id: "559C7501A4CDC5EF"
-			rewards: [{
-				id: "64B9D3D53EC2FD58"
-				item: "nameless_trinkets:broken_magnet"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "aquamirae:anglerfish"
-				icon: "aquamirae:esca"
-				id: "5DA2482D80D84A4B"
-				type: "kill"
-				value: 1L
-			}]
-			x: -6.5d
-			y: 13.0d
 		}
 	]
 	title: "Globetrotting"

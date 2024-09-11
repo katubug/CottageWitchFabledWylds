@@ -1,0 +1,22 @@
+{
+    "modId": "earthmobsmod",
+    "silent": true,
+    "group": {
+      "name": "Earth Mobs Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+    {
+        "output": "earthmobsmod:buttercup"
+    },
+	{
+        "output": "earthmobsmod:pink_daisy"
+    }
+    ]
+  }
+
+  

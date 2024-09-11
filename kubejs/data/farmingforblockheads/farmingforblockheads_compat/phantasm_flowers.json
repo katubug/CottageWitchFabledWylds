@@ -1,0 +1,19 @@
+{
+    "modId": "phantasm",
+    "silent": true,
+    "group": {
+      "name": "End's Phantasm Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:ender_pearl"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+    {
+        "output": "phantasm:vivid_nihilis"
+    }
+    ]
+  }
+
+  

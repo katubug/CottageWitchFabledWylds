@@ -1,0 +1,41 @@
+{
+    "modId": "deep_aether",
+    "silent": true,
+    "group": {
+      "name": "Deep Aether Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "deep_aether:skyjade"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+        {
+        "output": "deep_aether:radiant_orchid"
+        },
+        {
+        "output": "deep_aether:golden_aspess"
+        },
+        {
+        "output": "deep_aether:echaisy"
+        },
+        {
+        "output": "deep_aether:aether_cattails"
+        },
+        {
+        "output": "deep_aether:aerlavender"
+        },
+        {
+        "output": "deep_aether:enchanted_blossom"
+        },
+        {
+        "output": "deep_aether:sky_tulips"
+        },
+        {
+        "output": "deep_aether:golden_flower"
+        },
+        {
+        "output": "deep_aether:iaspove"
+        }
+    ]
+  }

@@ -1,0 +1,32 @@
+{
+  "modId": "deep_aether",
+  "silent": true,
+  "group": {
+    "name": "Deep Aether Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "deep_aether:skyjade"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "deep_aether:conberry_sapling"
+    },
+    {
+      "output": "deep_aether:blue_roseroot_sapling"
+    },
+    {
+      "output": "deep_aether:sunroot_sapling"
+    },
+    {
+      "output": "deep_aether:cruderoot_sapling"
+    },
+    {
+      "output": "deep_aether:yagroot_sapling"
+    },
+    {
+      "output": "deep_aether:roseroot_sapling"
+    }
+  ]
+}

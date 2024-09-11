@@ -5,7 +5,7 @@
   },
   "trackCount": 51,
   "resetOnDeath": true,
-  "limitProgressionToSurvival": false,
+  "limitProgressionToSurvival": true,
   "minFoodsToActivate": 0,
   "benefits": [
     {

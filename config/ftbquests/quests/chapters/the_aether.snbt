@@ -234,15 +234,14 @@
 				}
 			]
 			tasks: [{
-				id: "415DEAB4DE37D7FF"
+				id: "264F5E49084723A3"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "aether:moa_eggs"
+						"ftbfiltersystem:filter": "or(item_tag(aether:moa_eggs))"
 					}
 				}
-				title: "Any Moa Egg"
 				type: "item"
 			}]
 			title: "Obtain a Moa Egg"
@@ -619,15 +618,14 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "4DFE76B30C72B0A0"
+				id: "316DEFC9DED60033"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:gummy_swets"
+						"ftbfiltersystem:filter": "or(item(aether_redux:vanilla_gummy_swet)item(aether:blue_gummy_swet)item(aether:golden_gummy_swet))"
 					}
 				}
-				title: "Any #forge:gummy_swets"
 				type: "item"
 			}]
 			title: "Obtain a Gummy Swet"

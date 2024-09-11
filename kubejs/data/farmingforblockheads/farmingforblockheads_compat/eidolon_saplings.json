@@ -1,0 +1,20 @@
+{
+    "modId": "eidolon",
+    "group": {
+      "name": "Eidolon Saplings",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+      {
+        "output": "eidolon:illwood_sapling",
+        "payment": {
+          "item": "eidolon:arcane_gold_ingot",
+          "count": 4
+        }
+      }
+    ]
+  }

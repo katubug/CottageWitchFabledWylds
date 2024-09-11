@@ -1,0 +1,19 @@
+{
+    "modId": "spawn",
+    "silent": true,
+    "group": {
+      "name": "Spawn Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+    {
+        "output": "spawn:sunflower"
+    }
+    ]
+  }
+
+  

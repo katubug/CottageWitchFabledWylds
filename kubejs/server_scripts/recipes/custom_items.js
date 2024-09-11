@@ -8,15 +8,6 @@ ServerEvents.recipes(event => {
 			'capsule:capsule'
 		]
 	)
-	//Eel Bait
-	event.shapeless(
-		Item.of('kubejs:eel_bait'),
-		[
-			'#minecraft:foodstuffs/raw',
-			'aquamirae:spinefish',
-			'#forge:salt'
-		]
-	)
 
 	//Stonecutter recipes for Xerca Woods
 

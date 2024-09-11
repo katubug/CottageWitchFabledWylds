@@ -413,15 +413,14 @@
 			shape: "hexagon"
 			subtitle: "Show the way"
 			tasks: [{
-				id: "644B3E0D6B13C8D4"
+				id: "3362A4576A8BF89C"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "supplementaries:sign_posts"
+						"ftbfiltersystem:filter": "or(item_tag(supplementaries:sign_posts))"
 					}
 				}
-				title: "Any #supplementaries:sign_posts"
 				type: "item"
 			}]
 			title: "Obtain a Sign Post"
@@ -479,15 +478,14 @@
 			]
 			shape: "circle"
 			tasks: [{
-				id: "08B5B6F8E5C51649"
+				id: "4E79CAE4AF1FCEEB"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "handcrafted:fancy_beds"
+						"ftbfiltersystem:filter": "or(item_tag(handcrafted:fancy_beds))"
 					}
 				}
-				title: "Any #handcrafted:fancy_beds"
 				type: "item"
 			}]
 			title: "Customize Your Bed"
@@ -505,27 +503,25 @@
 			}]
 			tasks: [
 				{
-					id: "70062585A7E762AE"
+					id: "645E4D4554FA8965"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							value: "handcrafted:cushions"
+							"ftbfiltersystem:filter": "or(item_tag(handcrafted:cushions))"
 						}
 					}
-					title: "Any #handcrafted:cushions"
 					type: "item"
 				}
 				{
-					id: "1F4D43CDA2388E85"
+					id: "38AB55BF2D4FABD0"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							value: "handcrafted:sheets"
+							"ftbfiltersystem:filter": "or(item_tag(handcrafted:sheets))"
 						}
 					}
-					title: "Any #handcrafted:sheets"
 					type: "item"
 				}
 			]
@@ -559,15 +555,14 @@
 			shape: "hexagon"
 			subtitle: "get them cheevos"
 			tasks: [{
-				id: "63B16A64CB3AE4F8"
+				id: "705FDE4F7BB0F286"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "handcrafted:trophies"
+						"ftbfiltersystem:filter": "or(item_tag(handcrafted:trophies))"
 					}
 				}
-				title: "Any #handcrafted:trophies"
 				type: "item"
 			}]
 			title: "Trophy Unlocked"
@@ -614,27 +609,25 @@
 			]
 			tasks: [
 				{
-					id: "1C4700C1B44DA255"
+					id: "4D4D05457B35F271"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							value: "handcrafted:tables"
+							"ftbfiltersystem:filter": "or(item_tag(handcrafted:chairs))"
 						}
 					}
-					title: "Any #handcrafted:tables"
 					type: "item"
 				}
 				{
-					id: "37260AF156A4F444"
+					id: "62D4AD4D5D1FCCE5"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							value: "handcrafted:chairs"
+							"ftbfiltersystem:filter": "or(item_tag(handcrafted:tables))"
 						}
 					}
-					title: "Any #handcrafted:chairs"
 					type: "item"
 				}
 			]
@@ -717,6 +710,8 @@
 				"- &bVines&r"
 				"- &bWeeping Vines&r"
 				"- &bTwisting Vines&r"
+				""
+				"Be aware that the &lSpawn&r mod &dreplaces vanilla &bSunflowers&r, which means they need to &abe converted to vanilla in your crafting grid&r before you can use them."
 			]
 			id: "5FC2335FA7C31389"
 			rewards: [{
@@ -726,15 +721,14 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "232C9643DDF46F70"
+				id: "326C25FA39C8C15A"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:lattices"
+						"ftbfiltersystem:filter": "or(item(beautify:warped_trellis)item(beautify:oak_trellis)item(beautify:spruce_trellis)item(beautify:dark_oak_trellis)item(beautify:crimson_trellis)item(beautify:mangrove_trellis)item(beautify:acacia_trellis)item(beautify:jungle_trellis)item(beautify:birch_trellis))"
 					}
 				}
-				title: "Any Beautify Lattice"
 				type: "item"
 			}]
 			title: "Flowering Lattices"
@@ -836,15 +830,14 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "388CB6543BEDA841"
+				id: "13E317C0953F4D4A"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:wind_chimes"
+						"ftbfiltersystem:filter": "or(item(chimes:bamboo_chimes)item(chimes:iron_chimes)item(chimes:carved_bamboo_chimes)item(chimes:copper_chimes)item(chimes:amethyst_chimes)item(chimes:glass_bells))"
 					}
 				}
-				title: "Any #forge:wind_chimes"
 				type: "item"
 			}]
 			title: "Wind Chimes"

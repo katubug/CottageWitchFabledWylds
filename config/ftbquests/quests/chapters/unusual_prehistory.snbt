@@ -596,47 +596,6 @@
 			y: 3.5d
 		}
 		{
-			description: [
-				"One of the best things about &adeath&r is that you can &atake someone else's bones&r and &6wear them&r! What do you mean, \"that's messed up?\""
-				""
-				"Anyway, collect the &bSkulls&r of creatures you can find in the world, and you'll be rewarded!"
-			]
-			id: "26B485810BD4A066"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "76804EC566E5E8EB"
-				table_id: 224999436696441753L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			subtitle: "somebody stop me!"
-			tasks: [
-				{
-					id: "18C2CDE0FFCF41DA"
-					item: "bonezone:spinal_skull_deer"
-					type: "item"
-				}
-				{
-					id: "41E51902DA9A86B5"
-					item: "bonezone:spinal_skull_goat"
-					type: "item"
-				}
-				{
-					id: "01CD21930AFD6BD5"
-					item: "bonezone:spinal_skull_bird"
-					type: "item"
-				}
-				{
-					id: "2A83B5518F1AE9A3"
-					item: "bonezone:spinal_skull_bull"
-					type: "item"
-				}
-			]
-			title: "The Mask"
-			x: 1.5d
-			y: 3.5d
-		}
-		{
 			dependencies: ["374F93068ED863F7"]
 			description: ["c o m b i n e"]
 			id: "75794697E256EFCC"
@@ -887,12 +846,12 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "48EC70B224DC350C"
+				id: "0CA40E6517731248"
 				item: {
 					Count: 1
-					id: "minecraft:brush"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						Damage: 0
+						"ftbfiltersystem:filter": "or(item(minecraft:brush)item(betterarcheology:iron_brush)item(betterarcheology:diamond_brush)item(betterarcheology:netherite_brush))"
 					}
 				}
 				type: "item"
@@ -1251,15 +1210,14 @@
 			subtitle: "wait, you think i look like... hoo?"
 			tasks: [{
 				consume_items: true
-				id: "764830660051F345"
+				id: "5C225083CB2FE99B"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "unusualprehistory:fossils"
+						"ftbfiltersystem:filter": "or(item_tag(unusualprehistory:fossils))"
 					}
 				}
-				title: "Any #unusualprehistory:fossils"
 				type: "item"
 			}]
 			title: "Ask Smathers To Identify Your Fossil"

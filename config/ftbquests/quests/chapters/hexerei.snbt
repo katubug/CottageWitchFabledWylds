@@ -672,15 +672,14 @@
 					type: "item"
 				}
 				{
-					id: "13DC175699488485"
+					id: "2D31CA9398913D94"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							value: "forge:brooms"
+							"ftbfiltersystem:filter": "or(item(hexerei:mahogany_broom)item(hexerei:willow_broom)item(hexerei:witch_hazel_broom))"
 						}
 					}
-					title: "Any Broom"
 					type: "item"
 				}
 			]
@@ -840,7 +839,8 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "77C9F258E151E680"
+					id: "157E2B0466E51630"
+					table_id: 578597190891487109L
 					type: "choice"
 				}
 			]

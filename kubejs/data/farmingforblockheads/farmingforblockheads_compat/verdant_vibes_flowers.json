@@ -1,0 +1,26 @@
+{
+    "modId": "verdantvibes",
+    "silent": true,
+    "group": {
+      "name": "Verdant Vibes Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+        {
+        "output": "verdantvibes:burnweed"
+        },
+        {
+        "output": "verdantvibes:candy_tuft"
+        },
+        {
+        "output": "verdantvibes:lobelia"
+        },
+        {
+        "output": "verdantvibes:periwinkle"
+        }
+    ]
+  }

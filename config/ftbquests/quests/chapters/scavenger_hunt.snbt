@@ -556,6 +556,7 @@
 			]
 			hide_dependency_lines: true
 			id: "3CEDCDDE9BCD7F5F"
+			progression_mode: "linear"
 			rewards: [
 				{
 					id: "5D440F980372BD81"

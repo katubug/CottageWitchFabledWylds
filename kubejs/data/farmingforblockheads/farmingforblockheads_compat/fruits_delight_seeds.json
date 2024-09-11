@@ -1,0 +1,25 @@
+{
+    "modId": "fruitsdelight",
+    "group": {
+      "name": "Fruit's Delight Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:diamond"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        {
+            "output": "fruitsdelight:lemon_seeds"
+          },
+          {
+            "output": "fruitsdelight:blueberry"
+          },
+          {
+            "output": "fruitsdelight:cranberry"
+          },
+          {
+            "output": "fruitsdelight:hamimelon_seeds"
+          }
+    ]
+  }

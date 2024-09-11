@@ -1,0 +1,17 @@
+{
+    "modId": "hexerei",
+    "silent": true,
+    "group": {
+      "name": "Hexerei Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:diamond"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        {
+            "output": "hexerei:sage_seed"
+        }
+    ]
+  }

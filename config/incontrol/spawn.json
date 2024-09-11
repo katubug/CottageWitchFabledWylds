@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "mob":["endermanoverhaul:end_enderman"],
+        "result":"deny",
+        "continue": true
+    },
+    {
+        "result": "deny",
+        "continue": true,
+        "mob": [
+          "minecraft:skeleton",
+          "minecraft:zombie",
+          "minecraft:creeper",
+          "minecraft:enderman"
+        ],
+        "mincount": {
+          "amount": 60
+        }
+      }
+]

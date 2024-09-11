@@ -1,0 +1,20 @@
+{
+    "modId": "aether",
+    "silent": true,
+    "group": {
+      "name": "Aether Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "aether:zanite_gemstone"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+      {
+        "output": "aether:white_flower"
+      },
+      {
+        "output": "aether:purple_flower"
+      }
+    ]
+  }

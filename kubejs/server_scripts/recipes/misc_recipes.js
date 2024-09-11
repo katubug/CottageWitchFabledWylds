@@ -1,4 +1,15 @@
 ServerEvents.recipes(event => {
+	// Filled Eccentric tome
+	let tome = Item.of('eccentrictome:tome', '{"eccentrictome:mods":{aether:{0:{Count:1b,id:"aether:book_of_lore"}},eidolon:{0:{Count:1b,id:"eidolon:codex"}},ftbquests:{0:{Count:1b,id:"ftbquests:book"}},hexerei:{0:{Count:1b,id:"hexerei:book_of_shadows",tag:{bookmarks:{},chapter:0,opened:0b,page:0}}},malum:{0:{Count:1b,id:"malum:encyclopedia_arcana"}},solonion:{0:{Count:1b,id:"solonion:food_book"}},unusualprehistory:{0:{Count:1b,id:"unusualprehistory:encyclopedia"}}},"eccentrictome:version":1}')
+	event.shapeless(
+		Item.of(tome),
+		[
+			'minecraft:book',
+			'minecraft:stick'
+		]
+	)
+
+
 	// Cheaper Post Box
 	event.shaped(
 		Item.of('mighty_mail:post_box'),

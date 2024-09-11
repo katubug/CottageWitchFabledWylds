@@ -657,15 +657,14 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "03BCF6954B5954F4"
+				id: "5A214AFFCE8F7DF6"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:magnum_torches"
+						"ftbfiltersystem:filter": "or(item(magnumtorch:emerald_magnum_torch)item(magnumtorch:amethyst_magnum_torch)item(magnumtorch:diamond_magnum_torch))"
 					}
 				}
-				title: "Any Magnum Torch"
 				type: "item"
 			}]
 			title: "Preventing Mob Spawning"
@@ -3194,15 +3193,14 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "1B78390A0008A99B"
+				id: "0E59879C827FD9A9"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:plushies"
+						"ftbfiltersystem:filter": "or(item_tag(forge:plushies))"
 					}
 				}
-				title: "Any #forge:plushies"
 				type: "item"
 			}]
 			title: "Obtain a Plushie"
@@ -3251,7 +3249,7 @@
 				item: "numismatics:bank_terminal"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: -2.0d
 		}
 	]

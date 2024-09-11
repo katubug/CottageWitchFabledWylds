@@ -89,15 +89,14 @@
 			shape: "hexagon"
 			subtitle: "So happy together"
 			tasks: [{
-				id: "315D13677114638B"
+				id: "67A332A524039E38"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:mushcolony"
+						"ftbfiltersystem:filter": "or(item(farmersdelight:brown_mushroom_colony)item(farmersdelight:red_mushroom_colony))"
 					}
 				}
-				title: "Any Mushroom Colony"
 				type: "item"
 			}]
 			title: "Obtain a Mushroom Colony"
@@ -1243,15 +1242,14 @@
 			id: "367C23BE5CAEF485"
 			subtitle: "oh, beehive, baby"
 			tasks: [{
-				id: "0E3CA1EAA82F4DDC"
+				id: "40F53CF44216CB1D"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:special_beehives"
+						"ftbfiltersystem:filter": "or(item(betterbeekeeping:mangrove_beehive)item(betterbeekeeping:cherry_beehive)item(betterbeekeeping:bamboo_beehive)item(betterbeekeeping:oak_beehive)item(betterbeekeeping:spruce_beehive)item(betterbeekeeping:birch_beehive)item(betterbeekeeping:dark_oak_beehive)item(betterbeekeeping:jungle_beehive)item(betterbeekeeping:acacia_beehive)item(betterbeekeeping:crimson_beehive)item(betterbeekeeping:warped_beehive))"
 					}
 				}
-				title: "Any #forge:special_beehives"
 				type: "item"
 			}]
 			title: "Special Beehives"
@@ -1419,15 +1417,14 @@
 			]
 			id: "62A4710B05D8A115"
 			tasks: [{
-				id: "61397D927103601B"
+				id: "6DBE7FF532945876"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "betterbeekeeping:honey_bottles"
+						"ftbfiltersystem:filter": "or(item_tag(betterbeekeeping:honey_bottles))"
 					}
 				}
-				title: "Any #betterbeekeeping:honey_bottles"
 				type: "item"
 			}]
 			title: "Special Honeys"

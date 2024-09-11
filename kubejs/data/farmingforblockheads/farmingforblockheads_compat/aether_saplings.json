@@ -1,0 +1,20 @@
+{
+    "modId": "aether",
+    "silent": true,
+    "group": {
+      "name": "Aether Saplings",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "aether:zanite_gemstone"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+      {
+        "output": "aether:skyroot_sapling"
+      },
+      {
+        "output": "aether:golden_oak_sapling"
+      }
+    ]
+  }

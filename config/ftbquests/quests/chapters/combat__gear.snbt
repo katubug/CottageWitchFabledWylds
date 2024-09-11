@@ -595,15 +595,14 @@
 			shape: "hexagon"
 			subtitle: "what's in the cards for you?"
 			tasks: [{
-				id: "7EEC79529BBFE411"
+				id: "466C66B566A8D6D6"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "tarotcards:tarot_cards"
+						"ftbfiltersystem:filter": "or(item_tag(tarotcards:tarot_cards))"
 					}
 				}
-				title: "Any #tarotcards:tarot_cards"
 				type: "item"
 			}]
 			title: "Obtain Tarot Cards"
@@ -671,15 +670,14 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "6C6CC6A2E015B887"
+				id: "3C912910E9C1F6E1"
 				item: {
-					Count: 1
-					id: "itemfilters:tag"
+					Count: 2
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "tarotcards:tarot_cards"
+						"ftbfiltersystem:filter": "or(item_tag(tarotcards:tarot_cards))"
 					}
 				}
-				title: "Any #tarotcards:tarot_cards"
 				type: "item"
 			}]
 			title: "Tarot Trading"
@@ -1653,32 +1651,6 @@
 			y: -3.0d
 		}
 		{
-			description: ["&bTravel Boots&r are a nice, comfy set of footwear which allow you to &aeasily step up single block heights&r. Useful for traversal, but not great in combat."]
-			id: "694844999878F745"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5237FABD3F201173"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			subtitle: "not to be confused with 7-league boots"
-			tasks: [{
-				id: "6D452DB6697F64CB"
-				item: {
-					Count: 1
-					id: "travelboots:basic_travel_boots_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Obtain Travel Boots"
-			x: -4.5d
-			y: -3.0d
-		}
-		{
 			description: ["These adorable pieces of gear, including &bCat Ears&r, &bDruid Horns&r, and a &bFrog&r you can wear on your head are &aeasy to obtain&r and have &aweak stats&r. You can use them with &lCosmetic Armor&r &aslots&r to apply their appearance even though your armor is still giving you its benefits!"]
 			id: "753BC713E94D53E1"
 			rewards: [{
@@ -1689,15 +1661,14 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "0998C5542C32C227"
+				id: "0D9A85EFE2FFE3D2"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "witchywearables:witchywearables"
+						"ftbfiltersystem:filter": "or(item_tag(witchywearables:witchywearables))"
 					}
 				}
-				title: "Any #witchywearables:witchywearables"
 				type: "item"
 			}]
 			title: "Witchy Wearables"
@@ -1788,83 +1759,6 @@
 			]
 			title: "The Full Set: Draco Arcanus Tools"
 			x: 3.5d
-			y: -3.0d
-		}
-		{
-			description: [
-				"Collect a whole set of &bNeptunium Tools&r to complete this quest."
-				""
-				"The &bNeptunium tools&r have unique properties."
-				""
-				"&bFishing Rod&r: &aLures fish faster&r than other rods."
-				""
-				"&bHoe&r: Farmland hoed by this tool will &abe forever hydrated&r without requiring a water source."
-				""
-				"&bPickaxe&r and &bShovel: Are &anot hindered&r by the underwater mining speed penalty."
-			]
-			id: "2A899AF9F78828B7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2770C34463AC901D"
-				table_id: 3860672237768942222L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "115D883F2096D316"
-					item: {
-						Count: 1
-						id: "aquaculture:neptunium_fishing_rod"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "09FF60A0FFD072CA"
-					item: {
-						Count: 1
-						id: "aquaculture:neptunium_pickaxe"
-						tag: {
-							Damage: 0
-							inWater: 0b
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "02BAE54881F6E627"
-					item: {
-						Count: 1
-						id: "aquaculture:neptunium_hoe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "111CCFC11A529438"
-					item: {
-						Count: 1
-						id: "aquaculture:neptunium_shovel"
-						tag: {
-							Damage: 0
-							inWater: 0b
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "65F554514D7A4774"
-					item: "aquaculture:neptunium_fillet_knife"
-					type: "item"
-				}
-			]
-			title: "The Full Set: Neptunium Tools"
-			x: 4.5d
 			y: -3.0d
 		}
 		{

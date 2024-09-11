@@ -1,0 +1,16 @@
+{
+    "modId": "meadow",
+    "group": {
+      "name": "Meadow Saplings",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:diamond"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+      {
+        "output": "meadow:pine_sapling"
+      }
+    ]
+  }

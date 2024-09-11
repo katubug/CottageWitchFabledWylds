@@ -6,7 +6,7 @@
         "item": "farmersdelight:wheat_dough"
       },
       {
-        "item": "bakery:yeast"
+        "tag": "forge:eggs"
       },
       {
         "tag": "forge:salt"

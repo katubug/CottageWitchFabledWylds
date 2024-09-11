@@ -533,15 +533,14 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "482E2FA219FCFEBD"
+				id: "43721E1822843DBD"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:inventory_upgrades"
+						"ftbfiltersystem:filter": "or(item(sophisticatedstorage:smelting_upgrade)item(sophisticatedstorage:auto_smelting_upgrade)item(sophisticatedstorage:smoking_upgrade)item(sophisticatedstorage:auto_smoking_upgrade)item(sophisticatedstorage:blasting_upgrade)item(sophisticatedstorage:auto_blasting_upgrade))"
 					}
 				}
-				title: "Any Processing Upgrade"
 				type: "item"
 			}]
 			title: "Process Your Inventory"
@@ -565,15 +564,14 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "7A44E7B075704DDF"
+				id: "475C026382927E98"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:stack_upgrades"
+						"ftbfiltersystem:filter": "or(item(sophisticatedstorage:stack_upgrade_tier_1)item(sophisticatedstorage:stack_upgrade_tier_1_plus)item(sophisticatedstorage:stack_upgrade_tier_2)item(sophisticatedstorage:stack_upgrade_tier_3)item(sophisticatedstorage:stack_upgrade_tier_4)item(sophisticatedstorage:stack_upgrade_tier_5))"
 					}
 				}
-				title: "Any Stack Upgrades"
 				type: "item"
 			}]
 			title: "Stack Higher"
@@ -992,9 +990,9 @@
 			description: [
 				"These upgrades allow your backpack to operate outside the confines of its leather!"
 				""
-				"- &6Pickup Upgrade&r will reroute any items you pick up to enter your backpack instead of your inventory. "
-				"- &6Magnet Upgrade&r will draw items to your backpack from a distance! "
-				"- &6Jukebox Upgrade&r will allow you to be that one hiker who always brings their bluetooth speaker with them to bless the entire trail with the soothing tunes of Nicki Minaj."
+				"- &bPickup Upgrade&r will reroute any items you pick up to enter your backpack instead of your inventory. "
+				"- &bMagnet Upgrade&r will draw items to your backpack from a distance! "
+				"- &bJukebox Upgrade&r will allow you to be that one hiker who always brings their bluetooth speaker with them to bless the entire trail with the soothing tunes of Nicki Minaj."
 				""
 				"To get the most of these upgrades, we suggest &6checking out the settings tab&r for each one. "
 				""
@@ -1004,15 +1002,14 @@
 			shape: "hexagon"
 			subtitle: "let 'em know you're coming"
 			tasks: [{
-				id: "01CCDB4E123F14E5"
+				id: "0608DDEFBDCC1A59"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:sophb_environmental"
+						"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:jukebox_upgrade)item(sophisticatedbackpacks:advanced_pickup_upgrade)item(sophisticatedbackpacks:magnet_upgrade)item(sophisticatedbackpacks:advanced_magnet_upgrade)item(sophisticatedbackpacks:pickup_upgrade))"
 					}
 				}
-				title: "Any #forge:sophb_environmental"
 				type: "item"
 			}]
 			title: "Environmental Upgrades"
@@ -1034,15 +1031,14 @@
 			shape: "hexagon"
 			subtitle: "\"i don't like to do anything\" - Docm77"
 			tasks: [{
-				id: "6ABD4445F56588FE"
+				id: "1543E41690B84694"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:sophb_quick"
+						"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:feeding_upgrade)item(sophisticatedbackpacks:advanced_feeding_upgrade)item(sophisticatedbackpacks:restock_upgrade)item(sophisticatedbackpacks:advanced_restock_upgrade)item(sophisticatedbackpacks:tool_swapper_upgrade)item(sophisticatedbackpacks:advanced_tool_swapper_upgrade)item(sophisticatedbackpacks:refill_upgrade)item(sophisticatedbackpacks:advanced_refill_upgrade))"
 					}
 				}
-				title: "Any #forge:sophb_quick"
 				type: "item"
 			}]
 			title: "Shortcut Upgrades"
@@ -1062,15 +1058,14 @@
 			shape: "hexagon"
 			subtitle: "live out of your backpack"
 			tasks: [{
-				id: "30FEE4ACC7F65B84"
+				id: "4177A98C30AD8196"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:sophb_utility"
+						"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:smelting_upgrade)item(sophisticatedbackpacks:auto_smelting_upgrade)item(sophisticatedbackpacks:blasting_upgrade)item(sophisticatedbackpacks:auto_blasting_upgrade)item(sophisticatedbackpacks:crafting_upgrade)item(sophisticatedbackpacks:stonecutter_upgrade)item(sophisticatedbackpacks:anvil_upgrade))"
 					}
 				}
-				title: "Any #forge:sophb_utility"
 				type: "item"
 			}]
 			title: "Utility Upgrades"
@@ -1092,15 +1087,14 @@
 			shape: "hexagon"
 			subtitle: "baby got camelback"
 			tasks: [{
-				id: "165E728B29A9BA19"
+				id: "6BBCF26FB0F51876"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:sophb_fluid"
+						"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:xp_pump_upgrade)item(sophisticatedbackpacks:tank_upgrade))"
 					}
 				}
-				title: "Any #forge:sophb_fluid"
 				type: "item"
 			}]
 			title: "Fluid On The Go"
@@ -1120,15 +1114,14 @@
 			shape: "hexagon"
 			subtitle: "mary poppins got nothing on this"
 			tasks: [{
-				id: "0808AD513B23A1AF"
+				id: "5B14CF284A7BD28D"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:sophb_inventory"
+						"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:compacting_upgrade)item(sophisticatedbackpacks:advanced_compacting_upgrade)item(sophisticatedbackpacks:stack_upgrade_tier_1)item(sophisticatedbackpacks:stack_upgrade_starter_tier))"
 					}
 				}
-				title: "Any #forge:sophb_inventory"
 				type: "item"
 			}]
 			title: "Inventory Management"

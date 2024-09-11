@@ -80,14 +80,6 @@
 			x: 0.0d
 			y: -7.5d
 		}
-		{
-			height: 10.0d
-			image: "enchanted_wilds:textures/questui/bgcaupona.png"
-			rotation: 0.0d
-			width: 10.0d
-			x: 0.0d
-			y: -25.5d
-		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -187,15 +179,14 @@
 			size: 2.0d
 			subtitle: "Don't let it call your Cooking Pot black."
 			tasks: [{
-				id: "622600E3F1AD966D"
+				id: "12D61E8BC115DE63"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:kettles"
+						"ftbfiltersystem:filter": "or(item(herbalbrews:tea_kettle)item(herbalbrews:copper_tea_kettle))"
 					}
 				}
-				title: "Any #forge:kettles"
 				type: "item"
 			}]
 			title: "Obtain a Kettle"
@@ -485,15 +476,14 @@
 			]
 			subtitle: "Baby's First Stabber"
 			tasks: [{
-				id: "1013400BF2BCA148"
+				id: "33C5164D4C0BB4E0"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "farmersdelight:tools/knives"
+						"ftbfiltersystem:filter": "or(item_tag(farmersdelight:tools/knives))"
 					}
 				}
-				title: "Any #farmersdelight:tools/knives"
 				type: "item"
 			}]
 			title: "Obtain a Knife"
@@ -1656,15 +1646,14 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "6E421AB16B8FAE63"
+				id: "5C9E309D662A4162"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:grape_seeds"
+						"ftbfiltersystem:filter": "or(item(vinery:jungle_grape_seeds_red)item(vinery:jungle_grape_seeds_white)item(nethervinery:crimson_grape_seeds)item(nethervinery:warped_grape_seeds)item(vinery:red_grape_seeds)item(vinery:white_grape_seeds)item(vinery:savanna_grape_seeds_red)item(vinery:savanna_grape_seeds_white)item(vinery:taiga_grape_seeds_red)item(vinery:taiga_grape_seeds_white))"
 					}
 				}
-				title: "Any Grape Seeds"
 				type: "item"
 			}]
 			title: "Obtain Grape Seeds"
@@ -2124,15 +2113,14 @@
 			]
 			subtitle: "that's the stuff, gromit!"
 			tasks: [{
-				id: "075CFC19D7C57F9C"
+				id: "28AC55258205CD5D"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "meadow:cheese_blocks"
+						"ftbfiltersystem:filter": "or(item_tag(meadow:cheese_blocks))"
 					}
 				}
-				title: "Any Cheese Wheel"
 				type: "item"
 			}]
 			title: "Obtain a Cheese Wheel"
@@ -3415,436 +3403,6 @@
 			title: "Obtain Butter"
 			x: 2.0d
 			y: -8.5d
-		}
-		{
-			description: [
-				"&lCaupona&r is a cooking mod that employs a freeform style of recipe."
-				"With most recipes, you will &amaintain a ratio&r of ingredients, such as ensuring that you have &a\\\"mostly beef\\\"&r and &a\\\"some vegetables\\\"&r, with &a\\\"no fish\\\"&r, and so on."
-				"You can use &bthe guidebook&r or &lJEI&r to learn the recipes."
-				"{image:enchanted_wilds:textures/questimages/cauponajei.png width:100 height:80 align:1 fit:true}"
-				"When viewing &bStews and Soups&r, ensure that you &6click these icons&r to access their recipes."
-				""
-				"{image:enchanted_wilds:textures/questimages/cauponarecipe.png width:100 height:90 align:1 fit:true}"
-				"A) This is the &bSoup Base&r. For example, for &bNail Soup&r, you &6boil water&r."
-				"B) This is the &aratio of ingredients to liquid&r. For example, 3 or more ingredients to 1 bucket/4 bowls of liquid."
-				"C) This is the &aoutput&r, or what the recipe will make."
-				"D) These are ingredients which &amust not be included&r."
-				"E and F) These are the &aratio of items to each other&r, for example, a majority of &bbeef&r and at least one &bvegetable&r."
-				""
-				"Now that you know how to read the recipes, let's make some!"
-			]
-			id: "309C37F4667DC8B2"
-			rewards: [
-				{
-					count: 4
-					id: "62064919FB21B1BC"
-					item: "minecraft:clay_ball"
-					type: "item"
-				}
-				{
-					count: 20
-					id: "01379121BC5DB127"
-					item: "minecraft:brick"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "427BE39DCDDE6B14"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "caupona:book"
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: -27.0d
-		}
-		{
-			description: [
-				"The &bDolium&r is used for &aResting Conversion&r, which consists of placing your &aingredients and other items&r inside and &6letting them rest&r, for up to an &ain-game day&r."
-				""
-				"Each recipe needs all ingredients, as well as a container to hold the result, and sometimes an additional item (such as &aAnvils for Gravy Boats&r). &dThe resting process will not begin without all components&r."
-				""
-				"This can be sped up using the &bTime in a Bottle&r."
-			]
-			id: "6F57578C158D168D"
-			rewards: [
-				{
-					id: "71D8A864E431FD03"
-					item: "minecraft:flower_pot"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "0FC2DA97FECDCFA2"
-					item: "minecraft:sweet_berries"
-					type: "item"
-				}
-			]
-			subtitle: "the doldrums"
-			tasks: [{
-				id: "2E1AE323277DD37D"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:dolium"
-					}
-				}
-				title: "Any #forge:dolium"
-				type: "item"
-			}]
-			title: "Obtain a Dolium"
-			x: -2.0d
-			y: -26.5d
-		}
-		{
-			description: [
-				"You can also &aadd Spices to your food&r! One such spice is &bVinegar&r, which is created by leaving &bSweet Berries&r to &arest in the Dolium&r with a &bFlower Pot&r."
-				""
-				"Adding spices to your food &agives it greater saturation&r."
-			]
-			id: "2616C48BB0F5F92B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "623730A5F1E98F02"
-				table_id: 8096229411196850122L
-				type: "random"
-			}]
-			tasks: [{
-				id: "0DCE05B5A5DE587F"
-				item: {
-					Count: 1
-					id: "caupona:vinegar_spice_jar"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Spicing Your Food"
-			x: -2.5d
-			y: -25.5d
-		}
-		{
-			description: [
-				"The &bCaminus&r is a helpful and aesthetically-pleasing &aheat source&r, which can be used to heat &bStew Pots, Stir Fry Pans, and Hypocausts&r."
-				""
-				"In order for the &bCaminus&r to work, it must be &afilled with coal or wood&r."
-			]
-			id: "13C323F9AC994355"
-			rewards: [
-				{
-					count: 15
-					id: "144D46FE081CBD71"
-					item: "minecraft:charcoal"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "1889ED5275EAA181"
-					item: "minecraft:bowl"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "75757D05BCC7E450"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "caupona:stoves"
-					}
-				}
-				title: "Any #caupona:stoves"
-				type: "item"
-			}]
-			title: "Obtain a Caminus"
-			x: 2.0d
-			y: -26.5d
-		}
-		{
-			description: [
-				"To stir-fry things, you'll need two things: a &bpan or stone&r, and a &bGravy Boat&r."
-				""
-				"The Pan must be &6placed atop a heat source&r. The &bGravy Boat&r must be placed &adirectly next to the pan&r. You can place it with &6shift right click&r."
-			]
-			id: "5D5E985470357CA5"
-			rewards: [{
-				count: 8
-				id: "55DD094FAB03D5D2"
-				item: "caupona:walnut"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3255E415A5C4A376"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:fryingpans"
-					}
-				}
-				title: "Any #forge:fryingpans"
-				type: "item"
-			}]
-			title: "Obtain a Frying Pan"
-			x: 2.5d
-			y: -25.5d
-		}
-		{
-			description: [
-				"A &bGravy Boat&r is crucial to making &aStir Fried dishes&r. It's crafted by &aresting&r, which is a unique mechanic involving &6putting things in a &bDolium&r and then &6leaving it the heck alone&r."
-				""
-				"{image:enchanted_wilds:textures/questimages/gravyboat.png width:100 height:100 align:1 fit:true}"
-				""
-				"In this image, you can see there are &aat least 8 &bWalnuts&r, one &bAnvil&r, and one &bGlass Bottle&r (you can also use an empty Gravy Boat) in the &bDolium&r. All of these must be present in order for the &aresting process&r to begin. Be aware that this &dtakes a very long time&r. Most resting takes &dan in-game day&r to complete."
-				""
-				"You can speed it up by using &bTime in a Bottle&r."
-			]
-			id: "5A820229B95E31B5"
-			rewards: [{
-				id: "69568BC3B08EC771"
-				item: {
-					Count: 1
-					id: "caupona:gravy_boat"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1041CE8989E60A0E"
-				item: {
-					Count: 1
-					id: "caupona:gravy_boat"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.0d
-			y: -25.0d
-		}
-		{
-			description: [
-				"To begin with, you'll need a &bClay Pot&r, which you'll need to &6fire in a furnace&r. A &bStew Pot&r is used to make &aSoups, Stews, and Aspics&r."
-				""
-				"Once placed, you can &afill the Stew Pot&r by &6right clicking it&r with a &bBucket of Milk or Water&r, or &bBowls&r of whichever ingredient."
-			]
-			id: "48748518446030C1"
-			rewards: [{
-				id: "594F161397A1BC22"
-				item: "minecraft:water_bucket"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "0F021753C466350B"
-					item: "caupona:clay_cistern"
-					type: "item"
-				}
-				{
-					id: "7EF4DB0ED9A70846"
-					item: "caupona:stew_pot"
-					type: "item"
-				}
-			]
-			title: "Obtain a Stew Pot"
-			x: -1.0d
-			y: -25.0d
-		}
-		{
-			description: [
-				"Now that you're ready to cook, let's try making some &bBorscht&r. Just like babshka used to make."
-				""
-				"{image:enchanted_wilds:textures/questimages/borscht.png width:100 height:60 align:1 fit:true}"
-				""
-				"As you can see, it's a &bBeetroot&r-heavy &avegetable soup&r, that doesn't have any &adenial ingredients&r."
-				""
-				"Make sure you place &aat least 3 &bBeetroot&r and &aat least 1 &bother vegetable&r (or another &bBeetroot&r)."
-				""
-				"However, you can &dadd more than that&r! If you make it with &b9 Beetroot&r, it will give you &agreater saturation&r."
-				""
-				"There is a &dbug where the correct Saturation won't appear&r when you hover over the item. However, it will be correct when you eat it."
-				""
-				"Stews can also &abe placed down with &6shift + right click&r!"
-				""
-				"Additionally, you can &aadd &bPotions&a to your food&r by including them in the 9 ingredients."
-			]
-			id: "0AFE8FEB038F2D78"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7EF657A71930A632"
-				table_id: 8096229411196850122L
-				type: "random"
-			}]
-			tasks: [{
-				id: "1C8103B17EAECD54"
-				item: {
-					Count: 1
-					id: "caupona:borscht"
-					tag: {
-						"caupona:fluid": {
-							type: "caupona:borscht"
-						}
-						display: {
-							Lore: [
-								"{\"translate\":\"tooltip.caupona.display_only\"}"
-								"{\"translate\":\"tooltip.caupona.cook_required\"}"
-							]
-						}
-					}
-				}
-				type: "item"
-			}]
-			title: "Make a Stew"
-			x: 0.0d
-			y: -24.0d
-		}
-		{
-			description: ["Soups will &aconvert to Aspic&r if left to sit in a &bStew Pot&r or &bDolium&r for long periods of time. This can be a good way of &astacking your stews&r, as &bBowls&r do not stack."]
-			id: "5C31937635DA187E"
-			rewards: [{
-				id: "43802347E29C0B85"
-				item: "caupona:mushroom_soup_aspic"
-				type: "item"
-			}]
-			tasks: [{
-				id: "57C13F295095B681"
-				item: "caupona:borscht_aspic"
-				type: "item"
-			}]
-			title: "Aspics"
-			x: 0.0d
-			y: -22.5d
-		}
-		{
-			description: [
-				"In order to &athaw an &bAspic&r, you can either &6place it in a &bStew Pot&r and let it convert, or you can use a &bPortable Brazier&r."
-				""
-				"The &bBrazier&r can be done while traveling, but it will require a &bBowl of Water&r and some &bVivid Charcoal&r in order to work."
-			]
-			id: "7CCEC5A37BAC2463"
-			rewards: [
-				{
-					id: "7A02ABECEA695684"
-					item: {
-						Count: 1
-						id: "caupona:water"
-						tag: {
-							"caupona:fluid": {
-								type: "minecraft:water"
-							}
-							display: {
-								Lore: [
-									"{\"translate\":\"tooltip.caupona.display_only\"}"
-									"{\"translate\":\"tooltip.caupona.cook_required\"}"
-								]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "273EEA1F0686D82E"
-					item: "caupona:vivid_charcoal"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "219FC4B24CEFC306"
-				item: "caupona:portable_brazier"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -24.0d
-		}
-		{
-			description: ["To test your Stir-Fry Skills, why not make some &bSauteed Roots&r? This dish is made with &aprimarily root vegetables such as &bPotatoes&r."]
-			id: "78B1F2EB15261E49"
-			rewards: [{
-				id: "7CA34AE8098F793E"
-				item: {
-					Count: 1
-					id: "caupona:sauteed_roots"
-					tag: {
-						dish: {
-							feffects: [{
-								chance: 1.0f
-								effect: {
-									Ambient: 0b
-									Amplifier: 0b
-									CurativeItems: [{
-										Count: 1b
-										id: "minecraft:milk_bucket"
-									}]
-									Duration: 6000
-									Id: 170
-									ShowIcon: 1b
-									ShowParticles: 1b
-									"forge:id": "brewery:saturated"
-								}
-							}]
-							hasSpice: 1b
-							heal: 53
-							items: [
-								{
-									Count: 1b
-									id: "minecraft:beef"
-									th_countf: 0.8f
-								}
-								{
-									Count: 1b
-									id: "minecraft:potato"
-									th_countf: 1.0f
-								}
-							]
-							sat: 0.8037736f
-							spice: {
-								Ambient: 0b
-								Amplifier: 0b
-								CurativeItems: [{
-									Count: 1b
-									id: "minecraft:milk_bucket"
-								}]
-								Duration: 600
-								Id: 16
-								ShowIcon: 1b
-								ShowParticles: 1b
-								"forge:id": "minecraft:night_vision"
-							}
-							spiceName: "caupona:vinegar_spice_jar"
-						}
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "3E79A04A68A13867"
-				item: {
-					Count: 1
-					id: "caupona:sauteed_roots"
-					tag: {
-						display: {
-							Lore: [
-								"{\"translate\":\"tooltip.caupona.display_only\"}"
-								"{\"translate\":\"tooltip.caupona.cook_required\"}"
-							]
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: -24.0d
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]

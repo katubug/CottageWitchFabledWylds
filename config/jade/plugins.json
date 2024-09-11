@@ -67,12 +67,8 @@
     "converter": true,
     "breeder": true
   },
-  "valoria": {
-    "jewelry": true,
-    "manipulator": true,
-    "keg": true,
-    "key": true,
-    "crusher": true
+  "pipez": {
+    "pipe": true
   },
   "delightful": {
     "crop_progress": true,

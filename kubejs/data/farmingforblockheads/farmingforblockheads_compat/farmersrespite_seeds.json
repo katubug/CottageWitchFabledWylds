@@ -1,0 +1,17 @@
+{
+    "modId": "farmersrespite",
+    "silent": true,
+    "group": {
+      "name": "Farmer's Respite Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:diamons"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+      {
+        "output": "farmersrespite:tea_seeds"
+      }
+    ]
+  }

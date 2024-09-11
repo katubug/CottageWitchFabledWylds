@@ -1,0 +1,38 @@
+{
+    "modId": "vinery",
+    "silent": true,
+    "group": {
+      "name": "Vinery Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:diamond"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        {
+        "output": "vinery:white_grape_seeds"
+        },
+        {
+        "output": "vinery:red_grape_seeds"
+        },
+        {
+        "output": "vinery:taiga_grape_seeds_red"
+        },
+        {
+        "output": "vinery:taiga_grape_seeds_white"
+        },
+        {
+        "output": "vinery:jungle_grape_seeds_red"
+        },
+        {
+        "output": "vinery:savanna_grape_seeds_white"
+        },
+        {
+        "output": "vinery:jungle_grape_seeds_white"
+        },
+        {
+        "output": "vinery:savanna_grape_seeds_red"
+        }
+    ]
+  }

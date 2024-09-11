@@ -1,0 +1,20 @@
+{
+    "modId": "delightful",
+    "silent": true,
+    "group": {
+      "name": "Delightful Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        {
+            "output": "delightful:salmonberry_pips"
+          },
+          {
+            "output": "delightful:cantaloupe_seeds"
+          }
+    ]
+  }

@@ -1,0 +1,19 @@
+{
+    "modId": "phantasm",
+    "silent": true,
+    "group": {
+      "name": "End's Phantasm Saplings",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:ender_pearl"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+    {
+        "output": "phantasm:pream_sapling"
+    }
+    ]
+  }
+
+  

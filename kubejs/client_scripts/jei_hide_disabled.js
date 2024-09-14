@@ -229,6 +229,7 @@ JEIEvents.hideItems(event => {
       'unusualprehistory:encrusted_sack',
       'unusualprehistory:encrusted_spawn_egg',
       'vegandelight:salt',
+      'nameless_trinkets:cracked_crown'
       ];
     
       for (const hide of toHide) {

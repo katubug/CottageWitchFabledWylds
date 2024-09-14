@@ -1,0 +1,637 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zephyrs_adds"
+	group: "691BD44222F33F05"
+	id: "0C0A5FA20E63A7C0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Tames with sweet berries, breeds with carrots. "
+				""
+				"Use a Skunk Commanding Stick for changing behaviors. "
+				""
+				"A shoulder companion if you right click them. Shift right click to place on the ground. "
+				""
+				"There are 11 variants of skunks. Collect them all! "
+				""
+				""
+				"&oSkunks represent 3 aspects of totem magic: protection, independence and self-respect. This creature does not question its abilities. &r"
+			]
+			id: "3EA6254700D3FA0D"
+			rewards: [{
+				count: 5
+				id: "1A0DF04EA4B9380D"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			subtitle: "Your friend, the skunk"
+			tasks: [{
+				icon: "skunk:copper_skunk_item"
+				id: "76EF2E567318E0D0"
+				observe_type: 5
+				timer: 0L
+				title: "Meet the Skunk"
+				to_observe: "skunk:skunk"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Tames with potatoes, breeds with beetroot. "
+				""
+				"Rideable and grants slowfalling while riding. "
+				""
+				"Do not house in your cropfield. &nYou have been warned. &r"
+			]
+			id: "36CB25FF340BC15E"
+			rewards: [{
+				count: 5
+				id: "63E8DB7C081A6BE1"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			subtitle: "Want a Chocobo?"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tameablebeasts:chikote_egg"
+					tag: {
+						textureId: 0
+					}
+				}
+				id: "6580ED2A951E9CD5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:tameable_chikote"
+				type: "observation"
+			}]
+			title: "Meet the Chikote"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Tames with melon slices, breeds with chicken eggs. "
+				""
+				"If they steal the pollen off bees, will drop fur. "
+				""
+				"Fur can be crafted into a hat, blocks, and later on, fur golems!"
+			]
+			id: "1A282F382F741DEB"
+			rewards: [{
+				count: 5
+				id: "1DA8E109AAB89AAB"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			subtitle: "They may or may not have angered a bear."
+			tasks: [{
+				icon: "tameablebeasts:racoon_hat"
+				id: "0CD9D114593C636D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:tameable_racoon"
+				type: "observation"
+			}]
+			title: "Meet the Racoon"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Tame them with egg rests, breeds with leaves. "
+				"Egg rests spawn when a tameable beast egg hatches. "
+				""
+				""
+				"Fastest mount on this side of Minecraftia. "
+			]
+			id: "0AED644C74078332"
+			rewards: [{
+				count: 5
+				id: "36D9BB6F92065117"
+				item: "tameablebeasts:egg_rests"
+				type: "item"
+			}]
+			subtitle: "-clap- Ey!"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tameablebeasts:roly_poly_egg"
+					tag: {
+						textureId: 0
+					}
+				}
+				id: "20EEDA4226D4DBD5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:giant_roly_poly"
+				type: "observation"
+			}]
+			title: "Meet the Roly Poly"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Tameable with raw cod or salmon, breeds with tropical fish."
+				"Can wear ice armor and hold an icepop as a sword. The ice chestplate doubles as a saddle; they are VERY FAST traveling on ice. "
+				"&oThe Penguin is an ideal representative of positive change and adaptability, and represent peace, harmony, and loyalty.&r"
+			]
+			id: "165F7D17FE6C817F"
+			rewards: [{
+				count: 5
+				id: "7D3C3282DBA7E916"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			subtitle: "Happy Feet"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tameablebeasts:penguin_egg"
+					tag: {
+						textureId: 0
+					}
+				}
+				id: "29043924232CFE46"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:tameable_penguin"
+				type: "observation"
+			}]
+			title: "Meet the Penguin"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Tames with beetle larva, breeds with melon slices. "
+				"Rideable and can climb vertical surfaces. "
+			]
+			id: "3FB15C172F90E74B"
+			rewards: [{
+				count: 5
+				id: "5BE64212F3402F81"
+				item: "tameablebeasts:beetle_egg"
+				type: "item"
+			}]
+			subtitle: "Who says only spiders can climb walls?"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tameablebeasts:crested_gecko_egg"
+					tag: {
+						textureId: 0
+					}
+				}
+				id: "24A201EABC7AB44C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:crested_gecko"
+				type: "observation"
+			}]
+			title: "Meet the Crested Gecko"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Breeds with big bird meat. Can be bred without being tamed. "
+				"Quetzals can carry up to four riders, with a stand. Flies faster if the rider"
+				"wears a Flying Helmet."
+				"Drops Quetzal Meat when killed.  "
+			]
+			id: "76BB244A3C2988B0"
+			rewards: [{
+				count: 5
+				id: "59C9AD4CBE3D2005"
+				item: "tameablebeasts:big_bird_meat"
+				type: "item"
+			}]
+			subtitle: "Carries up to 4 people!"
+			tasks: [{
+				icon: "tameablebeasts:quetzalcoatlus_egg"
+				id: "475B39689F1DFBB5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:quetzalcoatlus"
+				type: "observation"
+			}]
+			title: "Meet the Quetzalcoatlus"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Tames with honeycombs, breeds with honey bottles. Flying Beetle larva drop on breeding, and are placeable. "
+				""
+				"Beetle totems are very determined people. They do not give up easily when facing challenges in life. Beetle spirit gives them the strength to protect yourself and keep moving forward. Their hard exterior shields a sensitive nature underneath, with importance to balance their energies."
+			]
+			id: "5C8A806847060D9D"
+			rewards: [{
+				count: 5
+				id: "43DDEF1B46FB71EB"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			subtitle: "Its a bird, its a plane, its a Beetle!"
+			tasks: [{
+				icon: "tameablebeasts:beetle_spawn_egg"
+				id: "44456FA29203788A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:tameable_beetle"
+				type: "observation"
+			}]
+			title: "Meet the Shiny Beetle"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			description: ["Tames with honeycombs, breeds with honey bottles. Ground larva drop on breeding, and are placeable. "]
+			id: "1CFE0C6B55370733"
+			rewards: [{
+				count: 5
+				id: "2A55A1DAADCEEC49"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			subtitle: "Armored Bus Beetle"
+			tasks: [{
+				icon: "tameablebeasts:ground_beetle_spawn_egg"
+				id: "3C2C445C59D42D97"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:ground_beetle"
+				type: "observation"
+			}]
+			title: "Meet the Ground Beetle"
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Breeds with quetzal meat. These can be bred without taming. "
+				"Fastest flying mount, don't ride these while on a busy server. "
+				"Drops Big bird meat when killed. "
+			]
+			id: "5667BB6E35E4AEE7"
+			rewards: [{
+				count: 5
+				id: "0AA4B9E2B37DA7B9"
+				item: "tameablebeasts:quetzal_meat"
+				type: "item"
+			}]
+			subtitle: "The feathered eater of Quetzals"
+			tasks: [{
+				icon: "tameablebeasts:argentavis_egg"
+				id: "6E32A320768021C8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:argentavis"
+				type: "observation"
+			}]
+			title: "Meet the Argentavis"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Interact with a Scarecrow with the purple Allay. Rare drop from illagers. "
+				""
+				"Prevents Chikote from looting crops. "
+			]
+			id: "73D546D548DC5356"
+			rewards: [{
+				id: "53ACE1AC3E523769"
+				item: "mcwholidays:scarecrow"
+				type: "item"
+			}]
+			subtitle: "Finally, the allay is useful!"
+			tasks: [{
+				icon: "tameablebeasts:purple_allay"
+				id: "20B713643347B368"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:scarecrowallay"
+				type: "observation"
+			}]
+			title: "Meet the Scarecrow Allay"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"\"&eFerrets&r are adorable obligate carnivores which can be &atamed with raw rabbit&r!\""
+				"\"Be aware that they will &ahunt &eChickens and Rabbits&r even once tamed, so be sure to keep your livestock separated from them!\""
+				"\"Tamed &eFerrets&r can also &adig for loot&r once every 5 minutes when &afed raw chicken&r.\""
+			]
+			id: "53AF5433A87A542B"
+			rewards: [{
+				count: 5
+				id: "476DD60CBD236A7F"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			subtitle: "Terror to Chickens everywhere"
+			tasks: [{
+				icon: "crittersandcompanions:ferret_spawn_egg"
+				id: "08B8EAA07630A88C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "cnb:ferret"
+				type: "observation"
+			}]
+			title: "Meet the Ferret"
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			description: ["Collect all the modded music discs. "]
+			id: "0DC28A267878E6E1"
+			rewards: [
+				{
+					id: "73556AE457A60D3C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "620EFA2C0BB17916"
+					table_id: 1739670786502713488L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5901CB2EC9189419"
+					table_id: 1739670786502713488L
+					type: "choice"
+				}
+			]
+			subtitle: "Play that funky music"
+			tasks: [
+				{
+					id: "44A9DA6FC08868F9"
+					item: "quark:music_disc_endermosh"
+					type: "item"
+				}
+				{
+					id: "7AFB79C86043C75D"
+					item: "quark:music_disc_chatter"
+					type: "item"
+				}
+				{
+					id: "00CD3FD26D800768"
+					item: "quark:music_disc_crickets"
+					type: "item"
+				}
+				{
+					id: "7C6467F3DFC30F15"
+					item: "quark:music_disc_clock"
+					type: "item"
+				}
+				{
+					id: "1FD3A364E7D3CC06"
+					item: "quark:music_disc_fire"
+					type: "item"
+				}
+				{
+					id: "64C53EFDB88B0D16"
+					item: "quark:music_disc_wind"
+					type: "item"
+				}
+				{
+					id: "19F9D0B48C8F027C"
+					item: "quark:music_disc_rain"
+					type: "item"
+				}
+				{
+					id: "59802081AD965FF6"
+					item: "quark:music_disc_ocean"
+					type: "item"
+				}
+				{
+					id: "3AF596835CA72256"
+					item: "quark:music_disc_drips"
+					type: "item"
+				}
+				{
+					id: "67A220EF7CDC3823"
+					item: "spawn:music_disc_rot"
+					type: "item"
+				}
+				{
+					id: "42780A0AAEA9DD54"
+					item: "species:music_disc_dial"
+					type: "item"
+				}
+				{
+					id: "791D49C9D912BF1F"
+					item: "etched:blank_music_disc"
+					type: "item"
+				}
+				{
+					id: "7DCD1C4C15C15C36"
+					item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+					type: "item"
+				}
+				{
+					id: "3271F2F5E8D19DDB"
+					item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+					type: "item"
+				}
+				{
+					id: "59411B51FAA5E320"
+					item: "the_bumblezone:music_disc_la_bee_da_loca"
+					type: "item"
+				}
+				{
+					id: "5B811222265AAFBF"
+					item: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
+					type: "item"
+				}
+				{
+					id: "7F771D68E5677120"
+					item: "the_bumblezone:music_disc_bee_ware_of_the_temple"
+					type: "item"
+				}
+				{
+					id: "7D212E2C9EEADA6A"
+					item: "the_bumblezone:music_disc_knowing_renren"
+					type: "item"
+				}
+				{
+					id: "1EA2A9F9474A58E5"
+					item: "the_bumblezone:music_disc_radiance_renren"
+					type: "item"
+				}
+				{
+					id: "3E5E87A55052E1B4"
+					item: "the_bumblezone:music_disc_life_renren"
+					type: "item"
+				}
+				{
+					id: "0EB802157CB56777"
+					item: "the_bumblezone:music_disc_drowning_in_despair"
+					type: "item"
+				}
+				{
+					id: "603C69670D4BA191"
+					item: "the_bumblezone:music_disc_a_last_first_last"
+					type: "item"
+				}
+				{
+					id: "62B6834D336A0002"
+					item: "unusualfishmod:music_disc_seafoam"
+					type: "item"
+				}
+				{
+					id: "0CE5E471C29061C9"
+					item: "unusualprehistory:zulogae_disc"
+					type: "item"
+				}
+				{
+					id: "00E1C724317BC409"
+					item: "aquamirae:music_disc_horizon"
+					type: "item"
+				}
+				{
+					id: "285F8D30401C33C6"
+					item: "aquamirae:music_disc_forsaken_drownage"
+					type: "item"
+				}
+				{
+					id: "42C5D58CC50F19BC"
+					item: "eidolon:music_disc_parousia"
+					type: "item"
+				}
+				{
+					id: "68868581EF906251"
+					item: "aether:music_disc_aether_tune"
+					type: "item"
+				}
+				{
+					id: "592834126357D13C"
+					item: "aether:music_disc_ascending_dawn"
+					type: "item"
+				}
+				{
+					id: "3725852C06D94E44"
+					item: "aether_redux:slider_music_disc"
+					type: "item"
+				}
+				{
+					id: "344F25911F320046"
+					item: "deep_aether:music_disc_a_morning_wish"
+					type: "item"
+				}
+				{
+					id: "5D344E7E8A9273EB"
+					item: "deep_aether:music_disc_nabooru"
+					type: "item"
+				}
+				{
+					id: "4B1C9758104B4F3A"
+					item: "lost_aether_content:music_disc_legacy"
+					type: "item"
+				}
+				{
+					id: "102D0B6C37932646"
+					item: "lost_aether_content:music_disc_sovereign_of_the_skies"
+					type: "item"
+				}
+				{
+					id: "70B1519A82A24C89"
+					item: "create_connected:music_disc_elevator"
+					type: "item"
+				}
+				{
+					id: "3832C9FD551FFDA4"
+					item: "create_connected:music_disc_interlude"
+					type: "item"
+				}
+			]
+			title: "Music Lover - Modded"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			description: ["Tames with seeds. A snowy songbird. "]
+			id: "7E223824125871A6"
+			rewards: [{
+				count: 5
+				id: "5055FF7F74B914DA"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			subtitle: "Tweet tweet"
+			tasks: [{
+				icon: "crittersandcompanions:shima_enaga_spawn_egg"
+				id: "7F0EBB489DB04DA8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "cnb:shima_enaga"
+				type: "observation"
+			}]
+			title: "Meet the Shima Enaga"
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			description: ["Tames with dragonfly wings. Drops spider silk, which crafts a special lead and grappling hook. Can also get the silk from cocoons found in world. "]
+			id: "07A746772D2FE875"
+			rewards: [{
+				count: 5
+				id: "3F91C20C6CAB059E"
+				item: "crittersandcompanions:dragonfly_wing"
+				type: "item"
+			}]
+			subtitle: "Hi, My name is Lucas. "
+			tasks: [{
+				icon: "crittersandcompanions:silk_cocoon"
+				id: "3B0583ABFF5A6261"
+				observe_type: 5
+				timer: 0L
+				to_observe: "cnb:jumping_spider"
+				type: "observation"
+			}]
+			title: "Meet the jumping spider!"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"Otters! Otters spawn in rivers and will open clams that you give them for the occasional chance at pearls. Use these to craft a pearl necklace. Stronger versions of pearl necklaces increase swim speed, lessen drowned detection and at third tier, lessens guardian detection. "
+				""
+				"Sea bunny! Sea bunnies can have bottles used on them."
+				"It gives bottles of slime. Those can make blocks. Bucketable."
+				""
+				"Dumbo Octopus! Bucketable. Gives drowning players a bubble helmet if nearby. "
+				""
+				"Leaf insect! Dances to music. Join the parrots. "
+				""
+				"Koi fish! Bucketable. Groups give the player luck. "
+			]
+			id: "598D07A8C3ED765A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A6458979F8FE84D"
+				table_id: 7049021818423122779L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "2A8566938ACB7B7B"
+				title: "Fun friends from Critters and Companions"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+	]
+	title: "Zephyr's Adds"
+}

@@ -1,3 +1,43 @@
+# **Config and Script Changes**
+
+- Redid keybinds
+- Disabled Delightful Animal Fat
+- Fixed broken Tombstone quest in Beginnings
+- In Miscellaneous, replaced Mailboxes, Typewriters, and Hammocks from tag items to Smart Filters.
+- In Wildlife, made Giant Skeleton and Zombie Brute quests repeatable.
+- Added resource_packs.js which should reload default ResourcePackOverrides on launch.
+- Prettified KubeJS Scripts and also split a bunch up into smaller files. Also combined the 2 random Quest-related scripts together.
+- Replaced Excessive Building's Acorns with Delightful.
+- Fixed an issue where Galosphere silver wasn't dropping Eidolon silver properly (now uses LootJS instead of datapack).
+- Added more stuff to Farming for Blockheads
+- Added in Moxa's tea liquid color script.
+- Removed Loot Capsules cuz I don't like em
+- Updated Eccentric Tome in quest
+- Removed many broken quests
+- Replaced many tag quests with smart filters
+- Made collections linear
+- banned end endermen from spawning
+- adjusted mc mobs to stop spawning once 60 are in the world
+- SoL onion now only works in survival
+- Sacks now hold 16 items and you can carry 4 of them
+- redid all my JEI hide scripts
+- fixed bakery recipe datapack stuff
+- redid all Farming For Blockheads items by separating them by mod and type
+- re-implemented Forbidden Arcanus datapacks
+- re-implemented reliquary datapacks
+- removed eel bait
+- fixed galosphere silver ore not dropping eidolon silver
+- banned a bunch of stuff from all chest loot tables
+- started removing some junk from various chest loot tables
+- deleted some invalid bits from recipe_removal.js
+- reorganized all tags
+- fixed a typo in block_modification.js
+- Started fixing some loot tables
+- Disabled the Cracked Crown from Nameless Trinkets
+- Redid Resource Pack Overrides
+- Added some log spam messages to LogBegone
+- Added (but haven't implemented) Zeph's quests
+
 # **New Mods**
 ## Advanced Backups
 [CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/advanced-backups)

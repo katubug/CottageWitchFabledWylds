@@ -2044,16 +2044,6 @@
 					type: "item"
 				}
 				{
-					id: "24CB944130ACD5DF"
-					item: "aether_redux:enchanted_blueberry_pie"
-					type: "item"
-				}
-				{
-					id: "0A51800A7A15066B"
-					item: "aether_redux:blueberry_pie"
-					type: "item"
-				}
-				{
 					id: "373E8141980FCE0A"
 					item: "bakery:chocolate_tart"
 					type: "item"

@@ -85,18 +85,6 @@
 						id: "eccentrictome:tome"
 						tag: {
 							"eccentrictome:mods": {
-								aether: {
-									0: {
-										Count: 1b
-										id: "aether:book_of_lore"
-									}
-								}
-								eidolon: {
-									0: {
-										Count: 1b
-										id: "eidolon:codex"
-									}
-								}
 								ftbquests: {
 									0: {
 										Count: 1b
@@ -192,34 +180,65 @@
 			description: [
 				"Let's face it, sometimes you want to live somewhere cute right away. And in survival, you rarely have the resources to do so."
 				""
-				"So, if you'd like a &aprefabricated starter house&r, then &6tick off this quest&r and &6redeem the reward&r. If not, you can safely ignore this! Both methods are perfectly valid. :)"
+				"So, if you'd like a &aprefabricated starter house&r, then &6tick off this quest&r and &6redeem the reward&r. If not, you can safely ignore this! Both methods are perfectly valid. :) You will be given a choice of several user-submitted houses, please &dsee the next pages to preview them&r!"
 				""
-				"This house will require a &aflat piece of land 20x24 blocks&r in dimension. To place it, &6right click the capsule&r to activate it. Then, &6right click on the center of the desired area&r to place it. It is &done-time-use only&r, so make sure you're ready to commit!"
+				"This house will require a &aflat piece of land&r, please check your chosen &bCapsule&r to view the required dimensions. To place it, &6right click the capsule&r to activate it. Then, &6right click on the center of the desired area&r to place it. It is &done-time-use only&r, so make sure you're ready to commit!"
 				""
 				"The house will be &afacing north&r and cannot be rotated, so keep this in mind also."
+				""
+				"Now, click to the following pages to preview the house options!"
+				"{@pagebreak}"
+				"Mud Pueblo by Escapee"
+				"{image:enchanted_wilds:textures/questimages/starter_houses/escapee_starter_house.png width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"Thaumic Cabin by Howester"
+				"{image:enchanted_wilds:textures/questimages/starter_houses/howester_starter_house.png width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"Strawberry House by Juwia"
+				"{image:enchanted_wilds:textures/questimages/starter_houses/juwia_starter_house_1.png width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"Teal Sloped House by Juwia"
+				"{image:enchanted_wilds:textures/questimages/starter_houses/juwia_starter_house_2.png width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"Arcane Tower by Juwia"
+				"{image:enchanted_wilds:textures/questimages/starter_houses/juwia_starter_house_3.png width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"Leaning Lavender by Juwia"
+				"{image:enchanted_wilds:textures/questimages/starter_houses/juwia_starter_house_4.png width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"Overgrown Taven by Moxxy"
+				"{image:enchanted_wilds:textures/questimages/starter_houses/moxxy_starter_house.png width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"Charming Cottage by Pixzi"
+				"{image:enchanted_wilds:textures/questimages/starter_houses/pixzi_starter_house_1.png width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"Magnificent Mushroom by Pixzi"
+				"{image:enchanted_wilds:textures/questimages/starter_houses/pixzi_starter_house_2.png width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"Wattle and Daub by Pixzi"
+				"{image:enchanted_wilds:textures/questimages/starter_houses/pixzi_starter_house_3.png width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"Swamp Witch by Pixzi"
+				"{image:enchanted_wilds:textures/questimages/starter_houses/pixzi_starter_house_4.png width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"Tiny Teapot by Ruby"
+				"{image:enchanted_wilds:textures/questimages/starter_houses/rubystarfall_starter_house_1.png width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"Mini Nomad by Ruby"
+				"{image:enchanted_wilds:textures/questimages/starter_houses/rubystarfall_starter_house_2.png width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"Mossy Hobbit Hole by Ava"
+				"{image:enchanted_wilds:textures/questimages/starter_houses/the_vava_starter_house.png width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"Double Mushroom by ZephyrWindSpirit"
+				"{image:enchanted_wilds:textures/questimages/starter_houses/zephyrwindspirit_starter_house.png width:100 height:100 align:center fit:true}"
 			]
 			id: "21AD64E594528F4D"
 			rewards: [{
-				id: "524E7A99FC31E368"
-				item: {
-					Count: 1
-					id: "capsule:capsule"
-					tag: {
-						author: "Emmulah"
-						canRotate: 0b
-						color: 4869306
-						display: {
-							color: 6196919
-						}
-						isReward: 1b
-						label: "witchyhouse"
-						oneUse: 1b
-						size: 23
-						state: 5
-						structureName: "minecraft:config/capsule/rewards/witchyhouse"
-					}
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "7E5ECE6EEDD64DF2"
+				table_id: 3140128566494036782L
+				type: "choice"
 			}]
 			subtitle: "Cute house starter pack"
 			tasks: [{

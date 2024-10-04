@@ -74,16 +74,6 @@ ItemEvents.modification(event => {
 			attribute.name, attribute.amount + boost,
 			attribute.operation)
 	});
-	event.modify('aquamirae:coral_lance', item => {
-		let boost = -2
-		let attribute = item.getAttributes(
-			"generic.attack_damage").get(0)
-		item.removeAttribute("generic.attack_damage", attribute
-			.id)
-		item.addAttribute("generic.attack_damage", attribute.id,
-			attribute.name, attribute.amount + boost,
-			attribute.operation)
-	});
 	event.modify('unusualprehistory:warpick', item => {
 		let boost = -1
 		let attribute = item.getAttributes(
@@ -114,46 +104,7 @@ ItemEvents.modification(event => {
 			attribute.name, attribute.amount + boost,
 			attribute.operation)
 	});
-	event.modify('lost_aether_content:phoenix_sword', item => {
-		let boost = -1
-		let attribute = item.getAttributes(
-			"generic.attack_damage").get(0)
-		item.removeAttribute("generic.attack_damage", attribute
-			.id)
-		item.addAttribute("generic.attack_damage", attribute.id,
-			attribute.name, attribute.amount + boost,
-			attribute.operation)
-	});
-	event.modify('lost_aether_content:phoenix_axe', item => {
-		let boost = -1
-		let attribute = item.getAttributes(
-			"generic.attack_damage").get(0)
-		item.removeAttribute("generic.attack_damage", attribute
-			.id)
-		item.addAttribute("generic.attack_damage", attribute.id,
-			attribute.name, attribute.amount + boost,
-			attribute.operation)
-	});
-	event.modify('deep_aether:stratus_sword', item => {
-		let boost = -1
-		let attribute = item.getAttributes(
-			"generic.attack_damage").get(0)
-		item.removeAttribute("generic.attack_damage", attribute
-			.id)
-		item.addAttribute("generic.attack_damage", attribute.id,
-			attribute.name, attribute.amount + boost,
-			attribute.operation)
-	});
-	event.modify('deep_aether:stratus_axe', item => {
-		let boost = -1
-		let attribute = item.getAttributes(
-			"generic.attack_damage").get(0)
-		item.removeAttribute("generic.attack_damage", attribute
-			.id)
-		item.addAttribute("generic.attack_damage", attribute.id,
-			attribute.name, attribute.amount + boost,
-			attribute.operation)
-	});
+	
 	event.modify('experienceobelisk:cognitive_axe', item => {
 		let boost = -1
 		let attribute = item.getAttributes(
@@ -164,43 +115,7 @@ ItemEvents.modification(event => {
 			attribute.name, attribute.amount + boost,
 			attribute.operation)
 	});
-	event.modify('deep_aether:skyjade_sword', item => {
-		let boost = -1
-		let attribute = item.getAttributes(
-			"generic.attack_damage").get(0)
-		item.removeAttribute("generic.attack_damage", attribute
-			.id)
-		item.addAttribute("generic.attack_damage", attribute.id,
-			attribute.name, attribute.amount + boost,
-			attribute.operation)
-	});
-	event.modify('eidolon:deathbringer_scythe', item => {
-		let boost = -1
-		let attribute = item.getAttributes(
-			"generic.attack_damage").get(0)
-		item.removeAttribute("generic.attack_damage", attribute
-			.id)
-		item.addAttribute("generic.attack_damage", attribute.id,
-			attribute.name, attribute.amount + boost,
-			attribute.operation)
-	});
-	// Gravitite Armor
-	event.modify('aether:gravitite_helmet', item => {
-		item.armorProtection = 2
-		item.armorToughness = 2
-	});
-	event.modify('aether:gravitite_chestplate', item => {
-		item.armorProtection = 7
-		item.armorToughness = 2
-	});
-	event.modify('aether:gravitite_leggings', item => {
-		item.armorProtection = 5
-		item.armorToughness = 2
-	});
-	event.modify('aether:gravitite_boots', item => {
-		item.armorProtection = 2
-		item.armorToughness = 2
-	});
+
 	//Draco Arcanus Armor
 	event.modify('forbidden_arcanus:draco_arcanus_helmet', item => {
 		item.armorProtection = 4

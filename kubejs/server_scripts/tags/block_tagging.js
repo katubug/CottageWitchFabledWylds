@@ -38,6 +38,5 @@ ServerEvents.tags('block', event => {
 		event.add('candlelight:allows_cooking', block);
 		event.add('bakery:allows_cooking', block);
 		event.add('herbalbrews:allows_cooking', block);
-		event.add('eidolon:crucible_hot_blocks', block);
 	}
 })

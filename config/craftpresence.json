@@ -133,7 +133,8 @@
     "dynamicIcons": {
       "HeyKatu": "https://mc-heads.net/avatar/e5e2b89d388441908b6997863eb95bc6",
       "fabledwilds.g.akliz.net": "https://api.mcsrvstat.us/icon/fabledwilds.g.akliz.net",
-      "default": "https://via.placeholder.com/256.png"
+      "default": "https://via.placeholder.com/256.png",
+      "174.103.174.71": "https://api.mcsrvstat.us/icon/174.103.174.71"
     },
     "dynamicVariables": {
       "default": "Example Text",

@@ -1,7 +1,7 @@
 {
 	id: "0E5322C3053EB983"
 	loot_size: 4
-	order_index: 15
+	order_index: 14
 	rewards: [
 		{ item: "create:electron_tube" }
 		{ count: 3, item: "create:brass_ingot", weight: 5.0f }

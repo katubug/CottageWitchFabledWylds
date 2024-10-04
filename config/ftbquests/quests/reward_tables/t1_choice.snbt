@@ -1,7 +1,7 @@
 {
 	id: "1CB56D532B985F2C"
 	loot_size: 1
-	order_index: 9
+	order_index: 8
 	rewards: [
 		{ count: 2, item: "minecraft:experience_bottle" }
 		{ count: 3, item: "minecraft:gunpowder" }

@@ -59,7 +59,6 @@ LootJS.modifiers((event) => {
         'farm_and_charm:wild_tomatoes',
         'forbidden_arcanus:bat_wing',
         'forbidden_arcanus:quantum_catcher',
-        'galosphere:spectre_flare',
         'nameless_trinkets:electric_paddle',
         'nameless_trinkets:explosion_proof_jacket',
         'nameless_trinkets:four_leaf_clover',

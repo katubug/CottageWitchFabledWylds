@@ -85,14 +85,8 @@ ServerEvents.tags('item', event => {
 
 	//Ambers for Aether and Stuff
 	event.add('forge:amber',
-		'aether:golden_amber',
 		'unusualprehistory:amber_shard',
 		'moresnifferflowers:amber_shard'
-	)
-
-	//Blueberries
-	event.add('forge:fruits/blueberry',
-		'aether:blue_berry'
 	)
 
 	//Salmonberries

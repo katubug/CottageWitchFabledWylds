@@ -21,9 +21,6 @@
 		{ item: "minecraft:music_disc_pigstep" }
 		{ item: "supplementaries:pancake" }
 		{ item: "minecraft:music_disc_relic" }
-		{ item: "aether:music_disc_aether_tune" }
-		{ item: "aether:music_disc_ascending_dawn" }
-		{ item: "eidolon:music_disc_parousia" }
 		{ item: "species:music_disc_dial" }
 		{ item: "unusualprehistory:zulogae_disc" }
 		{ item: "spawn:music_disc_rot" }

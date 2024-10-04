@@ -1,7 +1,7 @@
 {
 	id: "4972AA871F691F6C"
 	loot_size: 1
-	order_index: 41
+	order_index: 34
 	rewards: [
 		{ item: "minecraft:netherite_upgrade_smithing_template" }
 		{ item: "minecraft:sentry_armor_trim_smithing_template" }
@@ -21,13 +21,6 @@
 		{ item: "minecraft:eye_armor_trim_smithing_template" }
 		{ item: "minecraft:spire_armor_trim_smithing_template" }
 		{ item: "forbidden_arcanus:darkstone_upgrade_smithing_template" }
-		{ item: "lost_aether_content:noble_armor_trim_smithing_template" }
-		{ item: "galosphere:silver_upgrade_smithing_template" }
-		{ item: "galosphere:preserved_template" }
-		{ item: "deep_aether:stratus_smithing_template" }
-		{ item: "aether_treasure_reforging:neptune_upgrade_smithing_template" }
-		{ item: "aether_treasure_reforging:valkyrie_upgrade_smithing_template" }
-		{ item: "aether_treasure_reforging:phoenix_upgrade_smithing_template" }
 	]
 	title: "Armor Trims"
 }

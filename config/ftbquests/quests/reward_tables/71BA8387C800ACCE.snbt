@@ -1,7 +1,7 @@
 {
 	id: "71BA8387C800ACCE"
 	loot_size: 1
-	order_index: 47
+	order_index: 39
 	rewards: [
 		{ item: "numismatics:cyan_card" }
 		{ item: "numismatics:purple_card" }

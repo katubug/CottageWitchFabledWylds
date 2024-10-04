@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 	// Filled Eccentric tome
-	let tome = Item.of('eccentrictome:tome', '{"eccentrictome:mods":{aether:{0:{Count:1b,id:"aether:book_of_lore"}},eidolon:{0:{Count:1b,id:"eidolon:codex"}},ftbquests:{0:{Count:1b,id:"ftbquests:book"}},hexerei:{0:{Count:1b,id:"hexerei:book_of_shadows",tag:{bookmarks:{},chapter:0,opened:0b,page:0}}},malum:{0:{Count:1b,id:"malum:encyclopedia_arcana"}},solonion:{0:{Count:1b,id:"solonion:food_book"}},unusualprehistory:{0:{Count:1b,id:"unusualprehistory:encyclopedia"}}},"eccentrictome:version":1}')
+	let tome = Item.of('eccentrictome:tome', '{"eccentrictome:mods":{ftbquests:{0:{Count:1b,id:"ftbquests:book"}},hexerei:{0:{Count:1b,id:"hexerei:book_of_shadows",tag:{bookmarks:{},chapter:0,opened:0b,page:0}}},malum:{0:{Count:1b,id:"malum:encyclopedia_arcana"}},solonion:{0:{Count:1b,id:"solonion:food_book"}},unusualprehistory:{0:{Count:1b,id:"unusualprehistory:encyclopedia"}}},"eccentrictome:version":1}')
 	event.shapeless(
 		Item.of(tome),
 		[
@@ -79,27 +79,12 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	//Preserved Flesh Craftable
-	event.shaped(
-		Item.of('galosphere:preserved_flesh'),
-		[
-			'ABA',
-			'CDC',
-			'ABA'
-		], {
-			A: 'galosphere:pink_salt_shard',
-			B: 'galosphere:cured_membrane',
-			C: 'galosphere:salted_jerky',
-			D: 'eidolon:zombie_heart',
-		}
-	)
-
 	//Calcite to Marble
 	event.shapeless(
 		Item.of('tombstone:white_marble', 8),
 		[
 			'8x minecraft:calcite',
-			'eidolon:enchanted_ash'
+			'supplementaries:ash'
 		]
 	)
 
@@ -317,20 +302,6 @@ for (const color of dyeColor) {
 		], {
 			A: '#quark:corundum',
 			B: 'forbidden_arcanus:arcane_crystal_dust'
-		}
-	)
-
-	//Fix Altar Recipe Overlap
-
-	event.shaped(
-		Item.of('eidolon:wooden_altar', 3),
-		[
-			'AAA',
-			'B B',
-			'B B'
-		], {
-			A: 'minecraft:spruce_slab',
-			B: 'minecraft:spruce_fence'
 		}
 	)
 })

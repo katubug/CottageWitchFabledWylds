@@ -29,8 +29,6 @@
 	enable_enchantment_blessing = false
 	#Enables the enchantment Frostbite [false/true|default:true]
 	enable_enchantment_frostbite = true
-	#Allows Soulbound at enchanting table [false/true|default:false]
-	soulbound_enchanting_table = true
 	#Allows Spectral Bite at enchanting table [false/true|default:false]
 	spectral_bite_enchanting_table = false
 	#Allows Magic Siphon at enchanting table [false/true|default:false]
@@ -153,6 +151,8 @@
 	allow_guardian_stone = true
 	#Tablet of Guard [false/true|default:true]
 	allow_tablet_of_guard = true
+	#Book of Soulbound [false/true|default:true]
+	allow_book_of_soulbound = true
 
 #Allows to enable some features related to others mods
 [compatibility]

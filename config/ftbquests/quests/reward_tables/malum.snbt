@@ -1,7 +1,7 @@
 {
 	id: "540708A98EFA8512"
 	loot_size: 3
-	order_index: 36
+	order_index: 33
 	rewards: [
 		{ count: 8, item: "malum:raw_soulstone" }
 		{ count: 5, item: "malum:hex_ash" }

@@ -7,25 +7,15 @@
 	group: "181D7A6A92948264"
 	icon: "luphieclutteredmod:luphie_small_cauldron_set"
 	id: "0B597438B33910F1"
-	images: [
-		{
-			height: 10.0d
-			image: "enchanted_wilds:textures/questui/bgbrewing.png"
-			rotation: 0.0d
-			width: 10.0d
-			x: 0.0d
-			y: 4.5d
-		}
-		{
-			height: 13.0d
-			image: "enchanted_wilds:textures/questui/bgenchanting.png"
-			rotation: 0.0d
-			width: 13.0d
-			x: 0.0d
-			y: -6.0d
-		}
-	]
-	order_index: 5
+	images: [{
+		height: 15.0d
+		image: "enchanted_wilds:textures/questui/bgbrewingenchanting.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -6.0d
+	}]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -388,8 +378,8 @@
 				type: "item"
 			}]
 			title: "Beginner Brewing"
-			x: -1.0d
-			y: 3.5d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6E1B07BEB8F423BC"]
@@ -411,38 +401,14 @@
 				type: "item"
 			}]
 			title: "Brewing Unique Potions"
-			x: -2.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["54F9B41F96399DE6"]
-			description: [
-				"The &bSoul Enchanter&r is a device by which you can &achoose and upgrade Enchantments&r for your gear. This process costs &aexperience and &bSoul Shards&r."
-				""
-				"For more information on how to obtain and use this item, &6check the &lEidolon&r&6 quest page&r."
-			]
-			id: "478502E4C912BF6E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1B17F1DEA02B6203"
-				table_id: 5705869042914710822L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "4CD3F18813B12891"
-				item: "eidolon:soul_enchanter"
-				type: "item"
-			}]
-			title: "Choosing and Improving Your Enchantments"
-			x: 0.0d
-			y: -6.0d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			description: [
 				"As you might know, the &bEnchanting Table&r is a device which is used to &aimbue your gear with magic&r, and requires the power of &bKnowledge&r, both in &bBookshelf&r and &bExperience&r form."
 				""
-				"Unlike in vanilla, however, this &bEnchanting Table&r has a chance to &aapply Curses&r to your gear in addition to beneficial enchantments. In order to navigate this new challenge, it's encouraged to check out options such as &6disenchantment&r, or the &bSoul Enchanter&r from Eidolon."
+				"Unlike in vanilla, however, this &bEnchanting Table&r has a chance to &aapply Curses&r to your gear in addition to beneficial enchantments. In order to navigate this new challenge, it's encouraged to check out options such as &6disenchantment&r."
 				""
 				"&bDisenchantment&r can be pursued either through &lCognition's&r &bPrecision Dispeller&r, or &lTombstone's&r &bBook of Disenchantment&r."
 			]
@@ -477,7 +443,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -5.5d
 		}
 	]
 	title: "Brewing \\& Enchanting"

@@ -4,15 +4,12 @@ ServerEvents.tags('item', event => {
 		'nethersdelight:golden_machete',
 		'farmersdelight:golden_knife',
 		'nethersdelight:golden_machete',
-		'aquaculture:gold_fishing_rod',
-		'forbidden_arcanus:golden_blacksmith_gavel',
-		'aether:golden_gloves'
+		'forbidden_arcanus:golden_blacksmith_gavel'
 	)
 
 	//Magical Knives work with FD
 	event.add('farmersdelight:tools/knives',
-		'forbidden_arcanus:mystical_dagger',
-		'eidolon:athame'
+		'forbidden_arcanus:mystical_dagger'
 	)
 
 	//Plushies get a tag for Bountiful and FTB Filter System Quest
@@ -185,7 +182,6 @@ ServerEvents.tags('item', event => {
 		'regions_unexplored:tall_blue_bioshroom',
 		'regions_unexplored:tall_green_bioshroom',
 		'regions_unexplored:tall_pink_bioshroom',
-		'galosphere:lumiere_shard',
 		'minecraft:gold_ingot',
 		'minecraft:emerald',
 		'minecraft:diamond',
@@ -198,14 +194,8 @@ ServerEvents.tags('item', event => {
 		'waystones:warp_dust',
 		'create:rose_quartz',
 		'create:polished_rose_quartz',
-		'eidolon:arcane_gold_ingot',
 		'forbidden_arcanus:arcane_crystal_dust',
 		'forbidden_arcanus:arcane_crystal_dust_speck',
-		'aether:enchanted_berry',
-		'galosphere:glinted_amethyst_cluster',
-		'galosphere:allurite_cluster',
-		'galosphere:glinted_allurite_cluster',
-		'galosphere:allurite_shard',
 		'minecraft:ender_pearl',
 		'minecraft:amethyst_shard',
 		'regions_unexplored:tall_yellow_bioshroom'
@@ -221,7 +211,6 @@ ServerEvents.tags('item', event => {
 		'regions_unexplored:tall_blue_bioshroom',
 		'regions_unexplored:tall_green_bioshroom',
 		'regions_unexplored:tall_pink_bioshroom',
-		'galosphere:lumiere_shard',
 		'minecraft:gold_ingot',
 		'minecraft:emerald',
 		'minecraft:diamond',
@@ -234,14 +223,8 @@ ServerEvents.tags('item', event => {
 		'waystones:warp_dust',
 		'create:rose_quartz',
 		'create:polished_rose_quartz',
-		'eidolon:arcane_gold_ingot',
 		'forbidden_arcanus:arcane_crystal_dust',
 		'forbidden_arcanus:arcane_crystal_dust_speck',
-		'aether:enchanted_berry',
-		'galosphere:glinted_amethyst_cluster',
-		'galosphere:allurite_cluster',
-		'galosphere:glinted_allurite_cluster',
-		'galosphere:allurite_shard',
 		'minecraft:ender_pearl',
 		'minecraft:amethyst_shard',
 		'regions_unexplored:tall_yellow_bioshroom'
@@ -255,15 +238,9 @@ ServerEvents.tags('item', event => {
 		'the_bumblezone:music_disc_la_bee_da_loca',
 		'the_bumblezone:music_disc_honey_bee_rat_faced_boy',
 		'the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov',
-		'aether_redux:slider_music_disc',
 		'spawn:music_disc_rot',
-		'eidolon:music_disc_parousia',
 		'create_connected:music_disc_interlude',
 		'create_connected:music_disc_elevator',
-		'deep_aether:music_disc_nabooru',
-		'deep_aether:music_disc_a_morning_wish',
-		'aquamirae:music_disc_forsaken_drownage',
-		'aquamirae:music_disc_horizon',
 		'quark:music_disc_endermosh',
 		'the_bumblezone:music_disc_a_last_first_last',
 		'the_bumblezone:music_disc_life_renren',

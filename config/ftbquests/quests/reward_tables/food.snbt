@@ -1,7 +1,7 @@
 {
 	id: "705B95C0FA754FCA"
 	loot_size: 4
-	order_index: 21
+	order_index: 20
 	rewards: [
 		{ item: "farmersdelight:pie_crust" }
 		{ count: 5, item: "minecraft:sweet_berries" }

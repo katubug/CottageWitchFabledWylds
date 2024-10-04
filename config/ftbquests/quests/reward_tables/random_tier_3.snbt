@@ -1,7 +1,7 @@
 {
 	id: "479FE27747EEEB1F"
 	loot_size: 3
-	order_index: 6
+	order_index: 5
 	rewards: [
 		{ item: "minecraft:nether_star", only_one: true, weight: 5.0f }
 		{ count: 5, item: "minecraft:dragon_breath", weight: 10.0f }

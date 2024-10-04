@@ -19,17 +19,4 @@ mailQueueSize = 18
 # cause issues for your server/world save.
 # Valid values: true, false
 banSendingItemsWithInventories = true
-# A list of dimensions you are allowed to place mailboxes. An empty list means that
-# mailboxes can be placed in any dimension.
-# An example of how the list is defined:
-# allowedDimensions = [
-#     "minecraft:overworld",
-#     "minecraft:the_nether",
-#     ...
-# ]
-# ^ Note: This is just an example. Write your list below.
-allowedDimensions = []
-# The maximum amount of mailboxes a player is allowed to register/own.
-# Valid range: 1 to 2147483647 (inclusive)
-maxMailboxesPerPlayer = 16
 

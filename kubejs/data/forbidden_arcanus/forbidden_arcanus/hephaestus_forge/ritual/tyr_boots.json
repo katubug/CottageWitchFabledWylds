@@ -33,7 +33,7 @@
       {
         "amount": 2,
         "ingredient": {
-          "item": "eidolon:soul_shard"
+          "item": "minecraft:dirt"
         }
       }
     ],

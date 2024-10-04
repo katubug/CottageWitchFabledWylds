@@ -107,11 +107,6 @@
 					item: "regions_unexplored:red_snowbelle"
 					type: "item"
 				}
-				{
-					id: "6484205D05B1B0FD"
-					item: "deep_aether:sky_tulips"
-					type: "item"
-				}
 			]
 			title: "Flower Picking: Red"
 			x: -3.0d
@@ -171,16 +166,6 @@
 				{
 					id: "32BBD7CA6C249C5D"
 					item: "meadow:fire_lily"
-					type: "item"
-				}
-				{
-					id: "16827B02202AE0C8"
-					item: "aether_redux:aurum"
-					type: "item"
-				}
-				{
-					id: "64B3B39CB4B9EBC2"
-					item: "deep_aether:golden_aspess"
 					type: "item"
 				}
 			]
@@ -345,16 +330,6 @@
 					item: "spawn:sunflower"
 					type: "item"
 				}
-				{
-					id: "7FD7250038AFE96F"
-					item: "deep_aether:enchanted_blossom"
-					type: "item"
-				}
-				{
-					id: "25854DCD30FD7877"
-					item: "deep_aether:golden_flower"
-					type: "item"
-				}
 			]
 			title: "Flower Picking: Yellow"
 			x: -2.0d
@@ -477,21 +452,6 @@
 					item: "regions_unexplored:cobalt_earlight"
 					type: "item"
 				}
-				{
-					id: "7AE79300FEEEE611"
-					item: "aether_redux:daggerbloom"
-					type: "item"
-				}
-				{
-					id: "5F282B62CAD30B80"
-					item: "aether_redux:lumina"
-					type: "item"
-				}
-				{
-					id: "133408009CCA2E46"
-					item: "deep_aether:iaspove"
-					type: "item"
-				}
 			]
 			title: "Flower Picking: Blue"
 			x: -1.0d
@@ -546,11 +506,6 @@
 					type: "item"
 				}
 				{
-					id: "2C0177E62B445B62"
-					item: "aether:purple_flower"
-					type: "item"
-				}
-				{
 					id: "2DEA6874F2309A9C"
 					item: "verdantvibes:periwinkle"
 					type: "item"
@@ -583,21 +538,6 @@
 				{
 					id: "3AB870AB35FBD003"
 					item: "regions_unexplored:glister_bulb"
-					type: "item"
-				}
-				{
-					id: "248E67E0EC3FCB42"
-					item: "aether_redux:blightshade"
-					type: "item"
-				}
-				{
-					id: "276C0C1666CAD0C1"
-					item: "deep_aether:echaisy"
-					type: "item"
-				}
-				{
-					id: "30A7975CFC17BA0E"
-					item: "deep_aether:radiant_orchid"
 					type: "item"
 				}
 			]
@@ -649,11 +589,6 @@
 					type: "item"
 				}
 				{
-					id: "79D97720FE6DDE1D"
-					item: "eidolon:oanna_bloom"
-					type: "item"
-				}
-				{
 					id: "1265D8047393187D"
 					item: "regions_unexplored:corpse_flower"
 					type: "item"
@@ -690,21 +625,6 @@
 				{
 					id: "4EB9C0CECEAFCEDD"
 					item: "minecraft:peony"
-					type: "item"
-				}
-				{
-					id: "5BE0A9E866995ED4"
-					item: "deep_aether:tall_aerlavender"
-					type: "item"
-				}
-				{
-					id: "192B945229C17DE9"
-					item: "deep_aether:aerlavender"
-					type: "item"
-				}
-				{
-					id: "57899B57853C1B04"
-					item: "aether_redux:iridia"
 					type: "item"
 				}
 			]
@@ -768,11 +688,6 @@
 				{
 					id: "1E2FAF204994050B"
 					item: "regions_unexplored:light_gray_snowbelle"
-					type: "item"
-				}
-				{
-					id: "622F385F1DF9605E"
-					item: "aether:white_flower"
 					type: "item"
 				}
 				{
@@ -918,16 +833,6 @@
 				{
 					id: "4DBCD65800C2F11B"
 					item: "gardens_of_the_dead:soulblight_fungus"
-					type: "item"
-				}
-				{
-					id: "73A0748C55A74491"
-					item: "deep_aether:lightcap_mushrooms"
-					type: "item"
-				}
-				{
-					id: "17AA08DC7CBF21D4"
-					item: "aether_redux:cloudcap_mushling"
 					type: "item"
 				}
 			]
@@ -1122,7 +1027,7 @@
 				id: "1FA9C71585BE62EF"
 				type: "advancement"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -1214,7 +1119,7 @@
 				id: "4BF8DEAE7CD5ADB6"
 				type: "advancement"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 1.5d
 		}
 		{
@@ -1249,21 +1154,6 @@
 				{
 					id: "50C4BBE7A037617A"
 					item: "supplementaries:candy"
-					type: "item"
-				}
-				{
-					id: "00BC773E6BC35CF5"
-					item: "eidolon:red_candy"
-					type: "item"
-				}
-				{
-					id: "3CF9008AEA3F6B50"
-					item: "eidolon:grape_candy"
-					type: "item"
-				}
-				{
-					id: "59F88F4BF5FBA33A"
-					item: "aether:candy_cane"
 					type: "item"
 				}
 				{
@@ -1473,17 +1363,6 @@
 					type: "item"
 				}
 				{
-					id: "1D4EEE6C53629857"
-					item: {
-						Count: 1
-						id: "eidolon:top_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "32C727D2D399D60B"
 					item: {
 						Count: 1
@@ -1562,6 +1441,156 @@
 			title: "Handsome Haberdashery"
 			x: 2.5d
 			y: -1.5d
+		}
+		{
+			description: ["Collect all the modded music discs. "]
+			id: "0DC28A267878E6E1"
+			rewards: [
+				{
+					id: "73556AE457A60D3C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "620EFA2C0BB17916"
+					table_id: 1739670786502713488L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5901CB2EC9189419"
+					table_id: 1739670786502713488L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Play that funky music"
+			tasks: [
+				{
+					id: "44A9DA6FC08868F9"
+					item: "quark:music_disc_endermosh"
+					type: "item"
+				}
+				{
+					id: "7AFB79C86043C75D"
+					item: "quark:music_disc_chatter"
+					type: "item"
+				}
+				{
+					id: "00CD3FD26D800768"
+					item: "quark:music_disc_crickets"
+					type: "item"
+				}
+				{
+					id: "7C6467F3DFC30F15"
+					item: "quark:music_disc_clock"
+					type: "item"
+				}
+				{
+					id: "1FD3A364E7D3CC06"
+					item: "quark:music_disc_fire"
+					type: "item"
+				}
+				{
+					id: "64C53EFDB88B0D16"
+					item: "quark:music_disc_wind"
+					type: "item"
+				}
+				{
+					id: "19F9D0B48C8F027C"
+					item: "quark:music_disc_rain"
+					type: "item"
+				}
+				{
+					id: "59802081AD965FF6"
+					item: "quark:music_disc_ocean"
+					type: "item"
+				}
+				{
+					id: "3AF596835CA72256"
+					item: "quark:music_disc_drips"
+					type: "item"
+				}
+				{
+					id: "67A220EF7CDC3823"
+					item: "spawn:music_disc_rot"
+					type: "item"
+				}
+				{
+					id: "42780A0AAEA9DD54"
+					item: "species:music_disc_dial"
+					type: "item"
+				}
+				{
+					id: "7DCD1C4C15C15C36"
+					item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+					type: "item"
+				}
+				{
+					id: "3271F2F5E8D19DDB"
+					item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+					type: "item"
+				}
+				{
+					id: "59411B51FAA5E320"
+					item: "the_bumblezone:music_disc_la_bee_da_loca"
+					type: "item"
+				}
+				{
+					id: "5B811222265AAFBF"
+					item: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
+					type: "item"
+				}
+				{
+					id: "7F771D68E5677120"
+					item: "the_bumblezone:music_disc_bee_ware_of_the_temple"
+					type: "item"
+				}
+				{
+					id: "7D212E2C9EEADA6A"
+					item: "the_bumblezone:music_disc_knowing_renren"
+					type: "item"
+				}
+				{
+					id: "1EA2A9F9474A58E5"
+					item: "the_bumblezone:music_disc_radiance_renren"
+					type: "item"
+				}
+				{
+					id: "3E5E87A55052E1B4"
+					item: "the_bumblezone:music_disc_life_renren"
+					type: "item"
+				}
+				{
+					id: "0EB802157CB56777"
+					item: "the_bumblezone:music_disc_drowning_in_despair"
+					type: "item"
+				}
+				{
+					id: "603C69670D4BA191"
+					item: "the_bumblezone:music_disc_a_last_first_last"
+					type: "item"
+				}
+				{
+					id: "0CE5E471C29061C9"
+					item: "unusualprehistory:zulogae_disc"
+					type: "item"
+				}
+				{
+					id: "70B1519A82A24C89"
+					item: "create_connected:music_disc_elevator"
+					type: "item"
+				}
+				{
+					id: "3832C9FD551FFDA4"
+					item: "create_connected:music_disc_interlude"
+					type: "item"
+				}
+			]
+			title: "Music Lover - Modded"
+			x: 3.0d
+			y: 1.5d
 		}
 	]
 	title: "Collections"

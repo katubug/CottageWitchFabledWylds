@@ -1,18 +1,6 @@
 {
 	"content": {
 
-        "hunter_obj_valkyrie": {
-            "type": "entity",
-            "timeMult": 6.0,
-            "content": "aether:valkyrie",
-            "amount": {
-                "min": 1,
-                "max": 4
-            },
-            "unitWorth": 275,
-            "weightMult": 0.2
-        },
-
         "hunter_obj_endermen": {
             "type": "entity",
             "timeMult": 7.0,
@@ -284,105 +272,6 @@
 			"unitWorth": 600
 		},
         
-        "hunter_obj_vanilla_swet": {
-			"type": "entity",
-			"timeMult": 6.0,
-			"content": "aether_redux:vanilla_swet",
-			"amount": {
-				"min": 1,
-				"max": 2
-			},
-			"unitWorth": 300
-		},
-        
-        "hunter_obj_evil_whirlwind": {
-			"type": "entity",
-			"timeMult": 6.0,
-			"content": "aether:evil_whirlwind",
-			"amount": {
-				"min": 1,
-				"max": 2
-			},
-			"unitWorth": 500
-		},
-        
-        "hunter_obj_cockatrice": {
-			"type": "entity",
-			"timeMult": 6.0,
-			"content": "aether:cockatrice",
-			"amount": {
-				"min": 1,
-				"max": 2
-			},
-			"unitWorth": 600
-		},
-        
-        "hunter_obj_blue_swet": {
-			"type": "entity",
-			"timeMult": 6.0,
-			"content": "aether:blue_swet",
-			"amount": {
-				"min": 1,
-				"max": 2
-			},
-			"unitWorth": 300
-		},
-        
-        "hunter_obj_golden_swet": {
-			"type": "entity",
-			"timeMult": 6.0,
-			"content": "aether:golden_swet",
-			"amount": {
-				"min": 1,
-				"max": 2
-			},
-			"unitWorth": 300
-		},
-        
-        "hunter_obj_aechor_plant": {
-			"type": "entity",
-			"timeMult": 6.0,
-			"content": "aether:aechor_plant",
-			"amount": {
-				"min": 1,
-				"max": 2
-			},
-			"unitWorth": 400
-		},
-        
-        "hunter_obj_phyg": {
-			"type": "entity",
-			"timeMult": 6.0,
-			"content": "aether:phyg",
-			"amount": {
-				"min": 1,
-				"max": 4
-			},
-			"unitWorth": 100
-		},
-        
-        "hunter_obj_sheepuff": {
-			"type": "entity",
-			"timeMult": 6.0,
-			"content": "aether:sheepuff",
-			"amount": {
-				"min": 1,
-				"max": 4
-			},
-			"unitWorth": 100
-		},
-        
-        "hunter_obj_flying_cow": {
-			"type": "entity",
-			"timeMult": 6.0,
-			"content": "aether:flying_cow",
-			"amount": {
-				"min": 1,
-				"max": 4
-			},
-			"unitWorth": 100
-		},
-        
         "hunter_obj_honey_slime": {
 			"type": "entity",
 			"timeMult": 6.0,
@@ -392,50 +281,6 @@
 				"max": 2
 			},
 			"unitWorth": 300
-		},
-        
-        "hunter_obj_maw": {
-			"type": "entity",
-			"timeMult": 6.0,
-			"content": "aquamirae:maw",
-			"amount": {
-				"min": 1,
-				"max": 4
-			},
-			"unitWorth": 300
-		},
-        
-        "hunter_obj_anglerfish": {
-			"type": "entity",
-			"timeMult": 10.0,
-			"content": "aquamirae:anglerfish",
-			"amount": {
-				"min": 1,
-				"max": 4
-			},
-			"unitWorth": 500
-		},
-        
-        "hunter_obj_maze_mother": {
-			"type": "entity",
-			"timeMult": 10.0,
-			"content": "aquamirae:maze_mother",
-			"amount": {
-				"min": 1,
-				"max": 1
-			},
-			"unitWorth": 900
-		},
-        
-        "hunter_obj_eel": {
-			"type": "entity",
-			"timeMult": 10.0,
-			"content": "aquamirae:eel",
-			"amount": {
-				"min": 1,
-				"max": 1
-			},
-			"unitWorth": 900
 		}
     }
 }

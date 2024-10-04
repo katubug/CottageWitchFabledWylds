@@ -18,7 +18,6 @@
   ],
   "values": [
     "minecraft:deep_dark",
-    "minecraft:dark_forest",
-    "deep_aether:aerglow_forest"
+    "minecraft:dark_forest"
   ]
 }

@@ -67,11 +67,6 @@ ServerEvents.recipes(event => {
         {output: 'unusualprehistory:encrusted_organ'},
         {output: 'unusualprehistory:encrusted_sack'},
         {output: 'unusualprehistory:encrusted_spawn_egg'},
-        {output: 'galosphere:silver_nugget'},
-        {output: 'galosphere:silver_ingot'},
-        {output: 'galosphere:raw_silver'},
-        {output: 'galosphere:silver_block'},
-        {output: 'galosphere:raw_silver_block'},
         {output: 'functionalstorage:armory_cabinet'},
         {output: 'delightful:jelly_bottle'},
         {output: 'delightful:glow_jelly_bottle'},
@@ -137,18 +132,9 @@ ServerEvents.recipes(event => {
         {output: 'farmingforblockheads:red_fertilizer'},
         {output: 'farmingforblockheads:yellow_fertilizer'},
         {output: 'unusualprehistory:amber_button'},
-        {output: 'dawnoftimebuilder:camellia_leaves'},
-        {output: 'dawnoftimebuilder:camellia_seeds'},
-        {output: 'dawnoftimebuilder:grape'},
-        {output: 'dawnoftimebuilder:grape_seeds'},
-        {output: 'dawnoftimebuilder:maize'},
-        {output: 'dawnoftimebuilder:rice'},
-        {output: 'dawnoftimebuilder:wild_grape'},
-        {output: 'dawnoftimebuilder:wild_maize'},
         {output: 'abyssal_decor:fever_blossom_crop_1'},
         {output: 'abyssal_decor:fever_blossom'},
         {output: 'abyssal_decor:fever_blossom_tea'},
-        {output: 'galosphere:spectre_flare'},
         {output: 'farm_and_charm:plow'},
         {output: 'farm_and_charm:supply_cart'},
         {output: 'farm_and_charm:fertilized_soil'},
@@ -196,16 +182,8 @@ ServerEvents.recipes(event => {
         {output: 'betterarcheology:iron_brush'},
         {output: 'betterarcheology:diamond_brush'},
         {output: 'orpheus:apollos_son'},
-        {output: 'sophisticatedbackpacks:xp_pump_upgrade'},
-        {output: 'dawnoftimebuilder:camellia_flower_pot'},
-        {output: 'dawnoftimebuilder:grape_seeds_flower_pot'}, 
-        {output: 'dawnoftimebuilder:maize_flower_pot'},
         {id: 'abyssal_decor:cinnamon_tea_recipe'},
-        {output: 'minecraft:cake'},
-        {output: 'sophisticatedbackpacks:feeding_upgrade'}, 
-        {output: 'sophisticatedbackpacks:advanced_feeding_upgrade'},
-        {output:'eidolon:wooden_altar'}
-        
+        {output: 'minecraft:cake'}
     ];
     
       for (const remove of toRemove) {

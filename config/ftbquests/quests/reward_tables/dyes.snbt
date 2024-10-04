@@ -1,7 +1,7 @@
 {
 	id: "0DB5F6C966A9F001"
 	loot_size: 1
-	order_index: 13
+	order_index: 12
 	rewards: [
 		{ count: 10, item: "minecraft:white_dye" }
 		{ count: 10, item: "minecraft:orange_dye" }

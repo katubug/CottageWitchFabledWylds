@@ -1,18 +1,8 @@
 {
 	id: "3486E7F0D0B0F0E5"
 	loot_size: 3
-	order_index: 28
+	order_index: 27
 	rewards: [
-		{
-			item: {
-				Count: 1
-				id: "reliquary:mob_charm_fragment"
-				tag: {
-					entity: "eidolon:wraith"
-				}
-			}
-			weight: 5.0f
-		}
 		{
 			item: {
 				Count: 1

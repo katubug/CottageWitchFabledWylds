@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
 			C: 'minecraft:copper_ingot',
 			D: 'unusualprehistory:organic_ooze',
 			E: 'minecraft:redstone',
-			F: 'eidolon:arcane_gold_ingot'
+			F: 'forbidden_arcanus:deorum_ingot'
 		}
 	)
 

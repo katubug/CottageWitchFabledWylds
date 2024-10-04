@@ -8,6 +8,7 @@
     "dimdungeons:"
   ],
   "dontShow": [
-    "ctov:medium/village_mountain"
+    "ctov:medium/village_mountain",
+    "dungeons_enhanced:miners_house"
   ]
 }

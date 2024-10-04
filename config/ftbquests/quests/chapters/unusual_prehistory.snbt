@@ -24,7 +24,7 @@
 			y: 10.0d
 		}
 	]
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -862,7 +862,7 @@
 		}
 		{
 			description: [
-				"Not to be confused with the &cCatacombs&r from &lEidolon&r, the &lBetter Archaeology&r catacombs are a winding underground structure with a very modest above-ground entrance. Can you &aplumb the secrets from this place&r?"
+				"&lBetter Archaeology&r catacombs are a winding underground structure with a very modest above-ground entrance. Can you &aplumb the secrets from this place&r?"
 				"{image:enchanted_wilds:textures/questimages/catacombs.png width:100 height:70 align:1 fit:true}"
 			]
 			id: "58F9F0CC133CC7F7"

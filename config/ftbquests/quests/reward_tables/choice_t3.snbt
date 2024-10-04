@@ -1,7 +1,7 @@
 {
 	id: "4CAFC1E4AA445442"
 	loot_size: 1
-	order_index: 14
+	order_index: 13
 	rewards: [
 		{ item: "minecraft:nether_star" }
 		{ item: "minecraft:dragon_egg" }

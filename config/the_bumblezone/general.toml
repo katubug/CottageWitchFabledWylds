@@ -406,4 +406,12 @@
 	#
 	#Range: 0 ~ 1000000
 	musicDiscDrowningInDespair = 570
+	# 
+	#-----------------------------------------------------
+	#
+	# How long in seconds this music disc will be playing music.
+	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
+	#
+	#Range: 0 ~ 1000000
+	musicDiscBeennaBox = 251
 

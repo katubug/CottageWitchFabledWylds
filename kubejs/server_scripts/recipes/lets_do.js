@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
 			A: 'minecraft:iron_ingot',
 			B: 'forbidden_arcanus:edelwood_oil',
 			C: 'minecraft:iron_nugget',
-			D: 'eidolon:enchanted_ash'
+			D: 'supplementaries:ash'
 		}
 	)
 	//Cheesecake recipe because it's missing?

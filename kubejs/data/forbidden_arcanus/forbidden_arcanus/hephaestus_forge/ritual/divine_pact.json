@@ -30,7 +30,7 @@
       }
     ],
     "main_ingredient": {
-      "item": "eidolon:holy_symbol"
+      "item": "minecraft:dirt"
     },
     "result": {
       "type": "forbidden_arcanus:create_item",

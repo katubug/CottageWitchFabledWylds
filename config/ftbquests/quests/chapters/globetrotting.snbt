@@ -180,11 +180,7 @@
 			y: 15.5d
 		}
 		{
-			description: [
-				"Discover &cThe Catacombs&r*, which are absolutely &acrawling with undead&r, but may have hidden treasures inside!"
-				""
-				"*Not to be confused with &cThe Catacombs&r, which are an identically named structure from &lEidolon&r."
-			]
+			description: ["Discover &cThe Catacombs&r, which are absolutely &acrawling with undead&r, but may have hidden treasures inside!"]
 			id: "3533886FEAAAE291"
 			rewards: [{
 				id: "474AE26E907CEE13"
@@ -555,31 +551,6 @@
 			}]
 			x: 0.0d
 			y: 11.0d
-		}
-		{
-			description: [
-				"The &bCatacombs&r are a winding underground Labyrinth, fraught with &bspawners&r and &ethe Undead&r. However, if you are brave enough to traverse one, &awhat treasures might you find&r?"
-				""
-				"Here's a tip: &dmove the tiles&r."
-			]
-			id: "4E1F419E6DF416FA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5CAA6E5FED77B4E0"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "octagon"
-			subtitle: "don't give up, skeleton!"
-			tasks: [{
-				icon: "minecraft:skeleton_skull"
-				id: "6486EBC90BF85C21"
-				structure: "eidolon:catacomb"
-				type: "structure"
-			}]
-			title: "Discover the Catacombs"
-			x: 3.0d
-			y: -5.5d
 		}
 		{
 			description: [

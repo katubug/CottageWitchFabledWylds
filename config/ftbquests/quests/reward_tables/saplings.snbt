@@ -1,7 +1,7 @@
 {
 	id: "610230EA400E1B17"
 	loot_size: 1
-	order_index: 7
+	order_index: 6
 	rewards: [
 		{ item: "minecraft:dark_oak_sapling" }
 		{ item: "minecraft:acacia_sapling" }
@@ -32,7 +32,6 @@
 		{ item: "fruitsdelight:lychee_sapling" }
 		{ item: "fruitsdelight:hawberry_sapling" }
 		{ item: "fruitsdelight:pear_sapling" }
-		{ item: "eidolon:illwood_sapling" }
 		{ item: "regions_unexplored:redwood_sapling" }
 		{ item: "regions_unexplored:willow_sapling" }
 		{ item: "regions_unexplored:socotra_sapling" }
@@ -66,18 +65,6 @@
 		{ item: "regions_unexplored:ashen_sapling" }
 		{ item: "regions_unexplored:apple_oak_sapling" }
 		{ item: "regions_unexplored:alpha_sapling" }
-		{ item: "aether:skyroot_sapling" }
-		{ item: "aether:golden_oak_sapling" }
-		{ item: "aether_redux:gilded_oak_sapling" }
-		{ item: "aether_redux:glacia_sapling" }
-		{ item: "aether_redux:blighted_skyroot_sapling" }
-		{ item: "aether_redux:blightwillow_sapling" }
-		{ item: "deep_aether:conberry_sapling" }
-		{ item: "deep_aether:cruderoot_sapling" }
-		{ item: "deep_aether:blue_roseroot_sapling" }
-		{ item: "deep_aether:yagroot_sapling" }
-		{ item: "deep_aether:sunroot_sapling" }
-		{ item: "deep_aether:roseroot_sapling" }
 	]
 	title: "Saplings"
 }

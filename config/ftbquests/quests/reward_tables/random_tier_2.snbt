@@ -27,9 +27,6 @@
 		{ count: 2, item: "glassential:glass_ethereal", weight: 6.0f }
 		{ item: "moblassos:golden_lasso", weight: 10.0f }
 		{ item: "minecraft:conduit", weight: 5.0f }
-		{ item: "sophisticatedstorage:basic_to_gold_tier_upgrade", weight: 20.0f }
-		{ item: "sophisticatedstorage:basic_to_diamond_tier_upgrade", weight: 20.0f }
-		{ count: 3, item: "eidolon:tattered_cloth", weight: 5.0f }
 		{ item: "tombstone:soul_receptacle", weight: 5.0f }
 		{ count: 3, item: "forbidden_arcanus:arcane_crystal", weight: 20.0f }
 		{ count: 3, item: "forbidden_arcanus:rune", weight: 10.0f }

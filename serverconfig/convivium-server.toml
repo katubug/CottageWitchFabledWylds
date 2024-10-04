@@ -1,9 +1,0 @@
-
-[kinetics]
-	#Kinetic Transfer radius for aeolipile
-	#Range: > 1
-	kineticTransferRange = 4
-	#Kinetic validation ticks
-	#Range: > 1
-	kineticValidationTicks = 20
-

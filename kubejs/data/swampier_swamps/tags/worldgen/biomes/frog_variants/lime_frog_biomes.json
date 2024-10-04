@@ -23,7 +23,6 @@
     "regions_unexplored:fungal_fen",
     "regions_unexplored:bayou",
     "regions_unexplored:marsh",
-    "regions_unexplored:old_growth_bayou",
-    "deep_aether:yagroot_swamp"
+    "regions_unexplored:old_growth_bayou"
   ]
 }

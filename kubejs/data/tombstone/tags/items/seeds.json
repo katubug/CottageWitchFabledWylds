@@ -38,10 +38,6 @@
       "required": false
         },
         {
-          "id": "aether_redux:wyndsprout_seeds",
-      "required": false
-        },
-        {
           "id": "supplementaries:flax_seeds",
       "required": false
         },
@@ -67,14 +63,6 @@
         },
         {
           "id": "delightful:cantaloupe_seeds",
-      "required": false
-        },
-        {
-          "id": "deep_aether:golden_grass_seeds",
-      "required": false
-        },
-        {
-          "id": "deep_aether:squash_seeds",
       "required": false
         },
         {

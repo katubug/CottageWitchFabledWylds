@@ -64,14 +64,6 @@ ServerEvents.recipes(e => {
 			'create:experience_nugget').withChance(0.3)],
 		'create:raw_zinc')
 
-	e.recipes.create.crushing(['2x create:crushed_raw_silver', Item.of(
-			'create:experience_nugget').withChance(0.3)],
-		'eidolon:raw_silver')
-
-	e.recipes.create.crushing(['2x create:crushed_raw_lead', Item.of(
-			'create:experience_nugget').withChance(0.3)],
-		'eidolon:raw_lead')
-
 	e.recipes.create.crushing(['2x malum:crushed_brilliance', Item.of(
 			'3x create:experience_nugget').withChance(0.3)],
 		'malum:cluster_of_brilliance')
@@ -95,14 +87,6 @@ ServerEvents.recipes(e => {
 	e.recipes.create.crushing(['18x create:crushed_raw_zinc', Item.of(
 			'9x create:experience_nugget').withChance(0.3)],
 		'create:raw_zinc_block')
-
-	e.recipes.create.crushing(['18x create:crushed_raw_silver', Item.of(
-			'9x create:experience_nugget').withChance(0.3)],
-		'eidolon:raw_silver_block')
-
-	e.recipes.create.crushing(['18x create:crushed_raw_lead', Item.of(
-			'9x create:experience_nugget').withChance(0.3)],
-		'eidolon:raw_lead_block')
 
 	e.recipes.create.crushing(['18x malum:crushed_brilliance', Item.of(
 			'21x create:experience_nugget').withChance(0.3)],

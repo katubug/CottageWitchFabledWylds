@@ -22,7 +22,7 @@
       {
         "amount": 2,
         "ingredient": {
-          "item": "eidolon:crimson_essence"
+          "item": "minecraft:dirt"
         }
       },
       {
@@ -34,7 +34,7 @@
       {
         "amount": 3,
         "ingredient": {
-          "item": "eidolon:lesser_soul_gem"
+          "item": "minecraft:dirt"
         }
       }
     ],

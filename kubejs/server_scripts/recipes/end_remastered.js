@@ -39,21 +39,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	//Magical Eye
-	event.shaped(
-		Item.of('endrem:magical_eye'),
-		[
-			' A ',
-			'BCD',
-			' A '
-		], {
-			A: 'minecraft:ender_eye',
-			B: 'eidolon:holy_symbol',
-			C: 'endermanoverhaul:summoner_pearl',
-			D: 'eidolon:unholy_symbol'
-		}
-	)
-
 	//Old Eye
 	event.shaped(
 		Item.of('endrem:old_eye'),
@@ -65,20 +50,6 @@ ServerEvents.recipes(event => {
 			A: 'minecraft:ender_eye',
 			B: 'minecraft:chiseled_sandstone',
 			C: 'endermanoverhaul:ancient_pearl'
-		}
-	)
-
-	//Evil Eye
-	event.shaped(
-		Item.of('endrem:evil_eye'),
-		[
-			' A ',
-			'BCB',
-			' A '
-		], {
-			A: 'minecraft:ender_eye',
-			B: 'eidolon:silver_ingot',
-			C: 'endermanoverhaul:warped_pearl'
 		}
 	)
 

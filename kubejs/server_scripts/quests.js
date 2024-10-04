@@ -1,3 +1,4 @@
+/*
 BlockEvents.rightClicked('block.right_click', event => {
 	if (!event.player.stages.has('aether_torch') && event.level
 		.dimension == 'aether:the_aether') {
@@ -17,6 +18,7 @@ BlockEvents.rightClicked('block.right_click', event => {
 		}
 	}
 });
+*/
 
 ItemEvents.entityInteracted('unusualprehistory:smilodon_embryo', (event) => {
 	const {

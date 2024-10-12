@@ -1,0 +1,21 @@
+{
+    "type": "farmersrespite:brewing",
+    "base": {
+      "count": 1000,
+      "fluid": "minecraft:water"
+    },
+    "cookingtime": 2400,
+    "experience": 0.35,
+    "ingredients": [
+      {
+        "item": "herbalbrews:lavender_blossom"
+      },
+      {
+        "item": "herbalbrews:lavender_blossom"
+      }
+    ],
+    "result": {
+      "count": 1000,
+      "fluid": "kubejs:lavender_tea"
+    }
+  }

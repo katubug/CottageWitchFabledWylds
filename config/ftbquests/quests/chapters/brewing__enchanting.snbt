@@ -36,7 +36,7 @@
 			id: "71A11F7652CA6B01"
 			rewards: [{
 				id: "4165C0D2558926BB"
-				item: "tombstone:soul_receptacle"
+				item: "tombstone:receptacle_of_soul"
 				type: "item"
 			}]
 			subtitle: "moving enchantments onto books"

@@ -183,7 +183,19 @@ ServerEvents.recipes(event => {
         {output: 'betterarcheology:diamond_brush'},
         {output: 'orpheus:apollos_son'},
         {id: 'abyssal_decor:cinnamon_tea_recipe'},
-        {output: 'minecraft:cake'}
+        {output: 'minecraft:cake'},
+        {output: 'delightful:berry_matcha_latte'},
+        {id: 'delightful:cooking/matcha_latte'},
+        {id: 'delightful:meadow/cooking/matcha_latte'},
+        {id: 'delightful:farm_and_charm/pot_cooking/matcha_latte'},
+        {id: 'herbalbrews:kettle_brewing/green_tea'},
+        {id: 'herbalbrews:kettle_brewing/black_tea'},
+        {id: 'herbalbrews:kettle_brewing/lavender_tea'},
+        {id: 'herbalbrews:kettle_brewing/hibiscus_tea'},
+        {id: 'herbalbrews:kettle_brewing/yerba_mate_tea'},
+        {id: 'herbalbrews:kettle_brewing/rooibos_tea'},
+        {id: 'farm_and_charm:pot_cooking/nettle_tea'},
+        {id: 'farm_and_charm:meadow/cooking/nettle_tea'},
     ];
     
       for (const remove of toRemove) {

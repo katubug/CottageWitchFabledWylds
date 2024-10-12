@@ -1,0 +1,11 @@
+{
+  "type": "farmersrespite:kettle_pouring",
+  "amount": 250,
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "fluid": "kubejs:ceylon_black_tea",
+  "output": {
+    "item": "herbalbrews:black_tea"
+  }
+}

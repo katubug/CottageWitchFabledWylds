@@ -9,6 +9,17 @@ ServerEvents.recipes(event => {
 		]
 	)
 
+	//Matcha Berry Latte
+
+	event.shapeless(Item.of('delightful:berry_matcha_latte'),
+		[
+			'#betterbeekeeping:honey_bottles', 
+			'delightful:matcha_latte', 
+			'minecraft:ice', 
+			'#forge:berries'
+		]
+	)
+
 
 	// Cheaper Post Box
 	event.shaped(

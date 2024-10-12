@@ -83,8 +83,6 @@
 	teleport_dim = true
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
 	knowledge_reduce_phantom_spawn = true
-	#Allows players to be hurt by special damages related to some items [false/true|default:true]
-	allow_beyond_the_grave_damage = true
 	#Minimum time without sleeping for phantom to spawn around players [1200..MAX|default:72000]
 	#Range: > 1200
 	time_for_phantom_spawn = 72000
@@ -150,8 +148,6 @@
 	duration_voodoo_poppet_effects = 60
 	#The worlds that can't be discovered by lost tablets
 	lost_tablet_denied_worlds = []
-	#Tamable creatures that can't captured by Familiar Receptacle
-	unhandled_tamable_entities = []
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]
@@ -179,7 +175,7 @@
 [enchantments]
 	#The wearer is also affected by the effect if his alignment is not bad [false/true|default:true]
 	nerf_plague_bringer = true
-	#Maximum duration of stolen effects in minutes [1..MAX|default:60]
+	#Maximum duration of stolen effects in minutes [1..MAX|default:10]
 	#Range: > 1
 	max_duration_magic_siphon = 60
 	#Duration of applied effects in seconds [1..MAX|default:10]

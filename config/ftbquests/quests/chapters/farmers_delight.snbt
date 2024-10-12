@@ -967,8 +967,11 @@
 			description: [
 				"Scattered around the world, you can find &bWild Crops&r growing. Find all of them to build your &alovely witchy garden&r!"
 				""
-				"Did you know that corn hung over a mirror will bring good luck to your household? Take a small white onion and stick it full of black-headed pins. When placed in the window, this will protect against negativity. And carrots are said to promote... physical desire. *wink*"
+				"Did you know that even vegetables can be used in household magic? For example, corn hung over a mirror will bring good luck to your household. Or, you can take a small white onion and stick it full of black-headed pins, and when placed in the window, this will protect against negativity."
 				""
+				"Click to the next page for information on &awhich items can be found where&r!"
+				""
+				"{@pagebreak}"
 				"&bWild Tomatoes&r can be found in &chot, dry biomes&r."
 				""
 				"&bWild Rice&r can be found growing in &bwater&r in &cwet biomes&r."
@@ -980,6 +983,16 @@
 				"&bSalmonberries&r spawn in &cForests&r."
 				""
 				"&bSoybeans&r, &bOnions&r, &bCarrots&r, and &bPotatoes&r can be found in most any biome!"
+				""
+				"&bBarley&r can be found in &cPlains&r and &cSavannahs."
+				""
+				"&bEmmer&r is located in &cForests&r."
+				""
+				"&bOats&r are found in &cTaiga&r biomes."
+				""
+				"&bCorn&r can be found in &cSavannah&r and &cBadlands&r biomes."
+				""
+				"&bNettles&r and &bRibwort&r spawn in &cSwamps&r and &cMangrove Swamps&r."
 			]
 			icon: "farmersdelight:wild_carrots"
 			id: "2093240CD42882CF"
@@ -1046,24 +1059,6 @@
 					value: 1L
 				}
 				{
-					block: "farmersdelight:wild_potatoes"
-					block_type: 0
-					checkItem: false
-					icon: "farmersdelight:wild_potatoes"
-					id: "697D603DCCC7A53C"
-					type: "questsadditions:break"
-					value: 1L
-				}
-				{
-					block: "farmersdelight:wild_carrots"
-					block_type: 0
-					checkItem: false
-					icon: "farmersdelight:wild_carrots"
-					id: "5D924330F5B837BB"
-					type: "questsadditions:break"
-					value: 1L
-				}
-				{
 					block: "fruitsdelight:wild_pineapple"
 					block_type: 0
 					checkItem: false
@@ -1092,6 +1087,70 @@
 					block_type: 0
 					checkItem: false
 					id: "04F07E3A87A9304A"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farm_and_charm:wild_oat"
+					block_type: 0
+					checkItem: false
+					id: "6E88A0E6CFB4A7BA"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farm_and_charm:wild_lettuce"
+					block_type: 0
+					checkItem: false
+					id: "4CCFF8A21493E957"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farm_and_charm:wild_strawberries"
+					block_type: 0
+					checkItem: false
+					id: "76C297DF00C99055"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farm_and_charm:wild_corn"
+					block_type: 0
+					checkItem: false
+					id: "40B7F0ED08B6B15B"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farm_and_charm:wild_barley"
+					block_type: 0
+					checkItem: false
+					id: "448F8D3100E58DB1"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farm_and_charm:wild_emmer"
+					block_type: 0
+					checkItem: false
+					id: "3DE7249CC8A7D98E"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farm_and_charm:wild_ribwort"
+					block_type: 0
+					checkItem: false
+					id: "796154A6C7157DDC"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farm_and_charm:wild_nettle"
+					block_type: 0
+					checkItem: false
+					id: "6A136A6C1D540DF2"
 					type: "questsadditions:break"
 					value: 1L
 				}

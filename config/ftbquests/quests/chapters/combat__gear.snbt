@@ -82,8 +82,8 @@
 				id: "5862E16DD2298F30"
 				type: "advancement"
 			}]
-			x: -6.5d
-			y: 3.5d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			description: ["Obtain a &bfull set of Diamond Tools&r to earn a unique armor set!"]
@@ -1054,8 +1054,8 @@
 				}
 			]
 			title: "The Full Set: Golden Armor"
-			x: -2.5d
-			y: 3.5d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -1197,8 +1197,8 @@
 				}
 			]
 			title: "The Full Set: Fur Armor"
-			x: -3.0d
-			y: 4.5d
+			x: -4.0d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -1413,7 +1413,7 @@
 				}
 			]
 			title: "The Full Set: Shedscale Armor"
-			x: -6.0d
+			x: -5.0d
 			y: 2.5d
 		}
 		{

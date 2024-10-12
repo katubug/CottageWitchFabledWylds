@@ -749,9 +749,7 @@
 				"But first, you'll need some &bFilm&r, and you can also upgrade your camera with &aother items&r!"
 				""
 				"Continued on next page."
-				""
 				"{@pagebreak}"
-				""
 				"&6Shift right click&r while holding the &bCamera&r to access the interface. Here you can load &bFilm&r - color, or black and white. You can also add the following:"
 				""
 				"- &bRedstone Lamp&r to add a &aflash&r"
@@ -767,34 +765,15 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
-				id: "3FCD8D8009D39246"
-				item: {
-					Count: 1
-					id: "exposure:camera"
-					tag: {
-						Active: 0b
-						Filter: {
-							Count: 1b
-							id: "minecraft:glass_pane"
-						}
-						Flash: {
-							Count: 1b
-							id: "minecraft:redstone_lamp"
-						}
-						Lens: {
-							Count: 1b
-							id: "minecraft:spyglass"
-						}
-						Selfie: 0b
-						Zoom: 54.99999916788712d
-					}
-				}
+				id: "6834E5B89A2DAAB0"
+				item: "exposure:camera"
 				type: "item"
 			}]
 			title: "Photography is Witchcraft"
-			x: 1.5d
-			y: 6.5d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			description: [
@@ -2401,36 +2380,6 @@
 			id: "573269BC454A499D"
 			rewards: [
 				{
-					id: "7BA174D02F378746"
-					item: {
-						Count: 1
-						id: "exposure:photograph"
-						tag: {
-							Biome: "minecraft:plains"
-							Dimension: "minecraft:overworld"
-							Id: "Katubug_3973485"
-							LightLevel: 12
-							Photographer: "Katubug"
-							PhotographerId: [I;
-								-438126435
-								948191632
-								-1956014202
-								1052335046
-							]
-							Pos: [
-								302
-								64
-								28
-							]
-							SunAngle: 4.9744267f
-							Timestamp: "2023-12-29_13.10.35"
-							Type: "color"
-							Weather: "Clear"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "54D5B32E2ACCD86A"
 					item: "minecraft:paper"
 					type: "item"
@@ -2462,18 +2411,15 @@
 				type: "item"
 			}]
 			title: "Printing Photos"
-			x: 2.0d
-			y: 8.0d
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["153DBE782905BF62"]
 			description: [
 				"In order to &aprint your photographs&r, you must first &adevelop the film&r."
 				""
-				"This is done by crafting &bThick&r, &bAwkward&r, and &bMundane Potions&r together with the &bFilm&r."
-				""
-				""
-				"{image:#FFFFFF width:100 height:100 align:1}"
+				"This is done by crafting &bThick&r, &bAwkward&r, and &bMundane Potions&r together with the &bColor Film&r. To develop &bBlack and White Film&r, you only need a &bWater Bottle&r. Simply &6combine them in a crafting grid&r and ta-da!"
 			]
 			id: "762A6A61693A5BBA"
 			rewards: [
@@ -2550,7 +2496,7 @@
 				}
 			]
 			title: "Developing Photos"
-			x: 2.5d
+			x: 1.5d
 			y: 7.0d
 		}
 		{

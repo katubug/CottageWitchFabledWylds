@@ -1,7 +1,7 @@
 {
 	id: "60565C961FA658E1"
 	loot_size: 10
-	order_index: 4
+	order_index: 3
 	rewards: [
 		{ count: 5, item: "minecraft:iron_ingot", weight: 10.0f }
 		{ count: 3, item: "minecraft:prismarine_shard", only_one: true, weight: 5.0f }

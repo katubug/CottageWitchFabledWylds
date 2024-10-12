@@ -213,15 +213,14 @@
 			]
 			subtitle: "I bet you're a really fun Gus"
 			tasks: [{
-				id: "219A3EABFF62B73B"
+				id: "142263AFFFC45FFD"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:funguscolony"
+						"ftbfiltersystem:filter": "or(item(nethersdelight:crimson_fungus_colony)item(nethersdelight:warped_fungus_colony))"
 					}
 				}
-				title: "Any Fungus Colony"
 				type: "item"
 			}]
 			title: "Obtain a Nether Fungus Colony"

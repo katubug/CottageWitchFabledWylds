@@ -1,0 +1,21 @@
+{
+    "type": "farmersrespite:brewing",
+    "base": {
+      "count": 1000,
+      "fluid": "minecraft:water"
+    },
+    "cookingtime": 2400,
+    "experience": 0.35,
+    "ingredients": [
+      {
+        "item": "farm_and_charm:wild_nettle"
+      },
+      {
+        "item": "farm_and_charm:wild_nettle"
+      }
+    ],
+    "result": {
+      "count": 1000,
+      "fluid": "kubejs:nettle_tea"
+    }
+  }

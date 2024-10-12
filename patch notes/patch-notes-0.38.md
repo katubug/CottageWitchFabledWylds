@@ -1,3 +1,11 @@
+# **Script and Config Changes**
+
+- Fixed a broken quest filter.
+- Added all new wild crops to the appropriate quest and explained where to get them.
+- Fixed some broken Exposure quests.
+- Renamed HerbalBrew's Green and Black teas to Sencha Green and Ceylon Black to distinguish them from Farmer's Respite.
+- Slowly working on making all teas brewable via Farmer's Respite teapot.
+
 # **New Mods**
 ## Combat Nouveau
 [CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/combat-nouveau)

@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
 	)
 	// Soul Receptacle
 	event.shaped(
-		Item.of('tombstone:soul_receptacle'),
+		Item.of('tombstone:receptacle_of_soul'),
 		[
 			' A ',
 			'BCB',

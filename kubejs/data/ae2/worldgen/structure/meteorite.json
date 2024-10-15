@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "type": "minecraft:ae2mtrt",
+  "biomes": "#ae2:has_meteorites",
+  "spawn_overrides": {},
+  "step": "underground_structures",
+  "start_height": {
+    "type": "minecraft:biased_to_bottom",
+    "min_inclusive": {
+      "above_bottom": 10
+    },
+    "max_inclusive": {
+      "below_top": 50
+    }
+  }
+}

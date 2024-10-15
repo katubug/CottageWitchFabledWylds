@@ -77,7 +77,8 @@ ServerEvents.tags('item', event => {
 	event.add('forge:dirt',
 		'minecraft:dirt',
 		'minecraft:coarse_dirt',
-		'minecraft:rooted_dirt', 'minecraft:podzol')
+		'minecraft:rooted_dirt',
+		'minecraft:podzol')
 
 	//Tropical Ball is Slime for Unusual Prehistory
 	event.add('forge:slimeballs',
@@ -143,5 +144,22 @@ ServerEvents.tags('item', event => {
 	//Barley
 	event.add('forge:crops/barley',
 		'regions_unexplored:barley'
+	)
+
+	//Sea Crystals
+	event.add('forge:sea_crystals',
+		'mermod:sea_crystal',
+		'mermod:deep_sea_crystal_modifier',
+		'minecraft:prismarine_crystals',
+		'tide:deep_aqua_crystal'
+	)
+
+	//Terrestrial Crystals
+	event.add('forge:terrestrial_crystals',
+		'phantasm:void_crystal_shard',
+		'forbidden_arcanus:corrupted_arcane_crystal',
+		'forbidden_arcanus:arcane_crystal',
+		'phantasm:crystal_shard',
+		'minecraft:amethyst_shard'
 	)
 })

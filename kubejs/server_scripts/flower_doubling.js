@@ -1,4 +1,4 @@
-BlockEvents.rightClicked('block.right_click', event => {
+BlockEvents.rightClicked(event => {
 	//main hand only
 	const {
 		block,

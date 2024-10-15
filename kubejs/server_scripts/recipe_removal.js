@@ -196,6 +196,7 @@ ServerEvents.recipes(event => {
         {id: 'herbalbrews:kettle_brewing/rooibos_tea'},
         {id: 'farm_and_charm:pot_cooking/nettle_tea'},
         {id: 'farm_and_charm:meadow/cooking/nettle_tea'},
+        {output: 'malum:spectral_lens'},
     ];
     
       for (const remove of toRemove) {

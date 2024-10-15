@@ -69,9 +69,19 @@ JEIEvents.hideItems(event => {
         'ae2:crafting_unit',
         'ae2:charger',
         'ae2:blank_pattern',
+        'ae2:growth_accelerator',
+        'ae2:inscriber',
+        'ae2:name_press',
+        'ae2:pattern_encoding_terminal'
     ];
     
     for (const hide of toHide) {
       event.hide(hide);
   }
+})
+
+JEIEvents.information(event => {
+	event.addItem('ae2:charged_certus_quartz_crystal', [
+		`Consecrate a regular Certus Quartz Crystal by right clicking it onto a lit candle. Hexerei candles won't extinguish when you right click on them, but basic ones will.`
+]);
 })

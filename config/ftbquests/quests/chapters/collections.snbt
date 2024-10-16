@@ -107,6 +107,21 @@
 					item: "regions_unexplored:red_snowbelle"
 					type: "item"
 				}
+				{
+					id: "11ACC8CB0AEAD1BC"
+					item: "serene_shrubbery:red_hydrangea"
+					type: "item"
+				}
+				{
+					id: "2F96317A52E64013"
+					item: "serene_shrubbery:red_pansies"
+					type: "item"
+				}
+				{
+					id: "3153C94F5639C9FC"
+					item: "serene_shrubbery:blanket_flower"
+					type: "item"
+				}
 			]
 			title: "Flower Picking: Red"
 			x: -3.0d
@@ -166,6 +181,21 @@
 				{
 					id: "32BBD7CA6C249C5D"
 					item: "meadow:fire_lily"
+					type: "item"
+				}
+				{
+					id: "56CE3A6E8B713809"
+					item: "serene_shrubbery:orange_pansies"
+					type: "item"
+				}
+				{
+					id: "1AC5065BC14A9F38"
+					item: "serene_shrubbery:orange_crown_cactus"
+					type: "item"
+				}
+				{
+					id: "4C4796268A2C2373"
+					item: "serene_shrubbery:sunset_foxglove"
 					type: "item"
 				}
 			]
@@ -330,6 +360,11 @@
 					item: "spawn:sunflower"
 					type: "item"
 				}
+				{
+					id: "41269A24FBC2120F"
+					item: "serene_shrubbery:yellow_pansies"
+					type: "item"
+				}
 			]
 			title: "Flower Picking: Yellow"
 			x: -2.0d
@@ -452,6 +487,16 @@
 					item: "regions_unexplored:cobalt_earlight"
 					type: "item"
 				}
+				{
+					id: "00CE89FE851D8B26"
+					item: "serene_shrubbery:blue_liverwort"
+					type: "item"
+				}
+				{
+					id: "57B171C17D65F372"
+					item: "serene_shrubbery:hydrangea"
+					type: "item"
+				}
 			]
 			title: "Flower Picking: Blue"
 			x: -1.0d
@@ -540,6 +585,36 @@
 					item: "regions_unexplored:glister_bulb"
 					type: "item"
 				}
+				{
+					id: "7A7BA2E2840347B1"
+					item: "serene_shrubbery:purple_pansies"
+					type: "item"
+				}
+				{
+					id: "5D129E847F9CA4C2"
+					item: "serene_shrubbery:purple_liverwort"
+					type: "item"
+				}
+				{
+					id: "391D60E6AE804D7E"
+					item: "serene_shrubbery:purple_foxglove"
+					type: "item"
+				}
+				{
+					id: "0001118F5F59B0DE"
+					item: "serene_shrubbery:purple_lupine"
+					type: "item"
+				}
+				{
+					id: "41975DEA1B9E4E58"
+					item: "serene_shrubbery:purple_hydrangea"
+					type: "item"
+				}
+				{
+					id: "1C087537799BBDF6"
+					item: "serene_shrubbery:butterfly_bush"
+					type: "item"
+				}
 			]
 			title: "Flower Picking: Purple"
 			x: 0.0d
@@ -625,6 +700,36 @@
 				{
 					id: "4EB9C0CECEAFCEDD"
 					item: "minecraft:peony"
+					type: "item"
+				}
+				{
+					id: "63D113D0F0A5F032"
+					item: "serene_shrubbery:peach_foxglove"
+					type: "item"
+				}
+				{
+					id: "31C33119BCA13AD4"
+					item: "serene_shrubbery:pink_crown_cactus"
+					type: "item"
+				}
+				{
+					id: "24EFC34166C92118"
+					item: "serene_shrubbery:twinflower"
+					type: "item"
+				}
+				{
+					id: "77719FBF8423E0A7"
+					item: "serene_shrubbery:pink_pansies"
+					type: "item"
+				}
+				{
+					id: "225E7B7A4DCA312B"
+					item: "serene_shrubbery:fireweed"
+					type: "item"
+				}
+				{
+					id: "00AB39DE3DEC210C"
+					item: "serene_shrubbery:lupine_pink"
 					type: "item"
 				}
 			]
@@ -743,6 +848,31 @@
 				{
 					id: "2675014B26F01FC7"
 					item: "regions_unexplored:tassel"
+					type: "item"
+				}
+				{
+					id: "3CCB48F09152C18D"
+					item: "serene_shrubbery:white_pansies"
+					type: "item"
+				}
+				{
+					id: "3587784969A66134"
+					item: "serene_shrubbery:white_liverwort"
+					type: "item"
+				}
+				{
+					id: "5D39D04EC233782B"
+					item: "serene_shrubbery:white_foxglove"
+					type: "item"
+				}
+				{
+					id: "2B702663F7B3C744"
+					item: "serene_shrubbery:white_hydrangea"
+					type: "item"
+				}
+				{
+					id: "41292D29CA32E751"
+					item: "serene_shrubbery:lupine_white"
 					type: "item"
 				}
 			]

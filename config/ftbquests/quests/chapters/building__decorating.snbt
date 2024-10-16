@@ -1022,6 +1022,36 @@
 			x: -1.0d
 			y: 7.5d
 		}
+		{
+			description: ["The title of the quest says \"pretty girls\" - but stuffed sharks (and whales, and bread) are for everyone! You can craft them with &bcolored wool&r, which is made with the &bYarn Spinner&r. Place &bcolored wool&r into the Spinner to create it."]
+			id: "2FF37A8A28D21BD0"
+			rewards: [
+				{
+					id: "4AA9FF7071D3F900"
+					item: "minecraft:light_blue_wool"
+					type: "item"
+				}
+				{
+					id: "48E9AD0B90CE5859"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "6641A1C4FB2D999B"
+					item: "minecraft:pink_wool"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "24E0ECBC40462533"
+				item: "blahaj:yarn_spinner"
+				type: "item"
+			}]
+			title: "Stuffed Sharks for Pretty Girls"
+			x: -2.5d
+			y: 6.5d
+		}
 	]
 	title: "Building \\& Decorating"
 }

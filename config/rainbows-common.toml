@@ -1,0 +1,16 @@
+
+[General]
+	#Global toggle for controlling rainbow detail.
+	globalDetailOverride = false
+	#Global toggle for controlling rainbow appearance frequency.
+	globalVisiblityOctavesOverride = false
+	#How high of a resolution should the rainbow render in? Lower value = lower resolution and quality but more FPS.
+	#Range: > 0
+	rainbowDetail = 150
+	#How frequent the rainbow should be visible. Under normal circumstances there can be many continuous days without rainbows and vice versa. Lower value = more variable. If -1, then it's visible every night.
+	#Range: > -1
+	rainbowVisiblityOctaves = 1
+	#Rainbow render distance.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	rainbowRenderDistance = 200.0
+

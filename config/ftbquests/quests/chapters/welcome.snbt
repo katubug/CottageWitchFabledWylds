@@ -288,34 +288,6 @@
 		}
 		{
 			description: [
-				"In this world, witches have an uncanny ability to &6transform their shape&r into that of another creature. This form, known as &bFamiliar Form&r, can be most any creature (&dexcept bosses&r) that the witch has had &atime to study&r."
-				""
-				"In order to study a creature, &6press and hold ] while looking at it&r. You will feel a slight tingling, and then once you have completed your analysis, you will get a message that your second form has been assigned."
-				""
-				"You can shift back and forth at will by using the &6\\\\ key&r. If you wish to change your &bFamiliar Form&r, simply &astudy another beast&r."
-				""
-				"Be aware that certain creatures will grant benefits or detriments. You may have &aincreased or decreased health&r, gain &aspecial abilities&r, or &abe unable to breathe air&r."
-				""
-				"&dAs a warning, transforming into an &lAether&r Moa will cause significant FPS drops&r."
-			]
-			id: "4A5B69E21CC64F2E"
-			rewards: [{
-				id: "76D34F4F496773BD"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "49E02AF0BD8F9289"
-				title: "I understand"
-				type: "checkmark"
-			}]
-			title: "Familiar Forms"
-			x: 4.0d
-			y: -7.5d
-		}
-		{
-			description: [
 				"Looking for a particular item in a nearby inventory?"
 				""
 				"Hover over the item in JEI or your inventory and &6press the keybind&r. This &dneeds to be bound by the user&r, so find a key you like and change it in your &akeybindings menu&r."
@@ -339,7 +311,7 @@
 				type: "checkmark"
 			}]
 			title: "Finding Items In Containers"
-			x: 3.0d
+			x: 4.0d
 			y: -7.5d
 		}
 		{
@@ -351,9 +323,6 @@
 				"- Mojang Textures (mooblooms)"
 				"- No Buds (mooblooms)"
 				"- No Grass Block (mooblooms)"
-				"- Aether 1.2.5 Textures"
-				"- Aether b.1.7.3 Textures"
-				"- Aether Colorblind Textures"
 				"- Classic Icons"
 				"- Create Legacy Copper"
 				"- Gray's Mob Overhaul (do not enable)"
@@ -369,7 +338,7 @@
 				"- Bumblezone Anti-Trypophobia"
 				"- White Icons"
 				""
-				"The order in which you enable the resourcepacks &ashould not matter&a, as they are &dedited to be compatible with one another&r. The resourcepacks marked \"&cdo not enable&r\" are included in order to give credit to the pack creators. &bEdited versions of these packs&r SHOULD be enabled."
+				"The order in which you enable the resourcepacks &ashould not matter&r, as they are &dedited to be compatible with one another&r. The resourcepacks marked \"&cdo not enable&r\" are included in order to give credit to the pack creators. &bEdited versions of these packs&r SHOULD be enabled."
 			]
 			id: "4B09C2508E25AD2B"
 			rewards: [{

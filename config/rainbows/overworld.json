@@ -1,0 +1,27 @@
+{
+  "allowedDimensions": [
+    "minecraft:overworld"
+  ],
+  "allowedBiomes": [],
+  "rainbowDetail": 100,
+  "rainbowWidthDeg": 42,
+  "rainbowHeightDeg": 42,
+  "rainbowDoubleWidthDeg": 52,
+  "rainbowDoubleHeightDeg": 52,
+  "rainbowDoubleThickness": 1.02,
+  "rainbowDistance": 200,
+  "rainbowHeightOffset": 0,
+  "rainbowAlpha": 0.6,
+  "rainbowDoubleAlpha": 0.5,
+  "rainbowSpeed": 1,
+  "rainbowDoubleSpeed": 0.001,
+  "rainbowThickness": 0.97,
+  "alphaRed": 0.5,
+  "alphaOrange": 0.5,
+  "alphaYellow": 0.5,
+  "alphaGreen": 0.5,
+  "alphaCyan": 0.5,
+  "alphaBlue": 0.5,
+  "alphaViolet": 0.5,
+  "alphaWhite": 0.25
+}

@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
 		Item.of('delightful:cheeseburger'),
 		[
 			'minecraft:bread',
-			'#candlelight:cooked_beef',
+			'#forge:cooked_beef',
 			'#forge:crops/cabbage',
 			'#forge:cheese',
 			'farmersdelight:tomato',
@@ -64,7 +64,7 @@ ServerEvents.recipes(event => {
 		[
 			'delightful:cheeseburger',
 			'#forge:cheese',
-			'#candlelight:cooked_beef',
+			'#forge:cooked_beef',
 			'#forge:cooked_bacon'
 		]
 	)
@@ -74,8 +74,8 @@ ServerEvents.recipes(event => {
 		Item.of('delightful:deluxe_cheeseburger'),
 		[
 			'minecraft:bread',
-			'#candlelight:cooked_beef',
-			'#candlelight:cooked_beef',
+			'#forge:cooked_beef',
+			'#forge:cooked_beef',
 			'#forge:crops/cabbage',
 			'#forge:cheese',
 			'#forge:cheese',

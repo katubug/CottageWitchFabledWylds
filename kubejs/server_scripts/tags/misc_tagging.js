@@ -4,7 +4,8 @@ ServerEvents.tags('item', event => {
 		'nethersdelight:golden_machete',
 		'farmersdelight:golden_knife',
 		'nethersdelight:golden_machete',
-		'forbidden_arcanus:golden_blacksmith_gavel'
+		'forbidden_arcanus:golden_blacksmith_gavel',
+		'tide:golden_fishing_rod'
 	)
 
 	//Magical Knives work with FD
@@ -246,6 +247,11 @@ ServerEvents.tags('item', event => {
 		'the_bumblezone:music_disc_life_renren',
 		'the_bumblezone:music_disc_radiance_renren',
 		'species:music_disc_dial'
+	)
+
+	//Spider Silk is String
+	event.add('forge:string',
+		'crittersandcompanions:silk'
 	)
 
 })

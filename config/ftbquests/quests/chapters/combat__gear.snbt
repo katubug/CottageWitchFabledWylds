@@ -286,11 +286,18 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "2C0A35D9725B708D"
-				item: "bettertridents:trident_fragment"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "59AE6FF8111E4B37"
+					item: "create_aquatic_ambitions:polished_quartz_tine"
+					type: "item"
+				}
+				{
+					id: "2BCDAF45E9223F59"
+					item: "create_aquatic_ambitions:prismarine_rod"
+					type: "item"
+				}
+			]
 			title: "Build a Trident"
 			x: 5.0d
 			y: -6.0d
@@ -685,8 +692,13 @@
 			y: 3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["03A71394322AFF28"]
-			description: ["Do you have an excess of &bTrinkets&r? You can &6right click them on &bAmethyst&r to convert them into &bUnknown Fragments&r. Once you have nine of them, you can &atrade them in here&r for a &brandom Trinket&r."]
+			description: [
+				"Do you have an excess of &bTrinkets&r? You can &6right click them on &bAmethyst&r to convert them into &bUnknown Fragments&r. Once you have nine of them, you can &atrade them in here&r for a &brandom Trinket&r."
+				""
+				"&dThis quest is repeatable&r."
+			]
 			id: "2336E01F3E73F4DD"
 			rewards: [{
 				exclude_from_claim_all: true

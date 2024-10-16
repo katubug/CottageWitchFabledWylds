@@ -1,6 +1,6 @@
 {
   "active": true,
-  "showOnlyOneTime": true,
+  "showOnlyOneTime": false,
   "cooldown": 30,
   "chatMessage": true,
   "infoMessageSent": true,
@@ -8,10 +8,5 @@
     "dimdungeons:"
   ],
   "dontShow": [
-    "ctov:medium/village_mountain",
-    "dungeons_enhanced:miners_house",
-    "idas:washing_camp",
-    "ae2:meteorite",
-    "formationsoverworld:witch_tower"
   ]
 }

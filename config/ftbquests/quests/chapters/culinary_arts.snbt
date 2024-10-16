@@ -2487,9 +2487,15 @@
 		{
 			dependencies: ["34581095B797C667"]
 			description: [
-				"&bHerbal Teas&r are commonly used in witchcraft as &atreatments to various ailments&r. &bLavender Tea&r, for example, is good for anxiety and can also call &alove into your life&r."
+				"&bHerbal Teas&r are commonly used in witchcraft as &atreatments to various ailments&r."
+				""
+				"&bLavender Tea&r, for example, is good for anxiety and can also call &alove into your life&r. It will boost your &bFortune&r for a while."
 				""
 				"&bYerba Mate&r is a strongly stimulating tea, making it &agood for fatigue&r or other such maladies."
+				""
+				"&bDandelion Tea&r is made by steeping Dandelion root, and is used as a replacement for coffee. It will also grant you the &bComforting&r effect, which &akeeps you healing regardless of hunger&r."
+				""
+				"&bRose Hip Tea&r is a delicious floral which can aid in &aglamour spells, good luck, and prosperity&r! and Additionally, it will grant you a small amount of &bRegeneration&r!"
 			]
 			id: "7B3D377F253BFF4A"
 			rewards: [
@@ -2525,6 +2531,16 @@
 				{
 					id: "5AF41DE340989714"
 					item: "herbalbrews:lavender_tea"
+					type: "item"
+				}
+				{
+					id: "54DDA4BD38E9CACA"
+					item: "farmersrespite:dandelion_tea"
+					type: "item"
+				}
+				{
+					id: "609DDDD51025F1AB"
+					item: "farmersrespite:rose_hip_tea"
 					type: "item"
 				}
 			]
@@ -3482,6 +3498,110 @@
 			}]
 			x: 2.0d
 			y: -13.5d
+		}
+		{
+			description: [
+				"&bTea&r is a small bush which can be grown in order to produce &btea leaves&r, which can be brewed into &btea&r. Let me say &btea&r some more. &bTea&r."
+				""
+				"You'll need a &bkettle&r to brew it, which is made with some &bleather&r, a &bbucket&r, and &bcopper&r."
+				""
+				"You can find &bWild Tea Bushes&r in &cSwamps&r. To obtain different kinds of tea, &6allow the bush to continue growing&r until it changes color. This will allow you to gather &byellow&r and &bblack&r tea leaves!"
+				""
+				"You cannot grow tea on &bFarmland&r, it must be planted on grass."
+			]
+			id: "4D50F0562D23BE6D"
+			subtitle: "the beginning of a beautiful thing"
+			tasks: [{
+				id: "543698154EB0CAEC"
+				item: "farmersrespite:tea_seeds"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 31.0d
+		}
+		{
+			description: [
+				"&bCoffee Beans&r can be acquired from &aBasalt Deltas&r in the Nether."
+				""
+				"What, are you surprised coffee comes from the Nether? Why do you think it's so hellishly good?"
+			]
+			id: "4CC648A386724E49"
+			subtitle: "coffeecoffeecoffeecoffee"
+			tasks: [{
+				id: "3E4848E8E0248815"
+				item: "farmersrespite:coffee_beans"
+				type: "item"
+			}]
+			title: "Obtain Coffee Beans"
+			x: 6.5d
+			y: 31.0d
+		}
+		{
+			description: [
+				"The &bKettle&r must be &6placed on a heat source&r in order to brew tea. You can use a &bcampfire&r, &bmagma block&r, or other source of warmth."
+				""
+				"Use a &bwater bucket&r or 3 &bwater bottles&r to fill the &bkettle&r with water by &6right clicking them&r on the block. Then, &6right click&r and place your brewing ingredients inside!"
+			]
+			id: "645453F2486421D5"
+			subtitle: "don't let it call your Cooking Pot black"
+			tasks: [{
+				id: "78474C88B6ED04A0"
+				item: "farmersrespite:kettle"
+				type: "item"
+			}]
+			title: "Obtain a Kettle"
+			x: 7.5d
+			y: 32.5d
+		}
+		{
+			description: [
+				"Black tea is the leaf with the greatest amount of tannins, making it the most resistant to heat and also the most strongly-flavored."
+				""
+				"Oh, it's also the most &aCaffeinated&r, and will grant you that effect."
+			]
+			id: "61E3EA0F861F87BF"
+			subtitle: "hello, little darjeeling"
+			tasks: [{
+				id: "342ABFE399374891"
+				item: "farmersrespite:black_tea_leaves"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 29.5d
+		}
+		{
+			description: ["Yellow tea, known to most as Oolong, is an earthier flavored tea with the &aability to grant resistance&r."]
+			id: "608678D6E0703C0E"
+			tasks: [{
+				id: "6B404BE04A8BD33E"
+				item: "farmersrespite:yellow_tea_leaves"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 29.5d
+		}
+		{
+			description: ["This tea is bright, grassy, and delicious! It also grants you the &aHaste&r effect."]
+			id: "11CE34015F36542A"
+			tasks: [{
+				id: "2CEE54FCCBD797C1"
+				item: "farmersrespite:green_tea_leaves"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 30.5d
+		}
+		{
+			description: ["Make some purulent tea. It may give you weakness, but it also extends a random effect by 15 seconds. So that's kinda good, right?"]
+			id: "0340E6FF3BF8E75F"
+			subtitle: "not very good for you"
+			tasks: [{
+				id: "68D2FA1528D75B0E"
+				item: "farmersrespite:purulent_tea"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 32.5d
 		}
 	]
 	title: "Culinary Arts"

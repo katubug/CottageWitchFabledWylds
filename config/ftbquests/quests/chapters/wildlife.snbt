@@ -2010,7 +2010,7 @@
 				value: 1L
 			}]
 			title: "Free the Snow Golem"
-			x: -3.5d
+			x: -4.5d
 			y: -1.0d
 		}
 		{
@@ -2100,35 +2100,6 @@
 			}]
 			title: "Meet the Ferret"
 			x: -8.5d
-			y: -1.0d
-		}
-		{
-			description: [
-				"You may not have looked closely at one, but &eSkunks&r are adorable. As a totem animal, Skunks represent protection, independence, and self-respect. Those with the Skunk totem do not question their own abilities, but instead feel confident in them."
-				""
-				"Unlike in real life, &eSkunks&r in this modpack make &agreat pets&r. You can &6tame them with &bSweet Berries&r, and &6breed them with &bCarrots&r. You can change their behaviors by &6using a &bSkunk Commanding Stick&r on them, and you can even &acarry one on your shoulder&r!"
-				""
-				"There are an impressive &a11 varieties of Skunk&r - can you collect them all?"
-			]
-			id: "3EA6254700D3FA0D"
-			rewards: [{
-				count: 5
-				id: "1A0DF04EA4B9380D"
-				item: "minecraft:sweet_berries"
-				type: "item"
-			}]
-			shape: "heart"
-			subtitle: "Your friend, the skunk"
-			tasks: [{
-				icon: "skunk:copper_skunk_item"
-				id: "76EF2E567318E0D0"
-				observe_type: 5
-				timer: 0L
-				title: "Meet the Skunk"
-				to_observe: "skunk:skunk"
-				type: "observation"
-			}]
-			x: -4.5d
 			y: -1.0d
 		}
 		{

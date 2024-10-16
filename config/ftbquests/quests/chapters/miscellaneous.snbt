@@ -2619,11 +2619,11 @@
 			description: [
 				"To get started, let's craft a &bCopper Plains Farm&r. Take this &bcaptured Pig&r and &6place it into the Farm&r. You can &aadd a weapon&r for it to be considered to be a &aplayer kill&r, which sometimes provides different &aloot drops&r."
 				""
-				"You can &aexport &lonly from the bottom&r&a of the &bFarm&r. This is &dhighly recommended&r to avoid lag! You can use an &bItem Pipe&r or a &bHopper&r connected to another storage block&r."
+				"You can &aexport &lonly from the bottom&r&a of the &bFarm&r. This is &dhighly recommended&r to avoid lag! You can use an &bPipe&r, &bCable&r, or a &bHopper&r connected to another storage block&r."
 				""
 				"To &aimport items into your &bFarms&r, you must &aconnect to the back of the block&r."
 				""
-				"It is also encouraged to &aadd an overflow safety&r, such as a &lSophisticated Storage&r &bVoid Upgrade&r. Generating items into full inventories is &dvery laggy&r."
+				"It is also encouraged to &aadd an overflow safety&r, such as a &bVoid Upgrade&r. Generating items into full inventories is &dvery laggy&r."
 			]
 			id: "475522DFAB572B5D"
 			rewards: [{

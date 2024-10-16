@@ -197,6 +197,8 @@ ServerEvents.recipes(event => {
         {id: 'farm_and_charm:pot_cooking/nettle_tea'},
         {id: 'farm_and_charm:meadow/cooking/nettle_tea'},
         {output: 'malum:spectral_lens'},
+        {id: 'hexerei:leather_from_drying_rack'},
+        {id: 'meadow:cooking_pot/leather'},
     ];
     
       for (const remove of toRemove) {

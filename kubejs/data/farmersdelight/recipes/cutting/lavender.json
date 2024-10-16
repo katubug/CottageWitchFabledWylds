@@ -1,0 +1,16 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "mysticsbiomes:lavender"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "herbalbrews:lavender_blossom"
+      }
+    ]
+  }

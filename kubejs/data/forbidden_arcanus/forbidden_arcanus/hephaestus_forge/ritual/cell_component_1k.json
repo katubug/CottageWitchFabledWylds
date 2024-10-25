@@ -1,0 +1,41 @@
+{
+    "additional_requirements": {
+      "forge_tier": 1
+    },
+    "essences": {
+      "aureal": 0,
+      "blood": 0,
+      "experience": 100,
+      "souls": 0
+    },
+    "inputs": [
+        {
+        "amount": 3,
+        "ingredient": {
+            "item": "ae2:certus_quartz_crystal"
+        }
+        },
+    {
+        "amount": 1,
+        "ingredient": {
+            "item": "thaumon:mutagen"
+        }
+        },
+      {
+        "amount": 4,
+        "ingredient": {
+          "item": "minecraft:redstone"
+        }
+      }
+    ],
+    "main_ingredient": {
+      "item": "malum:intricate_assembly"
+    },
+    "result": {
+      "type": "forbidden_arcanus:create_item",
+      "result_item": {
+        "Count": 1,
+        "id": "ae2:cell_component_1k"
+      }
+    }
+  }

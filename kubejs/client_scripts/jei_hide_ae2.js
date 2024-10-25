@@ -72,7 +72,10 @@ JEIEvents.hideItems(event => {
         'ae2:growth_accelerator',
         'ae2:inscriber',
         'ae2:name_press',
-        'ae2:pattern_encoding_terminal'
+        'ae2:pattern_encoding_terminal',
+        'ae2:sky_stone_chest', 
+        'ae2:smooth_sky_stone_chest', 
+        'ae2:mysterious_cube'
     ];
     
     for (const hide of toHide) {

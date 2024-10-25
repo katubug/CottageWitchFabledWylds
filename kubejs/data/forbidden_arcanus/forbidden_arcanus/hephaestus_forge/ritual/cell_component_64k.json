@@ -1,0 +1,44 @@
+{
+    "additional_requirements": {
+      "forge_tier": 4,
+      "enhancers": [
+          "forbidden_arcanus:maledictus_pact"
+        ]
+    },
+    "essences": {
+      "aureal": 400,
+      "blood": 0,
+      "experience": 400,
+      "souls": 4
+    },
+    "inputs": [
+    {
+        "amount": 1,
+        "ingredient": {
+            "item": "netherstar_shards:netherstarshard"
+        }
+        },
+        {
+        "amount": 3,
+        "ingredient": {
+            "item": "ae2:cell_component_16k"
+        }
+        },
+      {
+        "amount": 4,
+        "ingredient": {
+          "item": "mermod:glowing_pearl_modifier"
+        }
+      }
+    ],
+    "main_ingredient": {
+      "item": "malum:intricate_assembly"
+    },
+    "result": {
+      "type": "forbidden_arcanus:create_item",
+      "result_item": {
+        "Count": 1,
+        "id": "ae2:cell_component_64k"
+      }
+    }
+  }

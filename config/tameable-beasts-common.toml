@@ -18,6 +18,10 @@
 	"Racoons enabled:" = true
 	#Spawn Crested Gecko
 	"Crested Geckos enabled:" = true
-	#Spawn Argentavis Gecko
+	#Spawn Argentavis
 	"Argentavis enabled:" = true
+	#Spawn Grapteranodons
+	"Grapteranodons enabled:" = true
+	#Argentavis Spawn Height
+	"Argentavis minimum spawn height:" = 100
 

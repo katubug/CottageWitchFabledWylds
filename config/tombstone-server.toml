@@ -222,3 +222,24 @@
 	#Range: 1 ~ 5
 	level_max_gladiator = 5
 
+#Allows to customize or disable the potions
+[potions]
+	#Allows Earthly Garden [false/true|default:true]
+	allow_earthly_garden = true
+	#Allows Bait [false/true|default:true]
+	allow_bait = true
+	#Allows Frostbite [false/true|default:true]
+	allow_frostbite = true
+	#Allows Darkness [false/true|default:true]
+	allow_darkness = true
+	#Allows Discretion [false/true|default:true]
+	allow_discretion = true
+	#Allows Restoration [false/true|default:true]
+	allow_restoration = true
+	#Allows Weaver Walk [false/true|default:true]
+	allow_weaver_walk = true
+	#Allows Giant Strength [false/true|default:true]
+	allow_giant_strength = true
+	#Allows Little World [false/true|default:true]
+	allow_little_world = true
+

@@ -33,3 +33,9 @@
 		#If set to true, you may put rebound on any weapon in the game.
 		enableUltimateRebound = false
 
+[compat]
+
+	[compat.irons_spellbooks]
+		#If set to true, and Iron's Spellbooks is installed, spells and scrolls from the mod will function as soul hunter weapons.
+		spellsLootSpirits = true
+

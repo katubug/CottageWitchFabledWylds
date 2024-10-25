@@ -110,6 +110,14 @@ ServerEvents.recipes(event => {
         {output: 'ae2:portable_fluid_cell_16k'},
         {output: 'ae2:portable_fluid_cell_64k'},
         {output: 'ae2:portable_fluid_cell_256k'},
+        {output: 'ae2:sky_stone_chest'},
+        {output: 'ae2:smooth_sky_stone_chest'},
+        {output: 'ae2:mysterious_cube'},
+        {output: 'ae2:basic_card'},
+        {output: 'ae2:advanced_card'},
+        {output: 'ae2:equal_distribution_card'}, 
+        {output: 'ae2:energy_card'}, 
+        {output: 'ae2:void_card'},
         
     ];
     

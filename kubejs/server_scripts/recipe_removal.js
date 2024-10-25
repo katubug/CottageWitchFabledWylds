@@ -199,6 +199,7 @@ ServerEvents.recipes(event => {
         {output: 'malum:spectral_lens'},
         {id: 'hexerei:leather_from_drying_rack'},
         {id: 'meadow:cooking_pot/leather'},
+    
     ];
     
       for (const remove of toRemove) {

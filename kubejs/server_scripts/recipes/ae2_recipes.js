@@ -55,6 +55,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+	/*
 	//1k Cell Components
 	event.shaped(
 		Item.of('ae2:cell_component_1k'),
@@ -129,6 +130,7 @@ ServerEvents.recipes(event => {
 			D: 'malum:intricate_assembly'
 		}
 	)
+	*/
 
 	//Annihilation Core
 	event.shapeless(
@@ -180,7 +182,7 @@ ServerEvents.recipes(event => {
 			'DED'
 		], {
 			A: 'minecraft:redstone',
-			B: 'phantasm:crystal_shard',
+			B: '#forge:terrestrial_crystals',
 			C: 'malum:astral_weave',
 			D: 'forbidden_arcanus:deorum_ingot',
 			E: 'forbidden_arcanus:edelwood_oil'
@@ -203,6 +205,62 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+	//Basic Card/Certus Tablet
+	event.shaped(
+		Item.of('ae2:basic_card'),
+		[
+			'ABA',
+			'BCB',
+			'ABA'
+		], {
+			A: 'ae2:charged_certus_quartz_crystal',
+			B: 'forbidden_arcanus:arcane_crystal_dust',
+			C: 'minecraft:redstone'
+		}
+	)
+
+	//Advanced Card/Fluix Tablet
+	event.shaped(
+		Item.of('ae2:advanced_card'),
+		[
+			'ABA',
+			'BCB',
+			'ABA'
+		], {
+			A: 'ae2:fluix_crystal',
+			B: 'malum:hex_ash',
+			C: 'minecraft:redstone'
+		}
+	)
+
+	//Equal Distribution Tablet/Card
+	event.shapeless(
+		Item.of('ae2:equal_distribution_card'),
+		[
+			'ae2:advanced_card', 
+			'create:electron_tube'
+		]
+	)
+
+	//Resonance Tablet/Energy Card
+	event.shapeless(
+		Item.of('ae2:energy_card'),
+		[
+			'ae2:advanced_card', 
+			'malum:blazing_diode'
+		]
+	)
+
+	//Void Tablet/Overflow Destruction Card
+	event.shapeless(
+		Item.of('ae2:void_card'),
+		[
+			'ae2:basic_card', 
+			'forbidden_arcanus:obsidian_ingot'
+		]
+	)
+
+	//Sized Items
 	let numbers = [
 		'1k',
 		'4k',

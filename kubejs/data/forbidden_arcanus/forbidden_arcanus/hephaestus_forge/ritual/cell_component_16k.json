@@ -1,0 +1,44 @@
+{
+    "additional_requirements": {
+      "forge_tier": 3,
+      "enhancers": [
+        "forbidden_arcanus:divine_pact"
+        ]
+    },
+    "essences": {
+      "aureal": 200,
+      "blood": 0,
+      "experience": 300,
+      "souls": 2
+    },
+    "inputs": [
+    {
+        "amount": 1,
+        "ingredient": {
+            "item": "forbidden_arcanus:mundabitur_dust"
+        }
+        },
+        {
+        "amount": 3,
+        "ingredient": {
+            "item": "ae2:cell_component_4k"
+        }
+        },
+      {
+        "amount": 4,
+        "ingredient": {
+          "item": "minecraft:glowstone_dust"
+        }
+      }
+    ],
+    "main_ingredient": {
+      "item": "malum:intricate_assembly"
+    },
+    "result": {
+      "type": "forbidden_arcanus:create_item",
+      "result_item": {
+        "Count": 1,
+        "id": "ae2:cell_component_16k"
+      }
+    }
+  }

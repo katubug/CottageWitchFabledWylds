@@ -118,6 +118,7 @@ ServerEvents.recipes(event => {
         {output: 'ae2:equal_distribution_card'}, 
         {output: 'ae2:energy_card'}, 
         {output: 'ae2:void_card'},
+        {output: 'ae2:vibration_chamber'},
         
     ];
     

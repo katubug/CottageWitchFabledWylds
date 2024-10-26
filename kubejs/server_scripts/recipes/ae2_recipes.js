@@ -260,6 +260,23 @@ ServerEvents.recipes(event => {
 		]
 	)
 
+	//Lodestone Core/Creative Energy Cell
+	event.shaped(
+		Item.of('ae2:creative_energy_cell'),
+		[
+			'ABA',
+			'CDC',
+			'EFE'
+		], {
+			A: 'forbidden_arcanus:arcane_crystal',
+			B: 'malum:soul_stained_steel_ingot',
+			C: 'experienceobelisk:cognitive_crystal',
+			D: 'reliquary:alkahestry_altar',
+			E: 'create:polished_rose_quartz',
+			F: 'forbidden_arcanus:smelter_prism'
+		}
+	)
+
 	//Sized Items
 	let numbers = [
 		'1k',

@@ -75,7 +75,8 @@ JEIEvents.hideItems(event => {
         'ae2:pattern_encoding_terminal',
         'ae2:sky_stone_chest', 
         'ae2:smooth_sky_stone_chest', 
-        'ae2:mysterious_cube'
+        'ae2:mysterious_cube',
+        'ae2:vibration_chamber'
     ];
     
     for (const hide of toHide) {

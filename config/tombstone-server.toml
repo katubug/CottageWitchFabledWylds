@@ -236,10 +236,4 @@
 	allow_discretion = true
 	#Allows Restoration [false/true|default:true]
 	allow_restoration = true
-	#Allows Weaver Walk [false/true|default:true]
-	allow_weaver_walk = true
-	#Allows Giant Strength [false/true|default:true]
-	allow_giant_strength = true
-	#Allows Little World [false/true|default:true]
-	allow_little_world = true
 

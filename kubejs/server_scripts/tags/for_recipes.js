@@ -162,4 +162,9 @@ ServerEvents.tags('item', event => {
 		'phantasm:crystal_shard',
 		'minecraft:amethyst_shard'
 	)
+
+	//Raw Bacon
+	event.add('forge:bacon',
+		'rainbowreef:hogfish_bacon'
+	)
 })

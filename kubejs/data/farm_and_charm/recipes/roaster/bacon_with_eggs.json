@@ -1,0 +1,28 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:raw_bacon"
+    },
+    {
+      "tag": "forge:raw_bacon"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "farm_and_charm:butter"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "farm_and_charm:bacon_with_eggs",
+    "count": 3
+  }
+}

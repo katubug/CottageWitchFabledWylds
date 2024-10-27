@@ -1,0 +1,21 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "candlelight:bolognese"
+    },
+    {
+      "tag": "farm_and_charm:pasta"
+    },
+    {
+      "tag": "candlelight:cheeses"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:pasta_with_bolognese"
+  }
+}

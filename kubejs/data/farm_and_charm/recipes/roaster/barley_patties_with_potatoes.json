@@ -1,0 +1,31 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "farm_and_charm:barley"
+    },
+    {
+      "tag": "farm_and_charm:barley"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "tag": "farm_and_charm:butter"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "farm_and_charm:cabbage"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "farm_and_charm:barley_patties_with_potatoes",
+    "count": 2
+  }
+}

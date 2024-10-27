@@ -1,0 +1,31 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "farm_and_charm:oat"
+    },
+    {
+      "tag": "farm_and_charm:butter"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "farmersdelight:minced_beef"
+    },
+    {
+      "item": "farmersdelight:minced_beef"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "farm_and_charm:sausage_with_oat_patty",
+    "count": 2
+  }
+}

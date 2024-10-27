@@ -31,6 +31,7 @@ LootJS.modifiers((event) => {
 
     event.addLootTypeModifier(LootType.CHEST).removeLoot([
         'capsule:capsule',
+        'vegandelight:salt',
         'tombstone:bag_of_seeds',
         'create:dough',
         'farm_and_charm:bacon',

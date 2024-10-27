@@ -1,0 +1,28 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "farm_and_charm:butter"
+    },
+    {
+      "tag": "farm_and_charm:flour"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "farm_and_charm:strawberries"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:omelet",
+    "count": 6
+  }
+}

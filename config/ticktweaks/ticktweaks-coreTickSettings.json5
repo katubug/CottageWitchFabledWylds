@@ -1,0 +1,11 @@
+{
+	/* Base formula for dynamic tick rate calculation.
+	   Use 'tps' as the TPS variable.
+	*/
+	"tickRateFormula": "3 - (tps / 10)",
+	/* List of dimensions where custom ticking is enabled
+	   To don't break the configs, it is necessary that you put manually the worlds.
+	   Sorry for the inconveniences.
+	*/
+	"enabledDimensions": []
+}

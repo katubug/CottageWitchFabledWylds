@@ -210,7 +210,10 @@ JEIEvents.hideItems(event => {
       'unusualprehistory:encrusted_sack',
       'unusualprehistory:encrusted_spawn_egg',
       'vegandelight:salt',
-      'nameless_trinkets:cracked_crown'
+      'nameless_trinkets:cracked_crown',
+      'enchanted:witch_cauldron',
+      'herbalbrews:cauldron',
+      'meadow:cooking_cauldron',
       ];
     
       for (const hide of toHide) {

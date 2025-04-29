@@ -382,29 +382,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["6E1B07BEB8F423BC"]
-			description: [
-				"You can use the &bBrewing Cauldron&r to create a few &aunique &bPotions&r to help you in combat."
-				""
-				"These are: &bArmor&r, &bDamage&r, and &bFeral&r (which combines the two). They can be brewed in normal and &blarge&r variants."
-			]
-			id: "037DDBA4E75EC862"
-			rewards: [{
-				count: 5
-				id: "32DD001DC3C775C1"
-				item: "minecraft:glass_bottle"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7F438B0249797484"
-				item: "herbalbrews:cauldron"
-				type: "item"
-			}]
-			title: "Brewing Unique Potions"
-			x: -4.5d
-			y: -2.0d
-		}
-		{
 			description: [
 				"As you might know, the &bEnchanting Table&r is a device which is used to &aimbue your gear with magic&r, and requires the power of &bKnowledge&r, both in &bBookshelf&r and &bExperience&r form."
 				""

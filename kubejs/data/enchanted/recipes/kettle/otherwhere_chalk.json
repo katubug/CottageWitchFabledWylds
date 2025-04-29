@@ -1,0 +1,31 @@
+{
+  "type": "enchanted:kettle",
+  "cookingColor": [
+    49,
+    21,
+    74
+  ],
+  "finalColor": [
+    73,
+    13,
+    130
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "enchanted:tear_of_the_goddess"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "enchanted:ritual_chalk"
+    }
+  ],
+  "power": 2000,
+  "result": {
+    "item": "enchanted:otherwhere_chalk"
+  }
+}

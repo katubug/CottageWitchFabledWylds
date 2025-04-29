@@ -1,0 +1,4 @@
+{
+	// TPS threshold for emergency systems (block entity freeze)
+	"tpsThreshold": 2
+}

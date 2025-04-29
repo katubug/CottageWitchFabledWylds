@@ -1,0 +1,28 @@
+{
+  "type": "enchanted:kettle",
+  "cookingColor": [
+    84,
+    1,
+    26
+  ],
+  "finalColor": [
+    156,
+    1,
+    47
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "enchanted:ritual_chalk"
+    }
+  ],
+  "power": 2000,
+  "result": {
+    "item": "enchanted:nether_chalk"
+  }
+}

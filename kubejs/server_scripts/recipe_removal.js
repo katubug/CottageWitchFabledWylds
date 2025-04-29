@@ -148,6 +148,9 @@ ServerEvents.recipes(event => {
         {output: 'farm_and_charm:raw_pasta'},
         {output: 'farm_and_charm:minced_beef'},
         {output: 'farm_and_charm:chicken_parts'},
+        {output: 'enchanted:witch_cauldron'},
+        {output: 'herbalbrews:cauldron'},
+        {output: 'meadow:cooking_cauldron'},
         //Replaced Recipes
         {output: 'mighty_mail:post_box'},
         {id: 'farmersdelight:wheat_dough_from_water'},
@@ -198,7 +201,22 @@ ServerEvents.recipes(event => {
         {id: 'farm_and_charm:meadow/cooking/nettle_tea'},
         {output: 'malum:spectral_lens'},
         {id: 'hexerei:leather_from_drying_rack'},
-        {id: 'meadow:cooking_pot/leather'},
+        // {id: 'meadow:cooking_pot/leather'},
+        // {id: 'enchanted:witch_cauldron/mutandis_extremis'},
+        // {id: 'enchanted:witch_cauldron/mutandis'},
+        // {id: 'enchanted:witch_cauldron/drop_of_luck'},
+        // {id: 'enchanted:witch_cauldron/nether_wart'},
+        // {id: 'enchanted:witch_cauldron/golden_chalk'},
+        // {id: 'enchanted:witch_cauldron/nether_chalk'},
+        // {id: 'enchanted:witch_cauldron/otherwhere_chalk'},
+        // {id: 'enchanted:witch_cauldron/cooked_chicken'},
+        // {id: 'enchanted:witch_cauldron/cooked_beef'},
+        // {id: 'enchanted:witch_cauldron/cooked_porkchop'},
+        {id: 'herbalbrews:cauldron_brewing/dummy_recipe'},
+        {type: 'meadow:cooking'},
+        {type: 'enchanted:witch_cauldron'},
+    
+    
     
     ];
     

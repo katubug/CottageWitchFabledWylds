@@ -1,0 +1,37 @@
+{
+  "type": "enchanted:kettle",
+  "cookingColor": [
+    128,
+    30,
+    23
+  ],
+  "finalColor": [
+    222,
+    49,
+    29
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "enchanted:drop_of_luck"
+    },
+    {
+      "item": "enchanted:wool_of_bat"
+    },
+    {
+      "item": "enchanted:tongue_of_dog"
+    },
+    {
+      "item": "hexerei:dried_belladonna_flowers"
+    },
+    {
+      "item": "enchanted:mandrake_root"
+    }
+  ],
+  "power": 1000,
+  "result": {
+    "item": "enchanted:redstone_soup"
+  }
+}

@@ -1,13 +1,13 @@
 ServerEvents.recipes(event => {
 
 	//Hephaestus Forge Capsule Recipe
-	event.shapeless(
-		Item.of('capsule:capsule', '{color:16777215,display:{color:3949738},label:"Hephaestusforge",size:9,sourceInventory:{},state:3,structureName:"b-4-config_capsule_rewards_hephaestusforge",upgraded:0}'),
-		[
-			'forbidden_arcanus:darkstone',
-			'capsule:capsule'
-		]
-	)
+	// event.shapeless(
+	// 	Item.of('capsule:capsule', '{color:16777215,display:{color:3949738},label:"Hephaestusforge",size:9,sourceInventory:{},state:3,structureName:"b-4-config_capsule_rewards_hephaestusforge",upgraded:0}'),
+	// 	[
+	// 		'forbidden_arcanus:darkstone',
+	// 		'capsule:capsule'
+	// 	]
+	// )
 
 	//Stonecutter recipes for Xerca Woods
 

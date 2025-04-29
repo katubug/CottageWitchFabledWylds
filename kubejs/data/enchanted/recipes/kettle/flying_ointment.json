@@ -1,0 +1,38 @@
+{
+  "type": "enchanted:kettle",
+  "cookingColor": [
+    112,
+    102,
+    21
+  ],
+  "finalColor": [
+    219,
+    199,
+    42
+  ],
+  "ingredients": [
+    {
+      "item": "enchanted:redstone_soup"
+    },
+    {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:long_swiftness\"}"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "enchanted:wool_of_bat"
+    },
+    {
+      "item": "hexerei:dried_belladonna_flowers"
+    }
+  ],
+  "power": 3000,
+  "result": {
+    "item": "enchanted:flying_ointment"
+  }
+}

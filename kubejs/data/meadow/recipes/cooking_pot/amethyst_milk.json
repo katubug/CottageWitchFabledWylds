@@ -1,0 +1,23 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "meadow:wooden_bucket"
+  },
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "item": "minecraft:amethyst_cluster"
+    },
+    {
+      "tag": "meadow:salt"
+    },
+    {
+      "tag": "meadow:milk"
+    }
+  ],
+  "result": {
+    "item": "meadow:wooden_amethyst_milk_bucket"
+  }
+}

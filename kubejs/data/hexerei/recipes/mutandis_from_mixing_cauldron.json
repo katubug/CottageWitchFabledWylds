@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "enchanted:exhale_of_the_horned_one"
+    },
+    {
+      "item": "enchanted:mandrake_root"
+    },
+    {
+      "tag": "forge:eggs"
+    }
+  ],
+  "output": {
+    "item": "enchanted:mutandis",
+    "count": 6
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:water"
+  },
+  "fluidLevelsConsumed": 1000
+}

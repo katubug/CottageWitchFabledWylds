@@ -266,26 +266,26 @@ for (const color of dyeColor) {
 	)
 	    */
 
-	event.shapeless(
-		Item.of('abyssal_decor:cinnamon_stick', 2),
-		[
-			'abyssal_decor:cinnamon_sapling'
-		]
-	)
+	// event.shapeless(
+	// 	Item.of('abyssal_decor:cinnamon_stick', 2),
+	// 	[
+	// 		'abyssal_decor:cinnamon_sapling'
+	// 	]
+	// )
 
-	event.shaped(
-		Item.of('abyssal_decor:scrimshaw_cave'),
-		[
-			' A ',
-			' A ',
-			' B '
-		], {
-			A: 'minecraft:quartz',
-			B: 'minecraft:iron_ingot'
-		}
-	)
+	// event.shaped(
+	// 	Item.of('abyssal_decor:scrimshaw_cave'),
+	// 	[
+	// 		' A ',
+	// 		' A ',
+	// 		' B '
+	// 	], {
+	// 		A: 'minecraft:quartz',
+	// 		B: 'minecraft:iron_ingot'
+	// 	}
+	// )
 
-	event.stonecutting('abyssal_decor:cinnamon_shingles', 'abyssal_decor:cinnamon_wood')
+	// event.stonecutting('abyssal_decor:cinnamon_shingles', 'abyssal_decor:cinnamon_wood')
 
 	// Blast 1 iron ingot into 10 nuggets in a Blast Furnace: 
 	event.blasting('create:zinc_block', 'create:raw_zinc_block')

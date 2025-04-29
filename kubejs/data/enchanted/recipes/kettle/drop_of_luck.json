@@ -1,0 +1,34 @@
+{
+    "type": "enchanted:kettle",
+    "cookingColor": [
+      128,
+      30,
+      23
+    ],
+    "finalColor": [
+      222,
+      49,
+      29
+    ],
+    "ingredients": [
+      {
+        "item": "enchanted:mandrake_root"
+      },
+      {
+        "item": "minecraft:nether_wart"
+      },
+      {
+        "item": "enchanted:tear_of_the_goddess"
+      },
+      {
+        "item": "enchanted:refined_evil"
+      },
+      {
+        "item": "enchanted:mutandis_extremis"
+      }
+    ],
+    "power": 7000,
+    "result": {
+      "item": "enchanted:drop_of_luck"
+    }
+  }

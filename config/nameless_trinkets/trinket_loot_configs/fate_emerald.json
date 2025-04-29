@@ -1,0 +1,182 @@
+{
+  "item": "fate_emerald",
+  "chance": 0.0025,
+  "loot_tables": [
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/spawn_bonus_chest"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/end_city_treasure"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/simple_dungeon"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_weaponsmith"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_toolsmith"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_armorer"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_cartographer"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_mason"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_shepherd"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_butcher"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_fletcher"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_fisher"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_tannery"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_temple"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_desert_house"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_plains_house"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_taiga_house"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_snowy_house"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/village/village_savanna_house"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/abandoned_mineshaft"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/nether_bridge"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/stronghold_library"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/stronghold_crossing"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/stronghold_corridor"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/desert_pyramid"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/jungle_temple"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/jungle_temple_dispenser"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/igloo_chest"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/woodland_mansion"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/underwater_ruin_small"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/underwater_ruin_big"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/buried_treasure"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/shipwreck_map"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/shipwreck_supply"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/shipwreck_treasure"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/pillager_outpost"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/bastion_treasure"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/bastion_other"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/bastion_bridge"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/bastion_hoglin_stable"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/ancient_city"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/ancient_city_ice_box"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "chests/ruined_portal"
+    },
+    {
+      "f_135804_": "minecraft",
+      "f_135805_": "gameplay/cat_morning_gift"
+    }
+  ]
+}

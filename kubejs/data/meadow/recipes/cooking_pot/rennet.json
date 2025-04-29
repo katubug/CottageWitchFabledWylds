@@ -1,0 +1,18 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "tag": "meadow:egg"
+    },
+    {
+      "tag": "meadow:salt"
+    }
+  ],
+  "result": {
+    "item": "meadow:rennet",
+    "count": 2
+  }
+}

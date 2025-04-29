@@ -69,14 +69,9 @@
 	nether_quartz_knife = true
 	valkyrum_knife = true
 	phoenix_knife = true
-
-["Pie Overhauls"]
-	blueberry_pie_slice = true
-	gloomgourd_pie_slice = true
-	green_apple_pie_slice = true
-	pumpkin_pie_slice = true
-	salmonberry_pie_slice = true
-	source_berry_pie_slice = true
+	aluminum_knife = true
+	pearlescent_knife = true
+	resonarium_knife = true
 
 ["Registry & Recipes"]
 	acorn = true
@@ -103,11 +98,9 @@
 	deluxe_cheeseburger = true
 	ender_nectar = true
 	field_salad = true
-	glow_jelly_bottle = true
 	green_apple_crate = true
 	green_tea_leaf = false
 	honey_glazed_walnut = true
-	jelly_bottle = true
 	lavender_tea = true
 	marshmallow_stick = true
 	matcha = true
@@ -115,7 +108,6 @@
 	matcha_ice_cream_block = true
 	matcha_latte = true
 	mini_melon = true
-	nut_butter_and_jelly_sandwich = true
 	nut_butter_bottle = true
 	prickly_pear_juice = true
 	quartz_cabinet = true
@@ -160,4 +152,28 @@
 	cactus_soup = true
 	cactus_soup_cup = true
 	yucca_fruit_crate = true
+	baklava = true
+	baklava_slice = true
+	chorus_muffin = true
+	glow_jam_jar = true
+	jam_jar = true
+	nut_butter_and_jam_sandwich = true
+	salmonberry_pie_slice = true
+	source_berry_cookie = true
+	source_berry_gummy = true
+	source_berry_ice_cream = true
+	source_berry_ice_cream_block = true
+	source_berry_milkshake = true
+	venison_stew = true
+	venison_stew_cup = true
+
+["Baked Good Overhauls"]
+	blueberry_pie_slice = true
+	chorus_pie_slice = true
+	gloomgourd_pie_slice = true
+	green_apple_pie_slice = true
+	mulberry_pie_slice = true
+	passion_fruit_tart_slice = true
+	pumpkin_pie_slice = true
+	source_berry_pie_slice = true
 

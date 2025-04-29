@@ -1,0 +1,23 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "meadow:wooden_bucket"
+  },
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "tag": "meadow:wheat"
+    },
+    {
+      "tag": "meadow:wheat"
+    },
+    {
+      "tag": "meadow:wheat"
+    }
+  ],
+  "result": {
+    "item": "meadow:wooden_grain_milk_bucket"
+  }
+}

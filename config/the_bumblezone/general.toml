@@ -108,29 +108,6 @@
 	# 
 	#-----------------------------------------------------
 	#
-	# Multiplies the trade reward by this much for bonus Trades! 0 or 1 set here disables bonus Trades.
-	#
-	#Range: 0 ~ 256
-	beeQueenBonusTradeRewardMultiplier = 3
-	# 
-	#-----------------------------------------------------
-	#
-	# How long in ticks that bonus Trades will last for before the Bee Queen asks for a new item.
-	# Setting this to 0 disables bonus Trades. Anything less than a minute (1200) will not broadcast request message to players
-	#
-	#Range: 0 ~ 2000000
-	beeQueenBonusTradeDurationInTicks = 24000
-	# 
-	#-----------------------------------------------------
-	#
-	# How many boosted trades are allowed until the bonus Trade is depleted until the queen requests a new item
-	# Setting this to 0 disables bonus Trades.
-	#
-	#Range: 0 ~ 1000000
-	beeQueenBonusTradeAmountTillSatified = 24
-	# 
-	#-----------------------------------------------------
-	#
 	# Whether to allow special trades to activate during certain days of the year.
 	#
 	beeQueenSpecialDayTrades = true
@@ -190,6 +167,12 @@
 	# Allow Bee Queen to respawn in Throne Pillar when located with fresh Throne Honey Compass.
 	#
 	beeQueenRespawning = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Allow Bee Queen to pick up items off ground to do trading.
+	#
+	beeQueenGroundPickup = true
 
 ["Essence Options"]
 	# 
@@ -302,6 +285,12 @@
 	# Adding or removing numbers will change the maximum number of rage tiers too.
 	#
 	ragingEssenceStrengthLevels = [1, 2, 3, 5, 8, 14, 20]
+	# 
+	#-----------------------------------------------------
+	#
+	# Whether the Blue Arena in Sempiternal Sanctum has the moving bubble block mechanic.
+	#
+	blueArenaBubblesMechanic = true
 
 ["Enchantments Options"]
 	# 

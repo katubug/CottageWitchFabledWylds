@@ -419,7 +419,10 @@
 				{
 					count: 2L
 					id: "58F3A78128CD3FDE"
-					item: { Count: 2, id: "forbidden_arcanus:arcane_polished_darkstone" }
+					item: {
+						Count: 2
+						id: "forbidden_arcanus:arcane_polished_darkstone"
+					}
 					type: "item"
 				}
 				{
@@ -1038,13 +1041,19 @@
 				{
 					count: 4L
 					id: "35F9F808D6B1650F"
-					item: { Count: 4, id: "forbidden_arcanus:arcane_crystal" }
+					item: {
+						Count: 4
+						id: "forbidden_arcanus:arcane_crystal"
+					}
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "30CE0D68A85E0403"
-					item: { Count: 4, id: "forbidden_arcanus:spawner_scrap" }
+					item: {
+						Count: 4
+						id: "forbidden_arcanus:spawner_scrap"
+					}
 					type: "item"
 				}
 			]
@@ -1073,13 +1082,19 @@
 				{
 					count: 4L
 					id: "3E9AA5A6C355ADE5"
-					item: { Count: 4, id: "forbidden_arcanus:arcane_crystal" }
+					item: {
+						Count: 4
+						id: "forbidden_arcanus:arcane_crystal"
+					}
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "45477552EDB3D962"
-					item: { Count: 4, id: "forbidden_arcanus:deorum_ingot" }
+					item: {
+						Count: 4
+						id: "forbidden_arcanus:deorum_ingot"
+					}
 					type: "item"
 				}
 			]
@@ -1114,7 +1129,10 @@
 				{
 					count: 4L
 					id: "04EA3EAEF5077447"
-					item: { Count: 4, id: "forbidden_arcanus:stellarite_piece" }
+					item: {
+						Count: 4
+						id: "forbidden_arcanus:stellarite_piece"
+					}
 					type: "item"
 				}
 			]
@@ -1143,13 +1161,19 @@
 				{
 					count: 2L
 					id: "41CBED73B7CFB593"
-					item: { Count: 2, id: "forbidden_arcanus:dragon_scale" }
+					item: {
+						Count: 2
+						id: "forbidden_arcanus:dragon_scale"
+					}
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "1FCECCE94545029E"
-					item: { Count: 2, id: "forbidden_arcanus:dark_nether_star" }
+					item: {
+						Count: 2
+						id: "forbidden_arcanus:dark_nether_star"
+					}
 					type: "item"
 				}
 				{

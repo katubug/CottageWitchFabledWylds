@@ -1,0 +1,22 @@
+{
+	"livingEntities": {
+		// Fixed tick rate for living entities (0 for dynamic TPS-based rate)
+		"fixedTickRate": 0,
+		// Reduced tick rate when entities are not visible
+		"nonVisibleTickRate": 5,
+		// List of living entities exempt from tick adjustments
+		"exemptEntities": []
+	},
+	"itemEntities": {
+		// Fixed tick rate for item entities (0 for dynamic TPS-based rate)
+		"fixedTickRate": 0,
+		// Enable Dynamic tick rate for items
+		"enabled": true
+	},
+	"blockEntities": {
+		// Fixed tick rate for block entities (0 for dynamic TPS-based rate)
+		"fixedTickRate": 0,
+		// Enable Dynamic tick rate for block entities
+		"enabled": false
+	}
+}

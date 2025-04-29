@@ -1,0 +1,25 @@
+{
+    "type": "enchanted:kettle",
+    "cookingColor": [
+      128,
+      30,
+      23
+    ],
+    "finalColor": [
+      222,
+      49,
+      29
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:nether_wart"
+      },
+      {
+        "item": "enchanted:mutandis"
+      }
+    ],
+    "power": 7000,
+    "result": {
+      "item": "enchanted:mutandis_extremis"
+    }
+  }

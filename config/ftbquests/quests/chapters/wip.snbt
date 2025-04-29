@@ -1,0 +1,12 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wip"
+	group: "46B2C8E3F123941F"
+	id: "2342AD2B2314075B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "WIP"
+}

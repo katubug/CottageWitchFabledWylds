@@ -1,0 +1,33 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "enchanted:mandrake_root"
+    },
+    {
+      "item": "enchanted:tear_of_the_goddess"
+    },
+    {
+      "item": "enchanted:diamond_vapour"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "enchanted:mutandis"
+    }
+  ],
+  "output": {
+    "item": "minecraft:nether_wart"
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:water"
+  },
+  "fluidLevelsConsumed": 1000
+}

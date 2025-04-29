@@ -1,0 +1,20 @@
+{
+	"activationRanges": {
+		// Enable custom activation ranges
+		"enabled": false,
+		"defaultRange": {
+			"range": 16,
+			"tickInterval": -1,
+			"wakeupInterval": -1
+		},
+		"customRanges": []
+	},
+	"mobDespawn": {
+		// Time in ticks before mobs despawn (600 = 30 seconds)
+		"despawnTime": 600,
+		// Chance per tick for mobs to despawn
+		"despawnChance": 0.0012499999720603228
+	},
+	// Duration to Cache Custom Activation Range settings (seconds)
+	"settingsCacheTime": 300
+}

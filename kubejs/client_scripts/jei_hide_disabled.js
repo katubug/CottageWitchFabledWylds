@@ -213,7 +213,18 @@ JEIEvents.hideItems(event => {
       'nameless_trinkets:cracked_crown',
       'enchanted:witch_cauldron',
       'herbalbrews:cauldron',
-      'meadow:cooking_cauldron',
+      'farm_and_charm:cooking_pot',
+      'herbalbrews:copper_tea_kettle',
+      'herbalbrews:tea_kettle',
+      'herbalbrews:black_tea_leaf_block', 
+      'herbalbrews:oolong_tea_leaf_block', 
+      'herbalbrews:tea_leaf_crate', 
+      'herbalbrews:green_tea_leaf_block', 
+      'herbalbrews:dried_green_tea_leaf_block',
+      'herbalbrews:green_tea_leaf',
+      'farmersrespite:black_tea', 
+      'farmersrespite:long_black_tea', 
+      'farmersrespite:strong_black_tea'
       ];
     
       for (const hide of toHide) {

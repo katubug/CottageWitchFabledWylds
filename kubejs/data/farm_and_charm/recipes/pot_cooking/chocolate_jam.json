@@ -1,0 +1,23 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "tag": "bakery:milk"
+    },
+    {
+      "tag": "bakery:chocolate"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "container": {
+    "item": "bakery:jar"
+  },
+  "result": {
+    "item": "bakery:chocolate_jam"
+  }
+}

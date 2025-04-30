@@ -1,12 +1,11 @@
 {
   "block.meadow.cauldron.tooltip": "Can be placed on a Stove or attached on a Frame.",
   "block.meadow.climbing_rope_topmount": "Climbing Rope",
-  "block.meadow.cooking_cauldron": "Cooking Pot",
-  "block.meadow.cooking_pot": "Cooking Pot",
-  "block.meadow.frame.tooltip": "Cooking Pot can be hung on a frame.",
+  "block.meadow.cooking_cauldron": "Decorative Cooking Pot",
+  "block.meadow.frame.tooltip": "Decorative Cooking Pot can be hung on a frame.",
   "block.meadow.wooden_cauldron": "Wooden Tub",
   "block.meadow.woodencauldron.tooltip": "Same functions as a Cauldron",
-  "container.cooking_cauldron": "Cooking Pot",
+  "container.cooking_cauldron": "Disabled - use Farmer's Delight",
   "block.meadow.wooden_water_cauldron": "Wooden Tub",
   "block.meadow.wooden_powder_snow_cauldron": "Wooden Tub",
   "block.meadow.climbing_rope": "Climbing Rope"

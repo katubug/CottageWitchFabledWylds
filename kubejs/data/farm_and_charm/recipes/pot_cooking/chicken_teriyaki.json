@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "item": "candlelight:harvest_plate"
+    },
+    {
+      "item": "farm_and_charm:chicken_parts"
+    },
+    {
+      "tag": "farm_and_charm:cabbage"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:chicken_teriyaki",
+    "count": 4
+  }
+}

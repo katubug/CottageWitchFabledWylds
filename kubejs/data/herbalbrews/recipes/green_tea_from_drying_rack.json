@@ -1,0 +1,12 @@
+{
+  "type": "hexerei:drying_rack",
+  "ingredients": [
+    {
+      "item": "farmersrespite:green_tea_leaves"
+    }
+  ],
+  "output": {
+    "item": "herbalbrews:dried_green_tea"
+  },
+  "dryingTimeInTicks": 2000
+}

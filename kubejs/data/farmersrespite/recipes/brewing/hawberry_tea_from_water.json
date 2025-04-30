@@ -1,0 +1,21 @@
+{
+    "type": "farmersrespite:brewing",
+    "base": {
+      "count": 1000,
+      "fluid": "minecraft:water"
+    },
+    "cookingtime": 2400,
+    "experience": 0.35,
+    "ingredients": [
+      {
+        "item": "farmersrespite:black_tea_leaves"
+      },
+      {
+        "item": "fruitsdelight:hawberry"
+      }
+    ],
+    "result": {
+      "count": 1000,
+      "fluid": "kubejs:hawberry_tea"
+    }
+  }

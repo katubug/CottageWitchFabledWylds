@@ -1,0 +1,11 @@
+{
+    "type": "farmersrespite:kettle_pouring",
+    "amount": 250,
+    "container": {
+      "item": "minecraft:glass_bottle"
+    },
+    "fluid": "kubejs:lychee_cherry_tea",
+    "output": {
+      "item": "fruitsdelight:lychee_cherry_tea"
+    }
+  }

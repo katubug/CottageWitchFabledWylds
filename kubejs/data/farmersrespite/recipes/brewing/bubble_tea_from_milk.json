@@ -1,0 +1,21 @@
+{
+    "type": "farmersrespite:brewing",
+    "base": {
+      "count": 1000,
+      "fluid": "minecraft:milk"
+    },
+    "cookingtime": 2400,
+    "experience": 0.35,
+    "ingredients": [
+      {
+        "item": "minecraft:chorus_fruit"
+      },
+      {
+        "item": "ends_delight:ender_pearl_grain"
+      }
+    ],
+    "result": {
+      "count": 1000,
+      "fluid": "create_central_kitchen:chorus_fruit_bubble_tea"
+    }
+  }

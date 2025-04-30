@@ -1,0 +1,12 @@
+{
+    "type": "hexerei:drying_rack",
+    "ingredients": [
+      {
+        "item": "farmersrespite:black_tea_leaves"
+      }
+    ],
+    "output": {
+      "item": "herbalbrews:dried_black_tea"
+    },
+    "dryingTimeInTicks": 2000
+  }

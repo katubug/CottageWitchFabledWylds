@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "tag": "farm_and_charm:tomato"
+    },
+    {
+      "tag": "farm_and_charm:tomato"
+    },
+    {
+      "tag": "candlelight:red_effect"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:tomato_soup",
+    "count": 4
+  }
+}

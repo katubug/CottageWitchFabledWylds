@@ -1,0 +1,11 @@
+{
+    "type": "farmersrespite:kettle_pouring",
+    "amount": 250,
+    "container": {
+      "item": "minecraft:glass_bottle"
+    },
+    "fluid": "create_central_kitchen:chorus_fruit_milk_tea",
+    "output": {
+      "item": "ends_delight:chorus_fruit_milk_tea"
+    }
+  }

@@ -1306,7 +1306,6 @@ ItemEvents.tooltip(e => {
 			'domesticationinnovation:pet_bed_red',
 			'verdantvibes:gardening_table',
 			'betterarcheology:archeology_table',
-			'candlelight:cooking_pot',
 			'domesticationinnovation:pet_bed_black'
 		],
 		'Job Blocks!')
@@ -1314,14 +1313,8 @@ ItemEvents.tooltip(e => {
 	e.add('minecraft:carved_pumpkin',
 		'Placing this down will result in a carved pumpkin.')
 
-	/*
-	e.add('meadow:rennet', 
-	'Made in a Rustic Cauldron.'
-	)
-
-	e.add('bakery:small_cooking_pot',
+	e.add(['farm_and_charm:cooking_pot', 'candlelight:cooking_pan', 'candlelight:cooking_pot', 'bakery:small_cooking_pot'],
 	'Decorative only. Recipes use Cooking Pot.'
 	)
-	*/
 
 })

@@ -19,15 +19,11 @@ LootJS.modifiers((event) => {
     //Remove Junk from Woodland Mansions
     event.addLootTableModifier('minecraft:chests/woodland_mansion').removeLoot('minecraft:beetroot_seeds')
 
-    //Remove all Chalk from Chests
-    event.removeGlobalModifier('@chalk')
-
     //Remove all Plushies from Chests
     event.removeGlobalModifier('@perfectplushies')
 
     //Remove all Photographs from Chests
     event.removeGlobalModifier('@exposure')
-
 
     event.addLootTypeModifier(LootType.CHEST).removeLoot([
         'capsule:capsule',

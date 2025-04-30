@@ -1,0 +1,12 @@
+{
+  "type": "hexerei:drying_rack",
+  "ingredients": [
+    {
+      "item": "farmersrespite:yellow_tea_leaves"
+    }
+  ],
+  "output": {
+    "item": "herbalbrews:dried_oolong_tea"
+  },
+  "dryingTimeInTicks": 2000
+}

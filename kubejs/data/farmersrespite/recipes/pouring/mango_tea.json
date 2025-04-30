@@ -1,0 +1,11 @@
+{
+    "type": "farmersrespite:kettle_pouring",
+    "amount": 250,
+    "container": {
+      "item": "minecraft:glass_bottle"
+    },
+    "fluid": "kubejs:mango_tea",
+    "output": {
+      "item": "fruitsdelight:mango_tea"
+    }
+  }

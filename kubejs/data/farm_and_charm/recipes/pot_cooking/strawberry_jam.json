@@ -1,0 +1,20 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "item": "farm_and_charm:strawberry"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "container": {
+    "item": "bakery:jar"
+  },
+  "result": {
+    "item": "bakery:strawberry_jam"
+  }
+}

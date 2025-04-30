@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "tag": "farm_and_charm:milk"
+    },
+    {
+      "tag": "farm_and_charm:butter"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:chocolate_mousse",
+    "count": 4
+  }
+}

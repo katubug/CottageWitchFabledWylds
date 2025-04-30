@@ -1,0 +1,21 @@
+{
+    "type": "farmersrespite:brewing",
+    "base": {
+      "count": 1000,
+      "fluid": "minecraft:water"
+    },
+    "cookingtime": 2400,
+    "experience": 0.35,
+    "ingredients": [
+      {
+        "item": "minecraft:ghast_tear"
+      },
+      {
+        "item": "ends_delight:dried_chorus_flower"
+      }
+    ],
+    "result": {
+      "count": 1000,
+      "fluid": "create_central_kitchen:chorus_flower_tea"
+    }
+  }

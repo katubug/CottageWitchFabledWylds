@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "tag": "bakery:eggs"
+    },
+    {
+      "tag": "bakery:jam"
+    },
+    {
+      "tag": "bakery:milk"
+    }
+  ],
+  "container": {
+    "item": "bakery:jar"
+  },
+  "result": {
+    "item": "bakery:pudding",
+    "count": 1
+  }
+}

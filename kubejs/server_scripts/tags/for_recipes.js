@@ -167,4 +167,16 @@ ServerEvents.tags('item', event => {
 	event.add('forge:bacon',
 		'rainbowreef:hogfish_bacon'
 	)
+
+	//Tea Leaves
+	event.add('forge:tea_leaves/black',
+		'farmersrespite:black_tea_leaves',
+		'herbalbrews:dried_black_tea'
+	)
+
+	//Tea Leaves
+	event.add('forge:tea_leaves/yellow',
+		'herbalbrews:dried_oolong_tea', 
+		'farmersrespite:yellow_tea_leaves'
+	)
 })

@@ -1,0 +1,27 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "tag": "candlelight:mushrooms"
+    },
+    {
+      "tag": "candlelight:red_effect"
+    },
+    {
+      "tag": "farm_and_charm:butter"
+    },
+    {
+      "tag": "farm_and_charm:milk"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:mushroom_soup",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "farmersrespite:brewing",
+    "base": {
+      "count": 1000,
+      "fluid": "minecraft:water"
+    },
+    "cookingtime": 2400,
+    "experience": 0.35,
+    "ingredients": [
+      {
+        "tag": "forge:tea_leaves/yellow"
+      },
+      {
+        "item": "fruitsdelight:mangosteen"
+      }
+    ],
+    "result": {
+      "count": 1000,
+      "fluid": "kubejs:mangosteen_tea"
+    }
+  }

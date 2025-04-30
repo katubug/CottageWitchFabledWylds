@@ -1075,14 +1075,6 @@
 					value: 1L
 				}
 				{
-					block: "herbalbrews:wild_coffee_plant"
-					block_type: 0
-					checkItem: false
-					id: "59BFF4E67B9EE1CF"
-					type: "questsadditions:break"
-					value: 1L
-				}
-				{
 					block: "farmersdelight:wild_tomatoes"
 					block_type: 0
 					checkItem: false

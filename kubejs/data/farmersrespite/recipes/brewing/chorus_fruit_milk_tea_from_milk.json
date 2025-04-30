@@ -1,0 +1,21 @@
+{
+    "type": "farmersrespite:brewing",
+    "base": {
+      "count": 1000,
+      "fluid": "minecraft:milk"
+    },
+    "cookingtime": 2400,
+    "experience": 0.35,
+    "ingredients": [
+      {
+        "item": "ends_delight:chorus_fruit_grain"
+      },
+      {
+        "item": "farmersrespite:yellow_tea_leaves"
+      }
+    ],
+    "result": {
+      "count": 1000,
+      "fluid": "create_central_kitchen:chorus_fruit_milk_tea"
+    }
+  }

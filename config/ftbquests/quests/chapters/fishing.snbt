@@ -134,16 +134,6 @@
 			id: "2CAAC737A4D4FF60"
 			rewards: [
 				{
-					id: "78A0BE072FBAFFA1"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					exclude_from_claim_all: true
-					id: "13212065D5B54E3D"
-					type: "random"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2469EAD60D8E35B7"
 					table_id: 661030336235288770L

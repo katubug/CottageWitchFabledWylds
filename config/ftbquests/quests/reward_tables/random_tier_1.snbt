@@ -13,12 +13,10 @@
 		{ item: "minecraft:nautilus_shell", weight: 5.0f }
 		{ count: 4, item: "create:rose_quartz", weight: 10.0f }
 		{ count: 5, item: "minecraft:firework_rocket", weight: 7.0f }
-		{ item: "forbidden_arcanus:purifying_soap", weight: 5.0f }
 		{ count: 2, item: "tombstone:grave_dust", weight: 13.0f }
 		{ item: "candlelight:note_paper_writeable" }
 		{ count: 2, item: "species:birt_egg" }
 		{ item: "irons_rpg_tweaks:identification_scroll", weight: 5.0f }
-		{ count: 4, item: "forbidden_arcanus:arcane_crystal_dust", weight: 10.0f }
 		{ count: 5, item: "farmersdelight:ham", weight: 10.0f }
 		{ count: 5, item: "meadow:alpine_salt", weight: 10.0f }
 		{

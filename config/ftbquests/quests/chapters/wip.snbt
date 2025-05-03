@@ -44,6 +44,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["2B1B9108FF7A3FB3"]
 			description: [
 				"Now you can create your own consecrated space - your &bAltar&r. It can be placed either indoors or outdoors, although placing it outside is often a good choice due to the &apower of Nature&r being good to draw upon."
 				""
@@ -75,6 +76,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["5688211768F55F90"]
 			description: [
 				"Now, the focus of your &asacred space&r will eventually be your &bAltar&r, but let's not get ahead of ourselves. In order to make &bAltar blocks&r, you'll need to &6collect fumes&r - namely, the &bBreath of the Goddess&r and the &bExhale of the Horned One&r."
 				""
@@ -111,6 +113,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["410FE13D777DE1C8"]
+			icon: "minecraft:skeleton_skull"
 			id: "6AF9BE2037D01B2A"
 			tasks: [
 				{
@@ -147,6 +151,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["5688211768F55F90"]
 			id: "182C1C3812C31B0B"
 			tasks: [
 				{
@@ -175,6 +180,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["5688211768F55F90"]
 			id: "4655801A35B3BAB2"
 			tasks: [
 				{

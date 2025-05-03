@@ -1,7 +1,7 @@
 {
 	id: "4972AA871F691F6C"
 	loot_size: 1
-	order_index: 34
+	order_index: 32
 	rewards: [
 		{ item: "minecraft:netherite_upgrade_smithing_template" }
 		{ item: "minecraft:sentry_armor_trim_smithing_template" }
@@ -20,7 +20,15 @@
 		{ item: "minecraft:rib_armor_trim_smithing_template" }
 		{ item: "minecraft:eye_armor_trim_smithing_template" }
 		{ item: "minecraft:spire_armor_trim_smithing_template" }
-		{ item: "forbidden_arcanus:darkstone_upgrade_smithing_template" }
+		{ item: "moresnifferflowers:grain_armor_trim_smithing_template" }
+		{ item: "moresnifferflowers:beat_armor_trim_smithing_template" }
+		{ item: "moresnifferflowers:nether_wart_armor_trim_smithing_template" }
+		{ item: "quark:smithing_template_rune" }
+		{ item: "caverns_and_chasms:exile_armor_trim_smithing_template" }
+		{ item: "moresnifferflowers:aroma_armor_trim_smithing_template" }
+		{ item: "moresnifferflowers:carnage_armor_trim_smithing_template" }
+		{ item: "moresnifferflowers:carotene_armor_trim_smithing_template" }
+		{ item: "moresnifferflowers:tater_armor_trim_smithing_template" }
 	]
 	title: "Armor Trims"
 }

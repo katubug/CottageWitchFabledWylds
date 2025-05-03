@@ -1,0 +1,14 @@
+{
+    "items": [
+      { "id": "hexerei:willow_broom", "Count": 1 },
+      { "id": "enchanted:mandrake_root", "Count": 1 },
+      { "id": "hexerei:blood_bottle", "Count": 2 },
+      { "id": "hexerei:witch_hazel_sapling", "Count": 2 }
+    ],
+    "shapes": {
+      "enchanted:small_circle": "enchanted:golden_chalk",
+      "enchanted:medium_circle": "enchanted:ritual_chalk"
+    },
+    "power": 5000,
+    "factory": { "type": "enchanted:create_item", "items": [ { "id": "hexerei:witch_hazel_broom", "Count": 1 } ] }
+  }

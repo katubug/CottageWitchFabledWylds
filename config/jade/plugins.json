@@ -55,31 +55,8 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
-  },
   "tombstone": {
     "graves": true
-  },
-  "easy_villagers": {
-    "villager": true,
-    "converter": true,
-    "breeder": true
-  },
-  "delightful": {
-    "crop_progress": true,
-    "pie_icons": true,
-    "mushroom_colony": true
-  },
-  "reliquary": {
-    "pedestal": true,
-    "altar": true,
-    "mortar": true,
-    "cauldron": true
-  },
-  "supplementaries": {
-    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -88,9 +65,6 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
-  },
-  "waystones": {
-    "waystone": true
   },
   "balm": {
     "jade": true
@@ -106,5 +80,34 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
+  "easy_villagers": {
+    "villager": true,
+    "converter": true,
+    "breeder": true
+  },
+  "delightful": {
+    "crop_progress": true,
+    "pie_icons": true,
+    "mushroom_colony": true
+  },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "waystones": {
+    "waystone": true
   }
 }

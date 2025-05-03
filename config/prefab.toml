@@ -2,11 +2,11 @@
 [general]
 	#General
 	#Determines which starting item a player gets on first world join. Valid values for this option are: "Starting House", "Moderate House", "Nothing". Server configuration overrides client.
-	"Starting Item" = "Starting House"
+	"Starting Item" = "Nothing"
 	#Can new players for a world receive a starting item?. Server configuration overrides client.
-	"New Players Get Starting Item" = true
+	"New Players Get Starting Item" = false
 	#Determines if the spawners for the Monster Masher building are included. Server configuration overrides client.
-	"Include Spawners in Monster Masher" = true
+	"Include Spawners in Monster Masher" = false
 	#Determines if the Preview buttons in structure GUIs and other structure previews functions are enabled. Client side only.
 	"Include Structure Previews" = true
 	#Determines if the mineshaft chest is included when building mineshafts for various structures.
@@ -16,34 +16,34 @@
 	#Determines if water can be generated in structures when the current dimension is not the oveworld. Does not affect Nether
 	"Include Water In Non-Overworld Dimesions" = true
 	#Play Sound When Generating Blueprint
-	"Play Building Sound" = true
+	"Play Building Sound" = false
 
 	[general."chest contents"]
 		#Chest Options
 		#Determines if a Stone Sword is added the the chest when the house is created.
-		"Add Sword" = true
+		"Add Sword" = false
 		#Determines if a Stone Axe is added the the chest when the house is created.
-		"Add Axe" = true
+		"Add Axe" = false
 		#Determines if a Stone Shovel is added the the chest when the house is created.
-		"Add Shovel" = true
+		"Add Shovel" = false
 		#Determines if a Stone Hoe is added the the chest when the house is created.
-		"Add Hoe" = true
+		"Add Hoe" = false
 		#Determines if a Stone Pickaxe is added the the chest when the house is created.
-		"Add Pickaxe" = true
+		"Add Pickaxe" = false
 		#Determines if Leather Armor is added the the chest when the house is created.
-		"Add Armor" = true
+		"Add Armor" = false
 		#Determines if Bread is added the the chest when the house is created.
-		"Add Food" = true
+		"Add Food" = false
 		#Determines if seeds, potatoes and carrots are added the the chest when the house is created.
-		"Add Crops" = true
+		"Add Crops" = false
 		#Determines if a stack of dirt is added the the chest when the house is created.
 		"Add Dirt" = true
 		#Determines if a stack of cobble is added the the chest when the house is created.
-		"Add Cobblestone" = true
+		"Add Cobblestone" = false
 		#Determines if a set of oak saplings are added the the chest when the house is created.
-		"Add Saplings" = true
+		"Add Saplings" = false
 		#Determines if a set of torches are added the the chest when the house is created.
-		"Add Torches" = true
+		"Add Torches" = false
 
 	[general."starter house"]
 		#Starter House Options
@@ -140,17 +140,17 @@
 		#Determines if the recipe(s) associated with the Modern Buildings are enabled.
 		"Modern Buildings" = true
 		#Determines if the recipe(s) associated with the Swift Blade are enabled.
-		"Swift Blade" = true
+		"Swift Blade" = false
 		#Determines if the recipe(s) associated with the Sickle are enabled.
-		Sickle = true
+		Sickle = false
 		#Determines if the recipe(s) associated with the Dirt Recipes are enabled.
 		"Dirt Recipes" = true
 		#Determines if the recipe(s) associated with the Bunch of Beets are enabled.
-		"Bunch of Beets" = true
+		"Bunch of Beets" = false
 		#Determines if the recipe(s) associated with the Bunch of Carrots are enabled.
-		"Bunch of Carrots" = true
+		"Bunch of Carrots" = false
 		#Determines if the recipe(s) associated with the Bunch of Potatoes are enabled.
-		"Bunch of Potatoes" = true
+		"Bunch of Potatoes" = false
 		#Determines if the recipe(s) associated with the Bunch of Eggs are enabled.
 		"Bunch of Eggs" = true
 		#Determines if the recipe(s) associated with the Wooden Crate are enabled.
@@ -181,16 +181,16 @@
 		item_prefab_item_farm_prefab_gui_farm_rabbit = true
 		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_bamboo = true
 		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_barn = true
-		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_green_house = true
+		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_green_house = false
 		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_horse = true
 		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_melon = true
 		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_monster = true
 		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_produce = true
 		item_prefab_item_farm_advanced_prefab_gui_farm_advanced_tree = true
 		item_prefab_item_farm_improved_prefab_gui_farm_advanced_barn = true
-		item_prefab_item_farm_improved_prefab_gui_farm_advanced_green_house = true
+		item_prefab_item_farm_improved_prefab_gui_farm_advanced_green_house = false
 		item_prefab_item_farm_improved_prefab_gui_farm_improved_automated = true
-		item_prefab_item_farm_improved_prefab_gui_farm_improved_bee = true
+		item_prefab_item_farm_improved_prefab_gui_farm_improved_bee = false
 		item_prefab_item_farm_improved_prefab_gui_farm_improved_chicken = true
 		item_prefab_item_farm_improved_prefab_gui_farm_improved_fish = true
 		item_prefab_item_farm_improved_prefab_gui_farm_improved_sugar_cane = true

@@ -6,4 +6,12 @@ ServerEvents.recipes(event => {
 			'spawn:sunflower'
 		]
 	)
+
+	//Coffee conversion
+	event.shapeless(
+		Item.of('farmersrespite:coffee_beans'),
+		[
+			'herbalbrews:coffee_beans'
+		]
+	)
 })

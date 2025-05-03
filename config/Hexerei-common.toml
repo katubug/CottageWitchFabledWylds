@@ -1,11 +1,11 @@
 
 ["Herb Jar Settings"]
 	#Disabling allows jars to hold any item
-	jars_only_hold_herbs = true
+	jars_only_hold_herbs = false
 
 ["Sage Burning Plate Settings"]
 	#Range of the Sage Burning Plate, setting to 0 will disable completely
-	spawn_disable_range = 48
+	spawn_disable_range = 64
 
 ["Crow Pickpocket Cooldown"]
 	#time (in ticks) for crow being able to pickpocket again (base 1 minute 30 seconds)

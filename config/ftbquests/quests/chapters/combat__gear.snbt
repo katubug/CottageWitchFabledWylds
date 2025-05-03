@@ -710,7 +710,10 @@
 			tasks: [{
 				count: 9L
 				id: "0B662955A4DC2D7B"
-				item: { Count: 9, id: "nameless_trinkets:unknown_fragment" }
+				item: {
+					Count: 9
+					id: "nameless_trinkets:unknown_fragment"
+				}
 				type: "item"
 			}]
 			title: "Trinket Fragments"

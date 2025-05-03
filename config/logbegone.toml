@@ -1,5 +1,5 @@
 
 [logbegone]
-	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Failed loading villager", "Exception caught when registering villager", "missing model for variant", "Expected name to be an item", "Missing textures in model", "Could not apply pet overlays layer", "Possibly invalid UV data", "is using incompatible model", "Unable to load model", "unable to apply palette", "Failed to load palette", "resource could not be built", "Skipped CIT", "Ignored non-lowercase namespace", "to accept malformed JSON", "was unknown string", "Unable to decode loot conditions"]
-	regex = ["Disconnecting VANILLA connection attempt", "Channels "]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Failed loading villager", "Exception caught when registering villager", "missing model for variant", "Expected name to be an item", "Missing textures in model", "Could not apply pet overlays layer", "Possibly invalid UV data", "is using incompatible model", "Unable to load model", "unable to apply palette", "Failed to load palette", "resource could not be built", "Skipped CIT", "Ignored non-lowercase namespace", "to accept malformed JSON", "was unknown string", "Unable to decode loot conditions", "[EMF]: no part found for", "Couldn't parse", "DependencyStrategy", "BeforeConstant", "EMF will treat the variable as zero"]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "DependencyStrategy", "BeforeConstant"]
 

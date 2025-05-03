@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "items": [
+    { "id": "enchanted:broom", "Count": 1 },
+    { "id": "enchanted:flying_ointment", "Count": 1 }
+  ],
+  "shapes": {
+    "enchanted:small_circle": "enchanted:ritual_chalk",
+    "enchanted:medium_circle": "enchanted:ritual_chalk"
+  },
+  "power": 3000,
+  "factory": { "type": "enchanted:create_item", "items": [ { "id": "hexerei:willow_broom", "Count": 1 } ] }
+}

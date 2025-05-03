@@ -235,10 +235,9 @@
 			]
 			id: "21AD64E594528F4D"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "7E5ECE6EEDD64DF2"
-				table_id: 3140128566494036782L
-				type: "choice"
+				id: "2843D4CF59F20071"
+				item: "prefab:item_house"
+				type: "item"
 			}]
 			subtitle: "Cute house starter pack"
 			tasks: [{

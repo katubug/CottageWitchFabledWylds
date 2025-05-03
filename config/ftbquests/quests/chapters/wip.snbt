@@ -1,12 +1,197 @@
 {
 	always_invisible: true
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "wip"
 	group: "46B2C8E3F123941F"
 	id: "2342AD2B2314075B"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: [
+				"Practicing witchcraft is just one aspect of actually being a witch, but it is arguably the most important - and the most fun!"
+				""
+				"A happy witch has three things: a &agarden&r, a &asacred space&r, and &blots of books&r. And probably also &bcoffee&r. And &ecats&r! Okay, so a happy witch has lots of things. But let's begin with the &bBooks&r."
+			]
+			id: "5688211768F55F90"
+			rewards: [
+				{
+					id: "1FB7B986F959CCE1"
+					item: "hexerei:sage_seed"
+					type: "item"
+				}
+				{
+					id: "41423E4B92C51A35"
+					item: "enchanted:belladonna_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34D6E41F4B899EEF"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "enchanted:getting_started"
+					}
+				}
+				type: "item"
+			}]
+			title: "The Pursuit of Magic"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Now you can create your own consecrated space - your &bAltar&r. It can be placed either indoors or outdoors, although placing it outside is often a good choice due to the &apower of Nature&r being good to draw upon."
+				""
+				"Place &b6 Altar Blocks&r in a 2x3 configuration, and they will combine and change appearance. This is where many of your workings will take place, as it will take on and focus the energy you raise. You can &6augment this space in multiple ways&r: by placing &bFoci&r on top of the Altar, and &bobjects of power&r within a 16-block radius of it."
+				""
+				"{image:enchanted_wilds:textures/questimages/altarsetup.png width:300 height:250 align:center}"
+			]
+			id: "410FE13D777DE1C8"
+			tasks: [
+				{
+					id: "01FBD66CCFAB87A5"
+					item: "enchanted:exhale_of_the_horned_one"
+					type: "item"
+				}
+				{
+					id: "4C960CCB6A83F868"
+					item: "enchanted:breath_of_the_goddess"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0CFBE280BEA4A23D"
+					item: { Count: 6, id: "enchanted:altar" }
+					type: "item"
+				}
+			]
+			title: "Building an Altar"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Now, the focus of your &asacred space&r will eventually be your &bAltar&r, but let's not get ahead of ourselves. In order to make &bAltar blocks&r, you'll need to &6collect fumes&r - namely, the &bBreath of the Goddess&r and the &bExhale of the Horned One&r."
+				""
+				"&aFume collection&r is done in a &bWitch's Oven&r, which is crafted with &bIron&r (to deter the fey)."
+				""
+				"It works similarly to a &bFurnace&r, but is limited in what it can cook, and it has additional slots which can accommodate &bClay Jars&r to &atrap the fumes&r. Take these &bSaplings&r - you may wish to plant them and obtain more before you continue - and fire these &bClay Jars&r when you get the chance."
+			]
+			id: "2B1B9108FF7A3FB3"
+			rewards: [
+				{
+					count: 4
+					id: "5D0338F1290A93F9"
+					item: "enchanted:soft_clay_jar"
+					type: "item"
+				}
+				{
+					id: "229E82EF69E9BB03"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "6A114703D1822279"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BE0E534AB0AA619"
+				item: "enchanted:witch_oven"
+				type: "item"
+			}]
+			title: "Happy Witch: Sacred Space"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6AF9BE2037D01B2A"
+			tasks: [
+				{
+					id: "33CF3A60186C7A09"
+					item: "enchanted:chalice"
+					type: "item"
+				}
+				{
+					id: "10B99A06596E474C"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:candles)"
+						}
+					}
+					title: "Any #minecraft:candles"
+					type: "item"
+				}
+				{
+					id: "4BAB027745FE9639"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:heads)"
+						}
+					}
+					title: "Any #forge:heads"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "182C1C3812C31B0B"
+			tasks: [
+				{
+					id: "138FC408042D2352"
+					item: {
+						Count: 1
+						id: "hexerei:book_of_shadows"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "234DC1A25D2FF22D"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:getting_started"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Happy Witch: Books"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "4655801A35B3BAB2"
+			tasks: [
+				{
+					id: "0FA4B1D348282685"
+					item: "hexerei:sage"
+					type: "item"
+				}
+				{
+					id: "5448C5E8993D7881"
+					item: "hexerei:belladonna_flowers"
+					type: "item"
+				}
+			]
+			title: "Happy Witch: Garden"
+			x: 2.0d
+			y: -1.5d
+		}
+	]
 	title: "WIP"
 }

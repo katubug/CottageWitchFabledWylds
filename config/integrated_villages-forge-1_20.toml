@@ -12,5 +12,5 @@
 		# Whether or not create contraptions such as windmills will be activated on world generation. Turning this to false could prevent some lag.
 		# Default: true
 		#
-		"Activate Create Contraptions" = true
+		"Activate Create Contraptions" = false
 

@@ -20,22 +20,6 @@ ServerEvents.recipes(event => {
 		]
 	)
 
-
-	// Cheaper Post Box
-	event.shaped(
-		Item.of('mighty_mail:post_box'),
-		[
-			'ABA',
-			'BCB',
-			' D '
-		], {
-			A: 'minecraft:blue_dye',
-			B: 'minecraft:iron_ingot',
-			C: '#forge:chests',
-			D: 'minecraft:smooth_stone'
-		}
-	)
-
 	// Cheaper Mermaid Pearl
 	event.shaped(
 		Item.of('luphieclutteredmod:luphie_mermaid_pearl'),
@@ -314,5 +298,48 @@ for (const color of dyeColor) {
 			A: '#quark:corundum',
 			B: 'forbidden_arcanus:arcane_crystal_dust'
 		}
+	)
+
+	//Tea Recipes
+	event.smoking('herbalbrews:dried_green_tea', 'farmersrespite:green_tea_leaves')
+	event.smoking('herbalbrews:dried_oolong_tea', 'farmersrespite:yellow_tea_leaves')
+	event.smoking('herbalbrews:dried_black_tea', 'farmersrespite:black_tea_leaves')
+
+	//Coffee Recipes
+	event.shapeless(
+		Item.of('herbalbrews:coffee'),
+		[
+			'farmersrespite:coffee'
+		]
+	)
+	event.shapeless(
+		Item.of('herbalbrews:milk_coffee'),
+		[
+			'herbalbrews:coffee',
+			'farmersdelight:milk_bottle'
+		]
+	)
+
+	//compress and uncompress eggs
+	event.shapeless(
+		Item.of('prefab:item_carton_of_eggs'),
+		[
+			'minecraft:egg',
+			'minecraft:egg',
+			'minecraft:egg',
+			'minecraft:egg',
+			'minecraft:egg',
+			'minecraft:egg',
+			'minecraft:egg',
+			'minecraft:egg',
+			'minecraft:egg'
+		]
+	)
+
+	event.shapeless(
+		Item.of('minecraft:egg', 9),
+		[
+			'prefab:item_carton_of_eggs'
+		]
 	)
 })

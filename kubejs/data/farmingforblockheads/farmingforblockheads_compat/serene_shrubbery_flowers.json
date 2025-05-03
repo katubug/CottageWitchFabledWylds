@@ -1,0 +1,51 @@
+
+{
+    "modId": "serene_shrubbery",
+    "silent": true,
+    "group": {
+      "name": "Serene Shrubbery Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+        {
+            "output": "serene_shrubbery:red_pansies"
+        },
+        {
+            "output": "serene_shrubbery:yellow_pansies"
+        },
+        {
+            "output": "serene_shrubbery:white_pansies"
+        },
+        {
+            "output": "serene_shrubbery:purple_pansies"
+        },
+        {
+            "output": "serene_shrubbery:peach_foxglove"
+        },
+        {
+            "output": "serene_shrubbery:white_foxglove"
+        },
+        {
+            "output": "serene_shrubbery:purple_foxglove"
+        },
+        {
+            "output": "serene_shrubbery:lupine_white"
+        },
+        {
+            "output": "serene_shrubbery:purple_lupine"
+        },
+        {
+            "output": "serene_shrubbery:red_hydrangea"
+        },
+        {
+            "output": "serene_shrubbery:white_hydrangea"
+        },
+        {
+            "output": "serene_shrubbery:purple_hydrangea"
+        }
+    ]
+  }

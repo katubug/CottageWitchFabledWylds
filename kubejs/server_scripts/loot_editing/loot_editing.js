@@ -20,4 +20,9 @@ LootJS.modifiers((event) => {
     .addLoot("tombstone:grave_dust")
 	.randomChance(0.3)
 
+	event
+		.addLootTableModifier("minecraft:chests/nether_bridge")
+		.randomChance(0.1)
+        .addLoot("minecraft:netherite_upgrade_smithing_template");
+
 })

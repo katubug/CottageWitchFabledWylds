@@ -1,0 +1,7 @@
+{
+  "preset": "FPG_AMBIANCE",
+  "noFogGameModes": [
+    "SPECTATOR"
+  ],
+  "version": 3
+}

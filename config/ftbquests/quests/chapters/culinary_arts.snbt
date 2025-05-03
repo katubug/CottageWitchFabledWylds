@@ -117,76 +117,20 @@
 			y: 1.25d
 		}
 		{
-			dependencies: ["644439D23D454629"]
 			description: [
-				"&bTea Blossoms&r can be obtained by &6breaking Flowers with &bShears&r. Then, they can be planted on &bFarmland&r and grown as their own crop!"
+				"There are few things more enjoyable than a delicious hot beverage. As with all kitchen witchery, making tea and coffee can be an important daily ritual, and the same goes for doing so in game. To begin, you'll need a &bKettle&r."
 				""
-				"The freshest buds, when picked, become &bGreen Tea&r. In order to &aobtain other types of tea&r, these leaves need to &abe dried&r. This can be done in a &bSmoker&r."
-			]
-			id: "1266B799DAB9CCC7"
-			rewards: [
-				{
-					id: "6EB65D4C338222DA"
-					item: "minecraft:smoker"
-					type: "item"
-				}
-				{
-					count: 6
-					id: "7C743424E7D8EE16"
-					item: "minecraft:glass_bottle"
-					type: "item"
-				}
-			]
-			subtitle: "The beginning of a beautiful thing"
-			tasks: [
-				{
-					id: "7677816EF0CB04E6"
-					item: "herbalbrews:tea_blossom"
-					type: "item"
-				}
-				{
-					id: "5E081C35C6FA6488"
-					item: "herbalbrews:green_tea_leaf"
-					type: "item"
-				}
-			]
-			title: "Obtain Tea Blossoms"
-			x: 0.0d
-			y: 33.5d
-		}
-		{
-			description: [
-				"The &bKettle&r must be &6placed on a heat source&r in order to brew tea. You can use a &bcampfire&r, &bStove&r, or other source of warmth."
+				"The &bKettle&r must be &6placed on a heat source&r in order to brew tea. You can use a &bcampfire&r, &bmagma block&r, or other source of warmth."
 				""
-				"Then, &6right click&r and place your brewing ingredients inside!"
+				"Use a &bwater bucket&r or 3 &bwater bottles&r to fill the &bkettle&r with water by &6right clicking them&r on the block. Then, &6right click&r and place your brewing ingredients inside!"
 			]
 			id: "644439D23D454629"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5FF6F5AFA10AD29F"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "510A3693D720A4FF"
-					table_id: 8415512190420352941L
-					type: "random"
-				}
-			]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Don't let it call your Cooking Pot black."
 			tasks: [{
-				id: "12D61E8BC115DE63"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(herbalbrews:tea_kettle)item(herbalbrews:copper_tea_kettle))"
-					}
-				}
+				id: "5DBB1443F691F650"
+				item: "farmersrespite:kettle"
 				type: "item"
 			}]
 			title: "Obtain a Kettle"
@@ -2393,11 +2337,13 @@
 			y: 24.0d
 		}
 		{
-			dependencies: ["1266B799DAB9CCC7"]
+			dependencies: ["4D50F0562D23BE6D"]
 			description: [
-				"Did you know that &aall true teas are the same plant&r? They're simply oxidized at different levels."
+				"Did you know that &aall true teas are the same plant&r? They're simply oxidized at different levels. Tisanes are a different story, of course, but I'll spare you the details."
 				""
-				"Firstly, you'll need &bGreen Tea&r, which can be &6smoked into &bOolong Tea&r. &bOolong&r can then be smoked into &bBlack Tea&r."
+				"After your tea has been &aharvested at its desired color&r, it needs to be &6dried out&r - this enhances the flavor and reduces the chance of spoilage (okay, it doesn't spoil in Minecraft. Don't get sassy with me)."
+				""
+				"You can dry your tea leaves one of two ways: with a &bSmoker&r (faster, costs fuel) or a &bDrying Rack&r (slower, but costs only time)."
 			]
 			id: "34581095B797C667"
 			rewards: [
@@ -2414,10 +2360,10 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "5EAEAB52C87267D9"
-					table_id: 8096229411196850122L
-					type: "loot"
+					count: 3
+					id: "6C16B1E0481A1589"
+					item: "herbalbrews:dried_green_tea"
+					type: "item"
 				}
 			]
 			tasks: [
@@ -2444,24 +2390,16 @@
 		{
 			dependencies: ["34581095B797C667"]
 			description: [
-				"Some may call these teas \"plain,\" but we know the truth - they're the OG. Imagine having never had tea before, and then tasting a &adelicate floral green&r for the first time. Heaven."
+				"These teas may be unflavored, but they're certainly not flavorless! Although &bCeylon Black Tea&r, &bOolong Tea&r, and &bSencha Green Tea&r do not provide ingame effects, they do function as &adecoration blocks&r!"
 				""
-				"Go back to your roots with these &astandalone flavors&r."
+				"&bGreen Tea&r and &bYellow Tea&r from &lFarmer's Respite&r do grant effects, however - and you can &aextend or strengthen these effects&r by &6brewing the tea with &bMilk or Honey&r."
 			]
 			id: "439BC18CF8CE9960"
-			rewards: [
-				{
-					id: "5D04329C50511D4D"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					exclude_from_claim_all: true
-					id: "02A61A37D0CFFD22"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "5D04329C50511D4D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2479,6 +2417,16 @@
 					item: "herbalbrews:black_tea"
 					type: "item"
 				}
+				{
+					id: "13B3E0DA5F310323"
+					item: "farmersrespite:green_tea"
+					type: "item"
+				}
+				{
+					id: "5A1C0B0976332FBE"
+					item: "farmersrespite:yellow_tea"
+					type: "item"
+				}
 			]
 			title: "Plain Teas"
 			x: -3.0d
@@ -2491,26 +2439,18 @@
 				""
 				"&bLavender Tea&r, for example, is good for anxiety and can also call &alove into your life&r. It will boost your &bFortune&r for a while."
 				""
-				"&bYerba Mate&r is a strongly stimulating tea, making it &agood for fatigue&r or other such maladies."
+				"&bYerba Mate&r is a strongly stimulating tea, making it &agood for fatigue&r or other such maladies. It does not grant ingame effects."
 				""
 				"&bDandelion Tea&r is made by steeping Dandelion root, and is used as a replacement for coffee. It will also grant you the &bComforting&r effect, which &akeeps you healing regardless of hunger&r."
 				""
 				"&bRose Hip Tea&r is a delicious floral which can aid in &aglamour spells, good luck, and prosperity&r! and Additionally, it will grant you a small amount of &bRegeneration&r!"
 			]
 			id: "7B3D377F253BFF4A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3821DE330A86191C"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-				{
-					id: "5BA8B90ABE095160"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "5BA8B90ABE095160"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2670,37 +2610,6 @@
 			title: "Vegetarian Options"
 			x: 0.0d
 			y: 2.5d
-		}
-		{
-			dependencies: ["7D770ADEB3905EE0"]
-			description: [
-				"There are two &aunique &bGrape&r types that grow in &cthe Nether&r."
-				""
-				"You may be shocked to learn that they are found in &cCrimson Forests&r and &cWarped Forests&r, respectively."
-			]
-			id: "16FC821BC1489BB5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1145093F7FF8AEC1"
-				table_id: 8096229411196850122L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "7D29E3787744DCEB"
-					item: "nethervinery:crimson_grape"
-					type: "item"
-				}
-				{
-					id: "281FE55A8FCB5E38"
-					item: "nethervinery:warped_grape"
-					type: "item"
-				}
-			]
-			title: "Collect Nether Grapes"
-			x: 1.0d
-			y: 23.0d
 		}
 		{
 			dependencies: ["31CE923007EF1D03"]
@@ -3500,14 +3409,13 @@
 			y: -13.5d
 		}
 		{
+			dependencies: ["644439D23D454629"]
 			description: [
 				"&bTea&r is a small bush which can be grown in order to produce &btea leaves&r, which can be brewed into &btea&r. Let me say &btea&r some more. &bTea&r."
 				""
-				"You'll need a &bkettle&r to brew it, which is made with some &bleather&r, a &bbucket&r, and &bcopper&r."
-				""
 				"You can find &bWild Tea Bushes&r in &cSwamps&r. To obtain different kinds of tea, &6allow the bush to continue growing&r until it changes color. This will allow you to gather &byellow&r and &bblack&r tea leaves!"
 				""
-				"You cannot grow tea on &bFarmland&r, it must be planted on grass."
+				"&dYou cannot grow tea on &bFarmland&r, it must be planted on grass."
 			]
 			id: "4D50F0562D23BE6D"
 			subtitle: "the beginning of a beautiful thing"
@@ -3516,16 +3424,20 @@
 				item: "farmersrespite:tea_seeds"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 31.0d
+			x: 0.0d
+			y: 33.5d
 		}
 		{
-			description: [
-				"&bCoffee Beans&r can be acquired from &aBasalt Deltas&r in the Nether."
-				""
-				"What, are you surprised coffee comes from the Nether? Why do you think it's so hellishly good?"
-			]
+			dependencies: ["4D50F0562D23BE6D"]
+			description: ["&bCoffee Beans&r can be acquired from &cBasalt Deltas&r in the Nether. Although rumor has it that &asome coffee plants&r can spawn in the overworld, if you want to &6cultivate your own coffee plants&r, you'll need to do so in their &anative habitat&r."]
 			id: "4CC648A386724E49"
+			rewards: [{
+				count: 4
+				id: "17D6A23233AD29CE"
+				item: "farmersrespite:coffee_beans"
+				type: "item"
+			}]
+			shape: "hexagon"
 			subtitle: "coffeecoffeecoffeecoffee"
 			tasks: [{
 				id: "3E4848E8E0248815"
@@ -3533,74 +3445,41 @@
 				type: "item"
 			}]
 			title: "Obtain Coffee Beans"
-			x: 6.5d
-			y: 31.0d
+			x: 3.0d
+			y: 33.5d
 		}
 		{
-			description: [
-				"The &bKettle&r must be &6placed on a heat source&r in order to brew tea. You can use a &bcampfire&r, &bmagma block&r, or other source of warmth."
-				""
-				"Use a &bwater bucket&r or 3 &bwater bottles&r to fill the &bkettle&r with water by &6right clicking them&r on the block. Then, &6right click&r and place your brewing ingredients inside!"
-			]
-			id: "645453F2486421D5"
-			subtitle: "don't let it call your Cooking Pot black"
-			tasks: [{
-				id: "78474C88B6ED04A0"
-				item: "farmersrespite:kettle"
-				type: "item"
-			}]
-			title: "Obtain a Kettle"
-			x: 7.5d
-			y: 32.5d
-		}
-		{
-			description: [
-				"Black tea is the leaf with the greatest amount of tannins, making it the most resistant to heat and also the most strongly-flavored."
-				""
-				"Oh, it's also the most &aCaffeinated&r, and will grant you that effect."
-			]
-			id: "61E3EA0F861F87BF"
-			subtitle: "hello, little darjeeling"
-			tasks: [{
-				id: "342ABFE399374891"
-				item: "farmersrespite:black_tea_leaves"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 29.5d
-		}
-		{
-			description: ["Yellow tea, known to most as Oolong, is an earthier flavored tea with the &aability to grant resistance&r."]
-			id: "608678D6E0703C0E"
-			tasks: [{
-				id: "6B404BE04A8BD33E"
-				item: "farmersrespite:yellow_tea_leaves"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 29.5d
-		}
-		{
-			description: ["This tea is bright, grassy, and delicious! It also grants you the &aHaste&r effect."]
-			id: "11CE34015F36542A"
-			tasks: [{
-				id: "2CEE54FCCBD797C1"
-				item: "farmersrespite:green_tea_leaves"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 30.5d
-		}
-		{
+			dependencies: ["34581095B797C667"]
 			description: ["Make some purulent tea. It may give you weakness, but it also extends a random effect by 15 seconds. So that's kinda good, right?"]
 			id: "0340E6FF3BF8E75F"
+			shape: "hexagon"
 			subtitle: "not very good for you"
 			tasks: [{
 				id: "68D2FA1528D75B0E"
 				item: "farmersrespite:purulent_tea"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 0.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["34581095B797C667"]
+			description: ["You can further convert &bDried Green Tea&r into &bMatcha Powder&r with a &bMortar and Pestle&r - and then make delicious matcha flavored treats!"]
+			id: "3F119E09E40415B5"
+			rewards: [{
+				id: "263DE4B3C5FB706F"
+				item: "delightful:matcha_ice_cream"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "matcha, now we gotcha"
+			tasks: [{
+				id: "6BBCBAF6CDBE85D9"
+				item: "delightful:matcha"
+				type: "item"
+			}]
+			title: "Powdered Green Tea"
+			x: 1.5d
 			y: 32.5d
 		}
 	]

@@ -24,4 +24,28 @@ ServerEvents.recipes(event => {
 		'bakery:strawberry', // Arg 2: the item to replace
 		'#forge:fruits/strawberries' // Arg 3: the item to replace it with
 	)
+
+	//Black Tea
+	event.replaceInput({
+		input: 'farmersrespite:black_tea_leaves'
+	}, // Arg 1: the filter
+	'farmersrespite:black_tea_leaves', // Arg 2: the item to replace
+	'herbalbrews:dried_black_tea' // Arg 3: the item to replace it with
+)
+
+	//Black Tea
+	event.replaceInput({
+		input: 'farmersrespite:green_tea_leaves'
+	}, // Arg 1: the filter
+	'farmersrespite:green_tea_leaves', // Arg 2: the item to replace
+	'herbalbrews:dried_green_tea' // Arg 3: the item to replace it with
+	)
+
+	//Black Tea
+	event.replaceInput({
+		input: 'farmersrespite:yellow_tea_leaves'
+	}, // Arg 1: the filter
+	'farmersrespite:yellow_tea_leaves', // Arg 2: the item to replace
+	'herbalbrews:dried_oolong_tea' // Arg 3: the item to replace it with
+)
 })

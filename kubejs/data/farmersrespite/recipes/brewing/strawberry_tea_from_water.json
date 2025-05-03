@@ -8,7 +8,7 @@
     "experience": 0.35,
     "ingredients": [
         {
-            "item": "farmersrespite:black_tea_leaves"
+            "item": "herbalbrews:dried_black_tea"
           },
           {
             "item": "farm_and_charm:strawberry"

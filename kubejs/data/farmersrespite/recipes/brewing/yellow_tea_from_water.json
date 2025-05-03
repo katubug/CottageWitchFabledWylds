@@ -1,0 +1,21 @@
+{
+  "type": "farmersrespite:brewing",
+  "base": {
+    "count": 1000,
+    "fluid": "minecraft:water"
+  },
+  "cookingtime": 2400,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "herbalbrews:dried_green_tea"
+    },
+    {
+      "item": "herbalbrews:dried_oolong_tea"
+    }
+  ],
+  "result": {
+    "count": 1000,
+    "fluid": "farmersrespite:yellow_tea"
+  }
+}

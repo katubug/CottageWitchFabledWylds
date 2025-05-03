@@ -90,5 +90,7 @@
   "herbalbrews.advancement.dry_2": "Let's do it again!",
   "herbalbrews.advancement.dry_2.desc": "Craft a Ceylon Black Tea Leaf Block by combining 9 Ceylon Black Tea, place it down and wait until it's fully dried.",
   "herbalbrews.advancement.dry_3": "Mix it up!",
-  "herbalbrews.advancement.dry_3.desc": "Craft a Mixed Tea Leaf Block by combining 4 Dried Sencha Green Tea and 4 Dried Ceylon Black Tea, place it down and wait until it's fully dried."
+  "herbalbrews.advancement.dry_3.desc": "Craft a Mixed Tea Leaf Block by combining 4 Dried Sencha Green Tea and 4 Dried Ceylon Black Tea, place it down and wait until it's fully dried.",
+  "block.herbalbrews.green_tea_block": "Sencha Green Tea",
+  "block.herbalbrews.black_tea_block": "Ceylon Black Tea"
 }

@@ -8,7 +8,7 @@
     "experience": 0.35,
     "ingredients": [
       {
-        "tag": "forge:tea_leaves/yellow"
+        "tag": "herbalbrews:dried_oolong_tea"
       },
       {
         "item": "fruitsdelight:mangosteen"

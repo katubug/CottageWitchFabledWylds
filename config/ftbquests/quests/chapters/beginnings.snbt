@@ -254,6 +254,10 @@
 				"Would you like a Mushroom Hat? Cool! Click the box above."
 				""
 				"Be careful, because if you place it on the ground &dit will turn into a pumpkin&r. And it doesn't even need to be midnight."
+				""
+				"(psst, if the hat looks like a pumpkin, &6make sure the Mushroom Cap Hat resource pack is enabled&r."
+				""
+				"&dThis quest is repeatable&r."
 			]
 			id: "3DFB7EF14F053582"
 			rewards: [{
@@ -281,38 +285,6 @@
 			title: "Mushroom Hat"
 			x: -2.0d
 			y: 0.5d
-		}
-		{
-			description: ["Would you like an adorable &bScarecrow&r to look over your fields? Well look no further! Simply claim this quest reward, &6place down the &bGlass Item Frame&r on the ground (it will be invisible once filled) and &6display your &bScarecrow&r."]
-			id: "2E1F1E4415C20577"
-			rewards: [
-				{
-					id: "11D206DBB7A76FD6"
-					item: {
-						Count: 1
-						id: "minecraft:carved_pumpkin"
-						tag: {
-							display: {
-								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Scarecrow\"}"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "36C3BD60B0A7ADD6"
-					item: "quark:glass_item_frame"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "48FE16D6A1E00A6D"
-				title: "Yes I want a Scarecrow!"
-				type: "checkmark"
-			}]
-			title: "Do You Wanna Build a Scarecrow?"
-			x: -3.5d
-			y: 1.5d
 		}
 		{
 			dependencies: ["47643C0C8D4BCBD9"]
@@ -461,7 +433,7 @@
 			tasks: [{
 				icon: {
 					Count: 1
-					id: "forbidden_arcanus:reinforced_deorum_sword"
+					id: "minecraft:diamond_sword"
 					tag: {
 						Damage: 0
 					}
@@ -533,7 +505,7 @@
 			}]
 			title: "Waystones 101"
 			x: -3.5d
-			y: 0.0d
+			y: 1.5d
 		}
 	]
 	title: "Beginnings"

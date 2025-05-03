@@ -66,6 +66,12 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "complicated_bees": {
+    "show_cycle_ticks": false,
+    "apiary_errors": true,
+    "show_errors": true,
+    "bee_nest_type": true
+  },
   "balm": {
     "jade": true
   },

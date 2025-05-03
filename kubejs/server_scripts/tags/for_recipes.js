@@ -169,14 +169,9 @@ ServerEvents.tags('item', event => {
 	)
 
 	//Tea Leaves
-	event.add('forge:tea_leaves/black',
-		'farmersrespite:black_tea_leaves',
+	event.add('forge:dried_teas',
+		'herbalbrews:dried_oolong_tea',
+		'herbalbrews:dried_green_tea',
 		'herbalbrews:dried_black_tea'
-	)
-
-	//Tea Leaves
-	event.add('forge:tea_leaves/yellow',
-		'herbalbrews:dried_oolong_tea', 
-		'farmersrespite:yellow_tea_leaves'
 	)
 })

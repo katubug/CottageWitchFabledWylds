@@ -117,11 +117,6 @@
 					item: "serene_shrubbery:red_pansies"
 					type: "item"
 				}
-				{
-					id: "3153C94F5639C9FC"
-					item: "serene_shrubbery:blanket_flower"
-					type: "item"
-				}
 			]
 			title: "Flower Picking: Red"
 			x: -3.0d
@@ -149,11 +144,6 @@
 					type: "item"
 				}
 				{
-					id: "6BBBD0249F701520"
-					item: "unusualprehistory:leefructus"
-					type: "item"
-				}
-				{
 					id: "74874B35911D5AE0"
 					item: "regions_unexplored:orange_snowbelle"
 					type: "item"
@@ -166,11 +156,6 @@
 				{
 					id: "61CDD0F3FBAF80A5"
 					item: "regions_unexplored:mallow"
-					type: "item"
-				}
-				{
-					id: "27FB1E9F814DC714"
-					item: "unusualprehistory:raiguenrayun"
 					type: "item"
 				}
 				{
@@ -348,11 +333,6 @@
 				{
 					id: "334DDF41A25EDF8E"
 					item: "regions_unexplored:yellow_snowbelle"
-					type: "item"
-				}
-				{
-					id: "7AEBE6616F264A9C"
-					item: "forbidden_arcanus:yellow_orchid"
 					type: "item"
 				}
 				{
@@ -828,11 +808,6 @@
 				{
 					id: "2E297E7C555C9C66"
 					item: "regions_unexplored:blue_magnolia_flowers"
-					type: "item"
-				}
-				{
-					id: "7417A9421A23103C"
-					item: "moresnifferflowers:caulorflower"
 					type: "item"
 				}
 				{

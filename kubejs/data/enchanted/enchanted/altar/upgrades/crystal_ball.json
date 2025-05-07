@@ -1,0 +1,7 @@
+{
+    "type": "enchanted:chalice",
+    "block": "hexerei:crystal_ball",
+    "power": 2.0,
+    "recharge": 0.0,
+    "priority": 0
+  }

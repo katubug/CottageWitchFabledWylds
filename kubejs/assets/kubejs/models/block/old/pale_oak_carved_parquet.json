@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "kubejs:block/pale_oak_double",
+    "side": "kubejs:block/pale_oak_double"
+  }
+}

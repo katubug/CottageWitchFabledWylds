@@ -1,0 +1,38 @@
+{
+  "replace":true,
+  "parent": "farm_and_charm:main/introduction_mincing",
+  "display": {
+    "icon": {
+      "item": "farmersdelight:minced_beef"
+    },
+    "title": {
+      "translate": "advancement.farm_and_charm.get_minced_beef"
+    },
+    "description": {
+      "translate": "advancement.farm_and_charm.get_minced_beef.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "minced_beef": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:minced_beef"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minced_beef"
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "replace": true,
+  "parent": "farm_and_charm:main/get_fertilizer",
+  "criteria": {
+    "fertilized_soil": {
+      "conditions": {
+        "location": [
+          {
+            "block": "farmersdelight:rich_soil",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.farm_and_charm.place_fertilized_soil.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelight:rich_soil"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.farm_and_charm.place_fertilized_soil"
+    }
+  },
+  "requirements": [
+    [
+      "fertilized_soil"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

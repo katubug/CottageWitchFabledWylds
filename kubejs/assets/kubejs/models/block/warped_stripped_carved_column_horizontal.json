@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "kubejs:block/carved_warped_log",
+    "side": "kubejs:block/carved_warped_log2"
+  }
+}

@@ -6,3 +6,6 @@ config/oculus.properties
 config/packetfixer.properties
 config/sound_physics_remastered/soundphysics.properties
 config/illuminations.properties
+config/spark/activity.json
+config/illuminations.properties
+config/voicechat/voicechat-client.properties

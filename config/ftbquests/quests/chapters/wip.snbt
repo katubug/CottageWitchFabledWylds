@@ -27,21 +27,26 @@
 					item: "enchanted:belladonna_seeds"
 					type: "item"
 				}
+				{
+					id: "2E6A2BCD72C234C1"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:getting_started"
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "34D6E41F4B899EEF"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "enchanted:getting_started"
-					}
-				}
-				type: "item"
+				id: "491F79BB8987D1C2"
+				title: "Begin Witchification!"
+				type: "checkmark"
 			}]
 			title: "The Pursuit of Magic"
 			x: 0.0d
-			y: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2B1B9108FF7A3FB3"]
@@ -72,11 +77,11 @@
 				}
 			]
 			title: "Building an Altar"
-			x: 0.0d
-			y: 1.5d
+			x: -2.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["5688211768F55F90"]
+			dependencies: ["182C1C3812C31B0B"]
 			description: [
 				"Now, the focus of your &asacred space&r will eventually be your &bAltar&r, but let's not get ahead of ourselves. In order to make &bAltar blocks&r, you'll need to &6collect fumes&r - namely, the &bBreath of the Goddess&r and the &bExhale of the Horned One&r."
 				""
@@ -109,8 +114,8 @@
 				type: "item"
 			}]
 			title: "Happy Witch: Sacred Space"
-			x: 0.0d
-			y: 0.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["410FE13D777DE1C8"]
@@ -147,12 +152,23 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 3.0d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5688211768F55F90"]
+			description: [
+				"There are two primary mods which grant you magical powers: &lHexerei&r and &lEnchanted&r. In this modpack, they are &awoven together to provide a cohesive experience&r, and as such may surprise you if you've played them before. They also both add &bguidebooks&r."
+				""
+				"&lHexerei's&r &bBook of Shadows&r will serve as a reference for the mechanics of that mod, and &lEnchanted's&r &bArt of Witchcraft&r - and the other volumes you'll discover as you go - will do the same for that mod. When the mechanics of the mods diverge from the guidebooks, &dthese quests will provide you the correct steps&r."
+			]
 			id: "182C1C3812C31B0B"
+			rewards: [{
+				count: 4
+				id: "2C1696FA0F7DF012"
+				item: "hexerei:mahogany_sapling"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "138FC408042D2352"
@@ -176,11 +192,11 @@
 				}
 			]
 			title: "Happy Witch: Books"
-			x: -2.0d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["5688211768F55F90"]
+			dependencies: ["182C1C3812C31B0B"]
 			id: "4655801A35B3BAB2"
 			tasks: [
 				{
@@ -197,6 +213,51 @@
 			title: "Happy Witch: Garden"
 			x: 2.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["182C1C3812C31B0B"]
+			description: [
+				"All witches ought to have a &etrusty familiar&r - traditionally, these are spirits that take the form of cats!"
+				""
+				"Having a &efamiliar&r will not only make you resistant to curses, but will strengthen your curse magic. More importantly, though, it's nice to have a companion. To tame a familiar, you will first need a &eCat&r. Tame it with your &bfish&r of choice, and guide it (or &6shift+right click to pick up and set down&r) into a &bRitual Circle&r."
+				""
+				""
+				"{image:enchanted_wilds:textures/questimages/ritual_circle.png width:200 height:200 align:center}"
+			]
+			id: "2E3769733A0BFF69"
+			tasks: [{
+				checkItem: false
+				entity: "minecraft:cat"
+				icon: "heads:cat_calico_head"
+				id: "53682DB0C2E441EF"
+				nbt: { }
+				title: "Tame a Cat"
+				type: "questsadditions:interaction"
+				value: 1L
+			}]
+			title: "Happy Witch: Cats"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "3FCBC8303D699551"
+			tasks: [{
+				id: "6B2037A41652554A"
+				item: "spelunkery:salt"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "57CEB5677AF42CCB"
+			tasks: [{
+				id: "4D4FA941F4C2B6D0"
+				item: "enchanted:broom"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
 		}
 	]
 	title: "WIP"

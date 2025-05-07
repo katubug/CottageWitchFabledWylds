@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "kubejs:block/half_carved_birch_log",
+    "down": "kubejs:block/half_carved_birch_log",
+    "north": "kubejs:block/half_carved_birch_log2",
+    "south": "kubejs:block/half_carved_birch_log2",
+    "west":  "kubejs:block/half_carved_birch_log2",
+    "east":  "kubejs:block/half_carved_birch_log2",
+    "particle": "kubejs:block/half_carved_birch_log"
+  }
+}

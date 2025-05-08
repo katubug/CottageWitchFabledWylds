@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column_horizontal",
   "textures": {
-    "end": "kubejs:block/carved_crimson_log",
-    "side": "kubejs:block/carved_crimson_log2"
+    "end": "kubejs:block/carved_crimson_hyphae",
+    "side": "kubejs:block/carved_crimson_hyphae2"
   }
 }

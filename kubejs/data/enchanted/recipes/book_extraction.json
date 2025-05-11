@@ -1,0 +1,12 @@
+{
+  "replace":true,
+  "type": "patchouli:shapeless_book_recipe",
+  "ingredients": [
+    { "item": "minecraft:ink_sac" },
+    { "item": "minecraft:book" },
+    { "item": "minecraft:feather" },
+    { "item": "hexerei:belladonna_flowers" },
+    { "item": "minecraft:coal" }
+  ],
+  "book": "enchanted:extraction"
+}

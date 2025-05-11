@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
 	'herbalbrews:dried_black_tea' // Arg 3: the item to replace it with
 )
 
-	//Black Tea
+	//Green Tea
 	event.replaceInput({
 		input: 'farmersrespite:green_tea_leaves'
 	}, // Arg 1: the filter
@@ -41,11 +41,19 @@ ServerEvents.recipes(event => {
 	'herbalbrews:dried_green_tea' // Arg 3: the item to replace it with
 	)
 
-	//Black Tea
+	//Yellow/Oolong Tea
 	event.replaceInput({
 		input: 'farmersrespite:yellow_tea_leaves'
 	}, // Arg 1: the filter
 	'farmersrespite:yellow_tea_leaves', // Arg 2: the item to replace
 	'herbalbrews:dried_oolong_tea' // Arg 3: the item to replace it with
-)
+	)
+
+	//Belladonna Flowers
+	event.replaceInput({
+		input: 'enchanted:belladonna_flower'
+	}, // Arg 1: the filter
+	'enchanted:belladonna_flower', // Arg 2: the item to replace
+	'hexerei:belladonna_flowers' // Arg 3: the item to replace it with
+	)
 })

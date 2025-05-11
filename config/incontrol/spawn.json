@@ -21,5 +21,10 @@
         "mob":["species:limpet"],
         "result":"deny",
         "continue": true
+    },
+    {
+        "mob":["crittersandcompanions:dragonfly"],
+        "result":"deny",
+        "continue": true
     }
 ]

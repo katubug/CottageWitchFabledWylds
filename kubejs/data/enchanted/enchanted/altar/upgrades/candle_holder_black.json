@@ -1,0 +1,7 @@
+{
+  "type": "enchanted:torch",
+  "block": "supplementaries:candle_holder_black",
+   "power": 0.0,
+   "recharge": 1.0,
+   "priority": 1
+}

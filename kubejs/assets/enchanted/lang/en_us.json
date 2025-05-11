@@ -1,4 +1,5 @@
 {
-    "rite.enchanted.infusion_witchhazel_broom_from_willow": "Rite of Infusion",
-    "rite.enchanted.infusion_mahogany_broom_from_witchhazel": "Rite of Infusion"
+    "rite.enchanted.infusion_witchhazel_broom_from_willow": "Rite of Broom Infusion",
+    "rite.enchanted.infusion_mahogany_broom_from_witchhazel": "Rite of Broom Infusion",
+    "rite.enchanted.infusion_cauldron": "Rite of Cauldron Infusion"
 }

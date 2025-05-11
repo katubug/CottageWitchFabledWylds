@@ -27,12 +27,6 @@
 		{ count: 2, item: "glassential:glass_ethereal", weight: 6.0f }
 		{ item: "moblassos:golden_lasso", weight: 10.0f }
 		{ item: "minecraft:conduit", weight: 5.0f }
-		{ item: "tombstone:receptacle_of_soul", weight: 5.0f }
-		{ count: 3, item: "forbidden_arcanus:arcane_crystal", weight: 20.0f }
-		{ count: 3, item: "forbidden_arcanus:rune", weight: 10.0f }
-		{ count: 5, item: "forbidden_arcanus:soul", weight: 20.0f }
-		{ item: "ancient_manuscripts:ancient_manuscript", weight: 13.0f }
-		{ count: 2, item: "forbidden_arcanus:xpetrified_orb", weight: 10.0f }
 		{ item: "minecraft:coast_armor_trim_smithing_template", weight: 5.0f }
 		{ item: "minecraft:dune_armor_trim_smithing_template", weight: 5.0f }
 		{ item: "minecraft:wild_armor_trim_smithing_template", weight: 5.0f }

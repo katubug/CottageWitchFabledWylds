@@ -1677,21 +1677,6 @@
 					item: "the_bumblezone:music_disc_a_last_first_last"
 					type: "item"
 				}
-				{
-					id: "0CE5E471C29061C9"
-					item: "unusualprehistory:zulogae_disc"
-					type: "item"
-				}
-				{
-					id: "70B1519A82A24C89"
-					item: "create_connected:music_disc_elevator"
-					type: "item"
-				}
-				{
-					id: "3832C9FD551FFDA4"
-					item: "create_connected:music_disc_interlude"
-					type: "item"
-				}
 			]
 			title: "Music Lover - Modded"
 			x: 3.0d

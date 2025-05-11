@@ -1,0 +1,7 @@
+{
+    "type": "enchanted:torch",
+    "block": "fantasyfurniture:decorations/bone_candles",
+     "power": 0.0,
+     "recharge": 1.0,
+     "priority": 1
+  }

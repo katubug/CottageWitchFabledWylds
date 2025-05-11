@@ -1,4 +1,6 @@
 ServerEvents.recipes(event => {
+	//TODO - redo basically all of these tbh
+	/*
 	//Spectral Lens uses Certus
 	event.shaped(
 		Item.of('malum:spectral_lens'),
@@ -55,7 +57,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	/*
+
 	//1k Cell Components
 	event.shaped(
 		Item.of('ae2:cell_component_1k'),
@@ -130,7 +132,7 @@ ServerEvents.recipes(event => {
 			D: 'malum:intricate_assembly'
 		}
 	)
-	*/
+
 
 	//Annihilation Core
 	event.shapeless(
@@ -337,5 +339,5 @@ ServerEvents.recipes(event => {
 			}
 		)
 	}
-
+*/
 })

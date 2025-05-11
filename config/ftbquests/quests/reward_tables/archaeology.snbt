@@ -1,7 +1,7 @@
 {
 	id: "7D60C2D8FE0CCADB"
 	loot_size: 1
-	order_index: 34
+	order_index: 33
 	rewards: [
 		{ count: 5, item: "minecraft:brick", weight: 7.0f }
 		{ item: "betterarcheology:artifact_shards" }

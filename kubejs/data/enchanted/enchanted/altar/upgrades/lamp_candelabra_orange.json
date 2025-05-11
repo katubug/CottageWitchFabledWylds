@@ -1,0 +1,7 @@
+{
+  "type": "enchanted:torch",
+  "block": "beautify:lamp_candelabra_orange",
+   "power": 0.0,
+   "recharge": 2.0,
+   "priority": 1
+}

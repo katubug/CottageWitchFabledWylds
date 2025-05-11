@@ -1,0 +1,12 @@
+{
+  "replace":true,
+  "values": [
+    "minecraft:spruce_log",
+    "minecraft:dark_oak_log",
+    "mysticsbiomes:maple_log", 
+    "mysticsbiomes:white_maple_log", 
+    "regions_unexplored:maple_log", 
+    "excessive_building:maple_log", 
+    "autumnity:maple_log"
+  ]
+}

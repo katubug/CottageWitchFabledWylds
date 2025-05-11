@@ -1,0 +1,12 @@
+{
+  "replace":true,
+  "type": "farm_and_charm:mincer",
+  "ingredient": {
+    "item": "farm_and_charm:bacon"
+  },
+  "recipe_type": "MEAT",
+  "result": {
+    "item": "farmersdelight:bacon",
+    "count": 2
+  }
+}

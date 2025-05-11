@@ -54,6 +54,6 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        '[\w]+:chests\/[\w_\/]*(mineshaft|city|stronghold)[\w_\/]*': 0.025
-        minecraft:chests/woodland_mansion: 0.025
-        '[\w]+:chests\/[\w_\/]*(pillag|outpost)[\w_\/]*': 0.025
+        '[\w]+:chests\/[\w_\/]*(mineshaft|city|stronghold)[\w_\/]*': 0.0
+        minecraft:chests/woodland_mansion: 0.0
+        '[\w]+:chests\/[\w_\/]*(pillag|outpost)[\w_\/]*': 0.0

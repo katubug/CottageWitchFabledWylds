@@ -6,7 +6,7 @@
       { "id": "hexerei:witch_hazel_sapling", "Count": 2 }
     ],
     "shapes": {
-      "enchanted:small_circle": "enchanted:golden_chalk",
+      "enchanted:small_circle": "enchanted:nether_chalk",
       "enchanted:medium_circle": "enchanted:ritual_chalk"
     },
     "power": 5000,

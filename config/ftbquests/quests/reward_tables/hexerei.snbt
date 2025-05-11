@@ -5,17 +5,12 @@
 	rewards: [
 		{ count: 5, item: "hexerei:seed_mixture", weight: 8.0f }
 		{ count: 3, item: "hexerei:tallow_impurity", weight: 8.0f }
-		{ item: "hexerei:blood_bottle", weight: 5.0f }
+		{ count: 5, item: "hexerei:animal_fat", weight: 10.0f }
 		{ item: "hexerei:infused_fabric" }
-		{
-			item: {
-				Count: 1
-				id: "hexerei:broom_brush"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
+		{ item: "hexerei:budding_selenite" }
+		{ count: 4, item: "hexerei:willow_sapling", weight: 8.0f }
+		{ count: 4, item: "hexerei:witch_hazel_sapling", weight: 5.0f }
+		{ count: 4, item: "hexerei:mahogany_sapling" }
 	]
 	title: "Hexerei"
 }

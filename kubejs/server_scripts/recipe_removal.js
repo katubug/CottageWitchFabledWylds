@@ -179,6 +179,7 @@ ServerEvents.recipes(event => {
 		{ output: 'prefab:item_swift_blade_stone' },
 		{ output: 'prefab:item_swift_blade_wood' },
 		{ output: 'prefab:item_wooden_crate' },
+        { output: 'hexerei:dowsing_rod'},
         //Replaced Recipes
         {id: 'farmersdelight:wheat_dough_from_water'},
         {id: 'farmersdelight:wheat_dough_from_eggs'},
@@ -223,6 +224,8 @@ ServerEvents.recipes(event => {
         {id: 'hexerei:willow_broom_from_mixing_cauldron'},
         {id: 'hexerei:witch_hazel_broom_from_mixing_cauldron'},
         {output: 'prefab:item_carton_of_eggs'},
+        {output: 'hexerei:pestle_and_mortar'},
+        {output: 'hexerei:mixing_cauldron'},
     
     ];
     

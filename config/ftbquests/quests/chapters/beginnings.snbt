@@ -318,8 +318,8 @@
 				value: 50
 			}]
 			title: "Die 50 Times"
-			x: 2.0d
-			y: 0.5d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["47643C0C8D4BCBD9"]
@@ -397,42 +397,6 @@
 		{
 			dependencies: ["47643C0C8D4BCBD9"]
 			description: [
-				"The &bAnkh of Prayer&r will allow you to &again more &bKnowledge of Death&r, without the need to continually die, yourself."
-				""
-				"Take this &bDecorative Grave&r, and use your &bAnkh&r to pray for the &eGoddess of Death&r to grant you further knowledge. You do this by &6holding the item and holding down right click to channel&r. Once you are finished, you will be notified in your chat."
-				""
-				"Remember to use &6CTRL+T&r to access your &bKnowledge of Death&r perks."
-			]
-			id: "28EF473316FAD44F"
-			rewards: [{
-				id: "5D70A6A09E81AFCB"
-				item: {
-					Count: 1
-					id: "tombstone:decorative_grave_normal"
-					tag: {
-						model_texture: 1
-					}
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "31E2C94924B2C12F"
-				item: {
-					Count: 1
-					id: "tombstone:ankh_of_prayer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 5.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["47643C0C8D4BCBD9"]
-			description: [
 				"An important part of &aDeath&r is to share it with others.* Now that you've dealt an obscene amount of damage, probably at least some of those things have died."
 				""
 				""
@@ -459,28 +423,8 @@
 				value: 9999
 			}]
 			title: "Doling Death to Others"
-			x: 5.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["47643C0C8D4BCBD9"]
-			description: ["Congrats on surviving your first consecutive hour! Here's a cookie!"]
-			id: "0906699108A371A5"
-			rewards: [{
-				id: "65965ACE64F6D9C0"
-				item: "minecraft:cookie"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				advancement: "tombstone:adventure/strong_or_careful"
-				criterion: ""
-				id: "2835A2CDA96D6CF6"
-				type: "advancement"
-			}]
-			title: "Avoiding Death"
-			x: 3.5d
-			y: 1.5d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
 			id: "5F1A290810B22633"

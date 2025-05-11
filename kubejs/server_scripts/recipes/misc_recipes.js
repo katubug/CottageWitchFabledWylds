@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
 	// Filled Eccentric tome
+	//TODO: fix this!!
 	let tome = Item.of('eccentrictome:tome', '{"eccentrictome:mods":{ftbquests:{0:{Count:1b,id:"ftbquests:book"}},hexerei:{0:{Count:1b,id:"hexerei:book_of_shadows",tag:{bookmarks:{},chapter:0,opened:0b,page:0}}},malum:{0:{Count:1b,id:"malum:encyclopedia_arcana"}},solonion:{0:{Count:1b,id:"solonion:food_book"}},unusualprehistory:{0:{Count:1b,id:"unusualprehistory:encyclopedia"}}},"eccentrictome:version":1}')
 	event.shapeless(
 		Item.of(tome),
@@ -27,7 +28,7 @@ ServerEvents.recipes(event => {
 			' A ',
 			'BCB'
 		], {
-			A: 'crabbersdelight:pearl',
+			A: '#forge:pearls',
 			B: 'minecraft:gold_nugget',
 			C: 'minecraft:gold_ingot'
 		}
@@ -42,20 +43,6 @@ ServerEvents.recipes(event => {
 		], {
 			A: '#supplementaries:ropes',
 			B: 'minecraft:flower_pot'
-		}
-	)
-	// Soul Receptacle
-	event.shaped(
-		Item.of('tombstone:receptacle_of_soul'),
-		[
-			' A ',
-			'BCB',
-			' D '
-		], {
-			A: 'minecraft:chain',
-			B: 'minecraft:iron_ingot',
-			C: '#forge:souls',
-			D: 'minecraft:soul_soil'
 		}
 	)
 
@@ -74,15 +61,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	//Calcite to Marble
-	event.shapeless(
-		Item.of('tombstone:white_marble', 8),
-		[
-			'8x minecraft:calcite',
-			'supplementaries:ash'
-		]
-	)
-
 	// Palette
 	event.shaped(
 		Item.of('xercapaint:item_palette'),
@@ -93,53 +71,6 @@ ServerEvents.recipes(event => {
 			A: '#minecraft:wooden_slabs'
 		}
 	)
-
-	// Uncrafter Requires Nether
-	event.shaped(
-		Item.of('uncrafter:uncrafter'),
-		[
-			'ABA',
-			'CDC',
-			'EEE'
-		], {
-			A: 'minecraft:iron_ingot',
-			B: 'minecraft:blaze_rod',
-			C: 'minecraft:dark_prismarine',
-			D: 'minecraft:gilded_blackstone',
-			E: 'minecraft:crying_obsidian'
-		}
-	)
-
-	/*
-//Chalk crafting
-let dyeColor =[
-    "red",
-    "orange",
-    "yellow",
-    "green",
-    "lime",
-    "light_blue",
-    "cyan",
-    "blue",
-    "pink",
-    "magenta",
-    "purple",
-    "gray",
-    "light_gray",
-    "black",
-    "brown"
-];
-
-for (const color of dyeColor) {
-    event.shapeless(
-        Item.of('chalk:'+color+'_chalk'),
-        [
-            'regions_unexplored:chalk',
-            'minecraft:'+color+'_dye'
-        ]
-    )
-}
-*/
 
 	//Adding in QOL Dirt Recipes
 	event.shapeless(
@@ -219,7 +150,7 @@ for (const color of dyeColor) {
 	    )
 	        */
 
-	/*
+	
 	//Epiphany Table Craftable
 	event.shaped(
 	    Item.of('orpheus:epiphany_table'),
@@ -229,7 +160,7 @@ for (const color of dyeColor) {
 	        'CCC'
 	    ], {
 	        A: 'supplementaries:gold_trapdoor',
-	        B: 'tombstone:white_marble',
+	        B: 'excessive_building:marble',
 	        C: 'minecraft:glowstone_dust'
 	    }
 	)
@@ -248,29 +179,7 @@ for (const color of dyeColor) {
 	        D: 'orpheus:calliopes_love'
 	    }
 	)
-	    */
-
-	// event.shapeless(
-	// 	Item.of('abyssal_decor:cinnamon_stick', 2),
-	// 	[
-	// 		'abyssal_decor:cinnamon_sapling'
-	// 	]
-	// )
-
-	// event.shaped(
-	// 	Item.of('abyssal_decor:scrimshaw_cave'),
-	// 	[
-	// 		' A ',
-	// 		' A ',
-	// 		' B '
-	// 	], {
-	// 		A: 'minecraft:quartz',
-	// 		B: 'minecraft:iron_ingot'
-	// 	}
-	// )
-
-	// event.stonecutting('abyssal_decor:cinnamon_shingles', 'abyssal_decor:cinnamon_wood')
-
+	
 	// Blast 1 iron ingot into 10 nuggets in a Blast Furnace: 
 	event.blasting('create:zinc_block', 'create:raw_zinc_block')
 
@@ -283,7 +192,7 @@ for (const color of dyeColor) {
 			'AAA'
 		], {
 			A: 'quark:myalite',
-			B: 'tombstone:grave_dust'
+			B: 'hexerei:moon_dust'
 		}
 	)
 
@@ -296,7 +205,7 @@ for (const color of dyeColor) {
 			'AAA'
 		], {
 			A: '#quark:corundum',
-			B: 'forbidden_arcanus:arcane_crystal_dust'
+			B: 'enchanted:mutandis'
 		}
 	)
 
@@ -341,5 +250,18 @@ for (const color of dyeColor) {
 		[
 			'prefab:item_carton_of_eggs'
 		]
+	)
+
+	event.shaped(
+		Item.of('hexerei:pestle_and_mortar'),
+		[
+			'  A',
+			'BCB',
+			' B '
+		], {
+			A: '#forge:rods',
+			B: '#forge:stone',
+			C: 'spelunkery:stone_pebble'
+		}
 	)
 })

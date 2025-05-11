@@ -1603,35 +1603,6 @@
 		}
 		{
 			description: [
-				"&aLimpets&r are bipedal, subterranean mollusks with a rather deranged appearance. These peaceful creatures are &asought after for their ores&r, which grow in formations on their shells."
-				""
-				"One can &6break off the ore&r by &achasing down the &eLimpet&r and &6whacking it with a &bPickaxe&r. However, &eLimpets&r have learned to fear pickaxes, and will &aretreat when attacked&r, making them somewhat frustrating prey. Aside from pickaxes, they &dcannot be damaged by most weapons&r."
-				""
-				"One can use &bSilk Touch&r to &apartially preserve the Limpet's shell&r when harvesting them. The ore drops are also affected by &bFortune&r."
-			]
-			id: "176AD15DC753D7A7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "02E2B845987E278E"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "heart"
-			subtitle: "das limpet???"
-			tasks: [{
-				icon: "species:limpet_spawn_egg"
-				id: "2981560A91E4B6AE"
-				observe_type: 5
-				timer: 0L
-				to_observe: "species:limpet"
-				type: "observation"
-			}]
-			title: "Meet the Limpet"
-			x: -4.0d
-			y: 9.0d
-		}
-		{
-			description: [
 				"&eRoombugs&r are flattish fellows which can be found in &cSavannahs&r and &cBadlands&r biomes."
 				""
 				"Roombugs are delightful, drowsy arthropods that can be &6tamed with Honeycombs&r and &6healed using Bottles of Honey&r. Tamed Roombugs can be &aridden by the player&r or commanded to sit down, during which they may loudly doze off to sleep."

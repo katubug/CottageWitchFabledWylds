@@ -84,12 +84,6 @@ ServerEvents.tags('item', event => {
 	event.add('forge:slimeballs',
 		'earthmobsmod:tropical_ball')
 
-	//Ambers for Aether and Stuff
-	event.add('forge:amber',
-		'unusualprehistory:amber_shard',
-		'moresnifferflowers:amber_shard'
-	)
-
 	//Salmonberries
 	event.add('forge:fruits/salmonberries',
 		'regions_unexplored:salmonberry'

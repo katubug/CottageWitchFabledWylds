@@ -1,9 +1,9 @@
 [
-    {
-        "mob":["endermanoverhaul:end_enderman"],
-        "result":"deny",
-        "continue": true
-    },
+  {
+    "mob":["endermanoverhaul:end_enderman"],
+    "result":"deny",
+    "continue": true
+},
     {
         "result": "deny",
         "continue": true,
@@ -16,5 +16,10 @@
         "mincount": {
           "amount": 60
         }
-      }
+      },
+      {
+        "mob":["species:limpet"],
+        "result":"deny",
+        "continue": true
+    }
 ]

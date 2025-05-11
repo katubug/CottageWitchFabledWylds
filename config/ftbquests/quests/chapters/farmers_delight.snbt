@@ -840,16 +840,6 @@
 					item: "vinery:cherry_bag"
 					type: "item"
 				}
-				{
-					id: "5F1451D3903FCB46"
-					item: "nethervinery:crimson_grape_crate"
-					type: "item"
-				}
-				{
-					id: "6F2ACCA13763E4E9"
-					item: "nethervinery:warped_grape_crate"
-					type: "item"
-				}
 			]
 			title: "Compact Your Crops: Wine Edition"
 			x: 7.0d

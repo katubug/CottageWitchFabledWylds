@@ -1,0 +1,8 @@
+{
+    "type": "enchanted:torch",
+    "block": "twilightforest:candelabra",
+     "power": 0.0,
+     "recharge": 2.0,
+     "priority": 1
+  }
+  

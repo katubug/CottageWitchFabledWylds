@@ -1,7 +1,7 @@
 {
 	id: "4972AA871F691F6C"
 	loot_size: 1
-	order_index: 32
+	order_index: 31
 	rewards: [
 		{ item: "minecraft:netherite_upgrade_smithing_template" }
 		{ item: "minecraft:sentry_armor_trim_smithing_template" }
@@ -24,7 +24,6 @@
 		{ item: "moresnifferflowers:beat_armor_trim_smithing_template" }
 		{ item: "moresnifferflowers:nether_wart_armor_trim_smithing_template" }
 		{ item: "quark:smithing_template_rune" }
-		{ item: "caverns_and_chasms:exile_armor_trim_smithing_template" }
 		{ item: "moresnifferflowers:aroma_armor_trim_smithing_template" }
 		{ item: "moresnifferflowers:carnage_armor_trim_smithing_template" }
 		{ item: "moresnifferflowers:carotene_armor_trim_smithing_template" }

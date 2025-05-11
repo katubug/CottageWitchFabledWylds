@@ -2698,14 +2698,6 @@
 						Fire: -1s
 						ForcedAge: 0
 						ForgeCaps: {
-							"aether:mob_accessory": {
-								DropChances: {
-									aether_gloves: 0.085f
-									aether_pendant: 0.085f
-									hands: 0.085f
-									necklace: 0.085f
-								}
-							}
 							"curios:inventory": {
 								Curios: [ ]
 							}
@@ -2714,10 +2706,6 @@
 							}
 							"structure_gel:gel_entity": {
 								portal: "structure_gel:empty"
-							}
-							"unusualprehistory:animal_capability": {
-								animal: ""
-								timer: 0
 							}
 						}
 						ForgeData: { }
@@ -2831,14 +2819,6 @@
 							Fire: -1s
 							ForcedAge: 0
 							ForgeCaps: {
-								"aether:mob_accessory": {
-									DropChances: {
-										aether_gloves: 0.085f
-										aether_pendant: 0.085f
-										hands: 0.085f
-										necklace: 0.085f
-									}
-								}
 								"curios:inventory": {
 									Curios: [ ]
 								}
@@ -2847,10 +2827,6 @@
 								}
 								"structure_gel:gel_entity": {
 									portal: "structure_gel:empty"
-								}
-								"unusualprehistory:animal_capability": {
-									animal: ""
-									timer: 0
 								}
 							}
 							ForgeData: { }

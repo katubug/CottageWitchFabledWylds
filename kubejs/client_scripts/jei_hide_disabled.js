@@ -225,6 +225,7 @@ JEIEvents.hideItems(event => {
 		  'prefab:item_swift_blade_stone',
 		  'prefab:item_swift_blade_wood',
 		  'prefab:item_wooden_crate',
+      'hexerei:dowsing_rod'
       ];
     
       for (const hide of toHide) {

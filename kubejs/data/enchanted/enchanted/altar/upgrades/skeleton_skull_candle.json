@@ -1,0 +1,7 @@
+{
+  "type": "enchanted:skull",
+  "block": "twilightforest:skeleton_skull_candle",
+   "power": 2.0,
+   "recharge": 2.0,
+   "priority": 2
+}

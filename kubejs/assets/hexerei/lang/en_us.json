@@ -1,0 +1,15 @@
+{
+  "item.hexerei.book_of_shadows_altar": "Wooden Altar",
+  "block.hexerei.book_of_shadows_altar": "Wooden Altar",
+  "tooltip.hexerei.altar": "Hold \u00A7eSHIFT\u00A7r for more Information",
+  "tooltip.hexerei.altar_shift": "This is mainly to hold the book of shadows and display it for reading. Other items may be placed onto the wooden altar and can be removed by crouch right clicking the block.",
+  "tooltip.hexerei.book_of_shadows_shift": "This is the guidebook of Hexerei.\nFor now it must be placed on a wooden altar to be read.\nDye the cover upon crafting based on the dye given.\nDye the corners by dying the book again.",
+  "book.hexerei.intro_page_5.passage_1": "  They can be swapped with another bookmark or with an empty slot. Clicking on a bookmark will redirect you to the page that it was saved on.\n  Crouch and right click the wooden altar to pick up the book. \n  The book can be opened or closed when picked up, if left opened it will still show the pages on the book, though for now you wont be able to turn the pages in hand, it must be on a wooden altar.",
+  "book.hexerei.items_altar_1.passage_1": "Wooden Altars",
+  "book.hexerei.items_altar_1.passage_2": "  The Wooden Altar is not just for reading this book on. It can be used to display any item you place onto it, with a special surprise for anything that can be potted.\n\n  They can be crafted out of willow and witch hazel as well.",
+  "book.hexerei.items_candle_3.passage_1": "  Candles are lit individually, in the order they were placed in. When placed near a wooden altar and lit, the candles will float around it.\n  You can craft several items with a candle to add a decorative base to it, including planks, selenite shards, and more.",
+  "item.hexerei.willow_altar": "Willow Wooden Altar",
+  "block.hexerei.willow_altar": "Willow Wooden Altar",
+  "item.hexerei.witch_hazel_altar": "Witch Hazel Wooden Altar",
+  "block.hexerei.witch_hazel_altar": "Witch Hazel Wooden Altar"
+}

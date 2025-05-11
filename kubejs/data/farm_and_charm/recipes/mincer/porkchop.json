@@ -1,0 +1,12 @@
+{
+  "replace":true,
+  "type": "farm_and_charm:mincer",
+  "ingredient": {
+    "item": "nethersdelight:hoglin_loin"
+  },
+  "recipe_type": "MEAT",
+  "result": {
+    "item": "minecraft:porkchop",
+    "count": 4
+  }
+}

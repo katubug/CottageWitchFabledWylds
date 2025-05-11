@@ -1,0 +1,7 @@
+{
+  "type": "enchanted:torch",
+  "block": "the_bumblezone:super_candle_brown",
+   "power": 0.0,
+   "recharge": 1.0,
+   "priority": 1
+}

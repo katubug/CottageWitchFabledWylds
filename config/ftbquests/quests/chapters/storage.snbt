@@ -289,7 +289,7 @@
 			description: [
 				"The &eLuggage&r, when &astruck by lightning&r, will have its inventory increased."
 				""
-				"You can use a good, old-fashioned &bLightning Rod&r for this, but you can also use &aany spell which summons lightning&r, or even &aLightning Knives&r from the &lAether&r."
+				"You can use a good, old-fashioned &bLightning Rod&r for this, but you can also use &aanything which summons lightning&r."
 			]
 			id: "27A6A7ADD9B0A8AE"
 			rewards: [{

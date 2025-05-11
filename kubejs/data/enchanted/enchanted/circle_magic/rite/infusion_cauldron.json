@@ -1,0 +1,12 @@
+{
+  "items": [
+    { "id": "minecraft:cauldron", "Count": 1 },
+    { "id": "hexerei:mindful_trance_blend", "Count": 1 },
+    { "id": "minecraft:gold_ingot", "Count": 2 }
+  ],
+  "shapes": {
+    "enchanted:small_circle": "enchanted:ritual_chalk"
+  },
+  "power": 500,
+  "factory": { "type": "enchanted:create_item", "items": [ { "id": "hexerei:mixing_cauldron", "Count": 1 } ] }
+}

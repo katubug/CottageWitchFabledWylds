@@ -13,7 +13,6 @@
 		{ item: "minecraft:nautilus_shell", weight: 5.0f }
 		{ count: 4, item: "create:rose_quartz", weight: 10.0f }
 		{ count: 5, item: "minecraft:firework_rocket", weight: 7.0f }
-		{ count: 2, item: "tombstone:grave_dust", weight: 13.0f }
 		{ item: "candlelight:note_paper_writeable" }
 		{ count: 2, item: "species:birt_egg" }
 		{ item: "irons_rpg_tweaks:identification_scroll", weight: 5.0f }
@@ -28,7 +27,6 @@
 				}
 			}
 		}
-		{ item: "magnumtorch:diamond_magnum_torch", weight: 10.0f }
 		{ count: 3, item: "farm_and_charm:yeast" }
 		{ count: 3, item: "farm_and_charm:butter" }
 	]

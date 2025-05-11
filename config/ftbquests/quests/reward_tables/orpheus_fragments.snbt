@@ -1,7 +1,7 @@
 {
 	id: "382CDBC1AB09EC74"
 	loot_size: 3
-	order_index: 35
+	order_index: 34
 	rewards: [
 		{ item: "orpheus:calliope_poem_fragment" }
 		{ item: "orpheus:homers_the_iliad_scroll_fragment" }

@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "type": "hearthandharvest:aging",
+  "cookingtime": 1200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "spelunkery:salt"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "hearthandharvest:jar"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "hearthandharvest:pickled_beetroots"
+  }
+}

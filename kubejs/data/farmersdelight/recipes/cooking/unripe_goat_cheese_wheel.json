@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "hearthandharvest:goat_milk_bottle"
+    },
+    {
+      "item": "hearthandharvest:goat_milk_bottle"
+    },
+    {
+      "item": "spelunkery:salt"
+    },
+    {
+      "item": "spelunkery:salt"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "hearthandharvest:unripe_goat_cheese_wheel"
+  }
+}

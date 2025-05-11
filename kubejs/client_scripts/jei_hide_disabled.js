@@ -226,7 +226,14 @@ JEIEvents.hideItems(event => {
 		  'prefab:item_swift_blade_wood',
 		  'prefab:item_wooden_crate',
       'hexerei:dowsing_rod',
-      'enchanted:belladonna_flower'
+      'enchanted:belladonna_flower',
+      'hexerei:mandrake_root',
+      'tarotcards:the_emperor', 
+      'tarotcards:the_empress', 
+      'tarotcards:the_high_priestess', 
+      'tarotcards:the_world',
+      'hearthandharvest:salt',
+      'hearthandharvest:salt_bag'
       ];
     
       for (const hide of toHide) {

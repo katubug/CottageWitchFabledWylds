@@ -254,4 +254,28 @@ ServerEvents.tags('item', event => {
 		'crittersandcompanions:silk'
 	)
 
+	//Candles!
+	event.add('minecraft:candles',
+		'hexerei:candle',
+		'fantasyfurniture:decorations/venthyr_candles',
+		'fantasyfurniture:decorations/bone_candles',
+		'supplementaries:candle_holder',
+		'supplementaries:candle_holder_white',
+		'supplementaries:candle_holder_green',
+		'supplementaries:candle_holder_lime',
+		'supplementaries:candle_holder_yellow',
+		'supplementaries:candle_holder_orange',
+		'supplementaries:candle_holder_red',
+		'supplementaries:candle_holder_brown',
+		'supplementaries:candle_holder_black',
+		'supplementaries:candle_holder_gray',
+		'supplementaries:candle_holder_light_gray',
+		'supplementaries:candle_holder_cyan',
+		'supplementaries:candle_holder_light_blue',
+		'supplementaries:candle_holder_blue',
+		'supplementaries:candle_holder_purple',
+		'supplementaries:candle_holder_magenta',
+		'supplementaries:candle_holder_pink'
+	)
+
 })

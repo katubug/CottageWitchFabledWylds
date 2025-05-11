@@ -3,20 +3,16 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "minecraft:poppy"
+      "item": "enchanted:wolfsbane_flower"
     }
   ],
   "result": [
-    {
-      "count": 2,
-      "item": "minecraft:red_dye"
-    },
     {
       "chance": 0.4,
       "item": "enchanted:tongue_of_dog"
     }
   ],
   "tool": {
-    "tag": "forge:tools/knives"
+    "item": "enchanted:arthana"
   }
 }

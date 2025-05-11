@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "type": "hearthandharvest:aging",
+  "cookingtime": 1200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "spelunkery:salt"
+    },
+    {
+      "item": "farmersdelight:cabbage"
+    },
+    {
+      "item": "farmersdelight:cabbage"
+    },
+    {
+      "item": "hearthandharvest:jar"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "hearthandharvest:pickled_cabbage"
+  }
+}

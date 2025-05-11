@@ -40,6 +40,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "491F79BB8987D1C2"
 				title: "Begin Witchification!"
@@ -47,16 +49,17 @@
 			}]
 			title: "The Pursuit of Magic"
 			x: 0.0d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2B1B9108FF7A3FB3"]
 			description: [
 				"Now you can create your own consecrated space - your &bAltar&r. It can be placed either indoors or outdoors, although placing it outside is often a good choice due to the &apower of Nature&r being good to draw upon."
 				""
-				"Place &b6 Altar Blocks&r in a 2x3 configuration, and they will combine and change appearance. This is where many of your workings will take place, as it will take on and focus the energy you raise. You can &6augment this space in multiple ways&r: by placing &bFoci&r on top of the Altar, and &bobjects of power&r within a 16-block radius of it."
+				"Place &b6 Altar Blocks&r in a 2x3 configuration, and they will combine and change appearance. This is where many of your workings will take place, as it will take on and focus the energy you raise. You can &6augment this space in multiple ways&r: by placing &bFoci&r on top of the Altar, and &bobjects of power&r within a 16-block radius of it. More on this in the next quest."
 				""
-				"{image:enchanted_wilds:textures/questimages/altarsetup.png width:300 height:250 align:center}"
+				"You can &aview the power of your altar by &6shift + right clicking it&r with an empty hand."
+				""
 			]
 			id: "410FE13D777DE1C8"
 			tasks: [
@@ -120,16 +123,50 @@
 		}
 		{
 			dependencies: ["410FE13D777DE1C8"]
+			description: [
+				"Your &bAltar&r can be &aupgraded with various foci and sources of power&r. A &bFocus&r is &dplaced on top of the altar&r, and &bsources of power&r should be placed around it, &dwithin 16 blocks&r."
+				""
+				"Examples of &bFoci&r are:"
+				"- Light sources such as &btorches&r, &bcandles&r, and &bcandelabras&r"
+				"- &bSkulls&r or &bplayer heads&r"
+				"- &bChalices&r or &bgoblets&r"
+				""
+				"Different options may provide more or less power, so &ado some experimenting&r to see what works the best for you."
+				""
+				"&bSources of power&r are items which, when surrounding your &bAltar&r, will lend &amagical energy to it&r. Here are some examples:"
+				"- &bWooden Altars&r"
+				"- &bBudding or growing Crystals&r"
+				"- &bHerb Jars&r"
+				"- &bWitchy plants and trees&r"
+				""
+				"Also, be sure to include your other witchy tools such as the &bMixing Cauldron&r, &bKettle&r, &bMortar \\& Pestle&r, and more! If you use it in your practice, it's good to have it near your &bAltar&r."
+				""
+				"{image:enchanted_wilds:textures/questimages/altarsetup.png width:300 height:250 align:center}"
+			]
 			icon: "minecraft:skeleton_skull"
 			id: "6AF9BE2037D01B2A"
+			rewards: [{
+				count: 3
+				id: "651EE4F91EB4D037"
+				item: "hexerei:candle"
+				type: "item"
+			}]
+			subtitle: "you could say you're...altaring it"
 			tasks: [
 				{
-					id: "33CF3A60186C7A09"
-					item: "enchanted:chalice"
+					id: "2FC0BBD9BA847203"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(supplementaries:goblet)item(fantasyfurniture:decorations/venthyr_chalices)item(fantasyfurniture:decorations/bone_skeleton_chalices)item(fantasyfurniture:decorations/bone_wither_chalices)item(fantasyfurniture:decorations/royal_chalices)item(enchanted:chalice)item(enchanted:chalice_filled))"
+						}
+					}
+					title: "A Chalice or Goblet"
 					type: "item"
 				}
 				{
-					id: "10B99A06596E474C"
+					id: "27B706D6109DC8A1"
 					item: {
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -141,18 +178,19 @@
 					type: "item"
 				}
 				{
-					id: "4BAB027745FE9639"
+					id: "7A5F74FCC0FF28AD"
 					item: {
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:heads)"
+							"ftbfiltersystem:filter": "or(item(minecraft:skeleton_skull)item(minecraft:wither_skeleton_skull)item(minecraft:player_head))"
 						}
 					}
-					title: "Any #forge:heads"
+					title: "Skull or Head"
 					type: "item"
 				}
 			]
+			title: "Upgrading Your Space"
 			x: -4.5d
 			y: 0.5d
 		}
@@ -197,10 +235,15 @@
 			]
 			title: "Happy Witch: Books"
 			x: 0.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["182C1C3812C31B0B"]
+			description: [
+				"A witch's garden is a magical place, for it is here that they commune the most deeply with nature."
+				""
+				"Although any plants can bring mystic energy to a place, some are more special than others."
+			]
 			id: "4655801A35B3BAB2"
 			tasks: [
 				{
@@ -211,6 +254,51 @@
 				{
 					id: "5448C5E8993D7881"
 					item: "hexerei:belladonna_flowers"
+					type: "item"
+				}
+				{
+					id: "4264769BD9ADAF4A"
+					item: "enchanted:rowan_berries"
+					type: "item"
+				}
+				{
+					id: "205CB9BC51733C21"
+					item: "enchanted:water_artichoke"
+					type: "item"
+				}
+				{
+					id: "272F57A18B787558"
+					item: "hexerei:yellow_dock_leaves"
+					type: "item"
+				}
+				{
+					id: "6953E1EA63C7C43B"
+					item: "hexerei:yellow_dock_flowers"
+					type: "item"
+				}
+				{
+					id: "23D685539BC336A6"
+					item: "hexerei:mugwort_leaves"
+					type: "item"
+				}
+				{
+					id: "7AD2B5B3A209FFB7"
+					item: "hexerei:mugwort_flowers"
+					type: "item"
+				}
+				{
+					id: "38A75FB74A99DBB0"
+					item: "hexerei:belladonna_berries"
+					type: "item"
+				}
+				{
+					id: "666E56694F5CC3E7"
+					item: "hexerei:mandrake_flowers"
+					type: "item"
+				}
+				{
+					id: "429D3C8D3CCE8971"
+					item: "enchanted:mandrake_root"
 					type: "item"
 				}
 			]
@@ -241,8 +329,8 @@
 				value: 1L
 			}]
 			title: "Happy Witch: Cats"
-			x: 2.0d
-			y: 0.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			id: "3FCBC8303D699551"
@@ -251,8 +339,8 @@
 				item: "spelunkery:salt"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.0d
+			x: 13.0d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -306,8 +394,8 @@
 				item: "hexerei:book_of_shadows_altar"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -800,8 +888,8 @@
 				type: "item"
 			}]
 			title: "Mix some Seeds in your Mortar"
-			x: 5.0d
-			y: 1.5d
+			x: 10.5d
+			y: -1.0d
 		}
 		{
 			description: ["The &bMortar and Pestle&r is a tool for grinding herbs. For right now, its primary use is to create a &bSeed Mixture&r to befriend &aCrows&r. A worthy use!"]
@@ -845,8 +933,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Pestle and Mortar"
-			x: 4.0d
-			y: -0.5d
+			x: 7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["18FD7541912B5772"]
@@ -876,8 +964,8 @@
 				type: "observation"
 			}]
 			title: "Meet a Crow"
-			x: 7.0d
-			y: -2.5d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2F933DC876021A85"]
@@ -901,8 +989,8 @@
 				type: "item"
 			}]
 			title: "Breeding Crows"
-			x: 6.5d
-			y: -4.5d
+			x: 8.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2F933DC876021A85"]
@@ -927,8 +1015,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -4.5d
+			x: 11.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2F933DC876021A85"]
@@ -953,8 +1041,8 @@
 				item: "hexerei:crow_ankh_amulet"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.5d
+			x: 12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["327D93798A7BE211"]
@@ -1312,6 +1400,94 @@
 			}]
 			x: -3.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["4655801A35B3BAB2"]
+			id: "4183514EA291214A"
+			rewards: [{
+				id: "7FB8B124B3FC4D76"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								2079778463
+								1436896318
+								-1886529491
+								1932404166
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODgwYWM0ZmY0ODhhNmY0MjJmNjk5MmY3N2RkZDU2N2VjMTM5ODdmNmE3ZGNmMzBjOWMzMDJkMmFhZjBmOWI4ZCJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Name: "{\"text\":\"Mandrake\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64E8C35BE36ADC2B"
+				item: "enchanted:mandrake_root"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4655801A35B3BAB2"]
+			description: [
+				"The ingredient &bTongue of Dog&r sounds like a rather unpleasant task to obtain, but it is in fact, just a name - it refers to the &abright red stamen&r of the &bWolfsbane Flower&r."
+				""
+				"You can harvest this by &6cutting the flower on a &bCutting Board&6 with an &bArthana&r."
+			]
+			id: "37FCA731EEAB2C0D"
+			rewards: [{
+				id: "4C8EA973F7D827E7"
+				item: "enchanted:tongue_of_dog"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AD1CBE96AD160E5"
+				item: "enchanted:wolfsbane_flower"
+				type: "item"
+			}]
+			title: "Tongue of Dog"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B1B9108FF7A3FB3"]
+			description: [
+				"The &bArthana&r, sometimes called an &bAthame&r, is a ritual dagger which causes &acertain unique drops&r to be obtained from various creatures, such as &bBat's Wool&r and &bCreeper Hearts&r."
+				""
+				"It can also be used to harvest certain items from plants, such as &bTongue of Dog&r from &bWolfsbane Flowers&r."
+			]
+			id: "794CACBA42AE1AB2"
+			rewards: [{
+				id: "07187A95C32E5E1E"
+				item: "enchanted:wool_of_bat"
+				type: "item"
+			}]
+			subtitle: "knife to meet you"
+			tasks: [{
+				id: "61D54B9CC91EF917"
+				item: {
+					Count: 1
+					id: "enchanted:arthana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The Arthana: Ritual Dagger"
+			x: -4.5d
+			y: -1.5d
 		}
 	]
 	title: "WIP"

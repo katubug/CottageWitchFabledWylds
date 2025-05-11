@@ -180,6 +180,8 @@ ServerEvents.recipes(event => {
 		{ output: 'prefab:item_swift_blade_wood' },
 		{ output: 'prefab:item_wooden_crate' },
         { output: 'hexerei:dowsing_rod'},
+        { output: 'hearthandharvest:salt'},
+        { output: 'hearthandharvest:salt_bag'},
         //Replaced Recipes
         {id: 'farmersdelight:wheat_dough_from_water'},
         {id: 'farmersdelight:wheat_dough_from_eggs'},

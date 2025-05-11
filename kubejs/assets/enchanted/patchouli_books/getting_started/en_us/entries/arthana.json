@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The arthana is a ritual knife typically used for sacrifice, which allows mobs to drop rare magical materials. The materials possible are listed below:$(br2)$(bold)Wolf$() Tongue of Dog$(br)$(bold)Creeper$() Creeper heart$(br)$(bold)Bat$() Wool of Bat"
+      "text": "The arthana is a ritual knife typically used for sacrifice, which allows mobs to drop rare magical materials. The materials possible are listed below:$(br2)$(bold)Creeper$() Creeper heart$(br)$(bold)Bat$() Wool of Bat"
     },
     {
       "type": "patchouli:crafting",

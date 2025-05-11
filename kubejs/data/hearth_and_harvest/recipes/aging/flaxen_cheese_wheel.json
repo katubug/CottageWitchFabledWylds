@@ -1,0 +1,21 @@
+{
+  "type": "hearthandharvest:aging",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
+  "cookingtime": 1200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "brewinandchewin:unripe_flaxen_cheese_wheel"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "brewinandchewin:flaxen_cheese_wheel"
+  }
+}

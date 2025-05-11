@@ -56,4 +56,22 @@ ServerEvents.recipes(event => {
 	'enchanted:belladonna_flower', // Arg 2: the item to replace
 	'hexerei:belladonna_flowers' // Arg 3: the item to replace it with
 	)
+
+	//Salts
+	event.replaceInput({
+		input: 'hearthandharvest:salt'
+	}, // Arg 1: the filter
+	'hearthandharvest:salt', // Arg 2: the item to replace
+	'spelunkery:salt' // Arg 3: the item to replace it with
+	)
+
+	//Salts
+	event.replaceInput({
+		input: 'meadow:alpine_salt'
+	}, // Arg 1: the filter
+	'meadow:alpine_salt', // Arg 2: the item to replace
+	'spelunkery:salt' // Arg 3: the item to replace it with
+	)
+
+	
 })

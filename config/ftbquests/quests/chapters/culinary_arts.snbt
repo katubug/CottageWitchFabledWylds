@@ -670,7 +670,7 @@
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
-			description: ["With &bAcorns&r or &bWalnuts&r, you can make &bNut Butter&r. Combine that with some fresh-reduced &bJelly&r and some &bBread&r and you've got yourself a nutritionally sound, delicious lunch."]
+			description: ["With &bAcorns&r (which drop from &bOak Leaves&r), you can make &bNut Butter&r. Combine that with some fresh-reduced &bJam&r and some &bBread&r and you've got yourself a nutritionally sound, delicious lunch."]
 			id: "1F80DCFD23DD5592"
 			rewards: [
 				{
@@ -679,10 +679,9 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "4F3F46B77333DD28"
-					table_id: 8096229411196850122L
-					type: "loot"
+					id: "76E30D78BC1FD199"
+					item: "handcrafted:berry_jam_jar"
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -694,13 +693,15 @@
 					type: "item"
 				}
 				{
-					id: "1C26293084C4E414"
-					item: "delightful:jelly_bottle"
-					type: "item"
-				}
-				{
-					id: "54114F5631B5F895"
-					item: "delightful:nut_butter_and_jelly_sandwich"
+					id: "4311F3531357D1BC"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:jams)"
+						}
+					}
+					title: "Any #forge:jams"
 					type: "item"
 				}
 			]

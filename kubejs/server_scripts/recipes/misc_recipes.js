@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
 	// Filled Eccentric tome
 	//TODO: fix this!!
-	let tome = Item.of('eccentrictome:tome', '{"eccentrictome:mods":{ftbquests:{0:{Count:1b,id:"ftbquests:book"}},hexerei:{0:{Count:1b,id:"hexerei:book_of_shadows",tag:{bookmarks:{},chapter:0,opened:0b,page:0}}},malum:{0:{Count:1b,id:"malum:encyclopedia_arcana"}},solonion:{0:{Count:1b,id:"solonion:food_book"}},unusualprehistory:{0:{Count:1b,id:"unusualprehistory:encyclopedia"}}},"eccentrictome:version":1}')
+	let tome = Item.of('eccentrictome:tome', '{"eccentrictome:mods":{buildinggadgets2:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"buildinggadgets2:buildinggadgets2book"}}},create_central_kitchen:{0:{Count:1b,ForgeCaps:{Parent:{}},id:"create_central_kitchen:cooking_guide"}},enchanted:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"enchanted:brewing"}},1:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"enchanted:herbology"}},2:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"enchanted:circle_magic"}},3:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"enchanted:getting_started"}},4:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"enchanted:poppetry"}},5:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"enchanted:extraction"}}},ftbquests:{0:{Count:1b,id:"ftbquests:book"}},hexerei:{0:{Count:1b,id:"hexerei:book_of_shadows",tag:{bookmarks:{},chapter:0,opened:0b,page:0}}},numismatics:{0:{Count:1b,id:"numismatics:banking_guide"}},solonion:{0:{Count:1b,id:"solonion:food_book"}},soulhome:{0:{Count:1b,id:"soulhome:guide"}},twilightdelight:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"twilightdelight:twilight_guide"}}}}}')
 	event.shapeless(
 		Item.of(tome),
 		[

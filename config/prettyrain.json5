@@ -17,7 +17,7 @@
 	"doSnowSounds": true,
 	"doSandSounds": true,
 	"rain": {
-		"density": 100,
+		"density": 200,
 		"gravity": 1.0,
 		"windStrength": 0.30000001192092896,
 		"stormWindStrength": 0.5,

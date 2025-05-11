@@ -1,7 +1,7 @@
 # Enables wobbly items in advancement toasts.
-enableAdvancementToastItems: true
+enableAdvancementToastItems: false
 # Enables curse formatting.
-enableCurseFormatting: true
+enableCurseFormatting: false
 # Enables particles in the enchant(ing/ment) table.
 enableEnchantParticles: true
 # Enables floating item rotation.
@@ -13,7 +13,7 @@ enableMatchingItemHovering: true
 # Enables particles for rare items.
 enableRarityParticles: true
 # Enables screen shake.
-enableScreenShake: true
+enableScreenShake: false
 # Enables vanilla slot highlighting
 enableVanillaSlotHighlighting: true
 # Affects the easing speed, that is applied to the rotation of the floating item.

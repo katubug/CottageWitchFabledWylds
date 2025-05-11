@@ -240,9 +240,17 @@
 		{
 			dependencies: ["182C1C3812C31B0B"]
 			description: [
-				"A witch's garden is a magical place, for it is here that they commune the most deeply with nature."
+				"A witch's garden is a magical place, for it is here that they can commune the most deeply with nature. Placing your hands in the earth, bringing water to dry soil, feeling the breeze on your skin and the fire in your heart; it's little wonder that gardening is such a powerful feeling."
 				""
-				"Although any plants can bring mystic energy to a place, some are more special than others."
+				"Although any plants can bring mystic energy to a place, some are more special than others:"
+				""
+				"- Belladonna"
+				"- Mugwort"
+				"- Yellow Dock"
+				"- Sage"
+				"- Mandrake"
+				"- Rowan"
+				"- Water Artichoke"
 			]
 			id: "4655801A35B3BAB2"
 			tasks: [
@@ -299,6 +307,11 @@
 				{
 					id: "429D3C8D3CCE8971"
 					item: "enchanted:mandrake_root"
+					type: "item"
+				}
+				{
+					id: "05A8437EBCCDDFA2"
+					item: "enchanted:wolfsbane_flower"
 					type: "item"
 				}
 			]
@@ -371,7 +384,9 @@
 			description: [
 				"In order to read your &bBook of Shadows&r, you must first place it on a &bWooden Altar&r. In order to craft this magical pedestal, you'll need to find a &bMahogany Tree&r, located in &aJungle&r Biomes."
 				""
-				"The &bWooden Altar&r can also display items if you &6right click them onto its surface&r. You can also &6shift right click&r to place a block on top of them. Placing &bWooden Altars&r around your primary 2x3 &bAltar&r will &aprovide more power to the &bAltar&r."
+				"The &bWooden Altar&r can also display items if you &6right click them onto its surface&r. You can also &6shift right click&r to place a block on top of them. Placing &bWooden Altars&r around your primary 2x3 &bAltar&r will &aprovide more power to it&r!"
+				""
+				"Also note that if you place &lHexerei&r &bcandles&r on your &bWooden Altar&r and light them, they will &afloat around as they burn&r!"
 			]
 			id: "047370ADE354D8DB"
 			rewards: [

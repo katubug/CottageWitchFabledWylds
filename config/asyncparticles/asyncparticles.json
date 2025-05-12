@@ -2,6 +2,7 @@
   "version": 1,
   "particle": {
     "particleLimit": 16384,
+    "removeIfMissedTick": false,
     "particleLightCache": true,
     "cullUnderwaterParticleType": true
   },

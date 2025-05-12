@@ -1,0 +1,20 @@
+{
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "bakery:wheat"
+    },
+    {
+      "tag": "bakery:wheat"
+    },
+    {
+      "tag": "bakery:wheat"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bread",
+    "count": 3
+  },
+  "experience": 0.2,
+  "requiresLearning": false
+}

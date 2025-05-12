@@ -1,0 +1,19 @@
+{
+  "type": "meadow:cooking",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "tag": "meadow:salt"
+    }
+  ],
+  "fluid_amount": 5,
+  "crafting_duration": 20,
+  "result": {
+    "item": "minecraft:cooked_porkchop",
+    "count": 2
+  }
+}
+
+

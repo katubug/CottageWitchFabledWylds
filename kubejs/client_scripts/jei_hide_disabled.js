@@ -233,7 +233,9 @@ JEIEvents.hideItems(event => {
       'tarotcards:the_high_priestess', 
       'tarotcards:the_world',
       'hearthandharvest:salt',
-      'hearthandharvest:salt_bag'
+      'hearthandharvest:salt_bag',
+      'ae2:nether_quartz_wrench',
+      'ae2:certus_quartz_wrench',
       ];
     
       for (const hide of toHide) {

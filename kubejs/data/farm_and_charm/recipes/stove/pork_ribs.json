@@ -1,0 +1,20 @@
+{
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "tag": "candlelight:red_effect"
+    }
+  ],
+  "result": {
+    "item": "candlelight:pork_ribs",
+    "count": 2
+  },
+  "experience": 0.4,
+  "requiresLearning": false
+}

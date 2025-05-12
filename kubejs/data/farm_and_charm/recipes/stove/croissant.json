@@ -1,0 +1,20 @@
+{
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "bakery:sweet_dough"
+    },
+    {
+      "item": "farm_and_charm:yeast"
+    },
+    {
+      "item":"minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "bakery:croissant",
+    "count": 4
+  },
+  "experience": 0.2,
+  "requiresLearning": false
+}

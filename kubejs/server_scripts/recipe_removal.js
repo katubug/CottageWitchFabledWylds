@@ -182,6 +182,8 @@ ServerEvents.recipes(event => {
         { output: 'hexerei:dowsing_rod'},
         { output: 'hearthandharvest:salt'},
         { output: 'hearthandharvest:salt_bag'},
+        { output: 'ae2:nether_quartz_wrench'},
+        { output: 'ae2:certus_quartz_wrench'},
         //Replaced Recipes
         {id: 'farmersdelight:wheat_dough_from_water'},
         {id: 'farmersdelight:wheat_dough_from_eggs'},

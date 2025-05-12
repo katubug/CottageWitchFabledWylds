@@ -1,0 +1,20 @@
+{
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "bakery:dough"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "bakery:water_bottles"
+    }
+  ],
+  "result": {
+    "item": "bakery:bread",
+    "count": 4
+  },
+  "experience": 0.125,
+  "requiresLearning": false
+}

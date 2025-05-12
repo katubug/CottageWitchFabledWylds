@@ -15,5 +15,7 @@ ServerEvents.tags('item', event => {
 	//Remove Quark Rope Tags
 	event.removeAllTagsFrom('quark:rope')
 	event.removeAllTagsFrom('supplementaries:rope')
+	event.removeAllTagsFrom('farm_and_charm:minced_beef')
+	event.removeAllTagsFrom('candlelight:beef_tartare')
 
 })

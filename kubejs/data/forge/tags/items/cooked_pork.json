@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "farmersdelight:cooked_bacon",
+    "farmersdelight:smoked_ham",
+    "minecraft:cooked_porkchop"
+  ]
+}

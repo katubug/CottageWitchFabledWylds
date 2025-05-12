@@ -1,0 +1,20 @@
+{
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:white_dye"
+    },
+    {
+      "item": "bakery:sweet_dough"
+    }
+  ],
+  "result": {
+    "item": "bakery:misslilitu_biscuit",
+    "count": 4
+  },
+  "experience": 0.2,
+  "requiresLearning": false
+}

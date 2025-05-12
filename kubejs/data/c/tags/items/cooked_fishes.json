@@ -1,0 +1,21 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:cooked_salmon",
+    "minecraft:cooked_cod",
+    "rainbowreef:cooked_hogfish_bacon",
+    "rainbowreef:roasted_crab_meat",
+    "netherdepthsupgrade:cooked_magmacubefish_slice",
+    "netherdepthsupgrade:cooked_obsidianfish_slice",
+    "netherdepthsupgrade:cooked_lava_pufferfish_slice",
+    "tide:cooked_fish",
+    "tide:cooked_fish_slice",
+    "farmersdelight:cooked_salmon_slice",
+    "spawn:cooked_tuna_chunk",
+    "netherdepthsupgrade:cooked_soulsucker_slice",
+    "netherdepthsupgrade:cooked_glowdine_slice",
+    "farmersdelight:cooked_cod_slice"
+  ]
+}
+
+

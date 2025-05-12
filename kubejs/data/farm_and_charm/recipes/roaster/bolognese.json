@@ -6,10 +6,10 @@
       "tag": "candlelight:tomato_soups"
     },
     {
-      "item": "farm_and_charm:minced_beef"
+      "tag": "forge:raw_beef"
     },
     {
-      "item": "farm_and_charm:bacon"
+      "tag": "forge:raw_bacon"
     },
     {
       "tag": "farm_and_charm:onion"

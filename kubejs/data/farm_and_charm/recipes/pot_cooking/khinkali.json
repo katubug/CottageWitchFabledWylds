@@ -5,7 +5,7 @@
   "experience": 0.1,
   "ingredients": [
     {
-      "item": "farm_and_charm:minced_beef"
+      "tag": "forge:raw_beef"
     },
     {
       "tag": "farm_and_charm:dough"

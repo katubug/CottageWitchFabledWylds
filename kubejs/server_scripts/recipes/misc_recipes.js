@@ -229,26 +229,26 @@ ServerEvents.recipes(event => {
 		]
 	)
 
-	//compress and uncompress eggs
+	//Blueberry crate uses correct blueberries
 	event.shapeless(
-		Item.of('prefab:item_carton_of_eggs'),
+		Item.of('hearthandharvest:blueberry_crate'),
 		[
-			'minecraft:egg',
-			'minecraft:egg',
-			'minecraft:egg',
-			'minecraft:egg',
-			'minecraft:egg',
-			'minecraft:egg',
-			'minecraft:egg',
-			'minecraft:egg',
-			'minecraft:egg'
+			'fruitsdelight:blueberry',
+			'fruitsdelight:blueberry',
+			'fruitsdelight:blueberry',
+			'fruitsdelight:blueberry',
+			'fruitsdelight:blueberry',
+			'fruitsdelight:blueberry',
+			'fruitsdelight:blueberry',
+			'fruitsdelight:blueberry',
+			'fruitsdelight:blueberry'
 		]
 	)
 
 	event.shapeless(
-		Item.of('minecraft:egg', 9),
+		Item.of('fruitsdelight:blueberry', 9),
 		[
-			'prefab:item_carton_of_eggs'
+			'hearthandharvest:blueberry_crate'
 		]
 	)
 

@@ -2,27 +2,27 @@
 
 	"content": {
 
-        "money_obj_emerald": {
+        "gourmet_obj_candlelight_salad": {
             "type": "item",
-            "content": "minecraft:emerald",
+            "content": "candlelight:salad",
             "amount": {
-                "min": 2,
-                "max": 8
+                "min": 1,
+                "max": 4
             },
             "unitWorth": 700
         },
         
-        "money_obj_diamond": {
+        "gourmet_obj_meadow_roasted_ham": {
             "type": "item",
-            "content": "minecraft:diamond",
+            "content": "meadow:roasted_ham",
             "amount": {
                 "min": 2,
-                "max": 12
+                "max": 4
             },
             "unitWorth": 1400
         },
 
-        "money_obj_gem": {
+        "gourmet_obj_gem": {
             "name": "Any Gems",
             "type": "item",
             "content": "#forge:gems",

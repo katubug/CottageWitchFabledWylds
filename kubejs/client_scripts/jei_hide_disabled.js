@@ -240,17 +240,42 @@ JEIEvents.hideItems(event => {
       'farm_and_charm:flour',
       'easy_mob_farm:milk_bottle', 
       'hexerei:milk_bottle',
+      'quark:gunpowder_sack',
+      'hearthandharvest:glow_berry_crate',
+      'quark:golden_apple_crate',
+      'quark:golden_carrot_crate',
+      'hearthandharvest:apple_crate',
+      'hearthandharvest:green_grape_crate',
+      'hearthandharvest:red_grape_crate',
+      'hearthandharvest:cherry_crate',
+      'fruitsdelight:blueberry_crate',
+      'hearthandharvest:sweet_berry_crate',
+      'quark:cocoa_beans_sack',
+      'fruitsdelight:apple_crate',
+      'hearthandharvest:blueberries',
+      'hearthandharvest:cherry_wine_crate', 
+      'hearthandharvest:red_grape_wine_crate', 
+      'hearthandharvest:green_grape_wine_crate',
+      'hearthandharvest:cherry_wine',
+      'hearthandharvest:red_grape_wine',
+      'hearthandharvest:green_grape_wine',
+      'trailandtales_delight:curd_block',
+      'trailandtales_delight:cheese_slice',
+      'meadow:goat_cheese_block',
+      'meadow:piece_of_goat_cheese',
+      'meadow:piece_of_cheese',
+      'hearthandharvest:cherry'
       ];
     
       for (const hide of toHide) {
         event.hide(hide);
     }
 
-    event.hide(Item.of('minecraft:enchanted_book', "{display:{Name:'{\"translate\":\"item.betterarcheology.identified_artifact\"}'}}").enchant('betterarcheology:penetrating_strike', 1));
+    /*event.hide(Item.of('minecraft:enchanted_book', "{display:{Name:'{\"translate\":\"item.betterarcheology.identified_artifact\"}'}}").enchant('betterarcheology:penetrating_strike', 1));
       
     event.hide(Item.of('minecraft:enchanted_book', "{display:{Name:'{\"translate\":\"item.betterarcheology.identified_artifact\"}'}}").enchant('betterarcheology:tunneling', 1));
       
-    event.hide(Item.of('minecraft:enchanted_book', "{display:{Name:'{\"translate\":\"item.betterarcheology.identified_artifact\"}'}}").enchant('betterarcheology:soaring_winds', 1));
+    event.hide(Item.of('minecraft:enchanted_book', "{display:{Name:'{\"translate\":\"item.betterarcheology.identified_artifact\"}'}}").enchant('betterarcheology:soaring_winds', 1));*/
 
     event.hide(Item.of('modonomicon:modonomicon',
       '{"modonomicon:book_id":"modonomicon:demo"}'));

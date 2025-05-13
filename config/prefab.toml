@@ -152,7 +152,7 @@
 		#Determines if the recipe(s) associated with the Bunch of Potatoes are enabled.
 		"Bunch of Potatoes" = false
 		#Determines if the recipe(s) associated with the Bunch of Eggs are enabled.
-		"Bunch of Eggs" = true
+		"Bunch of Eggs" = false
 		#Determines if the recipe(s) associated with the Wooden Crate are enabled.
 		"Wooden Crate" = true
 		#Determines if the recipe(s) associated with the Farm are enabled.

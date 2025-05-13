@@ -1,0 +1,220 @@
+
+sommelier objectives:
+"vinery:jellie_wine"                1100
+"vinery:bottle_mojang_noir"         800
+"vinery:eiswein"                    100
+"vinery:aegis_wine"                 300
+"vinery:bolvar_wine"                1
+"vinery:chorus_wine"                1
+"vinery:villagers_fright"           1
+"vinery:clark_wine"                 1
+"vinery:magnetic_wine"              1
+"vinery:stal_wine"                  1
+"vinery:chenet_wine"                1
+"vinery:jo_special_mixture"         1
+"vinery:lilitu_wine"                1
+"vinery:kelp_cider"                 1
+"vinery:creepers_crush"             1
+"vinery:cristel_wine"               800
+"vinery:cherry_wine"                1
+"vinery:strad_wine"                 1
+"vinery:red_wine"                   1
+"vinery:noir_wine"                  1
+"vinery:mead"                       1
+"vinery:apple_cider"                1
+"vinery:apple_wine"                 1
+"vinery:mellohi_wine"               1
+"vinery:glowing_wine"               1
+"vinery:solaris_wine"               1
+
+
+beekeeper objectives:
+"betterbeekeeping:spicy_honey_bottle"       400
+"betterbeekeeping:warm_honey_bottle"        300
+"betterbeekeeping:bright_honey_bottle"      300
+"betterbeekeeping:lively_honey_bottle"      300
+"betterbeekeeping:cool_honey_bottle"        300
+"betterbeekeeping:strange_honey_bottle"     500
+
+
+Gourmand Easy:
+"candlelight:salad",
+"2x meadow:roasted_ham",
+"farmersdelight:roast_chicken_block",
+"farmersdelight:pumpkin_soup",
+"delightful:venison_stew",
+"spawn:tuna_sandwich",
+"twilightdelight:torchberry_pie",
+"farm_and_charm:stuffed_rabbit",
+"farmersdelight:stuffed_pumpkin_block",
+"farmersdelight:baked_cod_stew",
+"farm_and_charm:barley_soup",
+"meadow:cheese_tart",
+"trailandtales_delight:cherry_cheese_pie",
+"farm_and_charm:cooked_cod",
+"farm_and_charm:cooked_salmon",
+"ends_delight:end_mixed_salad",
+"farm_and_charm:farmer_salad",
+"autumnity:foul_soup",
+"candlelight:fresh_garden_salad",
+"farmersdelight:grilled_salmon",
+"candlelight:harvest_plate",
+"fruitsdelight:jelly_bread",
+"fruitsdelight:lychee_chicken",
+"farm_and_charm:oatmeal_with_strawberries",
+"farm_and_charm:onion_soup",
+"fruitsdelight:orange_chicken",
+"fruitsdelight:orange_marinated_pork",
+"farm_and_charm:pasta_with_onion_sauce",
+"hearthandharvest:pickled_beetroots",
+"hearthandharvest:pickled_cabbage",
+"hearthandharvest:pickled_carrots",
+"hearthandharvest:pickled_onions",
+"hearthandharvest:pickled_potatoes",
+"fruitsdelight:pineapple_fried_rice",
+"farm_and_charm:potato_soup",
+"farm_and_charm:potato_with_roast_meat",
+"farm_and_charm:stuffed_chicken",
+"farmersdelight:squid_ink_pasta",
+"delightful:sinigang",
+"ends_delight:shulker_soup",
+"farmersdelight:shepherds_pie_block'
+
+Gourmand Medium:
+"candlelight:chicken_alfredo",
+"delightful:cheeseburger",
+"meadow:cheese_sandwich",
+"4x meadow:cheese_roll",
+"farm_and_charm:beef_patty_with_vegetables",
+"farm_and_charm:barley_patties_with_potatoes",
+"netherdepthsupgrade:baked_soulsucker_stew",
+"netherdepthsupgrade:baked_searing_cod_stew",
+"ends_delight:assorted_salad",
+"farm_and_charm:corn_grits",
+"ends_delight:dragon_breath_and_chorus_soup",
+"delightful:field_salad",
+"candlelight:fillet_steak",
+"twilightdelight:ghast_burger",
+"twilightdelight:glow_venison_rib_with_pasta",
+"farm_and_charm:goulash",
+"farm_and_charm:grandmothers_strawberry_cake",
+"bakery:grilled_bacon_sandwich",
+"twilightdelight:grilled_tomahawk_smeak",
+"farmersdelight:honey_glazed_ham_block",
+"twilightdelight:hydra_burger",
+"farm_and_charm:lamb_with_corn",
+"candlelight:chocolate_mousse",
+"twilightdelight:mushgloom_meef_pasta",
+"farmersdelight:noodle_soup",
+"farm_and_charm:oat_pancake",
+"candlelight:roastbeef_with_glazed_carrots",
+"farm_and_charm:roasted_chicken",
+"farm_and_charm:roasted_corn",
+"candlelight:roasted_lamb_with_lettuce",
+"farmersrespite:rose_hip_pie",
+"candlelight:salmon_on_white_wine",
+"farm_and_charm:sausage_with_oat_patty",
+"candlelight:khinkali",
+"farmersrespite:coffee_cake",
+"farm_and_charm:chicken_wrapped_in_bacon",
+"rainbowreef:seasugar_sorbet",
+"rainbowreef:sharkbite_salad",
+"rainbowreef:sweet_tooth_seaburger",
+"candlelight:tomato_mozzarella_salad",
+"candlelight:tropical_fish_supreme",
+"farmersdelight:vegetable_noodles"
+
+Gourmand Hard:
+"twilightdelight:aurora_pie",
+"farm_and_charm:bacon_with_eggs",
+"candlelight:beef_wellington",
+"candlelight:beef_with_mushroom_in_wine_and_potatoes",
+"candlelight:chicken_teriyaki",
+"candlelight:chicken_with_vegetables",
+"twilightdelight:chocolate_113",
+"delightful:deluxe_cheeseburger",
+"ends_delight:dragon_leg_with_sauce_block",
+"farm_and_charm:farmers_breakfast",
+"twilightdelight:fiery_snakes_block",
+"twilightdelight:ghast_brain_salad",
+"candlelight:lasagne",
+"twilightdelight:lily_chicken_block",
+"twilightdelight:meef_wellington_block",
+"netherdepthsupgrade:nether_rice_roll_medley_block",
+"candlelight:pasta_with_bolognese",
+"candlelight:pasta_with_lettuce",
+"farmersdelight:pasta_with_meatballs",
+"farmersdelight:pasta_with_mutton_chop",
+"candlelight:pork_ribs",
+"farmersdelight:rice_roll_medley_block",
+"ends_delight:roasted_dragon_steak",
+"farmersdelight:roasted_mutton_chops",
+"rainbowreef:rockfish_candy",
+"4x delightful:baklava_slice"
+
+farmer objectives:
+"hearthandharvest:turtle_egg_crate",        900
+"hearthandharvest:goat_milk_crate",         700
+"hearthandharvest:honey_crate",             800
+"hearthandharvest:egg_crate",               450
+"hearthandharvest:blueberry_wine_crate",    900
+"hearthandharvest:syrup_crate",             1000
+"hearthandharvest:mead_crate",              900
+"hearthandharvest:raspberry_wine_crate",    900
+"farmersrespite:green_tea_leaves_sack",     450
+"hearthandharvest:sugar_bag",               300
+"hearthandharvest:cocoa_bean_bag",          300
+"farmersrespite:yellow_tea_leaves_sack",    500
+"farm_and_charm:oat_ball",                  400
+"farmersdelight:cabbage_crate",             200
+"farmersdelight:carrot_crate",              200
+"hearthandharvest:poisonous_potato_crate",  200
+"farm_and_charm:corn_bag",                  200
+"farm_and_charm:flour_bag",                 300
+"farmersdelight:rice_bag",                  300
+"farm_and_charm:barley_ball",               300
+"farm_and_charm:lettuce_bag",               300
+"farmersdelight:beetroot_crate",            200
+"farmersdelight:potato_crate",              200
+"farmersdelight:onion_crate",               300
+"farmersdelight:tomato_crate",              300
+"farmersrespite:black_tea_leaves_sack",     500
+"delightful:acorn_sack",                    600
+"hearthandharvest:peanut_crate",            400
+"hearthandharvest:brown_mushroom_crate",    300
+"hearthandharvest:warped_fungus_crate",     400
+"hearthandharvest:red_mushroom_crate",      300
+"hearthandharvest:crimson_fungus_crate",    400
+"hearthandharvest:milk_crate',              400
+"farm_and_charm:strawberry_bag",            300
+"hearthandharvest:golden_apple_crate",      1000
+"hearthandharvest:golden_carrot_crate",     1000
+"endergetic:bolloom_crate",                 800
+"trailandtales_delight:pitcher_taro_crate", 900
+"trailandtales_delight:lantern_fruit_crate",    900
+"ends_delight:chorus_fruit_crate",          900
+"twilightdelight:torchberries_crate",       400
+"farmersrespite:coffee_beans_sack",         600
+"fruitsdelight:pineapple_crate",            400
+"fruitsdelight:fig_crate",                  400
+"fruitsdelight:mangosteen_crate",           400
+"fruitsdelight:mango_crate",                400
+"fruitsdelight:lychee_crate",               400
+"fruitsdelight:lemon_crate",                400
+"fruitsdelight:persimmon_crate",            400
+"fruitsdelight:pear_crate",                 400
+"vinery:red_grape_bag",                     300
+"fruitsdelight:kiwi_crate",                 400
+"vinery:white_grape_bag",                   300
+"vinery:cherry_bag",                        200
+"fruitsdelight:peach_crate",                400
+"fruitsdelight:orange_crate",               400
+"fruitsdelight:bayberry_crate",             400
+"vinery:apple_bag",                         200
+"fruitsdelight:hawberry_crate",             400
+"fruitsdelight:cranberry_crate",            400
+"quark:berry_sack",                         300
+"quark:glowberry_sack",                     300
+"hearthandharvest:blueberry_crate",         400
+"delightful:salmonberry_sack",              400
+"hearthandharvest:raspberry_crate"          400

@@ -73,5 +73,37 @@ ServerEvents.recipes(event => {
 	'spelunkery:salt' // Arg 3: the item to replace it with
 	)
 
+	//Blueberries
+	event.replaceInput({
+		input: 'hearthandharvest:blueberries'
+	}, // Arg 1: the filter
+	'hearthandharvest:blueberries', // Arg 2: the item to replace
+	'fruitsdelight:blueberry' // Arg 3: the item to replace it with
+	)
+
+	//Cheese Slices
+	event.replaceInput({
+		input: 'trailandtales_delight:cheese_slice'
+	}, // Arg 1: the filter
+	'trailandtales_delight:cheese_slice', // Arg 2: the item to replace
+	'#forge:cheese_slices' // Arg 3: the item to replace it with
+	)
+
+	//Bread
+	event.replaceInput({
+		input: 'minecraft:bread'
+	}, // Arg 1: the filter
+	'minecraft:bread', // Arg 2: the item to replace
+	'#forge:bread_or_bun' // Arg 3: the item to replace it with
+	)
+	
+//cherries
+	event.replaceInput({
+		input: 'hearthandharvest:cherry'
+	}, // Arg 1: the filter
+	'hearthandharvest:cherry', // Arg 2: the item to replace
+	'vinery:cherry' // Arg 3: the item to replace it with
+	)
+	
 	
 })

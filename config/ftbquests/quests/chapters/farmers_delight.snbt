@@ -585,11 +585,6 @@
 					type: "item"
 				}
 				{
-					id: "0902A7AEF4FD1D01"
-					item: "vegandelight:soybean_bag"
-					type: "item"
-				}
-				{
 					id: "4B66FA5A5B0F2983"
 					item: "vinery:apple_bag"
 					type: "item"
@@ -860,11 +855,6 @@
 					id: "21F0645F04708BFF"
 					table_id: 5525848455660196930L
 					type: "choice"
-				}
-				{
-					id: "0DC463D1C29D6429"
-					item: "abyssal_decor:bottomless_bag_of_dirt"
-					type: "item"
 				}
 			]
 			tasks: [{
@@ -1458,6 +1448,476 @@
 			title: "Special Honeys"
 			x: 0.0d
 			y: 10.5d
+		}
+		{
+			description: ["Obtain one of each of these juicy fruit-filled &bCrates&r, &bBags&r, or &bSacks&r!"]
+			id: "64B44FE0583005AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C1E9DE56A44A023"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "30A01EAD937C3981"
+					item: "fruitsdelight:fig_crate"
+					type: "item"
+				}
+				{
+					id: "2A07EFB75972C1B1"
+					item: "fruitsdelight:lemon_crate"
+					type: "item"
+				}
+				{
+					id: "4C0DB326EE028D14"
+					item: "fruitsdelight:lychee_crate"
+					type: "item"
+				}
+				{
+					id: "4B3145AADB7CB7D7"
+					item: "fruitsdelight:mango_crate"
+					type: "item"
+				}
+				{
+					id: "5CB03F0525181E7E"
+					item: "fruitsdelight:mangosteen_crate"
+					type: "item"
+				}
+				{
+					id: "45B4735B3D5E2BCD"
+					item: "fruitsdelight:peach_crate"
+					type: "item"
+				}
+				{
+					id: "6288FD14C4D04FB4"
+					item: "fruitsdelight:orange_crate"
+					type: "item"
+				}
+				{
+					id: "36DD67B331BFC5F8"
+					item: "fruitsdelight:bayberry_crate"
+					type: "item"
+				}
+				{
+					id: "4391A8A7344EF928"
+					item: "vinery:apple_bag"
+					type: "item"
+				}
+				{
+					id: "5FFCD4E9C8BDFE73"
+					item: "fruitsdelight:pineapple_crate"
+					type: "item"
+				}
+				{
+					id: "29111CECCE802FC7"
+					item: "fruitsdelight:persimmon_crate"
+					type: "item"
+				}
+				{
+					id: "746DDCFAA1D35B41"
+					item: "fruitsdelight:pear_crate"
+					type: "item"
+				}
+				{
+					id: "1B3D7C3932058C8B"
+					item: "vinery:red_grape_bag"
+					type: "item"
+				}
+				{
+					id: "4F48B5E6E18DE075"
+					item: "fruitsdelight:kiwi_crate"
+					type: "item"
+				}
+				{
+					id: "14FF8E95008C4608"
+					item: "vinery:white_grape_bag"
+					type: "item"
+				}
+				{
+					id: "25DB9CAA0CC9202E"
+					item: "vinery:cherry_bag"
+					type: "item"
+				}
+			]
+			title: "Compact Your Crops: Fruit"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			description: ["Compact your &bberries&r into these &ahelpful (and decorative) storage blocks&r!"]
+			id: "0C66306B20F7844C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C432389AA91764A"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "14F57B3F5CFF4AC2"
+					item: "fruitsdelight:hawberry_crate"
+					type: "item"
+				}
+				{
+					id: "008EB7C7C7153543"
+					item: "hearthandharvest:blueberry_crate"
+					type: "item"
+				}
+				{
+					id: "22A3BC858AA2C503"
+					item: "quark:berry_sack"
+					type: "item"
+				}
+				{
+					id: "50B8AE6EB9285299"
+					item: "quark:glowberry_sack"
+					type: "item"
+				}
+				{
+					id: "7D6EA6414D2B63BF"
+					item: "fruitsdelight:cranberry_crate"
+					type: "item"
+				}
+				{
+					id: "430978F06F48FDF1"
+					item: "delightful:salmonberry_sack"
+					type: "item"
+				}
+				{
+					id: "4FED5DAE885DC59D"
+					item: "hearthandharvest:raspberry_crate"
+					type: "item"
+				}
+				{
+					id: "0B88C50C8425B6E2"
+					item: "farm_and_charm:strawberry_bag"
+					type: "item"
+				}
+			]
+			title: "Compact Your Crops: Berries"
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			description: ["These exotic crops may be hard to come by, but if you manage to collect one of each, you'll be rewarded!"]
+			id: "0496A62983DE2ABB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B8BED2472A07B44"
+				table_id: 5161092699925703455L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4B2DFD36AB0FB73D"
+					item: "trailandtales_delight:lantern_fruit_crate"
+					type: "item"
+				}
+				{
+					id: "28AE9E9247E1D390"
+					item: "trailandtales_delight:pitcher_taro_crate"
+					type: "item"
+				}
+				{
+					id: "4695642E9E1C8D85"
+					item: "ends_delight:chorus_fruit_crate"
+					type: "item"
+				}
+				{
+					id: "4CAA595C8323560F"
+					item: "hearthandharvest:golden_apple_crate"
+					type: "item"
+				}
+				{
+					id: "748D68EF6E40C91B"
+					item: "endergetic:bolloom_crate"
+					type: "item"
+				}
+				{
+					id: "45954191112145C8"
+					item: "hearthandharvest:golden_carrot_crate"
+					type: "item"
+				}
+				{
+					id: "0AE446D0E61FB6CA"
+					item: "twilightdelight:torchberries_crate"
+					type: "item"
+				}
+				{
+					id: "71F5D2D6F9753BCC"
+					item: "quark:nether_wart_sack"
+					type: "item"
+				}
+			]
+			title: "Compact Your Crops: Exotic"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Okay so YES, &otechnically&r these aren't all vegetables. &bTomatoes&r are a fruit, &bPotatoes&r are a tuber, and no one really knows what &bCabbage&r is or why it exists. Stop being so pedantic and get your @$#%# together."
+				""
+				"(&8@$#%# means vegetables. get them together into a crate&r)"
+			]
+			id: "057C8372ED1CBDC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73A06ECDAEC48613"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "74B75D56E3E2E441"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					id: "53FA3116D8141428"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+				{
+					id: "302EAA4D72D5EB8A"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					id: "06B64933E4BA7C27"
+					item: "hearthandharvest:poisonous_potato_crate"
+					type: "item"
+				}
+				{
+					id: "070CC395A26E9B9F"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+				{
+					id: "5ACD6C27B63B3EE1"
+					item: "farmersdelight:cabbage_crate"
+					type: "item"
+				}
+				{
+					id: "7A5A4332BE18FEF3"
+					item: "farm_and_charm:corn_bag"
+					type: "item"
+				}
+				{
+					id: "326D791099592719"
+					item: "farm_and_charm:lettuce_bag"
+					type: "item"
+				}
+				{
+					id: "2E67C1E7DD049DFA"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+			]
+			title: "Compact Your Crops: Veggies"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"&oi will not make a joke about nuts in a sack&r"
+				""
+				"&oi will not make a joke about nuts in a sack&r"
+				""
+				"&oi will not make a joke about nuts in a sack&r"
+			]
+			id: "2A171EE16DA22152"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E6E05E6AD1FB476"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "235A587BF876B440"
+					item: "hearthandharvest:peanut_crate"
+					type: "item"
+				}
+				{
+					id: "3C239EF279DD1335"
+					item: "delightful:acorn_sack"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			description: ["Let's not leave our mycelial friends out of the crate action!"]
+			id: "3E8BB82A228A4727"
+			rewards: [
+				{
+					id: "630A1AF82F87897D"
+					item: "redeco:red_mushroom_terrarium"
+					type: "item"
+				}
+				{
+					id: "29A066CA914BE5AA"
+					item: "redeco:brown_mushroom_terrarium"
+					type: "item"
+				}
+			]
+			subtitle: "shroom edition"
+			tasks: [
+				{
+					id: "3E91A693E69007E6"
+					item: "hearthandharvest:brown_mushroom_crate"
+					type: "item"
+				}
+				{
+					id: "069F7B4E7342BE02"
+					item: "hearthandharvest:crimson_fungus_crate"
+					type: "item"
+				}
+				{
+					id: "560588FB24655C5A"
+					item: "hearthandharvest:warped_fungus_crate"
+					type: "item"
+				}
+				{
+					id: "6FA78D76B224FD08"
+					item: "hearthandharvest:red_mushroom_crate"
+					type: "item"
+				}
+			]
+			title: "Compact Your Crops: Mushrooms"
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			id: "134ACEA76F0200AD"
+			tasks: [
+				{
+					id: "78BF784BF40796CA"
+					item: "hearthandharvest:sugar_bag"
+					type: "item"
+				}
+				{
+					id: "2AD2A819B70E17B0"
+					item: "farmersrespite:green_tea_leaves_sack"
+					type: "item"
+				}
+				{
+					id: "4B0F96CD6B786E9A"
+					item: "farmersrespite:black_tea_leaves_sack"
+					type: "item"
+				}
+				{
+					id: "50DCF6F63CD1537A"
+					item: "farmersrespite:yellow_tea_leaves_sack"
+					type: "item"
+				}
+				{
+					id: "2F48894FCF12BBA1"
+					item: "farmersrespite:coffee_beans_sack"
+					type: "item"
+				}
+				{
+					id: "4EE059419BE79FEA"
+					item: "hearthandharvest:cocoa_bean_bag"
+					type: "item"
+				}
+				{
+					id: "4D071F957ED2A15A"
+					item: "farm_and_charm:oat_ball"
+					type: "item"
+				}
+				{
+					id: "0792FCC59A70FD7F"
+					item: "farm_and_charm:barley_ball"
+					type: "item"
+				}
+				{
+					id: "18F6D770AC59AFB2"
+					item: "farmersdelight:rice_bag"
+					type: "item"
+				}
+				{
+					id: "590E32B5B63C757F"
+					item: "hearthandharvest:gunpowder_bag"
+					type: "item"
+				}
+				{
+					id: "1BE09789EF91CC2B"
+					item: "farm_and_charm:flour_bag"
+					type: "item"
+				}
+			]
+			title: "Compact Your Crops: Dry Goods"
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			id: "013280ECBC1D32E3"
+			tasks: [
+				{
+					id: "28C21B8CA1EC1D0F"
+					item: "hearthandharvest:egg_crate"
+					type: "item"
+				}
+				{
+					id: "2949A0CF1DF1F1D4"
+					item: "hearthandharvest:honey_crate"
+					type: "item"
+				}
+				{
+					id: "500B466E468A2BDA"
+					item: "hearthandharvest:goat_milk_crate"
+					type: "item"
+				}
+				{
+					id: "566184B18B66DF39"
+					item: "hearthandharvest:turtle_egg_crate"
+					type: "item"
+				}
+				{
+					id: "7F9079037E0CEDA8"
+					item: "hearthandharvest:milk_crate"
+					type: "item"
+				}
+				{
+					id: "7C66A5AE81FF9839"
+					item: "hearthandharvest:syrup_crate"
+					type: "item"
+				}
+			]
+			title: "Compact Your Goods"
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			id: "59E2812495F7C080"
+			tasks: [
+				{
+					id: "7696365EB204665F"
+					item: "hearthandharvest:blueberry_wine_crate"
+					type: "item"
+				}
+				{
+					id: "506531F06476D29B"
+					item: "hearthandharvest:mead_crate"
+					type: "item"
+				}
+				{
+					id: "5EAA98A9E11D894E"
+					item: "hearthandharvest:raspberry_wine_crate"
+					type: "item"
+				}
+				{
+					id: "1A2BA35788F9045E"
+					item: "hearthandharvest:water_crate"
+					type: "item"
+				}
+			]
+			title: "Compact Your Beverages"
+			x: 8.0d
+			y: 9.0d
 		}
 	]
 	title: "Farming \\& Gardening"

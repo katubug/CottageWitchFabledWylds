@@ -6,5 +6,5 @@
   "ingredient": {
     "item": "meadow:rennet"
   },
-  "result": "meadow:warped_cheese_block"
+  "result": "kubejs:warped_cheese_unripe"
 }

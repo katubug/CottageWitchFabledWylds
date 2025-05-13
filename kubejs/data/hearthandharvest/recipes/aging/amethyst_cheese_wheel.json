@@ -1,0 +1,14 @@
+{
+  "type": "hearthandharvest:aging",
+  "cookingtime": 1200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "kubejs:amethyst_cheese_unripe"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "meadow:amethyst_cheese_block"
+  }
+}

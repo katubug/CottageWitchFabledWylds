@@ -193,4 +193,19 @@ ServerEvents.tags('item', event => {
 	event.add('forge:bread_or_bun',
 		'bakery:bun'
 	)
+
+	event.add('forge:cheese',
+		'hearthandharvest:cheddar_cheese_slice',
+		'hearthandharvest:goat_cheese_slice'
+	)
+
+	event.add('forge:cheese_slices',
+		'hearthandharvest:cheddar_cheese_slice',
+		'hearthandharvest:goat_cheese_slice',
+		'meadow:piece_of_sheep_cheese',
+		'meadow:piece_of_grain_cheese',
+		'meadow:piece_of_amethyst_cheese',
+		'meadow:piece_of_buffalo_cheese',
+		'meadow:piece_of_warped_cheese'
+	)
 })

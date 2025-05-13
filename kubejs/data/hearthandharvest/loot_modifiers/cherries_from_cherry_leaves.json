@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "tag": "minecraft:shears",
+        "inverted": true
+      }
+    },
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:cherry_leaves"
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.01
+    }
+  ],
+  "item": "vinery:cherry"
+}

@@ -19,7 +19,10 @@ ServerEvents.tags('item', event => {
 		'quark:rope',
 		'supplementaries:rope',
 		'farm_and_charm:minced_beef',
-		'farm_and_charm:flour'
+		'farm_and_charm:flour',
+		'meadow:piece_of_goat_cheese',
+		'meadow:piece_of_cheese',
+		'hearthandharvest:cherry'
 	]
 
 	for (const nuke of toNuke) {

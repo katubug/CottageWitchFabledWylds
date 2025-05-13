@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "U",
+    "X"
+  ],
+  "key": {
+    "S": {
+      "item": "farm_and_charm:butter"
+    },
+    "U": {
+      "item": "rainbowreef:raw_butterflyfish"
+    },
+    "X": {
+      "tag": "forge:bread_or_bun"
+    }
+  },
+  "result": {
+    "item": "rainbowreef:buttered_butterflyfish"
+  }
+}

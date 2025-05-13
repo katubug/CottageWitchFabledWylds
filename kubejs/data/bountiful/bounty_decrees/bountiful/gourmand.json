@@ -1,8 +1,8 @@
 {
 	"objectives": [
-		"_all_objs",
-        "money_objs",
-		"hunter_objs"
+        "gourmand_objs_easy",
+		"gourmand_objs_medium",
+		"gourmand_objs_hard"
 	],
 	"rewards": [
 		"money_rews",

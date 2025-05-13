@@ -15,7 +15,7 @@
       "tag": "farm_and_charm:dough"
     },
     {
-      "tag": "farm_and_charm:butter"
+      "tag": "supplementaries:pancake_syrup"
     },
     {
       "tag": "forge:fruits/strawberries"
@@ -26,6 +26,6 @@
   },
   "result": {
     "item": "farm_and_charm:oat_pancake",
-    "count": 3
+    "count": 1
   }
 }

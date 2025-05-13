@@ -2,18 +2,15 @@
   "type": "farm_and_charm:stove",
   "ingredients": [
     {
-      "item": "minecraft:sugar"
+      "item": "minecraft:bread"
     },
     {
-      "tag": "bakery:dough"
-    },
-    {
-      "tag": "bakery:milk"
+      "tag": "forge:butter"
     }
   ],
   "result": {
     "item": "bakery:toast",
-    "count": 3
+    "count": 2
   },
   "experience": 0.2,
   "requiresLearning": false

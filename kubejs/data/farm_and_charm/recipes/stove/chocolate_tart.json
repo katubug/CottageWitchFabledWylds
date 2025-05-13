@@ -2,13 +2,13 @@
   "type": "farm_and_charm:stove",
   "ingredients": [
     {
-      "tag": "bakery:chocolate"
+      "tag": "forge:chocolate"
     },
     {
-      "item": "bakery:sweet_dough"
+      "item": "farmersdelight:pie_crust"
     },
     {
-      "item": "farm_and_charm:yeast"
+      "tag": "forge:milk"
     }
   ],
   "result": {

@@ -236,6 +236,10 @@ JEIEvents.hideItems(event => {
       'hearthandharvest:salt_bag',
       'ae2:nether_quartz_wrench',
       'ae2:certus_quartz_wrench',
+      'farm_and_charm:farmers_bread',
+      'farm_and_charm:flour',
+      'easy_mob_farm:milk_bottle', 
+      'hexerei:milk_bottle',
       ];
     
       for (const hide of toHide) {

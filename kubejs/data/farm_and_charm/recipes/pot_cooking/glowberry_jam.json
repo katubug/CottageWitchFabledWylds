@@ -8,11 +8,11 @@
       "item": "minecraft:glow_berries"
     },
     {
-      "item": "bakery:jar"
+      "tag": "betterbeekeeping:honey_bottles"
     }
   ],
   "container": {
-    "item": "minecraft:bowl"
+    "item": "bakery:jar"
   },
   "result": {
     "item": "bakery:glowberry_jam"

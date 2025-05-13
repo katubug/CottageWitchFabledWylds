@@ -11,11 +11,11 @@
       "tag": "bakery:eggs"
     },
     {
-      "tag": "bakery:water_bottles"
+      "item": "farm_and_charm:yeast"
     }
   ],
   "result": {
     "item": "bakery:sweet_dough",
-    "count": 12
+    "count": 2
   }
 }

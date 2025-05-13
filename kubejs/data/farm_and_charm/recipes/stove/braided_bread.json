@@ -2,18 +2,18 @@
   "type": "farm_and_charm:stove",
   "ingredients": [
     {
-      "tag": "bakery:dough"
+      "tag": "forge:eggs"
     },
     {
       "item": "bakery:sweet_dough"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "betterbeekeeping:honey_bottles"
     }
   ],
   "result": {
     "item": "bakery:braided_bread",
-    "count": 4
+    "count": 1
   },
   "experience": 0.125,
   "requiresLearning": false

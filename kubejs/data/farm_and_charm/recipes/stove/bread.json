@@ -5,15 +5,12 @@
       "tag": "bakery:dough"
     },
     {
-      "item": "minecraft:sugar"
-    },
-    {
-      "tag": "bakery:water_bottles"
+      "tag": "forge:butter"
     }
   ],
   "result": {
     "item": "bakery:bread",
-    "count": 4
+    "count": 1
   },
   "experience": 0.125,
   "requiresLearning": false

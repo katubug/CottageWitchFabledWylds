@@ -16,9 +16,6 @@
     },
     {
       "item": "farmersdelight:minced_beef"
-    },
-    {
-      "item": "farmersdelight:minced_beef"
     }
   ],
   "container": {
@@ -26,6 +23,6 @@
   },
   "result": {
     "item": "farm_and_charm:sausage_with_oat_patty",
-    "count": 2
+    "count": 1
   }
 }

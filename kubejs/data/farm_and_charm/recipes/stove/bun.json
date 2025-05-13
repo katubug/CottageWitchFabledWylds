@@ -2,18 +2,18 @@
   "type": "farm_and_charm:stove",
   "ingredients": [
     {
-      "tag": "farm_and_charm:dough"
+      "item": "farmersdelight:wheat_dough"
     },
     {
-      "item": "farm_and_charm:yeast"
+      "tag": "forge:butter"
     },
     {
-      "tag": "bakery:eggs"
+      "tag": "forge:eggs"
     }
   ],
   "result": {
     "item": "bakery:bun",
-    "count": 5
+    "count": 2
   },
   "experience": 0.125,
   "requiresLearning": false

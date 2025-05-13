@@ -6,7 +6,7 @@
       "tag": "farm_and_charm:cabbage"
     },
     {
-      "item": "farm_and_charm:lamb_ham"
+      "tag": "forge:raw_mutton"
     },
     {
       "tag": "candlelight:red_effect"
@@ -17,6 +17,6 @@
   },
   "result": {
     "item": "candlelight:roasted_lamb_with_lettuce",
-    "count": 2
+    "count": 1
   }
 }

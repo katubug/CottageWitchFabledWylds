@@ -8,7 +8,7 @@
       "item": "farm_and_charm:strawberry"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "betterbeekeeping:honey_bottles"
     }
   ],
   "container": {

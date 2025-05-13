@@ -168,4 +168,29 @@ ServerEvents.tags('item', event => {
 		'herbalbrews:dried_green_tea',
 		'herbalbrews:dried_black_tea'
 	)
+
+	//Syrups
+	event.add('supplementaries:pancake_syrup',
+		'hearthandharvest:syrup_bottle'
+	)
+
+	//Glowberry jams
+	event.add('forge:glowberry_jam',
+		'bakery:glowberry_jam',
+		'fruitsdelight:glowberry_jelly')
+
+	//strawberries
+	event.add('forge:strawberries',
+		'mysticsbiomes:sweet_strawberry'
+	)
+
+	event.add('forge:fruits/strawberries',
+		'farm_and_charm:strawberry'
+	)
+
+	//bun tag to bun
+
+	event.add('forge:bread_or_bun',
+		'bakery:bun'
+	)
 })

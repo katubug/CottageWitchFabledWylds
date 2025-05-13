@@ -336,11 +336,6 @@
 					type: "item"
 				}
 				{
-					id: "07E0C6422AFA5B4A"
-					item: "vegandelight:soybean"
-					type: "item"
-				}
-				{
 					id: "0BD7A6CEF3F6B63E"
 					item: "farm_and_charm:corn"
 					type: "item"
@@ -1053,14 +1048,6 @@
 					block_type: 0
 					checkItem: false
 					id: "67A78ED3495ABCB3"
-					type: "questsadditions:break"
-					value: 1L
-				}
-				{
-					block: "vegandelight:wild_soybean"
-					block_type: 0
-					checkItem: false
-					id: "196A2A7BE9F5D9D3"
 					type: "questsadditions:break"
 					value: 1L
 				}

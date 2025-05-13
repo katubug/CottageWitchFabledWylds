@@ -5,15 +5,15 @@
       "tag": "bakery:bread"
     },
     {
-      "tag": "farm_and_charm:raw_bacon"
+      "tag": "forge:raw_bacon"
     },
     {
-      "tag": "farm_and_charm:raw_bacon"
+      "tag": "forge:raw_bacon"
     }
   ],
   "result": {
     "item": "bakery:grilled_bacon_sandwich",
-    "count": 2
+    "count": 1
   },
   "experience": 0.2,
   "requiresLearning": false

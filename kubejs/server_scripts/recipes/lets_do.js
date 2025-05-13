@@ -13,32 +13,6 @@ ServerEvents.recipes(event => {
 			D: 'supplementaries:ash'
 		}
 	)
-	//Cheesecake recipe because it's missing?
-	event.shaped(
-		Item.of('meadow:cheesecake', 4),
-		[
-			'ABA',
-			'CCC'
-		], {
-			A: '#forge:eggs',
-			B: '#forge:cheeses',
-			C: '#forge:wheat'
-		}
-	)
-
-	//cheese tart recipe because same
-	event.shaped(
-		Item.of('meadow:cheese_tart', 4),
-		[
-			'ABD',
-			'CCC'
-		], {
-			A: '#forge:eggs',
-			B: '#forge:cheeses',
-			C: '#forge:wheat',
-			D: '#forge:milk'
-		}
-	)
 
 	//Cakes use Cake Dough
 	//First, fallback Cake recipe for vanilla

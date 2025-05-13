@@ -5,10 +5,10 @@
       "tag": "bakery:eggs"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "betterbeekeeping:honey_bottles"
     },
     {
-      "item": "farm_and_charm:yeast"
+      "item": "bakery:cake_dough"
     }
   ],
   "result": {

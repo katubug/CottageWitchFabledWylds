@@ -5,7 +5,7 @@
       "tag": "farm_and_charm:pasta"
     },
     {
-      "item": "farm_and_charm:chicken_parts"
+      "tag": "forge:raw_chicken"
     },
     {
       "item": "minecraft:carrot"
@@ -13,7 +13,7 @@
   ],
   "result": {
     "item": "farm_and_charm:roasted_chicken",
-    "count": 3
+    "count": 1
   },
   "experience": 0.3,
   "requiresLearning": false

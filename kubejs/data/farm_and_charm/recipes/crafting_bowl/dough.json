@@ -3,10 +3,10 @@
   "type": "farm_and_charm:crafting_bowl",
   "ingredients": [
     {
-      "item": "farm_and_charm:flour"
+      "tag": "forge:flour/wheat"
     },
     {
-      "item": "farm_and_charm:flour"
+      "tag": "forge:flour/wheat"
     },
     {
       "item": "farm_and_charm:yeast"
@@ -17,6 +17,6 @@
   ],
   "result": {
     "item": "farmersdelight:wheat_dough",
-    "count": 2
+    "count": 3
   }
 }

@@ -5,7 +5,7 @@
   },
   "recipe_type": "STONE",
   "result": {
-    "item": "farm_and_charm:flour",
-    "count": 4
+    "item": "create:wheat_flour",
+    "count": 2
   }
 }

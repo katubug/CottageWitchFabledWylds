@@ -2,7 +2,7 @@
   "type": "farm_and_charm:stove",
   "ingredients": [
     {
-      "item": "minecraft:milk_bucket"
+      "tag": "forge:milk"
     },
     {
       "item": "bakery:sweet_dough"
@@ -13,7 +13,7 @@
   ],
   "result": {
     "item": "bakery:cornet",
-    "count": 4
+    "count": 2
   },
   "experience": 0.2,
   "requiresLearning": false

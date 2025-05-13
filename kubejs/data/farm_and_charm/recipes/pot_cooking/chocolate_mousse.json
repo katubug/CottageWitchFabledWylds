@@ -8,7 +8,7 @@
       "item": "minecraft:cocoa_beans"
     },
     {
-      "tag": "farm_and_charm:milk"
+      "tag": "forge:milk/milk_bottle"
     },
     {
       "tag": "farm_and_charm:butter"
@@ -19,6 +19,6 @@
   },
   "result": {
     "item": "candlelight:chocolate_mousse",
-    "count": 4
+    "count": 1
   }
 }

@@ -2,13 +2,13 @@
   "type": "farm_and_charm:stove",
   "ingredients": [
     {
-      "item": "minecraft:glow_berries"
+      "tag": "forge:glowberry_jam"
     },
     {
-      "item": "bakery:sweet_dough"
+      "item": "farmersdelight:pie_crust"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "betterbeekeeping:honey_bottles"
     }
   ],
   "result": {

@@ -2,18 +2,18 @@
   "type": "farm_and_charm:stove",
   "ingredients": [
     {
-      "item": "bakery:sweet_dough"
+      "item": "farmersdelight:wheat_dough"
     },
     {
-      "tag": "bakery:dough"
+      "item": "farmersdelight:wheat_dough"
     },
     {
-      "item": "farm_and_charm:yeast"
+      "tag": "forge:butter"
     }
   ],
   "result": {
     "item": "bakery:baguette",
-    "count": 3
+    "count": 1
   },
   "experience": 0.2,
   "requiresLearning": false

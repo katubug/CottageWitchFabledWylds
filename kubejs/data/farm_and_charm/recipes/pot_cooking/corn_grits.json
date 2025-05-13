@@ -11,7 +11,7 @@
       "tag": "farm_and_charm:corn"
     },
     {
-      "item": "farm_and_charm:flour"
+      "tag": "forge:flour"
     }
   ],
   "container": {

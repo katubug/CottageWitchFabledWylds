@@ -14,11 +14,8 @@
       "tag": "farm_and_charm:wheat"
     }
   ],
-  "container": {
-    "item": "minecraft:bowl"
-  },
   "result": {
     "item": "farm_and_charm:yeast",
-    "count": 12
+    "count": 4
   }
 }

@@ -12,10 +12,18 @@ ServerEvents.tags('item', event => {
 		"#perfectplushies:rare_treasure_plushies"
 	])
 
-	//Remove Quark Rope Tags
-	event.removeAllTagsFrom('quark:rope')
-	event.removeAllTagsFrom('supplementaries:rope')
-	event.removeAllTagsFrom('farm_and_charm:minced_beef')
-	event.removeAllTagsFrom('candlelight:beef_tartare')
+	//Remove All Tags
+	let toNuke = [
+		'easy_mob_farm:milk_bottle', 
+      	'hexerei:milk_bottle',
+		'quark:rope',
+		'supplementaries:rope',
+		'farm_and_charm:minced_beef',
+		'farm_and_charm:flour'
+	]
+
+	for (const nuke of toNuke) {
+        event.removeAllTagsFrom(nuke);
+    } 
 
 })

@@ -1042,7 +1042,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["5A740B6BFD3DF940"]
+			dependencies: ["6EFFB8ED37DC8A47"]
 			description: ["Vegetarian? No worries, we got you covered! Why not make some delicious &avegetarian dishes?&r"]
 			id: "181F5C00C8DE417B"
 			rewards: [
@@ -1102,8 +1102,8 @@
 				}
 			]
 			title: "Delicious Veggies"
-			x: 1.0d
-			y: 3.5d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5F2C26D1C6302016"]
@@ -2578,41 +2578,6 @@
 			y: 31.0d
 		}
 		{
-			dependencies: ["6EFFB8ED37DC8A47"]
-			description: [
-				"Vegetarianism! Regardless of why you might wish to avoid meat, you can now do so with the advent of &bTofu&r!"
-				""
-				"Many foods which would otherwise require &bmeat&r or &bleather&r can now be bypassed, allowing you to save a few more animals than you might otherwise have done! &bApplesauce&r can be substituted for &bEggs&r."
-			]
-			id: "5A740B6BFD3DF940"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "152C4200E3AFB223"
-				table_id: 8096229411196850122L
-				type: "loot"
-			}]
-			tasks: [
-				{
-					id: "019E7D711C943011"
-					item: "vegandelight:tofu"
-					type: "item"
-				}
-				{
-					id: "6DA131463D2D91FE"
-					item: "vegandelight:leather_substitute"
-					type: "item"
-				}
-				{
-					id: "019D7D7DE54AD069"
-					item: "vegandelight:applesauce"
-					type: "item"
-				}
-			]
-			title: "Vegetarian Options"
-			x: 0.0d
-			y: 2.5d
-		}
-		{
 			dependencies: ["31CE923007EF1D03"]
 			description: ["It might take a while, but why not &acollect all &bCheese&r types and have yourself a little tasting?"]
 			id: "70B1F4C0D65D12D1"
@@ -3360,8 +3325,8 @@
 			id: "4D65AA1353AA0E1D"
 			rewards: [{
 				count: 4
-				id: "78608CEE4B07318E"
-				item: "farm_and_charm:flour"
+				id: "7ED61C2225C57B86"
+				item: "create:wheat_flour"
 				type: "item"
 			}]
 			subtitle: "get crafty"

@@ -14,11 +14,8 @@
       "tag": "bakery:milk"
     }
   ],
-  "container": {
-    "item": "bakery:jar"
-  },
   "result": {
     "item": "bakery:chocolate_truffle",
-    "count": 4
+    "count": 1
   }
 }

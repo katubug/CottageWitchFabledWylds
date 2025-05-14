@@ -1,0 +1,14 @@
+{
+  "type": "enchanted:wheel",
+  "duration": 300,
+  "ingredients": [
+    {
+      "item": "hexalia:silk_fiber"
+    }
+  ],
+  "power": 0,
+  "result": {
+    "item": "crittersandcompanions:silk",
+    "count": 4
+  }
+}

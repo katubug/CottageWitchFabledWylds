@@ -1418,33 +1418,55 @@
 		}
 		{
 			dependencies: ["4655801A35B3BAB2"]
+			description: [
+				"&bMandrake Root&r is obtainable, surprisingly enough, from &bMandrake Plants&r! However, one must be careful when harvesting Mandrake, as they can &aget a little rowdy if agitated&r."
+				""
+				"To harvest just the root, &6right click&r to gather gently. However, if one were to &6left click to harvest&r, it would &aawaken the &eMandrake&r, who will &ashriek horribly&r and attempt to flee."
+				""
+				"However, there are &dcertain drops only available from killing the &eMandrake&r."
+				""
+				"To avoid its harrowing scream, &bEarmuffs&r are recommended."
+			]
 			id: "4183514EA291214A"
-			rewards: [{
-				id: "7FB8B124B3FC4D76"
-				item: {
-					Count: 1
-					id: "minecraft:player_head"
-					tag: {
-						SkullOwner: {
-							Id: [I;
-								2079778463
-								1436896318
-								-1886529491
-								1932404166
-							]
-							Properties: {
-								textures: [{
-									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODgwYWM0ZmY0ODhhNmY0MjJmNjk5MmY3N2RkZDU2N2VjMTM5ODdmNmE3ZGNmMzBjOWMzMDJkMmFhZjBmOWI4ZCJ9fX0="
-								}]
+			rewards: [
+				{
+					id: "7FB8B124B3FC4D76"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									2079778463
+									1436896318
+									-1886529491
+									1932404166
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODgwYWM0ZmY0ODhhNmY0MjJmNjk5MmY3N2RkZDU2N2VjMTM5ODdmNmE3ZGNmMzBjOWMzMDJkMmFhZjBmOWI4ZCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Mandrake\"}"
 							}
 						}
-						display: {
-							Name: "{\"text\":\"Mandrake\"}"
+					}
+					type: "item"
+				}
+				{
+					id: "0F2490DE015E8A6A"
+					item: {
+						Count: 1
+						id: "enchanted:earmuffs"
+						tag: {
+							Damage: 0
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "64E8C35BE36ADC2B"
 				item: "enchanted:mandrake_root"
@@ -1503,6 +1525,26 @@
 			title: "The Arthana: Ritual Dagger"
 			x: -4.5d
 			y: -1.5d
+		}
+		{
+			description: [
+				"&bSilk Fiber&r can be obtained from &eSilkworms&r. You can &6place it in a &bSpinning Wheel&r to produce &bSilk Thread&r, which can be used in many important recipes such as the making of &bPoppets&r and &bClothing&r."
+				""
+				"Note that the &bSpinning Wheel&r &dmay not appear to be doing anything&r, but it is. Just be patient!"
+			]
+			id: "50DC32C40279EF48"
+			rewards: [{
+				id: "5537852B78F6DD29"
+				item: "hexalia:silk_fiber"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A7F711B6EF4D189"
+				item: "hexalia:silk_fiber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
 		}
 	]
 	title: "WIP"

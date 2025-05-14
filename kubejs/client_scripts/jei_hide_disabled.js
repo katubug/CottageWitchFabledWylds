@@ -264,7 +264,12 @@ JEIEvents.hideItems(event => {
       'meadow:goat_cheese_block',
       'meadow:piece_of_goat_cheese',
       'meadow:piece_of_cheese',
-      'hearthandharvest:cherry'
+      'hearthandharvest:cherry',
+      'hexalia:mandrake_seeds',
+      'hexalia:salt_block',
+      'hexalia:mortar_and_pestle',
+      'hearthandharvest:mead',
+      'hearthandharvest:mead_crate',
       ];
     
       for (const hide of toHide) {

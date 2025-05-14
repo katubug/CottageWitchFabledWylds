@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "hexerei:infused_fabric"
+    },
+    "S": {
+      "item": "crittersandcompanions:silk"
+    }
+  },
+  "result": {
+    "item": "hexerei:witch_boots"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "enchanted:attuned_stone"
+    },
+    "b": {
+      "item": "enchanted:bone_needle"
+    },
+    "m": {
+      "item": "enchanted:spanish_moss"
+    },
+    "i": {
+      "item": "hexalia:silk_idol"
+    },
+    "s": {
+      "item": "minecraft:string"
+    },
+    "w": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    "wmw",
+    "bis",
+    "waw"
+  ],
+  "result": {
+    "item": "enchanted:poppet"
+  },
+  "show_notification": true
+}

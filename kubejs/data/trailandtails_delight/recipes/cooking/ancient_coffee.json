@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "trailandtales_delight:baked_torchflower_seeds"
+    },
+    {
+      "item": "trailandtales_delight:baked_pitcher_pod"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "trailandtales_delight:ancient_coffee"
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  }
+}

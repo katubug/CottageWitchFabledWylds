@@ -264,4 +264,17 @@ ServerEvents.recipes(event => {
 			C: 'spelunkery:stone_pebble'
 		}
 	)
+
+	event.shaped(
+		Item.of('4x wardrobe:silk'),
+		[
+			'AAA',
+			'AAA'
+		], {
+			A: 'crittersandcompanions:silk'
+		}
+	)
+
+
+	
 })

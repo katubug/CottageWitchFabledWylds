@@ -1,0 +1,16 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+    {
+      "item": "hexalia:spirit_bloom"
+    },
+    {
+      "item": "hexalia:spirit_bloom"
+    }
+  ],
+  "output": {
+    "item": "hexalia:spirit_powder",
+    "count": 3
+  },
+  "grindingTime": 300
+}

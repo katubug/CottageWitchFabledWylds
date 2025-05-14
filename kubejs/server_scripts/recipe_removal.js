@@ -220,6 +220,13 @@ ServerEvents.recipes(event => {
         { output: 'meadow:piece_of_goat_cheese'},
         { output: 'meadow:piece_of_cheese'},
         { output: 'hearthandharvest:cherry'},
+        { output: 'hexalia:mandrake_seeds'},
+        { output: 'hexalia:salt_block'},
+        { output: 'hexalia:salt'},
+        { id: 'hexalia:string_from_mortar_and_pestle'},
+        { output: 'hexalia:mortar_and_pestle'},
+        { output: 'hearthandharvest:mead'},
+        { output: 'hearthandharvest:mead_crate'},
         //Replaced Recipes
         {id: 'farmersdelight:wheat_dough_from_water'},
         {id: 'farmersdelight:wheat_dough_from_eggs'},
@@ -269,6 +276,7 @@ ServerEvents.recipes(event => {
         {output: 'hearthandharvest:blueberry_crate'},
         {id: 'farmersdelight:cooking/unripe_cheddar_cheese_wheel'},
         {id: 'farmersdelight:cooking/unripe_goat_cheese_wheel'},
+        {output: 'wardrobe:silk'},
     
     ];
     

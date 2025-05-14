@@ -22,7 +22,8 @@ ServerEvents.tags('item', event => {
 		'farm_and_charm:flour',
 		'meadow:piece_of_goat_cheese',
 		'meadow:piece_of_cheese',
-		'hearthandharvest:cherry'
+		'hearthandharvest:cherry',
+		'hexalia:salt'
 	]
 
 	for (const nuke of toNuke) {

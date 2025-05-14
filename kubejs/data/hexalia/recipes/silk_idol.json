@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "tag": "hexalia:crushed_herbs"
+    },
+    "S": {
+      "item": "crittersandcompanions:silk"
+    },
+    "M": {
+      "item": "hexalia:mandrake"
+    }
+  },
+  "pattern": [
+    " S ",
+    "PMS",
+    " S "
+  ],
+  "result": {
+    "item": "hexalia:silk_idol"
+  },
+  "show_notification": true
+}

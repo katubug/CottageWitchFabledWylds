@@ -104,6 +104,22 @@ ServerEvents.recipes(event => {
 	'hearthandharvest:cherry', // Arg 2: the item to replace
 	'vinery:cherry' // Arg 3: the item to replace it with
 	)
+
+	//more cherries
+	event.replaceInput({
+		input: 'mysticsbiomes:cherries'
+	}, // Arg 1: the filter
+	'mysticsbiomes:cherries', // Arg 2: the item to replace
+	'vinery:cherry' // Arg 3: the item to replace it with
+	)
+
+	//peaches
+	event.replaceInput({
+		input: 'mysticsbiomes:peach'
+	}, // Arg 1: the filter
+	'mysticsbiomes:peach', // Arg 2: the item to replace
+	'fruitsdelight:peach' // Arg 3: the item to replace it with
+	)
 	
 	
 })

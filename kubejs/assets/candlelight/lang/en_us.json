@@ -4,5 +4,17 @@
   "candlelight.advancement.cook_everything_pan.desc": "Cook every available Candlelight Dish with a Cooking Pot",
   "candlelight.advancement.cook_everything_pot.desc": "Cook every available Candlelight Dish with a Cooking Pot, Part 2",
   "rei.candlelight.cooking_pan_category": "Decorative Copper Pan",
-  "rei.candlelight.cooking_pot_category": "Decorative Copper Pot"
+  "rei.candlelight.cooking_pot_category": "Decorative Copper Pot",
+  "advancement.candlelight.place_stove.desc": "Craft and place a Oven",
+  "block.candlelight.bamboo_stove": "Bamboo Oven",
+  "block.candlelight.basalt_stove": "Basalt Oven",
+  "block.candlelight.cobblestone_stove": "Cobblestone Oven",
+  "block.candlelight.deepslate_stove": "Deepslate Oven",
+  "block.candlelight.end_stove": "End Oven",
+  "block.candlelight.granite_stove": "Granite Oven",
+  "block.candlelight.mud_stove": "Mud Oven",
+  "block.candlelight.quartz_stove": "Quartz Oven",
+  "block.candlelight.red_nether_bricks_stove": "Red Nether Bricks Oven",
+  "block.candlelight.sandstone_stove": "Sandstone Oven",
+  "block.candlelight.stone_bricks_stove": "Stone Bricks Oven"
 }

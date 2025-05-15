@@ -275,6 +275,16 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+	//Smores use better marshmallows
+	event.shapeless(
+		Item.of('delightful:smore'),
+		[
+			'farmersdelight:honey_cookie',
+			'#forge:chocolate',
+			'hearthandharvest:roasted_marshmallow_stick',
+			'farmersdelight:honey_cookie'
+		]
+	)
 
 	
 })

@@ -278,4 +278,21 @@ ServerEvents.tags('item', event => {
 		'supplementaries:candle_holder_pink'
 	)
 
+	//Stoves which can cook
+	event.add('forge:cooking_ovens',
+		'candlelight:basalt_stove', 
+		'candlelight:cobblestone_stove', 
+		'candlelight:stone_bricks_stove', 
+		'candlelight:deepslate_stove', 
+		'candlelight:granite_stove', 
+		'candlelight:end_stove', 
+		'candlelight:mud_stove', 
+		'candlelight:quartz_stove', 
+		'candlelight:red_nether_bricks_stove', 
+		'candlelight:basalt_stove', 
+		'candlelight:bamboo_stove', 
+		'farm_and_charm:stove', 
+		'candlelight:sandstone_stove'
+	)
+
 })

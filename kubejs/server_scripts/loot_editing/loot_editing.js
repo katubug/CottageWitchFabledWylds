@@ -1,24 +1,8 @@
 LootJS.modifiers((event) => {
-	
-	event.addEntityLootModifier("minecraft:husk")
-    .addLoot("tombstone:grave_dust")
-	.randomChance(0.3)
 
-	event.addEntityLootModifier("minecraft:skeleton")
-    .addLoot("tombstone:grave_dust")
-	.randomChance(0.3)
-
-	event.addEntityLootModifier("minecraft:stray")
-    .addLoot("tombstone:grave_dust")
-	.randomChance(0.3)
-
-	event.addEntityLootModifier("minecraft:wither_skeleton")
-    .addLoot("tombstone:grave_dust")
-	.randomChance(0.3)
-
-	event.addEntityLootModifier("minecraft:zombie_villager")
-    .addLoot("tombstone:grave_dust")
-	.randomChance(0.3)
+	event.addEntityLootModifier("swampier_swamps:dragonfly")
+    .addLoot("crittersandcompanions:dragonfly_wing")
+	.randomChance(0.7)
 
 	event
 		.addLootTableModifier("minecraft:chests/nether_bridge")

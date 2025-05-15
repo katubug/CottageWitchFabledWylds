@@ -1,12 +1,4 @@
 {
-  "replace":true,
-  "type": "meadow:conditional",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "farm_and_charm"
-    }
-  ],
   "recipe": {
     "type": "farm_and_charm:mincer",
     "ingredient": {

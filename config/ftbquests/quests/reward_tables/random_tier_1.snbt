@@ -29,6 +29,7 @@
 		}
 		{ count: 3, item: "farm_and_charm:yeast" }
 		{ count: 3, item: "farm_and_charm:butter" }
+		{ count: 3, item: "supplementaries:confetti_popper" }
 	]
 	title: "Random Tier 1"
 }

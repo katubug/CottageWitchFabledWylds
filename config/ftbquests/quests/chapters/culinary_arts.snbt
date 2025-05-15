@@ -2171,25 +2171,21 @@
 		}
 		{
 			dependencies: ["4E4341D997F9AE98"]
-			description: [
-				"&bSalt&r is an important ingredient in &bCheesemaking&r. It can be found in &cMeadow biomes&r, embedded in &bLimestone&r."
-				""
-				"Place this, alongside some &bRaw Beef&r and a &bGlass Bottle&r, inside a &bCauldron&r to make &bRennet&r, the next step in acquiring the most delicious food group: Cheese."
-			]
+			description: ["&bSalt&r is an important ingredient in &bCheesemaking&r. It can be found in &cMeadow biomes&r, embedded in &bLimestone&r, as well as in &aOases&r and &aunderground&r."]
 			id: "684AF61973DB643F"
 			rewards: [{
 				count: 5
-				id: "1C58B4117732A2B4"
-				item: "meadow:alpine_salt"
+				id: "778BDEB201D292AE"
+				item: "spelunkery:salt"
 				type: "item"
 			}]
 			subtitle: "getting salty"
 			tasks: [{
-				id: "11B37CCB85F3C0B4"
-				item: "meadow:alpine_salt"
+				id: "24C190D1555CE826"
+				item: "spelunkery:salt"
 				type: "item"
 			}]
-			title: "Obtain Alpine Salt"
+			title: "Obtain Salt"
 			x: -2.0d
 			y: 38.75d
 		}
@@ -3447,6 +3443,61 @@
 			title: "Powdered Green Tea"
 			x: 1.5d
 			y: 32.5d
+		}
+		{
+			id: "4388413B656A4336"
+			tasks: [
+				{
+					id: "3A98F8ED7EA3B863"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:cooking_ovens)"
+						}
+					}
+					title: "Any #forge:cooking_ovens"
+					type: "item"
+				}
+				{
+					id: "0D796914A50971AA"
+					item: "farmersrespite:kettle"
+					type: "item"
+				}
+				{
+					id: "31F2CD366206FDF9"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "434A6BB3ED463288"
+					item: "farm_and_charm:mincer"
+					type: "item"
+				}
+				{
+					id: "15D389A6DFEF6348"
+					item: "farm_and_charm:crafting_bowl"
+					type: "item"
+				}
+				{
+					id: "64CFF9AE0E9DA631"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "10EC4DB307923763"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "2F9F836424CD2DBD"
+					item: "bakery:baker_station"
+					type: "item"
+				}
+			]
+			title: "A Well-Equipped Chef"
+			x: 7.5d
+			y: 1.5d
 		}
 	]
 	title: "Culinary Arts"

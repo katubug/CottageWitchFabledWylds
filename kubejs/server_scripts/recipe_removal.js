@@ -227,6 +227,18 @@ ServerEvents.recipes(event => {
         { output: 'hexalia:mortar_and_pestle'},
         { output: 'hearthandharvest:mead'},
         { output: 'hearthandharvest:mead_crate'},
+        { output: 'delightful:marshmallow_stick'}, 
+        { output: 'delightful:cooked_marshmallow_stick'},
+        {output: 'hearthandharvest:chocolate_bar'},
+        {output: 'tameablebeasts:bug_sword'},
+        {output: 'tameablebeasts:grasshopper_leg'},
+        {output: 'trailandtales_delight:cheese_wheel'},
+        {id: 'conditional:farm_and_charm/mincer/alpine_salt_from_mincer'},
+        {output: 'crittersandcompanions:diamond_dragonfly_armor'},
+        {output: 'crittersandcompanions:gold_dragonfly_armor'},
+        {output: 'crittersandcompanions:iron_dragonfly_armor'},
+        {output: 'hearthandharvest:red_grapes'},
+        {output: 'hearthandharvest:green_grapes'},
         //Replaced Recipes
         {id: 'farmersdelight:wheat_dough_from_water'},
         {id: 'farmersdelight:wheat_dough_from_eggs'},
@@ -277,6 +289,7 @@ ServerEvents.recipes(event => {
         {id: 'farmersdelight:cooking/unripe_cheddar_cheese_wheel'},
         {id: 'farmersdelight:cooking/unripe_goat_cheese_wheel'},
         {output: 'wardrobe:silk'},
+        {output: 'delightful:smore'}
     
     ];
     

@@ -1,0 +1,7 @@
+{
+    "block.farm_and_charm.roaster": "Decorative Roaster",
+    "advancement.farm_and_charm.place_stove.desc": "Place a Oven",
+    "block.farm_and_charm.stove": "Oven",
+    "rei.farm_and_charm.stove_category": "Oven",
+    "sound.farm_and_charm.stove_crackling": "Crackling Oven"
+}

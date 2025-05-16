@@ -12,6 +12,8 @@ ServerEvents.tags('item', event => {
 		"#perfectplushies:rare_treasure_plushies"
 	])
 
+	event.remove('forge:chocolate', 'candlelight:chocolate_mousse')
+
 	//Remove All Tags
 	let toNuke = [
 		'easy_mob_farm:milk_bottle', 
@@ -23,7 +25,8 @@ ServerEvents.tags('item', event => {
 		'meadow:piece_of_goat_cheese',
 		'meadow:piece_of_cheese',
 		'hearthandharvest:cherry',
-		'hexalia:salt'
+		'hexalia:salt',
+		'autumnity:syrup_bottle'
 	]
 
 	for (const nuke of toNuke) {

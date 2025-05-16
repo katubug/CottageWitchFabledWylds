@@ -10,6 +10,9 @@
     },
     {
       "tag": "candlelight:red_effect"
+    },
+    {
+      "item": "enchanted:garlic"
     }
   ],
   "container": {

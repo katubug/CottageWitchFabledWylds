@@ -291,6 +291,8 @@ JEIEvents.hideItems(event => {
       'create_central_kitchen:yucca_cake_slice', 
       'create_central_kitchen:chocolate_cake_slice',
       'enchanted:enchanted_broomstick',
+      'autumnity:syrup_bottle',
+      'prefab:item_carton_of_eggs'
       ];
     
       for (const hide of toHide) {

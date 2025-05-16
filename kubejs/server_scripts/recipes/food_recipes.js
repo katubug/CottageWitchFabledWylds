@@ -40,10 +40,10 @@ ServerEvents.recipes(event => {
 	event.shapeless(
 		Item.of('delightful:cheeseburger'),
 		[
-			'minecraft:bread',
+			'#forge:bread_or_bun',
 			'#forge:cooked_beef',
 			'#forge:crops/cabbage',
-			'#forge:cheese',
+			'#forge:cheese_slices',
 			'farmersdelight:tomato',
 			'farmersdelight:onion'
 		]
@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
 		Item.of('delightful:cheeseburger'),
 		[
 			'farmersdelight:hamburger',
-			'#forge:cheese',
+			'#forge:cheese_slices',
 		]
 	)
 
@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
 		Item.of('delightful:deluxe_cheeseburger'),
 		[
 			'delightful:cheeseburger',
-			'#forge:cheese',
+			'#forge:cheese_slices',
 			'#forge:cooked_beef',
 			'#forge:cooked_bacon'
 		]
@@ -73,12 +73,12 @@ ServerEvents.recipes(event => {
 	event.shapeless(
 		Item.of('delightful:deluxe_cheeseburger'),
 		[
-			'minecraft:bread',
+			'#forge:bread_or_bun',
 			'#forge:cooked_beef',
 			'#forge:cooked_beef',
 			'#forge:crops/cabbage',
-			'#forge:cheese',
-			'#forge:cheese',
+			'#forge:cheese_slices',
+			'#forge:cheese_slices',
 			'farmersdelight:tomato',
 			'farmersdelight:onion',
 			'#forge:cooked_bacon'

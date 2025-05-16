@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "DMD",
+    "GBG"
+  ],
+  "key": {
+    "#": {
+      "item": "spawn:mucus"
+    },
+    "D": {
+      "item": "minecraft:dried_kelp"
+    },
+    "M": {
+      "tag": "forge:milk/milk_bottle"
+    },
+    "B": {
+      "item": "spawn:snail_shell"
+    },
+    "G": {
+      "item": "enchanted:garlic"
+    }
+  },
+  "result": {
+    "item": "spawn:escargot",
+    "count": 1
+  }
+}

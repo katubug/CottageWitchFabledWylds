@@ -2,7 +2,7 @@
   "type": "farm_and_charm:stove",
   "ingredients": [
     {
-      "tag": "candlelight:pasta_with_mozzarella"
+      "item": "candlelight:pasta_with_mozzarella"
     },
     {
       "tag": "forge:raw_chicken"

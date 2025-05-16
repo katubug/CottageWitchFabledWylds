@@ -8,13 +8,16 @@
       "tag": "farm_and_charm:pasta"
     },
     {
-      "item": "minecraft:egg"
+      "tag": "forge:cooking_eggs"
     },
     {
       "tag": "candlelight:red_effect"
     },
     {
       "item": "candlelight:mozzarella"
+    },
+    {
+      "item": "enchanted:garlic"
     }
   ],
   "container": {

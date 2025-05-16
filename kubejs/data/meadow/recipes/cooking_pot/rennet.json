@@ -5,7 +5,7 @@
   "experience": 0.1,
   "ingredients": [
     {
-      "tag": "meadow:egg"
+      "tag": "forge:cooking_eggs"
     },
     {
       "tag": "forge:salt"

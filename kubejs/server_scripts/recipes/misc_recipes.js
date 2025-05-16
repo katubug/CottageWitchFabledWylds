@@ -286,5 +286,7 @@ ServerEvents.recipes(event => {
 		]
 	)
 
+	event.smelting('hearthandharvest:syrup_bottle', 'autumnity:sap_bottle')
+
 	
 })

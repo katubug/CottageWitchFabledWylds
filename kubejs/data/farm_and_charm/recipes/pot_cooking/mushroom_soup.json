@@ -15,6 +15,9 @@
     },
     {
       "tag": "farm_and_charm:milk"
+    },
+    {
+      "item": "enchanted:garlic"
     }
   ],
   "container": {

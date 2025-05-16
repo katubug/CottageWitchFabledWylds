@@ -21,6 +21,9 @@
     },
     {
       "tag": "forge:milk/milk_bottle"
+    },
+    {
+      "item": "enchanted:garlic"
     }
   ],
   "recipe_book_tab": "meals",

@@ -208,4 +208,39 @@ ServerEvents.tags('item', event => {
 		'meadow:piece_of_buffalo_cheese',
 		'meadow:piece_of_warped_cheese'
 	)
+
+	event.add('twilightforest:kobold_pacification_breads',
+		'delightful:cantaloupe_bread',
+		'bakery:braided_bread',
+		'bakery:crusty_bread',
+		'bakery:toast',
+		'bakery:baguette',
+		'bakery:bread',
+		'rainbowreef:boxfish_bread',
+		'autumnity:pumpkin_bread',
+		'farmersrespite:nether_wart_sourdough',
+		'paleo_flora_return:sporous_reed_bread'
+	)
+
+	event.add('forge:bread_or_bun',
+		'bakery:braided_bread',
+		'bakery:crusty_bread',
+		'bakery:toast',
+		'bakery:baguette',
+		'bakery:bread',
+	)
+
+	event.add('forge:cooking_eggs',
+		'minecraft:egg',
+		'mysticsbiomes:pink_egg',
+		'mysticsbiomes:orange_egg',
+		'mysticsbiomes:yellow_egg',
+		'mysticsbiomes:lime_egg',
+		'mysticsbiomes:cyan_egg',
+		'mysticsbiomes:purple_egg',
+		'earthmobsmod:smelly_egg',
+		'autumnity:turkey_egg',
+		'earthmobsmod:fancy_egg',
+		'earthmobsmod:duck_egg'
+	)
 })

@@ -20,5 +20,6 @@
 "rei.bakery.baking_category": "Caking Station",
 "rei.bakery.bowl_category": "Crafting Bowl",
 "rei.bakery.cooking_pot_category": "Decorative Saucepan",
-"rei.bakery.stove_category": "Oven"
+"rei.bakery.stove_category": "Oven",
+"block.bakery.waffle_block": "Belgian Waffle"
 }

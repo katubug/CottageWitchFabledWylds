@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "fd_sweet_berry_cheesecake",
+  "key": {
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "m": {
+      "tag": "forge:cheese_slices"
+    },
+    "s": {
+      "item": "minecraft:sweet_berries"
+    },
+    "e": {
+      "tag": "forge:cooking_eggs"
+    }
+  },
+  "pattern": [
+    "sss",
+    "msm",
+    "eOe"
+  ],
+  "result": {
+    "item": "farmersdelight:sweet_berry_cheesecake"
+  },
+  "show_notification": true
+}

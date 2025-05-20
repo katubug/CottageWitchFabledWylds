@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:chocolate"
+    },
+    {
+      "item": "hearthandharvest:batter"
+    },
+    {
+      "item": "rainbowreef:raw_ray"
+    }
+  ],
+  "result": {
+    "item": "rainbowreef:choco_ray_muffin"
+  }
+}

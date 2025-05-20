@@ -1698,6 +1698,6 @@ ItemEvents.tooltip(e => {
 
 	e.add(['ends_delight:end_stove', 'farmersdelight:stove', 'meadow:stove_tiles', 'nethersdelight:blackstone_stove', 'twilightdelight:maze_stove', 'trailandtales_delight:mud_stove'], "Can be used as a heat source only.")
 
-	e.add(['mysticsbiomes:vanilla_cake', 'mysticsbiomes:pink_frosted_cake', 'mysticsbiomes:purple_frosted_cake', 'farmersrespite:coffee_cake', 'mysticsbiomes:cyan_frosted_cake', 'mysticsbiomes:orange_frosted_cake', 'mysticsbiomes:yellow_frosted_cake', 'mysticsbiomes:lime_frosted_cake', 'mysticsbiomes:chocolate_cake', 'mysticsbiomes:strawberry_cake'], "Stackable!")
+	e.add(['mysticsbiomes:vanilla_cake', 'mysticsbiomes:pink_frosted_cake', 'mysticsbiomes:purple_frosted_cake', 'farmersrespite:coffee_cake', 'mysticsbiomes:cyan_frosted_cake', 'mysticsbiomes:orange_frosted_cake', 'mysticsbiomes:yellow_frosted_cake', 'mysticsbiomes:lime_frosted_cake', 'mysticsbiomes:chocolate_cake', 'mysticsbiomes:strawberry_cake', 'farm_and_charm:oat_pancake', 'bakery:waffle', 'supplementaries:pancake'], "Stackable!")
 
 })

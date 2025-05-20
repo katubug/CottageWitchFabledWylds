@@ -292,7 +292,16 @@ JEIEvents.hideItems(event => {
       'create_central_kitchen:chocolate_cake_slice',
       'enchanted:enchanted_broomstick',
       'autumnity:syrup_bottle',
-      'prefab:item_carton_of_eggs'
+      'prefab:item_carton_of_eggs',
+      'hearthandharvest:blueberry_muffin',
+      'farmersdelight:horse_feed', 
+      'farm_and_charm:dog_food',
+      'farmersdelight:bacon_and_eggs',
+      'hearthandharvest:melon_jam', 
+      'hearthandharvest:glow_berry_jam', 
+      'hearthandharvest:sweet_berry_jam', 
+      'hearthandharvest:apple_jam',
+      'hearthandharvest:peanut_butter_and_jelly_sandwich',
       ];
     
       for (const hide of toHide) {

@@ -5,13 +5,13 @@
   "experience": 0.1,
   "ingredients": [
     {
-      "tag": "bakery:eggs"
+      "tag": "forge:cooking_eggs"
     },
     {
-      "tag": "bakery:jam"
+      "tag": "forge:jams"
     },
     {
-      "tag": "bakery:milk"
+      "tag": "forge:milk/milk_bottle"
     }
   ],
   "container": {

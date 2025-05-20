@@ -26,7 +26,8 @@ ServerEvents.tags('item', event => {
 		'meadow:piece_of_cheese',
 		'hearthandharvest:cherry',
 		'hexalia:salt',
-		'autumnity:syrup_bottle'
+		'autumnity:syrup_bottle',
+		'#forge:eggs'
 	]
 
 	for (const nuke of toNuke) {

@@ -1,5 +1,5 @@
 #If enabled, a button to the Diet GUI appears in player inventories.
-addButton = true
+addButton = false
 #The x-position of the Diet GUI button in player inventories.
 #Range: -10000 ~ 10000
 buttonX = 126

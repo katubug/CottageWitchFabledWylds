@@ -120,6 +120,14 @@ ServerEvents.recipes(event => {
 	'mysticsbiomes:peach', // Arg 2: the item to replace
 	'fruitsdelight:peach' // Arg 3: the item to replace it with
 	)
+
+	//Eggs
+	event.replaceInput({
+		input: '#forge:eggs'
+	},
+	'#forge:eggs',
+	'#forge:cooking_eggs'
+	)
 	
 	
 })

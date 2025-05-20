@@ -241,6 +241,15 @@ ServerEvents.recipes(event => {
         {output: 'hearthandharvest:green_grapes'},
         {output: 'autumnity:syrup_bottle'},
         {output: 'prefab:item_carton_of_eggs'},
+        {output: 'hearthandharvest:blueberry_muffin'},
+        {output: 'farmersdelight:horse_feed'},
+        {output: 'farm_and_charm:dog_food'},
+        {output: 'farmersdelight:bacon_and_eggs'},
+        {output: 'hearthandharvest:melon_jam'},
+        {output: 'hearthandharvest:glow_berry_jam'},
+        {output: 'hearthandharvest:sweet_berry_jam'},
+        {output: 'hearthandharvest:apple_jam'},
+        {output: 'hearthandharvest:peanut_butter_and_jelly_sandwich'},
         //Replaced Recipes
         {id: 'farmersdelight:wheat_dough_from_water'},
         {id: 'farmersdelight:wheat_dough_from_eggs'},
@@ -326,6 +335,9 @@ ServerEvents.recipes(event => {
         {output: 'twilightdelight:torchberry_cookie'},
         {output: 'rainbowreef:basslet_cookie'},
         {output: 'rainbowreef:idol_cookie'},
+        {output: 'hearthandharvest:turtle_egg_crate'},
+        {output: 'hearthandharvest:egg_crate'},
+        {id: 'delightful:cutting/green_tea_leaves'},
     
     ];
     

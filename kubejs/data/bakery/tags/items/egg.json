@@ -1,8 +1,6 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
-    "#c:eggs",
-    "#forge:eggs",
-    "minecraft:egg"
+    "#forge:cooking_eggs"
   ]
 }

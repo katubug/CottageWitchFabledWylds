@@ -289,4 +289,39 @@ ServerEvents.recipes(event => {
 	event.smelting('hearthandharvest:syrup_bottle', 'autumnity:sap_bottle')
 
 	
+	//Turtle egg crate doesn't use tags
+	event.shapeless(
+		Item.of('hearthandharvest:turtle_egg_crate'),
+		[
+			'minecraft:turtle_egg',
+			'minecraft:turtle_egg',
+			'minecraft:turtle_egg',
+			'minecraft:turtle_egg',
+			'minecraft:turtle_egg',
+			'minecraft:turtle_egg',
+			'minecraft:turtle_egg',
+			'minecraft:turtle_egg',
+			'minecraft:turtle_egg'
+		]
+	)
+
+	
+
+	//Turtle egg crate doesn't use tags
+	event.shapeless(
+		Item.of('hearthandharvest:egg_crate'),
+		[
+			'minecraft:egg',
+			'minecraft:egg',
+			'minecraft:egg',
+			'minecraft:egg',
+			'minecraft:egg',
+			'minecraft:egg',
+			'minecraft:egg',
+			'minecraft:egg',
+			'minecraft:egg'
+		]
+	)
+
+	
 })

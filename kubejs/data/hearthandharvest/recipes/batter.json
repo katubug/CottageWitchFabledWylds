@@ -1,0 +1,23 @@
+{
+  "type": "farm_and_charm:crafting_bowl",
+  "ingredients": [
+    {
+      "tag": "forge:milk/milk_bottle"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "forge:cooking_eggs"
+    }
+  ],
+  "result": {
+    "item": "hearthandharvest:batter",
+    "count": 1
+  }
+}
+
+

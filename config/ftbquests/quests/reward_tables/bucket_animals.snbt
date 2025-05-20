@@ -25,6 +25,24 @@
 		{ item: "netherdepthsupgrade:blazefish_bucket" }
 		{ item: "netherdepthsupgrade:wither_bonefish_bucket" }
 		{ item: "netherdepthsupgrade:bonefish_bucket" }
+		{ item: "rainbowreef:angelfish_bucket" }
+		{ item: "rainbowreef:arrow_crab_bucket" }
+		{ item: "rainbowreef:basslet_bucket" }
+		{ item: "rainbowreef:boxfish_bucket" }
+		{ item: "rainbowreef:butterflyfish_bucket" }
+		{ item: "rainbowreef:clownfish_bucket" }
+		{ item: "rainbowreef:crab_bucket" }
+		{ item: "rainbowreef:dwarf_angelfish_bucket" }
+		{ item: "rainbowreef:goby_bucket" }
+		{ item: "rainbowreef:hogfish_bucket" }
+		{ item: "rainbowreef:jellyfish_bucket" }
+		{ item: "rainbowreef:moorish_idol_bucket" }
+		{ item: "rainbowreef:parrotfish_bucket" }
+		{ item: "rainbowreef:pipefish_bucket" }
+		{ item: "rainbowreef:seahorse_bucket" }
+		{ item: "rainbowreef:tang_bucket" }
+		{ item: "rainbowreef:smallshark_bucket" }
+		{ item: "rainbowreef:spotted_eagle_ray_bucket" }
 	]
 	title: "Bucket Animals"
 }

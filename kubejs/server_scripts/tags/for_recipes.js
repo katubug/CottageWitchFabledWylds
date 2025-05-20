@@ -115,26 +115,6 @@ ServerEvents.tags('item', event => {
 		'bakery:apple_jam'
 	)
 
-	// Cook with Dino
-	event.add('forge:eggs',
-		'unusualprehistory:brachi_egg',
-		'unusualprehistory:talpanas_egg',
-		'unusualprehistory:megala_eggs',
-		'unusualprehistory:trike_eggs',
-		'unusualprehistory:rex_eggs',
-		'unusualprehistory:majunga_eggs',
-		'unusualprehistory:coty_eggs',
-		'unusualprehistory:antarcto_eggs',
-		'unusualprehistory:ulugh_eggs',
-		'unusualprehistory:kentro_eggs',
-		'unusualprehistory:hwacha_eggs',
-		'unusualprehistory:barina_eggs',
-		'unusualprehistory:pachy_eggs',
-		'unusualprehistory:raptor_eggs',
-		'unusualprehistory:austro_eggs',
-		'unusualprehistory:anuro_eggs'
-	)
-
 	//Barley
 	event.add('forge:crops/barley',
 		'regions_unexplored:barley'
@@ -242,5 +222,24 @@ ServerEvents.tags('item', event => {
 		'autumnity:turkey_egg',
 		'earthmobsmod:fancy_egg',
 		'earthmobsmod:duck_egg'
+	)
+
+	//Clovers
+	event.add('forge:clover',
+		'regions_unexplored:clover', 
+		'twilightforest:clover_patch'
+	)
+
+	//Nut Butters
+	event.add('forge:nut_butter',
+		'hearthandharvest:peanut_butter', 
+		'delightful:nut_butter_bottle'
+	)
+
+	//H&H Jelly to Tag
+	event.add('forge:jams',
+		'hearthandharvest:grape_jam', 
+		'hearthandharvest:blueberry_jam', 
+		'hearthandharvest:raspberry_jam'
 	)
 })

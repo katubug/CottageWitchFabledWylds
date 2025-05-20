@@ -1,0 +1,14 @@
+
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+    {
+      "item": "herbalbrews:dried_green_tea"
+    }
+  ],
+  "output": {
+    "item": "delightful:matcha",
+    "count": 2
+  },
+  "grindingTime": 300
+}

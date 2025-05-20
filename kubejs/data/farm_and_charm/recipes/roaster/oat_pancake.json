@@ -12,7 +12,7 @@
       "item": "farm_and_charm:oat"
     },
     {
-      "tag": "farm_and_charm:dough"
+      "item": "hearthandharvest:batter"
     },
     {
       "tag": "supplementaries:pancake_syrup"
@@ -21,9 +21,6 @@
       "tag": "forge:fruits/strawberries"
     }
   ],
-  "container": {
-    "item": "minecraft:bowl"
-  },
   "result": {
     "item": "farm_and_charm:oat_pancake",
     "count": 1

@@ -21,5 +21,11 @@
 "rei.bakery.bowl_category": "Crafting Bowl",
 "rei.bakery.cooking_pot_category": "Decorative Saucepan",
 "rei.bakery.stove_category": "Oven",
-"block.bakery.waffle_block": "Belgian Waffle"
+"block.bakery.waffle_block": "Belgian Waffle",
+  "advancement.bakery.get_all_jams": "Special Preserves",
+  "advancement.bakery.get_all_jams.desc": "Craft and Collect all Preserves",
+  "block.bakery.apple_jam": "Apple Preserves",
+  "block.bakery.glowberry_jam": "Glowberry Preserves",
+  "block.bakery.strawberry_jam": "Strawberry Preserves",
+  "block.bakery.sweetberry_jam": "Sweetberry Preserves"
 }

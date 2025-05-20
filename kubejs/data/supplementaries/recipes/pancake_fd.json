@@ -1,0 +1,30 @@
+{
+  "global_conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "pancake"
+    },
+    {
+      "modid": "farmersdelight",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "item": "hearthandharvest:syrup_bottle"
+    },
+    {
+      "item": "farm_and_charm:butter"
+    },
+    {
+      "item": "hearthandharvest:batter"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "supplementaries:pancake"
+  }
+}

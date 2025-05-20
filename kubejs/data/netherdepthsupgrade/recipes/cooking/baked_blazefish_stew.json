@@ -1,0 +1,48 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "farmersdelight"
+            },
+            {
+              "type": "forge:item_exists",
+              "item": "netherdepthsupgrade:blazefish_slice"
+            },
+            {
+              "type": "forge:item_exists",
+              "item": "netherdepthsupgrade:baked_blazefish_stew"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "cookingtime": 200,
+        "experience": 0.35,
+        "ingredients": [
+          {
+            "item": "netherdepthsupgrade:blazefish_slice"
+          },
+          {
+            "item": "minecraft:potato"
+          },
+          {
+            "tag": "forge:cooking_eggs"
+          },
+          {
+            "tag": "forge:crops/tomato"
+          }
+        ],
+        "result": {
+          "item": "netherdepthsupgrade:baked_blazefish_stew"
+        }
+      }
+    }
+  ]
+}

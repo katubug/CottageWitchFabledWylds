@@ -2,7 +2,7 @@
   "type": "farm_and_charm:stove",
   "ingredients": [
     {
-      "tag": "forge:eggs"
+      "tag": "forge:cooking_eggs"
     },
     {
       "item": "bakery:sweet_dough"

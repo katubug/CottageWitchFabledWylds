@@ -11,13 +11,7 @@
       "tag": "forge:fruits/blueberry"
     },
     {
-      "tag": "forge:dough/wheat"
-    },
-    {
-      "tag": "forge:milk/milk_bottle"
-    },
-    {
-      "tag": "forge:eggs"
+      "item": "hearthandharvest:batter"
     },
     {
       "item": "minecraft:sugar"

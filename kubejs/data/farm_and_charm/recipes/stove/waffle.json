@@ -1,8 +1,11 @@
 {
-  "type": "farm_and_charm:stove",
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.1,
   "ingredients": [
     {
-      "item": "bakery:sweet_dough"
+      "item": "hearthandharvest:batter"
     },
     {
       "item": "minecraft:sugar"
@@ -14,7 +17,5 @@
   "result": {
     "item": "bakery:waffle",
     "count": 1
-  },
-  "experience": 0.2,
-  "requiresLearning": false
+  }
 }

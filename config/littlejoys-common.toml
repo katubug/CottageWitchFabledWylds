@@ -3,9 +3,19 @@
 	#The base chance for a drop rush to occur.
 	baseChance = 0.019999999552965164
 
-[goldRush]
-	#The base chance for a gold rush to occur.
-	baseChance = 0.019999999552965164
+[digSpots]
+	#The minimum distance between dig spots, preventing them from spawning too close together.
+	minimumDistanceBetween = 128
+	#The distance dig spots will spawn from the player.
+	spawnDistance = 32
+	#The seconds that must pass after a dig spot appeared before another dig spot can appear for a player.
+	spawnIntervalSeconds = 300.0
+	#The seconds that must pass after digging a dig spot before another dig spot can appear for a player.
+	afterDiggingCooldownSeconds = 600.0
+	#The limit of dig spots that can spawn in a given chunk overall. Once this many dig spots have spawned, the chunk will never spawn any again. Set to -1 to disable.
+	totalLimitPerChunk = 1
+	#The offset applied to the spawn area in the direction the player is facing. Set to 0 to center it around the player.
+	projectForwardDistance = 25
 
 [fishingSpots]
 	#The minimum distance between fishing spots, preventing them from spawning too close together.
@@ -25,17 +35,7 @@
 	#The offset applied to the spawn area in the direction the player is facing. Set to 0 to center it around the player.
 	projectForwardDistance = 4
 
-[digSpots]
-	#The minimum distance between dig spots, preventing them from spawning too close together.
-	minimumDistanceBetween = 128
-	#The distance dig spots will spawn from the player.
-	spawnDistance = 32
-	#The seconds that must pass after a dig spot appeared before another dig spot can appear for a player.
-	spawnIntervalSeconds = 300.0
-	#The seconds that must pass after digging a dig spot before another dig spot can appear for a player.
-	afterDiggingCooldownSeconds = 600.0
-	#The limit of dig spots that can spawn in a given chunk overall. Once this many dig spots have spawned, the chunk will never spawn any again. Set to -1 to disable.
-	totalLimitPerChunk = 1
-	#The offset applied to the spawn area in the direction the player is facing. Set to 0 to center it around the player.
-	projectForwardDistance = 25
+[goldRush]
+	#The base chance for a gold rush to occur.
+	baseChance = 0.019999999552965164
 

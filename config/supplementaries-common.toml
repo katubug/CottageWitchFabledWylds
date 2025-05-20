@@ -10,11 +10,6 @@
 	lock_block = true
 	relayer = true
 
-	[redstone.crystal_display]
-		enabled = true
-		#Allows chaining 2 crystal displays, letting one power the other to its left IF its own power exceeds 10. Given power will be its own divided by 10. Note that to work the decimal display must NOT have power directly behind it. Doing so will override the behavior to non chaining mode
-		chaining = true
-
 	[redstone.speaker_block]
 		enabled = true
 		#Enable/disable speaker block narrator mode
@@ -57,12 +52,12 @@
 
 	[redstone.enderman_head]
 		enabled = true
+		drop_head = true
 		#Time to increase 1 power level when being looked at
 		#Range: 0 ~ 10000
 		ticks_to_increase_power = 15
 		#do enderman heads work when looked from any side?
 		work_from_any_side = false
-		drop_head = true
 
 	[redstone.turn_table]
 		enabled = true
@@ -88,6 +83,11 @@
 		spill_items = true
 		#Allows faucets to fill entities inventories
 		fill_entities_below = false
+
+	[redstone.crystal_display]
+		enabled = true
+		#Allows chaining 2 crystal displays, letting one power the other to its left IF its own power exceeds 10. Given power will be its own divided by 10. Note that to work the decimal display must NOT have power directly behind it. Doing so will override the behavior to non chaining mode
+		chaining = true
 
 [functional]
 	fodder = true
@@ -158,7 +158,7 @@
 		sack_increment = 4
 		#How many slots should a sack have
 		#Range: 1 ~ 27
-		slots = 16
+		slots = 12
 
 	[functional.bamboo_spikes]
 		enabled = true
@@ -174,7 +174,7 @@
 		enabled = true
 		#Chance for an urn to spawn a critter from the urn_spawn tag
 		#Range: 0.0 ~ 1.0
-		critter_spawn_chance = 0.009999999776482582
+		critter_spawn_chance = 0.01
 		cave_urns = true
 
 	[functional.soap]
@@ -184,18 +184,10 @@
 
 		#This is a map of special blocks that can be cleaned with soap
 		[functional.soap.special_blocks]
-			"minecraft:sticky_piston" = "minecraft:piston"
-			"quark:dirty_glass_pane" = "minecraft:glass_pane"
-			"quark:dirty_glass" = "minecraft:glass"
 			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
-
-	[functional.present]
-		enabled = true
-		trapped_present = true
-
-	[functional.flax]
-		enabled = true
-		wild_flax = true
+			"quark:dirty_glass_pane" = "minecraft:glass_pane"
+			"minecraft:sticky_piston" = "minecraft:piston"
+			"quark:dirty_glass" = "minecraft:glass"
 
 	[functional.cannon]
 		enabled = true
@@ -218,6 +210,14 @@
 			#Radius of the 'explosion' when a cannonball hits a block. Set to 0 to disable
 			#Range: 0.0 ~ 10.0
 			break_radius = 1.1
+
+	[functional.present]
+		enabled = true
+		trapped_present = true
+
+	[functional.flax]
+		enabled = true
+		wild_flax = true
 
 	[functional.lumisene]
 		enabled = true
@@ -243,6 +243,7 @@
 	stone_lamp = true
 	stone_tile = true
 	blackstone_tile = true
+	bunting = true
 	sconce = true
 	sconce_lever = true
 	pancake = true
@@ -252,21 +253,10 @@
 	statue = true
 	doormat = true
 	flint_block = true
-	candle_holder = true
-	bunting = true
 	fine_wood = true
+	candle_holder = true
 	fire_pit = true
 	wicker_fence = true
-
-	[building.flower_box]
-		enabled = true
-		#Makes so flower boxes can only contain one tall flower item per block
-		simple_mode = true
-
-	[building.hat_stand]
-		enabled = true
-		#Allow all items to go on hat stand
-		unrestricted = false
 
 	[building.blackboard]
 		enabled = true
@@ -275,6 +265,15 @@
 		#Interaction mode for blackboards
 		#Allowed Values: BOTH, GUI, MANUAL
 		interaction_mode = "BOTH"
+
+	[building.gravel_bricks]
+		enabled = true
+
+	[building.slidy_block]
+		enabled = true
+		#Slidy block speed
+		#Range: 0.0 ~ 1.0
+		speed = 0.125
 
 	[building.timber_frame]
 		enabled = true
@@ -299,16 +298,16 @@
 
 	[building.sugar_cube]
 		enabled = true
+		#Makes sugar cubes dissolve in rain
+		dissolve_in_rain = true
 		#Duration in seconts of speed effect garanted to horses that eat a sugar cube
 		#Range: 0 ~ 1000
 		horse_speed_duration = 10
-		#Makes sugar cubes dissolve in rain
-		dissolve_in_rain = true
 
 	[building.planter]
 		enabled = true
 		#Makes so saplings that grow in a planter will break it turning into rooted dirt
-		broken_by_sapling = true
+		broken_by_sapling = false
 		#When Farmers Delight is on planter will also act like rich soil and use it in its recipe
 		rich_soil_planter = true
 
@@ -323,19 +322,19 @@
 		enabled = true
 		#If enabled end crystals placed on a pedestals will provide an enchantment power bonus equivalent to 3 bookshelves
 		#Range: 0.0 ~ 100.0
-		crystal_enchanting = 3
+		crystal_enchanting = 3.0
 
 	[building.ash]
 		enabled = true
+		#Burnable blocks will have a chance to create ash layers when burned. Greater this number the greater the chance will be
+		#Range: 0.0 ~ 1.0
+		ash_from_fire_chance = 1.0
 		#Burning mobs will drop ash when they die
 		ash_from_burning_mobs = true
 		#Allows rain to wash away ash layers overtime
 		rain_wash_ash = true
 		#Use a datapack to tweak rarity
 		basalt_ash = true
-		#Burnable blocks will have a chance to create ash layers when burned. Greater this number the greater the chance will be
-		#Range: 0.0 ~ 1.0
-		ash_from_fire_chance = 1.0
 
 	[building.flag]
 		enabled = true
@@ -370,14 +369,10 @@
 	[building.ash_bricks]
 		enabled = true
 
-	[building.gravel_bricks]
+	[building.hat_stand]
 		enabled = true
-
-	[building.slidy_block]
-		enabled = true
-		#Slidy block speed
-		#Range: 0.0 ~ 1.0
-		speed = 0.125
+		#Allow all items to go on hat stand
+		unrestricted = false
 
 	[building.awning]
 		enabled = true
@@ -388,6 +383,11 @@
 		#Bouncing angle of slanted awnings
 		#Range: 0.0 ~ 90.0
 		angle = 69.44395478041653
+
+	[building.flower_box]
+		enabled = true
+		#Makes so flower boxes can only contain one tall flower item per block
+		simple_mode = true
 
 	[building.netherite_doors]
 		door = true
@@ -413,6 +413,14 @@
 		only_works_in_curio = false
 		#Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same type
 		quiver_pickup = true
+
+	[tools.lunch_basket]
+		enabled = true
+		#Allows lunch baskets to be placed on the ground
+		placeable = true
+		#Arrow stacks that can fit inside a lunch basket. Requires reboot
+		#Range: 1 ~ 9
+		slots = 6
 
 	[tools.slice_map]
 		enabled = true
@@ -493,6 +501,11 @@
 		stasis_deceleration = 0.9625
 		#Allow enderman to intercept any slingshot projectile
 		unrestricted_enderman_intercept = true
+		#Allows buckets to be thrown by slingshots. Thrown buckets will place their content when they land
+		allow_buckets = true
+		#Damage that items in the 'supplementaries:slingshot_damageable' tag will deal. Scales with thrown speed. Tag is empty by default.
+		#Range: 0.0 ~ 100.0
+		damageable_damage = 0.5
 		#Allows splash potions to be thrown by slingshots
 		allow_splash_potions = false
 		#Allows bombs to be thrown by slingshots
@@ -503,22 +516,9 @@
 		allow_snowballs = false
 		#Allows enderpearls to be thrown by slingshots
 		allow_enderpearls = false
-		#Allows buckets to be thrown by slingshots. Thrown buckets will place their content when they land
-		allow_buckets = true
-		#Damage that items in the 'supplementaries:slingshot_damageable' tag will deal. Scales with thrown speed. Tag is empty by default.
-		#Range: 0.0 ~ 100.0
-		damageable_damage = 0.5
 
 	[tools.antique_ink]
 		enabled = true
-
-	[tools.lunch_basket]
-		enabled = true
-		#Allows lunch baskets to be placed on the ground
-		placeable = true
-		#Arrow stacks that can fit inside a lunch basket. Requires reboot
-		#Range: 1 ~ 9
-		slots = 6
 
 #General settings
 [general]
@@ -532,14 +532,18 @@
 	debug_save_dynamic_pack = false
 	#Turn this on to disable any interaction on blocks placed by other players. This affects item shelves, signs, flower pots, and boards. Useful for protected servers. Note that it will affect only blocks placed after this is turned on and such blocks will keep being protected after this option is disabled
 	server_protection = false
+	#Disable startup messages and sanity check that the mod performs to inform of possible detected crashes that might occur due to issues
+	sanity_checks_messages = true
 	#slightly increase this or decrease this number to tweak the red merchant spawn chance. Won't spawn at 0 and will spawn twice as often on 2
 	#Range: 0.0 ~ 10.0
 	red_merchant_spawn_multiplier = 1.0
-	#Disable startup messages and sanity check that the mod performs to inform of possible detected crashes that might occur due to issues
-	sanity_checks_messages = true
 
 #Vanilla tweaks
 [tweaks]
+
+	[tweaks.dragon_banner_pattern]
+		#Adds dragon banner pattern made from dragon head
+		enabled = true
 
 	[tweaks.shulker_helmet]
 		#Allows wearing shulker shells
@@ -651,10 +655,6 @@
 
 	[tweaks.item_lore]
 		#Adds a recipe to add 'lore' strings to an item by combining it with a named nametag
-		enabled = true
-
-	[tweaks.dragon_banner_pattern]
-		#Adds dragon banner pattern made from dragon head
 		enabled = true
 
 	[tweaks.sus_recipes]

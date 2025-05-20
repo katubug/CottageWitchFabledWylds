@@ -4,6 +4,9 @@
 #Changed Umbra Cow SpawnRate. [0 ~ 100]
 #Range: 0 ~ 100
 "Umbra Cow SpawnRate" = 10
+#Changed Common Cow SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Common Cow SpawnRate" = 2
 #Changed Teacup Pig SpawnRate. [0 ~ 100]
 #Range: 0 ~ 100
 " Teacup Pig SpawnRate" = 5
@@ -66,7 +69,4 @@
 "Magma Cow SpawnRate In Nether" = 100
 #Changed Mud Spawn in Overworld.
 "Mud Spawn in Overworld" = true
-#Changed Common Cow SpawnRate. [0 ~ 100]
-#Range: 0 ~ 100
-"Common Cow SpawnRate" = 2
 

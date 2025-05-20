@@ -4,7 +4,7 @@
     "showcontainerloottable": false
   },
   "skipMapItems": {
-    "desc:": "Skips map items during additional item generation, to avoid structure search lag (maps in the original chest still exist): default:true",
+    "desc:": "Skips adding items already present in the loot, to avoid stacking additional items default:true",
     "skipMapItems": true
   },
   "debugOutput": {

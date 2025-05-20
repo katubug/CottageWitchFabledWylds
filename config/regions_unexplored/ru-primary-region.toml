@@ -323,7 +323,7 @@
 
 [-----------------ISLAND_BIOMES--------------------]
 	icy_island_biome = "regions_unexplored:alpha_grove"
-	cool_island_biome = "regions_unexplored:ashen_woodland"
+	cool_island_biome = "regions_unexplored:alpha_grove"
 	neutral_island_biome = "regions_unexplored:ashen_woodland"
 	warm_island_biome = "regions_unexplored:tropics"
 	hot_island_biome = "regions_unexplored:tropics"

@@ -127,12 +127,7 @@
       "endTimestamp": "",
       "buttons": {}
     },
-    "dynamicIcons": {
-      "HeyKatu": "https://mc-heads.net/avatar/e5e2b89d388441908b6997863eb95bc6",
-      "fabledwilds.g.akliz.net": "https://api.mcsrvstat.us/icon/fabledwilds.g.akliz.net",
-      "174.103.174.71": "https://api.mcsrvstat.us/icon/174.103.174.71",
-      "cw2test.g.akliz.net": "https://api.mcsrvstat.us/icon/cw2test.g.akliz.net"
-    },
+    "dynamicIcons": {},
     "dynamicVariables": {
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",

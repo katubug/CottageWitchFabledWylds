@@ -5,19 +5,19 @@
 		# 
 		#-----------------------------------------------------
 		#
+		# The fluid to replace Bumblezone's Honey Fluid in the dimension. Requires restart.
+		# Note, this will not replace already placed Bumblezone Honey Fluid.
+		#
+		alternativeFluidToReplaceHoneyFluid = ""
+		# 
+		#-----------------------------------------------------
+		#
 		# Will let you feed any item that has a Forge fluid capability attached and has
 		# any fluid that is tagged forge:fluid/honey inside. This works alongside the bee_feeding item tag.
 		# An item can still be fed even if bee_feeding tag doesn't have the item as long as the
 		# item fit the above conditions with the fluid capability and this config is set to true.
 		#
 		allowHoneyFluidTanksFeedingCompat = true
-		# 
-		#-----------------------------------------------------
-		#
-		# The fluid to replace Bumblezone's Honey Fluid in the dimension. Requires restart.
-		# Note, this will not replace already placed Bumblezone Honey Fluid.
-		#
-		alternativeFluidToReplaceHoneyFluid = ""
 
 	["Mod Compatibility Options"."Pokecube Options"]
 		# 
@@ -169,6 +169,11 @@
 		# 
 		#-----------------------------------------------------
 		#
+		# Allow what Productive Bees bees should be able to spawn in Bumblezone. 
+		allowedBees = ["productivebees:iron", "productivebees:coal", "productivebees:redstone", "productivebees:copper", "productivebees:lapis", "productivebees:gold", "productivebees:emerald", "productivebees:obsidian", "productivebees:experience", "productivebees:magmatic", "productivebees:amethyst", "productivebees:prismarine", "productivebees:crystalline", "productivebees:sugarbag", "productivebees:glowing", "productivebees:frosty", "productivebees:slimy", "productivebees:silky", "productivebees:blazing", "productivebees:ender", "productivebees:skeletal", "productivebees:ghostly", "productivebees:zombie"]
+		# 
+		#-----------------------------------------------------
+		#
 		# Allow Bee Cages with bees inside to turn Empty Honeycomb Brood blocks into 
 		# a regular Honeycomb Brood Block with a larva inside! 
 		#
@@ -195,11 +200,6 @@
 		#
 		#Range: 0.0 ~ 1.0
 		PBOreHoneycombSpawnRateSpiderBeeDungeon = 0.25
-		# 
-		#-----------------------------------------------------
-		#
-		# Allow what Productive Bees bees should be able to spawn in Bumblezone. 
-		allowedBees = ["productivebees:iron", "productivebees:coal", "productivebees:redstone", "productivebees:copper", "productivebees:lapis", "productivebees:gold", "productivebees:emerald", "productivebees:obsidian", "productivebees:experience", "productivebees:magmatic", "productivebees:amethyst", "productivebees:prismarine", "productivebees:crystalline", "productivebees:sugarbag", "productivebees:glowing", "productivebees:frosty", "productivebees:slimy", "productivebees:silky", "productivebees:blazing", "productivebees:ender", "productivebees:skeletal", "productivebees:ghostly", "productivebees:zombie"]
 
 	["Mod Compatibility Options"."Friends and Foes Options"]
 		# 

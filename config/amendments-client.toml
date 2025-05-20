@@ -21,6 +21,10 @@
 	#Makes tipped arrows show their colors when loaded with a crossbow
 	crossbows_colors = true
 
+[tripwire_hook]
+	#Makes hooks render faster using a block model instead of tile renderer. Cost is that animated and enchanted items will appear static
+	fast_hooks = true
+
 [hanging_sign]
 	#Scale of items on hanging signs (unit is in pixel they would occupy). Set to 8 to better match the pixels on the sign
 	#Range: 0.0 ~ 32.0
@@ -63,14 +67,15 @@
 	#Gives a unique texture to potion cauldrons
 	potion_texture = true
 
+[jukebox]
+	#Use the new jukebox model
+	new_model = true
+	#Makes jukebox disc spin while playing
+	disc_spin = true
+
 [misc]
-	#A scalar multiplier that will be applied to sign text making it brighter, supposedly more legible
-	#Range: 0.0 ~ 5.0
-	sign_text_color_multiplier = 1.2000000476837158
 	#Gives a special animation to torches when held in hand
 	torch_item_holding = true
-	#Makes Torch and Lantern holding animation be fixed, not changing with player facing
-	fixed_holding_animations = false
 	#Size lanterns when held in hand
 	#Range: 0.0 ~ 2.0
 	torch_item_size = 1.0
@@ -79,16 +84,11 @@
 	#Size lanterns when held in hand
 	#Range: 0.0 ~ 2.0
 	handle_holder_item_size = 0.625
+	#Makes Torch and Lantern holding animation be fixed, not changing with player facing
+	fixed_holding_animations = false
+	#A scalar multiplier that will be applied to sign text making it brighter, supposedly more legible
+	#Range: 0.0 ~ 5.0
+	sign_text_color_multiplier = 1.2
 	#Prevents campfire smoke from rendering if there is a solid block above it
 	campfire_smoke_through_blocks = false
-
-[jukebox]
-	#Use the new jukebox model
-	new_model = true
-	#Makes jukebox disc spin while playing
-	disc_spin = true
-
-[tripwire_hook]
-	#Makes hooks render faster using a block model instead of tile renderer. Cost is that animated and enchanted items will appear static
-	fast_hooks = false
 

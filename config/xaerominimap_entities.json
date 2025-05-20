@@ -10,16 +10,16 @@
   "name": "gui.xaero_entity_category_root",
   "protection": true,
   "settingOverrides": {
-    "displayed": true,
     "displayHeight": 0.0,
+    "displayed": true,
     "heightBasedFade": true,
     "renderOrder": 0.0,
     "color": 13.0,
     "displayNameWhenIconFails": true,
     "entityNumber": 1000.0,
-    "alwaysDisplayNametags": true,
-    "dotSize": 2.0,
+    "alwaysDisplayNametags": false,
     "startFadingAt": 0.0,
+    "dotSize": 2.0,
     "renderOverMinimapFrame": 1.0,
     "icons": 1.0,
     "heightLimit": 20.0,
@@ -39,9 +39,7 @@
       "protection": true,
       "settingOverrides": {
         "renderOrder": 2.0,
-        "names": 1.0,
-        "color": 14.0,
-        "icons": 1.0
+        "color": 14.0
       },
       "subCategories": [
         {
@@ -53,12 +51,9 @@
           "name": "gui.xaero_entity_category_players",
           "protection": true,
           "settingOverrides": {
-            "displayed": true,
             "renderOrder": 6.0,
             "heightLimit": 2050.0,
-            "names": 2.0,
-            "color": -1.0,
-            "icons": 2.0
+            "color": 15.0
           },
           "subCategories": [
             {
@@ -120,11 +115,7 @@
           "name": "gui.xaero_entity_category_hostile",
           "protection": true,
           "settingOverrides": {
-            "displayed": true,
-            "renderOrder": 3.0,
-            "names": 1.0,
-            "color": 4.0,
-            "icons": 1.0
+            "renderOrder": 3.0
           },
           "subCategories": [
             {
@@ -136,12 +127,7 @@
               "name": "gui.xaero_entity_category_hostile_tamed",
               "protection": true,
               "settingOverrides": {
-                "displayed": true,
-                "heightBasedFade": true,
-                "renderOrder": 5.0,
-                "names": 2.0,
-                "color": 13.0,
-                "icons": 2.0
+                "renderOrder": 5.0
               },
               "subCategories": []
             }
@@ -184,7 +170,7 @@
       "protection": true,
       "settingOverrides": {
         "renderOrder": 1.0,
-        "color": 10.0
+        "color": 12.0
       },
       "subCategories": []
     },

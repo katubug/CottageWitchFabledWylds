@@ -1,1 +1,19 @@
-{"render":{"cape":"all","glow":"all","global":"all","color":"all","patterns":"all","trims":"all"},"texture":{"useDarkerTrim":false,"useElytraModel":true,"animationEasterEgg":true,"useBannerTextures":false,"cropTrims":false}}
+{
+    "render": {
+        "color": "all",
+        "patterns": "all",
+        "trims": "all",
+        "cape": "all",
+        "glow": "all",
+        "global": "all"
+    },
+    "texture": {
+        "cropTrims": true,
+        "useDarkerTrim": false,
+        "useBannerTextures": false,
+        "useElytraModel": true
+    },
+    "compat": {
+        "smysKeepTrims": true
+    }
+}

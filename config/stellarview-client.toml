@@ -4,10 +4,6 @@
 	["Stellar View Client Config"."General Config"]
 
 		["Stellar View Client Config"."General Config".client]
-			#Gets rid of any rotation caused by the view center, making the space XYZ coordinates align with the XYZ directions in Minecraft
-			disable_view_center_rotation = false
-			#Removes Stars
-			disable_stars = false
 			#Makes the sky static (compatible with shaders)
 			static_sky = false
 			#False - Positions along orbits, supernovae and meteor effects are affected when /time set command is used | True - Only planetary rotation is affected, everything else is unaffected (good choice if you want to use /time set 0 command without the sky reverting back to how it looked at tick 0)
@@ -15,6 +11,8 @@
 			#Specifies the max distance at which a Space Region can render
 			#Range: 1 ~ 1000
 			tick_multiplier = 1
+			#Gets rid of any rotation caused by the view center, making the space XYZ coordinates align with the XYZ directions in Minecraft
+			disable_view_center_rotation = false
 			#Specifies the max distance at which a Space Region can render
 			#Range: 1 ~ 12
 			space_region_render_distance = 8
@@ -22,6 +20,8 @@
 			gravitational_lensing = true
 			#Enables dust cloud rendering
 			dust_clouds = true
+			#Removes Stars
+			disable_stars = false
 			#Enables the use of textures for stars
 			textured_stars = true
 			#Makes sky objects dimmer when the player is near a light source
@@ -53,6 +53,8 @@
 				#Chance of a shooting star appearing each 1000 ticks
 				#Range: 0 ~ 100
 				shooting_star_chance = 10
+				#Uses the Vanilla Moon texture for rendering
+				vanilla_moon = false
 				#Specifies Sol X offset
 				#Range: -120 ~ 120
 				sol_x_offset = 0
@@ -71,8 +73,6 @@
 				#Specifies Sol Z-axis rotation
 				#Range: 0 ~ 360
 				sol_z_rotation = 0
-				#Uses the Vanilla Moon texture for rendering
-				vanilla_moon = false
 
 	["Stellar View Client Config"."Nether Config"]
 

@@ -1,7 +1,7 @@
 {
   "modpackMode": false,
   "fullScreen": "WINDOWED",
-  "fpsDisplayMode": "OFF",
+  "fpsDisplayMode": "ADVANCED",
   "fpsDisplayAlign": "LEFT",
   "fpsDisplayVAlign": "TOP",
   "fpsDisplaySystemMode": "OFF",
@@ -14,7 +14,7 @@
   "fogStart": 0,
   "fogEnd": 192,
   "fogShape": "CYLINDER",
-  "cloudsHeight": 200,
+  "cloudsHeight": 192,
   "entityNametagRendering": true,
   "playerNametagRendering": true,
   "itemNametagRendering": true,
@@ -51,14 +51,16 @@
   "monsterDistanceCulling": false,
   "monsterCullingDistanceX": 16384,
   "monsterCullingDistanceY": 64,
-  "entityWhitelist": [],
-  "monsterWhitelist": [
+  "entityWhitelist": [
     "minecraft:ghast",
     "minecraft:ender_dragon",
     "iceandfire:all",
     "create:all"
   ],
-  "tileEntityWhitelist": [],
+  "monsterWhitelist": [],
+  "tileEntityWhitelist": [
+    "waterframes:all"
+  ],
   "borderlessAttachModeF11": "ATTACH",
   "fastLanguageReload": true,
   "enableZoom": true,

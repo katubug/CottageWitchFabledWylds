@@ -1,12 +1,8 @@
 {
   "version": "4.0.7",
-  "prevVersion": "4.0.6",
-  "generatedBy": "b59f5994-6629-4582-a038-08453e07912c",
-  "hashes": {
-    "Default/servers.dat": "1CE360EC3B61B1FE647F9CF60261CDCE",
-    "Default/keys.txt": "D2C7576AFD1C3D605AB86F95400E71FC",
-    "Default/options.txt": "ADFFD46ADE3FA6B568379C694849F62B"
-  },
+  "prevVersion": "none",
+  "generatedBy": "794591cc-d9dd-4463-8e39-ec890545fa29",
+  "hashes": {},
   "mainProfile": "Default",
-  "initially_created": "13.12.2023 14:53:06"
+  "initially_created": "20.05.2025 12:24:25"
 }

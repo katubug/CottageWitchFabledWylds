@@ -3,9 +3,9 @@
 	Kiln = true
 	"Chiseled bricks" = true
 	"Glazed terracotta" = true
+	Concrete = true
 	"Terracotta slabs, stairs, and walls" = true
 	"Terracotta bricks" = true
-	Concrete = true
 
 	[blocks.decorated_pot]
 		"Decorated pot colors" = true

@@ -17,7 +17,7 @@
   },
   "logintimeout": {
     "desc:": "Set the max login timeout in seconds. default = 120",
-    "logintimeout": 2400
+    "logintimeout": 120
   },
   "disconnectTimeout": {
     "desc:": "Set the ingame disconnect timeout for disconnecting players. Default = 60sec",

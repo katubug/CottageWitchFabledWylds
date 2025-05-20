@@ -3,16 +3,6 @@
 #Modify Create Encased blocks comportements
 [kinetics]
 	#.
-	#Should Wooden Shaft break if the speed is too high
-	shouldWoodenShaftBreak = true
-	#.
-	#Should Glass Shaft break if the system is overstressed
-	shouldGlassShaftBreak = true
-	#.
-	#The max speed wooden shafts can endure
-	#Range: 2 ~ 256
-	maxSpeedWoodenShaft = 32
-	#.
 	#.
 	#Can swap casing between block (Mixer, Press, Depot, Gearbox, etc...)
 	casingBlockSwappable = true
@@ -25,6 +15,16 @@
 	#.
 	#Defines if when the face is changed on the configurable gearbox, the opposite face should be also changed. It doesn't consume more shaft !
 	configurableGearboxChangeTwoFaces = false
+	#.
+	#Should Wooden Shaft break if the speed is too high
+	shouldWoodenShaftBreak = true
+	#.
+	#Should Glass Shaft break if the system is overstressed
+	shouldGlassShaftBreak = true
+	#.
+	#The max speed wooden shafts can endure
+	#Range: 2 ~ 256
+	maxSpeedWoodenShaft = 32
 
 	[kinetics.stressValues]
 

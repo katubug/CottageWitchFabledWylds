@@ -1,3 +1,5 @@
+#Loot Tables will be used for soot_scraping loot instead of recipes. Like in the good old times...
+UseLootTablesForScraping = false
 #Chance of the smoke particle to spawn. 1.0 - full. 0.0 - no smoke.
 #Range: 0.0 ~ 1.0
 SmokeChance = 1.0
@@ -12,8 +14,6 @@ Wind = true
 #How much effect wind has on the smoke. Default: 0.05
 #Range: 0.0 ~ 1.0
 WindStrengthMultiplier = 0.05
-#Loot Tables will be used for soot_scraping loot instead of recipes. Like in the good old times...
-UseLootTablesForScraping = false
 
 [JEI]
 	#Soot Covering category will be added to JEI.

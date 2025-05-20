@@ -7,6 +7,12 @@ playWrathOfHiveEffectMusic = true
 # 
 #-----------------------------------------------------
 #
+# Display Bee Queen's speech bubble that shows possible trades you can do.
+#
+showBeeQueenSpeechBubble = true
+# 
+#-----------------------------------------------------
+#
 # If on, Bee-ware of the Temple by LudoCrypt will play when you are in Sempiternal Sanctum.
 #
 playSempiternalSanctumMusic = true
@@ -16,12 +22,6 @@ playSempiternalSanctumMusic = true
 #  Will default to normal block textures instead.
 #
 disableEssenceBlockShaders = false
-# 
-#-----------------------------------------------------
-#
-# Display Bee Queen's speech bubble that shows possible trades you can do.
-#
-showBeeQueenSpeechBubble = true
 
 ["The Bumblezone Client Dimension Options"]
 	# 
@@ -50,6 +50,24 @@ showBeeQueenSpeechBubble = true
 	# Whether Bumblezone dimension has thick fog or not.
 	#
 	enableDimensionFog = true
+
+["Essence Item HUD Rendering Configs"]
+	# 
+	#-----------------------------------------------------
+	#
+	# How many of the rotating texture layers to show on HUD when Essence item is in offhand slot.
+	# 0 to turn the rendering off.
+	#
+	#Range: 0 ~ 3
+	essenceItemHUDVisualEffectLayers = 3
+	# 
+	#-----------------------------------------------------
+	#
+	# How fast to spin the rotating texture layers on HUD when Essence item is in offhand slot.
+	# 0.5 for half speed. 0 to turn the spinning off.
+	#
+	#Range: 0.0 ~ 100.0
+	essenceItemHUDVisualEffectSpeed = 1.0
 
 ["Knowing Essence Highlighting Configs (see block and entity tags for even more options)"]
 	# 
@@ -142,24 +160,6 @@ showBeeQueenSpeechBubble = true
 	#
 	#Range: 0 ~ 10000
 	radianceEssenceArmorDurabilityYCoord = 16
-
-["Essence Item HUD Rendering Configs"]
-	# 
-	#-----------------------------------------------------
-	#
-	# How many of the rotating texture layers to show on HUD when Essence item is in offhand slot.
-	# 0 to turn the rendering off.
-	#
-	#Range: 0 ~ 3
-	essenceItemHUDVisualEffectLayers = 3
-	# 
-	#-----------------------------------------------------
-	#
-	# How fast to spin the rotating texture layers on HUD when Essence item is in offhand slot.
-	# 0.5 for half speed. 0 to turn the spinning off.
-	#
-	#Range: 0.0 ~ 100.0
-	essenceItemHUDVisualEffectSpeed = 1.0
 
 ["Entity Model/Renderer configs"]
 	# 

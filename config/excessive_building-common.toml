@@ -17,7 +17,7 @@
 	#Should soul magma act as both upwards and downwards bubble columns? (default: true)?
 	allow_redstone_bubble_columns = true
 	#Should all decorative shelves grant an enchantment bonus or only potion shelves (default: false)?
-	decorativeVariantPower = true
+	decorativeVariantPower = false
 	#Level of enchantment power decorative shelves should grant? (default: 1)
 	#Range: 0 ~ 30
 	decorativeEnchantBonus = 1

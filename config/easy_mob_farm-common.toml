@@ -607,7 +607,7 @@
 		forcePillagerDropEmeraldChance = 8
 		#Defines the forced drop change of enchanted book from pillager. (0 = disabled, lower number = higher change, 1 = every drop)
 		#Range: 0 ~ 100
-		forcePillagerDropEnchantedBookChance = 20
+		forcePillagerDropEnchantedBookChance = 0
 		#Defines the forced drop change of weapon from pillager. (0 = disabled, lower number = higher change, 1 = every drop)
 		#Range: 0 ~ 100
 		forcePillagerDropWeaponChance = 16

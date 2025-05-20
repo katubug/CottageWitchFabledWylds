@@ -39,7 +39,7 @@
 		cursorType = "CONSOLE"
 		# If enabled, allows you to craft quickly when clicking an item in the recipe book
 		# Valid values: true, false
-		quickCraft = true
+		quickCraft = false
 		# Draws a transparent background behind the text of the button hint
 		# Valid values: true, false
 		hintBackground = true

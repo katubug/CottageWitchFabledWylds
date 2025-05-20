@@ -10,7 +10,7 @@
 		command.wits: true
 		command.give: true
 		command.feedback: true
-		command.fly:true
+		command.fly: true
 	}
 	red: {
 		name: "red"

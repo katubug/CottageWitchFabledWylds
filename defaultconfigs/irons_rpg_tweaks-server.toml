@@ -2,19 +2,14 @@
 [Damage-Module]
 	#The purpose of the damage module is to remove the invulnerability ticks after an entity is damaged to better suit gameplay where entities are going to be ignoring too much damage if left unchecked. Disabling will nullify every feature listed under this module.
 	damageModuleEnabled = false
-	#Some entities or damage sources rely on damage ticks to time their attacks. In these cases, we want to let them initiate i-frames.
-	#entityBlacklist default: ["minecraft:slime","minecraft:ender_dragon","minecraft:magma_cube","irons_spellbooks:wall_of_fire","irons_spellbooks:void_tentacle"]
-	entityBlacklist = ["minecraft:slime", "minecraft:ender_dragon", "minecraft:magma_cube", "irons_spellbooks:wall_of_fire", "irons_spellbooks:void_tentacle"]
-	#damagesourceBlacklist default: ["lava","inFire","cactus","inWall","hotFloor","lightningBolt","sweetBerryBush","outOfWorld","drown"]
-	damagesourceBlacklist = ["lava", "inFire", "cactus", "inWall", "hotFloor", "lightningBolt", "sweetBerryBush", "outOfWorld", "drown"]
-	#Invulnerability Tick (I-Frame) count. Default: 0 (Vanilla's is 20, one second)
+	#Invulnerability Tick (I-Frame) count. Default: 0
 	invulnerabilityTickCount = 0
 	#Specialized handling for player damage ticks. "ALL" means there is no special handling, "ONLY_LIVING" means only living attacks ignore player i-frames (may help with unforeseen damage like potions), and "NONE" means player's damage ticks are unaffected by the damage module.
 	#Allowed Values: ALL, ONLY_LIVING, NONE
 	playerDamageMode = "ALL"
 	#In order to prevent spam attacks, a minimum threshold of attack strength can be set before an attack can deal damage. Default: 0.75
 	minimumAttackStrength = 0.75
-	#Whether or not a player is allowed to even swing if the threshold is not met. Default: true
+	#Whether a player is allowed to even swing if the threshold is not met. Default: true
 	allowNonFullStrengthAttacks = true
 	#Global multiplier to all knockback. Default: 1.0
 	globalKnockbackMultiplier = 1.0
@@ -22,9 +17,6 @@
 [Durability-Module]
 	#The purpose of the durability module is to rework how durability damage is applied to better emulate an rpg setting.  Disabling will nullify every feature listed under this module.
 	durabilityModuleEnabled = false
-	#What type of gear should take vanilla durability damage. Default: NONE
-	#Allowed Values: ALL, TOOLS, ARMOR, NONE
-	vanillDurabilityGearType = "NONE"
 	#What type of gear is damaged upon death. Default: ALL
 	#Allowed Values: ALL, TOOLS, ARMOR, NONE
 	deathGearType = "ALL"
@@ -32,6 +24,21 @@
 	durabilityLostOnDeath = 0.15
 	#An additional constant amount of damage taken on death. This makes items with a high max durability degrade relatively slower. Set to 0 to disable. Default: 25
 	additionalDurabilityLostOnDeath = 25
+	#What type of gear should take vanilla durability damage. Default: NONE
+	#Allowed Values: ALL, TOOLS, ARMOR, NONE
+	vanillaDurabilityGearType = "NONE"
+
+	[Durability-Module.Vanilla-Mode-Item-Configs]
+		#If specified, the only items or item tags to take vanilla durability damage (Ignores durability mode)
+		vanillaDurabilityWhitelist = []
+		#If specified, these items or item tags never take vanilla durability damage
+		vanillaDurabilityBlacklist = []
+
+	[Durability-Module.Death-Mode-Item-Configs]
+		#If specified, the only items or item tags to take durability damage on death (Ignores durability mode)
+		deathDurabilityWhitelist = []
+		#If specified, these items or item tags never take durability damage on death
+		deathDurabilityBlacklist = []
 
 [XP-Module]
 	#The purpose of the xp module is to rework how experience is dropped on a player's death by creating a souls-like xp catalyst instead. Disabling will nullify every feature listed under this module.
@@ -74,4 +81,10 @@
 	splashPotionCooldown = 0.5
 	#Item Cooldown in seconds when throwing a lingering potion. Default: 1.5
 	lingeringPotionCooldown = 1.5
+	#Whether players should naturally regenerate hp during combat. (Turn off the naturalRegeneration gamerule to disable all natural regen). Default: false.
+	naturalRegenerationDuringCombat = false
+	#Multiplier to the time taken to eat food. Default: 1.2
+	eatTimeMultiplier = 1.2
+	#Multiplier to the time taken to drink potions. Default: 0.8
+	potionDrinkTimeMultiplier = 0.8
 

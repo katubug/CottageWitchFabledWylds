@@ -1,9 +1,9 @@
 #The minimum percentage that diet groups can be reduced to upon death.
 #Range: 0 ~ 100
-deathPenaltyMin = 20
+deathPenaltyMin = 0
 #The reduction in percentage applied to all diet groups upon death.
 #Range: 0 ~ 100
-deathPenaltyLoss = 10
+deathPenaltyLoss = 15
 #The method to apply for losses due to death penalties.
 #AMOUNT = Reduce by a flat percentage amount
 #PERCENT = Reduce by a percent of the current value
@@ -12,15 +12,15 @@ deathPenaltyLoss = 10
 deathPenaltyMethod = "PERCENT"
 #The percentage reduction in total gain for each diet group consumed at once.
 #Range: 0 ~ 100
-gainPenaltyPerGroup = 15
+gainPenaltyPerGroup = 0
 #The percentage reduction in total decay for each diet group decayed at once.
 #Range: 0 ~ 100
-decayPenaltyPerGroup = 15
+decayPenaltyPerGroup = 0
 #List of food quality overrides for diet gain values.
 #Format: "modid:name;quality"
-foodOverrides = []
+foodOverrides = ["minecraft:baked_potato;1.5", "minecraft:carrot;1", "minecraft:cooked_salmon;1.5", "minecraft:cooked_cod;1.5", "minecraft:cooked_rabbit;1.5", "minecraft:cooked_chicken;1.5", "minecraft:cooked_mutton;1.5", "minecraft:cooked_beef;1.5", "minecraft:apple;1", "minecraft:honey_bottle;1", "minecraft:bread;1.5", "minecraft:cooked_porkchop;1.5"]
 #If enabled, food groups are assigned to unclassified items based on ingredients.
 generateGroupsForEmptyItems = true
 #If enabled, food group tooltips are hidden until player has eaten that type of item.
-hideTooltipsUntilEaten = true
+hideTooltipsUntilEaten = false
 

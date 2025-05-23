@@ -14,7 +14,7 @@
 
 ["Hoe planting"]
 	#Enable Hoe planting module
-	hoePlantingEnabled = true
+	hoePlantingEnabled = false
 
 [Snad]
 	#Additional height for sugar cane and cactus when growing on snad

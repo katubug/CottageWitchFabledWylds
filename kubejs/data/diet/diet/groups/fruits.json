@@ -1,9 +1,9 @@
 {
   "icon": "endrem:magical_eye",
-  "color": "#d41c53",
+  "color": "#cbf7ed",
   "order": 0,
   "default_value": 0.0,
-  "gain_multiplier": 1.0,
+  "gain_multiplier": 0.5,
   "decay_multiplier": 1.0,
   "beneficial": true
 }

@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 5,
+        "ingredient": {
+            "item": "delightful:salmonberries"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

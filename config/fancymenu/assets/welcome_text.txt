@@ -1,0 +1,11 @@
+Thank you for checking out Cottage Witch 2! This welcome screen will be shown only once, and once you're done reading, you can exit it by hitting ESC.
+
+This modpack intends to be a cozy, magical experience for people of all levels of familiarity with Minecraft. Please make sure to access the quest book, either via the - keybind, or the Quest Book item.
+
+The quests contain not only guidance on what things there are to do, but it also provides important information about things like resourcepacks, and how to form teams with other players or how to chunkload your base!
+
+Please note that Cottage Witch makes a lot of changes to the way mods - and vanilla - works. Lots of work has been put into customizing and balancing the modpack for the specific vision of being cozy, fun, low tech, and mystical. As such, you may find things are not as you expect if you're following guides on YouTube or elsewhere: in these situations, the quest book will have your back. And if you have any questions or want to provide feedback, please join our discord!
+
+If you discover bugs or crashes, they can be reported in Discord or on our Github.
+
+Thanks, and have fun!

@@ -1,0 +1,13 @@
+{
+    "attribute": "shippingbin:meat_sell_multiplier",
+    "input": {
+        "count": 16,
+        "ingredient": {
+            "item": "crittersandcompanions:koi_fish"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

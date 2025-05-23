@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 3,
+        "ingredient": {
+            "item": "phantasm:pome_slice"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

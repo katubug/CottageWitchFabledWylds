@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 2,
+        "ingredient": {
+            "item": "autumnity:sap_bottle"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

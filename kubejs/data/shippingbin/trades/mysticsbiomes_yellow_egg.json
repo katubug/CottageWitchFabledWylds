@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 16,
+        "ingredient": {
+            "item": "mysticsbiomes:yellow_egg"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 3
+    }
+}

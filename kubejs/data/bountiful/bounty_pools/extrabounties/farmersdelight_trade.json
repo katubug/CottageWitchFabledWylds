@@ -1,0 +1,268 @@
+{
+  "requires": [
+    "farmersdelight"
+  ],
+  "content": {
+    "farmersdelight_nether_salad": {
+      "type": "item",
+      "content": "farmersdelight:nether_salad",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_fruit_salad": {
+      "type": "item",
+      "content": "farmersdelight:fruit_salad",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_mixed_salad": {
+      "type": "item",
+      "content": "farmersdelight:mixed_salad",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_stuffed_pumpkin": {
+      "type": "item",
+      "content": "farmersdelight:stuffed_pumpkin",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_stuffed_potato": {
+      "type": "item",
+      "content": "farmersdelight:stuffed_potato",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_dumplings": {
+      "type": "item",
+      "content": "farmersdelight:dumplings",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_barbecue_stick": {
+      "type": "item",
+      "content": "farmersdelight:barbecue_stick",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_egg_sandwich": {
+      "type": "item",
+      "content": "farmersdelight:egg_sandwich",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_chocolate_pie": {
+      "type": "item",
+      "content": "farmersdelight:chocolate_pie",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_kelp_roll_slice": {
+      "type": "item",
+      "content": "farmersdelight:kelp_roll_slice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_cabbage_rolls": {
+      "type": "item",
+      "content": "farmersdelight:cabbage_rolls",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_melon_popsicle": {
+      "type": "item",
+      "content": "farmersdelight:melon_popsicle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_honey_cookie": {
+      "type": "item",
+      "content": "farmersdelight:honey_cookie",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_sweet_berry_cookie": {
+      "type": "item",
+      "content": "farmersdelight:sweet_berry_cookie",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_apple_pie": {
+      "type": "item",
+      "content": "farmersdelight:apple_pie",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_sweet_berry_cheesecake": {
+      "type": "item",
+      "content": "farmersdelight:sweet_berry_cheesecake",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_kelp_roll": {
+      "type": "item",
+      "content": "farmersdelight:kelp_roll",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_apple_pie_slice": {
+      "type": "item",
+      "content": "farmersdelight:apple_pie_slice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_chocolate_pie_slice": {
+      "type": "item",
+      "content": "farmersdelight:chocolate_pie_slice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_sweet_berry_cheesecake_slice": {
+      "type": "item",
+      "content": "farmersdelight:sweet_berry_cheesecake_slice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_salmon_roll": {
+      "type": "item",
+      "content": "farmersdelight:salmon_roll",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_cod_roll": {
+      "type": "item",
+      "content": "farmersdelight:cod_roll",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_chicken_sandwich": {
+      "type": "item",
+      "content": "farmersdelight:chicken_sandwich",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_mutton_wrap": {
+      "type": "item",
+      "content": "farmersdelight:mutton_wrap",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_hamburger": {
+      "type": "item",
+      "content": "farmersdelight:hamburger",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_hot_cocoa": {
+      "type": "item",
+      "content": "farmersdelight:hot_cocoa",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_tomato_sauce": {
+      "type": "item",
+      "content": "farmersdelight:tomato_sauce",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_melon_juice": {
+      "type": "item",
+      "content": "farmersdelight:melon_juice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_apple_cider": {
+      "type": "item",
+      "content": "farmersdelight:apple_cider",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

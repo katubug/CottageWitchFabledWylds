@@ -1,0 +1,232 @@
+{
+  "requires": [
+    "waystones"
+  ],
+  "content": {
+    "waystones_warp_stone": {
+      "type": "item",
+      "content": "waystones:warp_stone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_return_scroll": {
+      "type": "item",
+      "content": "waystones:return_scroll",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_bound_scroll": {
+      "type": "item",
+      "content": "waystones:bound_scroll",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_warp_scroll": {
+      "type": "item",
+      "content": "waystones:warp_scroll",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_warp_plate": {
+      "type": "item",
+      "content": "waystones:warp_plate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_portstone": {
+      "type": "item",
+      "content": "waystones:portstone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_white_sharestone": {
+      "type": "item",
+      "content": "waystones:white_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_purple_sharestone": {
+      "type": "item",
+      "content": "waystones:purple_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_yellow_sharestone": {
+      "type": "item",
+      "content": "waystones:yellow_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_orange_sharestone": {
+      "type": "item",
+      "content": "waystones:orange_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_cyan_sharestone": {
+      "type": "item",
+      "content": "waystones:cyan_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_magenta_sharestone": {
+      "type": "item",
+      "content": "waystones:magenta_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_green_sharestone": {
+      "type": "item",
+      "content": "waystones:green_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_light_blue_sharestone": {
+      "type": "item",
+      "content": "waystones:light_blue_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_blue_sharestone": {
+      "type": "item",
+      "content": "waystones:blue_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_lime_sharestone": {
+      "type": "item",
+      "content": "waystones:lime_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_black_sharestone": {
+      "type": "item",
+      "content": "waystones:black_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_light_gray_sharestone": {
+      "type": "item",
+      "content": "waystones:light_gray_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_gray_sharestone": {
+      "type": "item",
+      "content": "waystones:gray_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_red_sharestone": {
+      "type": "item",
+      "content": "waystones:red_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_brown_sharestone": {
+      "type": "item",
+      "content": "waystones:brown_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_pink_sharestone": {
+      "type": "item",
+      "content": "waystones:pink_sharestone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_waystone": {
+      "type": "item",
+      "content": "waystones:waystone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_mossy_waystone": {
+      "type": "item",
+      "content": "waystones:mossy_waystone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "waystones_sandy_waystone": {
+      "type": "item",
+      "content": "waystones:sandy_waystone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

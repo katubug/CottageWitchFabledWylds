@@ -1,0 +1,13 @@
+
+{
+    "input": {
+        "count": 16,
+        "ingredient": {
+            "item": "hearthandharvest:goat_milk_bottle"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 2
+    }
+}

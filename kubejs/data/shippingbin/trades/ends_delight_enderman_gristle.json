@@ -1,0 +1,13 @@
+{
+    "attribute": "shippingbin:meat_sell_multiplier",
+    "input": {
+        "count": 4,
+        "ingredient": {
+            "item": "ends_delight:enderman_gristle"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

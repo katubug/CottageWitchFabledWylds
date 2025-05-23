@@ -74,7 +74,12 @@
 					type: "command"
 				}
 				{
-					id: "376C3CA42C0834D0"
+					id: "1548BF16BA872D90"
+					item: "soulhome:soulkey"
+					type: "item"
+				}
+				{
+					id: "2E5A3E3E4E79FB79"
 					item: {
 						Count: 1
 						id: "eccentrictome:tome"
@@ -103,14 +108,14 @@
 										Count: 1b
 										id: "patchouli:guide_book"
 										tag: {
-											"patchouli:book": "enchanted:brewing"
+											"patchouli:book": "enchanted:herbology"
 										}
 									}
 									1: {
 										Count: 1b
 										id: "patchouli:guide_book"
 										tag: {
-											"patchouli:book": "enchanted:herbology"
+											"patchouli:book": "enchanted:brewing"
 										}
 									}
 									2: {
@@ -131,14 +136,14 @@
 										Count: 1b
 										id: "patchouli:guide_book"
 										tag: {
-											"patchouli:book": "enchanted:poppetry"
+											"patchouli:book": "enchanted:extraction"
 										}
 									}
 									5: {
 										Count: 1b
 										id: "patchouli:guide_book"
 										tag: {
-											"patchouli:book": "enchanted:extraction"
+											"patchouli:book": "enchanted:poppetry"
 										}
 									}
 								}
@@ -178,6 +183,12 @@
 										id: "soulhome:guide"
 									}
 								}
+								tide: {
+									0: {
+										Count: 1b
+										id: "tide:fishing_journal"
+									}
+								}
 								twilightdelight: {
 									0: {
 										Count: 1b
@@ -190,11 +201,6 @@
 							}
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "1548BF16BA872D90"
-					item: "soulhome:soulkey"
 					type: "item"
 				}
 			]

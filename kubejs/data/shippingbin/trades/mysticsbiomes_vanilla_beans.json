@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 12,
+        "ingredient": {
+            "item": "mysticsbiomes:vanilla_beans"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

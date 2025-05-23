@@ -1,0 +1,277 @@
+{
+  "requires": [
+    "reliquary"
+  ],
+  "content": {
+    "reliquary_witch_hat": {
+      "type": "item",
+      "content": "reliquary:witch_hat",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_infernal_claws": {
+      "type": "item",
+      "content": "reliquary:infernal_claws",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_glowing_water": {
+      "type": "item",
+      "content": "reliquary:glowing_water",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_kraken_shell": {
+      "type": "item",
+      "content": "reliquary:kraken_shell",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_infernal_tear": {
+      "type": "item",
+      "content": "reliquary:infernal_tear",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_fertile_potion": {
+      "type": "item",
+      "content": "reliquary:fertile_potion",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_barrel_assembly": {
+      "type": "item",
+      "content": "reliquary:barrel_assembly",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_angelic_feather": {
+      "type": "item",
+      "content": "reliquary:angelic_feather",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_aphrodite_potion": {
+      "type": "item",
+      "content": "reliquary:aphrodite_potion",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_angelheart_vial": {
+      "type": "item",
+      "content": "reliquary:angelheart_vial",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_grip_assembly": {
+      "type": "item",
+      "content": "reliquary:grip_assembly",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_hammer_assembly": {
+      "type": "item",
+      "content": "reliquary:hammer_assembly",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_rib_bone": {
+      "type": "item",
+      "content": "reliquary:rib_bone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_squid_beak": {
+      "type": "item",
+      "content": "reliquary:squid_beak",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_zombie_heart": {
+      "type": "item",
+      "content": "reliquary:zombie_heart",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_catalyzing_gland": {
+      "type": "item",
+      "content": "reliquary:catalyzing_gland",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_fertile_essence": {
+      "type": "item",
+      "content": "reliquary:fertile_essence",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_guardian_spike": {
+      "type": "item",
+      "content": "reliquary:guardian_spike",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_nebulous_heart": {
+      "type": "item",
+      "content": "reliquary:nebulous_heart",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_frozen_core": {
+      "type": "item",
+      "content": "reliquary:frozen_core",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_eye_of_the_storm": {
+      "type": "item",
+      "content": "reliquary:eye_of_the_storm",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_crimson_cloth": {
+      "type": "item",
+      "content": "reliquary:crimson_cloth",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_molten_core": {
+      "type": "item",
+      "content": "reliquary:molten_core",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_kraken_shell_fragment": {
+      "type": "item",
+      "content": "reliquary:kraken_shell_fragment",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_infernal_claw": {
+      "type": "item",
+      "content": "reliquary:infernal_claw",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_withered_rib": {
+      "type": "item",
+      "content": "reliquary:withered_rib",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_slime_pearl": {
+      "type": "item",
+      "content": "reliquary:slime_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_chelicerae": {
+      "type": "item",
+      "content": "reliquary:chelicerae",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_bat_wing": {
+      "type": "item",
+      "content": "reliquary:bat_wing",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_glowing_bread": {
+      "type": "item",
+      "content": "reliquary:glowing_bread",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

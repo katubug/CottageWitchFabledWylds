@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 4,
+        "ingredient": {
+            "item": "trailandtales_delight:lantern_fruit"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

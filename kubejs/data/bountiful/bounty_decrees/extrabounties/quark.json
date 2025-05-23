@@ -1,0 +1,16 @@
+{
+  "requires": [
+    "quark"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "quark_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "quark_rew",
+    "quark_any"
+  ]
+}

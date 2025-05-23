@@ -1,0 +1,13 @@
+{
+    "attribute": "shippingbin:meat_sell_multiplier",
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "ends_delight:dragon_leg"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 8
+    }
+}

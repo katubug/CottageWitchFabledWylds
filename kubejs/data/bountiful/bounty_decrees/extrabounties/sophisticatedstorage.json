@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "sophisticatedstorage"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "sophisticatedstorage_upgrade",
+    "sophisticatedstorage_base"
+  ],
+  "rewards": [
+    "decree",
+    "sophisticatedstorage_other",
+    "sophisticatedstorage_upgrade",
+    "rarities"
+  ]
+}

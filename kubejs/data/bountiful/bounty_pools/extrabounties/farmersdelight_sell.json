@@ -1,0 +1,286 @@
+{
+  "requires": [
+    "farmersdelight"
+  ],
+  "content": {
+    "farmersdelight_rich_soil": {
+      "type": "item",
+      "content": "farmersdelight:rich_soil",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_rice_roll_medley_block": {
+      "type": "item",
+      "content": "farmersdelight:rice_roll_medley_block",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_shepherds_pie": {
+      "type": "item",
+      "content": "farmersdelight:shepherds_pie",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_honey_glazed_ham": {
+      "type": "item",
+      "content": "farmersdelight:honey_glazed_ham",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_shepherds_pie_block": {
+      "type": "item",
+      "content": "farmersdelight:shepherds_pie_block",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_honey_glazed_ham_block": {
+      "type": "item",
+      "content": "farmersdelight:honey_glazed_ham_block",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_roast_chicken_block": {
+      "type": "item",
+      "content": "farmersdelight:roast_chicken_block",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_stuffed_pumpkin_block": {
+      "type": "item",
+      "content": "farmersdelight:stuffed_pumpkin_block",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_bacon_sandwich": {
+      "type": "item",
+      "content": "farmersdelight:bacon_sandwich",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_roast_chicken": {
+      "type": "item",
+      "content": "farmersdelight:roast_chicken",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_ratatouille": {
+      "type": "item",
+      "content": "farmersdelight:ratatouille",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_squid_ink_pasta": {
+      "type": "item",
+      "content": "farmersdelight:squid_ink_pasta",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_grilled_salmon": {
+      "type": "item",
+      "content": "farmersdelight:grilled_salmon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_noodle_soup": {
+      "type": "item",
+      "content": "farmersdelight:noodle_soup",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_bone_broth": {
+      "type": "item",
+      "content": "farmersdelight:bone_broth",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_cooked_rice": {
+      "type": "item",
+      "content": "farmersdelight:cooked_rice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_glow_berry_custard": {
+      "type": "item",
+      "content": "farmersdelight:glow_berry_custard",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_pasta_with_meatballs": {
+      "type": "item",
+      "content": "farmersdelight:pasta_with_meatballs",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_baked_cod_stew": {
+      "type": "item",
+      "content": "farmersdelight:baked_cod_stew",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_vegetable_soup": {
+      "type": "item",
+      "content": "farmersdelight:vegetable_soup",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_chicken_soup": {
+      "type": "item",
+      "content": "farmersdelight:chicken_soup",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_steak_and_potatoes": {
+      "type": "item",
+      "content": "farmersdelight:steak_and_potatoes",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_roasted_mutton_chops": {
+      "type": "item",
+      "content": "farmersdelight:roasted_mutton_chops",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_pasta_with_mutton_chop": {
+      "type": "item",
+      "content": "farmersdelight:pasta_with_mutton_chop",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_bacon_and_eggs": {
+      "type": "item",
+      "content": "farmersdelight:bacon_and_eggs",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_fish_stew": {
+      "type": "item",
+      "content": "farmersdelight:fish_stew",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_fried_rice": {
+      "type": "item",
+      "content": "farmersdelight:fried_rice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_vegetable_noodles": {
+      "type": "item",
+      "content": "farmersdelight:vegetable_noodles",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_mushroom_rice": {
+      "type": "item",
+      "content": "farmersdelight:mushroom_rice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_beef_stew": {
+      "type": "item",
+      "content": "farmersdelight:beef_stew",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_pumpkin_soup": {
+      "type": "item",
+      "content": "farmersdelight:pumpkin_soup",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

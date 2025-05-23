@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 24,
+        "ingredient": {
+            "item": "vinery:red_grape"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

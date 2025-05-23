@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 5,
+        "ingredient": {
+            "item": "regions_unexplored:hanging_earlight_fruit"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

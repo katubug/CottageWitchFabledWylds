@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "hearthandharvest:cheddar_cheese_slice"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

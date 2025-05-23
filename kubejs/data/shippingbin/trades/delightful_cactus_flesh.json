@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 12,
+        "ingredient": {
+            "item": "delightful:cactus_flesh"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

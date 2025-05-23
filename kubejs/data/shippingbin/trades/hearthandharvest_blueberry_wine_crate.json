@@ -1,0 +1,13 @@
+{
+    "attribute": "shippingbin:crop_sell_multiplier",
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "hearthandharvest:blueberry_wine_crate"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 5
+    }
+}

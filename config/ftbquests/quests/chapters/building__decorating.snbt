@@ -1023,7 +1023,7 @@
 			y: 7.5d
 		}
 		{
-			description: ["The title of the quest says \"pretty girls\" - but stuffed sharks (and whales, and bread) are for everyone! You can craft them with &bcolored wool&r, which is made with the &bYarn Spinner&r. Place &bcolored wool&r into the Spinner to create it."]
+			description: ["The title of the quest says \"pretty girls\" - but stuffed sharks (and whales, and bread) are for everyone! You can craft them with &bColored Yarn&r, which is made with the &bYarn Spinner&r. &6Place &bColored Wool&6 into the Spinner&r to create yarn."]
 			id: "2FF37A8A28D21BD0"
 			rewards: [
 				{
@@ -1051,6 +1051,39 @@
 			title: "Stuffed Sharks for Pretty Girls"
 			x: -2.5d
 			y: 6.5d
+		}
+		{
+			description: [
+				"The &bEasel&r allows you to &acustomize which painting you want to hang&r!"
+				""
+				"Simply &6insert the painting and click the rectangles&r to select the painting size, then &6select the image&r with the arrow buttons, and withdraw your painting!"
+				""
+				"When selecting the size: The rectangles are not a toggle, so left clicking more than once will not unselect the one you've chosen. You need to click the one above or to the left to select a smaller size."
+				""
+				"{image:enchanted_wilds:textures/questimages/easel_interface.png width:250 height:180 align:center}"
+			]
+			id: "69E3182321452B88"
+			rewards: [{
+				count: 2
+				id: "2E048CE767719A69"
+				item: {
+					Count: 1
+					id: "minecraft:painting"
+					tag: {
+						EntityTag: { }
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6316E05063A101EB"
+				item: "easel_does_it:easel"
+				type: "item"
+			}]
+			title: "Choose Your Paintings"
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "Building \\& Decorating"

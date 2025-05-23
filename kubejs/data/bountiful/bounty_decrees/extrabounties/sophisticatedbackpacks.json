@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "sophisticatedbackpacks"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "sophisticatedbackpacks_base",
+    "sophisticatedbackpacks_upgrade"
+  ],
+  "rewards": [
+    "decree",
+    "sophisticatedbackpacks_upgrade",
+    "sophisticatedbackpacks_backpack",
+    "rarities"
+  ]
+}

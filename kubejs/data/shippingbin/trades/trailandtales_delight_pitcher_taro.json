@@ -1,0 +1,13 @@
+{
+    "attribute": "shippingbin:crop_sell_multiplier",
+    "input": {
+        "count": 5,
+        "ingredient": {
+            "item": "trailandtales_delight:pitcher_taro"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

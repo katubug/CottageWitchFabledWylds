@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 4,
+        "ingredient": {
+            "item": "meadow:grain_cheese_block"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 10
+    }
+}

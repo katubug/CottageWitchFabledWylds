@@ -1,0 +1,220 @@
+{
+  "content": {
+    "minecraft_shelter_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:shelter_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_arms_up_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:arms_up_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_burn_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:burn_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_blade_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:blade_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_skull_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:skull_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_howl_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:howl_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_danger_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:danger_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_explorer_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:explorer_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_heartbreak_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:heartbreak_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_heart_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:heart_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_sheaf_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:sheaf_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_prize_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:prize_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_brewer_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:brewer_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_angler_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:angler_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_plenty_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:plenty_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_miner_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:miner_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_mourner_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:mourner_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_snort_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:snort_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_friend_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:friend_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_archer_pottery_sherd": {
+      "type": "item",
+      "content": "minecraft:archer_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_brush": {
+      "type": "item",
+      "content": "minecraft:brush",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_brick": {
+      "type": "item",
+      "content": "minecraft:brick",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_clay_ball": {
+      "type": "item",
+      "content": "minecraft:clay_ball",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_clay": {
+      "type": "item",
+      "content": "minecraft:clay",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "requires": [
+    "farmersdelight"
+  ],
+  "content": {
+    "farmersdelight_pie_crust": {
+      "type": "item",
+      "content": "farmersdelight:pie_crust",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_milk_bottle": {
+      "type": "item",
+      "content": "farmersdelight:milk_bottle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_beef_patty": {
+      "type": "item",
+      "content": "farmersdelight:beef_patty",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_onion_crate": {
+      "type": "item",
+      "content": "farmersdelight:onion_crate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_cabbage_leaf": {
+      "type": "item",
+      "content": "farmersdelight:cabbage_leaf",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_rice_bag": {
+      "type": "item",
+      "content": "farmersdelight:rice_bag",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_beetroot_crate": {
+      "type": "item",
+      "content": "farmersdelight:beetroot_crate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_potato_crate": {
+      "type": "item",
+      "content": "farmersdelight:potato_crate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_cooked_cod_slice": {
+      "type": "item",
+      "content": "farmersdelight:cooked_cod_slice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_cabbage_crate": {
+      "type": "item",
+      "content": "farmersdelight:cabbage_crate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_tomato_crate": {
+      "type": "item",
+      "content": "farmersdelight:tomato_crate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_straw": {
+      "type": "item",
+      "content": "farmersdelight:straw",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_rice_bale": {
+      "type": "item",
+      "content": "farmersdelight:rice_bale",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_cooked_chicken_cuts": {
+      "type": "item",
+      "content": "farmersdelight:cooked_chicken_cuts",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_cooked_bacon": {
+      "type": "item",
+      "content": "farmersdelight:cooked_bacon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_pumpkin_slice": {
+      "type": "item",
+      "content": "farmersdelight:pumpkin_slice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_rope": {
+      "type": "item",
+      "content": "farmersdelight:rope",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_carrot_crate": {
+      "type": "item",
+      "content": "farmersdelight:carrot_crate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_smoked_ham": {
+      "type": "item",
+      "content": "farmersdelight:smoked_ham",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_cooked_mutton_chops": {
+      "type": "item",
+      "content": "farmersdelight:cooked_mutton_chops",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_tomato": {
+      "type": "item",
+      "content": "farmersdelight:tomato",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_safety_net": {
+      "type": "item",
+      "content": "farmersdelight:safety_net",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_cooked_salmon_slice": {
+      "type": "item",
+      "content": "farmersdelight:cooked_salmon_slice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_canvas": {
+      "type": "item",
+      "content": "farmersdelight:canvas",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_organic_compost": {
+      "type": "item",
+      "content": "farmersdelight:organic_compost",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_basket": {
+      "type": "item",
+      "content": "farmersdelight:basket",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_cake_slice": {
+      "type": "item",
+      "content": "farmersdelight:cake_slice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_rice_panicle": {
+      "type": "item",
+      "content": "farmersdelight:rice_panicle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_onion": {
+      "type": "item",
+      "content": "farmersdelight:onion",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_wheat_dough": {
+      "type": "item",
+      "content": "farmersdelight:wheat_dough",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_tree_bark": {
+      "type": "item",
+      "content": "farmersdelight:tree_bark",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_raw_pasta": {
+      "type": "item",
+      "content": "farmersdelight:raw_pasta",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_fried_egg": {
+      "type": "item",
+      "content": "farmersdelight:fried_egg",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "farmersdelight_cabbage": {
+      "type": "item",
+      "content": "farmersdelight:cabbage",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "meadow:piece_of_warped_cheese"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 2
+    }
+}

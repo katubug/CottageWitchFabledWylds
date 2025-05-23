@@ -1,0 +1,13 @@
+{
+    "attribute": "shippingbin:crop_sell_multiplier",
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "hearthandharvest:goat_milk_crate"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 2
+    }
+}

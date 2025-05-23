@@ -1,0 +1,405 @@
+{
+  "requires": [
+    "quark"
+  ],
+  "content": {
+    "quark_music_disc_endermosh": {
+      "type": "item",
+      "content": "quark:music_disc_endermosh",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_music_disc_chatter": {
+      "type": "item",
+      "content": "quark:music_disc_chatter",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_music_disc_fire": {
+      "type": "item",
+      "content": "quark:music_disc_fire",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_music_disc_crickets": {
+      "type": "item",
+      "content": "quark:music_disc_crickets",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_music_disc_clock": {
+      "type": "item",
+      "content": "quark:music_disc_clock",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_music_disc_wind": {
+      "type": "item",
+      "content": "quark:music_disc_wind",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_music_disc_rain": {
+      "type": "item",
+      "content": "quark:music_disc_rain",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_music_disc_ocean": {
+      "type": "item",
+      "content": "quark:music_disc_ocean",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_music_disc_drips": {
+      "type": "item",
+      "content": "quark:music_disc_drips",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_dragon_scale": {
+      "type": "item",
+      "content": "quark:dragon_scale",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_egg_parrot_gray": {
+      "type": "item",
+      "content": "quark:egg_parrot_gray",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_egg_parrot_yellow_blue": {
+      "type": "item",
+      "content": "quark:egg_parrot_yellow_blue",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_egg_parrot_green": {
+      "type": "item",
+      "content": "quark:egg_parrot_green",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_egg_parrot_red_blue": {
+      "type": "item",
+      "content": "quark:egg_parrot_red_blue",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_egg_parrot_blue": {
+      "type": "item",
+      "content": "quark:egg_parrot_blue",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_ancient_sapling": {
+      "type": "item",
+      "content": "quark:ancient_sapling",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_glow_shroom": {
+      "type": "item",
+      "content": "quark:glow_shroom",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_pickarang": {
+      "type": "item",
+      "content": "quark:pickarang",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_forgotten_hat": {
+      "type": "item",
+      "content": "quark:forgotten_hat",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_smithing_template_rune": {
+      "type": "item",
+      "content": "quark:smithing_template_rune",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_seed_pouch": {
+      "type": "item",
+      "content": "quark:seed_pouch",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_ancient_fruit": {
+      "type": "item",
+      "content": "quark:ancient_fruit",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "quark_ancient_tome_0": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:5}]}"
+    },
+    "quark_ancient_tome_1": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:3}]}"
+    },
+    "quark_ancient_tome_2": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:fortune\",lvl:3}]}"
+    },
+    "quark_ancient_tome_3": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5}]}"
+    },
+    "quark_ancient_tome_4": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:looting\",lvl:3}]}"
+    },
+    "quark_ancient_tome_5": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:fire_aspect\",lvl:2}]}"
+    },
+    "quark_ancient_tome_6": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:punch\",lvl:2}]}"
+    },
+    "quark_ancient_tome_7": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:luck_of_the_sea\",lvl:3}]}"
+    },
+    "quark_ancient_tome_8": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:thorns\",lvl:3}]}"
+    },
+    "quark_ancient_tome_9": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5}]}"
+    },
+    "quark_ancient_tome_10": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:smite\",lvl:5}]}"
+    },
+    "quark_ancient_tome_11": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:5}]}"
+    },
+    "quark_ancient_tome_12": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:knockback\",lvl:2}]}"
+    },
+    "quark_ancient_tome_13": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:feather_falling\",lvl:4}]}"
+    },
+    "quark_ancient_tome_14": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:piercing\",lvl:4}]}"
+    },
+    "quark_ancient_tome_15": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:riptide\",lvl:3}]}"
+    },
+    "quark_ancient_tome_16": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:impaling\",lvl:5}]}"
+    },
+    "quark_ancient_tome_17": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:lure\",lvl:3}]}"
+    },
+    "quark_ancient_tome_18": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:loyalty\",lvl:3}]}"
+    },
+    "quark_ancient_tome_19": {
+      "type": "item",
+      "content": "quark:ancient_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:sweeping\",lvl:3}]}"
+    }
+  }
+}

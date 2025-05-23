@@ -1,0 +1,13 @@
+{
+    "attribute": "shippingbin:crop_sell_multiplier",
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "fruitsdelight:lychee_crate"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 2
+    }
+}

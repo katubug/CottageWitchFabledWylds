@@ -1,0 +1,13 @@
+{
+    "attribute": "shippingbin:crop_sell_multiplier",
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "delightful:salmonberry_sack"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 2
+    }
+}

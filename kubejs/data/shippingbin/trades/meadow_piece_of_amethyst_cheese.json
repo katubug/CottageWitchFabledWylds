@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "meadow:piece_of_amethyst_cheese"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 2
+    }
+}

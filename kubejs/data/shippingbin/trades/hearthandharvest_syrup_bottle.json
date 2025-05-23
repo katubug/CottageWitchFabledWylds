@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "hearthandharvest:syrup_bottle"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 4
+    }
+}

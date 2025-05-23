@@ -10,11 +10,6 @@ LootJS.modifiers((event) => {
 	event.addLootTableModifier('minecraft:chests/abandoned_mineshaft').removeLoot('supplementaries:rope')
 	event.addLootTableModifier('minecraft:chests/abandoned_mineshaft').removeLoot('farmersdelight:rope')
 	event.addLootTableModifier('minecraft:chests/abandoned_mineshaft').removeLoot('farmersdelight:cooking_pot')
-	event.addLootTableModifier('minecraft:chests/abandoned_mineshaft').removeLoot('vegandelight:tofu')
-
-    //Remove Junk from Bastion Hoglin Stables
-    event.addLootTableModifier('minecraft:chests/bastion_hoglin_stable').removeLoot('vegandelight:cooked_tofu')
-    event.addLootTableModifier('minecraft:chests/bastion_hoglin_stable').removeLoot('vegandelight:smoked_tofu')
 
     //Remove Junk from Woodland Mansions
     event.addLootTableModifier('minecraft:chests/woodland_mansion').removeLoot('minecraft:beetroot_seeds')

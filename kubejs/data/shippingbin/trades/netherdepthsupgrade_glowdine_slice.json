@@ -1,0 +1,13 @@
+{
+    "attribute": "shippingbin:meat_sell_multiplier",
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "netherdepthsupgrade:glowdine_slice"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 2
+    }
+}

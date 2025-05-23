@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "ends_delight:liquid_dragon_egg"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 16
+    }
+}

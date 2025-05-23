@@ -1,0 +1,85 @@
+{
+  "content": {
+    "nautilus_shell": {
+      "type": "item",
+      "content": "minecraft:nautilus_shell",
+      "amount": {
+        "min": 6,
+        "max": 12
+      },
+      "unitWorth": 750
+    },
+    "prismarine_crystals": {
+      "type": "item",
+      "content": "minecraft:prismarine_crystals",
+      "amount": {
+        "min": 6,
+        "max": 24
+      },
+      "unitWorth": 750
+    },
+    "prismarine_shard": {
+      "type": "item",
+      "content": "minecraft:prismarine_shard",
+      "amount": {
+        "min": 6,
+        "max": 24
+      },
+      "unitWorth": 750
+    },
+    "heart_of_the_sea": {
+      "type": "item",
+      "content": "minecraft:heart_of_the_sea",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 750
+    },
+    "spyglass": {
+      "type": "item",
+      "content": "minecraft:spyglass",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "amethyst_shard": {
+      "type": "item",
+      "content": "minecraft:amethyst_shard",
+      "amount": {
+        "min": 8,
+        "max": 48
+      },
+      "unitWorth": 1000
+    },
+    "totem_of_undying": {
+      "type": "item",
+      "content": "minecraft:totem_of_undying",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 150
+    },
+    "rabbit_stew": {
+      "type": "item",
+      "content": "minecraft:rabbit_stew",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "clock": {
+      "type": "item",
+      "content": "minecraft:clock",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    }
+  }
+}

@@ -52,7 +52,10 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["2B1B9108FF7A3FB3"]
+			dependencies: [
+				"2B1B9108FF7A3FB3"
+				"047370ADE354D8DB"
+			]
 			description: [
 				"Now you can create your own consecrated space - your &bAltar&r. It can be placed either indoors or outdoors, although placing it outside is often a good choice due to the &apower of Nature&r being good to draw upon."
 				""
@@ -197,11 +200,17 @@
 		{
 			dependencies: ["5688211768F55F90"]
 			description: [
-				"One of the most important tools in a witch's bag is their &bBook of Shadows&r, in which they record their knowledge and experience as they follow their path."
+				"One of the most important tools in a witch's bag is their &bLibrary&r, in which they learn about the magical world around them, and also record their knowledge and experience as they follow their path!"
 				""
 				"There are two primary mods which grant you magical powers: &lHexerei&r and &lEnchanted&r. In this modpack, they are &awoven together to provide a cohesive experience&r, and as such may surprise you if you've played them before. They also both add &bguidebooks&r."
 				""
 				"&lHexerei's&r &bBook of Shadows&r will serve as a reference for the mechanics of that mod, and &lEnchanted's&r &bArt of Witchcraft&r - and the other volumes you'll discover as you go - will do the same for that mod. When the mechanics of the mods diverge from the guidebooks, &dthese quests will provide you the correct steps&r."
+				""
+				"&dNote&r: Books are important in real life, as well! &aIf you are interested in modern witchcraft&r, I recommend the following books:"
+				""
+				"&oWitchery&r, by Juliet Diaz"
+				""
+				"&oThe Witch's Path&r, by Thorn Mooney"
 			]
 			id: "182C1C3812C31B0B"
 			rewards: [{
@@ -326,10 +335,16 @@
 				""
 				"Having a &efamiliar&r will not only make you resistant to curses, but will strengthen your curse magic. More importantly, though, it's nice to have a companion. To tame a familiar, you will first need a &eCat&r. Tame it with your &bfish&r of choice, and guide it (or &6shift+right click to pick up and set down&r) into a &bRitual Circle&r."
 				""
+				"The book &bWitchcraft: Circle Magic&r will give you instructions on how to perform the rite."
 				""
 				"{image:enchanted_wilds:textures/questimages/ritual_circle.png width:200 height:200 align:center}"
 			]
 			id: "2E3769733A0BFF69"
+			rewards: [{
+				id: "4C6AAA9777AC469F"
+				item: "domesticationinnovation:pet_bed_black"
+				type: "item"
+			}]
 			subtitle: "cats are also a witch's best friend"
 			tasks: [{
 				checkItem: false
@@ -342,8 +357,8 @@
 				value: 1L
 			}]
 			title: "Happy Witch: Cats"
-			x: 1.5d
-			y: 1.5d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
 			id: "3FCBC8303D699551"
@@ -352,10 +367,11 @@
 				item: "spelunkery:salt"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -1.5d
+			x: 2.5d
+			y: -7.0d
 		}
 		{
+			dependencies: ["6BE389D26249D046"]
 			description: [
 				"&bBrooms&r are incredibly useful to have. Not only do they make a stylish decoration, but you can use them to &asweep up messes&r such as &bSalt&r, &bAsh&r, and more! Pretty cool, right?"
 				""
@@ -409,10 +425,11 @@
 				item: "hexerei:book_of_shadows_altar"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -0.5d
+			y: -1.0d
 		}
 		{
+			dependencies: ["6BE389D26249D046"]
 			description: [
 				"A cauldron is fine and dandy, but you'll want something a little more magical for your endeavors. Enhance a regular &bCauldron&r with &biron&r and &btorches&r in order to create this advanced crafting tool."
 				"&dBeware! Do not use your Infinity water bucket with this cauldron!&r. It will consume the water and the enchantment."
@@ -444,8 +461,8 @@
 				type: "item"
 			}]
 			title: "Make a Mixing Cauldron"
-			x: 18.5d
-			y: 11.0d
+			x: -3.0d
+			y: 5.0d
 		}
 		{
 			description: [
@@ -820,8 +837,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Sage Bundle"
-			x: 12.5d
-			y: 12.0d
+			x: -8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["327D93798A7BE211"]
@@ -851,11 +868,11 @@
 				type: "item"
 			}]
 			title: "Obtain a Sage Burning Plate"
-			x: 15.5d
-			y: 11.5d
+			x: -6.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["327D93798A7BE211"]
+			dependencies: ["4655801A35B3BAB2"]
 			description: [
 				"The &bHerb Jar&r can be crafted by smelting 8 &bSand&r in your &bMixing Cauldron&r. Each Herb Jar can carry &aonly one type&r of Herb, but can &acontain up to 1024&r of that herb!"
 				""
@@ -883,8 +900,8 @@
 				type: "item"
 			}]
 			title: "Obtain an Herb Jar"
-			x: 14.5d
-			y: 13.0d
+			x: 5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["24C19E2033095FFA"]
@@ -903,10 +920,11 @@
 				type: "item"
 			}]
 			title: "Mix some Seeds in your Mortar"
-			x: 10.5d
-			y: -1.0d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
+			dependencies: ["4655801A35B3BAB2"]
 			description: ["The &bMortar and Pestle&r is a tool for grinding herbs. For right now, its primary use is to create a &bSeed Mixture&r to befriend &aCrows&r. A worthy use!"]
 			id: "24C19E2033095FFA"
 			rewards: [
@@ -948,8 +966,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Pestle and Mortar"
-			x: 7.0d
-			y: 0.5d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["18FD7541912B5772"]
@@ -1089,8 +1107,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Dipper"
-			x: 21.5d
-			y: 11.0d
+			x: -0.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["0CE78F66E92FB026"]
@@ -1121,13 +1139,14 @@
 				type: "item"
 			}]
 			title: "Obtain a Candelabra"
-			x: 23.5d
-			y: 10.5d
+			x: -0.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["427FD234857AEBE8"]
 			description: [
 				"The &bWitch's set &agrants bonuses&r depending on how many pieces you're wearing (out of 3)."
+				""
 				"Hold shift on any item from this set to view what the bonuses are."
 			]
 			id: "593B80E42F663D6A"
@@ -1148,8 +1167,8 @@
 				}
 				type: "item"
 			}]
-			x: 24.0d
-			y: 9.5d
+			x: 3.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["327D93798A7BE211"]
@@ -1168,8 +1187,8 @@
 				type: "item"
 			}]
 			title: "Obtain Infused Fabric"
-			x: 21.5d
-			y: 9.0d
+			x: 3.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["327D93798A7BE211"]
@@ -1196,7 +1215,7 @@
 				type: "item"
 			}]
 			title: "Obtain a Coffer"
-			x: 20.0d
+			x: -4.0d
 			y: 9.0d
 		}
 		{
@@ -1222,6 +1241,7 @@
 			dependencies: ["427FD234857AEBE8"]
 			description: [
 				"The &bRobe&r is the second part of the 3-part &bWitch&r set. This set is slightly weaker than &bDiamond&r, but stronger than &bIron&r due to its inherent magically protective properties."
+				""
 				"Unfortunately, witches seem not to care for pants - if you want those, you'll have to look elsewhere."
 			]
 			id: "56D87707F4EA479B"
@@ -1247,8 +1267,8 @@
 				type: "item"
 			}]
 			title: "Witch's Robe"
-			x: 24.0d
-			y: 8.0d
+			x: 6.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["427FD234857AEBE8"]
@@ -1272,8 +1292,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.5d
-			y: 7.0d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["30CF344B2B4C22E8"]
@@ -1298,11 +1318,11 @@
 				type: "item"
 			}]
 			title: "Cover your Hat in Mushrooms"
-			x: 24.5d
-			y: 6.0d
+			x: 9.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["5688211768F55F90"]
+			dependencies: ["182C1C3812C31B0B"]
 			description: ["Hidden away in &cSwamps&r is the &cDark Coven&r, a city of &eWitches&r who are up to no good. If you are &6wearing their robes&r, they will ignore you. But anyone not perceived to be one of them is considered an enemy."]
 			id: "196ECF57CAC465DF"
 			rewards: [
@@ -1396,23 +1416,54 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["410FE13D777DE1C8"]
 			description: [
+				"In order to perform &bCircle Magic&r, you'll need different &bChalks&r, in addition to the ritual &bFoci&r, and of course, a nearby &bAltar&r with &aenough Power&r."
 				""
+				"Using this type of magic, you can do everything from &aforging a Mixing Cauldron&r to &amaking a flying broom&r to &ataming a Familiar&r!"
 				""
-				"press \"u\" on golden chalk to view all circle magic"
+				"In addition to the chalk circles on the outside, every rite requires a &brune of Golden Chalk&r in the center, which should be &6right clicked with the &bGolden Chalk&r after the reagents are placed. This will &aactivate the ritual&r."
+				""
+				"A successful ritual will consume your reagents one by one and then provide the desired output. If at the end, your reagents are spat back out, then &dthe ritual has failed&r. Double check your &bingredients&r and that your &bAltar&r is &aclose enough and has enough Power&r."
 			]
 			id: "6BE389D26249D046"
-			tasks: [{
-				id: "7A616E24FCF406F6"
+			rewards: [{
+				id: "4372D3BE135AAA6E"
 				item: {
 					Count: 1
-					id: "enchanted:ritual_chalk"
+					id: "patchouli:guide_book"
 					tag: {
-						Damage: 0
+						"patchouli:book": "enchanted:circle_magic"
 					}
 				}
 				type: "item"
 			}]
+			subtitle: "equal rites"
+			tasks: [
+				{
+					id: "7A616E24FCF406F6"
+					item: {
+						Count: 1
+						id: "enchanted:ritual_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "378FA8EFAF2E7AB4"
+					item: {
+						Count: 1
+						id: "enchanted:golden_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Performing Rituals"
 			x: -3.0d
 			y: 2.5d
 		}
@@ -1467,13 +1518,14 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [{
 				id: "64E8C35BE36ADC2B"
 				item: "enchanted:mandrake_root"
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4655801A35B3BAB2"]
@@ -1488,14 +1540,15 @@
 				item: "enchanted:tongue_of_dog"
 				type: "item"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "3AD1CBE96AD160E5"
 				item: "enchanted:wolfsbane_flower"
 				type: "item"
 			}]
 			title: "Tongue of Dog"
-			x: 3.5d
-			y: 1.0d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2B1B9108FF7A3FB3"]
@@ -1510,6 +1563,7 @@
 				item: "enchanted:wool_of_bat"
 				type: "item"
 			}]
+			shape: "hexagon"
 			subtitle: "knife to meet you"
 			tasks: [{
 				id: "61D54B9CC91EF917"
@@ -1527,13 +1581,17 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["182C1C3812C31B0B"]
 			description: [
-				"&bSilk Fiber&r can be obtained from &eSilkworms&r. You can &6place it in a &bSpinning Wheel&r to produce &bSilk Thread&r, which can be used in many important recipes such as the making of &bPoppets&r and &bClothing&r."
+				"A &bSilkworm&r is the larval form of the &bSilk Moth&r, and are often found in &bSilkworm Cocoons&r growing &aon the sides of &cCottonwood&r or &cDark Oak trees&r. If you find one of these &bCocoons&r, you can either &6right click it with a torch&r to &aencourage it to hatch into a &eSilk Moth&r (this takes a few seconds) - or you can &6break the Cocoon&r to obtain the &bSilkworm&r."
+				""
+				"&bSilk Fiber&r can be obtained by &afeeding &bLeaves&a to &eSilkworms&r (in a crafting grid). You can then place the Fiber &6in a &bSpinning Wheel&r to produce &bSilk Thread&r, which can be used in many important recipes such as the making of &bPoppets&r and &bClothing&r."
 				""
 				"Note that the &bSpinning Wheel&r &dmay not appear to be doing anything&r, but it is. Just be patient!"
 			]
 			id: "50DC32C40279EF48"
 			rewards: [{
+				count: 4
 				id: "5537852B78F6DD29"
 				item: "hexalia:silk_fiber"
 				type: "item"
@@ -1543,6 +1601,7 @@
 				item: "hexalia:silk_fiber"
 				type: "item"
 			}]
+			title: "Silk and Sewing"
 			x: 5.0d
 			y: -4.5d
 		}

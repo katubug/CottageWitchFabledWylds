@@ -1,0 +1,601 @@
+{
+  "requires": [
+    "reliquary"
+  ],
+  "content": {
+    "reliquary_mercy_cross": {
+      "type": "item",
+      "content": "reliquary:mercy_cross",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_glacial_staff": {
+      "type": "item",
+      "content": "reliquary:glacial_staff",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_rending_gale": {
+      "type": "item",
+      "content": "reliquary:rending_gale",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pyromancer_staff": {
+      "type": "item",
+      "content": "reliquary:pyromancer_staff",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_midas_touchstone": {
+      "type": "item",
+      "content": "reliquary:midas_touchstone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_phoenix_down": {
+      "type": "item",
+      "content": "reliquary:phoenix_down",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_holy_hand_grenade": {
+      "type": "item",
+      "content": "reliquary:holy_hand_grenade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_emperor_chalice": {
+      "type": "item",
+      "content": "reliquary:emperor_chalice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_ice_magus_rod": {
+      "type": "item",
+      "content": "reliquary:ice_magus_rod",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_infernal_chalice": {
+      "type": "item",
+      "content": "reliquary:infernal_chalice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_fortune_coin": {
+      "type": "item",
+      "content": "reliquary:fortune_coin",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_destruction_catalyst": {
+      "type": "item",
+      "content": "reliquary:destruction_catalyst",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_ender_staff": {
+      "type": "item",
+      "content": "reliquary:ender_staff",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_hero_medallion": {
+      "type": "item",
+      "content": "reliquary:hero_medallion",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_harvest_rod": {
+      "type": "item",
+      "content": "reliquary:harvest_rod",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_alkahestry_tome": {
+      "type": "item",
+      "content": "reliquary:alkahestry_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_handgun": {
+      "type": "item",
+      "content": "reliquary:handgun",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_twilight_cloak": {
+      "type": "item",
+      "content": "reliquary:twilight_cloak",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_interdiction_torch": {
+      "type": "item",
+      "content": "reliquary:interdiction_torch",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_witherless_rose": {
+      "type": "item",
+      "content": "reliquary:witherless_rose",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_void_tear": {
+      "type": "item",
+      "content": "reliquary:void_tear",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_sojourner_staff": {
+      "type": "item",
+      "content": "reliquary:sojourner_staff",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_rod_of_lyssa": {
+      "type": "item",
+      "content": "reliquary:rod_of_lyssa",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_mob_charm_belt": {
+      "type": "item",
+      "content": "reliquary:mob_charm_belt",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_alkahestry_altar": {
+      "type": "item",
+      "content": "reliquary:alkahestry_altar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_salamander_eye": {
+      "type": "item",
+      "content": "reliquary:salamander_eye",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_shears_of_winter": {
+      "type": "item",
+      "content": "reliquary:shears_of_winter",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_magicbane": {
+      "type": "item",
+      "content": "reliquary:magicbane",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_apothecary_mortar": {
+      "type": "item",
+      "content": "reliquary:apothecary_mortar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_apothecary_cauldron": {
+      "type": "item",
+      "content": "reliquary:apothecary_cauldron",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_wraith_node": {
+      "type": "item",
+      "content": "reliquary:wraith_node",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_serpent_staff": {
+      "type": "item",
+      "content": "reliquary:serpent_staff",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_lantern_of_paranoia": {
+      "type": "item",
+      "content": "reliquary:lantern_of_paranoia",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_fertile_lily_pad": {
+      "type": "item",
+      "content": "reliquary:fertile_lily_pad",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/black_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/black_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/green_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/green_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/red_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/red_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/red_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/red_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/lime_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/lime_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/black_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/black_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/magenta_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/magenta_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/blue_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/blue_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/green_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/green_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/gray_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/gray_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/pink_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/pink_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/lime_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/lime_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/white_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/white_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/magenta_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/magenta_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/blue_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/blue_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/brown_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/brown_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/light_gray_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/light_gray_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/gray_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/gray_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/orange_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/orange_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/purple_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/purple_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/cyan_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/cyan_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/purple_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/purple_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/white_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/white_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/yellow_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/yellow_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/brown_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/brown_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/light_gray_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/light_gray_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/pink_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/pink_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/cyan_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/cyan_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/light_blue_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/light_blue_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/yellow_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/yellow_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/orange_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/orange_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "reliquary_pedestals/passive/light_blue_passive_pedestal": {
+      "type": "item",
+      "content": "reliquary:pedestals/passive/light_blue_passive_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

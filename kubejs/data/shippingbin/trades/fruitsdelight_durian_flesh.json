@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 6,
+        "ingredient": {
+            "item": "fruitsdelight:durian_flesh"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

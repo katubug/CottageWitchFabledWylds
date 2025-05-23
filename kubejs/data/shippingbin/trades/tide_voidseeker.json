@@ -1,0 +1,13 @@
+{
+      "attribute": "shippingbin:meat_sell_multiplier",
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "tide:voidseeker"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 24
+    }
+}

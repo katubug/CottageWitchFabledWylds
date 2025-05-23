@@ -1,0 +1,52 @@
+{
+  "requires": [
+    "autumnity"
+  ],
+  "content": {
+    "autumnity_swirl_banner_pattern": {
+      "type": "item",
+      "content": "autumnity:swirl_banner_pattern",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "autumnity_foul_soup": {
+      "type": "item",
+      "content": "autumnity:foul_soup",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "autumnity_pancake": {
+      "type": "item",
+      "content": "autumnity:pancake",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "autumnity_maple_leaf_banner_pattern": {
+      "type": "item",
+      "content": "autumnity:maple_leaf_banner_pattern",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "autumnity_snail_shell_chestplate": {
+      "type": "item",
+      "content": "autumnity:snail_shell_chestplate",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    }
+  }
+}

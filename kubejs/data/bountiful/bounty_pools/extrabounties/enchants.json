@@ -1,0 +1,466 @@
+{
+  "content": {
+    "minecraft_enchanted_book_0": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:protection\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_1": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:fire_protection\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_2": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:feather_falling\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_3": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:blast_protection\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_4": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:projectile_protection\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_5": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:respiration\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_6": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:aqua_affinity\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_7": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:thorns\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_8": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:depth_strider\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_9": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:frost_walker\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_10": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:binding_curse\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_11": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:soul_speed\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_12": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:swift_sneak\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_13": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_14": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:smite\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_15": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_16": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:knockback\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_17": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:fire_aspect\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_18": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:looting\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_19": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:sweeping\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_20": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_21": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:silk_touch\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_22": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_23": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:fortune\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_24": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_25": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:punch\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_26": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:flame\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_27": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:infinity\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_28": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:luck_of_the_sea\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_29": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:lure\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_30": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:loyalty\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_31": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:impaling\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_32": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:riptide\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_33": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:channeling\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_34": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:multishot\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_35": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:quick_charge\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_36": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:piercing\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_37": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1}]}"
+    },
+    "minecraft_enchanted_book_38": {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{StoredEnchantments:[{id:\"minecraft:vanishing_curse\",lvl:1}]}"
+    },
+    "minecraft_writable_book": {
+      "type": "item",
+      "content": "minecraft:writable_book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_book": {
+      "type": "item",
+      "content": "minecraft:book",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_bookshelf": {
+      "type": "item",
+      "content": "minecraft:bookshelf",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_ink_sac": {
+      "type": "item",
+      "content": "minecraft:ink_sac",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_feather": {
+      "type": "item",
+      "content": "minecraft:feather",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_paper": {
+      "type": "item",
+      "content": "minecraft:paper",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_glass_bottle": {
+      "type": "item",
+      "content": "minecraft:glass_bottle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_nether_wart": {
+      "type": "item",
+      "content": "minecraft:nether_wart",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

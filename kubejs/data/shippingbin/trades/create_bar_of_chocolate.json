@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 4,
+        "ingredient": {
+            "item": "create:bar_of_chocolate"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

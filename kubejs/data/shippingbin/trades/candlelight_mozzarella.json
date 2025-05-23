@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 4,
+        "ingredient": {
+            "item": "candlelight:mozzarella"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 2
+    }
+}

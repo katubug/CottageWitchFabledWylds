@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "farmersdelight"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "farmersdelight_buy",
+    "farmersdelight_trade"
+  ],
+  "rewards": [
+    "decree",
+    "farmersdelight_sell",
+    "farmersdelight_trade",
+    "rarities"
+  ]
+}

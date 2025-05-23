@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 6,
+        "ingredient": {
+            "item": "fruitsdelight:pineapple_slice"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 5,
+        "ingredient": {
+            "item": "hexalia:sunfire_tomato"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 2
+    }
+}

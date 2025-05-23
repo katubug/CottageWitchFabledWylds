@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "replace": true,
   "groups": [
     "fruits",
     "grains",
@@ -13,17 +13,17 @@
         {
           "name": "minecraft:generic.max_health",
           "operation": "add",
-          "amount": 2.0
+          "amount": 1.0
         },
         {
           "name": "minecraft:generic.attack_damage",
           "operation": "add",
-          "amount": 2.0
+          "amount": 1.0
         },
         {
           "name": "minecraft:generic.attack_speed",
           "operation": "multiply_total",
-          "amount": 0.1
+          "amount": 0.05
         }
       ],
       "conditions": [
@@ -40,17 +40,17 @@
         {
           "name": "minecraft:generic.max_health",
           "operation": "add",
-          "amount": 2.0
+          "amount": 1.0
         },
         {
           "name": "minecraft:generic.knockback_resistance",
           "operation": "add",
-          "amount": 0.10
+          "amount": 0.05
         },
         {
           "name": "minecraft:generic.armor_toughness",
           "operation": "add",
-          "amount": 1.0
+          "amount": 0.5
         }
       ],
       "conditions": [
@@ -67,7 +67,7 @@
         {
           "name": "minecraft:generic.movement_speed",
           "operation": "multiply_base",
-          "amount": 0.25
+          "amount": 0.15
         }
       ],
       "status_effects": [

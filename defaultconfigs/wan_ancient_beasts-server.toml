@@ -18,7 +18,7 @@
 	health = 100.0
 	#Eater attack damage [default: 30]
 	#Range: 0.0 ~ 1024.0
-	damage = 30.0
+	damage = 10.0
 	#Eater armor [default: 5]
 	#Range: 0.0 ~ 30.0
 	armor = 6.0

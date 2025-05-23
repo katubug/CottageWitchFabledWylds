@@ -1,0 +1,67 @@
+{
+  "content": {
+    "dried_kelp_block": {
+      "type": "item",
+      "content": "minecraft:dried_kelp_block",
+      "amount": {
+        "min": 12,
+        "max": 48
+      },
+      "unitWorth": 750
+    },
+    "glass_colorless": {
+      "type": "item_tag",
+      "content": "extrabounties:glass_colorless",
+      "amount": {
+        "min": 8,
+        "max": 64
+      },
+      "unitWorth": 750
+    },
+    "wooden_slabs": {
+      "type": "item_tag",
+      "content": "minecraft:wooden_slabs",
+      "amount": {
+        "min": 12,
+        "max": 48
+      },
+      "unitWorth": 750
+    },
+    "planks": {
+      "type": "item_tag",
+      "content": "minecraft:planks",
+      "amount": {
+        "min": 12,
+        "max": 48
+      },
+      "unitWorth": 750
+    },
+    "wool": {
+      "type": "item_tag",
+      "content": "minecraft:wool",
+      "amount": {
+        "min": 12,
+        "max": 28
+      },
+      "unitWorth": 750
+    },
+    "dyes": {
+      "type": "item_tag",
+      "content": "extrabounties:dyes",
+      "amount": {
+        "min": 8,
+        "max": 32
+      },
+      "unitWorth": 750
+    },
+    "logs": {
+      "type": "item_tag",
+      "content": "minecraft:logs",
+      "amount": {
+        "min": 12,
+        "max": 48
+      },
+      "unitWorth": 750
+    }
+  }
+}

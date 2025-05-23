@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 24,
+        "ingredient": {
+            "item": "spelunkery:portabella"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 3
+    }
+}

@@ -10,6 +10,7 @@
   "groups.diet.fruits.name": "Magic",
   "groups.diet.vegetables.name": "Wit",
   "groups.diet.sugars.name": "Pride",
+  "groups.diet.complexity.name": "Complexity",
   "commands.diet.set.success": "Value for group %s set to %s%% for %s",
   "commands.diet.get.success": "Value for group %s is %s%% for %s",
   "commands.diet.add.success": "Value for group %s increased by %s%% for %s",

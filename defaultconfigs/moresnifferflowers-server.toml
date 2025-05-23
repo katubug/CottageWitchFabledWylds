@@ -2,7 +2,7 @@
 [corruption]
 	#Spread speed of corrupted grass blocks, 1 = Default, 0 = Disabled
 	#Range: 0.0 ~ 5.0
-	"Corruption Spread Speed" = 1.0
+	"Corruption Spread Speed" = 0.0
 	#Should the corrupted tree be able to grow through and destroy blocks? Default = true
-	"Corrupted Tree Grow Trough" = true
+	"Corrupted Tree Grow Trough" = false
 

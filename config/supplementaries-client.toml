@@ -138,7 +138,7 @@
 	#Disable incompatible mods warning screen
 	no_incompatible_mods_screen = false
 	#Enable Quark style config button on main menu. Needs Configured installed to work
-	config_button = true
+	config_button = false
 	#Config button Y offset
 	#Range: -10000 ~ 10000
 	config_button_y_offset = 0

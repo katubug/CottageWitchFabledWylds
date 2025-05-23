@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 24,
+        "ingredient": {
+            "item": "farm_and_charm:corn"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

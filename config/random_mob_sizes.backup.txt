@@ -1,0 +1,139 @@
+{
+	"default_scaling": {
+		"type": "static",
+		"scaling": 1.0,
+		"scale_loot": true,
+		"scale_xp": true,
+		"scale_health": "none",
+		"scale_damage": "none",
+		"scale_speed": "none"
+	},
+	"include_list": [
+		"minecraft:*",
+		"mysticsbiomes:strawberry_cow",
+		"meadow:water_buffalo",
+		"meadow:brown_bear",
+		"the_bumblezone:rootmin",
+		"spawn:snail",
+		"snuffles:snuffle",
+		"mysticsbiomes:red_panda",
+		"mysticsbiomes:butterfly",
+		"species:limpet",
+		"meadow:wooly_cow",
+		"species:birt",
+		"mysticsbiomes:rainbow_chicken",
+		"spawn:hamster",
+		"species:wraptor"
+	],
+	"exclude_list": [
+		"minecraft:shulker",
+		"minecraft:wither",
+		"minecraft:villager"
+	],
+	"keep_scaling_on_conversion": true,
+	"scaling_overrides": {
+		"minecraft:bee": {
+			"type": "uniform",
+			"min_scaling": 0.75,
+			"max_scaling": 1.0,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "square",
+			"scale_damage": "none",
+			"scale_speed": "inverse_square"
+		},
+		"minecraft:chicken": {
+			"type": "uniform",
+			"min_scaling": 0.5,
+			"max_scaling": 1.5,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "square",
+			"scale_damage": "none",
+			"scale_speed": "inverse_square"
+		},
+		"minecraft:cow": {
+			"type": "gaussian",
+			"min_scaling": 0.5,
+			"max_scaling": 1.5,
+			"close_to_original": false,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:frog": {
+			"type": "gaussian",
+			"min_scaling": 0.5,
+			"max_scaling": 1.5,
+			"close_to_original": false,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:pig": {
+			"type": "gaussian",
+			"min_scaling": 0.5,
+			"max_scaling": 1.5,
+			"close_to_original": false,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:sheep": {
+			"type": "gaussian",
+			"min_scaling": 0.5,
+			"max_scaling": 1.5,
+			"close_to_original": false,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:zombie": {
+			"type": "difficulty",
+			"peaceful": {
+				"type": "static",
+				"scaling": 1.3,
+				"scale_loot": true,
+				"scale_xp": true,
+				"scale_health": "normal",
+				"scale_damage": "normal",
+				"scale_speed": "inverse"
+			},
+			"easy": {
+				"type": "static",
+				"scaling": 1.15,
+				"scale_loot": true,
+				"scale_xp": true,
+				"scale_health": "normal",
+				"scale_damage": "normal",
+				"scale_speed": "inverse"
+			},
+			"normal": {
+				"type": "static",
+				"scaling": 1.0,
+				"scale_loot": true,
+				"scale_xp": true,
+				"scale_health": "normal",
+				"scale_damage": "normal",
+				"scale_speed": "inverse"
+			},
+			"hard": {
+				"type": "static",
+				"scaling": 0.75,
+				"scale_loot": true,
+				"scale_xp": true,
+				"scale_health": "normal",
+				"scale_damage": "normal",
+				"scale_speed": "inverse"
+			}
+		}
+	}
+}

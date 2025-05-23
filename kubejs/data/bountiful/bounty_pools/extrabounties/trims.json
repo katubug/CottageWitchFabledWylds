@@ -1,0 +1,157 @@
+{
+  "content": {
+    "minecraft_silence_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:silence_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_sentry_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:sentry_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_coast_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:coast_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_rib_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:rib_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_snout_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:snout_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_raiser_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:raiser_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_wild_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:wild_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_spire_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:spire_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_eye_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:eye_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_host_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:host_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_vex_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:vex_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_shaper_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:shaper_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_tide_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:tide_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_ward_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:ward_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_dune_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:dune_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_wayfinder_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "minecraft:wayfinder_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_netherite_upgrade_smithing_template": {
+      "type": "item",
+      "content": "minecraft:netherite_upgrade_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

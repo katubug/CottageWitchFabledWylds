@@ -1,0 +1,214 @@
+{
+  "requires": [
+    "sophisticatedbackpacks"
+  ],
+  "content": {
+    "sophisticatedbackpacks_void_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:void_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_restock_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:restock_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_deposit_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:deposit_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_refill_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:refill_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_inception_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:inception_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_everlasting_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:everlasting_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_smelting_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:smelting_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_smoking_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:smoking_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_blasting_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:blasting_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_crafting_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:crafting_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_stack_upgrade_starter_tier": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:stack_upgrade_starter_tier",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_stonecutter_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:stonecutter_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_jukebox_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:jukebox_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_tool_swapper_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:tool_swapper_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_tank_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:tank_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_battery_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:battery_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_anvil_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:anvil_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_pump_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:pump_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_pickup_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:pickup_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_filter_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:filter_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_magnet_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:magnet_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_feeding_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:feeding_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "sophisticatedbackpacks_compacting_upgrade": {
+      "type": "item",
+      "content": "sophisticatedbackpacks:compacting_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    }
+  }
+}

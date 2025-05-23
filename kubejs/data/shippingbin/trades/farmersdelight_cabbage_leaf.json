@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 12,
+        "ingredient": {
+            "item": "farmersdelight:cabbage_leaf"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

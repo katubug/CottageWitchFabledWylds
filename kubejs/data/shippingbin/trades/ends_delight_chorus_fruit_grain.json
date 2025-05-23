@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 3,
+        "ingredient": {
+            "item": "ends_delight:chorus_fruit_grain"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

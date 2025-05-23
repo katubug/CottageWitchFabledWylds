@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 8,
+        "ingredient": {
+            "item": "bakery:chocolate_truffle"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

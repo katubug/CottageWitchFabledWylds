@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 12,
+        "ingredient": {
+            "item": "ends_delight:ender_pearl_grain"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

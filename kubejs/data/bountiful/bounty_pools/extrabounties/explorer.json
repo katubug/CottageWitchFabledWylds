@@ -1,0 +1,103 @@
+{
+  "content": {
+    "minecraft_skull_banner_pattern": {
+      "type": "item",
+      "content": "minecraft:skull_banner_pattern",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_mojang_banner_pattern": {
+      "type": "item",
+      "content": "minecraft:mojang_banner_pattern",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_piglin_banner_pattern": {
+      "type": "item",
+      "content": "minecraft:piglin_banner_pattern",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_flower_banner_pattern": {
+      "type": "item",
+      "content": "minecraft:flower_banner_pattern",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_creeper_banner_pattern": {
+      "type": "item",
+      "content": "minecraft:creeper_banner_pattern",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_globe_banner_pattern": {
+      "type": "item",
+      "content": "minecraft:globe_banner_pattern",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_paper": {
+      "type": "item",
+      "content": "minecraft:paper",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_recovery_compass": {
+      "type": "item",
+      "content": "minecraft:recovery_compass",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_compass": {
+      "type": "item",
+      "content": "minecraft:compass",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_map": {
+      "type": "item",
+      "content": "minecraft:map",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_iron_pickaxe": {
+      "type": "item",
+      "content": "minecraft:iron_pickaxe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

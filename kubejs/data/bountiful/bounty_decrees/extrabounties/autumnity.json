@@ -1,0 +1,16 @@
+{
+  "requires": [
+    "autumnity"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "autumnity_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "autumnity_rew",
+    "autumnity_any"
+  ]
+}

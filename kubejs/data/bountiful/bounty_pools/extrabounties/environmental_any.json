@@ -1,0 +1,61 @@
+{
+  "requires": [
+    "environmental"
+  ],
+  "content": {
+    "environmental_cattail_fluff": {
+      "type": "item",
+      "content": "environmental:cattail_fluff",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 1000
+    },
+    "environmental_duck_egg": {
+      "type": "item",
+      "content": "environmental:duck_egg",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 1000
+    },
+    "environmental_plum": {
+      "type": "item",
+      "content": "environmental:plum",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 1000
+    },
+    "environmental_cherries": {
+      "type": "item",
+      "content": "environmental:cherries",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 1000
+    },
+    "environmental_yak_hair": {
+      "type": "item",
+      "content": "environmental:yak_hair",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 1000
+    },
+    "environmental_truffle": {
+      "type": "item",
+      "content": "environmental:truffle",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 1000
+    }
+  }
+}

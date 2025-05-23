@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 4,
+        "ingredient": {
+            "item": "hearthandharvest:goat_cheese_wheel"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 10
+    }
+}

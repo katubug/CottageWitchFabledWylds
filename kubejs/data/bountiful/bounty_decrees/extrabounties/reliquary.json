@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "reliquary"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "reliquary_trade",
+    "mob_drop"
+  ],
+  "rewards": [
+    "decree",
+    "reliquary_trade",
+    "reliquary_sell",
+    "rarities"
+  ]
+}

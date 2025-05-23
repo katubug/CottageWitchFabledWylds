@@ -1,0 +1,295 @@
+{
+  "requires": [
+    "quark"
+  ],
+  "content": {
+    "quark_yellow_corundum_cluster": {
+      "type": "item",
+      "content": "quark:yellow_corundum_cluster",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_green_corundum": {
+      "type": "item",
+      "content": "quark:green_corundum",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_feeding_trough": {
+      "type": "item",
+      "content": "quark:feeding_trough",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_ender_watcher": {
+      "type": "item",
+      "content": "quark:ender_watcher",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_crafter": {
+      "type": "item",
+      "content": "quark:crafter",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_trowel": {
+      "type": "item",
+      "content": "quark:trowel",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_bottled_cloud": {
+      "type": "item",
+      "content": "quark:bottled_cloud",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_abacus": {
+      "type": "item",
+      "content": "quark:abacus",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_indigo_corundum_cluster": {
+      "type": "item",
+      "content": "quark:indigo_corundum_cluster",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_blue_corundum": {
+      "type": "item",
+      "content": "quark:blue_corundum",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_orange_blossom_sapling": {
+      "type": "item",
+      "content": "quark:orange_blossom_sapling",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_blue_blossom_sapling": {
+      "type": "item",
+      "content": "quark:blue_blossom_sapling",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_green_corundum_cluster": {
+      "type": "item",
+      "content": "quark:green_corundum_cluster",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_redstone_randomizer": {
+      "type": "item",
+      "content": "quark:redstone_randomizer",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_red_corundum": {
+      "type": "item",
+      "content": "quark:red_corundum",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_indigo_corundum": {
+      "type": "item",
+      "content": "quark:indigo_corundum",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_black_corundum": {
+      "type": "item",
+      "content": "quark:black_corundum",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_violet_corundum": {
+      "type": "item",
+      "content": "quark:violet_corundum",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_white_corundum": {
+      "type": "item",
+      "content": "quark:white_corundum",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_soul_bead": {
+      "type": "item",
+      "content": "quark:soul_bead",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_diamond_heart": {
+      "type": "item",
+      "content": "quark:diamond_heart",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_blue_corundum_cluster": {
+      "type": "item",
+      "content": "quark:blue_corundum_cluster",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_yellow_corundum": {
+      "type": "item",
+      "content": "quark:yellow_corundum",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_orange_corundum": {
+      "type": "item",
+      "content": "quark:orange_corundum",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_chute": {
+      "type": "item",
+      "content": "quark:chute",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_gravisand": {
+      "type": "item",
+      "content": "quark:gravisand",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_lavender_blossom_sapling": {
+      "type": "item",
+      "content": "quark:lavender_blossom_sapling",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_orange_corundum_cluster": {
+      "type": "item",
+      "content": "quark:orange_corundum_cluster",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_red_corundum_cluster": {
+      "type": "item",
+      "content": "quark:red_corundum_cluster",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_black_corundum_cluster": {
+      "type": "item",
+      "content": "quark:black_corundum_cluster",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_violet_corundum_cluster": {
+      "type": "item",
+      "content": "quark:violet_corundum_cluster",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "quark_white_corundum_cluster": {
+      "type": "item",
+      "content": "quark:white_corundum_cluster",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    }
+  }
+}

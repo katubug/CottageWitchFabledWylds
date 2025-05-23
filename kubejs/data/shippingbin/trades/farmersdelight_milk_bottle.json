@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 16,
+        "ingredient": {
+            "item": "farmersdelight:milk_bottle"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

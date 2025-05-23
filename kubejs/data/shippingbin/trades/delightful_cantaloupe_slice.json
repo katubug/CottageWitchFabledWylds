@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 3,
+        "ingredient": {
+            "item": "delightful:cantaloupe_slice"
+        }
+    },
+    "output": {
+        "item": "minecraft:emerald",
+        "count": 1
+    }
+}

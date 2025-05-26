@@ -12,3 +12,5 @@ config/voicechat/voicechat-client.properties
 config/spark/activity.json
 config/jei/world/local/foibles/bookmarks.ini
 config/asyncparticles/asyncparticles-mixin.properties
+config/asyncparticles/asyncparticles-mixin.properties
+config/illuminations.properties
